@@ -16,7 +16,6 @@ import { Categories } from './collections/Categories'
 import { Countries } from './collections/Countries'
 import { CarMakes } from './collections/CarMakes'
 import { SiteConfig } from './globals/SiteConfig'
-import { PricingConfig } from './globals/PricingConfig'
 import { revalidateRedirects } from './hooks/revalidate'
 
 const filename = fileURLToPath(import.meta.url)
@@ -41,7 +40,7 @@ export default buildConfig({
     CarMakes,
   ],
 
-  globals: [SiteConfig, PricingConfig],
+  globals: [SiteConfig],
 
   editor: lexicalEditor({
     features: ({ defaultFeatures }) => [

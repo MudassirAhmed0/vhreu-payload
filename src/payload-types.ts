@@ -108,11 +108,9 @@ export interface Config {
     | ('en' | 'de' | 'uk' | 'pl' | 'it' | 'ru' | 'fr' | 'es')[];
   globals: {
     'site-config': SiteConfig;
-    'pricing-config': PricingConfig;
   };
   globalsSelect: {
     'site-config': SiteConfigSelect<false> | SiteConfigSelect<true>;
-    'pricing-config': PricingConfigSelect<false> | PricingConfigSelect<true>;
   };
   locale: 'en' | 'de' | 'uk' | 'pl' | 'it' | 'ru' | 'fr' | 'es';
   widgets: {
@@ -953,35 +951,6 @@ export interface SiteConfig {
 }
 /**
  * This interface was referenced by `Config`'s JSON-Schema
- * via the `definition` "pricing-config".
- */
-export interface PricingConfig {
-  id: number;
-  plans: {
-    /**
-     * e.g. VHREU1
-     */
-    id: string;
-    name: string;
-    reports: number;
-    price: number;
-    /**
-     * Discount % (null for base plan)
-     */
-    savings?: number | null;
-    isFeatured?: boolean | null;
-    features?:
-      | {
-          text: string;
-          id?: string | null;
-        }[]
-      | null;
-  }[];
-  updatedAt?: string | null;
-  createdAt?: string | null;
-}
-/**
- * This interface was referenced by `Config`'s JSON-Schema
  * via the `definition` "site-config_select".
  */
 export interface SiteConfigSelect<T extends boolean = true> {
@@ -1044,31 +1013,6 @@ export interface SiteConfigSelect<T extends boolean = true> {
         flag?: T;
         enabled?: T;
         id?: T;
-      };
-  updatedAt?: T;
-  createdAt?: T;
-  globalType?: T;
-}
-/**
- * This interface was referenced by `Config`'s JSON-Schema
- * via the `definition` "pricing-config_select".
- */
-export interface PricingConfigSelect<T extends boolean = true> {
-  plans?:
-    | T
-    | {
-        id?: T;
-        name?: T;
-        reports?: T;
-        price?: T;
-        savings?: T;
-        isFeatured?: T;
-        features?:
-          | T
-          | {
-              text?: T;
-              id?: T;
-            };
       };
   updatedAt?: T;
   createdAt?: T;
