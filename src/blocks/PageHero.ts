@@ -103,34 +103,42 @@ export const PageHeroBlock: Block = {
       admin: { description: 'Optional background image' },
     },
     {
-      type: 'row',
+      name: 'helperLinks',
+      type: 'array',
+      label: 'Helper Links',
+      maxRows: 4,
       fields: [
         {
-          name: 'ctaLabel',
-          type: 'text',
-          localized: true,
-          admin: { width: '50%' },
+          type: 'row',
+          fields: [
+            {
+              name: 'label',
+              type: 'text',
+              required: true,
+              localized: true,
+              admin: { width: '50%' },
+            },
+            {
+              name: 'href',
+              type: 'text',
+              required: true,
+              admin: { width: '50%' },
+            },
+          ],
         },
         {
-          name: 'ctaHref',
-          type: 'text',
-          admin: { width: '50%' },
-        },
-      ],
-    },
-    {
-      type: 'row',
-      fields: [
-        {
-          name: 'secondaryCtaLabel',
-          type: 'text',
-          localized: true,
-          admin: { width: '50%' },
+          name: 'style',
+          type: 'select',
+          defaultValue: 'primary',
+          options: [
+            { label: 'Primary', value: 'primary' },
+            { label: 'Secondary', value: 'secondary' },
+          ],
         },
         {
-          name: 'secondaryCtaHref',
+          name: 'icon',
           type: 'text',
-          admin: { width: '50%' },
+          admin: { description: 'Lucide icon name (optional)' },
         },
       ],
     },

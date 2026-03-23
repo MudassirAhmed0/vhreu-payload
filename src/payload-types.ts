@@ -257,10 +257,18 @@ export interface Page {
              * Optional background image
              */
             backgroundImage?: (number | null) | Media;
-            ctaLabel?: string | null;
-            ctaHref?: string | null;
-            secondaryCtaLabel?: string | null;
-            secondaryCtaHref?: string | null;
+            helperLinks?:
+              | {
+                  label: string;
+                  href: string;
+                  style?: ('primary' | 'secondary') | null;
+                  /**
+                   * Lucide icon name (optional)
+                   */
+                  icon?: string | null;
+                  id?: string | null;
+                }[]
+              | null;
             id?: string | null;
             blockName?: string | null;
             blockType: 'page-hero';
@@ -488,10 +496,18 @@ export interface Country {
              * Optional background image
              */
             backgroundImage?: (number | null) | Media;
-            ctaLabel?: string | null;
-            ctaHref?: string | null;
-            secondaryCtaLabel?: string | null;
-            secondaryCtaHref?: string | null;
+            helperLinks?:
+              | {
+                  label: string;
+                  href: string;
+                  style?: ('primary' | 'secondary') | null;
+                  /**
+                   * Lucide icon name (optional)
+                   */
+                  icon?: string | null;
+                  id?: string | null;
+                }[]
+              | null;
             id?: string | null;
             blockName?: string | null;
             blockType: 'page-hero';
@@ -617,10 +633,18 @@ export interface CarMake {
              * Optional background image
              */
             backgroundImage?: (number | null) | Media;
-            ctaLabel?: string | null;
-            ctaHref?: string | null;
-            secondaryCtaLabel?: string | null;
-            secondaryCtaHref?: string | null;
+            helperLinks?:
+              | {
+                  label: string;
+                  href: string;
+                  style?: ('primary' | 'secondary') | null;
+                  /**
+                   * Lucide icon name (optional)
+                   */
+                  icon?: string | null;
+                  id?: string | null;
+                }[]
+              | null;
             id?: string | null;
             blockName?: string | null;
             blockType: 'page-hero';
@@ -928,10 +952,15 @@ export interface PagesSelect<T extends boolean = true> {
                   };
               heroImage?: T;
               backgroundImage?: T;
-              ctaLabel?: T;
-              ctaHref?: T;
-              secondaryCtaLabel?: T;
-              secondaryCtaHref?: T;
+              helperLinks?:
+                | T
+                | {
+                    label?: T;
+                    href?: T;
+                    style?: T;
+                    icon?: T;
+                    id?: T;
+                  };
               id?: T;
               blockName?: T;
             };
@@ -1074,10 +1103,15 @@ export interface CountriesSelect<T extends boolean = true> {
                   };
               heroImage?: T;
               backgroundImage?: T;
-              ctaLabel?: T;
-              ctaHref?: T;
-              secondaryCtaLabel?: T;
-              secondaryCtaHref?: T;
+              helperLinks?:
+                | T
+                | {
+                    label?: T;
+                    href?: T;
+                    style?: T;
+                    icon?: T;
+                    id?: T;
+                  };
               id?: T;
               blockName?: T;
             };
@@ -1149,10 +1183,15 @@ export interface CarMakesSelect<T extends boolean = true> {
                   };
               heroImage?: T;
               backgroundImage?: T;
-              ctaLabel?: T;
-              ctaHref?: T;
-              secondaryCtaLabel?: T;
-              secondaryCtaHref?: T;
+              helperLinks?:
+                | T
+                | {
+                    label?: T;
+                    href?: T;
+                    style?: T;
+                    icon?: T;
+                    id?: T;
+                  };
               id?: T;
               blockName?: T;
             };
