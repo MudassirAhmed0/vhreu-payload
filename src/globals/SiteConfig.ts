@@ -1,4 +1,5 @@
 import type { GlobalConfig } from 'payload'
+import { linkField } from '../fields/link'
 import { revalidateGlobal } from '../hooks/revalidate'
 
 export const SiteConfig: GlobalConfig = {
@@ -41,7 +42,7 @@ export const SiteConfig: GlobalConfig = {
               fields: [
                 { name: 'label', type: 'text', required: true, localized: true },
                 {
-                  name: 'linkType',
+                  name: 'navType',
                   type: 'select',
                   defaultValue: 'link',
                   options: [
@@ -50,19 +51,16 @@ export const SiteConfig: GlobalConfig = {
                   ],
                 },
                 {
-                  name: 'url',
-                  type: 'text',
-                  admin: { condition: (_, { linkType }) => linkType === 'link' },
+                  ...linkField({ label: false }),
+                  admin: { condition: (_, { navType }) => navType === 'link' },
                 },
                 {
                   name: 'children',
                   type: 'array',
-                  admin: { condition: (_, { linkType }) => linkType === 'dropdown' },
+                  admin: { condition: (_, { navType }) => navType === 'dropdown' },
                   fields: [
-                    { name: 'label', type: 'text', required: true, localized: true },
-                    { name: 'url', type: 'text', required: true },
+                    linkField({ icon: true }),
                     { name: 'description', type: 'text', localized: true },
-                    { name: 'icon', type: 'text', admin: { description: 'Lucide icon name' } },
                   ],
                 },
               ],
@@ -80,10 +78,9 @@ export const SiteConfig: GlobalConfig = {
                 {
                   name: 'links',
                   type: 'array',
-                  fields: [
-                    { name: 'label', type: 'text', required: true, localized: true },
-                    { name: 'url', type: 'text', required: true },
-                  ],
+                  fields: linkField().type === 'group'
+                    ? (linkField() as { fields: import('payload').Field[] }).fields
+                    : [],
                 },
               ],
             },

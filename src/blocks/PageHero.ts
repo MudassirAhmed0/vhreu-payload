@@ -1,4 +1,5 @@
 import type { Block } from 'payload'
+import { linksArrayField } from '../fields/link'
 
 export const PageHeroBlock: Block = {
   slug: 'page-hero',
@@ -102,45 +103,6 @@ export const PageHeroBlock: Block = {
       relationTo: 'media',
       admin: { description: 'Optional background image' },
     },
-    {
-      name: 'helperLinks',
-      type: 'array',
-      label: 'Helper Links',
-      maxRows: 4,
-      fields: [
-        {
-          type: 'row',
-          fields: [
-            {
-              name: 'label',
-              type: 'text',
-              required: true,
-              localized: true,
-              admin: { width: '50%' },
-            },
-            {
-              name: 'href',
-              type: 'text',
-              required: true,
-              admin: { width: '50%' },
-            },
-          ],
-        },
-        {
-          name: 'style',
-          type: 'select',
-          defaultValue: 'primary',
-          options: [
-            { label: 'Primary', value: 'primary' },
-            { label: 'Secondary', value: 'secondary' },
-          ],
-        },
-        {
-          name: 'icon',
-          type: 'text',
-          admin: { description: 'Lucide icon name (optional)' },
-        },
-      ],
-    },
+    linksArrayField('helperLinks', { maxRows: 4, style: true, icon: true, label: 'Helper Links' }),
   ],
 }

@@ -45,7 +45,26 @@ export default buildConfig({
   editor: lexicalEditor({
     features: ({ defaultFeatures }) => [
       ...defaultFeatures,
-      LinkFeature({ enabledCollections: ['pages'] }),
+      LinkFeature({
+        enabledCollections: ['pages'],
+        fields: ({ defaultFields }) => [
+          ...defaultFields,
+          {
+            name: 'rel',
+            type: 'select',
+            label: 'Link Rel',
+            defaultValue: 'none',
+            options: [
+              { label: 'Default (dofollow)', value: 'none' },
+              { label: 'nofollow', value: 'nofollow' },
+              { label: 'sponsored', value: 'sponsored' },
+              { label: 'ugc', value: 'ugc' },
+              { label: 'nofollow noopener', value: 'nofollow noopener' },
+            ],
+            admin: { width: '50%' },
+          },
+        ],
+      }),
       UploadFeature({ collections: { media: { fields: [] } } }),
     ],
   }),

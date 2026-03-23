@@ -260,8 +260,15 @@ export interface Page {
             helperLinks?:
               | {
                   label: string;
-                  href: string;
-                  style?: ('primary' | 'secondary') | null;
+                  linkType?: ('internal' | 'external') | null;
+                  page?: (number | null) | Page;
+                  /**
+                   * Full URL including https://
+                   */
+                  url?: string | null;
+                  newTab?: boolean | null;
+                  rel?: ('none' | 'nofollow' | 'sponsored' | 'ugc' | 'nofollow noopener') | null;
+                  style?: ('primary' | 'secondary' | 'ghost') | null;
                   /**
                    * Lucide icon name (optional)
                    */
@@ -499,8 +506,15 @@ export interface Country {
             helperLinks?:
               | {
                   label: string;
-                  href: string;
-                  style?: ('primary' | 'secondary') | null;
+                  linkType?: ('internal' | 'external') | null;
+                  page?: (number | null) | Page;
+                  /**
+                   * Full URL including https://
+                   */
+                  url?: string | null;
+                  newTab?: boolean | null;
+                  rel?: ('none' | 'nofollow' | 'sponsored' | 'ugc' | 'nofollow noopener') | null;
+                  style?: ('primary' | 'secondary' | 'ghost') | null;
                   /**
                    * Lucide icon name (optional)
                    */
@@ -636,8 +650,15 @@ export interface CarMake {
             helperLinks?:
               | {
                   label: string;
-                  href: string;
-                  style?: ('primary' | 'secondary') | null;
+                  linkType?: ('internal' | 'external') | null;
+                  page?: (number | null) | Page;
+                  /**
+                   * Full URL including https://
+                   */
+                  url?: string | null;
+                  newTab?: boolean | null;
+                  rel?: ('none' | 'nofollow' | 'sponsored' | 'ugc' | 'nofollow noopener') | null;
+                  style?: ('primary' | 'secondary' | 'ghost') | null;
                   /**
                    * Lucide icon name (optional)
                    */
@@ -956,7 +977,11 @@ export interface PagesSelect<T extends boolean = true> {
                 | T
                 | {
                     label?: T;
-                    href?: T;
+                    linkType?: T;
+                    page?: T;
+                    url?: T;
+                    newTab?: T;
+                    rel?: T;
                     style?: T;
                     icon?: T;
                     id?: T;
@@ -1107,7 +1132,11 @@ export interface CountriesSelect<T extends boolean = true> {
                 | T
                 | {
                     label?: T;
-                    href?: T;
+                    linkType?: T;
+                    page?: T;
+                    url?: T;
+                    newTab?: T;
+                    rel?: T;
                     style?: T;
                     icon?: T;
                     id?: T;
@@ -1187,7 +1216,11 @@ export interface CarMakesSelect<T extends boolean = true> {
                 | T
                 | {
                     label?: T;
-                    href?: T;
+                    linkType?: T;
+                    page?: T;
+                    url?: T;
+                    newTab?: T;
+                    rel?: T;
                     style?: T;
                     icon?: T;
                     id?: T;
@@ -1308,17 +1341,35 @@ export interface SiteConfig {
   navLinks?:
     | {
         label: string;
-        linkType?: ('link' | 'dropdown') | null;
-        url?: string | null;
+        navType?: ('link' | 'dropdown') | null;
+        link?: {
+          linkType?: ('internal' | 'external') | null;
+          page?: (number | null) | Page;
+          /**
+           * Full URL including https://
+           */
+          url?: string | null;
+          newTab?: boolean | null;
+          rel?: ('none' | 'nofollow' | 'sponsored' | 'ugc' | 'nofollow noopener') | null;
+        };
         children?:
           | {
-              label: string;
-              url: string;
+              link: {
+                label: string;
+                linkType?: ('internal' | 'external') | null;
+                page?: (number | null) | Page;
+                /**
+                 * Full URL including https://
+                 */
+                url?: string | null;
+                newTab?: boolean | null;
+                rel?: ('none' | 'nofollow' | 'sponsored' | 'ugc' | 'nofollow noopener') | null;
+                /**
+                 * Lucide icon name (optional)
+                 */
+                icon?: string | null;
+              };
               description?: string | null;
-              /**
-               * Lucide icon name
-               */
-              icon?: string | null;
               id?: string | null;
             }[]
           | null;
@@ -1331,7 +1382,14 @@ export interface SiteConfig {
         links?:
           | {
               label: string;
-              url: string;
+              linkType?: ('internal' | 'external') | null;
+              page?: (number | null) | Page;
+              /**
+               * Full URL including https://
+               */
+              url?: string | null;
+              newTab?: boolean | null;
+              rel?: ('none' | 'nofollow' | 'sponsored' | 'ugc' | 'nofollow noopener') | null;
               id?: string | null;
             }[]
           | null;
@@ -1381,15 +1439,31 @@ export interface SiteConfigSelect<T extends boolean = true> {
     | T
     | {
         label?: T;
-        linkType?: T;
-        url?: T;
+        navType?: T;
+        link?:
+          | T
+          | {
+              linkType?: T;
+              page?: T;
+              url?: T;
+              newTab?: T;
+              rel?: T;
+            };
         children?:
           | T
           | {
-              label?: T;
-              url?: T;
+              link?:
+                | T
+                | {
+                    label?: T;
+                    linkType?: T;
+                    page?: T;
+                    url?: T;
+                    newTab?: T;
+                    rel?: T;
+                    icon?: T;
+                  };
               description?: T;
-              icon?: T;
               id?: T;
             };
         id?: T;
@@ -1402,7 +1476,11 @@ export interface SiteConfigSelect<T extends boolean = true> {
           | T
           | {
               label?: T;
+              linkType?: T;
+              page?: T;
               url?: T;
+              newTab?: T;
+              rel?: T;
               id?: T;
             };
         id?: T;
