@@ -234,9 +234,10 @@ export interface Page {
              */
             formType?: ('none' | 'vin' | 'contact') | null;
             /**
-             * Small label above heading (e.g. "Trusted by 50,000+ Buyers")
+             * Small label above heading
              */
             tag?: string | null;
+            tagLevel?: ('span' | 'h2' | 'h3' | 'h4' | 'p') | null;
             /**
              * Main heading text
              */
@@ -246,6 +247,11 @@ export interface Page {
              */
             highlight?: string | null;
             subtitle?: string | null;
+            /**
+             * Heading after description, before CTAs (e.g. "We'll be happy to assist you!")
+             */
+            secondaryHeading?: string | null;
+            secondaryHeadingLevel?: ('h2' | 'h3' | 'h4' | 'p') | null;
             bullets?:
               | {
                   text: string;
@@ -555,9 +561,10 @@ export interface Country {
              */
             formType?: ('none' | 'vin' | 'contact') | null;
             /**
-             * Small label above heading (e.g. "Trusted by 50,000+ Buyers")
+             * Small label above heading
              */
             tag?: string | null;
+            tagLevel?: ('span' | 'h2' | 'h3' | 'h4' | 'p') | null;
             /**
              * Main heading text
              */
@@ -567,6 +574,11 @@ export interface Country {
              */
             highlight?: string | null;
             subtitle?: string | null;
+            /**
+             * Heading after description, before CTAs (e.g. "We'll be happy to assist you!")
+             */
+            secondaryHeading?: string | null;
+            secondaryHeadingLevel?: ('h2' | 'h3' | 'h4' | 'p') | null;
             bullets?:
               | {
                   text: string;
@@ -774,9 +786,10 @@ export interface CarMake {
              */
             formType?: ('none' | 'vin' | 'contact') | null;
             /**
-             * Small label above heading (e.g. "Trusted by 50,000+ Buyers")
+             * Small label above heading
              */
             tag?: string | null;
+            tagLevel?: ('span' | 'h2' | 'h3' | 'h4' | 'p') | null;
             /**
              * Main heading text
              */
@@ -786,6 +799,11 @@ export interface CarMake {
              */
             highlight?: string | null;
             subtitle?: string | null;
+            /**
+             * Heading after description, before CTAs (e.g. "We'll be happy to assist you!")
+             */
+            secondaryHeading?: string | null;
+            secondaryHeadingLevel?: ('h2' | 'h3' | 'h4' | 'p') | null;
             bullets?:
               | {
                   text: string;
@@ -1187,9 +1205,12 @@ export interface PagesSelect<T extends boolean = true> {
               glow?: T;
               formType?: T;
               tag?: T;
+              tagLevel?: T;
               title?: T;
               highlight?: T;
               subtitle?: T;
+              secondaryHeading?: T;
+              secondaryHeadingLevel?: T;
               bullets?:
                 | T
                 | {
@@ -1357,9 +1378,12 @@ export interface CountriesSelect<T extends boolean = true> {
               glow?: T;
               formType?: T;
               tag?: T;
+              tagLevel?: T;
               title?: T;
               highlight?: T;
               subtitle?: T;
+              secondaryHeading?: T;
+              secondaryHeadingLevel?: T;
               bullets?:
                 | T
                 | {
@@ -1456,9 +1480,12 @@ export interface CarMakesSelect<T extends boolean = true> {
               glow?: T;
               formType?: T;
               tag?: T;
+              tagLevel?: T;
               title?: T;
               highlight?: T;
               subtitle?: T;
+              secondaryHeading?: T;
+              secondaryHeadingLevel?: T;
               bullets?:
                 | T
                 | {

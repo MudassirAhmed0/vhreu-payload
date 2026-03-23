@@ -61,7 +61,21 @@ export const PageHeroBlock: Block = {
           name: 'tag',
           type: 'text',
           localized: true,
-          admin: { width: '50%', description: 'Small label above heading (e.g. "Trusted by 50,000+ Buyers")' },
+          admin: { width: '40%', description: 'Small label above heading' },
+        },
+        {
+          name: 'tagLevel',
+          type: 'select',
+          defaultValue: 'span',
+          label: 'Tag HTML',
+          options: [
+            { label: 'span (decorative)', value: 'span' },
+            { label: 'h2', value: 'h2' },
+            { label: 'h3', value: 'h3' },
+            { label: 'h4', value: 'h4' },
+            { label: 'p', value: 'p' },
+          ],
+          admin: { width: '20%' },
         },
       ],
     },
@@ -82,6 +96,30 @@ export const PageHeroBlock: Block = {
       name: 'subtitle',
       type: 'textarea',
       localized: true,
+    },
+    {
+      type: 'row',
+      fields: [
+        {
+          name: 'secondaryHeading',
+          type: 'text',
+          localized: true,
+          admin: { width: '60%', description: 'Heading after description, before CTAs (e.g. "We\'ll be happy to assist you!")' },
+        },
+        {
+          name: 'secondaryHeadingLevel',
+          type: 'select',
+          defaultValue: 'h3',
+          label: 'Tag',
+          options: [
+            { label: 'h2', value: 'h2' },
+            { label: 'h3', value: 'h3' },
+            { label: 'h4', value: 'h4' },
+            { label: 'p', value: 'p' },
+          ],
+          admin: { width: '20%' },
+        },
+      ],
     },
     {
       name: 'bullets',
