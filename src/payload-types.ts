@@ -396,6 +396,24 @@ export interface Page {
             blockName?: string | null;
             blockType: 'faqs';
           }
+        | {
+            /**
+             * Section heading above the form
+             */
+            heading?: string | null;
+            /**
+             * Text below the heading, above the form
+             */
+            description?: string | null;
+            /**
+             * Where form submissions are sent
+             */
+            notificationEmail?: string | null;
+            bg?: ('white' | 'muted' | 'dark') | null;
+            id?: string | null;
+            blockName?: string | null;
+            blockType: 'contact-form';
+          }
       )[]
     | null;
   exitPopup?: {
@@ -1237,6 +1255,16 @@ export interface PagesSelect<T extends boolean = true> {
                     answer?: T;
                     id?: T;
                   };
+              id?: T;
+              blockName?: T;
+            };
+        'contact-form'?:
+          | T
+          | {
+              heading?: T;
+              description?: T;
+              notificationEmail?: T;
+              bg?: T;
               id?: T;
               blockName?: T;
             };
