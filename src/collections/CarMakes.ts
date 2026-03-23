@@ -1,5 +1,7 @@
 import type { CollectionConfig } from 'payload'
 import { slugField } from '../fields/slug'
+import { RichTextBlock } from '../blocks/RichText'
+import { FAQsBlock } from '../blocks/FAQs'
 
 export const CarMakes: CollectionConfig = {
   slug: 'car-makes',
@@ -42,7 +44,7 @@ export const CarMakes: CollectionConfig = {
       name: 'content',
       type: 'blocks',
       localized: true,
-      blocks: [], // Blocks added in Phase 5
+      blocks: [RichTextBlock, FAQsBlock],
     },
   ],
 }

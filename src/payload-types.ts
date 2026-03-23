@@ -222,7 +222,54 @@ export interface Page {
    */
   slug: string;
   publishedAt?: string | null;
-  content?: unknown[] | null;
+  content?:
+    | (
+        | {
+            content?: {
+              root: {
+                type: string;
+                children: {
+                  type: any;
+                  version: number;
+                  [k: string]: unknown;
+                }[];
+                direction: ('ltr' | 'rtl') | null;
+                format: 'left' | 'start' | 'center' | 'right' | 'end' | 'justify' | '';
+                indent: number;
+                version: number;
+              };
+              [k: string]: unknown;
+            } | null;
+            id?: string | null;
+            blockName?: string | null;
+            blockType: 'rich-text';
+          }
+        | {
+            items: {
+              question: string;
+              answer: {
+                root: {
+                  type: string;
+                  children: {
+                    type: any;
+                    version: number;
+                    [k: string]: unknown;
+                  }[];
+                  direction: ('ltr' | 'rtl') | null;
+                  format: 'left' | 'start' | 'center' | 'right' | 'end' | 'justify' | '';
+                  indent: number;
+                  version: number;
+                };
+                [k: string]: unknown;
+              };
+              id?: string | null;
+            }[];
+            id?: string | null;
+            blockName?: string | null;
+            blockType: 'faqs';
+          }
+      )[]
+    | null;
   exitPopup?: {
     enabled?: boolean | null;
     title?: string | null;
@@ -373,7 +420,54 @@ export interface Country {
    */
   flag?: string | null;
   status?: ('active' | 'inactive') | null;
-  content?: unknown[] | null;
+  content?:
+    | (
+        | {
+            content?: {
+              root: {
+                type: string;
+                children: {
+                  type: any;
+                  version: number;
+                  [k: string]: unknown;
+                }[];
+                direction: ('ltr' | 'rtl') | null;
+                format: 'left' | 'start' | 'center' | 'right' | 'end' | 'justify' | '';
+                indent: number;
+                version: number;
+              };
+              [k: string]: unknown;
+            } | null;
+            id?: string | null;
+            blockName?: string | null;
+            blockType: 'rich-text';
+          }
+        | {
+            items: {
+              question: string;
+              answer: {
+                root: {
+                  type: string;
+                  children: {
+                    type: any;
+                    version: number;
+                    [k: string]: unknown;
+                  }[];
+                  direction: ('ltr' | 'rtl') | null;
+                  format: 'left' | 'start' | 'center' | 'right' | 'end' | 'justify' | '';
+                  indent: number;
+                  version: number;
+                };
+                [k: string]: unknown;
+              };
+              id?: string | null;
+            }[];
+            id?: string | null;
+            blockName?: string | null;
+            blockType: 'faqs';
+          }
+      )[]
+    | null;
   meta?: {
     title?: string | null;
     description?: string | null;
@@ -414,7 +508,54 @@ export interface CarMake {
   slug: string;
   logo?: (number | null) | Media;
   status?: ('active' | 'inactive') | null;
-  content?: unknown[] | null;
+  content?:
+    | (
+        | {
+            content?: {
+              root: {
+                type: string;
+                children: {
+                  type: any;
+                  version: number;
+                  [k: string]: unknown;
+                }[];
+                direction: ('ltr' | 'rtl') | null;
+                format: 'left' | 'start' | 'center' | 'right' | 'end' | 'justify' | '';
+                indent: number;
+                version: number;
+              };
+              [k: string]: unknown;
+            } | null;
+            id?: string | null;
+            blockName?: string | null;
+            blockType: 'rich-text';
+          }
+        | {
+            items: {
+              question: string;
+              answer: {
+                root: {
+                  type: string;
+                  children: {
+                    type: any;
+                    version: number;
+                    [k: string]: unknown;
+                  }[];
+                  direction: ('ltr' | 'rtl') | null;
+                  format: 'left' | 'start' | 'center' | 'right' | 'end' | 'justify' | '';
+                  indent: number;
+                  version: number;
+                };
+                [k: string]: unknown;
+              };
+              id?: string | null;
+            }[];
+            id?: string | null;
+            blockName?: string | null;
+            blockType: 'faqs';
+          }
+      )[]
+    | null;
   meta?: {
     title?: string | null;
     description?: string | null;
@@ -649,7 +790,30 @@ export interface PagesSelect<T extends boolean = true> {
   title?: T;
   slug?: T;
   publishedAt?: T;
-  content?: T | {};
+  content?:
+    | T
+    | {
+        'rich-text'?:
+          | T
+          | {
+              content?: T;
+              id?: T;
+              blockName?: T;
+            };
+        faqs?:
+          | T
+          | {
+              items?:
+                | T
+                | {
+                    question?: T;
+                    answer?: T;
+                    id?: T;
+                  };
+              id?: T;
+              blockName?: T;
+            };
+      };
   exitPopup?:
     | T
     | {
@@ -747,7 +911,30 @@ export interface CountriesSelect<T extends boolean = true> {
   code?: T;
   flag?: T;
   status?: T;
-  content?: T | {};
+  content?:
+    | T
+    | {
+        'rich-text'?:
+          | T
+          | {
+              content?: T;
+              id?: T;
+              blockName?: T;
+            };
+        faqs?:
+          | T
+          | {
+              items?:
+                | T
+                | {
+                    question?: T;
+                    answer?: T;
+                    id?: T;
+                  };
+              id?: T;
+              blockName?: T;
+            };
+      };
   meta?:
     | T
     | {
@@ -772,7 +959,30 @@ export interface CarMakesSelect<T extends boolean = true> {
   slug?: T;
   logo?: T;
   status?: T;
-  content?: T | {};
+  content?:
+    | T
+    | {
+        'rich-text'?:
+          | T
+          | {
+              content?: T;
+              id?: T;
+              blockName?: T;
+            };
+        faqs?:
+          | T
+          | {
+              items?:
+                | T
+                | {
+                    question?: T;
+                    answer?: T;
+                    id?: T;
+                  };
+              id?: T;
+              blockName?: T;
+            };
+      };
   meta?:
     | T
     | {
