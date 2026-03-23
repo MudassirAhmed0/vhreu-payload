@@ -338,22 +338,23 @@ export interface Page {
              * Optional background image
              */
             backgroundImage?: (number | null) | Media;
+            ctas?:
+              | {
+                  label: string;
+                  href: string;
+                  style?: ('primary' | 'secondary') | null;
+                  id?: string | null;
+                }[]
+              | null;
             helperLinks?:
               | {
                   label: string;
-                  linkType?: ('internal' | 'external') | null;
-                  page?: (number | null) | Page;
+                  href: string;
                   /**
-                   * Full URL including https://
-                   */
-                  url?: string | null;
-                  newTab?: boolean | null;
-                  rel?: ('none' | 'nofollow' | 'sponsored' | 'ugc' | 'nofollow noopener') | null;
-                  style?: ('primary' | 'secondary' | 'ghost') | null;
-                  /**
-                   * Lucide icon name (optional)
+                   * Lucide icon
                    */
                   icon?: string | null;
+                  rel?: ('none' | 'nofollow' | 'sponsored') | null;
                   id?: string | null;
                 }[]
               | null;
@@ -665,22 +666,23 @@ export interface Country {
              * Optional background image
              */
             backgroundImage?: (number | null) | Media;
+            ctas?:
+              | {
+                  label: string;
+                  href: string;
+                  style?: ('primary' | 'secondary') | null;
+                  id?: string | null;
+                }[]
+              | null;
             helperLinks?:
               | {
                   label: string;
-                  linkType?: ('internal' | 'external') | null;
-                  page?: (number | null) | Page;
+                  href: string;
                   /**
-                   * Full URL including https://
-                   */
-                  url?: string | null;
-                  newTab?: boolean | null;
-                  rel?: ('none' | 'nofollow' | 'sponsored' | 'ugc' | 'nofollow noopener') | null;
-                  style?: ('primary' | 'secondary' | 'ghost') | null;
-                  /**
-                   * Lucide icon name (optional)
+                   * Lucide icon
                    */
                   icon?: string | null;
+                  rel?: ('none' | 'nofollow' | 'sponsored') | null;
                   id?: string | null;
                 }[]
               | null;
@@ -890,22 +892,23 @@ export interface CarMake {
              * Optional background image
              */
             backgroundImage?: (number | null) | Media;
+            ctas?:
+              | {
+                  label: string;
+                  href: string;
+                  style?: ('primary' | 'secondary') | null;
+                  id?: string | null;
+                }[]
+              | null;
             helperLinks?:
               | {
                   label: string;
-                  linkType?: ('internal' | 'external') | null;
-                  page?: (number | null) | Page;
+                  href: string;
                   /**
-                   * Full URL including https://
-                   */
-                  url?: string | null;
-                  newTab?: boolean | null;
-                  rel?: ('none' | 'nofollow' | 'sponsored' | 'ugc' | 'nofollow noopener') | null;
-                  style?: ('primary' | 'secondary' | 'ghost') | null;
-                  /**
-                   * Lucide icon name (optional)
+                   * Lucide icon
                    */
                   icon?: string | null;
+                  rel?: ('none' | 'nofollow' | 'sponsored') | null;
                   id?: string | null;
                 }[]
               | null;
@@ -1234,17 +1237,21 @@ export interface PagesSelect<T extends boolean = true> {
                   };
               heroImage?: T;
               backgroundImage?: T;
+              ctas?:
+                | T
+                | {
+                    label?: T;
+                    href?: T;
+                    style?: T;
+                    id?: T;
+                  };
               helperLinks?:
                 | T
                 | {
                     label?: T;
-                    linkType?: T;
-                    page?: T;
-                    url?: T;
-                    newTab?: T;
-                    rel?: T;
-                    style?: T;
+                    href?: T;
                     icon?: T;
+                    rel?: T;
                     id?: T;
                   };
               id?: T;
@@ -1407,17 +1414,21 @@ export interface CountriesSelect<T extends boolean = true> {
                   };
               heroImage?: T;
               backgroundImage?: T;
+              ctas?:
+                | T
+                | {
+                    label?: T;
+                    href?: T;
+                    style?: T;
+                    id?: T;
+                  };
               helperLinks?:
                 | T
                 | {
                     label?: T;
-                    linkType?: T;
-                    page?: T;
-                    url?: T;
-                    newTab?: T;
-                    rel?: T;
-                    style?: T;
+                    href?: T;
                     icon?: T;
+                    rel?: T;
                     id?: T;
                   };
               id?: T;
@@ -1509,17 +1520,21 @@ export interface CarMakesSelect<T extends boolean = true> {
                   };
               heroImage?: T;
               backgroundImage?: T;
+              ctas?:
+                | T
+                | {
+                    label?: T;
+                    href?: T;
+                    style?: T;
+                    id?: T;
+                  };
               helperLinks?:
                 | T
                 | {
                     label?: T;
-                    linkType?: T;
-                    page?: T;
-                    url?: T;
-                    newTab?: T;
-                    rel?: T;
-                    style?: T;
+                    href?: T;
                     icon?: T;
+                    rel?: T;
                     id?: T;
                   };
               id?: T;

@@ -1,5 +1,4 @@
 import type { Block } from 'payload'
-import { linksArrayField } from '../fields/link'
 import { iconField } from '../fields/icon'
 
 export const PageHeroBlock: Block = {
@@ -207,6 +206,57 @@ export const PageHeroBlock: Block = {
       relationTo: 'media',
       admin: { description: 'Optional background image' },
     },
-    linksArrayField('helperLinks', { maxRows: 4, style: true, icon: true, label: 'Helper Links' }),
+    {
+      name: 'ctas',
+      type: 'array',
+      label: 'CTA Buttons',
+      maxRows: 3,
+      fields: [
+        {
+          type: 'row',
+          fields: [
+            { name: 'label', type: 'text', required: true, localized: true, admin: { width: '40%' } },
+            { name: 'href', type: 'text', required: true, admin: { width: '40%' } },
+            {
+              name: 'style',
+              type: 'select',
+              defaultValue: 'primary',
+              options: [
+                { label: 'Primary', value: 'primary' },
+                { label: 'Secondary', value: 'secondary' },
+              ],
+              admin: { width: '20%' },
+            },
+          ],
+        },
+      ],
+    },
+    {
+      name: 'helperLinks',
+      type: 'array',
+      label: 'Helper Links (text links below CTAs)',
+      maxRows: 4,
+      fields: [
+        {
+          type: 'row',
+          fields: [
+            { name: 'label', type: 'text', required: true, localized: true, admin: { width: '40%' } },
+            { name: 'href', type: 'text', required: true, admin: { width: '30%' } },
+            { name: 'icon', type: 'text', admin: { width: '15%', description: 'Lucide icon' } },
+            {
+              name: 'rel',
+              type: 'select',
+              defaultValue: 'none',
+              options: [
+                { label: 'Default', value: 'none' },
+                { label: 'nofollow', value: 'nofollow' },
+                { label: 'sponsored', value: 'sponsored' },
+              ],
+              admin: { width: '15%' },
+            },
+          ],
+        },
+      ],
+    },
   ],
 }
