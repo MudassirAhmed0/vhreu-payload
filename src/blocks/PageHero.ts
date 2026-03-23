@@ -40,11 +40,19 @@ export const PageHeroBlock: Block = {
       admin: { position: 'sidebar' },
     },
     {
-      name: 'showVinForm',
-      type: 'checkbox',
-      defaultValue: false,
-      label: 'Show VIN Search Form',
-      admin: { position: 'sidebar' },
+      name: 'formType',
+      type: 'select',
+      defaultValue: 'none',
+      label: 'Form / Right Content',
+      options: [
+        { label: 'None', value: 'none' },
+        { label: 'VIN Search Form', value: 'vin' },
+        { label: 'Contact Form', value: 'contact' },
+      ],
+      admin: {
+        position: 'sidebar',
+        description: 'Centered/stacked: shows below text. Split: shows on right side.',
+      },
     },
     {
       type: 'row',

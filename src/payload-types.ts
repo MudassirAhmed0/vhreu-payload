@@ -229,7 +229,10 @@ export interface Page {
             dark?: boolean | null;
             fullHeight?: boolean | null;
             glow?: boolean | null;
-            showVinForm?: boolean | null;
+            /**
+             * Centered/stacked: shows below text. Split: shows on right side.
+             */
+            formType?: ('none' | 'vin' | 'contact') | null;
             /**
              * Small label above heading (e.g. "Trusted by 50,000+ Buyers")
              */
@@ -396,24 +399,6 @@ export interface Page {
             blockName?: string | null;
             blockType: 'faqs';
           }
-        | {
-            /**
-             * Section heading above the form
-             */
-            heading?: string | null;
-            /**
-             * Text below the heading, above the form
-             */
-            description?: string | null;
-            /**
-             * Where form submissions are sent
-             */
-            notificationEmail?: string | null;
-            bg?: ('white' | 'muted' | 'dark') | null;
-            id?: string | null;
-            blockName?: string | null;
-            blockType: 'contact-form';
-          }
       )[]
     | null;
   exitPopup?: {
@@ -565,7 +550,10 @@ export interface Country {
             dark?: boolean | null;
             fullHeight?: boolean | null;
             glow?: boolean | null;
-            showVinForm?: boolean | null;
+            /**
+             * Centered/stacked: shows below text. Split: shows on right side.
+             */
+            formType?: ('none' | 'vin' | 'contact') | null;
             /**
              * Small label above heading (e.g. "Trusted by 50,000+ Buyers")
              */
@@ -781,7 +769,10 @@ export interface CarMake {
             dark?: boolean | null;
             fullHeight?: boolean | null;
             glow?: boolean | null;
-            showVinForm?: boolean | null;
+            /**
+             * Centered/stacked: shows below text. Split: shows on right side.
+             */
+            formType?: ('none' | 'vin' | 'contact') | null;
             /**
              * Small label above heading (e.g. "Trusted by 50,000+ Buyers")
              */
@@ -1194,7 +1185,7 @@ export interface PagesSelect<T extends boolean = true> {
               dark?: T;
               fullHeight?: T;
               glow?: T;
-              showVinForm?: T;
+              formType?: T;
               tag?: T;
               title?: T;
               highlight?: T;
@@ -1255,16 +1246,6 @@ export interface PagesSelect<T extends boolean = true> {
                     answer?: T;
                     id?: T;
                   };
-              id?: T;
-              blockName?: T;
-            };
-        'contact-form'?:
-          | T
-          | {
-              heading?: T;
-              description?: T;
-              notificationEmail?: T;
-              bg?: T;
               id?: T;
               blockName?: T;
             };
@@ -1374,7 +1355,7 @@ export interface CountriesSelect<T extends boolean = true> {
               dark?: T;
               fullHeight?: T;
               glow?: T;
-              showVinForm?: T;
+              formType?: T;
               tag?: T;
               title?: T;
               highlight?: T;
@@ -1473,7 +1454,7 @@ export interface CarMakesSelect<T extends boolean = true> {
               dark?: T;
               fullHeight?: T;
               glow?: T;
-              showVinForm?: T;
+              formType?: T;
               tag?: T;
               title?: T;
               highlight?: T;

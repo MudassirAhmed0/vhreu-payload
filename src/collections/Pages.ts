@@ -4,7 +4,6 @@ import { revalidatePage } from '../hooks/revalidate'
 import { PageHeroBlock } from '../blocks/PageHero'
 import { RichTextBlock } from '../blocks/RichText'
 import { FAQsBlock } from '../blocks/FAQs'
-import { ContactFormBlock } from '../blocks/ContactForm'
 
 export const Pages: CollectionConfig = {
   slug: 'pages',
@@ -44,7 +43,7 @@ export const Pages: CollectionConfig = {
               name: 'content',
               type: 'blocks',
               localized: true,
-              blocks: [PageHeroBlock, RichTextBlock, FAQsBlock, ContactFormBlock],
+              blocks: [PageHeroBlock, RichTextBlock, FAQsBlock],
             },
           ],
         },
