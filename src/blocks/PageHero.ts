@@ -1,5 +1,6 @@
 import type { Block } from 'payload'
 import { linksArrayField } from '../fields/link'
+import { iconField } from '../fields/icon'
 
 export const PageHeroBlock: Block = {
   slug: 'page-hero',
@@ -115,20 +116,16 @@ export const PageHeroBlock: Block = {
       label: 'Feature Highlights (icon + text below form)',
       maxRows: 8,
       fields: [
+        iconField(),
         {
           type: 'row',
           fields: [
-            {
-              name: 'icon',
-              type: 'text',
-              admin: { width: '25%', description: 'Lucide icon name' },
-            },
             {
               name: 'text',
               type: 'text',
               required: true,
               localized: true,
-              admin: { width: '45%' },
+              admin: { width: '65%' },
             },
             {
               name: 'tag',
@@ -143,7 +140,7 @@ export const PageHeroBlock: Block = {
                 { label: 'h5', value: 'h5' },
                 { label: 'p', value: 'p' },
               ],
-              admin: { width: '30%' },
+              admin: { width: '35%' },
             },
           ],
         },

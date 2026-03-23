@@ -252,10 +252,70 @@ export interface Page {
               | null;
             features?:
               | {
-                  /**
-                   * Lucide icon name
-                   */
-                  icon?: string | null;
+                  icon?: {
+                    source?: ('preset' | 'custom') | null;
+                    preset?:
+                      | (
+                          | 'car'
+                          | 'car-front'
+                          | 'bike'
+                          | 'truck'
+                          | 'shield-check'
+                          | 'shield'
+                          | 'lock'
+                          | 'lock-open'
+                          | 'triangle-alert'
+                          | 'siren'
+                          | 'file-text'
+                          | 'clipboard-check'
+                          | 'file-search'
+                          | 'circle-check'
+                          | 'circle-x'
+                          | 'search'
+                          | 'eye'
+                          | 'scan'
+                          | 'gauge'
+                          | 'trending-up'
+                          | 'trending-down'
+                          | 'database'
+                          | 'bar-chart-3'
+                          | 'wallet'
+                          | 'credit-card'
+                          | 'tag'
+                          | 'receipt'
+                          | 'mail'
+                          | 'phone'
+                          | 'headphones'
+                          | 'message-circle'
+                          | 'zap'
+                          | 'wrench'
+                          | 'globe'
+                          | 'mouse-pointer-click'
+                          | 'download'
+                          | 'link'
+                          | 'info'
+                          | 'chevron-right'
+                          | 'star'
+                          | 'heart'
+                          | 'house'
+                          | 'map-pin'
+                          | 'clock'
+                          | 'calendar'
+                          | 'user'
+                          | 'users'
+                          | 'building'
+                          | 'pencil'
+                          | 'hash'
+                          | 'list'
+                          | 'factory'
+                          | 'circle-dot'
+                        )
+                      | null;
+                    /**
+                     * Any Lucide icon name (e.g. "package-check")
+                     */
+                    custom?: string | null;
+                  };
                   text: string;
                   tag?: ('span' | 'h2' | 'h3' | 'h4' | 'h5' | 'p') | null;
                   id?: string | null;
@@ -510,10 +570,70 @@ export interface Country {
               | null;
             features?:
               | {
-                  /**
-                   * Lucide icon name
-                   */
-                  icon?: string | null;
+                  icon?: {
+                    source?: ('preset' | 'custom') | null;
+                    preset?:
+                      | (
+                          | 'car'
+                          | 'car-front'
+                          | 'bike'
+                          | 'truck'
+                          | 'shield-check'
+                          | 'shield'
+                          | 'lock'
+                          | 'lock-open'
+                          | 'triangle-alert'
+                          | 'siren'
+                          | 'file-text'
+                          | 'clipboard-check'
+                          | 'file-search'
+                          | 'circle-check'
+                          | 'circle-x'
+                          | 'search'
+                          | 'eye'
+                          | 'scan'
+                          | 'gauge'
+                          | 'trending-up'
+                          | 'trending-down'
+                          | 'database'
+                          | 'bar-chart-3'
+                          | 'wallet'
+                          | 'credit-card'
+                          | 'tag'
+                          | 'receipt'
+                          | 'mail'
+                          | 'phone'
+                          | 'headphones'
+                          | 'message-circle'
+                          | 'zap'
+                          | 'wrench'
+                          | 'globe'
+                          | 'mouse-pointer-click'
+                          | 'download'
+                          | 'link'
+                          | 'info'
+                          | 'chevron-right'
+                          | 'star'
+                          | 'heart'
+                          | 'house'
+                          | 'map-pin'
+                          | 'clock'
+                          | 'calendar'
+                          | 'user'
+                          | 'users'
+                          | 'building'
+                          | 'pencil'
+                          | 'hash'
+                          | 'list'
+                          | 'factory'
+                          | 'circle-dot'
+                        )
+                      | null;
+                    /**
+                     * Any Lucide icon name (e.g. "package-check")
+                     */
+                    custom?: string | null;
+                  };
                   text: string;
                   tag?: ('span' | 'h2' | 'h3' | 'h4' | 'h5' | 'p') | null;
                   id?: string | null;
@@ -666,10 +786,70 @@ export interface CarMake {
               | null;
             features?:
               | {
-                  /**
-                   * Lucide icon name
-                   */
-                  icon?: string | null;
+                  icon?: {
+                    source?: ('preset' | 'custom') | null;
+                    preset?:
+                      | (
+                          | 'car'
+                          | 'car-front'
+                          | 'bike'
+                          | 'truck'
+                          | 'shield-check'
+                          | 'shield'
+                          | 'lock'
+                          | 'lock-open'
+                          | 'triangle-alert'
+                          | 'siren'
+                          | 'file-text'
+                          | 'clipboard-check'
+                          | 'file-search'
+                          | 'circle-check'
+                          | 'circle-x'
+                          | 'search'
+                          | 'eye'
+                          | 'scan'
+                          | 'gauge'
+                          | 'trending-up'
+                          | 'trending-down'
+                          | 'database'
+                          | 'bar-chart-3'
+                          | 'wallet'
+                          | 'credit-card'
+                          | 'tag'
+                          | 'receipt'
+                          | 'mail'
+                          | 'phone'
+                          | 'headphones'
+                          | 'message-circle'
+                          | 'zap'
+                          | 'wrench'
+                          | 'globe'
+                          | 'mouse-pointer-click'
+                          | 'download'
+                          | 'link'
+                          | 'info'
+                          | 'chevron-right'
+                          | 'star'
+                          | 'heart'
+                          | 'house'
+                          | 'map-pin'
+                          | 'clock'
+                          | 'calendar'
+                          | 'user'
+                          | 'users'
+                          | 'building'
+                          | 'pencil'
+                          | 'hash'
+                          | 'list'
+                          | 'factory'
+                          | 'circle-dot'
+                        )
+                      | null;
+                    /**
+                     * Any Lucide icon name (e.g. "package-check")
+                     */
+                    custom?: string | null;
+                  };
                   text: string;
                   tag?: ('span' | 'h2' | 'h3' | 'h4' | 'h5' | 'p') | null;
                   id?: string | null;
@@ -1011,7 +1191,13 @@ export interface PagesSelect<T extends boolean = true> {
               features?:
                 | T
                 | {
-                    icon?: T;
+                    icon?:
+                      | T
+                      | {
+                          source?: T;
+                          preset?: T;
+                          custom?: T;
+                        };
                     text?: T;
                     tag?: T;
                     id?: T;
@@ -1175,7 +1361,13 @@ export interface CountriesSelect<T extends boolean = true> {
               features?:
                 | T
                 | {
-                    icon?: T;
+                    icon?:
+                      | T
+                      | {
+                          source?: T;
+                          preset?: T;
+                          custom?: T;
+                        };
                     text?: T;
                     tag?: T;
                     id?: T;
@@ -1268,7 +1460,13 @@ export interface CarMakesSelect<T extends boolean = true> {
               features?:
                 | T
                 | {
-                    icon?: T;
+                    icon?:
+                      | T
+                      | {
+                          source?: T;
+                          preset?: T;
+                          custom?: T;
+                        };
                     text?: T;
                     tag?: T;
                     id?: T;
