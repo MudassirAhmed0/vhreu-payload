@@ -250,6 +250,17 @@ export interface Page {
                   id?: string | null;
                 }[]
               | null;
+            features?:
+              | {
+                  /**
+                   * Lucide icon name
+                   */
+                  icon?: string | null;
+                  text: string;
+                  tag?: ('span' | 'h2' | 'h3' | 'h4' | 'h5' | 'p') | null;
+                  id?: string | null;
+                }[]
+              | null;
             /**
              * Right-side image for split variant (580×660 recommended)
              */
@@ -497,6 +508,17 @@ export interface Country {
                   id?: string | null;
                 }[]
               | null;
+            features?:
+              | {
+                  /**
+                   * Lucide icon name
+                   */
+                  icon?: string | null;
+                  text: string;
+                  tag?: ('span' | 'h2' | 'h3' | 'h4' | 'h5' | 'p') | null;
+                  id?: string | null;
+                }[]
+              | null;
             /**
              * Right-side image for split variant (580×660 recommended)
              */
@@ -637,6 +659,17 @@ export interface CarMake {
             subtitle?: string | null;
             bullets?:
               | {
+                  text: string;
+                  tag?: ('span' | 'h2' | 'h3' | 'h4' | 'h5' | 'p') | null;
+                  id?: string | null;
+                }[]
+              | null;
+            features?:
+              | {
+                  /**
+                   * Lucide icon name
+                   */
+                  icon?: string | null;
                   text: string;
                   tag?: ('span' | 'h2' | 'h3' | 'h4' | 'h5' | 'p') | null;
                   id?: string | null;
@@ -975,6 +1008,14 @@ export interface PagesSelect<T extends boolean = true> {
                     tag?: T;
                     id?: T;
                   };
+              features?:
+                | T
+                | {
+                    icon?: T;
+                    text?: T;
+                    tag?: T;
+                    id?: T;
+                  };
               heroImage?: T;
               backgroundImage?: T;
               helperLinks?:
@@ -1131,6 +1172,14 @@ export interface CountriesSelect<T extends boolean = true> {
                     tag?: T;
                     id?: T;
                   };
+              features?:
+                | T
+                | {
+                    icon?: T;
+                    text?: T;
+                    tag?: T;
+                    id?: T;
+                  };
               heroImage?: T;
               backgroundImage?: T;
               helperLinks?:
@@ -1212,6 +1261,14 @@ export interface CarMakesSelect<T extends boolean = true> {
               bullets?:
                 | T
                 | {
+                    text?: T;
+                    tag?: T;
+                    id?: T;
+                  };
+              features?:
+                | T
+                | {
+                    icon?: T;
                     text?: T;
                     tag?: T;
                     id?: T;

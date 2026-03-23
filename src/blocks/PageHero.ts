@@ -110,6 +110,46 @@ export const PageHeroBlock: Block = {
       ],
     },
     {
+      name: 'features',
+      type: 'array',
+      label: 'Feature Highlights (icon + text below form)',
+      maxRows: 8,
+      fields: [
+        {
+          type: 'row',
+          fields: [
+            {
+              name: 'icon',
+              type: 'text',
+              admin: { width: '25%', description: 'Lucide icon name' },
+            },
+            {
+              name: 'text',
+              type: 'text',
+              required: true,
+              localized: true,
+              admin: { width: '45%' },
+            },
+            {
+              name: 'tag',
+              type: 'select',
+              defaultValue: 'span',
+              label: 'HTML Tag',
+              options: [
+                { label: 'span (no SEO)', value: 'span' },
+                { label: 'h2', value: 'h2' },
+                { label: 'h3', value: 'h3' },
+                { label: 'h4', value: 'h4' },
+                { label: 'h5', value: 'h5' },
+                { label: 'p', value: 'p' },
+              ],
+              admin: { width: '30%' },
+            },
+          ],
+        },
+      ],
+    },
+    {
       name: 'heroImage',
       type: 'upload',
       relationTo: 'media',
