@@ -246,6 +246,7 @@ export interface Page {
             bullets?:
               | {
                   text: string;
+                  tag?: ('span' | 'h2' | 'h3' | 'h4' | 'h5' | 'p') | null;
                   id?: string | null;
                 }[]
               | null;
@@ -492,6 +493,7 @@ export interface Country {
             bullets?:
               | {
                   text: string;
+                  tag?: ('span' | 'h2' | 'h3' | 'h4' | 'h5' | 'p') | null;
                   id?: string | null;
                 }[]
               | null;
@@ -636,6 +638,7 @@ export interface CarMake {
             bullets?:
               | {
                   text: string;
+                  tag?: ('span' | 'h2' | 'h3' | 'h4' | 'h5' | 'p') | null;
                   id?: string | null;
                 }[]
               | null;
@@ -969,6 +972,7 @@ export interface PagesSelect<T extends boolean = true> {
                 | T
                 | {
                     text?: T;
+                    tag?: T;
                     id?: T;
                   };
               heroImage?: T;
@@ -1124,6 +1128,7 @@ export interface CountriesSelect<T extends boolean = true> {
                 | T
                 | {
                     text?: T;
+                    tag?: T;
                     id?: T;
                   };
               heroImage?: T;
@@ -1208,6 +1213,7 @@ export interface CarMakesSelect<T extends boolean = true> {
                 | T
                 | {
                     text?: T;
+                    tag?: T;
                     id?: T;
                   };
               heroImage?: T;

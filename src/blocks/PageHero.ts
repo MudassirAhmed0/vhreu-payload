@@ -77,14 +77,35 @@ export const PageHeroBlock: Block = {
     {
       name: 'bullets',
       type: 'array',
-      label: 'Trust Badges',
+      label: 'Trust Badges / Highlights',
       maxRows: 6,
       fields: [
         {
-          name: 'text',
-          type: 'text',
-          required: true,
-          localized: true,
+          type: 'row',
+          fields: [
+            {
+              name: 'text',
+              type: 'text',
+              required: true,
+              localized: true,
+              admin: { width: '70%' },
+            },
+            {
+              name: 'tag',
+              type: 'select',
+              defaultValue: 'span',
+              label: 'HTML Tag',
+              options: [
+                { label: 'span (no SEO)', value: 'span' },
+                { label: 'h2', value: 'h2' },
+                { label: 'h3', value: 'h3' },
+                { label: 'h4', value: 'h4' },
+                { label: 'h5', value: 'h5' },
+                { label: 'p', value: 'p' },
+              ],
+              admin: { width: '30%' },
+            },
+          ],
         },
       ],
     },
