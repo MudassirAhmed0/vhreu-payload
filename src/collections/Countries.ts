@@ -26,24 +26,6 @@ export const Countries: CollectionConfig = {
     },
     slugField,
     {
-      name: 'code',
-      type: 'text',
-      required: true,
-      unique: true,
-      admin: {
-        position: 'sidebar',
-        description: 'ISO 3166-1 alpha-2 (e.g. DE, FR, PL)',
-      },
-    },
-    {
-      name: 'flag',
-      type: 'text',
-      admin: {
-        position: 'sidebar',
-        description: 'Flag emoji (e.g. 🇩🇪)',
-      },
-    },
-    {
       name: 'status',
       type: 'select',
       defaultValue: 'active',

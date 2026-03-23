@@ -452,14 +452,6 @@ export interface Country {
    * URL-safe identifier. Auto-generated from title if left empty.
    */
   slug: string;
-  /**
-   * ISO 3166-1 alpha-2 (e.g. DE, FR, PL)
-   */
-  code: string;
-  /**
-   * Flag emoji (e.g. 🇩🇪)
-   */
-  flag?: string | null;
   status?: ('active' | 'inactive') | null;
   content?:
     | (
@@ -1058,8 +1050,6 @@ export interface CategoriesSelect<T extends boolean = true> {
 export interface CountriesSelect<T extends boolean = true> {
   name?: T;
   slug?: T;
-  code?: T;
-  flag?: T;
   status?: T;
   content?:
     | T
