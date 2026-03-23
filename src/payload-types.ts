@@ -225,6 +225,47 @@ export interface Page {
   content?:
     | (
         | {
+            variant: 'centered' | 'split' | 'stacked';
+            dark?: boolean | null;
+            fullHeight?: boolean | null;
+            glow?: boolean | null;
+            showVinForm?: boolean | null;
+            /**
+             * Small label above heading (e.g. "Trusted by 50,000+ Buyers")
+             */
+            tag?: string | null;
+            /**
+             * Main heading text
+             */
+            title: string;
+            /**
+             * Bold gradient portion of heading
+             */
+            highlight?: string | null;
+            subtitle?: string | null;
+            bullets?:
+              | {
+                  text: string;
+                  id?: string | null;
+                }[]
+              | null;
+            /**
+             * Right-side image for split variant (580×660 recommended)
+             */
+            heroImage?: (number | null) | Media;
+            /**
+             * Optional background image
+             */
+            backgroundImage?: (number | null) | Media;
+            ctaLabel?: string | null;
+            ctaHref?: string | null;
+            secondaryCtaLabel?: string | null;
+            secondaryCtaHref?: string | null;
+            id?: string | null;
+            blockName?: string | null;
+            blockType: 'page-hero';
+          }
+        | {
             content?: {
               root: {
                 type: string;
@@ -423,6 +464,47 @@ export interface Country {
   content?:
     | (
         | {
+            variant: 'centered' | 'split' | 'stacked';
+            dark?: boolean | null;
+            fullHeight?: boolean | null;
+            glow?: boolean | null;
+            showVinForm?: boolean | null;
+            /**
+             * Small label above heading (e.g. "Trusted by 50,000+ Buyers")
+             */
+            tag?: string | null;
+            /**
+             * Main heading text
+             */
+            title: string;
+            /**
+             * Bold gradient portion of heading
+             */
+            highlight?: string | null;
+            subtitle?: string | null;
+            bullets?:
+              | {
+                  text: string;
+                  id?: string | null;
+                }[]
+              | null;
+            /**
+             * Right-side image for split variant (580×660 recommended)
+             */
+            heroImage?: (number | null) | Media;
+            /**
+             * Optional background image
+             */
+            backgroundImage?: (number | null) | Media;
+            ctaLabel?: string | null;
+            ctaHref?: string | null;
+            secondaryCtaLabel?: string | null;
+            secondaryCtaHref?: string | null;
+            id?: string | null;
+            blockName?: string | null;
+            blockType: 'page-hero';
+          }
+        | {
             content?: {
               root: {
                 type: string;
@@ -510,6 +592,47 @@ export interface CarMake {
   status?: ('active' | 'inactive') | null;
   content?:
     | (
+        | {
+            variant: 'centered' | 'split' | 'stacked';
+            dark?: boolean | null;
+            fullHeight?: boolean | null;
+            glow?: boolean | null;
+            showVinForm?: boolean | null;
+            /**
+             * Small label above heading (e.g. "Trusted by 50,000+ Buyers")
+             */
+            tag?: string | null;
+            /**
+             * Main heading text
+             */
+            title: string;
+            /**
+             * Bold gradient portion of heading
+             */
+            highlight?: string | null;
+            subtitle?: string | null;
+            bullets?:
+              | {
+                  text: string;
+                  id?: string | null;
+                }[]
+              | null;
+            /**
+             * Right-side image for split variant (580×660 recommended)
+             */
+            heroImage?: (number | null) | Media;
+            /**
+             * Optional background image
+             */
+            backgroundImage?: (number | null) | Media;
+            ctaLabel?: string | null;
+            ctaHref?: string | null;
+            secondaryCtaLabel?: string | null;
+            secondaryCtaHref?: string | null;
+            id?: string | null;
+            blockName?: string | null;
+            blockType: 'page-hero';
+          }
         | {
             content?: {
               root: {
@@ -793,6 +916,33 @@ export interface PagesSelect<T extends boolean = true> {
   content?:
     | T
     | {
+        'page-hero'?:
+          | T
+          | {
+              variant?: T;
+              dark?: T;
+              fullHeight?: T;
+              glow?: T;
+              showVinForm?: T;
+              tag?: T;
+              title?: T;
+              highlight?: T;
+              subtitle?: T;
+              bullets?:
+                | T
+                | {
+                    text?: T;
+                    id?: T;
+                  };
+              heroImage?: T;
+              backgroundImage?: T;
+              ctaLabel?: T;
+              ctaHref?: T;
+              secondaryCtaLabel?: T;
+              secondaryCtaHref?: T;
+              id?: T;
+              blockName?: T;
+            };
         'rich-text'?:
           | T
           | {
@@ -914,6 +1064,33 @@ export interface CountriesSelect<T extends boolean = true> {
   content?:
     | T
     | {
+        'page-hero'?:
+          | T
+          | {
+              variant?: T;
+              dark?: T;
+              fullHeight?: T;
+              glow?: T;
+              showVinForm?: T;
+              tag?: T;
+              title?: T;
+              highlight?: T;
+              subtitle?: T;
+              bullets?:
+                | T
+                | {
+                    text?: T;
+                    id?: T;
+                  };
+              heroImage?: T;
+              backgroundImage?: T;
+              ctaLabel?: T;
+              ctaHref?: T;
+              secondaryCtaLabel?: T;
+              secondaryCtaHref?: T;
+              id?: T;
+              blockName?: T;
+            };
         'rich-text'?:
           | T
           | {
@@ -962,6 +1139,33 @@ export interface CarMakesSelect<T extends boolean = true> {
   content?:
     | T
     | {
+        'page-hero'?:
+          | T
+          | {
+              variant?: T;
+              dark?: T;
+              fullHeight?: T;
+              glow?: T;
+              showVinForm?: T;
+              tag?: T;
+              title?: T;
+              highlight?: T;
+              subtitle?: T;
+              bullets?:
+                | T
+                | {
+                    text?: T;
+                    id?: T;
+                  };
+              heroImage?: T;
+              backgroundImage?: T;
+              ctaLabel?: T;
+              ctaHref?: T;
+              secondaryCtaLabel?: T;
+              secondaryCtaHref?: T;
+              id?: T;
+              blockName?: T;
+            };
         'rich-text'?:
           | T
           | {
