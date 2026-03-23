@@ -221,7 +221,6 @@ export interface Page {
    * URL-safe identifier. Auto-generated from title if left empty.
    */
   slug: string;
-  template?: ('default' | 'landing' | 'tool') | null;
   publishedAt?: string | null;
   content?: unknown[] | null;
   exitPopup?: {
@@ -374,24 +373,7 @@ export interface Country {
    */
   flag?: string | null;
   status?: ('active' | 'inactive') | null;
-  /**
-   * SEO content for the /vin-check/[country] page
-   */
-  content?: {
-    root: {
-      type: string;
-      children: {
-        type: any;
-        version: number;
-        [k: string]: unknown;
-      }[];
-      direction: ('ltr' | 'rtl') | null;
-      format: 'left' | 'start' | 'center' | 'right' | 'end' | 'justify' | '';
-      indent: number;
-      version: number;
-    };
-    [k: string]: unknown;
-  } | null;
+  content?: unknown[] | null;
   meta?: {
     title?: string | null;
     description?: string | null;
@@ -417,6 +399,7 @@ export interface Country {
   };
   updatedAt: string;
   createdAt: string;
+  _status?: ('draft' | 'published') | null;
 }
 /**
  * This interface was referenced by `Config`'s JSON-Schema
@@ -431,24 +414,7 @@ export interface CarMake {
   slug: string;
   logo?: (number | null) | Media;
   status?: ('active' | 'inactive') | null;
-  /**
-   * SEO content for the /vin-decoder/[make] page
-   */
-  content?: {
-    root: {
-      type: string;
-      children: {
-        type: any;
-        version: number;
-        [k: string]: unknown;
-      }[];
-      direction: ('ltr' | 'rtl') | null;
-      format: 'left' | 'start' | 'center' | 'right' | 'end' | 'justify' | '';
-      indent: number;
-      version: number;
-    };
-    [k: string]: unknown;
-  } | null;
+  content?: unknown[] | null;
   meta?: {
     title?: string | null;
     description?: string | null;
@@ -474,6 +440,7 @@ export interface CarMake {
   };
   updatedAt: string;
   createdAt: string;
+  _status?: ('draft' | 'published') | null;
 }
 /**
  * This interface was referenced by `Config`'s JSON-Schema
@@ -681,7 +648,6 @@ export interface MediaSelect<T extends boolean = true> {
 export interface PagesSelect<T extends boolean = true> {
   title?: T;
   slug?: T;
-  template?: T;
   publishedAt?: T;
   content?: T | {};
   exitPopup?:
@@ -781,7 +747,7 @@ export interface CountriesSelect<T extends boolean = true> {
   code?: T;
   flag?: T;
   status?: T;
-  content?: T;
+  content?: T | {};
   meta?:
     | T
     | {
@@ -795,6 +761,7 @@ export interface CountriesSelect<T extends boolean = true> {
       };
   updatedAt?: T;
   createdAt?: T;
+  _status?: T;
 }
 /**
  * This interface was referenced by `Config`'s JSON-Schema
@@ -805,7 +772,7 @@ export interface CarMakesSelect<T extends boolean = true> {
   slug?: T;
   logo?: T;
   status?: T;
-  content?: T;
+  content?: T | {};
   meta?:
     | T
     | {
@@ -819,6 +786,7 @@ export interface CarMakesSelect<T extends boolean = true> {
       };
   updatedAt?: T;
   createdAt?: T;
+  _status?: T;
 }
 /**
  * This interface was referenced by `Config`'s JSON-Schema

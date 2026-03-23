@@ -12,6 +12,9 @@ export const CarMakes: CollectionConfig = {
   access: {
     read: () => true,
   },
+  versions: {
+    drafts: true,
+  },
   fields: [
     {
       name: 'name',
@@ -23,6 +26,7 @@ export const CarMakes: CollectionConfig = {
       name: 'logo',
       type: 'upload',
       relationTo: 'media',
+      admin: { position: 'sidebar' },
     },
     {
       name: 'status',
@@ -36,11 +40,9 @@ export const CarMakes: CollectionConfig = {
     },
     {
       name: 'content',
-      type: 'richText',
+      type: 'blocks',
       localized: true,
-      admin: {
-        description: 'SEO content for the /vin-decoder/[make] page',
-      },
+      blocks: [], // Blocks added in Phase 5
     },
   ],
 }

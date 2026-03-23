@@ -11,6 +11,9 @@ export const Countries: CollectionConfig = {
   access: {
     read: () => true,
   },
+  versions: {
+    drafts: true,
+  },
   fields: [
     {
       name: 'name',
@@ -49,11 +52,9 @@ export const Countries: CollectionConfig = {
     },
     {
       name: 'content',
-      type: 'richText',
+      type: 'blocks',
       localized: true,
-      admin: {
-        description: 'SEO content for the /vin-check/[country] page',
-      },
+      blocks: [], // Blocks added in Phase 5
     },
   ],
 }

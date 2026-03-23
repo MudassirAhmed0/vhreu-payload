@@ -26,17 +26,6 @@ export const Pages: CollectionConfig = {
     },
     slugField,
     {
-      name: 'template',
-      type: 'select',
-      defaultValue: 'default',
-      options: [
-        { label: 'Default', value: 'default' },
-        { label: 'Landing', value: 'landing' },
-        { label: 'Tool', value: 'tool' },
-      ],
-      admin: { position: 'sidebar' },
-    },
-    {
       name: 'publishedAt',
       type: 'date',
       admin: { position: 'sidebar' },
