@@ -343,6 +343,9 @@ export interface Page {
                   label: string;
                   href: string;
                   style?: ('primary' | 'secondary') | null;
+                  rel?: ('none' | 'nofollow' | 'sponsored' | 'ugc' | 'nofollow noopener') | null;
+                  newTab?: boolean | null;
+                  isExternal?: boolean | null;
                   id?: string | null;
                 }[]
               | null;
@@ -350,11 +353,14 @@ export interface Page {
               | {
                   label: string;
                   href: string;
+                  style?: ('arrow' | 'pill') | null;
                   /**
                    * Lucide icon
                    */
                   icon?: string | null;
-                  rel?: ('none' | 'nofollow' | 'sponsored') | null;
+                  rel?: ('none' | 'nofollow' | 'sponsored' | 'ugc' | 'nofollow noopener') | null;
+                  newTab?: boolean | null;
+                  isExternal?: boolean | null;
                   id?: string | null;
                 }[]
               | null;
@@ -671,6 +677,9 @@ export interface Country {
                   label: string;
                   href: string;
                   style?: ('primary' | 'secondary') | null;
+                  rel?: ('none' | 'nofollow' | 'sponsored' | 'ugc' | 'nofollow noopener') | null;
+                  newTab?: boolean | null;
+                  isExternal?: boolean | null;
                   id?: string | null;
                 }[]
               | null;
@@ -678,11 +687,14 @@ export interface Country {
               | {
                   label: string;
                   href: string;
+                  style?: ('arrow' | 'pill') | null;
                   /**
                    * Lucide icon
                    */
                   icon?: string | null;
-                  rel?: ('none' | 'nofollow' | 'sponsored') | null;
+                  rel?: ('none' | 'nofollow' | 'sponsored' | 'ugc' | 'nofollow noopener') | null;
+                  newTab?: boolean | null;
+                  isExternal?: boolean | null;
                   id?: string | null;
                 }[]
               | null;
@@ -897,6 +909,9 @@ export interface CarMake {
                   label: string;
                   href: string;
                   style?: ('primary' | 'secondary') | null;
+                  rel?: ('none' | 'nofollow' | 'sponsored' | 'ugc' | 'nofollow noopener') | null;
+                  newTab?: boolean | null;
+                  isExternal?: boolean | null;
                   id?: string | null;
                 }[]
               | null;
@@ -904,11 +919,14 @@ export interface CarMake {
               | {
                   label: string;
                   href: string;
+                  style?: ('arrow' | 'pill') | null;
                   /**
                    * Lucide icon
                    */
                   icon?: string | null;
-                  rel?: ('none' | 'nofollow' | 'sponsored') | null;
+                  rel?: ('none' | 'nofollow' | 'sponsored' | 'ugc' | 'nofollow noopener') | null;
+                  newTab?: boolean | null;
+                  isExternal?: boolean | null;
                   id?: string | null;
                 }[]
               | null;
@@ -1243,6 +1261,9 @@ export interface PagesSelect<T extends boolean = true> {
                     label?: T;
                     href?: T;
                     style?: T;
+                    rel?: T;
+                    newTab?: T;
+                    isExternal?: T;
                     id?: T;
                   };
               helperLinks?:
@@ -1250,8 +1271,11 @@ export interface PagesSelect<T extends boolean = true> {
                 | {
                     label?: T;
                     href?: T;
+                    style?: T;
                     icon?: T;
                     rel?: T;
+                    newTab?: T;
+                    isExternal?: T;
                     id?: T;
                   };
               id?: T;
@@ -1420,6 +1444,9 @@ export interface CountriesSelect<T extends boolean = true> {
                     label?: T;
                     href?: T;
                     style?: T;
+                    rel?: T;
+                    newTab?: T;
+                    isExternal?: T;
                     id?: T;
                   };
               helperLinks?:
@@ -1427,8 +1454,11 @@ export interface CountriesSelect<T extends boolean = true> {
                 | {
                     label?: T;
                     href?: T;
+                    style?: T;
                     icon?: T;
                     rel?: T;
+                    newTab?: T;
+                    isExternal?: T;
                     id?: T;
                   };
               id?: T;
@@ -1526,6 +1556,9 @@ export interface CarMakesSelect<T extends boolean = true> {
                     label?: T;
                     href?: T;
                     style?: T;
+                    rel?: T;
+                    newTab?: T;
+                    isExternal?: T;
                     id?: T;
                   };
               helperLinks?:
@@ -1533,8 +1566,11 @@ export interface CarMakesSelect<T extends boolean = true> {
                 | {
                     label?: T;
                     href?: T;
+                    style?: T;
                     icon?: T;
                     rel?: T;
+                    newTab?: T;
+                    isExternal?: T;
                     id?: T;
                   };
               id?: T;

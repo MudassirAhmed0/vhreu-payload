@@ -210,13 +210,13 @@ export const PageHeroBlock: Block = {
       name: 'ctas',
       type: 'array',
       label: 'CTA Buttons',
-      maxRows: 3,
+      maxRows: 4,
       fields: [
         {
           type: 'row',
           fields: [
-            { name: 'label', type: 'text', required: true, localized: true, admin: { width: '40%' } },
-            { name: 'href', type: 'text', required: true, admin: { width: '40%' } },
+            { name: 'label', type: 'text', required: true, localized: true, admin: { width: '30%' } },
+            { name: 'href', type: 'text', required: true, admin: { width: '25%' } },
             {
               name: 'style',
               type: 'select',
@@ -225,8 +225,23 @@ export const PageHeroBlock: Block = {
                 { label: 'Primary', value: 'primary' },
                 { label: 'Secondary', value: 'secondary' },
               ],
-              admin: { width: '20%' },
+              admin: { width: '15%' },
             },
+            {
+              name: 'rel',
+              type: 'select',
+              defaultValue: 'none',
+              options: [
+                { label: 'Default (dofollow)', value: 'none' },
+                { label: 'nofollow', value: 'nofollow' },
+                { label: 'sponsored', value: 'sponsored' },
+                { label: 'ugc', value: 'ugc' },
+                { label: 'nofollow noopener', value: 'nofollow noopener' },
+              ],
+              admin: { width: '15%' },
+            },
+            { name: 'newTab', type: 'checkbox', label: 'New tab', defaultValue: false, admin: { width: '10%' } },
+            { name: 'isExternal', type: 'checkbox', label: 'External', defaultValue: false, admin: { width: '5%' } },
           ],
         },
       ],
@@ -234,26 +249,40 @@ export const PageHeroBlock: Block = {
     {
       name: 'helperLinks',
       type: 'array',
-      label: 'Helper Links (text links below CTAs)',
+      label: 'Helper Links (below form)',
       maxRows: 4,
       fields: [
         {
           type: 'row',
           fields: [
-            { name: 'label', type: 'text', required: true, localized: true, admin: { width: '40%' } },
-            { name: 'href', type: 'text', required: true, admin: { width: '30%' } },
-            { name: 'icon', type: 'text', admin: { width: '15%', description: 'Lucide icon' } },
+            { name: 'label', type: 'text', required: true, localized: true, admin: { width: '25%' } },
+            { name: 'href', type: 'text', required: true, admin: { width: '20%' } },
+            {
+              name: 'style',
+              type: 'select',
+              defaultValue: 'arrow',
+              options: [
+                { label: 'Arrow link', value: 'arrow' },
+                { label: 'Pill badge', value: 'pill' },
+              ],
+              admin: { width: '15%' },
+            },
+            { name: 'icon', type: 'text', admin: { width: '10%', description: 'Lucide icon' } },
             {
               name: 'rel',
               type: 'select',
               defaultValue: 'none',
               options: [
-                { label: 'Default', value: 'none' },
+                { label: 'Default (dofollow)', value: 'none' },
                 { label: 'nofollow', value: 'nofollow' },
                 { label: 'sponsored', value: 'sponsored' },
+                { label: 'ugc', value: 'ugc' },
+                { label: 'nofollow noopener', value: 'nofollow noopener' },
               ],
               admin: { width: '15%' },
             },
+            { name: 'newTab', type: 'checkbox', label: 'New tab', defaultValue: false, admin: { width: '10%' } },
+            { name: 'isExternal', type: 'checkbox', label: 'External', defaultValue: false, admin: { width: '5%' } },
           ],
         },
       ],
