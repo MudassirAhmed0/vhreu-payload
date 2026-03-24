@@ -53,7 +53,7 @@ export const SiteConfig: GlobalConfig = {
                 {
                   ...linkField({ label: false }),
                   admin: { condition: (_, { navType }) => navType === 'link' },
-                },
+                } as import('payload').Field,
                 {
                   name: 'children',
                   type: 'array',

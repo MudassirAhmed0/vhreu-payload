@@ -334,10 +334,6 @@ export interface Page {
              * Right-side image for split variant (580×660 recommended)
              */
             heroImage?: (number | null) | Media;
-            /**
-             * Optional background image
-             */
-            backgroundImage?: (number | null) | Media;
             ctas?:
               | {
                   label: string;
@@ -349,6 +345,9 @@ export interface Page {
                   id?: string | null;
                 }[]
               | null;
+            /**
+             * Shown below the form. In split variant, only visible when no hero image is set.
+             */
             helperLinks?:
               | {
                   label: string;
@@ -668,10 +667,6 @@ export interface Country {
              * Right-side image for split variant (580×660 recommended)
              */
             heroImage?: (number | null) | Media;
-            /**
-             * Optional background image
-             */
-            backgroundImage?: (number | null) | Media;
             ctas?:
               | {
                   label: string;
@@ -683,6 +678,9 @@ export interface Country {
                   id?: string | null;
                 }[]
               | null;
+            /**
+             * Shown below the form. In split variant, only visible when no hero image is set.
+             */
             helperLinks?:
               | {
                   label: string;
@@ -900,10 +898,6 @@ export interface CarMake {
              * Right-side image for split variant (580×660 recommended)
              */
             heroImage?: (number | null) | Media;
-            /**
-             * Optional background image
-             */
-            backgroundImage?: (number | null) | Media;
             ctas?:
               | {
                   label: string;
@@ -915,6 +909,9 @@ export interface CarMake {
                   id?: string | null;
                 }[]
               | null;
+            /**
+             * Shown below the form. In split variant, only visible when no hero image is set.
+             */
             helperLinks?:
               | {
                   label: string;
@@ -1254,7 +1251,6 @@ export interface PagesSelect<T extends boolean = true> {
                     id?: T;
                   };
               heroImage?: T;
-              backgroundImage?: T;
               ctas?:
                 | T
                 | {
@@ -1437,7 +1433,6 @@ export interface CountriesSelect<T extends boolean = true> {
                     id?: T;
                   };
               heroImage?: T;
-              backgroundImage?: T;
               ctas?:
                 | T
                 | {
@@ -1549,7 +1544,6 @@ export interface CarMakesSelect<T extends boolean = true> {
                     id?: T;
                   };
               heroImage?: T;
-              backgroundImage?: T;
               ctas?:
                 | T
                 | {

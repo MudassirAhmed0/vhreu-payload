@@ -4,7 +4,6 @@ import { iconField } from '../fields/icon'
 export const PageHeroBlock: Block = {
   slug: 'page-hero',
   labels: { singular: 'Page Hero', plural: 'Page Heroes' },
-  imageURL: '/api/media/file/hero-block-preview.png',
   fields: [
     {
       name: 'variant',
@@ -201,12 +200,6 @@ export const PageHeroBlock: Block = {
       },
     },
     {
-      name: 'backgroundImage',
-      type: 'upload',
-      relationTo: 'media',
-      admin: { description: 'Optional background image' },
-    },
-    {
       name: 'ctas',
       type: 'array',
       label: 'CTA Buttons',
@@ -251,6 +244,13 @@ export const PageHeroBlock: Block = {
       type: 'array',
       label: 'Helper Links (below form)',
       maxRows: 4,
+      admin: {
+        description: 'Shown below the form. In split variant, only visible when no hero image is set.',
+        condition: (_, siblingData) => {
+          if (siblingData.variant === 'split' && siblingData.heroImage) return false
+          return true
+        },
+      },
       fields: [
         {
           type: 'row',
