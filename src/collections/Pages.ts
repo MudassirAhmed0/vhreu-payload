@@ -2,8 +2,7 @@ import type { CollectionConfig } from 'payload'
 import { slugField } from '../fields/slug'
 import { revalidatePage } from '../hooks/revalidate'
 import { PageHeroBlock } from '../blocks/PageHero'
-import { RichTextBlock } from '../blocks/RichText'
-import { FAQsBlock } from '../blocks/FAQs'
+import { SectionBlock } from '../blocks/Section'
 
 export const Pages: CollectionConfig = {
   slug: 'pages',
@@ -43,7 +42,7 @@ export const Pages: CollectionConfig = {
               name: 'content',
               type: 'blocks',
               localized: true,
-              blocks: [PageHeroBlock, RichTextBlock, FAQsBlock],
+              blocks: [PageHeroBlock, SectionBlock],
             },
           ],
         },

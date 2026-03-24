@@ -368,48 +368,74 @@ export interface Page {
             blockType: 'page-hero';
           }
         | {
-            content?: {
-              root: {
-                type: string;
-                children: {
-                  type: any;
-                  version: number;
-                  [k: string]: unknown;
-                }[];
-                direction: ('ltr' | 'rtl') | null;
-                format: 'left' | 'start' | 'center' | 'right' | 'end' | 'justify' | '';
-                indent: number;
-                version: number;
-              };
-              [k: string]: unknown;
-            } | null;
+            bg?: ('white' | 'muted' | 'dark') | null;
+            scene?: ('default' | 'glow' | 'rings' | 'grid' | 'waves' | 'split' | 'edge' | 'minimal') | null;
+            /**
+             * e.g. "hero" for #hero links
+             */
+            sectionId?: string | null;
+            narrow?: boolean | null;
+            /**
+             * Small label above heading
+             */
+            tag?: string | null;
+            heading?: string | null;
+            /**
+             * Bold gradient portion of heading
+             */
+            highlight?: string | null;
+            subtitle?: string | null;
+            content?:
+              | (
+                  | {
+                      items: {
+                        question: string;
+                        answer: {
+                          root: {
+                            type: string;
+                            children: {
+                              type: any;
+                              version: number;
+                              [k: string]: unknown;
+                            }[];
+                            direction: ('ltr' | 'rtl') | null;
+                            format: 'left' | 'start' | 'center' | 'right' | 'end' | 'justify' | '';
+                            indent: number;
+                            version: number;
+                          };
+                          [k: string]: unknown;
+                        };
+                        id?: string | null;
+                      }[];
+                      id?: string | null;
+                      blockName?: string | null;
+                      blockType: 'faqs';
+                    }
+                  | {
+                      content?: {
+                        root: {
+                          type: string;
+                          children: {
+                            type: any;
+                            version: number;
+                            [k: string]: unknown;
+                          }[];
+                          direction: ('ltr' | 'rtl') | null;
+                          format: 'left' | 'start' | 'center' | 'right' | 'end' | 'justify' | '';
+                          indent: number;
+                          version: number;
+                        };
+                        [k: string]: unknown;
+                      } | null;
+                      id?: string | null;
+                      blockName?: string | null;
+                      blockType: 'rich-text';
+                    }
+                )[]
+              | null;
             id?: string | null;
             blockName?: string | null;
-            blockType: 'rich-text';
-          }
-        | {
-            items: {
-              question: string;
-              answer: {
-                root: {
-                  type: string;
-                  children: {
-                    type: any;
-                    version: number;
-                    [k: string]: unknown;
-                  }[];
-                  direction: ('ltr' | 'rtl') | null;
-                  format: 'left' | 'start' | 'center' | 'right' | 'end' | 'justify' | '';
-                  indent: number;
-                  version: number;
-                };
-                [k: string]: unknown;
-              };
-              id?: string | null;
-            }[];
-            id?: string | null;
-            blockName?: string | null;
-            blockType: 'faqs';
+            blockType: 'section';
           }
       )[]
     | null;
@@ -701,48 +727,74 @@ export interface Country {
             blockType: 'page-hero';
           }
         | {
-            content?: {
-              root: {
-                type: string;
-                children: {
-                  type: any;
-                  version: number;
-                  [k: string]: unknown;
-                }[];
-                direction: ('ltr' | 'rtl') | null;
-                format: 'left' | 'start' | 'center' | 'right' | 'end' | 'justify' | '';
-                indent: number;
-                version: number;
-              };
-              [k: string]: unknown;
-            } | null;
+            bg?: ('white' | 'muted' | 'dark') | null;
+            scene?: ('default' | 'glow' | 'rings' | 'grid' | 'waves' | 'split' | 'edge' | 'minimal') | null;
+            /**
+             * e.g. "hero" for #hero links
+             */
+            sectionId?: string | null;
+            narrow?: boolean | null;
+            /**
+             * Small label above heading
+             */
+            tag?: string | null;
+            heading?: string | null;
+            /**
+             * Bold gradient portion of heading
+             */
+            highlight?: string | null;
+            subtitle?: string | null;
+            content?:
+              | (
+                  | {
+                      items: {
+                        question: string;
+                        answer: {
+                          root: {
+                            type: string;
+                            children: {
+                              type: any;
+                              version: number;
+                              [k: string]: unknown;
+                            }[];
+                            direction: ('ltr' | 'rtl') | null;
+                            format: 'left' | 'start' | 'center' | 'right' | 'end' | 'justify' | '';
+                            indent: number;
+                            version: number;
+                          };
+                          [k: string]: unknown;
+                        };
+                        id?: string | null;
+                      }[];
+                      id?: string | null;
+                      blockName?: string | null;
+                      blockType: 'faqs';
+                    }
+                  | {
+                      content?: {
+                        root: {
+                          type: string;
+                          children: {
+                            type: any;
+                            version: number;
+                            [k: string]: unknown;
+                          }[];
+                          direction: ('ltr' | 'rtl') | null;
+                          format: 'left' | 'start' | 'center' | 'right' | 'end' | 'justify' | '';
+                          indent: number;
+                          version: number;
+                        };
+                        [k: string]: unknown;
+                      } | null;
+                      id?: string | null;
+                      blockName?: string | null;
+                      blockType: 'rich-text';
+                    }
+                )[]
+              | null;
             id?: string | null;
             blockName?: string | null;
-            blockType: 'rich-text';
-          }
-        | {
-            items: {
-              question: string;
-              answer: {
-                root: {
-                  type: string;
-                  children: {
-                    type: any;
-                    version: number;
-                    [k: string]: unknown;
-                  }[];
-                  direction: ('ltr' | 'rtl') | null;
-                  format: 'left' | 'start' | 'center' | 'right' | 'end' | 'justify' | '';
-                  indent: number;
-                  version: number;
-                };
-                [k: string]: unknown;
-              };
-              id?: string | null;
-            }[];
-            id?: string | null;
-            blockName?: string | null;
-            blockType: 'faqs';
+            blockType: 'section';
           }
       )[]
     | null;
@@ -932,48 +984,74 @@ export interface CarMake {
             blockType: 'page-hero';
           }
         | {
-            content?: {
-              root: {
-                type: string;
-                children: {
-                  type: any;
-                  version: number;
-                  [k: string]: unknown;
-                }[];
-                direction: ('ltr' | 'rtl') | null;
-                format: 'left' | 'start' | 'center' | 'right' | 'end' | 'justify' | '';
-                indent: number;
-                version: number;
-              };
-              [k: string]: unknown;
-            } | null;
+            bg?: ('white' | 'muted' | 'dark') | null;
+            scene?: ('default' | 'glow' | 'rings' | 'grid' | 'waves' | 'split' | 'edge' | 'minimal') | null;
+            /**
+             * e.g. "hero" for #hero links
+             */
+            sectionId?: string | null;
+            narrow?: boolean | null;
+            /**
+             * Small label above heading
+             */
+            tag?: string | null;
+            heading?: string | null;
+            /**
+             * Bold gradient portion of heading
+             */
+            highlight?: string | null;
+            subtitle?: string | null;
+            content?:
+              | (
+                  | {
+                      items: {
+                        question: string;
+                        answer: {
+                          root: {
+                            type: string;
+                            children: {
+                              type: any;
+                              version: number;
+                              [k: string]: unknown;
+                            }[];
+                            direction: ('ltr' | 'rtl') | null;
+                            format: 'left' | 'start' | 'center' | 'right' | 'end' | 'justify' | '';
+                            indent: number;
+                            version: number;
+                          };
+                          [k: string]: unknown;
+                        };
+                        id?: string | null;
+                      }[];
+                      id?: string | null;
+                      blockName?: string | null;
+                      blockType: 'faqs';
+                    }
+                  | {
+                      content?: {
+                        root: {
+                          type: string;
+                          children: {
+                            type: any;
+                            version: number;
+                            [k: string]: unknown;
+                          }[];
+                          direction: ('ltr' | 'rtl') | null;
+                          format: 'left' | 'start' | 'center' | 'right' | 'end' | 'justify' | '';
+                          indent: number;
+                          version: number;
+                        };
+                        [k: string]: unknown;
+                      } | null;
+                      id?: string | null;
+                      blockName?: string | null;
+                      blockType: 'rich-text';
+                    }
+                )[]
+              | null;
             id?: string | null;
             blockName?: string | null;
-            blockType: 'rich-text';
-          }
-        | {
-            items: {
-              question: string;
-              answer: {
-                root: {
-                  type: string;
-                  children: {
-                    type: any;
-                    version: number;
-                    [k: string]: unknown;
-                  }[];
-                  direction: ('ltr' | 'rtl') | null;
-                  format: 'left' | 'start' | 'center' | 'right' | 'end' | 'justify' | '';
-                  indent: number;
-                  version: number;
-                };
-                [k: string]: unknown;
-              };
-              id?: string | null;
-            }[];
-            id?: string | null;
-            blockName?: string | null;
-            blockType: 'faqs';
+            blockType: 'section';
           }
       )[]
     | null;
@@ -1277,22 +1355,40 @@ export interface PagesSelect<T extends boolean = true> {
               id?: T;
               blockName?: T;
             };
-        'rich-text'?:
+        section?:
           | T
           | {
-              content?: T;
-              id?: T;
-              blockName?: T;
-            };
-        faqs?:
-          | T
-          | {
-              items?:
+              bg?: T;
+              scene?: T;
+              sectionId?: T;
+              narrow?: T;
+              tag?: T;
+              heading?: T;
+              highlight?: T;
+              subtitle?: T;
+              content?:
                 | T
                 | {
-                    question?: T;
-                    answer?: T;
-                    id?: T;
+                    faqs?:
+                      | T
+                      | {
+                          items?:
+                            | T
+                            | {
+                                question?: T;
+                                answer?: T;
+                                id?: T;
+                              };
+                          id?: T;
+                          blockName?: T;
+                        };
+                    'rich-text'?:
+                      | T
+                      | {
+                          content?: T;
+                          id?: T;
+                          blockName?: T;
+                        };
                   };
               id?: T;
               blockName?: T;
@@ -1459,22 +1555,40 @@ export interface CountriesSelect<T extends boolean = true> {
               id?: T;
               blockName?: T;
             };
-        'rich-text'?:
+        section?:
           | T
           | {
-              content?: T;
-              id?: T;
-              blockName?: T;
-            };
-        faqs?:
-          | T
-          | {
-              items?:
+              bg?: T;
+              scene?: T;
+              sectionId?: T;
+              narrow?: T;
+              tag?: T;
+              heading?: T;
+              highlight?: T;
+              subtitle?: T;
+              content?:
                 | T
                 | {
-                    question?: T;
-                    answer?: T;
-                    id?: T;
+                    faqs?:
+                      | T
+                      | {
+                          items?:
+                            | T
+                            | {
+                                question?: T;
+                                answer?: T;
+                                id?: T;
+                              };
+                          id?: T;
+                          blockName?: T;
+                        };
+                    'rich-text'?:
+                      | T
+                      | {
+                          content?: T;
+                          id?: T;
+                          blockName?: T;
+                        };
                   };
               id?: T;
               blockName?: T;
@@ -1570,22 +1684,40 @@ export interface CarMakesSelect<T extends boolean = true> {
               id?: T;
               blockName?: T;
             };
-        'rich-text'?:
+        section?:
           | T
           | {
-              content?: T;
-              id?: T;
-              blockName?: T;
-            };
-        faqs?:
-          | T
-          | {
-              items?:
+              bg?: T;
+              scene?: T;
+              sectionId?: T;
+              narrow?: T;
+              tag?: T;
+              heading?: T;
+              highlight?: T;
+              subtitle?: T;
+              content?:
                 | T
                 | {
-                    question?: T;
-                    answer?: T;
-                    id?: T;
+                    faqs?:
+                      | T
+                      | {
+                          items?:
+                            | T
+                            | {
+                                question?: T;
+                                answer?: T;
+                                id?: T;
+                              };
+                          id?: T;
+                          blockName?: T;
+                        };
+                    'rich-text'?:
+                      | T
+                      | {
+                          content?: T;
+                          id?: T;
+                          blockName?: T;
+                        };
                   };
               id?: T;
               blockName?: T;
