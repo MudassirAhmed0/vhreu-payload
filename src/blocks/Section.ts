@@ -3,6 +3,8 @@ import { sectionHeaderFields } from '../fields/sectionHeader'
 import { FAQsBlock } from './FAQs'
 import { RichTextBlock } from './RichText'
 import { CardGridBlock } from './CardGrid'
+import { SplitContentBlock } from './SplitContent'
+import { StepsBlock } from './Steps'
 
 /**
  * Section — the universal section container.
@@ -85,6 +87,8 @@ export const SectionBlock: Block = {
         CardGridBlock,
         FAQsBlock,
         RichTextBlock,
+        SplitContentBlock,
+        StepsBlock,
       ],
     },
   ],
