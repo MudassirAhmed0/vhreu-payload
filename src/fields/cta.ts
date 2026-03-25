@@ -1,20 +1,27 @@
 import type { Field } from 'payload'
 
 /**
- * Lightweight CTA group — label + href.
- * For simple anchor-style CTAs (e.g. "Check VIN Now!" → "#hero").
- * Use linkField() instead when you need internal/external routing, rel, newTab.
+ * CTA buttons array — editors add only when needed.
+ * Each CTA has label, href, and style (primary/secondary).
+ * Returns a single array field. Max 2 buttons by default.
  */
-export function ctaGroup(name: string, options?: {
-  /** Admin label override */
-  label?: string
+export function ctasField(options?: {
+  /** Field name. Default: 'ctas' */
+  name?: string
+  /** Max CTA buttons. Default: 2 */
+  maxRows?: number
 }): Field {
-  const { label } = options || {}
+  const { name = 'ctas', maxRows = 2 } = options || {}
 
   return {
     name,
-    type: 'group',
-    label: label || name.replace(/([A-Z])/g, ' $1').replace(/^./, (s) => s.toUpperCase()),
+    type: 'array',
+    label: 'CTA Buttons',
+    maxRows,
+    admin: {
+      initCollapsed: true,
+      description: 'Optional call-to-action buttons below content',
+    },
     fields: [
       {
         type: 'row',
@@ -22,13 +29,50 @@ export function ctaGroup(name: string, options?: {
           {
             name: 'label',
             type: 'text',
+            required: true,
             localized: true,
-            admin: { width: '60%' },
+            admin: { width: '40%', placeholder: 'Check VIN Now!' },
           },
           {
             name: 'href',
             type: 'text',
+            required: true,
+            admin: { width: '35%', placeholder: '/sample-report or #hero' },
+          },
+          {
+            name: 'style',
+            type: 'select',
+            defaultValue: 'primary',
+            options: [
+              { label: 'Primary', value: 'primary' },
+              { label: 'Secondary', value: 'secondary' },
+            ],
+            admin: { width: '25%' },
+          },
+        ],
+      },
+      {
+        type: 'row',
+        fields: [
+          {
+            name: 'rel',
+            type: 'select',
+            defaultValue: 'none',
+            label: 'Link Rel',
+            options: [
+              { label: 'Default', value: 'none' },
+              { label: 'nofollow', value: 'nofollow' },
+              { label: 'sponsored', value: 'sponsored' },
+              { label: 'ugc', value: 'ugc' },
+            ],
             admin: { width: '40%' },
+          },
+          {
+            name: 'newTab',
+            type: 'checkbox',
+            label: 'Open in new tab',
+            defaultValue: false,
+            admin: { width: '60%' },
           },
         ],
       },

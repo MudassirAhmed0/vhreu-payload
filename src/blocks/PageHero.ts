@@ -5,6 +5,7 @@ export const PageHeroBlock: Block = {
   slug: 'page-hero',
   labels: { singular: 'Page Hero', plural: 'Page Heroes' },
   fields: [
+    // ── Layout ──
     {
       name: 'variant',
       type: 'select',
@@ -12,10 +13,11 @@ export const PageHeroBlock: Block = {
       required: true,
       options: [
         { label: 'Centered', value: 'centered' },
-        { label: 'Split (text left, image right)', value: 'split' },
-        { label: 'Stacked', value: 'stacked' },
+        { label: 'Split (text left, media right)', value: 'split' },
       ],
     },
+
+    // ── Sidebar settings ──
     {
       name: 'dark',
       type: 'checkbox',
@@ -41,89 +43,105 @@ export const PageHeroBlock: Block = {
       name: 'formType',
       type: 'select',
       defaultValue: 'none',
-      label: 'Form / Right Content',
+      label: 'Form',
       options: [
         { label: 'None', value: 'none' },
-        { label: 'VIN Search Form', value: 'vin' },
+        { label: 'VIN Search', value: 'vin' },
         { label: 'Contact Form', value: 'contact' },
       ],
-      admin: {
-        position: 'sidebar',
-        description: 'Centered/stacked: shows below text. Split: shows on right side.',
-      },
+      admin: { position: 'sidebar' },
     },
+
+    // ── Tag (optional — collapsible) ──
     {
-      type: 'row',
+      type: 'collapsible',
+      label: 'Tag (label above heading)',
+      admin: { initCollapsed: true },
       fields: [
         {
-          name: 'tag',
-          type: 'text',
-          localized: true,
-          admin: { width: '40%', description: 'Small label above heading' },
-        },
-        {
-          name: 'tagLevel',
-          type: 'select',
-          defaultValue: 'span',
-          label: 'Tag HTML',
-          options: [
-            { label: 'span (decorative)', value: 'span' },
-            { label: 'h2', value: 'h2' },
-            { label: 'h3', value: 'h3' },
-            { label: 'h4', value: 'h4' },
-            { label: 'p', value: 'p' },
+          type: 'row',
+          fields: [
+            {
+              name: 'tag',
+              type: 'text',
+              localized: true,
+              admin: { width: '70%' },
+            },
+            {
+              name: 'tagLevel',
+              type: 'select',
+              defaultValue: 'span',
+              label: 'Element',
+              options: [
+                { label: 'span', value: 'span' },
+                { label: 'h2', value: 'h2' },
+                { label: 'h3', value: 'h3' },
+                { label: 'h4', value: 'h4' },
+                { label: 'p', value: 'p' },
+              ],
+              admin: { width: '30%' },
+            },
           ],
-          admin: { width: '20%' },
         },
       ],
     },
+
+    // ── Main content ──
     {
       name: 'title',
       type: 'text',
       required: true,
       localized: true,
-      admin: { description: 'Main heading text' },
+      admin: {
+        description: 'Use **double asterisks** to highlight. Example: Check Any European Vehicle\'s **Full History Report**',
+      },
     },
     {
-      name: 'highlight',
-      type: 'text',
-      localized: true,
-      admin: { description: 'Bold gradient portion of heading' },
-    },
-    {
-      name: 'subtitle',
+      name: 'description',
       type: 'textarea',
       localized: true,
     },
+
+    // ── Secondary heading (optional — collapsible) ──
     {
-      type: 'row',
+      type: 'collapsible',
+      label: 'Secondary Heading',
+      admin: { initCollapsed: true },
       fields: [
         {
-          name: 'secondaryHeading',
-          type: 'text',
-          localized: true,
-          admin: { width: '60%', description: 'Heading after description, before CTAs (e.g. "We\'ll be happy to assist you!")' },
-        },
-        {
-          name: 'secondaryHeadingLevel',
-          type: 'select',
-          defaultValue: 'h3',
-          label: 'Tag',
-          options: [
-            { label: 'h2', value: 'h2' },
-            { label: 'h3', value: 'h3' },
-            { label: 'h4', value: 'h4' },
-            { label: 'p', value: 'p' },
+          type: 'row',
+          fields: [
+            {
+              name: 'secondaryHeading',
+              type: 'text',
+              localized: true,
+              admin: { width: '70%', description: 'Accent heading before CTAs' },
+            },
+            {
+              name: 'secondaryHeadingLevel',
+              type: 'select',
+              defaultValue: 'h3',
+              label: 'Element',
+              options: [
+                { label: 'h2', value: 'h2' },
+                { label: 'h3', value: 'h3' },
+                { label: 'h4', value: 'h4' },
+                { label: 'p', value: 'p' },
+              ],
+              admin: { width: '30%' },
+            },
           ],
-          admin: { width: '20%' },
         },
       ],
     },
+
+    // ── Trust badges ──
     {
       name: 'bullets',
       type: 'array',
-      label: 'Trust Badges / Highlights',
+      label: 'Trust Badges',
       maxRows: 6,
+      admin: { initCollapsed: true },
       fields: [
         {
           type: 'row',
@@ -139,9 +157,9 @@ export const PageHeroBlock: Block = {
               name: 'tag',
               type: 'select',
               defaultValue: 'span',
-              label: 'HTML Tag',
+              label: 'Element',
               options: [
-                { label: 'span (no SEO)', value: 'span' },
+                { label: 'span', value: 'span' },
                 { label: 'h2', value: 'h2' },
                 { label: 'h3', value: 'h3' },
                 { label: 'h4', value: 'h4' },
@@ -154,11 +172,14 @@ export const PageHeroBlock: Block = {
         },
       ],
     },
+
+    // ── Feature highlights ──
     {
       name: 'features',
       type: 'array',
-      label: 'Feature Highlights (icon + text below form)',
+      label: 'Feature Highlights',
       maxRows: 8,
+      admin: { initCollapsed: true },
       fields: [
         iconField(),
         {
@@ -169,47 +190,52 @@ export const PageHeroBlock: Block = {
               type: 'text',
               required: true,
               localized: true,
-              admin: { width: '65%' },
+              admin: { width: '70%' },
             },
             {
               name: 'tag',
               type: 'select',
               defaultValue: 'span',
-              label: 'HTML Tag',
+              label: 'Element',
               options: [
-                { label: 'span (no SEO)', value: 'span' },
+                { label: 'span', value: 'span' },
                 { label: 'h2', value: 'h2' },
                 { label: 'h3', value: 'h3' },
                 { label: 'h4', value: 'h4' },
                 { label: 'h5', value: 'h5' },
                 { label: 'p', value: 'p' },
               ],
-              admin: { width: '35%' },
+              admin: { width: '30%' },
             },
           ],
         },
       ],
     },
+
+    // ── Media ──
     {
       name: 'heroImage',
       type: 'upload',
       relationTo: 'media',
       admin: {
-        description: 'Right-side image for split variant (580×660 recommended)',
+        description: 'Right-side image (580×660 recommended)',
         condition: (_, { variant }) => variant === 'split',
       },
     },
+
+    // ── CTA buttons ──
     {
       name: 'ctas',
       type: 'array',
       label: 'CTA Buttons',
       maxRows: 4,
+      admin: { initCollapsed: true },
       fields: [
         {
           type: 'row',
           fields: [
-            { name: 'label', type: 'text', required: true, localized: true, admin: { width: '30%' } },
-            { name: 'href', type: 'text', required: true, admin: { width: '25%' } },
+            { name: 'label', type: 'text', required: true, localized: true, admin: { width: '40%' } },
+            { name: 'href', type: 'text', required: true, admin: { width: '40%' } },
             {
               name: 'style',
               type: 'select',
@@ -218,34 +244,40 @@ export const PageHeroBlock: Block = {
                 { label: 'Primary', value: 'primary' },
                 { label: 'Secondary', value: 'secondary' },
               ],
-              admin: { width: '15%' },
+              admin: { width: '20%' },
             },
+          ],
+        },
+        {
+          type: 'row',
+          fields: [
             {
               name: 'rel',
               type: 'select',
               defaultValue: 'none',
               options: [
-                { label: 'Default (dofollow)', value: 'none' },
+                { label: 'Default', value: 'none' },
                 { label: 'nofollow', value: 'nofollow' },
                 { label: 'sponsored', value: 'sponsored' },
                 { label: 'ugc', value: 'ugc' },
-                { label: 'nofollow noopener', value: 'nofollow noopener' },
               ],
-              admin: { width: '15%' },
+              admin: { width: '40%' },
             },
-            { name: 'newTab', type: 'checkbox', label: 'New tab', defaultValue: false, admin: { width: '10%' } },
-            { name: 'isExternal', type: 'checkbox', label: 'External', defaultValue: false, admin: { width: '5%' } },
+            { name: 'newTab', type: 'checkbox', label: 'Open in new tab', defaultValue: false, admin: { width: '30%' } },
+            { name: 'isExternal', type: 'checkbox', label: 'External link', defaultValue: false, admin: { width: '30%' } },
           ],
         },
       ],
     },
+
+    // ── Helper links ──
     {
       name: 'helperLinks',
       type: 'array',
-      label: 'Helper Links (below form)',
+      label: 'Helper Links',
       maxRows: 4,
       admin: {
-        description: 'Shown below the form. In split variant, only visible when no hero image is set.',
+        initCollapsed: true,
         condition: (_, siblingData) => {
           if (siblingData.variant === 'split' && siblingData.heroImage) return false
           return true
@@ -255,34 +287,38 @@ export const PageHeroBlock: Block = {
         {
           type: 'row',
           fields: [
-            { name: 'label', type: 'text', required: true, localized: true, admin: { width: '25%' } },
-            { name: 'href', type: 'text', required: true, admin: { width: '20%' } },
+            { name: 'label', type: 'text', required: true, localized: true, admin: { width: '35%' } },
+            { name: 'href', type: 'text', required: true, admin: { width: '35%' } },
             {
               name: 'style',
               type: 'select',
               defaultValue: 'arrow',
               options: [
-                { label: 'Arrow link', value: 'arrow' },
-                { label: 'Pill badge', value: 'pill' },
+                { label: 'Arrow', value: 'arrow' },
+                { label: 'Pill', value: 'pill' },
               ],
               admin: { width: '15%' },
             },
-            { name: 'icon', type: 'text', admin: { width: '10%', description: 'Lucide icon' } },
+            { name: 'icon', type: 'text', admin: { width: '15%', placeholder: 'Lucide icon' } },
+          ],
+        },
+        {
+          type: 'row',
+          fields: [
             {
               name: 'rel',
               type: 'select',
               defaultValue: 'none',
               options: [
-                { label: 'Default (dofollow)', value: 'none' },
+                { label: 'Default', value: 'none' },
                 { label: 'nofollow', value: 'nofollow' },
                 { label: 'sponsored', value: 'sponsored' },
                 { label: 'ugc', value: 'ugc' },
-                { label: 'nofollow noopener', value: 'nofollow noopener' },
               ],
-              admin: { width: '15%' },
+              admin: { width: '40%' },
             },
-            { name: 'newTab', type: 'checkbox', label: 'New tab', defaultValue: false, admin: { width: '10%' } },
-            { name: 'isExternal', type: 'checkbox', label: 'External', defaultValue: false, admin: { width: '5%' } },
+            { name: 'newTab', type: 'checkbox', label: 'Open in new tab', defaultValue: false, admin: { width: '30%' } },
+            { name: 'isExternal', type: 'checkbox', label: 'External link', defaultValue: false, admin: { width: '30%' } },
           ],
         },
       ],

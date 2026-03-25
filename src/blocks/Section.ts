@@ -2,6 +2,7 @@ import type { Block } from 'payload'
 import { sectionHeaderFields } from '../fields/sectionHeader'
 import { FAQsBlock } from './FAQs'
 import { RichTextBlock } from './RichText'
+import { CardGridBlock } from './CardGrid'
 
 /**
  * Section — the universal section container.
@@ -14,6 +15,7 @@ export const SectionBlock: Block = {
   slug: 'section',
   labels: { singular: 'Section', plural: 'Sections' },
   fields: [
+    // ── Main visual setting ──
     {
       type: 'row',
       fields: [
@@ -27,7 +29,7 @@ export const SectionBlock: Block = {
             { label: 'Muted (cream)', value: 'muted' },
             { label: 'Dark (navy)', value: 'dark' },
           ],
-          admin: { width: '30%' },
+          admin: { width: '50%' },
         },
         {
           name: 'scene',
@@ -43,25 +45,36 @@ export const SectionBlock: Block = {
             { label: 'Edge', value: 'edge' },
             { label: 'Minimal', value: 'minimal' },
           ],
-          admin: { width: '30%' },
-        },
-        {
-          name: 'sectionId',
-          type: 'text',
-          label: 'Anchor ID',
-          admin: { width: '20%', description: 'e.g. "hero" for #hero links' },
-        },
-        {
-          name: 'narrow',
-          type: 'checkbox',
-          label: 'Narrow (max-w-3xl)',
-          defaultValue: false,
-          admin: { width: '20%' },
+          admin: { width: '50%' },
         },
       ],
     },
-    // Section header — leave empty when inner block has its own header (e.g. SplitContent)
+
+    // ── Secondary settings in sidebar ──
+    {
+      name: 'sectionId',
+      type: 'text',
+      label: 'Anchor ID',
+      admin: {
+        position: 'sidebar',
+        description: 'e.g. "hero" for #hero links',
+      },
+    },
+    {
+      name: 'narrow',
+      type: 'checkbox',
+      label: 'Narrow Layout',
+      defaultValue: false,
+      admin: {
+        position: 'sidebar',
+        description: 'Constrain width for focused content like FAQ',
+      },
+    },
+
+    // ── Section header — leave empty when inner block has its own ──
     ...sectionHeaderFields(),
+
+    // ── Content ──
     {
       name: 'content',
       type: 'blocks',
@@ -69,6 +82,7 @@ export const SectionBlock: Block = {
       maxRows: 1,
       blocks: [
         // Inner blocks — add new ones here as they're built
+        CardGridBlock,
         FAQsBlock,
         RichTextBlock,
       ],
