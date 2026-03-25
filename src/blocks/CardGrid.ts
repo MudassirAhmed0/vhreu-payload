@@ -51,17 +51,6 @@ export const CardGridBlock: Block = {
       ],
       admin: { position: 'sidebar' },
     },
-    {
-      name: 'appearance',
-      type: 'select',
-      defaultValue: 'card',
-      label: 'Item Style',
-      options: [
-        { label: 'Card', value: 'card' },
-        { label: 'Flat', value: 'flat' },
-      ],
-      admin: { position: 'sidebar' },
-    },
 
     // ── Cards ──
     {
@@ -260,6 +249,16 @@ export const CardGridBlock: Block = {
                 { label: 'Danger (red)', value: 'danger' },
                 { label: 'Neutral', value: 'neutral' },
                 { label: 'Muted', value: 'muted' },
+              ],
+            },
+            {
+              name: 'listItemStyle',
+              type: 'select',
+              defaultValue: 'flat',
+              label: 'Item Style',
+              options: [
+                { label: 'Flat', value: 'flat' },
+                { label: 'Card', value: 'card' },
               ],
             },
           ],
