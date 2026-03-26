@@ -5,7 +5,9 @@ import { RichTextBlock } from './RichText'
 import { CardGridBlock } from './CardGrid'
 import { SplitContentBlock } from './SplitContent'
 import { PillGridBlock } from './PillGrid'
+import { LinkCardGridBlock } from './LinkCardGrid'
 import { StepsBlock } from './Steps'
+import { CtaBannerBlock } from './CtaBanner'
 
 /**
  * Section — the universal section container.
@@ -90,7 +92,9 @@ export const SectionBlock: Block = {
         RichTextBlock,
         SplitContentBlock,
         PillGridBlock,
+        LinkCardGridBlock,
         StepsBlock,
+        CtaBannerBlock,
       ],
     },
   ],
