@@ -1,4 +1,5 @@
 import type { Block } from 'payload'
+import { ctasField } from '../fields/cta'
 
 /**
  * CtaBanner — top-level CTA block.
@@ -97,26 +98,14 @@ export const CtaBannerBlock: Block = {
       localized: true,
     },
 
-    // ── Link mode fields ──
+    // ── Link mode CTAs ──
     {
-      type: 'row',
+      ...ctasField(),
       admin: {
+        ...(ctasField() as { admin?: object }).admin,
         condition: (_, siblingData) => siblingData.mode !== 'vin-input',
       },
-      fields: [
-        {
-          name: 'ctaLabel',
-          type: 'text',
-          localized: true,
-          admin: { width: '50%', placeholder: 'Check Now' },
-        },
-        {
-          name: 'ctaHref',
-          type: 'text',
-          admin: { width: '50%', placeholder: '#hero or /pricing' },
-        },
-      ],
-    },
+    } as import('payload').Field,
 
     // ── VIN input mode fields ──
     {
