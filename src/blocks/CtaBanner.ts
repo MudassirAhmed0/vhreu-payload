@@ -1,30 +1,46 @@
 import type { Block } from 'payload'
 
 /**
- * CtaBanner — inner block for Section.
- * Call-to-action with heading, subtitle, and either a link button or VIN input.
- * Parent Section provides background, padding, and scene.
+ * CtaBanner — top-level CTA block.
+ * Full-bleed or contained call-to-action with heading, description, and link or VIN input.
+ * Renders its own background — NOT an inner block of Section.
  */
 export const CtaBannerBlock: Block = {
   slug: 'cta-banner',
   labels: { singular: 'CTA Banner', plural: 'CTA Banners' },
   fields: [
+    // ── Sidebar settings ──
     {
-      name: 'heading',
-      type: 'text',
-      required: true,
-      localized: true,
+      name: 'layout',
+      type: 'select',
+      defaultValue: 'full',
+      label: 'Layout',
+      options: [
+        { label: 'Full Width', value: 'full' },
+        { label: 'Contained', value: 'contained' },
+      ],
+      admin: { position: 'sidebar' },
+    },
+    {
+      name: 'dark',
+      type: 'checkbox',
+      defaultValue: true,
+      label: 'Dark Background',
+      admin: { position: 'sidebar' },
+    },
+    {
+      name: 'scene',
+      type: 'select',
+      label: 'Scene',
+      options: [
+        { label: 'None', value: 'none' },
+        { label: 'Glow', value: 'glow' },
+      ],
       admin: {
-        description: 'Use **double asterisks** for gradient highlight',
+        position: 'sidebar',
+        condition: (_, siblingData) => siblingData.layout !== 'contained',
       },
     },
-    {
-      name: 'subtitle',
-      type: 'textarea',
-      localized: true,
-    },
-
-    // ── Mode ──
     {
       name: 'mode',
       type: 'select',
@@ -35,6 +51,50 @@ export const CtaBannerBlock: Block = {
         { label: 'VIN Input', value: 'vin-input' },
       ],
       admin: { position: 'sidebar' },
+    },
+
+    // ── Tag ──
+    {
+      name: 'tag',
+      type: 'text',
+      localized: true,
+      admin: { description: 'Small label above heading' },
+    },
+
+    // ── Heading + level ──
+    {
+      type: 'row',
+      fields: [
+        {
+          name: 'heading',
+          type: 'text',
+          required: true,
+          localized: true,
+          admin: {
+            width: '75%',
+            description: 'Use **double asterisks** for gradient highlight',
+          },
+        },
+        {
+          name: 'headingLevel',
+          type: 'select',
+          defaultValue: 'h2',
+          label: 'Element',
+          options: [
+            { label: 'H2', value: 'h2' },
+            { label: 'H3', value: 'h3' },
+            { label: 'H4', value: 'h4' },
+          ],
+          admin: { width: '25%' },
+        },
+      ],
+    },
+
+    // ── Description (rich text) ──
+    {
+      name: 'description',
+      type: 'richText',
+      localized: true,
     },
 
     // ── Link mode fields ──

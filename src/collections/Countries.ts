@@ -2,6 +2,7 @@ import type { CollectionConfig } from 'payload'
 import { slugField } from '../fields/slug'
 import { PageHeroBlock } from '../blocks/PageHero'
 import { SectionBlock } from '../blocks/Section'
+import { CtaBannerBlock } from '../blocks/CtaBanner'
 
 export const Countries: CollectionConfig = {
   slug: 'countries',
@@ -38,7 +39,7 @@ export const Countries: CollectionConfig = {
       name: 'content',
       type: 'blocks',
       localized: true,
-      blocks: [PageHeroBlock, SectionBlock],
+      blocks: [PageHeroBlock, SectionBlock, CtaBannerBlock],
     },
   ],
 }

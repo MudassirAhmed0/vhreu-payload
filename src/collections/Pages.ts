@@ -3,6 +3,7 @@ import { slugField } from '../fields/slug'
 import { revalidatePage } from '../hooks/revalidate'
 import { PageHeroBlock } from '../blocks/PageHero'
 import { SectionBlock } from '../blocks/Section'
+import { CtaBannerBlock } from '../blocks/CtaBanner'
 
 export const Pages: CollectionConfig = {
   slug: 'pages',
@@ -42,7 +43,7 @@ export const Pages: CollectionConfig = {
               name: 'content',
               type: 'blocks',
               localized: true,
-              blocks: [PageHeroBlock, SectionBlock],
+              blocks: [PageHeroBlock, SectionBlock, CtaBannerBlock],
             },
           ],
         },
