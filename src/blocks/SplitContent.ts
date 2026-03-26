@@ -55,12 +55,23 @@ export const SplitContentBlock: Block = {
 
     // ── Media ──
     {
+      name: 'mediaType',
+      type: 'select',
+      defaultValue: 'image',
+      label: 'Media Type',
+      options: [
+        { label: 'Image', value: 'image' },
+        { label: 'VIN Structure Widget', value: 'vin-structure' },
+      ],
+      admin: { position: 'sidebar' },
+    },
+    {
       name: 'media',
       type: 'upload',
       relationTo: 'media',
-      required: true,
       admin: {
         description: 'Right-side image (recommended 600×500 or larger)',
+        condition: (_, siblingData) => !siblingData.mediaType || siblingData.mediaType === 'image',
       },
     },
 

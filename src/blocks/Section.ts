@@ -4,6 +4,7 @@ import { FAQsBlock } from './FAQs'
 import { RichTextBlock } from './RichText'
 import { CardGridBlock } from './CardGrid'
 import { SplitContentBlock } from './SplitContent'
+import { PillGridBlock } from './PillGrid'
 import { StepsBlock } from './Steps'
 
 /**
@@ -88,6 +89,7 @@ export const SectionBlock: Block = {
         FAQsBlock,
         RichTextBlock,
         SplitContentBlock,
+        PillGridBlock,
         StepsBlock,
       ],
     },
