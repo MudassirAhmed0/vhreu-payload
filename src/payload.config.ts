@@ -1,4 +1,5 @@
 import { sqliteAdapter } from '@payloadcms/db-sqlite'
+import { s3Storage } from '@payloadcms/storage-s3'
 import { lexicalEditor, LinkFeature, UploadFeature } from '@payloadcms/richtext-lexical'
 import { seoPlugin } from '@payloadcms/plugin-seo'
 import { redirectsPlugin } from '@payloadcms/plugin-redirects'
@@ -13,8 +14,8 @@ import { Pages } from './collections/Pages'
 import { Posts } from './collections/Posts'
 import { Authors } from './collections/Authors'
 import { Categories } from './collections/Categories'
-import { Countries } from './collections/Countries'
-import { CarMakes } from './collections/CarMakes'
+import { ContentGroups } from './collections/ContentGroups'
+import { ContentPages } from './collections/ContentPages'
 import { SiteConfig } from './globals/SiteConfig'
 import { revalidateRedirects } from './hooks/revalidate'
 
@@ -36,8 +37,8 @@ export default buildConfig({
     Posts,
     Authors,
     Categories,
-    Countries,
-    CarMakes,
+    ContentGroups,
+    ContentPages,
   ],
 
   globals: [SiteConfig],
@@ -100,7 +101,7 @@ export default buildConfig({
 
   plugins: [
     seoPlugin({
-      collections: ['pages', 'posts', 'countries', 'car-makes'],
+      collections: ['pages', 'posts', 'content-pages'],
       uploadsCollection: 'media',
       fields: ({ defaultFields }) => [
         ...defaultFields,
@@ -142,6 +143,24 @@ export default buildConfig({
         hooks: {
           afterChange: [revalidateRedirects],
         },
+      },
+    }),
+    s3Storage({
+      acl: 'public-read',
+      collections: {
+        media: {
+          prefix: 'vehicle-history-euro-payload',
+          disablePayloadAccessControl: true,
+        },
+      },
+      bucket: process.env.DO_SPACE_BUCKET || '',
+      config: {
+        credentials: {
+          accessKeyId: process.env.DO_SPACE_ACCESS_KEY_ID || '',
+          secretAccessKey: process.env.DO_SPACE_SECRET_ACCESS_KEY || '',
+        },
+        endpoint: process.env.DO_SPACE_ENDPOINT || '',
+        region: process.env.DO_SPACE_REGION || '',
       },
     }),
   ],
