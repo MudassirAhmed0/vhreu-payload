@@ -4,6 +4,9 @@ import { revalidatePage } from '../hooks/revalidate'
 import { PageHeroBlock } from '../blocks/PageHero'
 import { SectionBlock } from '../blocks/Section'
 import { CtaBannerBlock } from '../blocks/CtaBanner'
+import { ContactFormBlock } from '../blocks/ContactForm'
+import { LegalContentBlock } from '../blocks/LegalContent'
+import { RefundFormBlock } from '../blocks/RefundForm'
 
 export const Pages: CollectionConfig = {
   slug: 'pages',
@@ -43,7 +46,12 @@ export const Pages: CollectionConfig = {
               name: 'content',
               type: 'blocks',
               localized: true,
-              blocks: [PageHeroBlock, SectionBlock, CtaBannerBlock],
+              blocks: [PageHeroBlock, SectionBlock, CtaBannerBlock, ContactFormBlock, RefundFormBlock, LegalContentBlock],
+              admin: {
+                components: {
+                  RowLabel: '@/components/BlockRowLabel',
+                },
+              },
             },
           ],
         },
