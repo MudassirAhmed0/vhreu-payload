@@ -1,0 +1,2841 @@
+[
+  {
+    "slug": "ford",
+    "name": "Ford",
+    "url": "https://vehiclehistory.eu/window-sticker/ford",
+    "sectionCount": 3,
+    "meta": {
+      "title": "Ford Window Sticker Lookup: Check Used Ford's Original Build",
+      "description": "Get a Ford Window Sticker by VIN to confirm how your Ford left the factory. View the real build with accurate MSRP, trim, engine details, and equipment."
+    },
+    "sections": {
+      "hero": {
+        "type": "hero",
+        "heading": "Find Your Ford’s Original Factory Window Sticker",
+        "description": "Not sure what your Ford really is? Pull the Ford window sticker by VIN and see the original factory build, including trim, equipment, packages, and other key specs. Handy for buyers and sellers.",
+        "_improvised": {
+          "tagline": "Every Detail, Factory Verified",
+          "tagLevel": "span",
+          "heading": "Find Your Ford's **Original Factory Window Sticker**",
+          "features": [
+            {
+              "icon": "file-text",
+              "text": "Factory Specs"
+            },
+            {
+              "icon": "tag",
+              "text": "Original MSRP"
+            },
+            {
+              "icon": "list",
+              "text": "Full Equipment List"
+            },
+            {
+              "icon": "zap",
+              "text": "Instant Results"
+            }
+          ]
+        }
+      },
+      "whatIs": {
+        "type": "what-is",
+        "heading": "What is a Ford Window Sticker?",
+        "paragraphs": [
+          "A Ford window sticker is like the car’s factory receipt. It shows how the Ford was built when it was new, including the model and trim, the VIN, what came as standard, what was added as options, and the original price context (MSRP).",
+          "For European buyers and sellers, it’s a straightforward way to check what the car should have from day one. If the original sticker isn’t with the car anymore, Vehicle History Europe lets you retrieve a Ford Window Sticker by VIN as a downloadable digital copy you can keep or share during a sale."
+        ],
+        "ctas": [
+          {
+            "text": "View Sample",
+            "href": "https://vehiclehistory.eu/sticker/vin/WF0PXXGCHPKP11608-B4D7B4D7-0F0F-BC0D-5C6B-10DB7A44C054"
+          }
+        ],
+        "_improvised": {
+          "tagline": "The Monroney Label Explained",
+          "tagLevel": "span",
+          "heading": "What is a **Ford Window Sticker**?"
+        }
+      },
+      "whatsOn": {
+        "type": "whats-on",
+        "heading": "What's on a Ford Window Sticker?",
+        "introParagraph": "A Ford listing can be messy. A Ford window sticker puts the factory details in one place, so you can see what the Ford was built with from the start, including the identity info, equipment, options, key specs, and MSRP. Here’s what you’ll find once you pull a Ford window sticker by VIN.",
+        "categories": [
+          {
+            "title": "Vehicle Description",
+            "titleElement": "h3",
+            "description": "This is the plain-language identity of the car. Model year, Ford model name, derivative/series, plus the key basics that stop mix-ups. Ford uses different naming across markets, so this keeps you on the right version.",
+            "subItems": [
+              {
+                "title": "Vehicle year, make, and model",
+                "titleElement": "h4",
+                "description": "Shows the official year and model family, so you’re not comparing a Focus to a Focus that’s actually a different generation."
+              },
+              {
+                "title": "Trim level and body style",
+                "titleElement": "h4",
+                "description": "This is where trims like the Trend, Titanium, ST-Line, or Vignale, and body types (e.g., hatch, estate, SUV, van) show up. Knowing this helps you spot “trim upgrades” that are basically just badges."
+              },
+              {
+                "title": "Vehicle Identification Number (VIN)",
+                "titleElement": "h4",
+                "description": "The VIN (or chassis number) is tied to the label, so you can cross-check it against the windscreen, door jamb, and documents."
+              }
+            ]
+          },
+          {
+            "title": "Standard Equipment",
+            "titleElement": "h3",
+            "description": "This section lists what Ford intended to come standard for that trim level. It’s not the fancy extras; it’s the baseline. This helps you compare trims quickly without opening ten tabs and losing your mind.",
+            "subItems": [
+              {
+                "title": "Core comfort and convenience features",
+                "titleElement": "h4",
+                "description": "This is the everyday stuff that shapes how the Ford feels: comfort features, convenience tech, and practical equipment listed for that build."
+              },
+              {
+                "title": "Safety basics",
+                "titleElement": "h4",
+                "description": "On the window sticker, this part highlights safety and driver support items that should be present for that build. It lets you check what should be on the vehicle before you travel to see it."
+              }
+            ]
+          },
+          {
+            "title": "Optional Equipment",
+            "titleElement": "h3",
+            "description": "This is the part that separates “basic spec” from “nice spec.” Factory-fitted options and upgrades tied to the VIN. This helps you avoid paying extra for options the car never had.",
+            "subItems": [
+              {
+                "title": "Factory option packages",
+                "titleElement": "h4",
+                "description": "A single package can change the whole driving experience (e.g., lights, safety tech, heated bits, etc). The window sticker shows what bundle was fitted."
+              },
+              {
+                "title": "Individual add-on options",
+                "titleElement": "h4",
+                "description": "Single options added to the build, like upgraded seats, wheels, lighting, infotainment, or driver assist items (depending on the vehicle record). If you’re comparing two similar cars, this is the cleanest way to see what’s genuinely different."
+              },
+              {
+                "title": "Trim-level additions",
+                "titleElement": "h4",
+                "description": "Some trims include extras that don’t show on lower trims, even if the seller calls them “options.” This section helps separate trim content from paid upgrades."
+              }
+            ]
+          },
+          {
+            "title": "Manufacturer Suggested Retail Price (MSRP)",
+            "titleElement": "h3",
+            "description": "This section gives you the original pricing context shown on the sticker. It’s not today’s used price. It’s the factory starting point. Giving you a reality anchor for what was “base” and what was paid as extras.",
+            "subItems": [
+              {
+                "title": "Base vehicle MSRP",
+                "titleElement": "h4",
+                "description": "This was the manufacturer’s suggested base price from the sticker. Useful for comparing trims and understanding where the car originally sat in the range."
+              },
+              {
+                "title": "Factory options and packages cost",
+                "titleElement": "h4",
+                "description": "Two cars can look identical in photos. This breakdown shows what was added at the factory and helps explain why one was genuinely a higher-spec build."
+              }
+            ]
+          },
+          {
+            "title": "Mechanical and Engine Information",
+            "titleElement": "h3",
+            "description": "The engine line is linked to the VIN, with build identifiers like aspiration, layout, displacement, and other factory details shown on the window sticker. This helps when you’re comparing running costs, insurance group expectations, or just trying to confirm what’s under the bonnet.",
+            "subItems": [
+              {
+                "title": "Engine specifications",
+                "titleElement": "h4",
+                "description": "Shows the engine identifiers listed for that Ford, such as displacement, cylinder layout, turbo/aspiration, and other details when listed. For example, the seller says “1.0 EcoBoost,” but the paperwork tells a slightly different story. This section helps you verify it."
+              },
+              {
+                "title": "Transmission",
+                "titleElement": "h4",
+                "description": "Shows whether the Ford was built with a manual or automatic gearbox, and often includes the exact transmission type listed for that VIN."
+              },
+              {
+                "title": "Drivetrain layout",
+                "titleElement": "h4",
+                "description": "Confirms how power is delivered (FWD/RWD/AWD). This is important information, because it can affect the winter usability, tyre setup expectations, and long-term driving feels"
+              }
+            ]
+          },
+          {
+            "title": "Factory Power and Performance",
+            "titleElement": "h3",
+            "description": "This performance block shows the key numbers in a simple format so you can compare trims properly. Even if you’re not racing anyone, it helps you avoid buying a “sporty badge” that doesn’t match the actual output.",
+            "subItems": [
+              {
+                "title": "Power output (hp / kW)",
+                "titleElement": "h4",
+                "description": "The window sticker listed the factory-rated power figures. This is great for comparing similar Ford trims and avoiding confusion between close variants"
+              },
+              {
+                "title": "Torque and performance figures",
+                "titleElement": "h4",
+                "description": "Shows torque and related performance lines from the sticker. The torque often explains why one Ford feels punchy, and another feels flat, even with similar horsepower numbers."
+              },
+              {
+                "title": "Acceleration and top speed",
+                "titleElement": "h4",
+                "description": "This section makes comparisons easier when you’re looking at two similar Fords, helping you see which one has the stronger performance on paper."
+              }
+            ]
+          },
+          {
+            "title": "Emissions Block",
+            "titleElement": "h3",
+            "description": "For European buyers, emissions details matter for running costs and where you can drive under local rules. Keeping these figures in the same label also makes cross-border paperwork feel a lot more manageable.",
+            "subItems": [
+              {
+                "title": "Euro emissions standard",
+                "titleElement": "h4",
+                "description": "Shows the Euro standard when listed. Helps you understand the vehicle’s compliance category at a glance."
+              },
+              {
+                "title": "CO₂ emissions (g/km)",
+                "titleElement": "h4",
+                "description": "Lists the CO₂ figure shown on the sticker, which can affect comparisons between similar cars and sometimes influences tax/fee calculations depending on the country."
+              },
+              {
+                "title": "Practical cross-border checks",
+                "titleElement": "h4",
+                "description": "If you’re importing a Ford into another country in Europe, the emissions info in one place helps you compare the seller’s claims with what your registration office requires, without having to sift through multiple documents."
+              }
+            ]
+          },
+          {
+            "title": "Basic Equipment",
+            "titleElement": "h3",
+            "description": "This shows the core items you’d normally expect on that Ford trim level, helping you understand the baseline before options. Perfect when you’re scanning multiple listings and want quick clarity.",
+            "subItems": [
+              {
+                "title": "Everyday essentials",
+                "titleElement": "h4",
+                "description": "The regular daily-driver features most people rely on. It matters because it makes inspections faster and helps you confirm what should be there before you even show up."
+              },
+              {
+                "title": "Key safety essentials",
+                "titleElement": "h4",
+                "description": "The window sticker highlights safety-related essentials when listed. If a safety kit is important to you, this helps you check the right boxes without guessing."
+              }
+            ]
+          }
+        ],
+        "ctas": [
+          {
+            "text": "View Sample",
+            "href": "https://vehiclehistory.eu/sticker/vin/WF0PXXGCHPKP11608-B4D7B4D7-0F0F-BC0D-5C6B-10DB7A44C054"
+          }
+        ],
+        "_improvised": {
+          "tagline": "Complete Build Sheet Breakdown",
+          "tagLevel": "span",
+          "heading": "What's on a **Ford Window Sticker**?"
+        }
+      }
+    },
+    "_changes": [
+      {
+        "section": "hero",
+        "diffs": [
+          {
+            "field": "tagline",
+            "value": "Every Detail, Factory Verified"
+          },
+          {
+            "field": "heading",
+            "value": "Find Your Ford's **Original Factory Window Sticker**"
+          },
+          {
+            "field": "features",
+            "value": "4 badges"
+          }
+        ]
+      },
+      {
+        "section": "whatIs",
+        "diffs": [
+          {
+            "field": "tagline",
+            "value": "The Monroney Label Explained"
+          },
+          {
+            "field": "heading",
+            "value": "What is a **Ford Window Sticker**?"
+          }
+        ]
+      },
+      {
+        "section": "whatsOn",
+        "diffs": [
+          {
+            "field": "tagline",
+            "value": "Complete Build Sheet Breakdown"
+          },
+          {
+            "field": "heading",
+            "value": "What's on a **Ford Window Sticker**?"
+          }
+        ]
+      }
+    ],
+    "_improvisedAt": "2026-04-01T13:31:34.155Z"
+  },
+  {
+    "slug": "toyota",
+    "name": "Toyota",
+    "url": "https://vehiclehistory.eu/window-sticker/toyota",
+    "sectionCount": 3,
+    "meta": {
+      "title": "Toyota Window Sticker by VIN Lookup - Get Factory Options",
+      "description": "Get your Toyota Window Sticker by VIN & see factory specs, options, pricing & emissions. The most accurate & trusted window sticker lookup tool"
+    },
+    "sections": {
+      "hero": {
+        "type": "hero",
+        "heading": "See Toyota’s Factory Build with the Window Sticker by VIN",
+        "description": "Check a Toyota’s original factory equipment, installed options, and key vehicle details using the VIN. A clear way to understand how the car was built before you buy, sell, or compare.",
+        "_improvised": {
+          "tagline": "Every Detail, Factory Verified",
+          "tagLevel": "span",
+          "heading": "See Toyota's **Factory Build** with the Window Sticker by VIN",
+          "features": [
+            {
+              "icon": "file-text",
+              "text": "Factory Specifications"
+            },
+            {
+              "icon": "tag",
+              "text": "Original MSRP"
+            },
+            {
+              "icon": "list",
+              "text": "Full Equipment List"
+            },
+            {
+              "icon": "zap",
+              "text": "Instant VIN Lookup"
+            }
+          ]
+        }
+      },
+      "whatIs": {
+        "type": "what-is",
+        "heading": "What is a Toyota Window Sticker?",
+        "paragraphs": [
+          "A Toyota Window Sticker shows all the essential info your Toyota had when it left the factory. Think of it as the car’s official record, listing trims, engine type, transmission, standard and optional equipment, original manufacturer’s suggested retail price (MSRP), and even Euro-compliant emissions.",
+          "It’s perfect for European Toyota enthusiasts who want clarity when buying or selling, or for collectors tracking every detail. And yes, you can get it straight from the VIN, even with older Toyota models with shorter VINs."
+        ],
+        "ctas": [
+          {
+            "text": "View Sample",
+            "href": "https://vehiclehistory.eu/sticker/vin/WF0PXXGCHPKP11608-B4D7B4D7-0F0F-BC0D-5C6B-10DB7A44C054"
+          }
+        ],
+        "_improvised": {
+          "tagline": "Your Toyota's Birth Certificate",
+          "tagLevel": "span",
+          "heading": "What is a **Toyota Window Sticker**?"
+        }
+      },
+      "whatsOn": {
+        "type": "whats-on",
+        "heading": "What's on a Toyota Window Sticker?",
+        "introParagraph": "A Toyota Window Sticker by VIN is a full breakdown of the vehicle, from its identity to technical and safety details. You’ll find info on the model year, trim, VIN, engine, fuel system, emissions, MSRP, optional packages, standard equipment, and performance specs.",
+        "categories": [
+          {
+            "title": "Vehicle Description",
+            "titleElement": "h3",
+            "description": "This is your Toyota’s ID card. It lists the year, make, model, trim level, body style, and VIN. Perfect for double-checking that what you see matches what came from the factory.",
+            "subItems": [
+              {
+                "title": "Vehicle year, make, and model",
+                "titleElement": "h4",
+                "description": "This is the quick “headline” for the car, the kind of line you want to match against the listing, the logbook, and your own eyes. For Toyota fans, it’s also where generations and facelifts quietly matter."
+              },
+              {
+                "title": "Trim level and body style",
+                "titleElement": "h4",
+                "description": "Trim is where value lives. This part helps you understand what the Toyota was meant to be from the start, not what it was turned into later."
+              },
+              {
+                "title": "Vehicle Identification Number (VIN)",
+                "titleElement": "h4",
+                "description": "The Vehicle Identification Number (VIN) is the vehicle’s unique fingerprint for decoding and matching records. It’s what makes a window sticker with VIN possible in the first place."
+              }
+            ]
+          },
+          {
+            "title": "Standard Equipment",
+            "titleElement": "h3",
+            "description": "This section covers features that come with the base Toyota model, including safety basics, comfort, and convenience. Great for comparing trims and seeing what was factory-installed.",
+            "subItems": [
+              {
+                "title": "Core comfort and convenience features",
+                "titleElement": "h4",
+                "description": "This is your daily-living list: things like climate features, infotainment basics, driver convenience items, and interior practicality. It’s also where you catch those subtle differences between model years."
+              },
+              {
+                "title": "Safety basics",
+                "titleElement": "h4",
+                "description": "Safety equipment is a big reason people stick with Toyota in the first place. This part typically summarises the baseline safety set-up. The stuff the car was designed to have as standard. It’s useful for families, commuters, and anyone buying used who wants fewer question marks."
+              }
+            ]
+          },
+          {
+            "title": "Optional Equipment",
+            "titleElement": "h3",
+            "description": "This section helps you separate factory-installed extras from later add-ons. It’s also the part collectors love, because original option combinations can affect desirability.",
+            "subItems": [
+              {
+                "title": "Factory option packages",
+                "titleElement": "h4",
+                "description": "This part groups options the way the factory sold them, which is helpful when you’re verifying a trim claim"
+              },
+              {
+                "title": "Individual add-on options",
+                "titleElement": "h4",
+                "description": "These options are standalone factory enhancements, represented by single selection items. They may range from minor convenience features to substantial technological upgrades, which can influence both the overall cost and daily user experience."
+              },
+              {
+                "title": "Trim-level additions",
+                "titleElement": "h4",
+                "description": "Sometimes a feature isn’t an option at all; it’s simply included because the trim level is higher. This subsection helps you understand what the trim should include, so you don’t overpay for something that was standard anyway."
+              }
+            ]
+          },
+          {
+            "title": "Manufacturer Suggested Retail Price (MSRP)",
+            "titleElement": "h3",
+            "description": "See your Toyota’s original price. Base vehicle MSRP plus optional packages and destination fees, giving a full view of what the car costs brand new.",
+            "subItems": [
+              {
+                "title": "Base vehicle MSRP",
+                "titleElement": "h4",
+                "description": "This is the starting point, the base price for that Toyota version before the extras. It’s useful as a reality check when someone claims, “This was insanely expensive new.”"
+              },
+              {
+                "title": "Factory options and packages cost",
+                "titleElement": "h4",
+                "description": "Here’s where the extras add up. Options can push a Toyota into a different price bracket, and that can matter for resale logic. This subsection helps explain why two models of the same car don’t have the same value."
+              }
+            ]
+          },
+          {
+            "title": "Mechanical and Engine Information",
+            "titleElement": "h3",
+            "description": "This includes all the technical bits, including the engine type, transmission, drivetrain layout, horsepower, torque, and more. Perfect for mechanics, enthusiasts, or buyers verifying specifications.",
+            "subItems": [
+              {
+                "title": "Engine specifications",
+                "titleElement": "h4",
+                "description": "This section summarises what’s powering the Toyota: engine family details and key specs. It’s especially handy when different engines exist under the same model name across Europe."
+              },
+              {
+                "title": "Transmission",
+                "titleElement": "h4",
+                "description": "Whether it’s automatic, manual, hybrid, or e-CVT style systems, the transmission shapes how the car drives and what it costs to live with. This part helps you verify what the vehicle should have, especially when adverts are vague."
+              },
+              {
+                "title": "Drivetrain layout",
+                "titleElement": "h4",
+                "description": "This section tells you if the Toyota has a front-wheel drive, all-wheel drive, and the layout differences that affect traction and running costs. For people in mountain regions or rainy coastal areas, the drivetrain isn’t a small detail. This is where you confirm it."
+              }
+            ]
+          },
+          {
+            "title": "Factory Power and Performance",
+            "titleElement": "h3",
+            "description": "In this section, you will see the horsepower, torque, acceleration, and top speed. This helps you compare models and understand your Toyota’s real capabilities.",
+            "subItems": [
+              {
+                "title": "Power output (hp / kW)",
+                "titleElement": "h4",
+                "description": "Power figures help you compare variants fairly, especially across different European markets where naming conventions can confuse things. Seeing hp and kW makes it easier to match expectations with reality."
+              },
+              {
+                "title": "Torque and performance figures",
+                "titleElement": "h4",
+                "description": "Torque and Performance figures provide key data about the engine’s capabilities, acceleration, and towing strength. This part helps you understand how the Toyota will behave beyond the brochure talk."
+              },
+              {
+                "title": "Acceleration and top speed",
+                "titleElement": "h4",
+                "description": "The acceleration and top speed matter for motorway driving confidence. This subsection offers quick reference performance figures that help you compare trims/engines without guessing"
+              }
+            ]
+          },
+          {
+            "title": "Emissions Block",
+            "titleElement": "h3",
+            "description": "This block includes the Euro-standard emissions, CO₂ output, and practical cross-border compliance for Europe. Essential for anyone tracking environmental regulations or tax implications.",
+            "subItems": [
+              {
+                "title": "Euro emissions standard",
+                "titleElement": "h4",
+                "description": "This is where you’ll typically see the relevant Euro emissions classification context for the vehicle’s type-approval era. It helps when you’re checking compliance expectations in different cities or countries."
+              },
+              {
+                "title": "CO₂ emissions (g/km)",
+                "titleElement": "h4",
+                "description": "CO₂ g/km is one of the most-referenced numbers in European car shopping because it’s easy to compare and is often used in policy and consumer information displays. If you’re doing cross-border buying, having the CO₂ figure clearly stated can save time when you’re estimating costs."
+              },
+              {
+                "title": "Practical cross-border checks",
+                "titleElement": "h4",
+                "description": "If you’re buying a Toyota from another European country (or you’ve moved countries with your car), paperwork tends to multiply. With a Toyota window sticker, you can verify the story before you start paying fees and booking appointments."
+              }
+            ]
+          },
+          {
+            "title": "Basic Equipment",
+            "titleElement": "h3",
+            "description": "Daily essentials and safety gear. This is the foundation of what makes a Toyota reliable and safe.",
+            "subItems": [
+              {
+                "title": "Everyday essentials",
+                "titleElement": "h4",
+                "description": "You will see the everyday essentials list, like seats, basic controls, and practical cabin features. The things you notice in the first 10 minutes of ownership."
+              },
+              {
+                "title": "Key safety essentials",
+                "titleElement": "h4",
+                "description": "A straight-to-the-point safety essentials recap. Helpful for quick comparisons, and good for peace of mind when you’re buying used for someone else."
+              }
+            ]
+          }
+        ],
+        "ctas": [
+          {
+            "text": "View Sample",
+            "href": "https://vehiclehistory.eu/sticker/vin/WF0PXXGCHPKP11608-B4D7B4D7-0F0F-BC0D-5C6B-10DB7A44C054"
+          }
+        ],
+        "_improvised": {
+          "tagline": "Complete Build Sheet Breakdown",
+          "tagLevel": "span",
+          "heading": "What's on a **Toyota Window Sticker**?"
+        }
+      }
+    },
+    "_changes": [
+      {
+        "section": "hero",
+        "diffs": [
+          {
+            "field": "tagline",
+            "value": "Every Detail, Factory Verified"
+          },
+          {
+            "field": "heading",
+            "value": "See Toyota's **Factory Build** with the Window Sticker by VIN"
+          },
+          {
+            "field": "features",
+            "value": "4 badges"
+          }
+        ]
+      },
+      {
+        "section": "whatIs",
+        "diffs": [
+          {
+            "field": "tagline",
+            "value": "Your Toyota's Birth Certificate"
+          },
+          {
+            "field": "heading",
+            "value": "What is a **Toyota Window Sticker**?"
+          }
+        ]
+      },
+      {
+        "section": "whatsOn",
+        "diffs": [
+          {
+            "field": "tagline",
+            "value": "Complete Build Sheet Breakdown"
+          },
+          {
+            "field": "heading",
+            "value": "What's on a **Toyota Window Sticker**?"
+          }
+        ]
+      }
+    ],
+    "_improvisedAt": "2026-04-01T13:31:41.916Z"
+  },
+  {
+    "slug": "subaru",
+    "name": "Subaru",
+    "url": "https://vehiclehistory.eu/window-sticker/subaru",
+    "sectionCount": 3,
+    "meta": {
+      "title": "Subaru Window Sticker by VIN: Get Original Factory Specs",
+      "description": "Get the most accurate Subaru Window Sticker by VIN. See original specs, options, pricing, & emissions. Trusted, fast & built for Subaru in Europe"
+    },
+    "sections": {
+      "hero": {
+        "type": "hero",
+        "heading": "Get Your Subaru’s Original Factory Window Sticker",
+        "description": "Before buying a used Subaru, check how it originally left the factory. View equipment, options, and vehicle specifications linked to the VIN, all in one clear label.",
+        "_improvised": {
+          "tagline": "Every Detail From The Factory",
+          "tagLevel": "span",
+          "heading": "Get Your Subaru's **Original Factory Window Sticker**",
+          "features": [
+            {
+              "icon": "file-text",
+              "text": "Factory Specifications"
+            },
+            {
+              "icon": "tag",
+              "text": "Original MSRP"
+            },
+            {
+              "icon": "list",
+              "text": "Standard & Optional Equipment"
+            },
+            {
+              "icon": "zap",
+              "text": "Instant VIN Lookup"
+            }
+          ]
+        }
+      },
+      "whatIs": {
+        "type": "what-is",
+        "heading": "What is a Subaru Window Sticker?",
+        "paragraphs": [
+          "A Subaru Window Sticker is a factory-style summary of how a specific Subaru left production. It’s not a brochure, and it’s not a seller’s description. It lists the vehicle identity (year, model, VIN), the trim and body style, standard equipment, factory options, and key technical blocks like engine and emissions figures.",
+          "In Europe, where CO₂ (g/km) and fuel/energy consumption details can affect taxes, registration, and cross-border sales, having the original configuration in one place is simply practical. EU rules also push clear consumer information on fuel economy and CO₂ for new passenger cars, so these numbers matter."
+        ],
+        "ctas": [
+          {
+            "text": "View Sample",
+            "href": "https://vehiclehistory.eu/sticker/vin/WF0PXXGCHPKP11608-B4D7B4D7-0F0F-BC0D-5C6B-10DB7A44C054"
+          }
+        ],
+        "_improvised": {
+          "tagline": "Your Subaru's Birth Certificate",
+          "tagLevel": "span",
+          "heading": "What is a **Subaru Window Sticker**?"
+        }
+      },
+      "whatsOn": {
+        "type": "whats-on",
+        "heading": "What's on a Subaru Window Sticker?",
+        "introParagraph": "A Subaru window sticker is a factory-based summary of how the vehicle was built when new. In Vehicle History Europe, you will see the Emissions Block that pulls in the CO₂ and related compliance context that often affects running costs and paperwork.",
+        "categories": [
+          {
+            "title": "Vehicle Description",
+            "titleElement": "h3",
+            "description": "This is the part you check before you trust anything else. If you’re from abroad, this block helps you avoid mix-ups, such as wrong model year, wrong trim, or even a copied listing that doesn’t match the car in front of you.",
+            "subItems": [
+              {
+                "title": "Vehicle year, make, and model",
+                "titleElement": "h4",
+                "description": "Here, the sticker states the Subaru’s year and model clearly (for example, Forester or Outback may sound obvious, yet listings could get it wrong). It’s also useful when a car has been registered later than it was built."
+              },
+              {
+                "title": "Trim level and body style",
+                "titleElement": "h4",
+                "description": "Subaru trims can look similar at a glance, especially after a few owners and a few cosmetic changes. This line anchors the exact trim and the body style as built."
+              },
+              {
+                "title": "Vehicle Identification Number (VIN)",
+                "titleElement": "h4",
+                "description": "The VIN is the vehicle’s fingerprint, and the sticker ties everything back to it. In the window sticker, you will see the VIN on top of the label, helping ensure the vehicle’s identity, assembly location, and documented specifications properly match the physical automobile being evaluated."
+              }
+            ]
+          },
+          {
+            "title": "Standard Equipment",
+            "titleElement": "h3",
+            "description": "Standard equipment is what Subaru included on that trim before any paid extras. This matters because sellers often blend standard features and later modifications into one blurry list.",
+            "subItems": [
+              {
+                "title": "Core comfort and convenience features",
+                "titleElement": "h4",
+                "description": "This block lists the everyday items that define the cabin and its daily use. Such as seating and interior equipment, climate-related features, infotainment basics, and convenience hardware."
+              },
+              {
+                "title": "Safety basics",
+                "titleElement": "h4",
+                "description": "This is the baseline safety set that came with the trim at build time. It helps you check whether a claimed safety package is truly factory-fitted or added later."
+              }
+            ]
+          },
+          {
+            "title": "Optional Equipment",
+            "titleElement": "h3",
+            "description": "Options are where a Subaru becomes this Subaru. This section shows what was paid for at the factory, not what was bolted on later.",
+            "subItems": [
+              {
+                "title": "Factory option packages",
+                "titleElement": "h4",
+                "description": "Packages bundle features together and can explain price jumps between trims that look identical in photos. If you’re hunting a specific setup, such as winter-focused packs, tech packs, or upgraded driver aids, this line tells you whether it was ordered that way."
+              },
+              {
+                "title": "Individual add-on options",
+                "titleElement": "h4",
+                "description": "These are standalone extras that weren’t tied to a full package. You’ll often see items here that owners brag about later, like upgraded wheels or specific comfort additions."
+              },
+              {
+                "title": "Trim-level additions",
+                "titleElement": "h4",
+                "description": "Sometimes a feature isn’t an “option” as such. It’s included because of the trim. This subsection keeps that tidy, so you can see what the trim itself added versus what was separately selected."
+              }
+            ]
+          },
+          {
+            "title": "Manufacturer Suggested Retail Price (MSRP)",
+            "titleElement": "h3",
+            "description": "The Manufacturer’s Suggested Retail Price, or MSRP, serves as the factory’s recommended starting price (original factory pricing). It provides a clear foundation for pricing and helps consumers understand the value of their investment in a Subaru.",
+            "subItems": [
+              {
+                "title": "Base vehicle MSRP",
+                "titleElement": "h4",
+                "description": "This is the starting figure for that Subaru trim when new. It helps you understand where the model sat in the range at the time of entry, mid, or top."
+              },
+              {
+                "title": "Factory options and packages cost",
+                "titleElement": "h4",
+                "description": "This line shows what the factory extras added to the price. It’s one of the easiest ways to see whether a car is truly optioned well."
+              }
+            ]
+          },
+          {
+            "title": "Mechanical and Engine Information",
+            "titleElement": "h3",
+            "description": "Engine and drivetrain details affect maintenance planning, parts, towing suitability, and long-term ownership costs. If you’re comparing across EU markets, this block also helps align specs between similar names and trims.",
+            "subItems": [
+              {
+                "title": "Engine specifications",
+                "titleElement": "h4",
+                "description": "This summarises the engine family and key details that define how the Subaru drives and how it’s serviced. It’s also helpful when the same model name has multiple engine choices in different years."
+              },
+              {
+                "title": "Transmission",
+                "titleElement": "h4",
+                "description": "Transmission type and specification matter for reliability expectations and driving feel. This line confirms what was factory-fitted, which is useful when a car has had repairs or swaps."
+              },
+              {
+                "title": "Drivetrain layout",
+                "titleElement": "h4",
+                "description": "Subaru is famous for its drivetrain identity, but not every market and model year is identical in setup. This line confirms the drivetrain layout as built."
+              }
+            ]
+          },
+          {
+            "title": "Factory Power and Performance",
+            "titleElement": "h3",
+            "description": "Power and torque figures, plus basic performance numbers, help you compare trims without getting misled by marketing names. If you’re buying across borders, it also helps align the vehicle with local insurance or registration categories where applicable.",
+            "subItems": [
+              {
+                "title": "Power output (hp / kW)",
+                "titleElement": "h4",
+                "description": "Power is commonly shown in hp and/or kW, and it’s useful for quick comparisons across EU listings. A window sticker lookup by VIN gives the factory figure tied to that exact configuration, not a forum estimate."
+              },
+              {
+                "title": "Torque and performance figures",
+                "titleElement": "h4",
+                "description": "This block helps you compare a Subaru trim meant for relaxed driving versus one aimed at a stronger mid-range response. It also keeps expectations realistic when shopping online."
+              },
+              {
+                "title": "Acceleration and top speed",
+                "titleElement": "h4",
+                "description": "These are the headline numbers people ask about, even if they don’t plan on chasing them. In practice, they help compare variants and spot odd listings."
+              }
+            ]
+          },
+          {
+            "title": "Emissions Block",
+            "titleElement": "h3",
+            "description": "For European ownership, this block is more than “nice to know.” CO₂ figures can influence taxes, benefit-in-kind calculations in some contexts, and cross-border paperwork checks. The EU also requires consumer-facing CO₂ and fuel economy information for new cars, which is why these numbers are treated seriously.",
+            "subItems": [
+              {
+                "title": "Euro emissions standard",
+                "titleElement": "h4",
+                "description": "This line indicates the emissions standard classification relevant to the vehicle’s approval era. It’s useful when you’re checking city access rules or planning travel across countries with different low-emission zone rules."
+              },
+              {
+                "title": "CO₂ emissions (g/km)",
+                "titleElement": "h4",
+                "description": "CO₂ is often the number that gets quoted first in Europe because it can tie into costs and classification. Our VIN-based window sticker label keeps this figure paired to the exact engine and drivetrain combination."
+              },
+              {
+                "title": "Practical cross-border checks",
+                "titleElement": "h4",
+                "description": "If you’re importing within Europe, this is the block that helps you spot mismatches early and avoid paperwork surprises."
+              }
+            ]
+          },
+          {
+            "title": "Basic Equipment",
+            "titleElement": "h3",
+            "description": "This is the quick-reference section for the everyday kit. If you’ve ever bought a car thinking it had a feature that turned out to be “optional on that trim,” you already know why this matters.",
+            "subItems": [
+              {
+                "title": "Everyday essentials",
+                "titleElement": "h4",
+                "description": "This covers the practical baseline, which is the items that make the car usable and comfortable in ordinary driving. It’s also handy for comparing a Subaru to another EU-market vehicle without getting lost in trim-name marketing."
+              },
+              {
+                "title": "Key safety essentials",
+                "titleElement": "h4",
+                "description": "A tidy list of the safety essentials included at the factory level. For buyers who are helping family members choose a car, this is an easy way to confirm the basics are there."
+              }
+            ]
+          }
+        ],
+        "ctas": [
+          {
+            "text": "View Sample",
+            "href": "https://vehiclehistory.eu/sticker/vin/WF0PXXGCHPKP11608-B4D7B4D7-0F0F-BC0D-5C6B-10DB7A44C054"
+          }
+        ],
+        "_improvised": {
+          "tagline": "Complete Factory Build Details",
+          "tagLevel": "span",
+          "heading": "What's on a **Subaru Window Sticker**?"
+        }
+      }
+    },
+    "_changes": [
+      {
+        "section": "hero",
+        "diffs": [
+          {
+            "field": "tagline",
+            "value": "Every Detail From The Factory"
+          },
+          {
+            "field": "heading",
+            "value": "Get Your Subaru's **Original Factory Window Sticker**"
+          },
+          {
+            "field": "features",
+            "value": "4 badges"
+          }
+        ]
+      },
+      {
+        "section": "whatIs",
+        "diffs": [
+          {
+            "field": "tagline",
+            "value": "Your Subaru's Birth Certificate"
+          },
+          {
+            "field": "heading",
+            "value": "What is a **Subaru Window Sticker**?"
+          }
+        ]
+      },
+      {
+        "section": "whatsOn",
+        "diffs": [
+          {
+            "field": "tagline",
+            "value": "Complete Factory Build Details"
+          },
+          {
+            "field": "heading",
+            "value": "What's on a **Subaru Window Sticker**?"
+          }
+        ]
+      }
+    ],
+    "_improvisedAt": "2026-04-01T13:31:48.650Z"
+  },
+  {
+    "slug": "dodge",
+    "name": "Dodge",
+    "url": "https://vehiclehistory.eu/window-sticker/dodge",
+    "sectionCount": 3,
+    "meta": {
+      "title": "Check Dodge Window Sticker by VIN: Original Specs & MSRP",
+      "description": "Get your Dodge Window sticker by VIN & see engine, factory options, original MSRP & features for owners, collectors & sellers across Europe"
+    },
+    "sections": {
+      "hero": {
+        "type": "hero",
+        "heading": "Check Dodge’s Original Build with a Window Sticker by VIN",
+        "description": "Buying a Dodge in Europe can feel like guesswork. A Dodge window sticker lookup by VIN tool helps you confirm the trim, packages, and original pricing before you pay, ship, or argue with a seller. Enter your VIN now to generate your Dodge window sticker.",
+        "_improvised": {
+          "tagline": "Decode Your Dodge Build Sheet",
+          "tagLevel": "span",
+          "heading": "Check Dodge's **Original Build** with a Window Sticker by VIN",
+          "features": [
+            {
+              "icon": "file-text",
+              "text": "Factory Specifications"
+            },
+            {
+              "icon": "tag",
+              "text": "Original MSRP"
+            },
+            {
+              "icon": "list",
+              "text": "Full Equipment List"
+            },
+            {
+              "icon": "zap",
+              "text": "Instant VIN Lookup"
+            }
+          ]
+        }
+      },
+      "whatIs": {
+        "type": "what-is",
+        "heading": "What is a Dodge Window Sticker?",
+        "paragraphs": [
+          "If you’re in Europe, owning a Dodge here can be a little complex. Different paperwork, different naming, and sometimes the seller’s story changes every time you ask a question.",
+          "That’s why our Dodge Window Sticker by VIN tool exists. You can just enter the VIN, and we generate a window sticker for the Dodge’s build receipt from the factory. Including the specifications, equipment, emissions block, and even MSRP, so you can stop guessing and start comparing."
+        ],
+        "ctas": [
+          {
+            "text": "View Sample",
+            "href": "https://vehiclehistory.eu/sticker/vin/WF0PXXGCHPKP11608-B4D7B4D7-0F0F-BC0D-5C6B-10DB7A44C054"
+          }
+        ],
+        "_improvised": {
+          "tagline": "Factory-Issued Vehicle Details",
+          "tagLevel": "span",
+          "heading": "What is a **Dodge Window Sticker**?"
+        }
+      },
+      "whatsOn": {
+        "type": "whats-on",
+        "heading": "What's on a Dodge Window Sticker?",
+        "introParagraph": "A Dodge can look simple from the outside, but the value is in the details: trim naming, factory option packs, and those little line items. Our sticker layout is built for clarity, and it’s especially useful in Europe, where documents and listings don’t always match the original factory configuration.",
+        "categories": [
+          {
+            "title": "Vehicle Description",
+            "titleElement": "h3",
+            "description": "This top section is the identity card. It’s where a Dodge becomes a specific factory build with a traceable VIN. For buyers, it’s how you catch mismatched trims. For sellers, it’s how you prove the spec without writing a novel in the listing.",
+            "subItems": [
+              {
+                "title": "Vehicle year, make, and model",
+                "titleElement": "h4",
+                "description": "This pinpoints the model year and the exact Dodge model name. It’s also helpful when European listings use different naming habits, or when a car is registered later than its build year."
+              },
+              {
+                "title": "Trim level and body style",
+                "titleElement": "h4",
+                "description": "Trim and body style are crucial as they influence equipment, safety, value, and insurance classification. This part helps verify your Dodge’s actual trim."
+              },
+              {
+                "title": "Vehicle Identification Number (VIN)",
+                "titleElement": "h4",
+                "description": "The window sticker includes the VIN, a unique character code (letters and numbers) that serves as a Dodge fingerprint and ties equipment and specs to one vehicle, not the whole model range."
+              }
+            ]
+          },
+          {
+            "title": "Standard Equipment",
+            "titleElement": "h3",
+            "description": "This is the factory baseline, the stuff a Dodge left the line with before anyone added dealer accessories or aftermarket parts. If you’re comparing two “same model” cars, standard equipment helps you understand what should be there on both, and what’s genuinely different.",
+            "subItems": [
+              {
+                "title": "Core comfort and convenience features",
+                "titleElement": "h4",
+                "description": "Covers everyday features (infotainment basics, seat functions, parking aids where applicable, the things you notice five minutes into a drive."
+              },
+              {
+                "title": "Safety basics",
+                "titleElement": "h4",
+                "description": "Lists the core safety equipment fitted as standard. The factory equipment list you can quickly sanity-check."
+              }
+            ]
+          },
+          {
+            "title": "Optional Equipment",
+            "titleElement": "h3",
+            "description": "This is where the money usually went. Optional equipment includes factory packages and add-ons that can seriously change desirability in Europe.",
+            "subItems": [
+              {
+                "title": "Factory option packages",
+                "titleElement": "h4",
+                "description": "Bundle-style packages (e.g., appearance packs, tech packs, comfort packs). Great for spotting whether a claimed package is truly factory."
+              },
+              {
+                "title": "Individual add-on options",
+                "titleElement": "h4",
+                "description": "Some options aren’t packaged; they’re single choices. This section shows those standalone add-ons that are useful when a vehicle has one rare feature that collectors actually pay for."
+              },
+              {
+                "title": "Trim-level additions",
+                "titleElement": "h4",
+                "description": "Some trims quietly include equipment upgrades that aren’t “options” in the normal sense. This section helps you see what came with the trim level itself."
+              }
+            ]
+          },
+          {
+            "title": "Manufacturer Suggested Retail Price (MSRP)",
+            "titleElement": "h3",
+            "description": "MSRP is a historical reference point showing how the Dodge was priced when new. It does not reflect today’s market value, taxes, or dealer markups, but it helps explain how the vehicle was positioned at launch.",
+            "subItems": [
+              {
+                "title": "Base vehicle MSRP",
+                "titleElement": "h4",
+                "description": "This is the starting price for that Dodge configuration before extras. It gives you a clean baseline for value conversations and helps you understand whether a vehicle began life as an entry model or something more premium from day one."
+              },
+              {
+                "title": "Factory options and packages cost",
+                "titleElement": "h4",
+                "description": "Itemised pricing add-ons that show where the sticker price climbed, often the difference between “nice spec” and “full-fat.”"
+              }
+            ]
+          },
+          {
+            "title": "Mechanical and Engine Information",
+            "titleElement": "h3",
+            "description": "This section is for the people who care what’s under the bonnet. It’s the mechanical fingerprint: engine layout, capacity, and related drivetrain details in a quick-read format.",
+            "subItems": [
+              {
+                "title": "Engine specifications",
+                "titleElement": "h4",
+                "description": "This summarises the engine setup associated with that VIN. A key identifiers that help you confirm what’s actually under the bonnet."
+              },
+              {
+                "title": "Transmission",
+                "titleElement": "h4",
+                "description": "Shows the transmission type as tied to that VIN. This is important when listings casually say “auto” and leave it at that."
+              },
+              {
+                "title": "Drivetrain layout",
+                "titleElement": "h4",
+                "description": "Helps confirm whether it’s FWD/RWD/AWD (or equivalent), which matters a lot in real driving and resale."
+              }
+            ]
+          },
+          {
+            "title": "Factory Power and Performance",
+            "titleElement": "h3",
+            "description": "Not everyone buys a Dodge for calm practicality. This section puts the numbers in one place so you can compare builds cleanly, especially across countries where listings mix kW/hp casually.",
+            "subItems": [
+              {
+                "title": "Power output (hp / kW)",
+                "titleElement": "h4",
+                "description": "Displays rated power figures in the common formats people expect in Europe. This is a clean reference point when you’re checking if a vehicle is correctly listed, or when a country-specific registration form wants power figures in a standard unit."
+              },
+              {
+                "title": "Torque and performance figures",
+                "titleElement": "h4",
+                "description": "Torque is what you feel, not just what you brag about. This section summarises the factory-rated figures so you can compare trims and engines properly."
+              },
+              {
+                "title": "Acceleration and top speed",
+                "titleElement": "h4",
+                "description": "Knowing this helps you sanity-check performance claims in listings and compare one trim to another."
+              }
+            ]
+          },
+          {
+            "title": "Emissions Block",
+            "titleElement": "h3",
+            "description": "Europe cares about emissions data in a very practical way. The EU requires consumer information on fuel economy and CO₂ emissions for new passenger cars at the point of sale, with standardised label requirements. That’s why this section is important.",
+            "subItems": [
+              {
+                "title": "Euro emissions standard",
+                "titleElement": "h4",
+                "description": "This indicates the relevant Euro emissions context. It’s useful when you’re checking whether a Dodge is likely to face restrictions in certain cities or whether it fits local registration requirements."
+              },
+              {
+                "title": "CO₂ emissions (g/km)",
+                "titleElement": "h4",
+                "description": "Listing the CO₂ values in g/km format. This is commonly referenced across EU consumer info materials."
+              },
+              {
+                "title": "Practical cross-border checks",
+                "titleElement": "h4",
+                "description": "If you’re moving a Dodge across borders, this block gives you the kind of emissions snapshot that’s often asked for during paperwork checks, without you hunting across documents."
+              }
+            ]
+          },
+          {
+            "title": "Basic Equipment",
+            "titleElement": "h3",
+            "description": "This is the quick “at a glance” kit list. This list is useful when you just want to confirm essentials before you dig into options. If you’re doing a fast car window sticker lookup. This is the section you scan first.",
+            "subItems": [
+              {
+                "title": "Everyday essentials",
+                "titleElement": "h4",
+                "description": "This lists the practical baseline items you’d expect for that Dodge’s configuration. Useful for quick comparisons and for spotting omissions. The practical baseline equipment you’d expect to see on a properly described vehicle listing."
+              },
+              {
+                "title": "Key safety essentials",
+                "titleElement": "h4",
+                "description": "A short list of core safety-related equipment so you can quickly check what should be present."
+              }
+            ]
+          }
+        ],
+        "ctas": [
+          {
+            "text": "View Sample",
+            "href": "https://vehiclehistory.eu/sticker/vin/WF0PXXGCHPKP11608-B4D7B4D7-0F0F-BC0D-5C6B-10DB7A44C054"
+          }
+        ],
+        "_improvised": {
+          "tagline": "Every Detail at a Glance",
+          "tagLevel": "span",
+          "heading": "What's on a **Dodge Window Sticker**?"
+        }
+      }
+    },
+    "_changes": [
+      {
+        "section": "hero",
+        "diffs": [
+          {
+            "field": "tagline",
+            "value": "Decode Your Dodge Build Sheet"
+          },
+          {
+            "field": "heading",
+            "value": "Check Dodge's **Original Build** with a Window Sticker by VIN"
+          },
+          {
+            "field": "features",
+            "value": "4 badges"
+          }
+        ]
+      },
+      {
+        "section": "whatIs",
+        "diffs": [
+          {
+            "field": "tagline",
+            "value": "Factory-Issued Vehicle Details"
+          },
+          {
+            "field": "heading",
+            "value": "What is a **Dodge Window Sticker**?"
+          }
+        ]
+      },
+      {
+        "section": "whatsOn",
+        "diffs": [
+          {
+            "field": "tagline",
+            "value": "Every Detail at a Glance"
+          },
+          {
+            "field": "heading",
+            "value": "What's on a **Dodge Window Sticker**?"
+          }
+        ]
+      }
+    ],
+    "_improvisedAt": "2026-04-01T13:31:55.460Z"
+  },
+  {
+    "slug": "porsche",
+    "name": "Porsche",
+    "url": "https://vehiclehistory.eu/window-sticker/porsche",
+    "sectionCount": 3,
+    "meta": {
+      "title": "Porsche Window Sticker VIN Lookup: Original Factory Specs",
+      "description": "Get your original Porsche Window Sticker by VIN with exact factory specs, options, pricing, and build details. Fast, accurate, and trusted across Europe"
+    },
+    "sections": {
+      "hero": {
+        "type": "hero",
+        "heading": "Check the Original Window Sticker for Porsche Factory Build Details​",
+        "description": "Some Porsches may have missing features, be modified, or not match their original specs. A Porsche window sticker shows the MSRP, factory options, and full details to make sure you know what you’re buying.",
+        "_improvised": {
+          "tagline": "Every Detail, Factory Verified",
+          "tagLevel": "span",
+          "heading": "Check the Original Window Sticker for **Porsche Factory Build Details**",
+          "features": [
+            {
+              "icon": "file-text",
+              "text": "Factory Specifications"
+            },
+            {
+              "icon": "tag",
+              "text": "Original MSRP"
+            },
+            {
+              "icon": "settings",
+              "text": "Full Options List"
+            },
+            {
+              "icon": "zap",
+              "text": "Instant Lookup"
+            }
+          ]
+        }
+      },
+      "whatIs": {
+        "type": "what-is",
+        "heading": "What is a Porsche Window Sticker?",
+        "paragraphs": [
+          "A Porsche Window Sticker is a detailed document that reveals the exact specifications and features of your Porsche when it was originally built. In Europe, this label acts as a snapshot of your car’s history, offering valuable insights into the trim, equipment, and even its recommended retail price from the manufacturer.",
+          "Whether you’re looking to verify your Porsche’s history or simply curious about its original specs, this document can be a real treasure. It helps identify everything from trim levels to standard and optional equipment."
+        ],
+        "ctas": [
+          {
+            "text": "View Sample",
+            "href": "https://vehiclehistory.eu/sticker/vin/WF0PXXGCHPKP11608-B4D7B4D7-0F0F-BC0D-5C6B-10DB7A44C054"
+          }
+        ],
+        "_improvised": {
+          "tagline": "Your Porsche's Birth Certificate",
+          "tagLevel": "span",
+          "heading": "What is a **Porsche Window Sticker**?"
+        }
+      },
+      "whatsOn": {
+        "type": "whats-on",
+        "heading": "What's on a Porsche Window Sticker?",
+        "introParagraph": "Our Porsche Window Sticker reveals essential details about your vehicle’s factory configuration, giving you a complete breakdown of features, performance specs, and price at the time of purchase when you’re entering the VIN number.",
+        "categories": [
+          {
+            "title": "Vehicle Description",
+            "titleElement": "h3",
+            "description": "The Porsche Window Sticker starts with a brief description of the vehicle, detailing its model, trim, and unique features based on the VIN. This section gives a clear idea of what their car was like when it left the factory, tailored to the specific specifications of their vehicle.",
+            "subItems": [
+              {
+                "title": "Vehicle year, make, and model",
+                "titleElement": "h4",
+                "description": "This section offers a snapshot of the car’s original year, make, and model. Helping you quickly identify what version of Porsche you’re dealing with, from the timeless 911 to the more recent Macan or Cayenne models."
+              },
+              {
+                "title": "Trim level and body style",
+                "titleElement": "h4",
+                "description": "The trim level defines the model’s interior features, exterior design, and additional customizations. Whether it’s a base model or a sportier trim like the Turbo, this section tells you exactly what the factory installed when it came off the production line."
+              },
+              {
+                "title": "Vehicle Identification Number (VIN)",
+                "titleElement": "h4",
+                "description": "Your VIN is the key to everything in the Porsche Window Sticker. In the label, you will see the VIN that shows all the details about your vehicle’s build, including where it was made, what options it came with, and even its place in Porsche’s production history."
+              }
+            ]
+          },
+          {
+            "title": "Standard Equipment",
+            "titleElement": "h3",
+            "description": "This section outlines the features that came standard with your Porsche, such as the base engine, interior, and safety features. It’s a great way to see what came with your car without having to look back at old brochures.",
+            "subItems": [
+              {
+                "title": "Core comfort and convenience features",
+                "titleElement": "h4",
+                "description": "The labels also show the details of the core features, like climate control, seating materials, and advanced tech systems, which are included here. It gives you a closer look at how your Porsche was designed to offer comfort on every drive."
+              },
+              {
+                "title": "Safety basics",
+                "titleElement": "h4",
+                "description": "Porsche cars are built with safety in mind. From airbags to the safety features in the chassis, this section breaks down what the factory included to ensure your safety on the road."
+              }
+            ]
+          },
+          {
+            "title": "Optional Equipment",
+            "titleElement": "h3",
+            "description": "Not everything comes standard on a Porsche. Some Porsches come with factory-optional equipment that adds value and customization to your vehicle; this section lists the features.",
+            "subItems": [
+              {
+                "title": "Factory option packages",
+                "titleElement": "h4",
+                "description": "Factory option packages like sport seats, premium sound systems, or advanced driver-assist features might be listed here. These are features Porsche owners opted for to enhance their driving experience."
+              },
+              {
+                "title": "Individual add-on options",
+                "titleElement": "h4",
+                "description": "This area highlights any add-ons, such as upgraded wheels or custom paint finishes, that the original owner selected to make the car uniquely theirs."
+              },
+              {
+                "title": "Trim-level additions",
+                "titleElement": "h4",
+                "description": "Trim-level additions include anything extra that’s specific to a model’s configuration, such as a different suspension setup or exclusive performance features found only on higher trims."
+              }
+            ]
+          },
+          {
+            "title": "Manufacturer Suggested Retail Price (MSRP)",
+            "titleElement": "h3",
+            "description": "The MSRP section shows the original list price set by the manufacturer when the Porsche was new. It reflects base pricing plus factory options, but it does not represent today’s resale or market value.",
+            "subItems": [
+              {
+                "title": "Base vehicle MSRP",
+                "titleElement": "h4",
+                "description": "This is the starting price for your Porsche, without any add-ons or optional equipment. It gives you a good sense of what the base model cost when it was new."
+              },
+              {
+                "title": "Factory options and packages cost",
+                "titleElement": "h4",
+                "description": "This section outlines the costs of additional features, such as the premium package or custom wheels, helping to understand how much the owner invested in their Porsche."
+              }
+            ]
+          },
+          {
+            "title": "Mechanical and Engine Information",
+            "titleElement": "h3",
+            "description": "The mechanical specs and engine details are crucial for any Porsche enthusiast. From horsepower to drivetrain layout, this section is where all the performance specs are stored.",
+            "subItems": [
+              {
+                "title": "Engine specifications",
+                "titleElement": "h4",
+                "description": "This part reveals what’s under the hood, like the engine size, type, and power output. For performance-oriented models, this section highlights the turbocharged engines, hybrid setups, or the famed flat-six engines Porsche is known for."
+              },
+              {
+                "title": "Transmission",
+                "titleElement": "h4",
+                "description": "Whether the Porsche has a manual, dual-clutch, or automatic transmission, this section on the window sticker will tell you how the car shifts and its overall driving experience."
+              },
+              {
+                "title": "Drivetrain layout",
+                "titleElement": "h4",
+                "description": "From rear-wheel drive to all-wheel drive, the drivetrain is an important element in your car’s handling. This section explains how power is delivered to the wheels."
+              }
+            ]
+          },
+          {
+            "title": "Factory Power and Performance",
+            "titleElement": "h3",
+            "description": "Porsche’s performance is legendary, and this section explains how much power your car has, as well as its key performance figures like acceleration and top speed.",
+            "subItems": [
+              {
+                "title": "Power output (hp / kW)",
+                "titleElement": "h4",
+                "description": "This part reveals how much horsepower your Porsche engine produces. If the speed is the reason you buy a vehicle, this is an important number you need to look up."
+              },
+              {
+                "title": "Torque and performance figures",
+                "titleElement": "h4",
+                "description": "Torque plays a big part in how fast a Porsche can accelerate, and this section highlights the torque figures and performance characteristics of your car."
+              },
+              {
+                "title": "Acceleration and top speed",
+                "titleElement": "h4",
+                "description": "Every Porsche has its claim to fame when it comes to speed. This section shows how fast your car can go, both in terms of acceleration and top-end speed."
+              }
+            ]
+          },
+          {
+            "title": "Emissions Block",
+            "titleElement": "h3",
+            "description": "The emissions block shows how your Porsche complies with European environmental standards. It includes official emissions data measured under the Worldwide Harmonized Light-Duty Vehicles Test Procedure (WLTP) system, which has been used across Europe since 2018.",
+            "subItems": [
+              {
+                "title": "Euro emissions standard",
+                "titleElement": "h4",
+                "description": "These figures matter because CO₂ values are often used for registration, taxation, and running-cost calculations in many European countries. When buying, selling, or importing a Porsche, accurate emissions data can help avoid delays and unexpected costs."
+              },
+              {
+                "title": "CO₂ emissions (g/km)",
+                "titleElement": "h4",
+                "description": "This section details the CO₂ emissions your Porsche produces, an important number for those who care about the environment or drive across European borders."
+              },
+              {
+                "title": "Practical cross-border checks",
+                "titleElement": "h4",
+                "description": "Porsche cars are built for global travel. The window sticker highlights what you need to know when crossing borders with your vehicle, from emissions to specific European requirements."
+              }
+            ]
+          },
+          {
+            "title": "Basic Equipment",
+            "titleElement": "h3",
+            "description": "These parts of the window sticker list the basics in the car, like climate control, audio systems, and wheels, which are covered in this section. They’re essential, everyday features that make driving your Porsche a joy.",
+            "subItems": [
+              {
+                "title": "Everyday essentials",
+                "titleElement": "h4",
+                "description": "From the essential climate control to the interior features, this section breaks down what’s included to keep you comfortable and safe every time you drive."
+              },
+              {
+                "title": "Key safety essentials",
+                "titleElement": "h4",
+                "description": "Basic safety features are critical, and this section explains the minimum safety gear that comes standard in your Porsche, from airbags to stability control."
+              }
+            ]
+          }
+        ],
+        "ctas": [
+          {
+            "text": "View Sample",
+            "href": "https://vehiclehistory.eu/sticker/vin/WF0PXXGCHPKP11608-B4D7B4D7-0F0F-BC0D-5C6B-10DB7A44C054"
+          }
+        ],
+        "_improvised": {
+          "tagline": "Complete Factory Transparency",
+          "tagLevel": "span",
+          "heading": "What's on a **Porsche Window Sticker**?"
+        }
+      }
+    },
+    "_changes": [
+      {
+        "section": "hero",
+        "diffs": [
+          {
+            "field": "tagline",
+            "value": "Every Detail, Factory Verified"
+          },
+          {
+            "field": "heading",
+            "value": "Check the Original Window Sticker for **Porsche Factory Build Details**"
+          },
+          {
+            "field": "features",
+            "value": "4 badges"
+          }
+        ]
+      },
+      {
+        "section": "whatIs",
+        "diffs": [
+          {
+            "field": "tagline",
+            "value": "Your Porsche's Birth Certificate"
+          },
+          {
+            "field": "heading",
+            "value": "What is a **Porsche Window Sticker**?"
+          }
+        ]
+      },
+      {
+        "section": "whatsOn",
+        "diffs": [
+          {
+            "field": "tagline",
+            "value": "Complete Factory Transparency"
+          },
+          {
+            "field": "heading",
+            "value": "What's on a **Porsche Window Sticker**?"
+          }
+        ]
+      }
+    ],
+    "_improvisedAt": "2026-04-01T13:32:02.205Z"
+  },
+  {
+    "slug": "bmw",
+    "name": "BMW",
+    "url": "https://vehiclehistory.eu/window-sticker/bmw",
+    "sectionCount": 3,
+    "meta": {
+      "title": "BMW Window Sticker by VIN Lookup: Original Factory Build 🚗",
+      "description": "Get the original BMW Window Sticker by entering your VIN to view factory specs, options, engine details, trim, and emissions. See the BMW build data now!"
+    },
+    "sections": {
+      "hero": {
+        "type": "hero",
+        "heading": "Find BMW Factory Build Details from the Original Window Sticker",
+        "description": "Before you make a decision on a used BMW, see how the vehicle originally came from the factory with the BMW window sticker by VIN lookup tool. Enter the VIN to view the MSRP, trim, features, and other key details. So you can make a clearer decision when buying or selling.",
+        "_improvised": {
+          "tagline": "Decode Your BMW's DNA",
+          "tagLevel": "span",
+          "heading": "Find BMW **Factory Build Details** from the Original Window Sticker",
+          "features": [
+            {
+              "icon": "file-text",
+              "text": "Factory Specifications"
+            },
+            {
+              "icon": "tag",
+              "text": "Original MSRP"
+            },
+            {
+              "icon": "list",
+              "text": "Full Options List"
+            },
+            {
+              "icon": "zap",
+              "text": "Instant Lookup"
+            }
+          ]
+        }
+      },
+      "whatIs": {
+        "type": "what-is",
+        "heading": "What is a BMW Window Sticker?",
+        "paragraphs": [
+          "A BMW Window Sticker by VIN is a clean, factory-style overview of the BMW’s specification, built from the vehicle’s identification details. This production label shows “as-built” spec at the time it was first supplied: model and trim, standard equipment, factory options, key mechanical details, and the emissions information buyers often ask about in Europe.",
+          "It’s not a random decal or car sticker design for the windscreen. It’s a practical document for checking what’s original, what’s been added later, and what a seller might have missed. With Vehicle History Europe, you can generate a BMW Window Sticker by VIN for modern BMWs and many classic models that you can save and share."
+        ],
+        "ctas": [
+          {
+            "text": "View Sample",
+            "href": "https://vehiclehistory.eu/sticker/vin/WF0PXXGCHPKP11608-B4D7B4D7-0F0F-BC0D-5C6B-10DB7A44C054"
+          }
+        ],
+        "_improvised": {
+          "tagline": "The Original Build Sheet",
+          "tagLevel": "span",
+          "heading": "What is a BMW **Window Sticker**?"
+        }
+      },
+      "whatsOn": {
+        "type": "whats-on",
+        "heading": "What's on a BMW Window Sticker?",
+        "introParagraph": "A BMW window sticker presents important information in a clear and organized manner, making it easy for buyers to compare vehicles. In Europe, buyers focus on CO₂ emissions and fuel economy due to tax implications and regulatory standards, making this information crucial for making informed purchasing decisions.",
+        "categories": [
+          {
+            "title": "Vehicle Description",
+            "titleElement": "h3",
+            "description": "This is the quick identity block. It’s the part you show someone first when they ask, “Which BMW is it, exactly?” It summarises the core build details in a way that is easy to match to listings, registration papers, and what’s sitting on your driveway.",
+            "subItems": [
+              {
+                "title": "Vehicle year, make, and model",
+                "titleElement": "h4",
+                "description": "The year, BMW model line, and the specific variant are listed here. It sounds basic, but it prevents common mix-ups, especially with similar badges across generations. Helpful for buyers comparing two cars that “look the same” but are not the same."
+              },
+              {
+                "title": "Trim level and body style",
+                "titleElement": "h4",
+                "description": "This section clarifies the trim and the body type (e.g., saloon, touring, coupé). On BMWs, trim wording can change by market and year, so having it presented plainly makes the rest of the sticker easier to interpret."
+              },
+              {
+                "title": "Vehicle Identification Number (VIN)",
+                "titleElement": "h4",
+                "description": "The VIN is the anchor for the whole sticker. It’s the identifier used across Europe to connect the vehicle to its recorded spec and administrative documents. If you are moving a car between Member States, consistent identification is not optional; it’s the basis of the paperwork trail."
+              }
+            ]
+          },
+          {
+            "title": "Standard Equipment",
+            "titleElement": "h3",
+            "description": "This part shows what the BMW typically left the factory with, before any paid extras. It helps you spot what should be there, and what might be missing. It can also be good for maintenance planning because it hints at what systems the car was built to support.",
+            "subItems": [
+              {
+                "title": "Core comfort and convenience features",
+                "titleElement": "h4",
+                "description": "This covers the everyday items people actually notice: interior comfort, key cabin functions, and the “normal use” equipment that shapes how the BMW feels on a daily run. It’s also handy when comparing a base build with a higher trim that looks similar in photos."
+              },
+              {
+                "title": "Safety basics",
+                "titleElement": "h4",
+                "description": "Here you’ll see the baseline safety equipment expected for that build. When you’re buying a used BMW, this is a quiet reality check, because it helps you understand what the car was designed with originally, before any later retrofits or aftermarket additions."
+              }
+            ]
+          },
+          {
+            "title": "Optional Equipment",
+            "titleElement": "h3",
+            "description": "This section lists the paid options and packages that made the original order unique. If you’ve ever seen a seller claim “every option” on a BMW, this is where that statement either holds up or falls apart.",
+            "subItems": [
+              {
+                "title": "Factory option packages",
+                "titleElement": "h4",
+                "description": "BMW option packages bundle several features together. This sub-section summarises those bundles so you can see what the factory grouped as a package, not what someone added later as a “nice extra”."
+              },
+              {
+                "title": "Individual add-on options",
+                "titleElement": "h4",
+                "description": "These are the single options chosen à la carte. Great for verifying the details that affect value, such as upgraded audio, special lighting, driver-assistance features, or interior upgrades that a listing might describe vaguely."
+              },
+              {
+                "title": "Trim-level additions",
+                "titleElement": "h4",
+                "description": "Sometimes the trim itself carries additions beyond “standard”. This part notes those trim-linked extras so you can tell whether you’re looking at a genuine trim build or a badge-and-wheels situation."
+              }
+            ]
+          },
+          {
+            "title": "Manufacturer Suggested Retail Price (MSRP)",
+            "titleElement": "h3",
+            "description": "This section shows the recommended retail price presented as a structured reference point for how the car was positioned when new. It’s not meant to predict today’s used value. Instead, it helps owners and buyers see what was “base” and what was paid extra at the time.",
+            "subItems": [
+              {
+                "title": "Base vehicle MSRP",
+                "titleElement": "h4",
+                "description": "This is the starting price for the BMW in that configuration, before options. It gives a clean baseline when you are comparing two similar cars where one has far more equipment than the other."
+              },
+              {
+                "title": "Factory options and packages cost",
+                "titleElement": "h4",
+                "description": "This summarises the cost impact of options and packages as listed on the sticker. It’s useful when you are trying to understand why one example commands a premium."
+              }
+            ]
+          },
+          {
+            "title": "Mechanical and Engine Information",
+            "titleElement": "h3",
+            "description": "This block is for the practical questions. What engine is it, what transmission is it paired with, and how is power delivered? For cross-border buyers, it can also help when you are trying to match a vehicle to the right category for servicing and parts.",
+            "subItems": [
+              {
+                "title": "Engine specifications",
+                "titleElement": "h4",
+                "description": "Engine displacement and key identifiers sit here, presented clearly enough for non-specialists. It helps you avoid the common “same badge, different engine” surprise that pops up in multi-market European listings."
+              },
+              {
+                "title": "Transmission",
+                "titleElement": "h4",
+                "description": "The label also shows the details about the automatic or manual transmission type. It’s a small line with big consequences for value, driving feel, and sometimes even insurance quotes."
+              },
+              {
+                "title": "Drivetrain layout",
+                "titleElement": "h4",
+                "description": "The stickers list whether the BMWs have front, rear, or all-wheel drive. With BMW, drivetrain details can be central to the buying decision, especially if you are choosing between a daily commuter setup and a more enthusiast-focused layout."
+              }
+            ]
+          },
+          {
+            "title": "Factory Power and Performance",
+            "titleElement": "h3",
+            "description": "This part translates the mechanical spec into numbers people recognise when comparing BMWs. It’s not “bragging rights”. It’s a quick way to confirm you are looking at the correct output for that build.",
+            "subItems": [
+              {
+                "title": "Power output (hp / kW)",
+                "titleElement": "h4",
+                "description": "Power is shown in common units, so it’s easy to compare across adverts and countries. It helps when a listing only shows one unit, or when two similar cars have different outputs due to engine variants."
+              },
+              {
+                "title": "Torque and performance figures",
+                "titleElement": "h4",
+                "description": "Torque and related performance notes are listed to support real-world comparisons, like motorway driving and overtakes. It also helps explain why two BMWs with similar horsepower can feel different on the road."
+              },
+              {
+                "title": "Acceleration and top speed",
+                "titleElement": "h4",
+                "description": "The sticker also listed the acceleration and top speed when the BMW came from the manufacturer. Buyers use it as a sense-check, not as a promise. If a claimed figure looks off, it can signal a mismatched model or incorrect listing."
+              }
+            ]
+          },
+          {
+            "title": "Emissions Block",
+            "titleElement": "h3",
+            "description": "This section matters if you’re European or want to buy or sell the BMW in the Europe market. It is often tied to costs and access: taxation bands, registration fees, and restrictions in certain urban areas. The label keeps these details in one place for quick checks.",
+            "subItems": [
+              {
+                "title": "Euro emissions standard",
+                "titleElement": "h4",
+                "description": "This states the Euro emissions standard associated with the build, where available. In day-to-day terms, it helps owners understand how the car may be treated under local rules and city access policies."
+              },
+              {
+                "title": "CO₂ emissions (g/km)",
+                "titleElement": "h4",
+                "description": "CO₂ figures are included because consumer information on fuel economy and CO₂ for new passenger cars has long been treated as something buyers should be able to compare. It’s also one of the first numbers people ask for when importing or registering in another EU country."
+              },
+              {
+                "title": "Practical cross-border checks",
+                "titleElement": "h4",
+                "description": "This is the “use it in real life” sub-section: the parts people check when moving between countries or buying from abroad. For example, if you’re purchasing in Ireland and registering elsewhere, or importing into Ireland, having emissions and identity details clearly listed saves back-and-forth."
+              }
+            ]
+          },
+          {
+            "title": "Basic Equipment",
+            "titleElement": "h3",
+            "description": "This section highlights the “daily essentials” for quick reading. Not everyone wants to sift through a lengthy equipment list, especially when comparing multiple BMWs.",
+            "subItems": [
+              {
+                "title": "Everyday essentials",
+                "titleElement": "h4",
+                "description": "This covers the practical items that shape daily use. It’s also where you sanity-check claims like “fully loaded” or “high spec” against what is actually present."
+              },
+              {
+                "title": "Key safety essentials",
+                "titleElement": "h4",
+                "description": "A straightforward list of safety essentials, presented for quick comparison. It’s handy when you are checking two similar cars and want to see whether one has meaningful safety differences."
+              }
+            ]
+          }
+        ],
+        "ctas": [
+          {
+            "text": "View Sample",
+            "href": "https://vehiclehistory.eu/sticker/vin/WF0PXXGCHPKP11608-B4D7B4D7-0F0F-BC0D-5C6B-10DB7A44C054"
+          }
+        ],
+        "_improvised": {
+          "tagline": "Every Detail at a Glance",
+          "tagLevel": "span",
+          "heading": "What's on a BMW **Window Sticker**?"
+        }
+      }
+    },
+    "_changes": [
+      {
+        "section": "hero",
+        "diffs": [
+          {
+            "field": "tagline",
+            "value": "Decode Your BMW's DNA"
+          },
+          {
+            "field": "heading",
+            "value": "Find BMW **Factory Build Details** from the Original Window Sticker"
+          },
+          {
+            "field": "features",
+            "value": "4 badges"
+          }
+        ]
+      },
+      {
+        "section": "whatIs",
+        "diffs": [
+          {
+            "field": "tagline",
+            "value": "The Original Build Sheet"
+          },
+          {
+            "field": "heading",
+            "value": "What is a BMW **Window Sticker**?"
+          }
+        ]
+      },
+      {
+        "section": "whatsOn",
+        "diffs": [
+          {
+            "field": "tagline",
+            "value": "Every Detail at a Glance"
+          },
+          {
+            "field": "heading",
+            "value": "What's on a BMW **Window Sticker**?"
+          }
+        ]
+      }
+    ],
+    "_improvisedAt": "2026-04-01T13:32:09.790Z"
+  },
+  {
+    "slug": "hyundai",
+    "name": "Hyundai",
+    "url": "https://vehiclehistory.eu/window-sticker/hyundai",
+    "sectionCount": 3,
+    "meta": {
+      "title": "Hyundai Window Sticker VIN Lookup: Original Factory Specs",
+      "description": "Access detailed info about any Hyundai vehicle with our window sticker by VIN lookup tool. See the original trim, fuel efficiency, standard, & optional features"
+    },
+    "sections": {
+      "hero": {
+        "type": "hero",
+        "heading": "Check the Original Window Sticker for Hyundai Factory Build Details",
+        "description": "Looking into a Hyundai? A Hyundai Window Sticker by VIN shows how the vehicle left the factory, including the specs, options, engine details, trim, and emissions, just the way it came from the factory. Get yours now!",
+        "_improvised": {
+          "tagline": "Hyundai Factory Specifications",
+          "tagLevel": "span",
+          "heading": "Check the Original Window Sticker for **Hyundai Factory Build Details**",
+          "features": [
+            {
+              "icon": "file-text",
+              "text": "Factory Specs"
+            },
+            {
+              "icon": "tag",
+              "text": "Original MSRP"
+            },
+            {
+              "icon": "list",
+              "text": "Full Equipment List"
+            },
+            {
+              "icon": "zap",
+              "text": "Instant Results"
+            }
+          ]
+        }
+      },
+      "whatIs": {
+        "type": "what-is",
+        "heading": "What is a Hyundai Window Sticker?",
+        "paragraphs": [
+          "A Hyundai window sticker is the original label that lists everything about the car when it was new, including all factory-installed features, the vehicle’s base price, and more. With our window sticker VIN lookup tool, you can access the Hyundai’s window sticker in seconds. Perfect for collectors or anyone wanting to know more about their car’s heritage."
+        ],
+        "ctas": [
+          {
+            "text": "View Sample",
+            "href": "https://vehiclehistory.eu/sticker/vin/WF0PXXGCHPKP11608-B4D7B4D7-0F0F-BC0D-5C6B-10DB7A44C054"
+          }
+        ],
+        "_improvised": {
+          "tagline": "Your Build Sheet Explained",
+          "tagLevel": "span",
+          "heading": "What is a **Hyundai Window Sticker**?"
+        }
+      },
+      "whatsOn": {
+        "type": "whats-on",
+        "heading": "What's on a Hyundai Window Sticker?",
+        "introParagraph": "A Hyundai window sticker is packed with details that can tell you everything about the car, from its basic features to its most intricate options. For example, the sticker lists the car’s trim level, body style, engine type, and any special features it came with straight from the factory.",
+        "categories": [
+          {
+            "title": "Vehicle Description",
+            "titleElement": "h3",
+            "description": "The vehicle description section on a Hyundai window sticker gives you a quick overview of the car’s make, model, and year. It’s like a snapshot of the car when it first hit the showroom floor. For those of you who are enthusiasts or collectors, this section brings back memories of how the car was first marketed and sold.",
+            "subItems": [
+              {
+                "title": "Vehicle year, make, and model",
+                "titleElement": "h4",
+                "description": "This section shows you the year the Hyundai was made, the specific make, and the model it belongs to. Whether you have a classic or a modern Hyundai, this part of the sticker helps you connect the car to the time it was built and provides important historical context."
+              },
+              {
+                "title": "Trim level and body style",
+                "titleElement": "h4",
+                "description": "The Hyundai’s trim level and body style give you insights into the specific configuration of the vehicle. Whether you have a sleek sedan or a rugged SUV, this part of the sticker breaks down the key features that make the car stand out from others."
+              },
+              {
+                "title": "Vehicle Identification Number (VIN)",
+                "titleElement": "h4",
+                "description": "The VIN is a unique code that identifies the Hyundai, ensuring it’s the same car that was originally sold. This number is important for verifying the car’s build data."
+              }
+            ]
+          },
+          {
+            "title": "Standard Equipment",
+            "titleElement": "h3",
+            "description": "The standard equipment section lists the key features that came with it, straight from the factory. This could include anything from air conditioning to power windows. It’s a helpful tool for understanding exactly what the vehicle had when it was first built.",
+            "subItems": [
+              {
+                "title": "Core comfort and convenience features",
+                "titleElement": "h4",
+                "description": "This part of the label highlights the comfort and convenience features that come standard in the Hyundai vehicles, such as seating options, climate control, and more. If you’re someone who values those little luxuries, this section will give you a solid idea of what the vehicle offered."
+              },
+              {
+                "title": "Safety basics",
+                "titleElement": "h4",
+                "description": "Safety features are essential, and this section covers the basic safety options your Hyundai was equipped with. From airbags to traction control, it outlines the standard features that help keep you safe on the road."
+              }
+            ]
+          },
+          {
+            "title": "Optional Equipment",
+            "titleElement": "h3",
+            "description": "In addition to standard equipment, many Hyundai vehicles come with optional features that can be added to personalize your ride. This section of the window sticker details all the options that could have been added at the factory.",
+            "subItems": [
+              {
+                "title": "Factory option packages",
+                "titleElement": "h4",
+                "description": "Factory option packages are bundles of features designed to enhance the car. Whether you opted for a sports package or added premium audio, this part of the sticker will tell you which packages your car was equipped with."
+              },
+              {
+                "title": "Individual add-on options",
+                "titleElement": "h4",
+                "description": "Individual add-ons are special features you may have chosen when purchasing the car. This could include a sunroof, upgraded wheels, or even advanced tech options. It’s all about making your Hyundai truly yours."
+              },
+              {
+                "title": "Trim-level additions",
+                "titleElement": "h4",
+                "description": "If the car has unique trim-level options, this section will explain the specific additions that set your car apart. Whether it’s a sportier version or a luxury upgrade, these additions make a big difference."
+              }
+            ]
+          },
+          {
+            "title": "Manufacturer Suggested Retail Price (MSRP)",
+            "titleElement": "h3",
+            "description": "The MSRP section is where you’ll find the original price of the car. It’s a way to see just how much your car was worth when it was new, including both the base price and any optional package or add-ons.",
+            "subItems": [
+              {
+                "title": "Base vehicle MSRP",
+                "titleElement": "h4",
+                "description": "This shows the base price of the Hyundai before any optional add-ons or upgrades. It’s an essential reference point for understanding the starting price of your car."
+              },
+              {
+                "title": "Factory options and packages cost",
+                "titleElement": "h4",
+                "description": "If you added any options or packages to the Hyundai when purchasing, this section will break down their costs. From upgraded features to premium finishes, it shows you exactly what you paid for."
+              }
+            ]
+          },
+          {
+            "title": "Mechanical and Engine Information",
+            "titleElement": "h3",
+            "description": "The mechanical and engine section dives into the technical side of the car. From engine specs to transmission details, this section tells you what’s under the hood and how your car performs.",
+            "subItems": [
+              {
+                "title": "Engine specifications",
+                "titleElement": "h4",
+                "description": "Here, you’ll find the engine specifications, such as the engine size, type, and horsepower. This information gives you a deeper understanding of Hyundai’s performance."
+              },
+              {
+                "title": "Transmission",
+                "titleElement": "h4",
+                "description": "The transmission section highlights the type of transmission the Hyundai has, whether it’s manual or automatic. It’s an important detail for understanding how your car shifts and performs."
+              },
+              {
+                "title": "Drivetrain layout",
+                "titleElement": "h4",
+                "description": "This shows the drivetrain layout of the Hyundai, whether it’s front-wheel drive, rear-wheel drive, or all-wheel drive. It helps you understand how your car handles in different conditions."
+              }
+            ]
+          },
+          {
+            "title": "Factory Power and Performance",
+            "titleElement": "h3",
+            "description": "The power and performance section gives you an in-depth look at how the car performs. It includes details about horsepower, torque, and acceleration.",
+            "subItems": [
+              {
+                "title": "Power output (hp / kW)",
+                "titleElement": "h4",
+                "description": "The power output section tells you how much horsepower (or kW) the car has. It’s all about understanding the engine’s performance and what you can expect from the car."
+              },
+              {
+                "title": "Torque and performance figures",
+                "titleElement": "h4",
+                "description": "Torque is another key performance metric. This section tells you how much torque the car delivers and how it impacts the car’s acceleration and handling."
+              },
+              {
+                "title": "Acceleration and top speed",
+                "titleElement": "h4",
+                "description": "Here, you’ll get the performance figures for acceleration and top speed, which can tell you how fast the Hyundai can go and how quickly it can reach those speeds."
+              }
+            ]
+          },
+          {
+            "title": "Emissions Block",
+            "titleElement": "h3",
+            "description": "The emissions section provides important information about how the car meets environmental standards, including CO₂ emissions and the Euro emissions standard.",
+            "subItems": [
+              {
+                "title": "Euro emissions standard",
+                "titleElement": "h4",
+                "description": "The applicable Euro emissions classification is listed clearly, helping buyers understand regulatory compatibility."
+              },
+              {
+                "title": "CO₂ emissions (g/km)",
+                "titleElement": "h4",
+                "description": "This section provides details about the official CO₂ figures are shown as recorded by the manufacturer, useful for tax and compliance checks."
+              },
+              {
+                "title": "Practical cross-border checks",
+                "titleElement": "h4",
+                "description": "This part helps identify whether the Hyundai’s factory emissions data aligns with requirements in other European countries, reducing surprises during registration."
+              }
+            ]
+          },
+          {
+            "title": "Basic Equipment",
+            "titleElement": "h3",
+            "description": "Basic equipment covers essential features present regardless of trim or options, forming the baseline specification.",
+            "subItems": [
+              {
+                "title": "Everyday essentials",
+                "titleElement": "h4",
+                "description": "Items necessary for daily driving, comfort, and usability appear here, giving a grounded view of what was included as standard."
+              },
+              {
+                "title": "Key safety essentials",
+                "titleElement": "h4",
+                "description": "Core safety components are summarized again in a simplified format, making it easier for non-technical readers to understand what protection was built in."
+              }
+            ]
+          }
+        ],
+        "ctas": [
+          {
+            "text": "View Sample",
+            "href": "https://vehiclehistory.eu/sticker/vin/WF0PXXGCHPKP11608-B4D7B4D7-0F0F-BC0D-5C6B-10DB7A44C054"
+          }
+        ],
+        "_improvised": {
+          "tagline": "Every Detail at a Glance",
+          "tagLevel": "span",
+          "heading": "What's on a **Hyundai Window Sticker**?"
+        }
+      }
+    },
+    "_changes": [
+      {
+        "section": "hero",
+        "diffs": [
+          {
+            "field": "tagline",
+            "value": "Hyundai Factory Specifications"
+          },
+          {
+            "field": "heading",
+            "value": "Check the Original Window Sticker for **Hyundai Factory Build Details**"
+          },
+          {
+            "field": "features",
+            "value": "4 badges"
+          }
+        ]
+      },
+      {
+        "section": "whatIs",
+        "diffs": [
+          {
+            "field": "tagline",
+            "value": "Your Build Sheet Explained"
+          },
+          {
+            "field": "heading",
+            "value": "What is a **Hyundai Window Sticker**?"
+          }
+        ]
+      },
+      {
+        "section": "whatsOn",
+        "diffs": [
+          {
+            "field": "tagline",
+            "value": "Every Detail at a Glance"
+          },
+          {
+            "field": "heading",
+            "value": "What's on a **Hyundai Window Sticker**?"
+          }
+        ]
+      }
+    ],
+    "_improvisedAt": "2026-04-01T13:32:19.268Z"
+  },
+  {
+    "slug": "chrysler",
+    "name": "Chrysler",
+    "url": "https://vehiclehistory.eu/window-sticker/chrysler",
+    "sectionCount": 3,
+    "meta": {
+      "title": "Chrysler Window Sticker by VIN: Accurate Factory Specs 🚗",
+      "description": "Get your Chrysler Window Sticker by VIN with full factory specs, options, and pricing. Fast, accurate, and trusted across Europe. Download your sticker today"
+    },
+    "sections": {
+      "hero": {
+        "type": "hero",
+        "heading": "Check the Original Window Sticker for Chrysler Factory Build Details",
+        "description": "Looking for a Chrysler window sticker by VIN? Get a clean factory-style sticker showing original specifications, equipment, and configuration, even for older or imported Chrysler vehicles.",
+        "_improvised": {
+          "tagline": "Chrysler Factory Specifications",
+          "tagLevel": "span",
+          "heading": "Check the Original Window Sticker for Chrysler **Factory Build Details**",
+          "features": [
+            {
+              "icon": "file-text",
+              "text": "Factory Specs"
+            },
+            {
+              "icon": "tag",
+              "text": "Original MSRP"
+            },
+            {
+              "icon": "list",
+              "text": "Full Equipment List"
+            },
+            {
+              "icon": "zap",
+              "text": "Instant Results"
+            }
+          ]
+        }
+      },
+      "whatIs": {
+        "type": "what-is",
+        "heading": "What is a Chrysler Window Sticker?",
+        "paragraphs": [
+          "A Chrysler Window Sticker is a factory-style summary of how a specific Chrysler left production. Think of it as the car’s “as-built” snapshot: model and trim, standard equipment, factory options, power figures, and pricing fields used at first sale.",
+          "For EU buyers, it also supports cross-border checks where CO₂ and fuel-consumption figures matter in listings and paperwork expectations. If you want a simple way to view it, our window sticker lookup by VIN page generates a tidy, shareable version without the usual confusion."
+        ],
+        "ctas": [
+          {
+            "text": "View Sample",
+            "href": "https://vehiclehistory.eu/sticker/vin/WF0PXXGCHPKP11608-B4D7B4D7-0F0F-BC0D-5C6B-10DB7A44C054"
+          }
+        ],
+        "_improvised": {
+          "tagline": "Your Chrysler's Birth Certificate",
+          "tagLevel": "span",
+          "heading": "What is a **Chrysler Window Sticker**?"
+        }
+      },
+      "whatsOn": {
+        "type": "whats-on",
+        "heading": "What's on a Chrysler Window Sticker?",
+        "introParagraph": "A window sticker car label isn’t just a few specs. It’s a structured view of Chrysler’s identity, the kit it was meant to have, and the factory choices that make two “similar” cars feel totally different on the road. Below is what the sticker will show you:",
+        "categories": [
+          {
+            "title": "Vehicle Description",
+            "titleElement": "h3",
+            "description": "This is the “who is this Chrysler, exactly?” part. It sets the basics before the details: year, model, trim/body style, and the Vehicle Identification Number. If you’re comparing adverts from different countries, this section is where mismatches show up first.",
+            "subItems": [
+              {
+                "title": "Vehicle year, make, and model",
+                "titleElement": "h4",
+                "description": "Year, make, and model sound simple, yet they’re the easiest details to twist in a listing. A Chrysler marketed as one model year can sometimes look like another once it’s been registered abroad."
+              },
+              {
+                "title": "Trim level and body style",
+                "titleElement": "h4",
+                "description": "Trim and body style matter because they explain the “why” behind the equipment list. A higher trim can bring upgraded lighting, seating materials, driver-assist features, and cabin tech, while body style influences practicality and sometimes weight and emissions categories."
+              },
+              {
+                "title": "Vehicle Identification Number (VIN)",
+                "titleElement": "h4",
+                "description": "The VIN is the identifier that helps separate a genuine factory configuration from assumptions based on similar cars. For European buyers, it’s also the bridge between markets: the same Chrysler can be advertised in different languages, but the VIN doesn’t change."
+              }
+            ]
+          },
+          {
+            "title": "Standard Equipment",
+            "titleElement": "h3",
+            "description": "Standard equipment refers to the features and components provided by Chrysler in its vehicles as part of the base offering, before any optional additions. It can help you verify the vehicle value, insurance descriptions, and identify missing expected features, making it essential for meeting consumer and industry expectations.",
+            "subItems": [
+              {
+                "title": "Core comfort and convenience features",
+                "titleElement": "h4",
+                "description": "This covers the everyday items people notice immediately: seating and interior basics, infotainment type, climate features, and practical cabin equipment. On a Chrysler, these details often separate a “nice cruiser” from a bare-bones spec that looks similar in photos."
+              },
+              {
+                "title": "Safety basics",
+                "titleElement": "h4",
+                "description": "This is the baseline safety list that typically includes the core systems expected for the vehicle’s period and market. It won’t replace an inspection, but it gives you a solid reference when the advert says “full safety spec” without any proof."
+              }
+            ]
+          },
+          {
+            "title": "Optional Equipment",
+            "titleElement": "h3",
+            "description": "Optional equipment is where the personality (and the price) comes in. These are the factory-selected extras: packs and individual options that can make two Chrysler vehicles with the same badge feel like different cars.",
+            "subItems": [
+              {
+                "title": "Factory option packages",
+                "titleElement": "h4",
+                "description": "Packages are grouped upgrades ordered together, often built around comfort, tech, appearance, or driver assistance. A sticker-style list helps you confirm whether the Chrysler has the real factory package or just a similar-looking aftermarket swap."
+              },
+              {
+                "title": "Individual add-on options",
+                "titleElement": "h4",
+                "description": "These are the single extras: one feature added without a whole pack. This section is perfect for catching “optional” items that a seller assumes are standard. Little things can change how the car feels day to day, and they change resale value, too."
+              },
+              {
+                "title": "Trim-level additions",
+                "titleElement": "h4",
+                "description": "Sometimes a feature isn’t an “option” at all; it’s a trim-linked inclusion. This section helps you see what came automatically with the trim level chosen. It’s especially helpful when an advert lists features but doesn’t mention trim clearly."
+              }
+            ]
+          },
+          {
+            "title": "Manufacturer Suggested Retail Price (MSRP)",
+            "titleElement": "h3",
+            "description": "This section shows the original factory pricing structure at first sale. It is not a current market valuation, but a reference point to understand trim positioning and option value. In Europe, you may see conversions, tax differences, or imported-market pricing in ads, so the sticker-style breakdown helps you separate factory pricing logic from today’s asking price.",
+            "subItems": [
+              {
+                "title": "Base vehicle MSRP",
+                "titleElement": "h4",
+                "description": "This is the starting price for the Chrysler in that configuration before any paid extras. It gives you a reference point when someone tries to justify a high price purely by age or appearance. Even if the market has shifted, it’s still useful for understanding where the vehicle sat in the lineup."
+              },
+              {
+                "title": "Factory options and packages cost",
+                "titleElement": "h4",
+                "description": "Options add up quickly, and this section shows that in black and white. It helps you see whether the car was genuinely specified with costly factory equipment or whether the value is being inflated today."
+              }
+            ]
+          },
+          {
+            "title": "Mechanical and Engine Information",
+            "titleElement": "h3",
+            "description": "This is the practical, technical core, including the engine type, key specifications, transmission, and drivetrain layout. If you’re checking an EU import listing, this section helps you confirm that the mechanical description matches the VIN-tied configuration, not just the seller’s assumptions.",
+            "subItems": [
+              {
+                "title": "Engine specifications",
+                "titleElement": "h4",
+                "description": "Engine specs describe the unit that was fitted at build, like displacement and configuration, and the basic identity that affects servicing and parts compatibility. If you’re comparing across markets, this keeps the conversation grounded in the factory record."
+              },
+              {
+                "title": "Transmission",
+                "titleElement": "h4",
+                "description": "Transmission details matter for driving feel, reliability expectations, and resale value. This section confirms the transmission type that was paired with the engine at build, which can be useful when a vehicle has had a swap or when an advert uses vague wording like “automatic” without specifics."
+              },
+              {
+                "title": "Drivetrain layout",
+                "titleElement": "h4",
+                "description": "Drivetrain layout affects handling, tyre wear, and how the vehicle is classified in listings. This section helps you confirm that the Chrysler is being described correctly, especially if photos or badges are misleading. It’s a small detail that stops big mistakes."
+              }
+            ]
+          },
+          {
+            "title": "Factory Power and Performance",
+            "titleElement": "h3",
+            "description": "This section is the quick-read performance summary: power output, torque figures, and the headline acceleration/top speed values commonly referenced. A factory-style sticker shows what the configuration was meant to deliver, so you can compare fairly between trims and option levels.",
+            "subItems": [
+              {
+                "title": "Power output (hp / kW)",
+                "titleElement": "h4",
+                "description": "Power output is usually shown in both hp and kW, so EU readers don’t have to convert. It’s useful for insurance quotes and for comparing one Chrysler to another without relying on forum claims. If an advert promises a higher output than the sticker indicates, you’ve got a reason to ask better questions."
+              },
+              {
+                "title": "Torque and performance figures",
+                "titleElement": "h4",
+                "description": "Torque gives context to how the car feels in real use, not just on paper. This section helps explain why two cars with similar power can drive differently. It also helps when a seller quotes figures from a different engine variant."
+              },
+              {
+                "title": "Acceleration and top speed",
+                "titleElement": "h4",
+                "description": "Acceleration and top speed are the headline stats people recognise, and they’re often misquoted. If you’re buying across borders, it helps you check whether the performance description in the listing sounds like the correct variant, or like a copy-paste from another model."
+              }
+            ]
+          },
+          {
+            "title": "Emissions Block",
+            "titleElement": "h3",
+            "description": "In Europe, CO₂ values and emissions standards significantly impact registration costs, local regulations, and resale questions. EU rules also ensure that fuel economy and CO₂ data are accessible to consumers, making these figures commonly featured in marketing materials for new passenger cars.",
+            "subItems": [
+              {
+                "title": "Euro emissions standard",
+                "titleElement": "h4",
+                "description": "This line points to the Euro emissions context, which is tied to the EU’s type-approval framework for emissions from light vehicles. This part gives you a clear starting point when you’re checking whether the Chrysler fits local requirements."
+              },
+              {
+                "title": "CO₂ emissions (g/km)",
+                "titleElement": "h4",
+                "description": "CO₂ in g/km is one of the numbers that keep coming up in EU buying decisions, tax discussions, and cross-border paperwork. This field is useful for quick comparisons between similar vehicles and for checking whether an advert’s CO₂ claim seems realistic for the configuration."
+              },
+              {
+                "title": "Practical cross-border checks",
+                "titleElement": "h4",
+                "description": "When importing or re-registering a Chrysler vehicle, it is essential to address key inquiries at an early stage. Specifically, one must determine whether the stated emissions figures correspond with the vehicle’s configuration and whether they align with the advertised specifications."
+              }
+            ]
+          },
+          {
+            "title": "Basic Equipment",
+            "titleElement": "h3",
+            "description": "Basic equipment is the quick “day-to-day” wrap-up: the essentials you expect to be present, plus the core safety essentials that should align with the vehicle’s description. It’s a handy section for buyers who don’t want to read every line, but still want the important bits straight.",
+            "subItems": [
+              {
+                "title": "Everyday essentials",
+                "titleElement": "h4",
+                "description": "This is the plain list of what makes the Chrysler usable without surprises, including the practical interior and exterior essentials, key controls, and the typical baseline features that should match the trim and model year. It’s also the section you can skim when you’re doing a last-minute check before travelling to view the vehicle."
+              },
+              {
+                "title": "Key safety essentials",
+                "titleElement": "h4",
+                "description": "This covers the main safety essentials expected for the vehicle’s build level and market context, presented as a simple reference rather than a sales claim. It helps you compare listings that use vague phrases like “safe family car” without specifics. If something looks missing versus the sticker, it’s a reason to slow down and verify properly."
+              }
+            ]
+          }
+        ],
+        "ctas": [
+          {
+            "text": "View Sample",
+            "href": "https://vehiclehistory.eu/sticker/vin/WF0PXXGCHPKP11608-B4D7B4D7-0F0F-BC0D-5C6B-10DB7A44C054"
+          }
+        ],
+        "_improvised": {
+          "tagline": "Every Detail Documented",
+          "tagLevel": "span",
+          "heading": "What's on a **Chrysler Window Sticker**?"
+        }
+      }
+    },
+    "_changes": [
+      {
+        "section": "hero",
+        "diffs": [
+          {
+            "field": "tagline",
+            "value": "Chrysler Factory Specifications"
+          },
+          {
+            "field": "heading",
+            "value": "Check the Original Window Sticker for Chrysler **Factory Build Details**"
+          },
+          {
+            "field": "features",
+            "value": "4 badges"
+          }
+        ]
+      },
+      {
+        "section": "whatIs",
+        "diffs": [
+          {
+            "field": "tagline",
+            "value": "Your Chrysler's Birth Certificate"
+          },
+          {
+            "field": "heading",
+            "value": "What is a **Chrysler Window Sticker**?"
+          }
+        ]
+      },
+      {
+        "section": "whatsOn",
+        "diffs": [
+          {
+            "field": "tagline",
+            "value": "Every Detail Documented"
+          },
+          {
+            "field": "heading",
+            "value": "What's on a **Chrysler Window Sticker**?"
+          }
+        ]
+      }
+    ],
+    "_improvisedAt": "2026-04-01T13:32:25.773Z"
+  },
+  {
+    "slug": "chevrolet",
+    "name": "Chevrolet",
+    "url": "https://vehiclehistory.eu/window-sticker/chevrolet",
+    "sectionCount": 3,
+    "meta": {
+      "title": "Chevrolet Window Sticker Lookup: Check Original Factory Data",
+      "description": "Look up the Chevrolet window sticker by VIN and verify every factory-installed feature, package, original price, fuel & emission. Avoid surprises when buying"
+    },
+    "sections": {
+      "hero": {
+        "type": "hero",
+        "heading": "Get Chevy Factory Setup with Window Sticker by VIN",
+        "description": "Get the Chevrolet window sticker to verify original equipment, factory options, and accurate pricing. Whether you’re buying used or shopping at auctions, this vital document ensures you’re well-informed. Don’t miss out! Get your window sticker today!",
+        "_improvised": {
+          "tagline": "Complete Chevrolet Build Sheet",
+          "tagLevel": "span",
+          "heading": "Get Chevy **Factory Setup** with Window Sticker by VIN",
+          "features": [
+            {
+              "icon": "file-text",
+              "text": "Factory Specifications"
+            },
+            {
+              "icon": "tag",
+              "text": "Original MSRP"
+            },
+            {
+              "icon": "list",
+              "text": "Full Options List"
+            },
+            {
+              "icon": "zap",
+              "text": "Instant VIN Lookup"
+            }
+          ]
+        }
+      },
+      "whatIs": {
+        "type": "what-is",
+        "heading": "What is a Chevrolet Window Sticker?",
+        "paragraphs": [
+          "A Chevrolet Window Sticker is a factory document that shows how a Chevrolet vehicle was originally built and sold. It lists the model details, engine, trim level, standard equipment, optional extras, emissions data, and original price that helps you understand what you’re really looking at.",
+          "In Europe, this is especially handy because Chevrolets were often sold in smaller numbers, sometimes through limited networks, and paperwork can get messy over the years. With our Chevrolet Window Sticker by VIN tool, you can view that original information digitally, even if the paper sticker disappeared years ago."
+        ],
+        "ctas": [
+          {
+            "text": "View Sample",
+            "href": "https://vehiclehistory.eu/sticker/vin/WF0PXXGCHPKP11608-B4D7B4D7-0F0F-BC0D-5C6B-10DB7A44C054"
+          }
+        ],
+        "_improvised": {
+          "tagline": "Your Chevy's Birth Certificate",
+          "tagLevel": "span",
+          "heading": "What is a Chevrolet **Window Sticker**?"
+        }
+      },
+      "whatsOn": {
+        "type": "whats-on",
+        "heading": "What's on a Chevrolet Window Sticker?",
+        "introParagraph": "A Chevrolet Window Sticker is a structured overview of how the car was configured, what equipment it included, how it met emissions rules, and what it originally cost. For European buyers and long-term Chevrolet enthusiasts, it helps answer the questions, like is this spec correct? Was that feature factory-fitted? Does the emissions data match local registration rules?",
+        "categories": [
+          {
+            "title": "Vehicle Description",
+            "titleElement": "h3",
+            "description": "This section introduces the Chevrolet in plain terms. It confirms what the vehicle actually is, not what it looks like today. If you’re a collector, this is where you catch mismatched badges, “rebuilt trim” stories, or listings that don’t quite add up.",
+            "subItems": [
+              {
+                "title": "Vehicle year, make, and model",
+                "titleElement": "h4",
+                "description": "Here we list the year and the Chevrolet model name as the factory identifies it. Sounds basic, but it prevents a lot of mix-ups, especially in Europe, where the same Chevy name can show up differently across markets, or paperwork gets translated in weird ways."
+              },
+              {
+                "title": "Trim level and body style",
+                "titleElement": "h4",
+                "description": "The trim and body style are essential because they can help you see more clearly the difference between similar vehicles that may appear alike in photographs but have been constructed differently."
+              },
+              {
+                "title": "Vehicle Identification Number (VIN)",
+                "titleElement": "h4",
+                "description": "The VIN is a vehicle identification code. Most modern Chevrolets use a 17-character VIN, while older or classic models may use shorter formats. Vehicle History Europe supports many of these older VIN styles."
+              }
+            ]
+          },
+          {
+            "title": "Standard Equipment",
+            "titleElement": "h3",
+            "description": "Standard equipment reflects what Chevrolet included before any paid upgrades. This helps owners understand what should be present even on base trims.",
+            "subItems": [
+              {
+                "title": "Core comfort and convenience features",
+                "titleElement": "h4",
+                "description": "Here you’ll see the everyday features that came standard on that Chevy trim, including things like interior basics, comfort items, and convenience tech, depending on era."
+              },
+              {
+                "title": "Safety basics",
+                "titleElement": "h4",
+                "description": "This section summarizes the safety essentials the vehicle shipped with from the factory for that trim level. For buyers in Europe, that’s useful when you’re checking what should be present before inspection, registration steps, or just peace of mind."
+              }
+            ]
+          },
+          {
+            "title": "Optional Equipment",
+            "titleElement": "h3",
+            "description": "Optional equipment is where the interesting stuff lives. It’s also where confusion happens, because options get removed, swapped, retrofitted, or simply misdescribed. A window sticker lookup tool helps you see what was genuinely factory-selected for that Chevrolet, not just what’s on it today.",
+            "subItems": [
+              {
+                "title": "Factory option packages",
+                "titleElement": "h4",
+                "description": "Packages bundle options together under a factory code or a named pack offered by Chevrolet. This is often tied to comfort, appearance, or driving aids."
+              },
+              {
+                "title": "Individual add-on options",
+                "titleElement": "h4",
+                "description": "These are individual factory options selected à la carte. For collectors, this is important because rare individual options can influence a Chevrolet’s desirability."
+              },
+              {
+                "title": "Trim-level additions",
+                "titleElement": "h4",
+                "description": "This lists extra features included automatically with higher trims. This subsection helps you separate trim-level included upgrades from separately paid options."
+              }
+            ]
+          },
+          {
+            "title": "Manufacturer Suggested Retail Price (MSRP)",
+            "titleElement": "h3",
+            "description": "Pricing for European-registered Chevrolets can be confusing due to imports and currency fluctuations across Europe. This section displays the original factory pricing at the time of sale, which helps explain how the vehicle was positioned when new. It is not a current market value or resale estimate.",
+            "subItems": [
+              {
+                "title": "Base vehicle MSRP",
+                "titleElement": "h4",
+                "description": "This line is the baseline price structure for the Chevrolet model/trim at the time of configuration. It gives context when someone claims a car was “fully loaded from new.”"
+              },
+              {
+                "title": "Factory options and packages cost",
+                "titleElement": "h4",
+                "description": "Factory options and packages cost show exactly how the Chevrolet was upgraded during manufacturing. Each selected option or bundle is listed separately, with its own cost added on top of the base MSRP, so nothing is hidden or guessed."
+              }
+            ]
+          },
+          {
+            "title": "Mechanical and Engine Information",
+            "titleElement": "h3",
+            "description": "This section explains what’s actually under the bonnet, which is helpful for enthusiasts and practical owners alike.",
+            "subItems": [
+              {
+                "title": "Engine specifications",
+                "titleElement": "h4",
+                "description": "Here we summarize the engine identity and key specification context as presented in the factory-style data. For European buyers, this is also useful when you’re comparing emissions classes, insurance brackets, or registration requirements that depend on engine configuration."
+              },
+              {
+                "title": "Transmission",
+                "titleElement": "h4",
+                "description": "You will see if the Chevy has manual, automatic, or hybrid-assisted setups as originally installed."
+              },
+              {
+                "title": "Drivetrain layout",
+                "titleElement": "h4",
+                "description": "See if the Chevy has a front-wheel drive, rear-wheel drive, or all-wheel drive configuration as originally installed."
+              }
+            ]
+          },
+          {
+            "title": "Factory Power and Performance",
+            "titleElement": "h3",
+            "description": "Knowing the performance figures helps verify whether a Chevrolet matches its claimed capability.",
+            "subItems": [
+              {
+                "title": "Power output (hp / kW)",
+                "titleElement": "h4",
+                "description": "The window sticker shows you both horsepower and kilowatt figures, useful for EU documentation."
+              },
+              {
+                "title": "Torque and performance figures",
+                "titleElement": "h4",
+                "description": "Torque and related figures help explain how the vehicle delivers power in real driving. Even if you’re not racing anybody, torque matters for daily feel, like pulling away, overtakes, towing capability context, all of it."
+              },
+              {
+                "title": "Acceleration and top speed",
+                "titleElement": "h4",
+                "description": "In the window sticker, you will see the factory-rated performance numbers, not estimates. It helps enthusiasts compare trims and understand what the factory intended, especially when the same model name had different outputs across years or markets."
+              }
+            ]
+          },
+          {
+            "title": "Emissions Block",
+            "titleElement": "h3",
+            "description": "This part is especially Europe-relevant. Consumers in the EU have long been expected to have access to fuel economy and CO₂ emissions information for new passenger cars, and emissions type-approval rules define how emissions are measured and reported.",
+            "subItems": [
+              {
+                "title": "Euro emissions standard",
+                "titleElement": "h4",
+                "description": "Where the record includes it, we show the Euro emissions standard context (the kind of detail that affects where a vehicle can be driven, registered, or restricted)."
+              },
+              {
+                "title": "CO₂ emissions (g/km)",
+                "titleElement": "h4",
+                "description": "CO₂ values are shown in a clear, comparable format. In the EU, consumer information around CO₂ and fuel economy has been formalized for a long time, which is why people often look for it when importing, registering, or comparing cars."
+              },
+              {
+                "title": "Practical cross-border checks",
+                "titleElement": "h4",
+                "description": "Knowing the emissions details is important, especially if you’re planning for imports, re-registration, and compliance checks across EU countries."
+              }
+            ]
+          },
+          {
+            "title": "Basic Equipment",
+            "titleElement": "h3",
+            "description": "Basic equipment is the “day-to-day reality” list. It’s not glamorous, but it’s the part you’ll notice every time you drive.",
+            "subItems": [
+              {
+                "title": "Everyday essentials",
+                "titleElement": "h4",
+                "description": "This includes everyday essentials, including lighting, mirrors, seating basics, and functional interior elements."
+              },
+              {
+                "title": "Key safety essentials",
+                "titleElement": "h4",
+                "description": "See the original manufactured safety essentials, like seatbelts, airbags, and core safety systems, included as standard."
+              }
+            ]
+          }
+        ],
+        "ctas": [
+          {
+            "text": "View Sample",
+            "href": "https://vehiclehistory.eu/sticker/vin/WF0PXXGCHPKP11608-B4D7B4D7-0F0F-BC0D-5C6B-10DB7A44C054"
+          }
+        ],
+        "_improvised": {
+          "tagline": "Every Detail Decoded",
+          "tagLevel": "span",
+          "heading": "What's on a **Chevrolet Window Sticker**?"
+        }
+      }
+    },
+    "_changes": [
+      {
+        "section": "hero",
+        "diffs": [
+          {
+            "field": "tagline",
+            "value": "Complete Chevrolet Build Sheet"
+          },
+          {
+            "field": "heading",
+            "value": "Get Chevy **Factory Setup** with Window Sticker by VIN"
+          },
+          {
+            "field": "features",
+            "value": "4 badges"
+          }
+        ]
+      },
+      {
+        "section": "whatIs",
+        "diffs": [
+          {
+            "field": "tagline",
+            "value": "Your Chevy's Birth Certificate"
+          },
+          {
+            "field": "heading",
+            "value": "What is a Chevrolet **Window Sticker**?"
+          }
+        ]
+      },
+      {
+        "section": "whatsOn",
+        "diffs": [
+          {
+            "field": "tagline",
+            "value": "Every Detail Decoded"
+          },
+          {
+            "field": "heading",
+            "value": "What's on a **Chevrolet Window Sticker**?"
+          }
+        ]
+      }
+    ],
+    "_improvisedAt": "2026-04-01T13:32:33.090Z"
+  },
+  {
+    "slug": "jeep",
+    "name": "Jeep",
+    "url": "https://vehiclehistory.eu/window-sticker/jeep",
+    "sectionCount": 3,
+    "meta": {
+      "title": "Jeep Window Sticker by VIN: Accurate Factory Specs & Options",
+      "description": "Run the Jeep Window Sticker by VIN, get the trim, factory options, engine, CO₂, and original pricing in one simple PDF"
+    },
+    "sections": {
+      "hero": {
+        "type": "hero",
+        "heading": "Get Jeep’s Factory Build with a Window Sticker by VIN",
+        "description": "Some Jeep listings in Europe are clear. Many are not. A Jeep window sticker gives you the straight factory details from model and trim, standard & optional equipment, mechanical details, CO₂ figures, and even the original pricing.",
+        "_improvised": {
+          "tagline": "Every Detail, Factory Verified",
+          "tagLevel": "span",
+          "heading": "Get Jeep's **Factory Build** with a Window Sticker by VIN",
+          "features": [
+            {
+              "icon": "file-text",
+              "text": "Factory Specs"
+            },
+            {
+              "icon": "tag",
+              "text": "Original MSRP"
+            },
+            {
+              "icon": "list",
+              "text": "Full Equipment List"
+            },
+            {
+              "icon": "zap",
+              "text": "Instant VIN Lookup"
+            }
+          ]
+        }
+      },
+      "whatIs": {
+        "type": "what-is",
+        "heading": "What is a Jeep Window Sticker?",
+        "paragraphs": [
+          "A Jeep window sticker is a factory-style label that lays out how a specific Jeep was configured. The window sticker lists the exact model and trim, standard equipment, optional equipment, key mechanical details, emissions figures, and the pricing structure.",
+          "In Europe, listings often mix specs from different markets, making it tricky to get accurate information. Our window sticker lookup by VIN can generate a clean, factory-style PDF showing your Jeep’s original configuration. You’ll see trim, standard, and optional equipment, key mechanical details, emissions figures, and original pricing, all in one place."
+        ],
+        "ctas": [
+          {
+            "text": "View Sample",
+            "href": "https://vehiclehistory.eu/sticker/vin/WF0PXXGCHPKP11608-B4D7B4D7-0F0F-BC0D-5C6B-10DB7A44C054"
+          }
+        ],
+        "_improvised": {
+          "tagline": "Your Jeep's Birth Certificate",
+          "tagLevel": "span",
+          "heading": "What is a **Jeep Window Sticker**?"
+        }
+      },
+      "whatsOn": {
+        "type": "whats-on",
+        "heading": "What's on a Jeep Window Sticker?",
+        "introParagraph": "Our Jeep window sticker is laid out to answer real questions fast: What exactly is this Jeep? What’s standard, what’s optional, and what did it cost when it was new? Here’s what you’ll find on a Jeep window sticker.",
+        "categories": [
+          {
+            "title": "Vehicle Description",
+            "titleElement": "h3",
+            "description": "This is the “ID card” section. It’s where you confirm you’re looking at the right Jeep before you fall in love with the photos. If you’re comparing two similar listings, this block stops you from making the classic overpaying mistake.",
+            "subItems": [
+              {
+                "title": "Vehicle year, make, and model",
+                "titleElement": "h4",
+                "description": "This information may sound basic, but it’s the anchor for everything else, especially on imports, where model names and trims can vary by market."
+              },
+              {
+                "title": "Trim level and body style",
+                "titleElement": "h4",
+                "description": "Trim names (e.g., Rubicon, Trailhawk, Limited, Overland) can change the whole value of the Jeep. Body style matters too, especially for practicality and insurance categories."
+              },
+              {
+                "title": "Vehicle Identification Number (VIN)",
+                "titleElement": "h4",
+                "description": "The VIN ties the sticker to one exact Jeep. And if you’ve got a classic Jeep with a shorter identifier, that’s fine too. We can decode Jeep classics, including the classic 5 –14-digit VINs"
+              }
+            ]
+          },
+          {
+            "title": "Standard Equipment",
+            "titleElement": "h3",
+            "description": "This is what the Jeep came with as standard, before any paid upgrades. It’s useful when a seller says “it should have it,” because standard equipment is not the same across trims and markets.",
+            "subItems": [
+              {
+                "title": "Core comfort and convenience features",
+                "titleElement": "h4",
+                "description": "This lists everyday stuff, including basic infotainment, air conditioning, power features, and the little details that change how the car feels to live with"
+              },
+              {
+                "title": "Safety basics",
+                "titleElement": "h4",
+                "description": "This lists core safety systems and essentials. It won’t tell you how well the Jeep was looked after, but it does show what it left the factory with."
+              }
+            ]
+          },
+          {
+            "title": "Optional Equipment",
+            "titleElement": "h3",
+            "description": "This is where the upgrades show up. It’s also the section people care about most, because options can add serious value (or explain why a cheaper listing is cheaper).",
+            "subItems": [
+              {
+                "title": "Factory option packages",
+                "titleElement": "h4",
+                "description": "Bundled packs like tech, winter, towing, or off-road groups. Helpful for comparing two Jeeps from the same year without guessing."
+              },
+              {
+                "title": "Individual add-on options",
+                "titleElement": "h4",
+                "description": "These are the single extras: one feature, one choice, one line item. This section matters for collectors and “old money careful” buyers because it separates factory choices from later modifications."
+              },
+              {
+                "title": "Trim-level additions",
+                "titleElement": "h4",
+                "description": "Some features come “because it’s that trim,” not because someone ticked a box. This helps separate trim features from extra options."
+              }
+            ]
+          },
+          {
+            "title": "Manufacturer Suggested Retail Price (MSRP)",
+            "titleElement": "h3",
+            "description": "This section shows the price a car manufacturer recommends retailers sell a new product for, then any added cost from options and packages. In Europe, final on-the-road costs vary by country, but this still gives you a solid baseline when you’re comparing listings.",
+            "subItems": [
+              {
+                "title": "Base vehicle MSRP",
+                "titleElement": "h4",
+                "description": "The starting price before options. It tells you whether the Jeep began life as a basic build or was already a higher trim."
+              },
+              {
+                "title": "Factory options and packages cost",
+                "titleElement": "h4",
+                "description": "This shows what was added and how much it contributed. It’s often the difference between “fair price” and “overpriced.”"
+              }
+            ]
+          },
+          {
+            "title": "Mechanical and Engine Information",
+            "titleElement": "h3",
+            "description": "Mechanical details are where enthusiasts lean in. This section is about what’s under the skin: engine and drivetrain configuration, and the key systems that define how the Jeep drives.",
+            "subItems": [
+              {
+                "title": "Engine specifications",
+                "titleElement": "h4",
+                "description": "Key engine details, sometimes including fuel type and core design notes. Useful when the listing is vague."
+              },
+              {
+                "title": "Transmission",
+                "titleElement": "h4",
+                "description": "Manual or automatic, and sometimes the gearing details. It can affect comfort, economy, and resale demand."
+              },
+              {
+                "title": "Drivetrain layout",
+                "titleElement": "h4",
+                "description": "This part in window sticker explains the drive layout and related configuration. It’s also important for cross-border buyers because marketing terms can be reused loosely, but drivetrain specs are concrete."
+              }
+            ]
+          },
+          {
+            "title": "Factory Power and Performance",
+            "titleElement": "h3",
+            "description": "This part helps you sanity-check claims like “it’s the more powerful one.” It’s also useful for cross-country comparisons where units can differ.",
+            "subItems": [
+              {
+                "title": "Power output (hp / kW)",
+                "titleElement": "h4",
+                "description": "Shown in a way that’s easy to compare, especially if you’re browsing listings from different countries."
+              },
+              {
+                "title": "Torque and performance figures",
+                "titleElement": "h4",
+                "description": "Torque tells you the usable “pull,” and for SUVs it often matters more than peak horsepower. This section can also help you understand why two Jeeps with similar power ratings feel very different to drive."
+              },
+              {
+                "title": "Acceleration and top speed",
+                "titleElement": "h4",
+                "description": "Not everyone cares, but it’s useful for verifying the drivetrain and spec. And yes, sometimes it exposes swapped badges or confused listings."
+              }
+            ]
+          },
+          {
+            "title": "Emissions Block",
+            "titleElement": "h3",
+            "description": "If you buy/sell cars in Europe, emissions are not an afterthought. They hit taxes, access rules, and import paperwork. This section helps you keep things clean and predictable.",
+            "subItems": [
+              {
+                "title": "Euro emissions standard",
+                "titleElement": "h4",
+                "description": "You will see a Euro standard reference, depending on the data available for that vehicle/spec. It’s one of the first things people ask when moving a vehicle across countries."
+              },
+              {
+                "title": "CO₂ emissions (g/km)",
+                "titleElement": "h4",
+                "description": "This is the number that keeps showing up in European buying decisions. The EU requires consumer-facing CO₂ and fuel economy information for new cars at the point of sale, specifically to help consumers compare."
+              },
+              {
+                "title": "Practical cross-border checks",
+                "titleElement": "h4",
+                "description": "If you’re importing a Jeep, relocating, or registering in a different country, having CO₂ info visible helps you ask the right questions early. The point isn’t bureaucracy; it’s avoiding nasty surprises when fees or eligibility rules show up late."
+              }
+            ]
+          },
+          {
+            "title": "Basic Equipment",
+            "titleElement": "h3",
+            "description": "This is a quick “essentials” recap. It helps you compare what should be present versus what the vehicle actually has today, especially if it’s been modified.",
+            "subItems": [
+              {
+                "title": "Everyday essentials",
+                "titleElement": "h4",
+                "description": "Our window sticker shows the core interior and convenience basics you notice right away when you sit in the car."
+              },
+              {
+                "title": "Key safety essentials",
+                "titleElement": "h4",
+                "description": "This lists the fundamental safety hardware that should be present. If you’re checking a used Jeep, this section helps you confirm whether the vehicle still matches its original baseline equipment."
+              }
+            ]
+          }
+        ],
+        "ctas": [
+          {
+            "text": "View Sample",
+            "href": "https://vehiclehistory.eu/sticker/vin/WF0PXXGCHPKP11608-B4D7B4D7-0F0F-BC0D-5C6B-10DB7A44C054"
+          }
+        ],
+        "_improvised": {
+          "tagline": "Complete Build Sheet Breakdown",
+          "tagLevel": "span",
+          "heading": "What's on a **Jeep Window Sticker**?"
+        }
+      }
+    },
+    "_changes": [
+      {
+        "section": "hero",
+        "diffs": [
+          {
+            "field": "tagline",
+            "value": "Every Detail, Factory Verified"
+          },
+          {
+            "field": "heading",
+            "value": "Get Jeep's **Factory Build** with a Window Sticker by VIN"
+          },
+          {
+            "field": "features",
+            "value": "4 badges"
+          }
+        ]
+      },
+      {
+        "section": "whatIs",
+        "diffs": [
+          {
+            "field": "tagline",
+            "value": "Your Jeep's Birth Certificate"
+          },
+          {
+            "field": "heading",
+            "value": "What is a **Jeep Window Sticker**?"
+          }
+        ]
+      },
+      {
+        "section": "whatsOn",
+        "diffs": [
+          {
+            "field": "tagline",
+            "value": "Complete Build Sheet Breakdown"
+          },
+          {
+            "field": "heading",
+            "value": "What's on a **Jeep Window Sticker**?"
+          }
+        ]
+      }
+    ],
+    "_improvisedAt": "2026-04-01T13:32:40.281Z"
+  }
+]

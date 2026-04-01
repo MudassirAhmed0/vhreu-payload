@@ -1,0 +1,703 @@
+[
+  {
+    "url": "https://vehiclehistory.eu/",
+    "path": "/",
+    "faqSections": [
+      {
+        "sectionHeading": "Frequently Asked Questions",
+        "sectionHeadingLevel": "h2",
+        "faqs": [
+          {
+            "question": "What is the difference between free and paid VIN checks?",
+            "questionLevel": "h3",
+            "answer": {
+              "root": {
+                "type": "root",
+                "direction": "ltr",
+                "format": "",
+                "indent": 0,
+                "version": 1,
+                "children": [
+                  {
+                    "type": "paragraph",
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": "",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": " A free VIN check gives basic details like make, model, and year. Paid reports may include ownership history, accidents, theft records, mileage history and more. Use our free VIN lookup tool for quick overviews of vehicle details and paid ones if you're purchasing or selling used cars. ",
+                        "format": 0,
+                        "version": 1,
+                        "detail": 0,
+                        "mode": "normal",
+                        "style": ""
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            "answerText": "A free VIN check gives basic details like make, model, and year. Paid reports may include ownership history, accidents, theft records, mileage history and more. Use our free VIN lookup tool for quick "
+          },
+          {
+            "question": "Is your VIN check reliable and accurate?",
+            "questionLevel": "h3",
+            "answer": {
+              "root": {
+                "type": "root",
+                "direction": "ltr",
+                "format": "",
+                "indent": 0,
+                "version": 1,
+                "children": [
+                  {
+                    "type": "paragraph",
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": "",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": " Yes, our VIN check is highly reliable and accurate. We source our data from multiple trusted databases and official records to ensure the information provided is up-to-date and comprehensive. However, please note that the accuracy of the report also depends on the timeliness and completeness of the data reported by various sources. ",
+                        "format": 0,
+                        "version": 1,
+                        "detail": 0,
+                        "mode": "normal",
+                        "style": ""
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            "answerText": "Yes, our VIN check is highly reliable and accurate. We source our data from multiple trusted databases and official records to ensure the information provided is up-to-date and comprehensive. However,"
+          },
+          {
+            "question": "Where is the VIN number on a car?",
+            "questionLevel": "h3",
+            "answer": {
+              "root": {
+                "type": "root",
+                "direction": "ltr",
+                "format": "",
+                "indent": 0,
+                "version": 1,
+                "children": [
+                  {
+                    "type": "paragraph",
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": "",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": " The VIN (Vehicle Identification Number) can typically be found in several locations on a car: 1. On the driver's side dashboard, visible through the windshield 2. Inside the driver's side door jamb 3. On the engine block 4. In the vehicle registration and insurance documents The exact location may vary depending on the make and model of the car. ",
+                        "format": 0,
+                        "version": 1,
+                        "detail": 0,
+                        "mode": "normal",
+                        "style": ""
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            "answerText": "The VIN (Vehicle Identification Number) can typically be found in several locations on a car: 1. On the driver's side dashboard, visible through the windshield 2. Inside the driver's side door jamb 3."
+          },
+          {
+            "question": "What information does a European VIN number contain?",
+            "questionLevel": "h3",
+            "answer": {
+              "root": {
+                "type": "root",
+                "direction": "ltr",
+                "format": "",
+                "indent": 0,
+                "version": 1,
+                "children": [
+                  {
+                    "type": "paragraph",
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": "",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": " A European VIN number typically contains 17 characters that provide various details about the vehicle, including: 1. World Manufacturer Identifier (first 3 characters) 2. Vehicle descriptor section (characters 4-9) 3. Vehicle identifier section (last 8 characters) These sections can reveal information such as the country of manufacture, brand, vehicle type, body style, engine size, model year, plant code, and serial number. ",
+                        "format": 0,
+                        "version": 1,
+                        "detail": 0,
+                        "mode": "normal",
+                        "style": ""
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            "answerText": "A European VIN number typically contains 17 characters that provide various details about the vehicle, including: 1. World Manufacturer Identifier (first 3 characters) 2. Vehicle descriptor section (c"
+          },
+          {
+            "question": "I don't have a VIN number, what can I do?",
+            "questionLevel": "h3",
+            "answer": {
+              "root": {
+                "type": "root",
+                "direction": "ltr",
+                "format": "",
+                "indent": 0,
+                "version": 1,
+                "children": [
+                  {
+                    "type": "paragraph",
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": "",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": " If you don't have a VIN number, you can try the following: 1. Check your vehicle registration or insurance documents 2. Look for the VIN plate on your vehicle (common locations mentioned in a previous answer) 3. Contact your car dealer or the manufacturer 4. Check your car's service history or maintenance records 5. If you've recently purchased the car, contact the seller If you still can't find the VIN, consult with a professional mechanic or your local vehicle registration authority for assistance. ",
+                        "format": 0,
+                        "version": 1,
+                        "detail": 0,
+                        "mode": "normal",
+                        "style": ""
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            "answerText": "If you don't have a VIN number, you can try the following: 1. Check your vehicle registration or insurance documents 2. Look for the VIN plate on your vehicle (common locations mentioned in a previous"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "url": "https://vehiclehistory.eu/pricing",
+    "path": "/pricing",
+    "faqSections": [
+      {
+        "sectionHeading": "Any Questions?",
+        "sectionHeadingLevel": "h2",
+        "faqs": [
+          {
+            "question": "How long does it take to get a Vehicle History report?",
+            "questionLevel": "h3",
+            "answer": {
+              "root": {
+                "type": "root",
+                "direction": "ltr",
+                "format": "",
+                "indent": 0,
+                "version": 1,
+                "children": [
+                  {
+                    "type": "paragraph",
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": "",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "A To make use of your vehicle history credits, you must log in to your account, where you will have direct access to your credits.",
+                        "format": 0,
+                        "version": 1,
+                        "detail": 0,
+                        "mode": "normal",
+                        "style": ""
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            "answerText": "A To make use of your vehicle history credits, you must log in to your account, where you will have direct access to your credits."
+          },
+          {
+            "question": "How long are my credits valid?",
+            "questionLevel": "h3",
+            "answer": {
+              "root": {
+                "type": "root",
+                "direction": "ltr",
+                "format": "",
+                "indent": 0,
+                "version": 1,
+                "children": [
+                  {
+                    "type": "paragraph",
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": "",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "A To make use of your vehicle history credits, you must log in to your account, where you will have direct access to your credits.",
+                        "format": 0,
+                        "version": 1,
+                        "detail": 0,
+                        "mode": "normal",
+                        "style": ""
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            "answerText": "A To make use of your vehicle history credits, you must log in to your account, where you will have direct access to your credits."
+          },
+          {
+            "question": "What information may appear in the Vehicle History report?",
+            "questionLevel": "h3",
+            "answer": {
+              "root": {
+                "type": "root",
+                "direction": "ltr",
+                "format": "",
+                "indent": 0,
+                "version": 1,
+                "children": [
+                  {
+                    "type": "paragraph",
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": "",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "A To make use of your vehicle history credits, you must log in to your account, where you will have direct access to your credits.",
+                        "format": 0,
+                        "version": 1,
+                        "detail": 0,
+                        "mode": "normal",
+                        "style": ""
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            "answerText": "A To make use of your vehicle history credits, you must log in to your account, where you will have direct access to your credits."
+          },
+          {
+            "question": "What payment methods do you accept?",
+            "questionLevel": "h3",
+            "answer": {
+              "root": {
+                "type": "root",
+                "direction": "ltr",
+                "format": "",
+                "indent": 0,
+                "version": 1,
+                "children": [
+                  {
+                    "type": "paragraph",
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": "",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "A To make use of your vehicle history credits, you must log in to your account, where you will have direct access to your credits.",
+                        "format": 0,
+                        "version": 1,
+                        "detail": 0,
+                        "mode": "normal",
+                        "style": ""
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            "answerText": "A To make use of your vehicle history credits, you must log in to your account, where you will have direct access to your credits."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "url": "https://vehiclehistory.eu/sample-report",
+    "path": "/sample-report",
+    "faqSections": []
+  },
+  {
+    "url": "https://vehiclehistory.eu/window-sticker",
+    "path": "/window-sticker",
+    "faqSections": [
+      {
+        "sectionHeading": "Common Questions About Window Sticker Lookups",
+        "sectionHeadingLevel": "h2",
+        "faqs": [
+          {
+            "question": "What exactly is a factory window sticker?",
+            "questionLevel": "h3",
+            "answer": {
+              "root": {
+                "type": "root",
+                "direction": "ltr",
+                "format": "",
+                "indent": 0,
+                "version": 1,
+                "children": [
+                  {
+                    "type": "paragraph",
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": "",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "A factory window sticker is a manufacturer-style document that lists how a specific vehicle was configured when it was new. It typically includes the original equipment, option packages, key specs, and pricing context (when available). For European buyers, it’s most useful as a “factory baseline” because trims and equipment can vary a lot by country and market.",
+                        "format": 0,
+                        "version": 1,
+                        "detail": 0,
+                        "mode": "normal",
+                        "style": ""
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            "answerText": "A factory window sticker is a manufacturer-style document that lists how a specific vehicle was configured when it was new. It typically includes the original equipment, option packages, key specs, an"
+          },
+          {
+            "question": "Can I find a window sticker for a used vehicle?",
+            "questionLevel": "h3",
+            "answer": {
+              "root": {
+                "type": "root",
+                "direction": "ltr",
+                "format": "",
+                "indent": 0,
+                "version": 1,
+                "children": [
+                  {
+                    "type": "paragraph",
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": "",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Yes, and that’s actually the most common reason people run a car window sticker lookup in Europe. The paper label may be long gone on used cars, but a digital lookup window sticker by VIN can still work if the manufacturer kept retrievable records for that VIN and model year. If records aren’t available, it’s usually a data limitation, not something you did wrong.",
+                        "format": 0,
+                        "version": 1,
+                        "detail": 0,
+                        "mode": "normal",
+                        "style": ""
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            "answerText": "Yes, and that’s actually the most common reason people run a car window sticker lookup in Europe. The paper label may be long gone on used cars, but a digital lookup window sticker by VIN can still wo"
+          },
+          {
+            "question": "How accurate is window sticker information?",
+            "questionLevel": "h3",
+            "answer": {
+              "root": {
+                "type": "root",
+                "direction": "ltr",
+                "format": "",
+                "indent": 0,
+                "version": 1,
+                "children": [
+                  {
+                    "type": "paragraph",
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": "",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "A factory window sticker by VIN is generally accurate for confirming original specs, equipment, and option packages for that exact VIN. It’s often more trustworthy than decoded estimates, especially in Europe, where trims and standard features can vary by market. But it won’t reflect later upgrades, swapped parts, or wear and tear, so treat it as your starting reference, not the final verdict.",
+                        "format": 0,
+                        "version": 1,
+                        "detail": 0,
+                        "mode": "normal",
+                        "style": ""
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            "answerText": "A factory window sticker by VIN is generally accurate for confirming original specs, equipment, and option packages for that exact VIN. It’s often more trustworthy than decoded estimates, especially i"
+          },
+          {
+            "question": "Why doesn't every VIN return a window sticker?",
+            "questionLevel": "h3",
+            "answer": {
+              "root": {
+                "type": "root",
+                "direction": "ltr",
+                "format": "",
+                "indent": 0,
+                "version": 1,
+                "children": [
+                  {
+                    "type": "paragraph",
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": "",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Not every VIN will return a window sticker by VIN because sticker records aren’t stored the same way by every manufacturer. Availability depends on the vehicle’s age, whether the brand kept digital sticker archives, and which market the car was built for (Europe or other regions). Some older cars simply don’t have retrievable digital records, and some brands restrict access. Sometimes data can also be missing due to format changes or system limitations.",
+                        "format": 0,
+                        "version": 1,
+                        "detail": 0,
+                        "mode": "normal",
+                        "style": ""
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            "answerText": "Not every VIN will return a window sticker by VIN because sticker records aren’t stored the same way by every manufacturer. Availability depends on the vehicle’s age, whether the brand kept digital st"
+          },
+          {
+            "question": "Is a window sticker the same as a build sheet?",
+            "questionLevel": "h3",
+            "answer": {
+              "root": {
+                "type": "root",
+                "direction": "ltr",
+                "format": "",
+                "indent": 0,
+                "version": 1,
+                "children": [
+                  {
+                    "type": "paragraph",
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": "",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "No. A build sheet is usually production-focused and can be full of internal codes and component details. A window sticker is consumer-facing and designed to be readable, typically showing option packages, equipment lists, and pricing context (when available).",
+                        "format": 0,
+                        "version": 1,
+                        "detail": 0,
+                        "mode": "normal",
+                        "style": ""
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            "answerText": "No. A build sheet is usually production-focused and can be full of internal codes and component details. A window sticker is consumer-facing and designed to be readable, typically showing option packa"
+          },
+          {
+            "question": "Does this work for all manufacturers?",
+            "questionLevel": "h3",
+            "answer": {
+              "root": {
+                "type": "root",
+                "direction": "ltr",
+                "format": "",
+                "indent": 0,
+                "version": 1,
+                "children": [
+                  {
+                    "type": "paragraph",
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": "",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "We cover all the manufacturers and model years, especially the standardized 17-character VIN. If you have a classic build with a fewer than 17-character VIN (often 5 to 14 characters), the coverage may vary.",
+                        "format": 0,
+                        "version": 1,
+                        "detail": 0,
+                        "mode": "normal",
+                        "style": ""
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            "answerText": "We cover all the manufacturers and model years, especially the standardized 17-character VIN. If you have a classic build with a fewer than 17-character VIN (often 5 to 14 characters), the coverage ma"
+          },
+          {
+            "question": "Is it possible to get a window sticker at no cost?",
+            "questionLevel": "h3",
+            "answer": {
+              "root": {
+                "type": "root",
+                "direction": "ltr",
+                "format": "",
+                "indent": 0,
+                "version": 1,
+                "children": [
+                  {
+                    "type": "paragraph",
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": "",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Sometimes you can get a free window sticker by VIN preview, but it’s usually limited. Full window stickers often require payment because pulling manufacturer data and formatting it into a proper sticker has real retrieval and licensing costs. If you only need basic details, free results may be enough. If you need full options, packages, and pricing context, paid access is more common.",
+                        "format": 0,
+                        "version": 1,
+                        "detail": 0,
+                        "mode": "normal",
+                        "style": ""
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            "answerText": "Sometimes you can get a free window sticker by VIN preview, but it’s usually limited. Full window stickers often require payment because pulling manufacturer data and formatting it into a proper stick"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "url": "https://vehiclehistory.eu/contact-us",
+    "path": "/contact-us",
+    "faqSections": [
+      {
+        "sectionHeading": "Frequently Asked Questions",
+        "sectionHeadingLevel": "h2",
+        "faqs": [
+          {
+            "question": "I bought some credits from Vehicle History; how do I use them?",
+            "questionLevel": "h3",
+            "answer": {
+              "root": {
+                "type": "root",
+                "direction": "ltr",
+                "format": "",
+                "indent": 0,
+                "version": 1,
+                "children": [
+                  {
+                    "type": "paragraph",
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": "",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "A To make use of your vehicle history credits, you must log in to your account, where you will have direct access to your credits.",
+                        "format": 0,
+                        "version": 1,
+                        "detail": 0,
+                        "mode": "normal",
+                        "style": ""
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            "answerText": "A To make use of your vehicle history credits, you must log in to your account, where you will have direct access to your credits."
+          },
+          {
+            "question": "Why is a Vehicle History Report Important?",
+            "questionLevel": "h3",
+            "answer": {
+              "root": {
+                "type": "root",
+                "direction": "ltr",
+                "format": "",
+                "indent": 0,
+                "version": 1,
+                "children": [
+                  {
+                    "type": "paragraph",
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": "",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "A To make use of your vehicle history credits, you must log in to your account, where you will have direct access to your credits.",
+                        "format": 0,
+                        "version": 1,
+                        "detail": 0,
+                        "mode": "normal",
+                        "style": ""
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            "answerText": "A To make use of your vehicle history credits, you must log in to your account, where you will have direct access to your credits."
+          }
+        ]
+      }
+    ]
+  }
+]

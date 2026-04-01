@@ -1,0 +1,3705 @@
+[
+  {
+    "url": "https://vehiclehistory.eu/",
+    "pageTitle": "Free VIN Check Europe - Vehicle History Report by VIN Number",
+    "metaDesc": "Vehicle history report information & specifications by vin check Europe. Make a decision buying a used or new car with our free VIN Number Check 🚗",
+    "canonical": "https://vehiclehistory.eu",
+    "scrapedAt": "2026-03-31T05:31:29.997Z",
+    "totalSections": 13,
+    "sections": [
+      {
+        "index": 1,
+        "tag": "section",
+        "id": null,
+        "classes": "hk-font bg-[#1A2634] px-4 py-12 md:py-16",
+        "headings": [
+          {
+            "level": "h1",
+            "text": "European VIN Check EU VIN Lookup"
+          }
+        ],
+        "paragraphs": [
+          "Get free VIN decoding and affordable European VIN check for reliable vehicle history - verify title and condition, accidents, auction records, actual mileage and more."
+        ],
+        "links": [
+          {
+            "text": "View Sample Report",
+            "href": "https://vehiclehistory.eu/sample-report",
+            "style": "text",
+            "rel": null,
+            "newTab": true
+          },
+          {
+            "text": "Pan-European Coverage",
+            "href": "#",
+            "style": "text",
+            "rel": null,
+            "newTab": false
+          }
+        ],
+        "images": [
+          {
+            "src": "https://vehiclehistory.eu/wp-content/plugins/site_forms/public/images/circle-help.svg",
+            "alt": "question-mark",
+            "width": "16",
+            "height": "16"
+          },
+          {
+            "src": "https://vehiclehistory.eu/wp-content/plugins/site_forms/public/images/scroll-text.svg",
+            "alt": null,
+            "width": "24",
+            "height": "24"
+          },
+          {
+            "src": "https://vehiclehistory.eu/wp-content/plugins/site_forms/public/images/headset.svg",
+            "alt": null,
+            "width": "24",
+            "height": "24"
+          },
+          {
+            "src": "https://vehiclehistory.eu/wp-content/plugins/site_forms/public/images/shield.svg",
+            "alt": null,
+            "width": "24",
+            "height": "24"
+          },
+          {
+            "src": "https://vehiclehistory.eu/wp-content/plugins/site_forms/public/images/badge-percent.svg",
+            "alt": null,
+            "width": "24",
+            "height": "24"
+          },
+          {
+            "src": "https://vehiclehistory.eu/assets/arrow-right.svg",
+            "alt": "Check Sample",
+            "width": "16",
+            "height": "17"
+          },
+          {
+            "src": "https://vehiclehistory.eu/assets/global-icon.svg",
+            "alt": "Global coverage",
+            "width": "20",
+            "height": "21"
+          },
+          {
+            "src": "https://vehiclehistory.eu/assets/yellow-check.svg",
+            "alt": "Checked",
+            "width": "18",
+            "height": "19"
+          },
+          {
+            "src": "https://vehiclehistory.eu/assets/section-1-image.webp",
+            "alt": "Report Sample",
+            "width": null,
+            "height": null
+          }
+        ],
+        "forms": [
+          {
+            "fields": [
+              {
+                "type": "text",
+                "name": null,
+                "placeholder": "Enter VIN",
+                "label": null
+              },
+              {
+                "type": "text",
+                "name": null,
+                "placeholder": "Enter Plate",
+                "label": null
+              },
+              {
+                "type": "select",
+                "name": null,
+                "placeholder": null,
+                "label": null
+              },
+              {
+                "type": "select",
+                "name": null,
+                "placeholder": null,
+                "label": null
+              },
+              {
+                "type": "select",
+                "name": null,
+                "placeholder": null,
+                "label": null
+              },
+              {
+                "type": "select",
+                "name": null,
+                "placeholder": null,
+                "label": null
+              },
+              {
+                "type": "email",
+                "name": "emailInput",
+                "placeholder": "Enter Email Address",
+                "label": null
+              },
+              {
+                "type": "text",
+                "name": "phoneInput",
+                "placeholder": "Enter Phone for",
+                "label": null
+              }
+            ],
+            "submitText": "By VIN"
+          },
+          {
+            "fields": [
+              {
+                "type": "text",
+                "name": null,
+                "placeholder": "Enter VIN",
+                "label": null
+              },
+              {
+                "type": "text",
+                "name": null,
+                "placeholder": "Enter Plate",
+                "label": null
+              },
+              {
+                "type": "select",
+                "name": null,
+                "placeholder": null,
+                "label": null
+              },
+              {
+                "type": "select",
+                "name": null,
+                "placeholder": null,
+                "label": null
+              },
+              {
+                "type": "select",
+                "name": null,
+                "placeholder": null,
+                "label": null
+              },
+              {
+                "type": "select",
+                "name": null,
+                "placeholder": null,
+                "label": null
+              },
+              {
+                "type": "email",
+                "name": "emailInput",
+                "placeholder": "Enter Email Address",
+                "label": null
+              },
+              {
+                "type": "text",
+                "name": "phoneInput",
+                "placeholder": "Enter Phone for",
+                "label": null
+              }
+            ],
+            "submitText": null
+          }
+        ],
+        "lists": [],
+        "badges": [
+          {
+            "text": "10% OFF",
+            "hasIcon": false
+          }
+        ],
+        "stats": [
+          "Select State",
+          "10% OFF"
+        ],
+        "textLength": 20920,
+        "_improvised": {
+          "tagline": "Trusted Across Europe",
+          "tagLevel": "span",
+          "heading": "European VIN Check EU **VIN Lookup**",
+          "headingOriginal": "European VIN Check EU VIN Lookup",
+          "features": [
+            {
+              "icon": "shield-check",
+              "text": "Verified History Data",
+              "href": null
+            },
+            {
+              "icon": "globe",
+              "text": "Pan-European Coverage",
+              "href": null
+            },
+            {
+              "icon": "zap",
+              "text": "Instant VIN Decoding",
+              "href": null
+            },
+            {
+              "icon": "badge-euro",
+              "text": "Free Basic Check",
+              "href": null
+            }
+          ]
+        }
+      },
+      {
+        "index": 2,
+        "tag": "section",
+        "id": null,
+        "classes": "hk-font bg-white py-12 px-4 md:py-16 lg:py-20",
+        "headings": [
+          {
+            "level": "h2",
+            "text": "Save Money and Avoid Costly Mistakes"
+          }
+        ],
+        "paragraphs": [
+          "Purchasing a vehicle with hidden problems can lead to expensive repairs and decreased resale value. Our comprehensive vehicle history report can save you thousands of euros by revealing potential issues before you buy.",
+          "1 in 3 used cars have a hidden problem",
+          "Up to 30% of used cars in Europe have tampered odometers",
+          "Around 20% of used cars in Germany have undisclosed damages",
+          "Approximately 10% of vehicles on European roads have unresolved recall issues"
+        ],
+        "links": [
+          {
+            "text": "View Sample",
+            "href": "https://vehiclehistory.eu/sample-report",
+            "style": "text",
+            "rel": null,
+            "newTab": true
+          }
+        ],
+        "images": [
+          {
+            "src": "https://vehiclehistory.eu/assets/section-2-image.webp",
+            "alt": "Cars Problem",
+            "width": "557",
+            "height": "285"
+          },
+          {
+            "src": "https://vehiclehistory.eu/assets/red-alert.svg",
+            "alt": "Red Alert!",
+            "width": "24",
+            "height": "24"
+          }
+        ],
+        "forms": [],
+        "lists": [],
+        "badges": [],
+        "stats": [],
+        "textLength": 1879,
+        "_improvised": {
+          "tagline": "Protect Your Investment",
+          "tagLevel": "span",
+          "heading": "Save Money and Avoid **Costly Mistakes**",
+          "headingOriginal": "Save Money and Avoid Costly Mistakes"
+        }
+      },
+      {
+        "index": 3,
+        "tag": "section",
+        "id": null,
+        "classes": "hk-font bg-white py-8 px-4 md:py-12 lg:py-16",
+        "headings": [
+          {
+            "level": "h2",
+            "text": "What is a VIN Number?"
+          }
+        ],
+        "paragraphs": [
+          "A Vehicle Identification Number (VIN) is a unique 17-character code assigned to every car. It's like a car's fingerprint!",
+          "The VIN number contains crucial information, including the vehicle's manufacturer, model, year, engine type, and country of origin. It also tracks the car's history, such as accidents, repairs, and ownership. A VIN is usually found on the car's dashboard, door frame, or engine block."
+        ],
+        "links": [],
+        "images": [
+          {
+            "src": "https://vehiclehistory.eu/assets/section-3-image.webp",
+            "alt": "Car Detail",
+            "width": "704",
+            "height": "423"
+          }
+        ],
+        "forms": [],
+        "lists": [],
+        "badges": [],
+        "stats": [],
+        "textLength": 751,
+        "_improvised": {
+          "tagline": "Your Car's Fingerprint",
+          "tagLevel": "span",
+          "heading": "What is a **VIN Number**?",
+          "headingOriginal": "What is a VIN Number?"
+        }
+      },
+      {
+        "index": 4,
+        "tag": "section",
+        "id": null,
+        "classes": "hk-font bg-gray-50 px-4 py-12 md:py-16",
+        "headings": [
+          {
+            "level": "h2",
+            "text": "Why You Should Run a European VIN Number Check?"
+          },
+          {
+            "level": "h3",
+            "text": "Reveal Hidden History"
+          },
+          {
+            "level": "h3",
+            "text": "Avoid Accidented Cars"
+          },
+          {
+            "level": "h3",
+            "text": "Detect Odometer Fraud"
+          },
+          {
+            "level": "h3",
+            "text": "Ensure Title Authenticity"
+          },
+          {
+            "level": "h3",
+            "text": "Check for Open Recalls"
+          },
+          {
+            "level": "h3",
+            "text": "Avoid Buying Stolen Cars"
+          }
+        ],
+        "paragraphs": [
+          "With over 52% of used vehicles in Europe with hidden history, a European VIN number lookup will help you avoid financial booby traps and cars with bad histories, ensuring you buy with confidence and drive with peace of mind. Here's why running a VIN number check is essential before closing your next car deal:",
+          "1 in 3 used cars has a hidden problem. A European VIN check provides detailed information about a car's past, including accidents, repairs, or ownership changes, ensuring you're not blindsided by undisclosed issues.",
+          "A car's accident history can reveal whether a car has undergone major repairs that might compromise its safety or performance. A VIN check helps you avoid vehicles with serious damage.",
+          "Odometer tampering is common with up to 30% of European used cars with tampered odometers. A VIN check uncovers inconsistencies in mileage records, protecting you from paying more for a vehicle with manipulated mileage.",
+          "A VIN number check verifies that the vehicle's title is clean and free from issues like salvage or rebuilt titles, which could affect the car's value and insurability.",
+          "About 10% of vehicles on European roads have unresolved recall issues. A VIN check ensures you're aware of any unresolved recalls, enabling you to address safety concerns before purchasing a car.",
+          "EU police recorded an average of 697,000 vehicle thefts between 2015 to 2017. Checking the VIN against international databases helps confirm the vehicle hasn't been reported as stolen, saving you from legal troubles or losing the car."
+        ],
+        "links": [],
+        "images": [],
+        "forms": [],
+        "lists": [],
+        "badges": [],
+        "stats": [],
+        "textLength": 2221,
+        "_improvised": {
+          "tagline": "Buy With Confidence",
+          "tagLevel": "span",
+          "heading": "Why You Should Run a European **VIN Number Check**?",
+          "headingOriginal": "Why You Should Run a European VIN Number Check?"
+        }
+      },
+      {
+        "index": 5,
+        "tag": "section",
+        "id": null,
+        "classes": "hk-font bg-[#FFF0D1] py-12 px-4 md:py-16 lg:py-20",
+        "headings": [
+          {
+            "level": "h2",
+            "text": "How to Run a European VIN Check"
+          }
+        ],
+        "paragraphs": [
+          "Enter the 17-digit VIN into the VIN search form at the top.",
+          "Provide your email and phone number so we can deliver your report securely.",
+          "Click \"Check Vehicle History\" to start the process.",
+          "Review the detailed report to understand the car's history, usage, and condition.",
+          "Make an informed decision before buying or selling the vehicle.",
+          "It's that easy! Whether you're a buyer or a seller, our tool ensures you have all the facts."
+        ],
+        "links": [],
+        "images": [
+          {
+            "src": "https://vehiclehistory.eu/assets/enter-vin.svg",
+            "alt": "Step 1",
+            "width": "56",
+            "height": "57"
+          },
+          {
+            "src": "https://vehiclehistory.eu/assets/provide-data.svg",
+            "alt": "Step 2",
+            "width": "56",
+            "height": "57"
+          },
+          {
+            "src": "https://vehiclehistory.eu/assets/click-check.svg",
+            "alt": "Step 3",
+            "width": "56",
+            "height": "57"
+          },
+          {
+            "src": "https://vehiclehistory.eu/assets/review-details.svg",
+            "alt": "Step 4",
+            "width": "56",
+            "height": "57"
+          },
+          {
+            "src": "https://vehiclehistory.eu/assets/make-informed.svg",
+            "alt": "Step 5",
+            "width": "56",
+            "height": "57"
+          }
+        ],
+        "forms": [],
+        "lists": [],
+        "badges": [],
+        "stats": [],
+        "textLength": 1656,
+        "_improvised": {
+          "tagline": "Three Simple Steps",
+          "tagLevel": "span",
+          "heading": "How to Run a **European VIN Check**",
+          "headingOriginal": "How to Run a European VIN Check"
+        }
+      },
+      {
+        "index": 6,
+        "tag": "section",
+        "id": null,
+        "classes": "lato-font max-w-6xl mx-auto px-4 py-12 md:py-16",
+        "headings": [
+          {
+            "level": "h2",
+            "text": "Why You Need European VIN Lookup"
+          },
+          {
+            "level": "h3",
+            "text": "For Car Buyers"
+          },
+          {
+            "level": "h3",
+            "text": "For Dealerships and Resellers"
+          }
+        ],
+        "paragraphs": [],
+        "links": [],
+        "images": [
+          {
+            "src": "https://vehiclehistory.eu/assets/green-check.svg",
+            "alt": "Check",
+            "width": "12",
+            "height": "9"
+          }
+        ],
+        "forms": [],
+        "lists": [
+          {
+            "type": "ul",
+            "items": [
+              "<img width=\"12\" height=\"9\" src=\"https://vehiclehistory.eu/assets/green-check.svg\" alt=\"Check\" class=\"w-4 h-4 flex-shrink-0 mt-1\"/> Avoid Scams: Know the real story of the car before purchase.",
+              "<img width=\"12\" height=\"9\" src=\"https://vehiclehistory.eu/assets/green-check.svg\" alt=\"Check\" class=\"w-4 h-4 flex-shrink-0 mt-1\"/> Check Ownership: Find out how many people owned the car.",
+              "<img width=\"12\" height=\"9\" src=\"https://vehiclehistory.eu/assets/green-check.svg\" alt=\"Check\" class=\"w-4 h-4 flex-shrink-0 mt-1\"/> Accident Records: Ensure the vehicle wasn't severely damaged.",
+              "<img width=\"12\" height=\"9\" src=\"https://vehiclehistory.eu/assets/green-check.svg\" alt=\"Check\" class=\"w-4 h-4 flex-shrink-0 mt-1\"/> Mileage Accuracy: Spot tampered odometers, avoid odometer fraud easily.",
+              "<img width=\"12\" height=\"9\" src=\"https://vehiclehistory.eu/assets/green-check.svg\" alt=\"Check\" class=\"w-4 h-4 flex-shrink-0 mt-1\"/> Service Records: Confirm the car has been well-maintained.",
+              "<img width=\"12\" height=\"9\" src=\"https://vehiclehistory.eu/assets/green-check.svg\" alt=\"Check\" class=\"w-4 h-4 flex-shrink-0 mt-1\"/> Theft History: Ensure the car isn't flagged as stolen."
+            ]
+          },
+          {
+            "type": "ul",
+            "items": [
+              "<img width=\"12\" height=\"9\" src=\"https://vehiclehistory.eu/assets/green-check.svg\" alt=\"Check\" class=\"w-4 h-4 flex-shrink-0 mt-1\"/> Build Trust: Show potential buyers the car's complete history.",
+              "<img width=\"12\" height=\"9\" src=\"https://vehiclehistory.eu/assets/green-check.svg\" alt=\"Check\" class=\"w-4 h-4 flex-shrink-0 mt-1\"/> Highlight Value: Use car title and condition to increase appeal.",
+              "<img width=\"12\" height=\"9\" src=\"https://vehiclehistory.eu/assets/green-check.svg\" alt=\"Check\" class=\"w-4 h-4 flex-shrink-0 mt-1\"/> Close Sales Faster: Provide detailed reports to eliminate buyer doubts.",
+              "<img width=\"12\" height=\"9\" src=\"https://vehiclehistory.eu/assets/green-check.svg\" alt=\"Check\" class=\"w-4 h-4 flex-shrink-0 mt-1\"/> Compliance: Ensure vehicles meet EU legal requirements for sale.",
+              "<img width=\"12\" height=\"9\" src=\"https://vehiclehistory.eu/assets/green-check.svg\" alt=\"Check\" class=\"w-4 h-4 flex-shrink-0 mt-1\"/> Better resale value: Shows servicing, set fair, market-aligned prices",
+              "<img width=\"12\" height=\"9\" src=\"https://vehiclehistory.eu/assets/green-check.svg\" alt=\"Check\" class=\"w-4 h-4 flex-shrink-0 mt-1\"/> Boost reputation: Establish trustworthiness, attracting repeat customers and referrals."
+            ]
+          }
+        ],
+        "badges": [],
+        "stats": [],
+        "textLength": 3396,
+        "_improvised": {
+          "tagline": "Built for Every Buyer",
+          "tagLevel": "span",
+          "heading": "Why You Need **European VIN Lookup**",
+          "headingOriginal": "Why You Need European VIN Lookup"
+        }
+      },
+      {
+        "index": 7,
+        "tag": "section",
+        "id": null,
+        "classes": "hk-font bg-[#F0F4F8] py-12 px-4 md:py-16 lg:py-20",
+        "headings": [
+          {
+            "level": "h2",
+            "text": "What Can You Learn from Europe Vehicle History Report"
+          },
+          {
+            "level": "h3",
+            "text": "Detailed Vehicle Specification"
+          },
+          {
+            "level": "h3",
+            "text": "Auction Records"
+          },
+          {
+            "level": "h3",
+            "text": "Title and Condition"
+          },
+          {
+            "level": "h3",
+            "text": "Technical Specs"
+          },
+          {
+            "level": "h3",
+            "text": "Theft Records (Stolen Check)"
+          }
+        ],
+        "paragraphs": [
+          "Follow these simple steps to get your report:"
+        ],
+        "links": [
+          {
+            "text": "Check Sample Report",
+            "href": "https://vehiclehistory.eu/sample-report",
+            "style": "text",
+            "rel": null,
+            "newTab": true
+          }
+        ],
+        "images": [
+          {
+            "src": "https://vehiclehistory.eu/assets/green-check.svg",
+            "alt": "Check",
+            "width": "12",
+            "height": "9"
+          }
+        ],
+        "forms": [],
+        "lists": [],
+        "badges": [],
+        "stats": [],
+        "textLength": 5375,
+        "_improvised": {
+          "tagline": "What's Inside Your Report",
+          "tagLevel": "span",
+          "heading": "What Can You Learn from Europe **Vehicle History Report**",
+          "headingOriginal": "What Can You Learn from Europe Vehicle History Report"
+        }
+      },
+      {
+        "index": 8,
+        "tag": "section",
+        "id": null,
+        "classes": "hk-font max-w-6xl mx-auto px-4 py-12",
+        "headings": [
+          {
+            "level": "h2",
+            "text": "Our Reports vs. Competitors"
+          }
+        ],
+        "paragraphs": [
+          "Follow these simple steps to get your report:"
+        ],
+        "links": [],
+        "images": [
+          {
+            "src": "https://vehiclehistory.eu/assets/green-check.svg",
+            "alt": "included",
+            "width": "12",
+            "height": "9"
+          },
+          {
+            "src": "https://vehiclehistory.eu/assets/red-x.svg",
+            "alt": "Not included",
+            "width": "13",
+            "height": "14"
+          }
+        ],
+        "forms": [],
+        "lists": [],
+        "badges": [],
+        "stats": [],
+        "textLength": 2737,
+        "_improvised": {
+          "tagline": "See the Difference",
+          "tagLevel": "span",
+          "heading": "Our Reports vs. **Competitors**",
+          "headingOriginal": "Our Reports vs. Competitors"
+        }
+      },
+      {
+        "index": 9,
+        "tag": "section",
+        "id": null,
+        "classes": "hk-font bg-white py-12 px-4 md:py-16 lg:py-20",
+        "headings": [
+          {
+            "level": "h2",
+            "text": "Why Choose Our EU VIN Decoder?"
+          },
+          {
+            "level": "h3",
+            "text": "Fast and Reliable Reports"
+          },
+          {
+            "level": "h3",
+            "text": "Trusted European Databases"
+          },
+          {
+            "level": "h3",
+            "text": "Easy-to-Use Tools"
+          },
+          {
+            "level": "h3",
+            "text": "Affordable Options"
+          },
+          {
+            "level": "h3",
+            "text": "Multilingual Support"
+          },
+          {
+            "level": "h3",
+            "text": "24/7 Customer Service"
+          }
+        ],
+        "paragraphs": [
+          "Access your report instantly with a user-friendly experience and up-to-date information.",
+          "Our data comes directly from reliable sources across Europe, ensuring accuracy.",
+          "Simply enter the VIN, and our system does the rest in seconds.",
+          "Choose between free basic checks or detailed premium reports for full insights.",
+          "Available in multiple languages to cater to all European users.",
+          "Get issues resolved on time. Make informed decisions without delay."
+        ],
+        "links": [],
+        "images": [],
+        "forms": [],
+        "lists": [],
+        "badges": [],
+        "stats": [],
+        "textLength": 1052,
+        "_improvised": {
+          "tagline": "The European Standard",
+          "tagLevel": "span",
+          "heading": "Why Choose Our **EU VIN Decoder**?",
+          "headingOriginal": "Why Choose Our EU VIN Decoder?"
+        }
+      },
+      {
+        "index": 10,
+        "tag": "section",
+        "id": null,
+        "classes": "hk-font px-4 py-12",
+        "headings": [
+          {
+            "level": "h2",
+            "text": "Get EU VIN Check Report by Country"
+          }
+        ],
+        "paragraphs": [
+          "No matter where you are in Europe, our VIN check tool has you covered. We provide reports for vehicles across the following European countries:"
+        ],
+        "links": [
+          {
+            "text": "Albania",
+            "href": "https://vehiclehistory.eu/vin-check/albania",
+            "style": "text",
+            "rel": null,
+            "newTab": true
+          },
+          {
+            "text": "Andorra",
+            "href": "https://vehiclehistory.eu/vin-check/andorra",
+            "style": "text",
+            "rel": null,
+            "newTab": true
+          },
+          {
+            "text": "Austria",
+            "href": "https://vehiclehistory.eu/vin-check/austria",
+            "style": "text",
+            "rel": null,
+            "newTab": true
+          },
+          {
+            "text": "Belarus",
+            "href": "https://vehiclehistory.eu/vin-check/belarus",
+            "style": "text",
+            "rel": null,
+            "newTab": true
+          },
+          {
+            "text": "Belgium",
+            "href": "https://vehiclehistory.eu/vin-check/belgium",
+            "style": "text",
+            "rel": null,
+            "newTab": true
+          },
+          {
+            "text": "Bosnia",
+            "href": "https://vehiclehistory.eu/vin-check/bosnia-hertzegovina",
+            "style": "text",
+            "rel": null,
+            "newTab": true
+          },
+          {
+            "text": "Bulgaria",
+            "href": "https://vehiclehistory.eu/vin-check/bulgaria",
+            "style": "text",
+            "rel": null,
+            "newTab": true
+          },
+          {
+            "text": "Croatia",
+            "href": "https://vehiclehistory.eu/vin-check/croatia",
+            "style": "text",
+            "rel": null,
+            "newTab": true
+          },
+          {
+            "text": "Czech Republic",
+            "href": "https://vehiclehistory.eu/vin-check/czech-republic",
+            "style": "text",
+            "rel": null,
+            "newTab": true
+          },
+          {
+            "text": "Denmark",
+            "href": "https://vehiclehistory.eu/vin-check/denmark",
+            "style": "text",
+            "rel": null,
+            "newTab": true
+          },
+          {
+            "text": "Estonia",
+            "href": "https://vehiclehistory.eu/vin-check/estonia",
+            "style": "text",
+            "rel": null,
+            "newTab": true
+          },
+          {
+            "text": "Finland",
+            "href": "https://vehiclehistory.eu/vin-check/finland",
+            "style": "text",
+            "rel": null,
+            "newTab": true
+          },
+          {
+            "text": "France",
+            "href": "https://vehiclehistory.eu/vin-check/france",
+            "style": "text",
+            "rel": null,
+            "newTab": true
+          },
+          {
+            "text": "Germany",
+            "href": "https://vehiclehistory.eu/vin-check/germany",
+            "style": "text",
+            "rel": null,
+            "newTab": true
+          },
+          {
+            "text": "Greece",
+            "href": "https://vehiclehistory.eu/vin-check/greece",
+            "style": "text",
+            "rel": null,
+            "newTab": true
+          },
+          {
+            "text": "Holy See",
+            "href": "https://vehiclehistory.eu/vin-check/holy-see",
+            "style": "text",
+            "rel": null,
+            "newTab": true
+          },
+          {
+            "text": "Hungary",
+            "href": "https://vehiclehistory.eu/vin-check/hungary",
+            "style": "text",
+            "rel": null,
+            "newTab": true
+          },
+          {
+            "text": "Iceland",
+            "href": "https://vehiclehistory.eu/vin-check/iceland",
+            "style": "text",
+            "rel": null,
+            "newTab": true
+          },
+          {
+            "text": "Ireland",
+            "href": "https://vehiclehistory.eu/vin-check/ireland",
+            "style": "text",
+            "rel": null,
+            "newTab": true
+          },
+          {
+            "text": "Italy",
+            "href": "https://vehiclehistory.eu/vin-check/italy",
+            "style": "text",
+            "rel": null,
+            "newTab": true
+          },
+          {
+            "text": "Latvia",
+            "href": "https://vehiclehistory.eu/vin-check/latvia",
+            "style": "text",
+            "rel": null,
+            "newTab": true
+          },
+          {
+            "text": "Liechtenstein",
+            "href": "https://vehiclehistory.eu/vin-check/liechtenstein",
+            "style": "text",
+            "rel": null,
+            "newTab": true
+          },
+          {
+            "text": "Lithuania",
+            "href": "https://vehiclehistory.eu/vin-check/lithuania",
+            "style": "text",
+            "rel": null,
+            "newTab": true
+          },
+          {
+            "text": "Luxembourg",
+            "href": "https://vehiclehistory.eu/vin-check/luxembourg",
+            "style": "text",
+            "rel": null,
+            "newTab": true
+          },
+          {
+            "text": "Malta",
+            "href": "https://vehiclehistory.eu/vin-check/malta",
+            "style": "text",
+            "rel": null,
+            "newTab": true
+          },
+          {
+            "text": "Moldova",
+            "href": "https://vehiclehistory.eu/vin-check/moldova",
+            "style": "text",
+            "rel": null,
+            "newTab": true
+          },
+          {
+            "text": "Monaco",
+            "href": "https://vehiclehistory.eu/vin-check/monaco",
+            "style": "text",
+            "rel": null,
+            "newTab": true
+          },
+          {
+            "text": "Montenegro",
+            "href": "https://vehiclehistory.eu/vin-check/montenegro",
+            "style": "text",
+            "rel": null,
+            "newTab": true
+          },
+          {
+            "text": "Netherlands",
+            "href": "https://vehiclehistory.eu/vin-check/netherlands",
+            "style": "text",
+            "rel": null,
+            "newTab": true
+          },
+          {
+            "text": "North Macedonia",
+            "href": "https://vehiclehistory.eu/vin-check/north-macedonia",
+            "style": "text",
+            "rel": null,
+            "newTab": true
+          },
+          {
+            "text": "Norway",
+            "href": "https://vehiclehistory.eu/vin-check/norway",
+            "style": "text",
+            "rel": null,
+            "newTab": true
+          },
+          {
+            "text": "Poland",
+            "href": "https://vehiclehistory.eu/vin-check/poland",
+            "style": "text",
+            "rel": null,
+            "newTab": true
+          },
+          {
+            "text": "Portugal",
+            "href": "https://vehiclehistory.eu/vin-check/portugal",
+            "style": "text",
+            "rel": null,
+            "newTab": true
+          },
+          {
+            "text": "Romania",
+            "href": "https://vehiclehistory.eu/vin-check/romania",
+            "style": "text",
+            "rel": null,
+            "newTab": true
+          },
+          {
+            "text": "Russia",
+            "href": "https://vehiclehistory.eu/vin-check/russia",
+            "style": "text",
+            "rel": null,
+            "newTab": true
+          },
+          {
+            "text": "San Marino",
+            "href": "https://vehiclehistory.eu/vin-check/san-marino",
+            "style": "text",
+            "rel": null,
+            "newTab": true
+          },
+          {
+            "text": "Serbia",
+            "href": "https://vehiclehistory.eu/vin-check/serbia",
+            "style": "text",
+            "rel": null,
+            "newTab": true
+          },
+          {
+            "text": "Slovakia",
+            "href": "https://vehiclehistory.eu/vin-check/slovakia",
+            "style": "text",
+            "rel": null,
+            "newTab": true
+          },
+          {
+            "text": "Slovenia",
+            "href": "https://vehiclehistory.eu/vin-check/slovenia",
+            "style": "text",
+            "rel": null,
+            "newTab": true
+          },
+          {
+            "text": "Spain",
+            "href": "https://vehiclehistory.eu/vin-check/spain",
+            "style": "text",
+            "rel": null,
+            "newTab": true
+          },
+          {
+            "text": "Sweden",
+            "href": "https://vehiclehistory.eu/vin-check/sweden",
+            "style": "text",
+            "rel": null,
+            "newTab": true
+          },
+          {
+            "text": "Switzerland",
+            "href": "https://vehiclehistory.eu/vin-check/switzerland",
+            "style": "text",
+            "rel": null,
+            "newTab": true
+          },
+          {
+            "text": "Ukraine",
+            "href": "https://vehiclehistory.eu/vin-check/ukraine",
+            "style": "text",
+            "rel": null,
+            "newTab": true
+          },
+          {
+            "text": "United Kingdom",
+            "href": "https://vehiclehistory.eu/vin-check/united-kingdom",
+            "style": "text",
+            "rel": null,
+            "newTab": true
+          }
+        ],
+        "images": [],
+        "forms": [],
+        "lists": [],
+        "badges": [],
+        "stats": [],
+        "textLength": 619,
+        "_improvised": {
+          "tagline": "Full Continental Coverage",
+          "tagLevel": "span",
+          "heading": "Get EU VIN Check Report **by Country**",
+          "headingOriginal": "Get EU VIN Check Report by Country"
+        }
+      },
+      {
+        "index": 11,
+        "tag": "section",
+        "id": null,
+        "classes": "hk-font bg-[#F0F4F8] py-12 px-4 md:py-16 lg:py-20",
+        "headings": [
+          {
+            "level": "h2",
+            "text": "Run VIN Check Europe by Makes"
+          }
+        ],
+        "paragraphs": [
+          "Get detailed vehicle history reports for popular brands. Just choose your car brand and start your VIN check right away!"
+        ],
+        "links": [
+          {
+            "text": "Alfa Romeo",
+            "href": "https://vehiclehistory.eu/vin-decoder/alfa-romeo",
+            "style": "text",
+            "rel": null,
+            "newTab": true
+          },
+          {
+            "text": "Audi",
+            "href": "https://vehiclehistory.eu/vin-decoder/audi",
+            "style": "text",
+            "rel": null,
+            "newTab": true
+          },
+          {
+            "text": "BMW",
+            "href": "https://vehiclehistory.eu/vin-decoder/bmw",
+            "style": "text",
+            "rel": null,
+            "newTab": true
+          },
+          {
+            "text": "Citreon",
+            "href": "https://vehiclehistory.eu/vin-decoder/citroen",
+            "style": "text",
+            "rel": null,
+            "newTab": true
+          },
+          {
+            "text": "Fiat",
+            "href": "https://vehiclehistory.eu/vin-decoder/fiat",
+            "style": "text",
+            "rel": null,
+            "newTab": true
+          },
+          {
+            "text": "Jaguar",
+            "href": "https://vehiclehistory.eu/vin-decoder/jaguar",
+            "style": "text",
+            "rel": null,
+            "newTab": true
+          },
+          {
+            "text": "Land Rover",
+            "href": "https://vehiclehistory.eu/vin-decoder/land-rover",
+            "style": "text",
+            "rel": null,
+            "newTab": true
+          },
+          {
+            "text": "Mercedes-Benz",
+            "href": "https://vehiclehistory.eu/vin-decoder/mercedes-benz",
+            "style": "text",
+            "rel": null,
+            "newTab": true
+          },
+          {
+            "text": "Mini",
+            "href": "https://vehiclehistory.eu/vin-decoder/mini",
+            "style": "text",
+            "rel": null,
+            "newTab": true
+          },
+          {
+            "text": "Peugeot",
+            "href": "https://vehiclehistory.eu/vin-decoder/peugeot",
+            "style": "text",
+            "rel": null,
+            "newTab": true
+          },
+          {
+            "text": "Porsche",
+            "href": "https://vehiclehistory.eu/vin-decoder/porsche",
+            "style": "text",
+            "rel": null,
+            "newTab": true
+          },
+          {
+            "text": "Renault",
+            "href": "https://vehiclehistory.eu/vin-decoder/renault",
+            "style": "text",
+            "rel": null,
+            "newTab": true
+          },
+          {
+            "text": "Saab",
+            "href": "https://vehiclehistory.eu/vin-decoder/saab",
+            "style": "text",
+            "rel": null,
+            "newTab": true
+          },
+          {
+            "text": "Volkswagen",
+            "href": "https://vehiclehistory.eu/vin-decoder/volkswagen",
+            "style": "text",
+            "rel": null,
+            "newTab": true
+          },
+          {
+            "text": "Volvo",
+            "href": "https://vehiclehistory.eu/vin-decoder/volvo",
+            "style": "text",
+            "rel": null,
+            "newTab": true
+          }
+        ],
+        "images": [],
+        "forms": [],
+        "lists": [],
+        "badges": [],
+        "stats": [],
+        "textLength": 429,
+        "_improvised": {
+          "tagline": "Every Brand Covered",
+          "tagLevel": "span",
+          "heading": "Run VIN Check Europe **by Makes**",
+          "headingOriginal": "Run VIN Check Europe by Makes"
+        }
+      },
+      {
+        "index": 12,
+        "tag": "section",
+        "id": null,
+        "classes": "hk-font z-0 hk-font py-16 px-4 bg-white",
+        "headings": [
+          {
+            "level": "h2",
+            "text": "Blog"
+          },
+          {
+            "level": "h3",
+            "text": "What is the Best Used SUV to Buy in?"
+          },
+          {
+            "level": "h3",
+            "text": "7 Best Electric Cars to Buy Used in 2024"
+          },
+          {
+            "level": "h3",
+            "text": "Best Family SUVs for 2024"
+          }
+        ],
+        "paragraphs": [
+          "You’ve decided it’s time for an SUV, but the choices feel overwhelming...",
+          "Between 2022 and 2023, the market for used electric cars has been...",
+          "Finding the right SUV for your family is not always easy. With so many..."
+        ],
+        "links": [
+          {
+            "text": "What is the Best Used SUV to Buy in?  Adewale Peter  Nov 30, 2024 You’ve decided it’s time for an SUV, but the choices feel overwhelming...",
+            "href": "https://vehiclehistory.eu/blog/what-is-the-best-used-suv-to-buy-in",
+            "style": "text",
+            "rel": null,
+            "newTab": false
+          },
+          {
+            "text": "7 Best Electric Cars to Buy Used in 2024  Adewale Peter  Nov 27, 2024 Between 2022 and 2023, the market for used electric cars has been...",
+            "href": "https://vehiclehistory.eu/blog/best-used-electric-cars",
+            "style": "text",
+            "rel": null,
+            "newTab": true
+          },
+          {
+            "text": "Best Family SUVs for 2024  Adewale Peter  Nov 24, 2024 Finding the right SUV for your family is not always easy. With so many...",
+            "href": "https://vehiclehistory.eu/blog/best-family-suv-2024",
+            "style": "text",
+            "rel": null,
+            "newTab": true
+          },
+          {
+            "text": "More Post",
+            "href": "https://vehiclehistory.eu/blog",
+            "style": "text",
+            "rel": null,
+            "newTab": true
+          }
+        ],
+        "images": [
+          {
+            "src": "https://vehiclehistory.eu/assets/What-is-the-Best-Used-SUV-to-Buy.webp",
+            "alt": "What is the Best Used SUV to Buy",
+            "width": "1280",
+            "height": "720"
+          },
+          {
+            "src": "https://vehiclehistory.eu/assets/adewale-peter.webp",
+            "alt": "Adewale Peter",
+            "width": "300",
+            "height": "300"
+          },
+          {
+            "src": "https://vehiclehistory.eu/assets/time-icon.svg",
+            "alt": "Time",
+            "width": "20",
+            "height": "21"
+          },
+          {
+            "src": "https://vehiclehistory.eu/assets/7-Best-Electric-Cars-to-Buy-Used-in-2024.webp",
+            "alt": "7 Best Electric Cars to buy Used in 2024",
+            "width": "1280",
+            "height": "720"
+          },
+          {
+            "src": "https://vehiclehistory.eu/assets/Best-Family-SUVs-for-2024.webp",
+            "alt": "Best Family SUVs for 2024",
+            "width": "1280",
+            "height": "720"
+          }
+        ],
+        "forms": [],
+        "lists": [],
+        "badges": [],
+        "stats": [],
+        "textLength": 3327,
+        "_improvised": {
+          "tagline": "Expert Car Buying Guides",
+          "tagLevel": "span"
+        }
+      },
+      {
+        "index": 13,
+        "tag": "section",
+        "id": null,
+        "classes": "hk-font py-12 px-4",
+        "headings": [
+          {
+            "level": "h2",
+            "text": "Frequently Asked Questions"
+          }
+        ],
+        "paragraphs": [
+          "A free VIN check gives basic details like make, model, and year. Paid reports may include ownership history, accidents, theft records, mileage history and more. Use our free VIN lookup tool for quick overviews of vehicle details and paid ones if you're purchasing or selling used cars.",
+          "Yes, our VIN check is highly reliable and accurate. We source our data from multiple trusted databases and official records to ensure the information provided is up-to-date and comprehensive. However, please note that the accuracy of the report also depends on the timeliness and completeness of the data reported by various sources.",
+          "The VIN (Vehicle Identification Number) can typically be found in several locations on a car: 1. On the driver's side dashboard, visible through the windshield 2. Inside the driver's side door jamb 3. On the engine block 4. In the vehicle registration and insurance documents The exact location may vary depending on the make and model of the car.",
+          "A European VIN number typically contains 17 characters that provide various details about the vehicle, including: 1. World Manufacturer Identifier (first 3 characters) 2. Vehicle descriptor section (characters 4-9) 3. Vehicle identifier section (last 8 characters) These sections can reveal information such as the country of manufacture, brand, vehicle type, body style, engine size, model year, plant code, and serial number.",
+          "If you don't have a VIN number, you can try the following: 1. Check your vehicle registration or insurance documents 2. Look for the VIN plate on your vehicle (common locations mentioned in a previous answer) 3. Contact your car dealer or the manufacturer 4. Check your car's service history or maintenance records 5. If you've recently purchased the car, contact the seller If you still can't find the VIN, consult with a professional mechanic or your local vehicle registration authority for assistance."
+        ],
+        "links": [],
+        "images": [
+          {
+            "src": "https://vehiclehistory.eu/assets/arrow-left.svg",
+            "alt": "Arrow left",
+            "width": "9",
+            "height": "15"
+          }
+        ],
+        "forms": [],
+        "lists": [],
+        "badges": [],
+        "stats": [],
+        "textLength": 5252,
+        "_improvised": {
+          "tagline": "Quick Answers",
+          "tagLevel": "span",
+          "heading": "Frequently Asked **Questions**",
+          "headingOriginal": "Frequently Asked Questions"
+        }
+      }
+    ],
+    "_changes": [
+      {
+        "section": 1,
+        "label": "Hero",
+        "diffs": [
+          {
+            "field": "tagline",
+            "original": "(none)",
+            "improved": "Trusted Across Europe",
+            "reason": "AI-generated tagline"
+          },
+          {
+            "field": "heading",
+            "original": "European VIN Check EU VIN Lookup",
+            "improved": "European VIN Check EU **VIN Lookup**",
+            "reason": "AI-selected **marker** highlight for gradient text"
+          },
+          {
+            "field": "features",
+            "original": "(none)",
+            "improved": "shield-check: Verified History Data | globe: Pan-European Coverage | zap: Instant VIN Decoding | badge-euro: Free Basic Check",
+            "reason": "AI-suggested feature highlights"
+          }
+        ]
+      },
+      {
+        "section": 2,
+        "label": "Save Money",
+        "diffs": [
+          {
+            "field": "tagline",
+            "original": "(none)",
+            "improved": "Protect Your Investment",
+            "reason": "AI-generated tagline"
+          },
+          {
+            "field": "heading",
+            "original": "Save Money and Avoid Costly Mistakes",
+            "improved": "Save Money and Avoid **Costly Mistakes**",
+            "reason": "AI-selected **marker** highlight for gradient text"
+          }
+        ]
+      },
+      {
+        "section": 3,
+        "label": "What is VIN",
+        "diffs": [
+          {
+            "field": "tagline",
+            "original": "(none)",
+            "improved": "Your Car's Fingerprint",
+            "reason": "AI-generated tagline"
+          },
+          {
+            "field": "heading",
+            "original": "What is a VIN Number?",
+            "improved": "What is a **VIN Number**?",
+            "reason": "AI-selected **marker** highlight for gradient text"
+          }
+        ]
+      },
+      {
+        "section": 4,
+        "label": "Why VIN Check",
+        "diffs": [
+          {
+            "field": "tagline",
+            "original": "(none)",
+            "improved": "Buy With Confidence",
+            "reason": "AI-generated tagline"
+          },
+          {
+            "field": "heading",
+            "original": "Why You Should Run a European VIN Number Check?",
+            "improved": "Why You Should Run a European **VIN Number Check**?",
+            "reason": "AI-selected **marker** highlight for gradient text"
+          }
+        ]
+      },
+      {
+        "section": 5,
+        "label": "How It Works",
+        "diffs": [
+          {
+            "field": "tagline",
+            "original": "(none)",
+            "improved": "Three Simple Steps",
+            "reason": "AI-generated tagline"
+          },
+          {
+            "field": "heading",
+            "original": "How to Run a European VIN Check",
+            "improved": "How to Run a **European VIN Check**",
+            "reason": "AI-selected **marker** highlight for gradient text"
+          }
+        ]
+      },
+      {
+        "section": 6,
+        "label": "Who Benefits",
+        "diffs": [
+          {
+            "field": "tagline",
+            "original": "(none)",
+            "improved": "Built for Every Buyer",
+            "reason": "AI-generated tagline"
+          },
+          {
+            "field": "heading",
+            "original": "Why You Need European VIN Lookup",
+            "improved": "Why You Need **European VIN Lookup**",
+            "reason": "AI-selected **marker** highlight for gradient text"
+          }
+        ]
+      },
+      {
+        "section": 7,
+        "label": "Report Contents",
+        "diffs": [
+          {
+            "field": "tagline",
+            "original": "(none)",
+            "improved": "What's Inside Your Report",
+            "reason": "AI-generated tagline"
+          },
+          {
+            "field": "heading",
+            "original": "What Can You Learn from Europe Vehicle History Report",
+            "improved": "What Can You Learn from Europe **Vehicle History Report**",
+            "reason": "AI-selected **marker** highlight for gradient text"
+          }
+        ]
+      },
+      {
+        "section": 8,
+        "label": "Comparison",
+        "diffs": [
+          {
+            "field": "tagline",
+            "original": "(none)",
+            "improved": "See the Difference",
+            "reason": "AI-generated tagline"
+          },
+          {
+            "field": "heading",
+            "original": "Our Reports vs. Competitors",
+            "improved": "Our Reports vs. **Competitors**",
+            "reason": "AI-selected **marker** highlight for gradient text"
+          }
+        ]
+      },
+      {
+        "section": 9,
+        "label": "Why Choose Us",
+        "diffs": [
+          {
+            "field": "tagline",
+            "original": "(none)",
+            "improved": "The European Standard",
+            "reason": "AI-generated tagline"
+          },
+          {
+            "field": "heading",
+            "original": "Why Choose Our EU VIN Decoder?",
+            "improved": "Why Choose Our **EU VIN Decoder**?",
+            "reason": "AI-selected **marker** highlight for gradient text"
+          }
+        ]
+      },
+      {
+        "section": 10,
+        "label": "By Country",
+        "diffs": [
+          {
+            "field": "tagline",
+            "original": "(none)",
+            "improved": "Full Continental Coverage",
+            "reason": "AI-generated tagline"
+          },
+          {
+            "field": "heading",
+            "original": "Get EU VIN Check Report by Country",
+            "improved": "Get EU VIN Check Report **by Country**",
+            "reason": "AI-selected **marker** highlight for gradient text"
+          }
+        ]
+      },
+      {
+        "section": 11,
+        "label": "By Make",
+        "diffs": [
+          {
+            "field": "tagline",
+            "original": "(none)",
+            "improved": "Every Brand Covered",
+            "reason": "AI-generated tagline"
+          },
+          {
+            "field": "heading",
+            "original": "Run VIN Check Europe by Makes",
+            "improved": "Run VIN Check Europe **by Makes**",
+            "reason": "AI-selected **marker** highlight for gradient text"
+          }
+        ]
+      },
+      {
+        "section": 12,
+        "label": "Blog",
+        "diffs": [
+          {
+            "field": "tagline",
+            "original": "(none)",
+            "improved": "Expert Car Buying Guides",
+            "reason": "AI-generated tagline"
+          }
+        ]
+      },
+      {
+        "section": 13,
+        "label": "FAQ",
+        "diffs": [
+          {
+            "field": "tagline",
+            "original": "(none)",
+            "improved": "Quick Answers",
+            "reason": "AI-generated tagline"
+          },
+          {
+            "field": "heading",
+            "original": "Frequently Asked Questions",
+            "improved": "Frequently Asked **Questions**",
+            "reason": "AI-selected **marker** highlight for gradient text"
+          }
+        ]
+      }
+    ],
+    "_improvisedAt": "2026-03-31T05:31:55.164Z"
+  },
+  {
+    "url": "https://vehiclehistory.eu/pricing",
+    "pageTitle": "Pricing | Vehicle History Europe",
+    "metaDesc": "Get detailed pricing and package information of Vehicle History Europe for VIN Decoding, VIN Check, VIN Lookup, and Vehicle history report service.",
+    "canonical": "https://vehiclehistory.eu/pricing",
+    "scrapedAt": "2026-03-31T05:31:30.232Z",
+    "totalSections": 6,
+    "sections": [
+      {
+        "index": 1,
+        "tag": "section",
+        "id": null,
+        "classes": "elementor-section elementor-top-section elementor-element elementor-element-adf3e51 elementor-section-boxed elementor-se",
+        "headings": [
+          {
+            "level": "h1",
+            "text": "Detailed Report at Affordable Pricing"
+          }
+        ],
+        "paragraphs": [
+          "Any package selected offers great value at affordable prices. Get instant access to your vehicle history report with"
+        ],
+        "links": [],
+        "images": [],
+        "forms": [],
+        "lists": [
+          {
+            "type": "ul",
+            "items": [
+              "Detailed Vehicle History"
+            ]
+          },
+          {
+            "type": "ul",
+            "items": [
+              "Best Value for Money"
+            ]
+          },
+          {
+            "type": "ul",
+            "items": [
+              "33% cheaper than Carfax"
+            ]
+          }
+        ],
+        "badges": [],
+        "stats": [],
+        "textLength": 673,
+        "_improvised": {
+          "tagline": "Plans For Every Buyer",
+          "tagLevel": "span",
+          "heading": "Detailed Report at **Affordable Pricing**",
+          "headingOriginal": "Detailed Report at Affordable Pricing",
+          "features": [
+            {
+              "icon": "shield-check",
+              "text": "Verified Sources",
+              "href": null
+            },
+            {
+              "icon": "zap",
+              "text": "Instant Delivery",
+              "href": null
+            },
+            {
+              "icon": "refresh-cw",
+              "text": "Money-Back Guarantee",
+              "href": null
+            },
+            {
+              "icon": "lock",
+              "text": "Secure Payment",
+              "href": null
+            }
+          ]
+        }
+      },
+      {
+        "index": 2,
+        "tag": "div",
+        "id": null,
+        "classes": "elementor-element elementor-element-6964668 e-flex e-con-boxed e-con e-parent",
+        "headings": [],
+        "paragraphs": [
+          "Json: {\"status\":\"success\",\"plans\":{\"VHREU1\":{\"primaryPrice\":\"9.98\",\"secondaryPrice\":\"9.98\",\"nos\":\"1\",\"name\":\"Basic\",\"price_per_one\":\"9.98\",\"percentage_saved\":0,\"currency_code\":\"EUR\",\"user_type\":\"user\"},\"VHREU2\":{\"primaryPrice\":\"19.96\",\"secondaryPrice\":\"17.00\",\"nos\":\"2\",\"name\":\"Silver\",\"price_per_one\":\"8.50\",\"percentage_saved\":15,\"currency_code\":\"EUR\",\"user_type\":\"user\"},\"VHREU5\":{\"primaryPrice\":\"49.90\",\"secondaryPrice\":\"40.00\",\"nos\":\"5\",\"name\":\"Gold\",\"price_per_one\":\"8.00\",\"percentage_saved\":20,\"currency_code\":\"EUR\",\"user_type\":\"user\"},\"VHREU10\":{\"primaryPrice\":\"99.80\",\"secondaryPrice\":\"75.00\",\"nos\":\"10\",\"name\":\"Platinum\",\"price_per_one\":\"7.50\",\"percentage_saved\":25,\"currency_code\":\"EUR\",\"user_type\":\"user\"},\"VHREU25\":{\"primaryPrice\":\"249.50\",\"secondaryPrice\":\"175.00\",\"nos\":\"25\",\"name\":\"Diamond\",\"price_per_one\":\"7.00\",\"percentage_saved\":30,\"currency_code\":\"EUR\",\"user_type\":\"user\"},\"VHREU50\":{\"primaryPrice\":\"499.00\",\"secondaryPrice\":\"300.00\",\"nos\":\"50\",\"name\":\"Executive\",\"price_per_one\":\"6.00\",\"percentage_saved\":40,\"currency_code\":\"EUR\",\"user_type\":\"user\"}},\"subscription\":null,\"uvc_subscription\":null}"
+        ],
+        "links": [],
+        "images": [],
+        "forms": [
+          {
+            "fields": [
+              {
+                "type": "email",
+                "name": "email_field",
+                "placeholder": "Enter Your Email",
+                "label": "Email:"
+              }
+            ],
+            "submitText": "Proceed to Checkout"
+          }
+        ],
+        "lists": [],
+        "badges": [
+          {
+            "text": "Basic 1 Premium Credit Never Expires Code VHREU1",
+            "hasIcon": false
+          },
+          {
+            "text": "Silver 2 Premium Credits Never Expires Code VHREU2",
+            "hasIcon": false
+          },
+          {
+            "text": "Gold 5 Premium Credits Never Expires Code VHREU5",
+            "hasIcon": false
+          },
+          {
+            "text": "Platinum 10 Premium Credits Never Expires Code VHREU10",
+            "hasIcon": false
+          },
+          {
+            "text": "Diamond 25 Premium Credits Never Expires Code VHREU25",
+            "hasIcon": false
+          },
+          {
+            "text": "Executive 50 Premium Credits Never Expires Code VHREU50",
+            "hasIcon": false
+          }
+        ],
+        "stats": [],
+        "textLength": 7442,
+        "_improvised": {
+          "tagline": "Choose Your Package",
+          "tagLevel": "span"
+        }
+      },
+      {
+        "index": 3,
+        "tag": "section",
+        "id": null,
+        "classes": "elementor-section elementor-top-section elementor-element elementor-element-c0e3be9 elementor-section-boxed elementor-se",
+        "headings": [
+          {
+            "level": "h2",
+            "text": "Get 100% real-time Information instantly"
+          }
+        ],
+        "paragraphs": [
+          "We provide up-to-date information from the Department of Motor Vehicles, auctions, police & state records, insurance and NMVTIS databases. Save 50% over service provider for an identical report."
+        ],
+        "links": [
+          {
+            "text": "View Sample Report",
+            "href": "https://vehiclehistory.eu/report/vin/VF15RE20A55268448",
+            "style": "text",
+            "rel": null,
+            "newTab": true
+          }
+        ],
+        "images": [
+          {
+            "src": "https://vehiclehistory.eu/wp-content/uploads/2023/02/truste-1.svg",
+            "alt": "truste",
+            "width": "160",
+            "height": "51"
+          }
+        ],
+        "forms": [],
+        "lists": [
+          {
+            "type": "ul",
+            "items": [
+              "View Sample Report"
+            ]
+          }
+        ],
+        "badges": [],
+        "stats": [],
+        "textLength": 584,
+        "_improvised": {
+          "tagline": "Trusted Data Sources",
+          "tagLevel": "span",
+          "heading": "Get 100% **Real-Time** Information Instantly",
+          "headingOriginal": "Get 100% real-time Information instantly"
+        }
+      },
+      {
+        "index": 4,
+        "tag": "section",
+        "id": null,
+        "classes": "elementor-section elementor-top-section elementor-element elementor-element-5b139cc elementor-section-boxed elementor-se",
+        "headings": [
+          {
+            "level": "h3",
+            "text": "Comprehensive Reports"
+          },
+          {
+            "level": "h3",
+            "text": "Exceptional Accuracy"
+          },
+          {
+            "level": "h3",
+            "text": "Real-time Information"
+          }
+        ],
+        "paragraphs": [
+          "Vehicle History offers complete and detailed information obtained from government databases, and other authentic sources.",
+          "Vehicle History offers complete and detailed information obtained from government databases, and other authentic sources.",
+          "Our databases are automatically updated with real-time information as more records are placed on your vehicle worldwide."
+        ],
+        "links": [],
+        "images": [],
+        "forms": [],
+        "lists": [],
+        "badges": [],
+        "stats": [],
+        "textLength": 794,
+        "_improvised": {
+          "tagline": "Why Vehicle History",
+          "tagLevel": "span",
+          "heading": "**Comprehensive** Reports",
+          "headingOriginal": "Comprehensive Reports"
+        }
+      },
+      {
+        "index": 5,
+        "tag": "section",
+        "id": null,
+        "classes": "elementor-section elementor-top-section elementor-element elementor-element-399e8a1 elementor-section-boxed elementor-se",
+        "headings": [
+          {
+            "level": "h2",
+            "text": "How to gain lifetime access to VIN reports"
+          }
+        ],
+        "paragraphs": [],
+        "links": [],
+        "images": [],
+        "forms": [],
+        "lists": [
+          {
+            "type": "ul",
+            "items": [
+              "Obtain the Vehicle Identification Number (VIN) of the vehicle you are interested in (One can usually find the VIN on the dashboard when looking through the driver side of the windsheild.)",
+              "Our VIN Check will inform you of the Number of Records we have for that particular Vehicle.",
+              "You’re given the Opportunity to purchase a Report for this one car or a Package for multiple cars (at a Discounted Price)",
+              "Your reports will never expire and will be visible through your personal login."
+            ]
+          }
+        ],
+        "badges": [],
+        "stats": [],
+        "textLength": 760,
+        "_improvised": {
+          "tagline": "Three Simple Steps",
+          "tagLevel": "span",
+          "heading": "How to Gain **Lifetime Access** to VIN Reports",
+          "headingOriginal": "How to gain lifetime access to VIN reports"
+        }
+      },
+      {
+        "index": 6,
+        "tag": "section",
+        "id": null,
+        "classes": "elementor-section elementor-top-section elementor-element elementor-element-4aaca23 elementor-section-boxed elementor-se",
+        "headings": [
+          {
+            "level": "h2",
+            "text": "Any Questions?"
+          }
+        ],
+        "paragraphs": [
+          "A To make use of your vehicle history credits, you must log in to your account, where you will have direct access to your credits.",
+          "A To make use of your vehicle history credits, you must log in to your account, where you will have direct access to your credits."
+        ],
+        "links": [],
+        "images": [],
+        "forms": [],
+        "lists": [],
+        "badges": [],
+        "stats": [],
+        "textLength": 1168,
+        "_improvised": {
+          "tagline": "Common Questions",
+          "tagLevel": "span",
+          "heading": "Any **Questions**?",
+          "headingOriginal": "Any Questions?"
+        }
+      }
+    ],
+    "_changes": [
+      {
+        "section": 1,
+        "label": "Hero",
+        "diffs": [
+          {
+            "field": "tagline",
+            "original": "(none)",
+            "improved": "Plans For Every Buyer",
+            "reason": "AI-generated tagline"
+          },
+          {
+            "field": "heading",
+            "original": "Detailed Report at Affordable Pricing",
+            "improved": "Detailed Report at **Affordable Pricing**",
+            "reason": "AI-selected **marker** highlight for gradient text"
+          },
+          {
+            "field": "features",
+            "original": "(none)",
+            "improved": "shield-check: Verified Sources | zap: Instant Delivery | refresh-cw: Money-Back Guarantee | lock: Secure Payment",
+            "reason": "AI-suggested feature highlights"
+          }
+        ]
+      },
+      {
+        "section": 2,
+        "label": "Pricing Plans",
+        "diffs": [
+          {
+            "field": "tagline",
+            "original": "(none)",
+            "improved": "Choose Your Package",
+            "reason": "AI-generated tagline"
+          }
+        ]
+      },
+      {
+        "section": 3,
+        "label": "Real-Time Data",
+        "diffs": [
+          {
+            "field": "tagline",
+            "original": "(none)",
+            "improved": "Trusted Data Sources",
+            "reason": "AI-generated tagline"
+          },
+          {
+            "field": "heading",
+            "original": "Get 100% real-time Information instantly",
+            "improved": "Get 100% **Real-Time** Information Instantly",
+            "reason": "AI-selected **marker** highlight for gradient text"
+          }
+        ]
+      },
+      {
+        "section": 4,
+        "label": "Value Props",
+        "diffs": [
+          {
+            "field": "tagline",
+            "original": "(none)",
+            "improved": "Why Vehicle History",
+            "reason": "AI-generated tagline"
+          },
+          {
+            "field": "heading",
+            "original": "Comprehensive Reports",
+            "improved": "**Comprehensive** Reports",
+            "reason": "AI-selected **marker** highlight for gradient text"
+          }
+        ]
+      },
+      {
+        "section": 5,
+        "label": "How It Works",
+        "diffs": [
+          {
+            "field": "tagline",
+            "original": "(none)",
+            "improved": "Three Simple Steps",
+            "reason": "AI-generated tagline"
+          },
+          {
+            "field": "heading",
+            "original": "How to gain lifetime access to VIN reports",
+            "improved": "How to Gain **Lifetime Access** to VIN Reports",
+            "reason": "AI-selected **marker** highlight for gradient text"
+          }
+        ]
+      },
+      {
+        "section": 6,
+        "label": "FAQ",
+        "diffs": [
+          {
+            "field": "tagline",
+            "original": "(none)",
+            "improved": "Common Questions",
+            "reason": "AI-generated tagline"
+          },
+          {
+            "field": "heading",
+            "original": "Any Questions?",
+            "improved": "Any **Questions**?",
+            "reason": "AI-selected **marker** highlight for gradient text"
+          }
+        ]
+      }
+    ],
+    "_improvisedAt": "2026-03-31T05:32:08.699Z"
+  },
+  {
+    "url": "https://vehiclehistory.eu/sample-report",
+    "pageTitle": "Sample VIN Decoding Report | Vehicle History Europe",
+    "metaDesc": "Sample VIN Decoding and Vehicle History Report By Vehicle History Europe",
+    "canonical": "https://vehiclehistory.eu/sample-report",
+    "scrapedAt": "2026-03-31T05:31:30.471Z",
+    "totalSections": 4,
+    "sections": [
+      {
+        "index": 1,
+        "tag": "section",
+        "id": null,
+        "classes": "elementor-section elementor-top-section elementor-element elementor-element-f4f492b elementor-section-boxed elementor-se",
+        "headings": [
+          {
+            "level": "h1",
+            "text": "Get a peek at our premium reports below Sample Reports"
+          }
+        ],
+        "paragraphs": [],
+        "links": [],
+        "images": [
+          {
+            "src": "https://vehiclehistory.eu/wp-content/plugins/site_forms/public/images/circle-help.svg",
+            "alt": "question-mark",
+            "width": "16",
+            "height": "16"
+          },
+          {
+            "src": "https://vehiclehistory.eu/wp-content/plugins/site_forms/public/images/scroll-text.svg",
+            "alt": null,
+            "width": "24",
+            "height": "24"
+          },
+          {
+            "src": "https://vehiclehistory.eu/wp-content/plugins/site_forms/public/images/headset.svg",
+            "alt": null,
+            "width": "24",
+            "height": "24"
+          },
+          {
+            "src": "https://vehiclehistory.eu/wp-content/plugins/site_forms/public/images/shield.svg",
+            "alt": null,
+            "width": "24",
+            "height": "24"
+          },
+          {
+            "src": "https://vehiclehistory.eu/wp-content/plugins/site_forms/public/images/badge-percent.svg",
+            "alt": null,
+            "width": "24",
+            "height": "24"
+          }
+        ],
+        "forms": [
+          {
+            "fields": [
+              {
+                "type": "text",
+                "name": null,
+                "placeholder": "Enter VIN",
+                "label": null
+              },
+              {
+                "type": "text",
+                "name": null,
+                "placeholder": "Enter Plate",
+                "label": null
+              },
+              {
+                "type": "select",
+                "name": null,
+                "placeholder": null,
+                "label": null
+              },
+              {
+                "type": "select",
+                "name": null,
+                "placeholder": null,
+                "label": null
+              },
+              {
+                "type": "select",
+                "name": null,
+                "placeholder": null,
+                "label": null
+              },
+              {
+                "type": "select",
+                "name": null,
+                "placeholder": null,
+                "label": null
+              },
+              {
+                "type": "email",
+                "name": "emailInput",
+                "placeholder": "Enter Email Address",
+                "label": null
+              },
+              {
+                "type": "text",
+                "name": "phoneInput",
+                "placeholder": "Enter Phone for",
+                "label": null
+              }
+            ],
+            "submitText": "By VIN"
+          },
+          {
+            "fields": [
+              {
+                "type": "text",
+                "name": null,
+                "placeholder": "Enter VIN",
+                "label": null
+              },
+              {
+                "type": "text",
+                "name": null,
+                "placeholder": "Enter Plate",
+                "label": null
+              },
+              {
+                "type": "select",
+                "name": null,
+                "placeholder": null,
+                "label": null
+              },
+              {
+                "type": "select",
+                "name": null,
+                "placeholder": null,
+                "label": null
+              },
+              {
+                "type": "select",
+                "name": null,
+                "placeholder": null,
+                "label": null
+              },
+              {
+                "type": "select",
+                "name": null,
+                "placeholder": null,
+                "label": null
+              },
+              {
+                "type": "email",
+                "name": "emailInput",
+                "placeholder": "Enter Email Address",
+                "label": null
+              },
+              {
+                "type": "text",
+                "name": "phoneInput",
+                "placeholder": "Enter Phone for",
+                "label": null
+              }
+            ],
+            "submitText": null
+          }
+        ],
+        "lists": [],
+        "badges": [
+          {
+            "text": "10% OFF",
+            "hasIcon": false
+          }
+        ],
+        "stats": [
+          "Select State",
+          "10% OFF"
+        ],
+        "textLength": 20265,
+        "_improvised": {
+          "tagline": "See Before You Buy",
+          "tagLevel": "span",
+          "heading": "Get a peek at our **premium reports** below Sample Reports",
+          "headingOriginal": "Get a peek at our premium reports below Sample Reports",
+          "features": [
+            {
+              "icon": "shield-check",
+              "text": "Verified Data Sources",
+              "href": null
+            },
+            {
+              "icon": "file-search",
+              "text": "Detailed VIN Reports",
+              "href": null
+            },
+            {
+              "icon": "globe",
+              "text": "Pan-European Coverage",
+              "href": null
+            },
+            {
+              "icon": "clock",
+              "text": "Instant Results",
+              "href": null
+            }
+          ]
+        }
+      },
+      {
+        "index": 2,
+        "tag": "section",
+        "id": null,
+        "classes": "elementor-section elementor-top-section elementor-element elementor-element-3252f21 elementor-section-boxed elementor-se",
+        "headings": [
+          {
+            "level": "h2",
+            "text": "2006"
+          },
+          {
+            "level": "h2",
+            "text": "Toyota Corolla Verso"
+          },
+          {
+            "level": "h2",
+            "text": "2005"
+          },
+          {
+            "level": "h2",
+            "text": "Renault Clio"
+          }
+        ],
+        "paragraphs": [
+          "VIN: NMTER16RX0R073590Body Style: 4 Doors MinivanEngine: 1.8L L4 DOHC AWDCountry of Assembly: Turkey",
+          "VIN: VF15RE20A55268448Body Style: 4 Doors HatchbackEngine: 2.0L FWDCountry of Assembly: France"
+        ],
+        "links": [
+          {
+            "text": "Toyota Corolla Verso",
+            "href": "https://vehiclehistory.eu/report/vin/NMTER16RX0R073590",
+            "style": "text",
+            "rel": null,
+            "newTab": true
+          },
+          {
+            "text": "Renault Clio",
+            "href": "https://vehiclehistory.eu/report/vin/VF15RE20A55268448",
+            "style": "text",
+            "rel": null,
+            "newTab": true
+          }
+        ],
+        "images": [
+          {
+            "src": "https://vehiclehistory.eu/wp-content/uploads/2023/02/Report1-1.png",
+            "alt": "Report1",
+            "width": "262",
+            "height": "282"
+          },
+          {
+            "src": "https://vehiclehistory.eu/wp-content/uploads/2023/02/Toyota.svg",
+            "alt": "Toyota",
+            "width": "173",
+            "height": "56"
+          },
+          {
+            "src": "https://vehiclehistory.eu/wp-content/uploads/2023/04/Renault-Logo-1.png",
+            "alt": null,
+            "width": "288",
+            "height": "162"
+          }
+        ],
+        "forms": [],
+        "lists": [],
+        "badges": [],
+        "stats": [],
+        "textLength": 2020,
+        "_improvised": {
+          "tagline": "Real Reports, Real Vehicles",
+          "tagLevel": "span"
+        }
+      },
+      {
+        "index": 3,
+        "tag": "section",
+        "id": null,
+        "classes": "elementor-section elementor-top-section elementor-element elementor-element-a5d9de4 elementor-section-boxed elementor-se",
+        "headings": [
+          {
+            "level": "h2",
+            "text": "Did you know?"
+          },
+          {
+            "level": "h2",
+            "text": "Over 73% of cars imported to Europe between 2011 and 2021 in ten countries had salvage titles."
+          }
+        ],
+        "paragraphs": [],
+        "links": [],
+        "images": [],
+        "forms": [],
+        "lists": [],
+        "badges": [],
+        "stats": [],
+        "textLength": 132,
+        "_improvised": {
+          "tagline": "The Hidden Risk",
+          "tagLevel": "span",
+          "heading": "Over 73% of cars imported to Europe between 2011 and 2021 in ten countries had **salvage titles**.",
+          "headingOriginal": "Over 73% of cars imported to Europe between 2011 and 2021 in ten countries had salvage titles."
+        }
+      },
+      {
+        "index": 4,
+        "tag": "section",
+        "id": null,
+        "classes": "elementor-section elementor-top-section elementor-element elementor-element-70a534e elementor-section-boxed elementor-se",
+        "headings": [
+          {
+            "level": "h2",
+            "text": "What to expect in a Premium Report from Vehicle History"
+          },
+          {
+            "level": "h3",
+            "text": "Check your VIN now to learn about your vehicle's hidden history!"
+          }
+        ],
+        "paragraphs": [
+          "A vehicle history report from Vehicle History provides information about your vehicle from records and databases nationwide. In our reports, you can find essential information a car owner must be aware of before a vehicle is purchased from a dealership. With a free VIN check from Vehicle History, you can uncover every hidden detail about any vehicle and walk out of that dealership with a reliable vehicle.",
+          "Below are examples of some of the details you will be granted access to with a report from",
+          "With a vehicle history report from Vehicle History, you gain access to expert knowledge that a dealer in Europe may not hand over to you, and all that is required is the vehicle’s VIN number."
+        ],
+        "links": [
+          {
+            "text": "A vehicle history report",
+            "href": "https://detailedvehiclehistory.com/",
+            "style": "text",
+            "rel": "noopener",
+            "newTab": true
+          }
+        ],
+        "images": [],
+        "forms": [],
+        "lists": [
+          {
+            "type": "ul",
+            "items": [
+              "Vehicle History",
+              "Vehicle specifications",
+              "Auction records with images",
+              "Lien and loan records",
+              "Salvage, junk, or rebuilt records",
+              "Theft records"
+            ]
+          }
+        ],
+        "badges": [],
+        "stats": [],
+        "textLength": 1063,
+        "_improvised": {
+          "tagline": "Inside Every Report",
+          "tagLevel": "span",
+          "secondaryHeading": "Check your VIN now to learn about your vehicle's **hidden history**!",
+          "secondaryHeadingLevel": "h3",
+          "heading": "What to expect in a **Premium Report** from Vehicle History",
+          "headingOriginal": "What to expect in a Premium Report from Vehicle History"
+        }
+      }
+    ],
+    "_changes": [
+      {
+        "section": 1,
+        "label": "Hero",
+        "diffs": [
+          {
+            "field": "tagline",
+            "original": "(none)",
+            "improved": "See Before You Buy",
+            "reason": "AI-generated tagline"
+          },
+          {
+            "field": "heading",
+            "original": "Get a peek at our premium reports below Sample Reports",
+            "improved": "Get a peek at our **premium reports** below Sample Reports",
+            "reason": "AI-selected **marker** highlight for gradient text"
+          },
+          {
+            "field": "features",
+            "original": "(none)",
+            "improved": "shield-check: Verified Data Sources | file-search: Detailed VIN Reports | globe: Pan-European Coverage | clock: Instant Results",
+            "reason": "AI-suggested feature highlights"
+          }
+        ]
+      },
+      {
+        "section": 2,
+        "label": "Sample Vehicles",
+        "diffs": [
+          {
+            "field": "tagline",
+            "original": "(none)",
+            "improved": "Real Reports, Real Vehicles",
+            "reason": "AI-generated tagline"
+          }
+        ]
+      },
+      {
+        "section": 3,
+        "label": "Did You Know",
+        "diffs": [
+          {
+            "field": "tagline",
+            "original": "(none)",
+            "improved": "The Hidden Risk",
+            "reason": "AI-generated tagline"
+          },
+          {
+            "field": "heading",
+            "original": "Over 73% of cars imported to Europe between 2011 and 2021 in ten countries had salvage titles.",
+            "improved": "Over 73% of cars imported to Europe between 2011 and 2021 in ten countries had **salvage titles**.",
+            "reason": "AI-selected **marker** highlight for gradient text"
+          }
+        ]
+      },
+      {
+        "section": 4,
+        "label": "What To Expect",
+        "diffs": [
+          {
+            "field": "tagline",
+            "original": "(none)",
+            "improved": "Inside Every Report",
+            "reason": "AI-generated tagline"
+          },
+          {
+            "field": "secondaryHeading",
+            "original": "(none)",
+            "improved": "Check your VIN now to learn about your vehicle's **hidden history**!",
+            "reason": "AI-identified secondary heading from original page"
+          },
+          {
+            "field": "heading",
+            "original": "What to expect in a Premium Report from Vehicle History",
+            "improved": "What to expect in a **Premium Report** from Vehicle History",
+            "reason": "AI-selected **marker** highlight for gradient text"
+          }
+        ]
+      }
+    ],
+    "_improvisedAt": "2026-03-31T05:32:22.171Z"
+  },
+  {
+    "url": "https://vehiclehistory.eu/window-sticker",
+    "pageTitle": "Window Sticker by VIN – Get Original Factory Sticker Online",
+    "metaDesc": "Get the original window sticker by VIN. See the original MSRP, factory options, packages, engine specs, fuel, emission & more. Fast, accurate & VIN-verified",
+    "canonical": "https://vehiclehistory.eu/window-sticker",
+    "scrapedAt": "2026-03-31T05:31:30.705Z",
+    "totalSections": 9,
+    "sections": [
+      {
+        "index": 1,
+        "tag": "section",
+        "id": "home",
+        "classes": "hero-section",
+        "headings": [
+          {
+            "level": "h1",
+            "text": "Look Up a Vehicle's Original Window Sticker Online"
+          }
+        ],
+        "paragraphs": [
+          "Buying in Europe? Don't guess the trim or options. Run a window sticker by VIN and get the factory spec in one place. This includes the equipment lists, packages, key specs, and even the vehicle MSRP. Enter your VIN and check the car before you purchase or sale."
+        ],
+        "links": [],
+        "images": [
+          {
+            "src": "https://vehiclehistory.eu/wp-content/plugins/site_forms/public/images/circle-help.svg",
+            "alt": "question-mark",
+            "width": "14px",
+            "height": "14px"
+          },
+          {
+            "src": "https://vehiclehistory.eu/wp-content/plugins/site_forms/public/images/scroll-text.svg",
+            "alt": null,
+            "width": "24",
+            "height": "24"
+          },
+          {
+            "src": "https://vehiclehistory.eu/wp-content/plugins/site_forms/public/images/headset.svg",
+            "alt": null,
+            "width": "24",
+            "height": "24"
+          },
+          {
+            "src": "https://vehiclehistory.eu/wp-content/plugins/site_forms/public/images/shield.svg",
+            "alt": null,
+            "width": "24",
+            "height": "24"
+          },
+          {
+            "src": "https://vehiclehistory.eu/wp-content/plugins/site_forms/public/images/badge-percent.svg",
+            "alt": null,
+            "width": "24",
+            "height": "24"
+          }
+        ],
+        "forms": [
+          {
+            "fields": [
+              {
+                "type": "text",
+                "name": null,
+                "placeholder": "Enter VIN",
+                "label": null
+              },
+              {
+                "type": "text",
+                "name": null,
+                "placeholder": "Enter Plate",
+                "label": null
+              },
+              {
+                "type": "select",
+                "name": null,
+                "placeholder": null,
+                "label": null
+              },
+              {
+                "type": "select",
+                "name": null,
+                "placeholder": null,
+                "label": null
+              },
+              {
+                "type": "select",
+                "name": null,
+                "placeholder": null,
+                "label": null
+              },
+              {
+                "type": "select",
+                "name": null,
+                "placeholder": null,
+                "label": null
+              },
+              {
+                "type": "email",
+                "name": "emailInput",
+                "placeholder": "Enter Email Address",
+                "label": null
+              },
+              {
+                "type": "text",
+                "name": "phoneInput",
+                "placeholder": "Enter Phone for",
+                "label": null
+              }
+            ],
+            "submitText": "By VIN"
+          },
+          {
+            "fields": [
+              {
+                "type": "text",
+                "name": null,
+                "placeholder": "Enter VIN",
+                "label": null
+              },
+              {
+                "type": "text",
+                "name": null,
+                "placeholder": "Enter Plate",
+                "label": null
+              },
+              {
+                "type": "select",
+                "name": null,
+                "placeholder": null,
+                "label": null
+              },
+              {
+                "type": "select",
+                "name": null,
+                "placeholder": null,
+                "label": null
+              },
+              {
+                "type": "select",
+                "name": null,
+                "placeholder": null,
+                "label": null
+              },
+              {
+                "type": "select",
+                "name": null,
+                "placeholder": null,
+                "label": null
+              },
+              {
+                "type": "email",
+                "name": "emailInput",
+                "placeholder": "Enter Email Address",
+                "label": null
+              },
+              {
+                "type": "text",
+                "name": "phoneInput",
+                "placeholder": "Enter Phone for",
+                "label": null
+              }
+            ],
+            "submitText": "By VIN"
+          },
+          {
+            "fields": [
+              {
+                "type": "text",
+                "name": null,
+                "placeholder": "Enter VIN",
+                "label": null
+              },
+              {
+                "type": "text",
+                "name": null,
+                "placeholder": "Enter Plate",
+                "label": null
+              },
+              {
+                "type": "select",
+                "name": null,
+                "placeholder": null,
+                "label": null
+              },
+              {
+                "type": "select",
+                "name": null,
+                "placeholder": null,
+                "label": null
+              },
+              {
+                "type": "select",
+                "name": null,
+                "placeholder": null,
+                "label": null
+              },
+              {
+                "type": "select",
+                "name": null,
+                "placeholder": null,
+                "label": null
+              },
+              {
+                "type": "email",
+                "name": "emailInput",
+                "placeholder": "Enter Email Address",
+                "label": null
+              },
+              {
+                "type": "text",
+                "name": "phoneInput",
+                "placeholder": "Enter Phone for",
+                "label": null
+              }
+            ],
+            "submitText": null
+          }
+        ],
+        "lists": [],
+        "badges": [
+          {
+            "text": "10% OFF",
+            "hasIcon": false
+          }
+        ],
+        "stats": [
+          "Select State",
+          "10% OFF"
+        ],
+        "textLength": 20121,
+        "_improvised": {
+          "tagline": "Factory Specs, Verified",
+          "tagLevel": "span",
+          "heading": "Look Up a Vehicle's **Original Window Sticker** Online",
+          "headingOriginal": "Look Up a Vehicle's Original Window Sticker Online",
+          "features": [
+            {
+              "icon": "FileText",
+              "text": "Full Equipment List",
+              "href": null
+            },
+            {
+              "icon": "Euro",
+              "text": "Original MSRP",
+              "href": null
+            },
+            {
+              "icon": "Leaf",
+              "text": "CO₂ & Emissions Data",
+              "href": null
+            },
+            {
+              "icon": "ShieldCheck",
+              "text": "Factory-Verified Specs",
+              "href": null
+            }
+          ]
+        }
+      },
+      {
+        "index": 2,
+        "tag": "section",
+        "id": null,
+        "classes": "what-is-section",
+        "headings": [
+          {
+            "level": "h2",
+            "text": "What Is a Window Sticker by VIN?"
+          }
+        ],
+        "paragraphs": [
+          "A window sticker by VIN is a document that shows what a specific vehicle was configured with when it left the factory, using the VIN as the key. In the U.S., it's commonly known as the Monroney label by VIN, tied to federal disclosure rules under the Automobile Information Disclosure Act.",
+          "In Europe, dealers more commonly display the official fuel consumption and CO₂ label for new passenger cars, which is different from a full equipment breakdown.",
+          "Our window sticker by VIN lookup tool focuses on available factory data like trim, standard equipment, optional packages, MSRP, and the emission block with Euro standard fuel consumption and CO₂. And yes, classic vehicles aren't left out; we can also decode many classic VIN formats (5 to 14 characters) when records exist."
+        ],
+        "links": [],
+        "images": [
+          {
+            "src": "https://vehiclehistory.eu/assets/window-sticker-sample-ford.webp",
+            "alt": "2023 Ford Focus Window Sticker Sample",
+            "width": "567",
+            "height": "532"
+          }
+        ],
+        "forms": [],
+        "lists": [],
+        "badges": [],
+        "stats": [],
+        "textLength": 1537,
+        "_improvised": {
+          "tagline": "The Monroney Label, Explained",
+          "tagLevel": "span",
+          "heading": "What Is a **Window Sticker** by VIN?",
+          "headingOriginal": "What Is a Window Sticker by VIN?"
+        }
+      },
+      {
+        "index": 3,
+        "tag": "section",
+        "id": null,
+        "classes": "details-section",
+        "headings": [
+          {
+            "level": "h2",
+            "text": "Details You Can Find on a Factory Window Sticker"
+          },
+          {
+            "level": "h3",
+            "text": "Vehicle description"
+          },
+          {
+            "level": "h4",
+            "text": "Vehicle year, make, and model"
+          },
+          {
+            "level": "h4",
+            "text": "Trim level and body style"
+          },
+          {
+            "level": "h4",
+            "text": "Vehicle Identification Number (VIN)"
+          },
+          {
+            "level": "h3",
+            "text": "Standard equipment"
+          },
+          {
+            "level": "h4",
+            "text": "Core comfort and convenience features"
+          },
+          {
+            "level": "h4",
+            "text": "Safety basics"
+          },
+          {
+            "level": "h3",
+            "text": "Optional equipment"
+          },
+          {
+            "level": "h4",
+            "text": "Factory option packages"
+          },
+          {
+            "level": "h4",
+            "text": "Individual add-on options"
+          },
+          {
+            "level": "h4",
+            "text": "Trim-level additions"
+          },
+          {
+            "level": "h3",
+            "text": "Pricing information"
+          },
+          {
+            "level": "h4",
+            "text": "Base MSRP"
+          },
+          {
+            "level": "h4",
+            "text": "Options pricing"
+          },
+          {
+            "level": "h4",
+            "text": "Total MSRP"
+          },
+          {
+            "level": "h3",
+            "text": "Technical specifications"
+          },
+          {
+            "level": "h4",
+            "text": "Engine and performance"
+          },
+          {
+            "level": "h4",
+            "text": "Fuel economy and emissions"
+          },
+          {
+            "level": "h3",
+            "text": "Safety ratings"
+          },
+          {
+            "level": "h4",
+            "text": "Crash test results"
+          }
+        ],
+        "paragraphs": [
+          "Our original window sticker by VIN is where you get the deeper factory breakdown. It's made to help you confirm the exact build, compare two similar cars, and negotiate using real equipment and pricing context (when available).",
+          "This part tells you exactly what the car is, in plain factory terms, including the model year, make, model/derivative, engine line, gearbox, and the VIN. This section helps you verify the vehicle you're looking at, especially when listings use vague trim names or mixed photos.",
+          "Shows the official year, manufacturer, and model name so you can confirm you're looking at the right vehicle and not a similar version with a different spec.",
+          "Lists the specific trim/derivative and body style where available. This helps you understand the equipment level and why two \"same model\" cars can be priced differently.",
+          "Displays the VIN used for the lookup. This ties our original window sticker by VIN to that exact vehicle, so you can cross-check it against the VIN on the car or documents.",
+          "This is where the sticker becomes buyer-friendly. Knowing this, you can instantly see what the car was supposed to include from the factory, without relying on memory or brochure hunting. It's also perfect for spotting missing items on a used car.",
+          "Shows the day-to-day features that typically come standard on that trim level, making it easier to understand what \"normal spec\" looks like.",
+          "Includes basic safety and driver support items when present in the record, so you can confirm what safety equipment should be on the car.",
+          "The window sticker lists the recorded factory-fitted upgrades and packages that were not standard, like tech features, comfort upgrades, or trim enhancements, tied to its VIN. This is the part that separates \"nice spec\" from \"basic spec\" without guesswork.",
+          "Packages bundle upgrades together (tech packs, comfort packs, appearance packs). When available, this section helps you see what bundle was fitted and how it changes the car's value.",
+          "Shows the available single options added to the vehicle, like upgraded seats, lighting, wheels, or driver assistance items.",
+          "Some trims come with factory upgrades not found on the base model. This part clarifies which extras are trim-tied and which were ordered separately.",
+          "When available in the record, the original MSRP (Manufacturer's Suggested Retail Price) helps you understand what the vehicle was worth new. This is particularly helpful when evaluating used cars or comparing similar models with different option packages.",
+          "The starting price of the vehicle before any options or packages were added.",
+          "Individual prices for factory-installed options and packages when available in the record.",
+          "The final manufacturer's suggested retail price including all options and destination charges.",
+          "Core vehicle specs like engine type, displacement, transmission, drivetrain, fuel type, and emission standards. This section is critical for confirming the exact powertrain configuration.",
+          "Engine size, type, horsepower, and torque figures when available in the factory record.",
+          "Official fuel consumption figures (city/highway/combined) and CO₂ emissions per Euro standards.",
+          "When present in records, safety ratings from Euro NCAP or other testing organizations provide an independent assessment of crash protection and safety features.",
+          "Overall safety rating and specific scores for adult occupant, child occupant, pedestrian, and safety assist categories."
+        ],
+        "links": [
+          {
+            "text": "View Window Sticker Sample",
+            "href": "https://vehiclehistory.eu/sticker/vin/WF0PXXGCHPKP11608-B4D7B4D7-0F0F-BC0D-5C6B-10DB7A44C054",
+            "style": "button",
+            "rel": null,
+            "newTab": true
+          }
+        ],
+        "images": [],
+        "forms": [],
+        "lists": [],
+        "badges": [],
+        "stats": [],
+        "textLength": 8710,
+        "_improvised": {
+          "tagline": "The Full Factory Breakdown",
+          "tagLevel": "span",
+          "heading": "Details You Can Find on a **Factory Window Sticker**",
+          "headingOriginal": "Details You Can Find on a Factory Window Sticker"
+        }
+      },
+      {
+        "index": 4,
+        "tag": "section",
+        "id": null,
+        "classes": "benefits-section",
+        "headings": [
+          {
+            "level": "h2",
+            "text": "Who Benefits Most From Checking a Window Sticker?"
+          },
+          {
+            "level": "h3",
+            "text": "Used Car Buyers"
+          },
+          {
+            "level": "h4",
+            "text": "Identify hidden damages before purchase"
+          },
+          {
+            "level": "h4",
+            "text": "Support smarter negotiation"
+          },
+          {
+            "level": "h4",
+            "text": "Compare two similar cars fairly"
+          },
+          {
+            "level": "h3",
+            "text": "Sellers & Dealers"
+          },
+          {
+            "level": "h4",
+            "text": "Verify a vehicle's value"
+          },
+          {
+            "level": "h4",
+            "text": "Stand out in crowded marketplaces"
+          },
+          {
+            "level": "h4",
+            "text": "Speed up the sales process"
+          },
+          {
+            "level": "h3",
+            "text": "Automotive Enthusiasts & Collectors"
+          },
+          {
+            "level": "h4",
+            "text": "Confirm originality for concours or shows"
+          },
+          {
+            "level": "h4",
+            "text": "Verify rare factory options"
+          },
+          {
+            "level": "h4",
+            "text": "Reduce uncertainty on classic purchases"
+          }
+        ],
+        "paragraphs": [
+          "In Europe, trims and equipment can change by country, model year, and even engine rules. A window sticker by VIN helps you confirm the factory spec before you trust a listing. It's not hype. It's a cleaner way to compare cars and avoid expensive misunderstandings.",
+          "Buying used in Europe can feel like decoding a puzzle. A car window sticker lookup shows what the vehicle originally came with, so you can compare the ad to the factory record and ask smarter questions before you travel, pay a deposit, or sign anything.",
+          "A window sticker helps you spot red flags by showing what should be there. Missing equipment, swapped trims, or \"wrong spec\" claims can hint at past repairs or a rough history.",
+          "Factory options and original specs give you a factual base for negotiation, instead of arguing over opinions or sales talk.",
+          "Two cars can look identical, but the sticker shows what separates them by looking at the packages, equipment, and specs information.",
+          "If you sell cars in Europe, buyers may ask the same questions again and again about the trim, packages, and specs. A window sticker lookup gives you a clean, shareable answer, so your listing feels more trustworthy and less like a negotiation trap.",
+          "Showing factory options and the original spec helps justify your price. It's easier to defend value when the equipment list backs it up.",
+          "In many European markets, detailed listings win. A sticker gives you instant detail without sounding salesy.",
+          "Clear info reduces delays, fewer misunderstandings, and fewer \"let me confirm and get back to you\" moments.",
+          "Collectors in Europe care about authenticity. An original window sticker by VIN can help confirm how the car was built when new, what options it had, and whether it's truly a rare spec. For restorations, resale, or just peace of mind, factory details matter more than stories.",
+          "A factory equipment record helps prove the car is presented in its correct original configuration, not just \"close enough.\"",
+          "Collectors pay for rarity. The sticker can confirm special packages or equipment tied to that VIN.",
+          "For older cars that still have retrievable records, a sticker report can reduce the \"unknown spec\" concern."
+        ],
+        "links": [],
+        "images": [],
+        "forms": [],
+        "lists": [],
+        "badges": [
+          {
+            "text": "Used Car Buyers",
+            "hasIcon": false
+          },
+          {
+            "text": "Sellers & Dealers",
+            "hasIcon": false
+          },
+          {
+            "text": "Automotive Enthusiasts & Collectors",
+            "hasIcon": false
+          }
+        ],
+        "stats": [],
+        "textLength": 5315,
+        "_improvised": {
+          "tagline": "Built for Buyers & Sellers",
+          "tagLevel": "span",
+          "heading": "Who **Benefits Most** From Checking a Window Sticker?",
+          "headingOriginal": "Who Benefits Most From Checking a Window Sticker?"
+        }
+      },
+      {
+        "index": 5,
+        "tag": "section",
+        "id": null,
+        "classes": "how-to-section",
+        "headings": [
+          {
+            "level": "h2",
+            "text": "How to Get a Window Sticker by VIN"
+          },
+          {
+            "level": "h3",
+            "text": "Find the VIN"
+          },
+          {
+            "level": "h3",
+            "text": "Fill out the form"
+          },
+          {
+            "level": "h3",
+            "text": "Review the sticker details"
+          }
+        ],
+        "paragraphs": [
+          "The Window sticker itself contains valuable information about the vehicle's original specifications, features, and more. By using the VIN, you can access a detailed sticker in three simple steps.",
+          "Look for the VIN on the vehicle. Then, examine the official documentation or insurance paperwork.",
+          "Type or copy the VIN into the form. Make sure you entered the correct VIN. Submit it to begin the process.",
+          "In seconds, you will see the free preview with the basic details. Proceed to payment and receive your detailed window sticker, complete with all the information you need."
+        ],
+        "links": [
+          {
+            "text": "Get Window Sticker Now",
+            "href": "#get-sticker",
+            "style": "button",
+            "rel": null,
+            "newTab": false
+          },
+          {
+            "text": "View Window Sticker Sample",
+            "href": "https://vehiclehistory.eu/sticker/vin/WF0PXXGCHPKP11608-B4D7B4D7-0F0F-BC0D-5C6B-10DB7A44C054",
+            "style": "button",
+            "rel": null,
+            "newTab": true
+          }
+        ],
+        "images": [],
+        "forms": [],
+        "lists": [],
+        "badges": [],
+        "stats": [
+          "Step 1",
+          "Step 2",
+          "Step 3"
+        ],
+        "textLength": 1947,
+        "_improvised": {
+          "tagline": "Three Steps, One Sticker",
+          "tagLevel": "span",
+          "heading": "How to Get a **Window Sticker** by VIN",
+          "headingOriginal": "How to Get a Window Sticker by VIN"
+        }
+      },
+      {
+        "index": 6,
+        "tag": "section",
+        "id": null,
+        "classes": "vin-location-section",
+        "headings": [
+          {
+            "level": "h2",
+            "text": "Where is the VIN Located?"
+          },
+          {
+            "level": "h3",
+            "text": "Dashboard"
+          },
+          {
+            "level": "h3",
+            "text": "Driver's Door Area"
+          },
+          {
+            "level": "h3",
+            "text": "Vehicle Documents"
+          },
+          {
+            "level": "h3",
+            "text": "Under the bonnet"
+          }
+        ],
+        "paragraphs": [
+          "The VIN is designed to be located in several easy-to-access spots on the vehicle. Here are some places you should check first:",
+          "Look at the lower corner of the windscreen on the driver's side. Many cars have a VIN plate visible from the outside.",
+          "Open the driver's door and check the door frame area. Often, there's a manufacturer's label with the VIN.",
+          "VINs are usually printed on registration documents, title paperwork, and many insurance cards or policy documents.",
+          "Some vehicles have stamped VIN locations in the engine bay, depending on make and model."
+        ],
+        "links": [],
+        "images": [],
+        "forms": [],
+        "lists": [],
+        "badges": [],
+        "stats": [],
+        "textLength": 1997,
+        "_improvised": {
+          "tagline": "Find Your 17-Digit Code",
+          "tagLevel": "span",
+          "heading": "Where is the **VIN Located**?",
+          "headingOriginal": "Where is the VIN Located?"
+        }
+      },
+      {
+        "index": 7,
+        "tag": "section",
+        "id": null,
+        "classes": "cta-section",
+        "headings": [
+          {
+            "level": "h2",
+            "text": "Get a Window Sticker for Your Vehicle Now!"
+          }
+        ],
+        "paragraphs": [
+          "Check your vehicle's original factory details in just a few steps. Enter your VIN to see if a window sticker is available."
+        ],
+        "links": [
+          {
+            "text": "Get Window Sticker Now",
+            "href": "#get-sticker",
+            "style": "button",
+            "rel": null,
+            "newTab": false
+          }
+        ],
+        "images": [],
+        "forms": [],
+        "lists": [],
+        "badges": [],
+        "stats": [],
+        "textLength": 297,
+        "_improvised": {
+          "tagline": "Ready to Check?",
+          "tagLevel": "span",
+          "heading": "Get a Window Sticker for **Your Vehicle** Now!",
+          "headingOriginal": "Get a Window Sticker for Your Vehicle Now!"
+        }
+      },
+      {
+        "index": 8,
+        "tag": "section",
+        "id": null,
+        "classes": "brands-section",
+        "headings": [
+          {
+            "level": "h2",
+            "text": "Window Sticker Availability by Brand"
+          }
+        ],
+        "paragraphs": [
+          "Whether it's Volkswagen, BMW, Mercedes-Benz, or any other brand, our window sticker by VIN lookup tool can work for it. See some of the popular brands below:"
+        ],
+        "links": [
+          {
+            "text": "BMW",
+            "href": "https://vehiclehistory.eu/window-sticker/bmw",
+            "style": "text",
+            "rel": null,
+            "newTab": false
+          },
+          {
+            "text": "Chevrolet",
+            "href": "https://vehiclehistory.eu/window-sticker/chevrolet",
+            "style": "text",
+            "rel": null,
+            "newTab": false
+          },
+          {
+            "text": "Chrysler",
+            "href": "https://vehiclehistory.eu/window-sticker/chrysler",
+            "style": "text",
+            "rel": null,
+            "newTab": false
+          },
+          {
+            "text": "Dodge",
+            "href": "https://vehiclehistory.eu/window-sticker/dodge",
+            "style": "text",
+            "rel": null,
+            "newTab": false
+          },
+          {
+            "text": "Ford",
+            "href": "https://vehiclehistory.eu/window-sticker/ford",
+            "style": "text",
+            "rel": null,
+            "newTab": false
+          },
+          {
+            "text": "Hyundai",
+            "href": "https://vehiclehistory.eu/window-sticker/hyundai",
+            "style": "text",
+            "rel": null,
+            "newTab": false
+          },
+          {
+            "text": "Jeep",
+            "href": "https://vehiclehistory.eu/window-sticker/jeep",
+            "style": "text",
+            "rel": null,
+            "newTab": false
+          },
+          {
+            "text": "Porsche",
+            "href": "https://vehiclehistory.eu/window-sticker/porsche",
+            "style": "text",
+            "rel": null,
+            "newTab": false
+          },
+          {
+            "text": "Subaru",
+            "href": "https://vehiclehistory.eu/window-sticker/subaru",
+            "style": "text",
+            "rel": null,
+            "newTab": false
+          },
+          {
+            "text": "Toyota",
+            "href": "https://vehiclehistory.eu/window-sticker/toyota",
+            "style": "text",
+            "rel": null,
+            "newTab": false
+          }
+        ],
+        "images": [],
+        "forms": [],
+        "lists": [],
+        "badges": [],
+        "stats": [],
+        "textLength": 1043,
+        "_improvised": {
+          "tagline": "All Major Brands Covered",
+          "tagLevel": "span",
+          "heading": "Window Sticker **Availability by Brand**",
+          "headingOriginal": "Window Sticker Availability by Brand"
+        }
+      },
+      {
+        "index": 9,
+        "tag": "div",
+        "id": null,
+        "classes": "elementor-element elementor-element-afb2df5 e-flex e-con-boxed e-con e-parent",
+        "headings": [
+          {
+            "level": "h2",
+            "text": "Common Questions About Window Sticker Lookups"
+          },
+          {
+            "level": "h3",
+            "text": "What exactly is a factory window sticker?"
+          },
+          {
+            "level": "h3",
+            "text": "Can I find a window sticker for a used vehicle?"
+          },
+          {
+            "level": "h3",
+            "text": "How accurate is window sticker information?"
+          },
+          {
+            "level": "h3",
+            "text": "Why doesn't every VIN return a window sticker?"
+          },
+          {
+            "level": "h3",
+            "text": "Is a window sticker the same as a build sheet?"
+          },
+          {
+            "level": "h3",
+            "text": "Does this work for all manufacturers?"
+          },
+          {
+            "level": "h3",
+            "text": "Is it possible to get a window sticker at no cost?"
+          }
+        ],
+        "paragraphs": [
+          "A factory window sticker is a manufacturer-style document that lists how a specific vehicle was configured when it was new. It typically includes the original equipment, option packages, key specs, and pricing context (when available). For European buyers, it’s most useful as a “factory baseline” because trims and equipment can vary a lot by country and market.",
+          "Yes, and that’s actually the most common reason people run a car window sticker lookup in Europe. The paper label may be long gone on used cars, but a digital lookup window sticker by VIN can still work if the manufacturer kept retrievable records for that VIN and model year. If records aren’t available, it’s usually a data limitation, not something you did wrong.",
+          "A factory window sticker by VIN is generally accurate for confirming original specs, equipment, and option packages for that exact VIN. It’s often more trustworthy than decoded estimates, especially in Europe, where trims and standard features can vary by market. But it won’t reflect later upgrades, swapped parts, or wear and tear, so treat it as your starting reference, not the final verdict.",
+          "Not every VIN will return a window sticker by VIN because sticker records aren’t stored the same way by every manufacturer. Availability depends on the vehicle’s age, whether the brand kept digital sticker archives, and which market the car was built for (Europe or other regions). Some older cars simply don’t have retrievable digital records, and some brands restrict access. Sometimes data can also be missing due to format changes or system limitations.",
+          "No. A build sheet is usually production-focused and can be full of internal codes and component details. A window sticker is consumer-facing and designed to be readable, typically showing option packages, equipment lists, and pricing context (when available).",
+          "We cover all the manufacturers and model years, especially the standardized 17-character VIN. If you have a classic build with a fewer than 17-character VIN (often 5 to 14 characters), the coverage may vary."
+        ],
+        "links": [],
+        "images": [],
+        "forms": [],
+        "lists": [],
+        "badges": [],
+        "stats": [],
+        "textLength": 4466,
+        "_improvised": {
+          "tagline": "Your Questions, Answered",
+          "tagLevel": "span",
+          "heading": "Common Questions About **Window Sticker Lookups**",
+          "headingOriginal": "Common Questions About Window Sticker Lookups"
+        }
+      }
+    ],
+    "_changes": [
+      {
+        "section": 1,
+        "label": "Hero",
+        "diffs": [
+          {
+            "field": "tagline",
+            "original": "(none)",
+            "improved": "Factory Specs, Verified",
+            "reason": "AI-generated tagline"
+          },
+          {
+            "field": "heading",
+            "original": "Look Up a Vehicle's Original Window Sticker Online",
+            "improved": "Look Up a Vehicle's **Original Window Sticker** Online",
+            "reason": "AI-selected **marker** highlight for gradient text"
+          },
+          {
+            "field": "features",
+            "original": "(none)",
+            "improved": "FileText: Full Equipment List | Euro: Original MSRP | Leaf: CO₂ & Emissions Data | ShieldCheck: Factory-Verified Specs",
+            "reason": "AI-suggested feature highlights"
+          }
+        ]
+      },
+      {
+        "section": 2,
+        "label": "What Is It",
+        "diffs": [
+          {
+            "field": "tagline",
+            "original": "(none)",
+            "improved": "The Monroney Label, Explained",
+            "reason": "AI-generated tagline"
+          },
+          {
+            "field": "heading",
+            "original": "What Is a Window Sticker by VIN?",
+            "improved": "What Is a **Window Sticker** by VIN?",
+            "reason": "AI-selected **marker** highlight for gradient text"
+          }
+        ]
+      },
+      {
+        "section": 3,
+        "label": "Sticker Details",
+        "diffs": [
+          {
+            "field": "tagline",
+            "original": "(none)",
+            "improved": "The Full Factory Breakdown",
+            "reason": "AI-generated tagline"
+          },
+          {
+            "field": "heading",
+            "original": "Details You Can Find on a Factory Window Sticker",
+            "improved": "Details You Can Find on a **Factory Window Sticker**",
+            "reason": "AI-selected **marker** highlight for gradient text"
+          }
+        ]
+      },
+      {
+        "section": 4,
+        "label": "Who Benefits",
+        "diffs": [
+          {
+            "field": "tagline",
+            "original": "(none)",
+            "improved": "Built for Buyers & Sellers",
+            "reason": "AI-generated tagline"
+          },
+          {
+            "field": "heading",
+            "original": "Who Benefits Most From Checking a Window Sticker?",
+            "improved": "Who **Benefits Most** From Checking a Window Sticker?",
+            "reason": "AI-selected **marker** highlight for gradient text"
+          }
+        ]
+      },
+      {
+        "section": 5,
+        "label": "How To",
+        "diffs": [
+          {
+            "field": "tagline",
+            "original": "(none)",
+            "improved": "Three Steps, One Sticker",
+            "reason": "AI-generated tagline"
+          },
+          {
+            "field": "heading",
+            "original": "How to Get a Window Sticker by VIN",
+            "improved": "How to Get a **Window Sticker** by VIN",
+            "reason": "AI-selected **marker** highlight for gradient text"
+          }
+        ]
+      },
+      {
+        "section": 6,
+        "label": "VIN Location",
+        "diffs": [
+          {
+            "field": "tagline",
+            "original": "(none)",
+            "improved": "Find Your 17-Digit Code",
+            "reason": "AI-generated tagline"
+          },
+          {
+            "field": "heading",
+            "original": "Where is the VIN Located?",
+            "improved": "Where is the **VIN Located**?",
+            "reason": "AI-selected **marker** highlight for gradient text"
+          }
+        ]
+      },
+      {
+        "section": 7,
+        "label": "CTA",
+        "diffs": [
+          {
+            "field": "tagline",
+            "original": "(none)",
+            "improved": "Ready to Check?",
+            "reason": "AI-generated tagline"
+          },
+          {
+            "field": "heading",
+            "original": "Get a Window Sticker for Your Vehicle Now!",
+            "improved": "Get a Window Sticker for **Your Vehicle** Now!",
+            "reason": "AI-selected **marker** highlight for gradient text"
+          }
+        ]
+      },
+      {
+        "section": 8,
+        "label": "Brand Availability",
+        "diffs": [
+          {
+            "field": "tagline",
+            "original": "(none)",
+            "improved": "All Major Brands Covered",
+            "reason": "AI-generated tagline"
+          },
+          {
+            "field": "heading",
+            "original": "Window Sticker Availability by Brand",
+            "improved": "Window Sticker **Availability by Brand**",
+            "reason": "AI-selected **marker** highlight for gradient text"
+          }
+        ]
+      },
+      {
+        "section": 9,
+        "label": "FAQ",
+        "diffs": [
+          {
+            "field": "tagline",
+            "original": "(none)",
+            "improved": "Your Questions, Answered",
+            "reason": "AI-generated tagline"
+          },
+          {
+            "field": "heading",
+            "original": "Common Questions About Window Sticker Lookups",
+            "improved": "Common Questions About **Window Sticker Lookups**",
+            "reason": "AI-selected **marker** highlight for gradient text"
+          }
+        ]
+      }
+    ],
+    "_improvisedAt": "2026-03-31T05:32:38.882Z"
+  },
+  {
+    "url": "https://vehiclehistory.eu/contact-us",
+    "pageTitle": "Contact Us - Vehicle History Europe",
+    "metaDesc": "If you have any questions or need clarity on any area regarding vehicle history reports from Vehicle History, you can reach us via this page. We offer live",
+    "canonical": "https://vehiclehistory.eu/contact-us",
+    "scrapedAt": "2026-03-31T05:31:30.934Z",
+    "totalSections": 2,
+    "sections": [
+      {
+        "index": 1,
+        "tag": "section",
+        "id": null,
+        "classes": "elementor-section elementor-top-section elementor-element elementor-element-af37e2b elementor-section-boxed elementor-se",
+        "headings": [
+          {
+            "level": "h2",
+            "text": "Got any Questions?"
+          },
+          {
+            "level": "h1",
+            "text": "Contact Us"
+          },
+          {
+            "level": "h2",
+            "text": "We’ll be happy to assist you!"
+          },
+          {
+            "level": "h4",
+            "text": "Support Hours"
+          },
+          {
+            "level": "h5",
+            "text": "Live Chat Support"
+          },
+          {
+            "level": "h2",
+            "text": "Phone"
+          },
+          {
+            "level": "h5",
+            "text": "(866)-300-0554"
+          },
+          {
+            "level": "h2",
+            "text": "Email"
+          }
+        ],
+        "paragraphs": [
+          "If you have any questions or need clarity on any area regarding vehicle history reports from Vehicle History, you can reach us via this page. We offer live chat, immediate response, and 24/7 customer service to attend to your pressing needs and challenges"
+        ],
+        "links": [
+          {
+            "text": "Help desk",
+            "href": "https://secure.livechatinc.com/licence/10186117/v2/open_chat.cgi?groups=0",
+            "style": "button",
+            "rel": "noopener",
+            "newTab": true
+          },
+          {
+            "text": "FAQ",
+            "href": "https://vehiclehistory.eu/frequently-asked-questions",
+            "style": "button",
+            "rel": null,
+            "newTab": false
+          },
+          {
+            "text": "Live Chat Support",
+            "href": "https://secure.livechatinc.com/licence/10186117/v2/open_chat.cgi?groups=0",
+            "style": "text",
+            "rel": "noopener",
+            "newTab": true
+          },
+          {
+            "text": "email",
+            "href": "mailto:support@vehiclehistory.eu",
+            "style": "text",
+            "rel": null,
+            "newTab": false
+          }
+        ],
+        "images": [
+          {
+            "src": "https://vehiclehistory.eu/wp-content/uploads/2023/02/24-1.svg",
+            "alt": "24/7",
+            "width": "156",
+            "height": "56"
+          },
+          {
+            "src": "https://vehiclehistory.eu/wp-content/uploads/2023/02/ph-1.svg",
+            "alt": "phone",
+            "width": "145",
+            "height": "54"
+          },
+          {
+            "src": "https://vehiclehistory.eu/wp-content/uploads/2023/02/email-1.svg",
+            "alt": "email",
+            "width": "145",
+            "height": "54"
+          }
+        ],
+        "forms": [
+          {
+            "fields": [
+              {
+                "type": "text",
+                "name": "form_fields[name]",
+                "placeholder": null,
+                "label": null
+              },
+              {
+                "type": "email",
+                "name": "form_fields[email]",
+                "placeholder": null,
+                "label": null
+              },
+              {
+                "type": "select",
+                "name": "form_fields[field_a303031]",
+                "placeholder": null,
+                "label": null
+              },
+              {
+                "type": "textarea",
+                "name": "form_fields[message]",
+                "placeholder": null,
+                "label": null
+              }
+            ],
+            "submitText": "Submit"
+          },
+          {
+            "fields": [
+              {
+                "type": "text",
+                "name": "form_fields[name]",
+                "placeholder": null,
+                "label": null
+              },
+              {
+                "type": "email",
+                "name": "form_fields[email]",
+                "placeholder": null,
+                "label": null
+              },
+              {
+                "type": "select",
+                "name": "form_fields[field_a303031]",
+                "placeholder": null,
+                "label": null
+              },
+              {
+                "type": "textarea",
+                "name": "form_fields[message]",
+                "placeholder": null,
+                "label": null
+              }
+            ],
+            "submitText": "Submit"
+          },
+          {
+            "fields": [
+              {
+                "type": "text",
+                "name": "form_fields[name]",
+                "placeholder": null,
+                "label": null
+              },
+              {
+                "type": "email",
+                "name": "form_fields[email]",
+                "placeholder": null,
+                "label": null
+              },
+              {
+                "type": "select",
+                "name": "form_fields[field_a303031]",
+                "placeholder": null,
+                "label": null
+              },
+              {
+                "type": "textarea",
+                "name": "form_fields[message]",
+                "placeholder": null,
+                "label": null
+              }
+            ],
+            "submitText": "Submit"
+          }
+        ],
+        "lists": [],
+        "badges": [],
+        "stats": [],
+        "textLength": 2086,
+        "_improvised": {
+          "tagline": "Got any Questions?",
+          "tagLevel": "h2",
+          "secondaryHeading": "We'll be happy to assist you!",
+          "secondaryHeadingLevel": "h2",
+          "heading": "**Contact** Us",
+          "headingOriginal": "Contact Us",
+          "features": [
+            {
+              "icon": "message-circle",
+              "text": "Live Chat Support",
+              "href": "https://secure.livechatinc.com/licence/10186117/v2/open_chat.cgi?groups=0"
+            },
+            {
+              "icon": "phone",
+              "text": "(866)-300-0554",
+              "href": "tel:8663000554"
+            },
+            {
+              "icon": "mail",
+              "text": "Email Support",
+              "href": "mailto:support@vehiclehistory.eu"
+            },
+            {
+              "icon": "clock",
+              "text": "24/7 Availability",
+              "href": null
+            }
+          ]
+        }
+      },
+      {
+        "index": 2,
+        "tag": "section",
+        "id": null,
+        "classes": "elementor-section elementor-top-section elementor-element elementor-element-4018cf7 elementor-section-boxed elementor-se",
+        "headings": [
+          {
+            "level": "h2",
+            "text": "Frequently Asked Questions"
+          },
+          {
+            "level": "h2",
+            "text": "Here are some questions Most People ask:"
+          }
+        ],
+        "paragraphs": [
+          "You can go through this section first, and if your questions remain unanswered, be sure to contact us and we will respond as soon as possible.",
+          "A To make use of your vehicle history credits, you must log in to your account, where you will have direct access to your credits.",
+          "A To make use of your vehicle history credits, you must log in to your account, where you will have direct access to your credits.",
+          "A To make use of your vehicle history credits, you must log in to your account, where you will have direct access to your credits."
+        ],
+        "links": [
+          {
+            "text": "See more",
+            "href": "https://vehiclehistory.eu/frequently-asked-questions",
+            "style": "button",
+            "rel": null,
+            "newTab": false
+          }
+        ],
+        "images": [],
+        "forms": [],
+        "lists": [],
+        "badges": [],
+        "stats": [],
+        "textLength": 1309,
+        "_improvised": {
+          "tagline": "Quick Answers",
+          "tagLevel": "span",
+          "heading": "**Frequently Asked** Questions",
+          "headingOriginal": "Frequently Asked Questions"
+        }
+      }
+    ],
+    "_changes": [
+      {
+        "section": 1,
+        "label": "Contact Hero",
+        "diffs": [
+          {
+            "field": "tagline",
+            "original": "(none)",
+            "improved": "Got any Questions?",
+            "reason": "AI-generated tagline"
+          },
+          {
+            "field": "secondaryHeading",
+            "original": "(none)",
+            "improved": "We'll be happy to assist you!",
+            "reason": "AI-identified secondary heading from original page"
+          },
+          {
+            "field": "heading",
+            "original": "Contact Us",
+            "improved": "**Contact** Us",
+            "reason": "AI-selected **marker** highlight for gradient text"
+          },
+          {
+            "field": "features",
+            "original": "(none)",
+            "improved": "message-circle: Live Chat Support → https://secure.livechatinc.com/licence/10186117/v2/open_chat.cgi?groups=0 | phone: (866)-300-0554 → tel:8663000554 | mail: Email Support → mailto:support@vehiclehistory.eu | clock: 24/7 Availability",
+            "reason": "AI-suggested feature highlights"
+          }
+        ]
+      },
+      {
+        "section": 2,
+        "label": "Contact FAQ",
+        "diffs": [
+          {
+            "field": "tagline",
+            "original": "(none)",
+            "improved": "Quick Answers",
+            "reason": "AI-generated tagline"
+          },
+          {
+            "field": "heading",
+            "original": "Frequently Asked Questions",
+            "improved": "**Frequently Asked** Questions",
+            "reason": "AI-selected **marker** highlight for gradient text"
+          }
+        ]
+      }
+    ],
+    "_improvisedAt": "2026-03-31T05:32:45.696Z"
+  }
+]

@@ -1,0 +1,3573 @@
+[
+  {
+    "blockType": "page-hero",
+    "variant": "centered",
+    "dark": true,
+    "fullHeight": false,
+    "glow": false,
+    "formType": "vin",
+    "title": "Get **Full History Report** in Ireland by VIN",
+    "description": "About 4,000 imported used cars were stolen in Ireland in 2022; a 52% rise on 2021. Before buying a used car, use our Ireland VIN check to verify theft records, accidents, title, and any hidden problems that the seller won’t tell you.",
+    "tag": "Know Before You Buy",
+    "tagLevel": "span",
+    "features": [
+      {
+        "icon": {
+          "source": "preset",
+          "preset": "shield-check"
+        },
+        "text": "Verified Irish Records",
+        "tag": "span"
+      },
+      {
+        "icon": {
+          "source": "preset",
+          "preset": "clock"
+        },
+        "text": "Results in Seconds",
+        "tag": "span"
+      },
+      {
+        "icon": {
+          "source": "preset",
+          "preset": "file-text"
+        },
+        "text": "Comprehensive Reports",
+        "tag": "span"
+      },
+      {
+        "icon": {
+          "source": "preset",
+          "preset": "globe"
+        },
+        "text": "Cross-Border Data",
+        "tag": "span"
+      }
+    ]
+  },
+  {
+    "blockType": "section",
+    "bg": "muted",
+    "scene": "default",
+    "tag": "The Numbers Don't Lie",
+    "heading": "Why Run a VIN Check in Ireland: **Risk Stats & Facts**",
+    "headingLevel": "h2",
+    "description": {
+      "root": {
+        "type": "root",
+        "direction": "ltr",
+        "format": "",
+        "indent": 0,
+        "version": 1,
+        "children": [
+          {
+            "type": "paragraph",
+            "direction": "ltr",
+            "format": "",
+            "indent": 0,
+            "version": 1,
+            "textFormat": 0,
+            "textStyle": "",
+            "children": [
+              {
+                "type": "text",
+                "text": "Failing to check a car’s history in Ireland can leave you blind to hidden damage, mileage fraud, outstanding finance, and safety problems",
+                "format": 0,
+                "version": 1,
+                "detail": 0,
+                "mode": "normal",
+                "style": ""
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "content": [
+      {
+        "blockType": "card-grid",
+        "columns": "3",
+        "tabletColumns": "2",
+        "mobileColumns": "1",
+        "cards": [
+          {
+            "cardType": "feature",
+            "style": "stat",
+            "layout": "centered",
+            "stat": "1 in 5",
+            "statColor": "primary",
+            "title": "Used cars show false mileage",
+            "titleElement": "p"
+          },
+          {
+            "cardType": "feature",
+            "style": "stat",
+            "layout": "centered",
+            "stat": "3,192",
+            "statColor": "primary",
+            "title": "Consumer complaints about used car issues in 2024",
+            "titleElement": "p"
+          },
+          {
+            "cardType": "feature",
+            "style": "stat",
+            "layout": "centered",
+            "stat": "50,000+",
+            "statColor": "primary",
+            "title": "Vehicles written-off annually in Ireland",
+            "titleElement": "p"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "blockType": "section",
+    "bg": "muted",
+    "scene": "default",
+    "tag": "Your Car's Unique Fingerprint",
+    "heading": "What Is a **VIN Number**?",
+    "headingLevel": "h2",
+    "description": {
+      "root": {
+        "type": "root",
+        "direction": "ltr",
+        "format": "",
+        "indent": 0,
+        "version": 1,
+        "children": [
+          {
+            "type": "paragraph",
+            "direction": "ltr",
+            "format": "",
+            "indent": 0,
+            "version": 1,
+            "textFormat": 0,
+            "textStyle": "",
+            "children": [
+              {
+                "type": "text",
+                "text": "Every car has a special code called a VIN, which stands for Vehicle Identification Number. No two cars in Ireland share the same VIN because the VIN number acts like a fingerprint for your car.",
+                "format": 0,
+                "version": 1,
+                "detail": 0,
+                "mode": "normal",
+                "style": ""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "direction": "ltr",
+            "format": "",
+            "indent": 0,
+            "version": 1,
+            "textFormat": 0,
+            "textStyle": "",
+            "children": [
+              {
+                "type": "text",
+                "text": "This 17-character VIN tells the story of where a car came from, what happened to it, and who owned it. When you’re buying a used car in Ireland, checking the VIN helps you avoid buying a vehicle with hidden damage or stolen parts.",
+                "format": 0,
+                "version": 1,
+                "detail": 0,
+                "mode": "normal",
+                "style": ""
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "blockType": "section",
+    "bg": "white",
+    "scene": "default",
+    "content": [
+      {
+        "blockType": "split-content",
+        "tag": "Quick Location Guide",
+        "heading": "Where to **Find the VIN** Number",
+        "headingLevel": "h3",
+        "description": {
+          "root": {
+            "type": "root",
+            "direction": "ltr",
+            "format": "",
+            "indent": 0,
+            "version": 1,
+            "children": [
+              {
+                "type": "paragraph",
+                "direction": "ltr",
+                "format": "",
+                "indent": 0,
+                "version": 1,
+                "textFormat": 0,
+                "textStyle": "",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "You can find the VIN in several spots on the car and in the paperwork.",
+                    "format": 0,
+                    "version": 1,
+                    "detail": 0,
+                    "mode": "normal",
+                    "style": ""
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "contentType": "cards",
+        "cardColumns": "2",
+        "cards": [
+          {
+            "icon": {
+              "source": "preset",
+              "preset": "car"
+            },
+            "title": "Dashboard (Driver's Side)",
+            "titleElement": "h4",
+            "cardDescription": {
+              "root": {
+                "type": "root",
+                "direction": "ltr",
+                "format": "",
+                "indent": 0,
+                "version": 1,
+                "children": [
+                  {
+                    "type": "paragraph",
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": "",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Look through the windshield on the driver's side corner where the dashboard meets the glass.",
+                        "format": 0,
+                        "version": 1,
+                        "detail": 0,
+                        "mode": "normal",
+                        "style": ""
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "icon": {
+              "source": "preset",
+              "preset": "scan"
+            },
+            "title": "Driver's Door Jamb",
+            "titleElement": "h4",
+            "cardDescription": {
+              "root": {
+                "type": "root",
+                "direction": "ltr",
+                "format": "",
+                "indent": 0,
+                "version": 1,
+                "children": [
+                  {
+                    "type": "paragraph",
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": "",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Open the driver's door and check the sticker on the door frame or pillar.",
+                        "format": 0,
+                        "version": 1,
+                        "detail": 0,
+                        "mode": "normal",
+                        "style": ""
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "icon": {
+              "source": "preset",
+              "preset": "wrench"
+            },
+            "title": "Engine Block",
+            "titleElement": "h4",
+            "cardDescription": {
+              "root": {
+                "type": "root",
+                "direction": "ltr",
+                "format": "",
+                "indent": 0,
+                "version": 1,
+                "children": [
+                  {
+                    "type": "paragraph",
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": "",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Pop the hood and look for stamped numbers on the engine's metal body.",
+                        "format": 0,
+                        "version": 1,
+                        "detail": 0,
+                        "mode": "normal",
+                        "style": ""
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "icon": {
+              "source": "preset",
+              "preset": "file-text"
+            },
+            "title": "Vehicle Registration Document",
+            "titleElement": "h4",
+            "cardDescription": {
+              "root": {
+                "type": "root",
+                "direction": "ltr",
+                "format": "",
+                "indent": 0,
+                "version": 1,
+                "children": [
+                  {
+                    "type": "paragraph",
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": "",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Your car's registration papers always list the VIN number at the top or in a special box.",
+                        "format": 0,
+                        "version": 1,
+                        "detail": 0,
+                        "mode": "normal",
+                        "style": ""
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "icon": {
+              "source": "preset",
+              "preset": "file-text"
+            },
+            "title": "Insurance Papers",
+            "titleElement": "h4",
+            "cardDescription": {
+              "root": {
+                "type": "root",
+                "direction": "ltr",
+                "format": "",
+                "indent": 0,
+                "version": 1,
+                "children": [
+                  {
+                    "type": "paragraph",
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": "",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Check your insurance documents and look for where the vehicle's details and specifications were listed.",
+                        "format": 0,
+                        "version": 1,
+                        "detail": 0,
+                        "mode": "normal",
+                        "style": ""
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          }
+        ],
+        "mediaType": "image",
+        "reverse": true
+      }
+    ]
+  },
+  {
+    "blockType": "section",
+    "bg": "muted",
+    "scene": "default",
+    "tag": "Every Detail Uncovered",
+    "heading": "What You'll **Find** with a VIN Check in Ireland",
+    "headingLevel": "h2",
+    "description": {
+      "root": {
+        "type": "root",
+        "direction": "ltr",
+        "format": "",
+        "indent": 0,
+        "version": 1,
+        "children": [
+          {
+            "type": "paragraph",
+            "direction": "ltr",
+            "format": "",
+            "indent": 0,
+            "version": 1,
+            "textFormat": 0,
+            "textStyle": "",
+            "children": [
+              {
+                "type": "text",
+                "text": "A VIN check in Ireland gives you a complete picture of any vehicle’s past and present condition. With a VIN check, you can access the following information and records:",
+                "format": 0,
+                "version": 1,
+                "detail": 0,
+                "mode": "normal",
+                "style": ""
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "content": [
+      {
+        "blockType": "card-grid",
+        "columns": "2",
+        "tabletColumns": "2",
+        "mobileColumns": "1",
+        "cards": [
+          {
+            "cardType": "feature",
+            "style": "none",
+            "layout": "stacked",
+            "title": "Detailed Vehicle Specifications",
+            "titleElement": "h3",
+            "description": {
+              "root": {
+                "type": "root",
+                "direction": "ltr",
+                "format": "",
+                "indent": 0,
+                "version": 1,
+                "children": [
+                  {
+                    "type": "paragraph",
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": "",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Learn everything about how the car was built, the manufacturer, what features it has, and what makes it different from similar models.",
+                        "format": 0,
+                        "version": 1,
+                        "detail": 0,
+                        "mode": "normal",
+                        "style": ""
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            "items": [
+              {
+                "title": "Confirm Original Factory Specs",
+                "titleElement": "h4",
+                "description": {
+                  "root": {
+                    "type": "root",
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "version": 1,
+                    "children": [
+                      {
+                        "type": "paragraph",
+                        "direction": "ltr",
+                        "format": "",
+                        "indent": 0,
+                        "version": 1,
+                        "textFormat": 0,
+                        "textStyle": "",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "See the specs and features that the manufacturer installed when the car was brand new and original.",
+                            "format": 0,
+                            "version": 1,
+                            "detail": 0,
+                            "mode": "normal",
+                            "style": ""
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              },
+              {
+                "title": "Trim Level Details",
+                "titleElement": "h4",
+                "description": {
+                  "root": {
+                    "type": "root",
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "version": 1,
+                    "children": [
+                      {
+                        "type": "paragraph",
+                        "direction": "ltr",
+                        "format": "",
+                        "indent": 0,
+                        "version": 1,
+                        "textFormat": 0,
+                        "textStyle": "",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Find out the exact model version, trim level, and other special features that affect the car’s value.",
+                            "format": 0,
+                            "version": 1,
+                            "detail": 0,
+                            "mode": "normal",
+                            "style": ""
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "cardType": "feature",
+            "style": "none",
+            "layout": "stacked",
+            "title": "Technical Specifications",
+            "titleElement": "h3",
+            "description": {
+              "root": {
+                "type": "root",
+                "direction": "ltr",
+                "format": "",
+                "indent": 0,
+                "version": 1,
+                "children": [
+                  {
+                    "type": "paragraph",
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": "",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Get the exact measurements and mechanical details that help you understand how the car works and performs daily.",
+                        "format": 0,
+                        "version": 1,
+                        "detail": 0,
+                        "mode": "normal",
+                        "style": ""
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            "items": [
+              {
+                "title": "Engine Information",
+                "titleElement": "h4",
+                "description": {
+                  "root": {
+                    "type": "root",
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "version": 1,
+                    "children": [
+                      {
+                        "type": "paragraph",
+                        "direction": "ltr",
+                        "format": "",
+                        "indent": 0,
+                        "version": 1,
+                        "textFormat": 0,
+                        "textStyle": "",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Check the engine size, type, horsepower, and fuel efficiency ratings from the original manufacturer’s specifications.",
+                            "format": 0,
+                            "version": 1,
+                            "detail": 0,
+                            "mode": "normal",
+                            "style": ""
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              },
+              {
+                "title": "Transmission Type",
+                "titleElement": "h4",
+                "description": {
+                  "root": {
+                    "type": "root",
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "version": 1,
+                    "children": [
+                      {
+                        "type": "paragraph",
+                        "direction": "ltr",
+                        "format": "",
+                        "indent": 0,
+                        "version": 1,
+                        "textFormat": 0,
+                        "textStyle": "",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Learn whether the car has an automatic or manual transmission and how many gears it has.",
+                            "format": 0,
+                            "version": 1,
+                            "detail": 0,
+                            "mode": "normal",
+                            "style": ""
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "cardType": "feature",
+            "style": "none",
+            "layout": "stacked",
+            "title": "Title and Condition",
+            "titleElement": "h3",
+            "description": {
+              "root": {
+                "type": "root",
+                "direction": "ltr",
+                "format": "",
+                "indent": 0,
+                "version": 1,
+                "children": [
+                  {
+                    "type": "paragraph",
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": "",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Discover the legal status of the vehicle and whether it’s safe to buy without future problems or complications.",
+                        "format": 0,
+                        "version": 1,
+                        "detail": 0,
+                        "mode": "normal",
+                        "style": ""
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            "items": [
+              {
+                "title": "Title Status",
+                "titleElement": "h4",
+                "description": {
+                  "root": {
+                    "type": "root",
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "version": 1,
+                    "children": [
+                      {
+                        "type": "paragraph",
+                        "direction": "ltr",
+                        "format": "",
+                        "indent": 0,
+                        "version": 1,
+                        "textFormat": 0,
+                        "textStyle": "",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "See if the title is clean, salvaged, rebuilt, or has any legal problems that affect ownership.",
+                            "format": 0,
+                            "version": 1,
+                            "detail": 0,
+                            "mode": "normal",
+                            "style": ""
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              },
+              {
+                "title": "Odometer Reading",
+                "titleElement": "h4",
+                "description": {
+                  "root": {
+                    "type": "root",
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "version": 1,
+                    "children": [
+                      {
+                        "type": "paragraph",
+                        "direction": "ltr",
+                        "format": "",
+                        "indent": 0,
+                        "version": 1,
+                        "textFormat": 0,
+                        "textStyle": "",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Check the recorded mileage from inspections to spot if someone rolled back the numbers dishonestly.",
+                            "format": 0,
+                            "version": 1,
+                            "detail": 0,
+                            "mode": "normal",
+                            "style": ""
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "cardType": "feature",
+            "style": "none",
+            "layout": "stacked",
+            "title": "Theft Records",
+            "titleElement": "h3",
+            "description": {
+              "root": {
+                "type": "root",
+                "direction": "ltr",
+                "format": "",
+                "indent": 0,
+                "version": 1,
+                "children": [
+                  {
+                    "type": "paragraph",
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": "",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Find out if the car was ever reported stolen or if parts were taken and replaced illegally.",
+                        "format": 0,
+                        "version": 1,
+                        "detail": 0,
+                        "mode": "normal",
+                        "style": ""
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            "items": [
+              {
+                "title": "Lookup Stolen Vehicle Database",
+                "titleElement": "h4",
+                "description": {
+                  "root": {
+                    "type": "root",
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "version": 1,
+                    "children": [
+                      {
+                        "type": "paragraph",
+                        "direction": "ltr",
+                        "format": "",
+                        "indent": 0,
+                        "version": 1,
+                        "textFormat": 0,
+                        "textStyle": "",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Our Ireland VIN decoder searches national databases to confirm the car isn’t listed as currently stolen property.",
+                            "format": 0,
+                            "version": 1,
+                            "detail": 0,
+                            "mode": "normal",
+                            "style": ""
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              },
+              {
+                "title": "Recovered Theft History",
+                "titleElement": "h4",
+                "description": {
+                  "root": {
+                    "type": "root",
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "version": 1,
+                    "children": [
+                      {
+                        "type": "paragraph",
+                        "direction": "ltr",
+                        "format": "",
+                        "indent": 0,
+                        "version": 1,
+                        "textFormat": 0,
+                        "textStyle": "",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "See if the car was stolen before and later found, which might mean hidden damage.",
+                            "format": 0,
+                            "version": 1,
+                            "detail": 0,
+                            "mode": "normal",
+                            "style": ""
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "cardType": "feature",
+            "style": "none",
+            "layout": "stacked",
+            "title": "Lien and Loan Records",
+            "titleElement": "h3",
+            "description": {
+              "root": {
+                "type": "root",
+                "direction": "ltr",
+                "format": "",
+                "indent": 0,
+                "version": 1,
+                "children": [
+                  {
+                    "type": "paragraph",
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": "",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Check if anyone else has legal claims on the vehicle that could cause ownership problems after you buy.",
+                        "format": 0,
+                        "version": 1,
+                        "detail": 0,
+                        "mode": "normal",
+                        "style": ""
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            "items": [
+              {
+                "title": "Outstanding Loans",
+                "titleElement": "h4",
+                "description": {
+                  "root": {
+                    "type": "root",
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "version": 1,
+                    "children": [
+                      {
+                        "type": "paragraph",
+                        "direction": "ltr",
+                        "format": "",
+                        "indent": 0,
+                        "version": 1,
+                        "textFormat": 0,
+                        "textStyle": "",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Discover if the seller still owes money on the car to a bank or finance company.",
+                            "format": 0,
+                            "version": 1,
+                            "detail": 0,
+                            "mode": "normal",
+                            "style": ""
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              },
+              {
+                "title": "Legal Claims",
+                "titleElement": "h4",
+                "description": {
+                  "root": {
+                    "type": "root",
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "version": 1,
+                    "children": [
+                      {
+                        "type": "paragraph",
+                        "direction": "ltr",
+                        "format": "",
+                        "indent": 0,
+                        "version": 1,
+                        "textFormat": 0,
+                        "textStyle": "",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Find other legal holds that could prevent the clean transfer of the vehicle’s ownership.",
+                            "format": 0,
+                            "version": 1,
+                            "detail": 0,
+                            "mode": "normal",
+                            "style": ""
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "cardType": "feature",
+            "style": "none",
+            "layout": "stacked",
+            "title": "Accident Records",
+            "titleElement": "h3",
+            "description": {
+              "root": {
+                "type": "root",
+                "direction": "ltr",
+                "format": "",
+                "indent": 0,
+                "version": 1,
+                "children": [
+                  {
+                    "type": "paragraph",
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": "",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Learn about every crash, collision, or damage incident that happened during the car’s lifetime on the road.",
+                        "format": 0,
+                        "version": 1,
+                        "detail": 0,
+                        "mode": "normal",
+                        "style": ""
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            "items": [
+              {
+                "title": "Collision Reports",
+                "titleElement": "h4",
+                "description": {
+                  "root": {
+                    "type": "root",
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "version": 1,
+                    "children": [
+                      {
+                        "type": "paragraph",
+                        "direction": "ltr",
+                        "format": "",
+                        "indent": 0,
+                        "version": 1,
+                        "textFormat": 0,
+                        "textStyle": "",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "See police reports and insurance claims filed after the car was involved in any type of accident.",
+                            "format": 0,
+                            "version": 1,
+                            "detail": 0,
+                            "mode": "normal",
+                            "style": ""
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              },
+              {
+                "title": "Damage Severity",
+                "titleElement": "h4",
+                "description": {
+                  "root": {
+                    "type": "root",
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "version": 1,
+                    "children": [
+                      {
+                        "type": "paragraph",
+                        "direction": "ltr",
+                        "format": "",
+                        "indent": 0,
+                        "version": 1,
+                        "textFormat": 0,
+                        "textStyle": "",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Understand how bad each accident was and whether the repairs were done correctly and completely.",
+                            "format": 0,
+                            "version": 1,
+                            "detail": 0,
+                            "mode": "normal",
+                            "style": ""
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "cardType": "feature",
+            "style": "none",
+            "layout": "stacked",
+            "title": "Sales History",
+            "titleElement": "h3",
+            "description": {
+              "root": {
+                "type": "root",
+                "direction": "ltr",
+                "format": "",
+                "indent": 0,
+                "version": 1,
+                "children": [
+                  {
+                    "type": "paragraph",
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": "",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Track how many times the car changed hands and what happened between each owner over the years.",
+                        "format": 0,
+                        "version": 1,
+                        "detail": 0,
+                        "mode": "normal",
+                        "style": ""
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            "items": [
+              {
+                "title": "Previous Owners",
+                "titleElement": "h4",
+                "description": {
+                  "root": {
+                    "type": "root",
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "version": 1,
+                    "children": [
+                      {
+                        "type": "paragraph",
+                        "direction": "ltr",
+                        "format": "",
+                        "indent": 0,
+                        "version": 1,
+                        "textFormat": 0,
+                        "textStyle": "",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Count how many people owned the car and see dates when ownership transferred to new buyers.",
+                            "format": 0,
+                            "version": 1,
+                            "detail": 0,
+                            "mode": "normal",
+                            "style": ""
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              },
+              {
+                "title": "Price History",
+                "titleElement": "h4",
+                "description": {
+                  "root": {
+                    "type": "root",
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "version": 1,
+                    "children": [
+                      {
+                        "type": "paragraph",
+                        "direction": "ltr",
+                        "format": "",
+                        "indent": 0,
+                        "version": 1,
+                        "textFormat": 0,
+                        "textStyle": "",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "View past sale prices to know if the current asking price is fair for this vehicle.",
+                            "format": 0,
+                            "version": 1,
+                            "detail": 0,
+                            "mode": "normal",
+                            "style": ""
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "cardType": "feature",
+            "style": "none",
+            "layout": "stacked",
+            "title": "Auction Records",
+            "titleElement": "h3",
+            "description": {
+              "root": {
+                "type": "root",
+                "direction": "ltr",
+                "format": "",
+                "indent": 0,
+                "version": 1,
+                "children": [
+                  {
+                    "type": "paragraph",
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": "",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Check if the car went through dealer auctions, which often means trade-ins or fleet vehicles with heavy use.",
+                        "format": 0,
+                        "version": 1,
+                        "detail": 0,
+                        "mode": "normal",
+                        "style": ""
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            "items": [
+              {
+                "title": "Auction Dates",
+                "titleElement": "h4",
+                "description": {
+                  "root": {
+                    "type": "root",
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "version": 1,
+                    "children": [
+                      {
+                        "type": "paragraph",
+                        "direction": "ltr",
+                        "format": "",
+                        "indent": 0,
+                        "version": 1,
+                        "textFormat": 0,
+                        "textStyle": "",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "See when and where the car was sold at wholesale auctions to car dealers and buyers.",
+                            "format": 0,
+                            "version": 1,
+                            "detail": 0,
+                            "mode": "normal",
+                            "style": ""
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              },
+              {
+                "title": "Condition Photos",
+                "titleElement": "h4",
+                "description": {
+                  "root": {
+                    "type": "root",
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "version": 1,
+                    "children": [
+                      {
+                        "type": "paragraph",
+                        "direction": "ltr",
+                        "format": "",
+                        "indent": 0,
+                        "version": 1,
+                        "textFormat": 0,
+                        "textStyle": "",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "See the pictures of the car to learn about the car’s condition when it went through the auction house.",
+                            "format": 0,
+                            "version": 1,
+                            "detail": 0,
+                            "mode": "normal",
+                            "style": ""
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "ctas": [
+      {
+        "label": "Get an Ireland VIN Check",
+        "href": "#vin-form",
+        "style": "primary"
+      },
+      {
+        "label": "View Sample Report",
+        "href": "https://vehiclehistory.eu/sample-report",
+        "style": "secondary"
+      }
+    ]
+  },
+  {
+    "blockType": "section",
+    "bg": "muted",
+    "scene": "default",
+    "tag": "Compare Your Options",
+    "heading": "Free Vs **Paid VIN Check** in Ireland",
+    "headingLevel": "h2",
+    "description": {
+      "root": {
+        "type": "root",
+        "direction": "ltr",
+        "format": "",
+        "indent": 0,
+        "version": 1,
+        "children": [
+          {
+            "type": "paragraph",
+            "direction": "ltr",
+            "format": "",
+            "indent": 0,
+            "version": 1,
+            "textFormat": 0,
+            "textStyle": "",
+            "children": [
+              {
+                "type": "text",
+                "text": "A free VIN check in Ireland gives basic information, but a paid Ireland VIN check report shows the complete history you need before buying a used car.",
+                "format": 0,
+                "version": 1,
+                "detail": 0,
+                "mode": "normal",
+                "style": ""
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "content": [
+      {
+        "blockType": "comparison-table",
+        "stickyFirstColumn": true,
+        "highlightColumn": 3,
+        "columnWidths": [
+          {
+            "mobile": "40",
+            "desktop": "50"
+          },
+          {
+            "mobile": "30",
+            "desktop": "25"
+          },
+          {
+            "mobile": "30",
+            "desktop": "25"
+          }
+        ],
+        "rows": [
+          {
+            "cells": [
+              {
+                "type": "richtext",
+                "content": {
+                  "root": {
+                    "type": "root",
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "version": 1,
+                    "children": [
+                      {
+                        "type": "paragraph",
+                        "direction": "ltr",
+                        "format": "",
+                        "indent": 0,
+                        "version": 1,
+                        "textFormat": 0,
+                        "textStyle": "",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Information / Records",
+                            "format": 0,
+                            "version": 1,
+                            "detail": 0,
+                            "mode": "normal",
+                            "style": ""
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              },
+              {
+                "type": "richtext",
+                "content": {
+                  "root": {
+                    "type": "root",
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "version": 1,
+                    "children": [
+                      {
+                        "type": "paragraph",
+                        "direction": "ltr",
+                        "format": "",
+                        "indent": 0,
+                        "version": 1,
+                        "textFormat": 0,
+                        "textStyle": "",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Free VIN Check",
+                            "format": 0,
+                            "version": 1,
+                            "detail": 0,
+                            "mode": "normal",
+                            "style": ""
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              },
+              {
+                "type": "richtext",
+                "content": {
+                  "root": {
+                    "type": "root",
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "version": 1,
+                    "children": [
+                      {
+                        "type": "paragraph",
+                        "direction": "ltr",
+                        "format": "",
+                        "indent": 0,
+                        "version": 1,
+                        "textFormat": 0,
+                        "textStyle": "",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Paid VIN Check",
+                            "format": 0,
+                            "version": 1,
+                            "detail": 0,
+                            "mode": "normal",
+                            "style": ""
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "cells": [
+              {
+                "type": "richtext",
+                "content": {
+                  "root": {
+                    "type": "root",
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "version": 1,
+                    "children": [
+                      {
+                        "type": "paragraph",
+                        "direction": "ltr",
+                        "format": "",
+                        "indent": 0,
+                        "version": 1,
+                        "textFormat": 0,
+                        "textStyle": "",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Year, make & model",
+                            "format": 0,
+                            "version": 1,
+                            "detail": 0,
+                            "mode": "normal",
+                            "style": ""
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              },
+              {
+                "type": "check"
+              },
+              {
+                "type": "check"
+              }
+            ]
+          },
+          {
+            "cells": [
+              {
+                "type": "richtext",
+                "content": {
+                  "root": {
+                    "type": "root",
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "version": 1,
+                    "children": [
+                      {
+                        "type": "paragraph",
+                        "direction": "ltr",
+                        "format": "",
+                        "indent": 0,
+                        "version": 1,
+                        "textFormat": 0,
+                        "textStyle": "",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Engine type & size",
+                            "format": 0,
+                            "version": 1,
+                            "detail": 0,
+                            "mode": "normal",
+                            "style": ""
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              },
+              {
+                "type": "check"
+              },
+              {
+                "type": "check"
+              }
+            ]
+          },
+          {
+            "cells": [
+              {
+                "type": "richtext",
+                "content": {
+                  "root": {
+                    "type": "root",
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "version": 1,
+                    "children": [
+                      {
+                        "type": "paragraph",
+                        "direction": "ltr",
+                        "format": "",
+                        "indent": 0,
+                        "version": 1,
+                        "textFormat": 0,
+                        "textStyle": "",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Transmission",
+                            "format": 0,
+                            "version": 1,
+                            "detail": 0,
+                            "mode": "normal",
+                            "style": ""
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              },
+              {
+                "type": "check"
+              },
+              {
+                "type": "check"
+              }
+            ]
+          },
+          {
+            "cells": [
+              {
+                "type": "richtext",
+                "content": {
+                  "root": {
+                    "type": "root",
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "version": 1,
+                    "children": [
+                      {
+                        "type": "paragraph",
+                        "direction": "ltr",
+                        "format": "",
+                        "indent": 0,
+                        "version": 1,
+                        "textFormat": 0,
+                        "textStyle": "",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Drive type",
+                            "format": 0,
+                            "version": 1,
+                            "detail": 0,
+                            "mode": "normal",
+                            "style": ""
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              },
+              {
+                "type": "check"
+              },
+              {
+                "type": "check"
+              }
+            ]
+          },
+          {
+            "cells": [
+              {
+                "type": "richtext",
+                "content": {
+                  "root": {
+                    "type": "root",
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "version": 1,
+                    "children": [
+                      {
+                        "type": "paragraph",
+                        "direction": "ltr",
+                        "format": "",
+                        "indent": 0,
+                        "version": 1,
+                        "textFormat": 0,
+                        "textStyle": "",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Fuel type",
+                            "format": 0,
+                            "version": 1,
+                            "detail": 0,
+                            "mode": "normal",
+                            "style": ""
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              },
+              {
+                "type": "check"
+              },
+              {
+                "type": "check"
+              }
+            ]
+          },
+          {
+            "cells": [
+              {
+                "type": "richtext",
+                "content": {
+                  "root": {
+                    "type": "root",
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "version": 1,
+                    "children": [
+                      {
+                        "type": "paragraph",
+                        "direction": "ltr",
+                        "format": "",
+                        "indent": 0,
+                        "version": 1,
+                        "textFormat": 0,
+                        "textStyle": "",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Doors",
+                            "format": 0,
+                            "version": 1,
+                            "detail": 0,
+                            "mode": "normal",
+                            "style": ""
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              },
+              {
+                "type": "check"
+              },
+              {
+                "type": "check"
+              }
+            ]
+          },
+          {
+            "cells": [
+              {
+                "type": "richtext",
+                "content": {
+                  "root": {
+                    "type": "root",
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "version": 1,
+                    "children": [
+                      {
+                        "type": "paragraph",
+                        "direction": "ltr",
+                        "format": "",
+                        "indent": 0,
+                        "version": 1,
+                        "textFormat": 0,
+                        "textStyle": "",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Horsepower & torque",
+                            "format": 0,
+                            "version": 1,
+                            "detail": 0,
+                            "mode": "normal",
+                            "style": ""
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              },
+              {
+                "type": "check"
+              },
+              {
+                "type": "check"
+              }
+            ]
+          },
+          {
+            "cells": [
+              {
+                "type": "richtext",
+                "content": {
+                  "root": {
+                    "type": "root",
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "version": 1,
+                    "children": [
+                      {
+                        "type": "paragraph",
+                        "direction": "ltr",
+                        "format": "",
+                        "indent": 0,
+                        "version": 1,
+                        "textFormat": 0,
+                        "textStyle": "",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Detailed vehicle specs",
+                            "format": 0,
+                            "version": 1,
+                            "detail": 0,
+                            "mode": "normal",
+                            "style": ""
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              },
+              {
+                "type": "x"
+              },
+              {
+                "type": "check"
+              }
+            ]
+          },
+          {
+            "cells": [
+              {
+                "type": "richtext",
+                "content": {
+                  "root": {
+                    "type": "root",
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "version": 1,
+                    "children": [
+                      {
+                        "type": "paragraph",
+                        "direction": "ltr",
+                        "format": "",
+                        "indent": 0,
+                        "version": 1,
+                        "textFormat": 0,
+                        "textStyle": "",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Technical specs",
+                            "format": 0,
+                            "version": 1,
+                            "detail": 0,
+                            "mode": "normal",
+                            "style": ""
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              },
+              {
+                "type": "x"
+              },
+              {
+                "type": "check"
+              }
+            ]
+          },
+          {
+            "cells": [
+              {
+                "type": "richtext",
+                "content": {
+                  "root": {
+                    "type": "root",
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "version": 1,
+                    "children": [
+                      {
+                        "type": "paragraph",
+                        "direction": "ltr",
+                        "format": "",
+                        "indent": 0,
+                        "version": 1,
+                        "textFormat": 0,
+                        "textStyle": "",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Auction records",
+                            "format": 0,
+                            "version": 1,
+                            "detail": 0,
+                            "mode": "normal",
+                            "style": ""
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              },
+              {
+                "type": "x"
+              },
+              {
+                "type": "check"
+              }
+            ]
+          },
+          {
+            "cells": [
+              {
+                "type": "richtext",
+                "content": {
+                  "root": {
+                    "type": "root",
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "version": 1,
+                    "children": [
+                      {
+                        "type": "paragraph",
+                        "direction": "ltr",
+                        "format": "",
+                        "indent": 0,
+                        "version": 1,
+                        "textFormat": 0,
+                        "textStyle": "",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Vehicle sales history",
+                            "format": 0,
+                            "version": 1,
+                            "detail": 0,
+                            "mode": "normal",
+                            "style": ""
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              },
+              {
+                "type": "x"
+              },
+              {
+                "type": "check"
+              }
+            ]
+          },
+          {
+            "cells": [
+              {
+                "type": "richtext",
+                "content": {
+                  "root": {
+                    "type": "root",
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "version": 1,
+                    "children": [
+                      {
+                        "type": "paragraph",
+                        "direction": "ltr",
+                        "format": "",
+                        "indent": 0,
+                        "version": 1,
+                        "textFormat": 0,
+                        "textStyle": "",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Title and condition",
+                            "format": 0,
+                            "version": 1,
+                            "detail": 0,
+                            "mode": "normal",
+                            "style": ""
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              },
+              {
+                "type": "x"
+              },
+              {
+                "type": "check"
+              }
+            ]
+          },
+          {
+            "cells": [
+              {
+                "type": "richtext",
+                "content": {
+                  "root": {
+                    "type": "root",
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "version": 1,
+                    "children": [
+                      {
+                        "type": "paragraph",
+                        "direction": "ltr",
+                        "format": "",
+                        "indent": 0,
+                        "version": 1,
+                        "textFormat": 0,
+                        "textStyle": "",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Accident records",
+                            "format": 0,
+                            "version": 1,
+                            "detail": 0,
+                            "mode": "normal",
+                            "style": ""
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              },
+              {
+                "type": "x"
+              },
+              {
+                "type": "check"
+              }
+            ]
+          },
+          {
+            "cells": [
+              {
+                "type": "richtext",
+                "content": {
+                  "root": {
+                    "type": "root",
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "version": 1,
+                    "children": [
+                      {
+                        "type": "paragraph",
+                        "direction": "ltr",
+                        "format": "",
+                        "indent": 0,
+                        "version": 1,
+                        "textFormat": 0,
+                        "textStyle": "",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Theft records",
+                            "format": 0,
+                            "version": 1,
+                            "detail": 0,
+                            "mode": "normal",
+                            "style": ""
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              },
+              {
+                "type": "x"
+              },
+              {
+                "type": "check"
+              }
+            ]
+          },
+          {
+            "cells": [
+              {
+                "type": "richtext",
+                "content": {
+                  "root": {
+                    "type": "root",
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "version": 1,
+                    "children": [
+                      {
+                        "type": "paragraph",
+                        "direction": "ltr",
+                        "format": "",
+                        "indent": 0,
+                        "version": 1,
+                        "textFormat": 0,
+                        "textStyle": "",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Lien and loan records",
+                            "format": 0,
+                            "version": 1,
+                            "detail": 0,
+                            "mode": "normal",
+                            "style": ""
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              },
+              {
+                "type": "x"
+              },
+              {
+                "type": "check"
+              }
+            ]
+          },
+          {
+            "cells": [
+              {
+                "type": "richtext",
+                "content": {
+                  "root": {
+                    "type": "root",
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "version": 1,
+                    "children": [
+                      {
+                        "type": "paragraph",
+                        "direction": "ltr",
+                        "format": "",
+                        "indent": 0,
+                        "version": 1,
+                        "textFormat": 0,
+                        "textStyle": "",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Sales history",
+                            "format": 0,
+                            "version": 1,
+                            "detail": 0,
+                            "mode": "normal",
+                            "style": ""
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              },
+              {
+                "type": "x"
+              },
+              {
+                "type": "check"
+              }
+            ]
+          },
+          {
+            "cells": [
+              {
+                "type": "richtext",
+                "content": {
+                  "root": {
+                    "type": "root",
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "version": 1,
+                    "children": [
+                      {
+                        "type": "paragraph",
+                        "direction": "ltr",
+                        "format": "",
+                        "indent": 0,
+                        "version": 1,
+                        "textFormat": 0,
+                        "textStyle": "",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Auction records",
+                            "format": 0,
+                            "version": 1,
+                            "detail": 0,
+                            "mode": "normal",
+                            "style": ""
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              },
+              {
+                "type": "x"
+              },
+              {
+                "type": "check"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "ctas": [
+      {
+        "label": "Get a Full Vehicle History Report",
+        "href": "#vin-form",
+        "style": "primary"
+      }
+    ]
+  },
+  {
+    "blockType": "section",
+    "bg": "white",
+    "scene": "default",
+    "tag": "Protect Your Investment",
+    "heading": "Why Running a VIN Check in Ireland is **Important**",
+    "headingLevel": "h2",
+    "description": {
+      "root": {
+        "type": "root",
+        "direction": "ltr",
+        "format": "",
+        "indent": 0,
+        "version": 1,
+        "children": [
+          {
+            "type": "paragraph",
+            "direction": "ltr",
+            "format": "",
+            "indent": 0,
+            "version": 1,
+            "textFormat": 0,
+            "textStyle": "",
+            "children": [
+              {
+                "type": "text",
+                "text": "Each of the 60k+ used vehicles imported to Ireland in 2025 has a hidden history. Checking a car’s VIN in Ireland helps you know its real history before buying or selling. This protects everyone from bad surprises.",
+                "format": 0,
+                "version": 1,
+                "detail": 0,
+                "mode": "normal",
+                "style": ""
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "content": [
+      {
+        "blockType": "card-grid",
+        "columns": "1",
+        "tabletColumns": "1",
+        "mobileColumns": "1",
+        "cards": [
+          {
+            "cardType": "feature",
+            "style": "icon",
+            "layout": "stacked",
+            "icon": {
+              "source": "preset",
+              "preset": "tag"
+            },
+            "title": "Sellers and Dealers",
+            "titleElement": "h3",
+            "description": {
+              "root": {
+                "type": "root",
+                "direction": "ltr",
+                "format": "",
+                "indent": 0,
+                "version": 1,
+                "children": [
+                  {
+                    "type": "paragraph",
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": "",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Sellers and dealers gain advantages too when they run checks on their cars before listing them for sale. Here’s what they get:",
+                        "format": 0,
+                        "version": 1,
+                        "detail": 0,
+                        "mode": "normal",
+                        "style": ""
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            "items": [
+              {
+                "title": "Build Trust with Buyers",
+                "titleElement": "h4",
+                "description": {
+                  "root": {
+                    "type": "root",
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "version": 1,
+                    "children": [
+                      {
+                        "type": "paragraph",
+                        "direction": "ltr",
+                        "format": "",
+                        "indent": 0,
+                        "version": 1,
+                        "textFormat": 0,
+                        "textStyle": "",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Showing an Ireland car history check report proves you’re honest about the car’s condition. Buyers feel safer and buy faster when they trust you.",
+                            "format": 0,
+                            "version": 1,
+                            "detail": 0,
+                            "mode": "normal",
+                            "style": ""
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              },
+              {
+                "title": "Sell for Better Prices",
+                "titleElement": "h4",
+                "description": {
+                  "root": {
+                    "type": "root",
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "version": 1,
+                    "children": [
+                      {
+                        "type": "paragraph",
+                        "direction": "ltr",
+                        "format": "",
+                        "indent": 0,
+                        "version": 1,
+                        "textFormat": 0,
+                        "textStyle": "",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Cars with clean histories sell for more money. When buyers see no hidden problems, they’ll pay what your car is actually worth.",
+                            "format": 0,
+                            "version": 1,
+                            "detail": 0,
+                            "mode": "normal",
+                            "style": ""
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              },
+              {
+                "title": "Avoid Legal Problems Later",
+                "titleElement": "h4",
+                "description": {
+                  "root": {
+                    "type": "root",
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "version": 1,
+                    "children": [
+                      {
+                        "type": "paragraph",
+                        "direction": "ltr",
+                        "format": "",
+                        "indent": 0,
+                        "version": 1,
+                        "textFormat": 0,
+                        "textStyle": "",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "An Ireland VIN check protects you from angry buyers who might sue if they find problems you didn’t mention before the sale.",
+                            "format": 0,
+                            "version": 1,
+                            "detail": 0,
+                            "mode": "normal",
+                            "style": ""
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "ctas": [
+      {
+        "label": "Run a VIN Check Now!",
+        "href": "#vin-form",
+        "style": "primary"
+      }
+    ]
+  },
+  {
+    "blockType": "section",
+    "bg": "muted",
+    "scene": "default",
+    "tag": "Trusted Across Europe",
+    "heading": "Why Choose **Our Ireland VIN Check** Tool?",
+    "headingLevel": "h2",
+    "description": {
+      "root": {
+        "type": "root",
+        "direction": "ltr",
+        "format": "",
+        "indent": 0,
+        "version": 1,
+        "children": [
+          {
+            "type": "paragraph",
+            "direction": "ltr",
+            "format": "",
+            "indent": 0,
+            "version": 1,
+            "textFormat": 0,
+            "textStyle": "",
+            "children": [
+              {
+                "type": "text",
+                "text": "Our tool gives you complete car information quickly and easily. Here’s what makes us different from other checking services:",
+                "format": 0,
+                "version": 1,
+                "detail": 0,
+                "mode": "normal",
+                "style": ""
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "content": [
+      {
+        "blockType": "card-grid",
+        "columns": "3",
+        "tabletColumns": "2",
+        "mobileColumns": "1",
+        "cards": [
+          {
+            "cardType": "feature",
+            "style": "icon",
+            "layout": "stacked",
+            "icon": {
+              "source": "preset",
+              "preset": "file-text"
+            },
+            "title": "Comprehensive Reports",
+            "titleElement": "h4",
+            "description": {
+              "root": {
+                "type": "root",
+                "direction": "ltr",
+                "format": "",
+                "indent": 0,
+                "version": 1,
+                "children": [
+                  {
+                    "type": "paragraph",
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": "",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "We show everything about the car, including accidents, title information, and more, from official sources.",
+                        "format": 0,
+                        "version": 1,
+                        "detail": 0,
+                        "mode": "normal",
+                        "style": ""
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "cardType": "feature",
+            "style": "icon",
+            "layout": "stacked",
+            "icon": {
+              "source": "preset",
+              "preset": "scan"
+            },
+            "title": "Easy to Use",
+            "titleElement": "h4",
+            "description": {
+              "root": {
+                "type": "root",
+                "direction": "ltr",
+                "format": "",
+                "indent": 0,
+                "version": 1,
+                "children": [
+                  {
+                    "type": "paragraph",
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": "",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Just type the VIN number and click search. Anyone can use our simple system.",
+                        "format": 0,
+                        "version": 1,
+                        "detail": 0,
+                        "mode": "normal",
+                        "style": ""
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "cardType": "feature",
+            "style": "icon",
+            "layout": "stacked",
+            "icon": {
+              "source": "preset",
+              "preset": "shield-check"
+            },
+            "title": "Accurate Information",
+            "titleElement": "h4",
+            "description": {
+              "root": {
+                "type": "root",
+                "direction": "ltr",
+                "format": "",
+                "indent": 0,
+                "version": 1,
+                "children": [
+                  {
+                    "type": "paragraph",
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": "",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "We pull data from trusted Irish databases so you get facts, not guesses or mistakes.",
+                        "format": 0,
+                        "version": 1,
+                        "detail": 0,
+                        "mode": "normal",
+                        "style": ""
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "cardType": "feature",
+            "style": "icon",
+            "layout": "stacked",
+            "icon": {
+              "source": "preset",
+              "preset": "clock"
+            },
+            "title": "Fast Results",
+            "titleElement": "h4",
+            "description": {
+              "root": {
+                "type": "root",
+                "direction": "ltr",
+                "format": "",
+                "indent": 0,
+                "version": 1,
+                "children": [
+                  {
+                    "type": "paragraph",
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": "",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Get your full Ireland car history check in minutes, not several hours like some other services.",
+                        "format": 0,
+                        "version": 1,
+                        "detail": 0,
+                        "mode": "normal",
+                        "style": ""
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "cardType": "feature",
+            "style": "icon",
+            "layout": "stacked",
+            "icon": {
+              "source": "preset",
+              "preset": "credit-card"
+            },
+            "title": "Affordable Pricing",
+            "titleElement": "h4",
+            "description": {
+              "root": {
+                "type": "root",
+                "direction": "ltr",
+                "format": "",
+                "indent": 0,
+                "version": 1,
+                "children": [
+                  {
+                    "type": "paragraph",
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": "",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Our Ireland VIN check costs less than most competitors while giving you more information.",
+                        "format": 0,
+                        "version": 1,
+                        "detail": 0,
+                        "mode": "normal",
+                        "style": ""
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "cardType": "feature",
+            "style": "icon",
+            "layout": "stacked",
+            "icon": {
+              "source": "preset",
+              "preset": "lock"
+            },
+            "title": "Secure and Private",
+            "titleElement": "h4",
+            "description": {
+              "root": {
+                "type": "root",
+                "direction": "ltr",
+                "format": "",
+                "indent": 0,
+                "version": 1,
+                "children": [
+                  {
+                    "type": "paragraph",
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": "",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Your searches stay confidential. We protect your information and never share it with others.",
+                        "format": 0,
+                        "version": 1,
+                        "detail": 0,
+                        "mode": "normal",
+                        "style": ""
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "blockType": "section",
+    "bg": "white",
+    "scene": "default",
+    "tag": "Stay One Step Ahead",
+    "heading": "Common Used Car **Scams to Watch Out For** in Ireland",
+    "headingLevel": "h2",
+    "description": {
+      "root": {
+        "type": "root",
+        "direction": "ltr",
+        "format": "",
+        "indent": 0,
+        "version": 1,
+        "children": [
+          {
+            "type": "paragraph",
+            "direction": "ltr",
+            "format": "",
+            "indent": 0,
+            "version": 1,
+            "textFormat": 0,
+            "textStyle": "",
+            "children": [
+              {
+                "type": "text",
+                "text": "Scammers use clever tricks to sell bad cars to people who don’t run a complete Ireland VIN check. Here are some common car scams to avoid:",
+                "format": 0,
+                "version": 1,
+                "detail": 0,
+                "mode": "normal",
+                "style": ""
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "content": [
+      {
+        "blockType": "card-grid",
+        "columns": "2",
+        "tabletColumns": "2",
+        "mobileColumns": "1",
+        "cards": [
+          {
+            "cardType": "feature",
+            "style": "icon",
+            "layout": "stacked",
+            "icon": {
+              "source": "preset",
+              "preset": "info"
+            },
+            "title": "Cloning",
+            "titleElement": "h4",
+            "description": {
+              "root": {
+                "type": "root",
+                "direction": "ltr",
+                "format": "",
+                "indent": 0,
+                "version": 1,
+                "children": [
+                  {
+                    "type": "paragraph",
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": "",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Thieves copy VIN numbers from legal cars onto stolen ones, making the stolen vehicle look legitimate and properly registered.",
+                        "format": 0,
+                        "version": 1,
+                        "detail": 0,
+                        "mode": "normal",
+                        "style": ""
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "cardType": "feature",
+            "style": "icon",
+            "layout": "stacked",
+            "icon": {
+              "source": "preset",
+              "preset": "info"
+            },
+            "title": "Clocking",
+            "titleElement": "h4",
+            "description": {
+              "root": {
+                "type": "root",
+                "direction": "ltr",
+                "format": "",
+                "indent": 0,
+                "version": 1,
+                "children": [
+                  {
+                    "type": "paragraph",
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": "",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Sellers illegally change odometer readings to show fewer miles, making old worn-out cars appear newer and less driven than reality.",
+                        "format": 0,
+                        "version": 1,
+                        "detail": 0,
+                        "mode": "normal",
+                        "style": ""
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "cardType": "feature",
+            "style": "icon",
+            "layout": "stacked",
+            "icon": {
+              "source": "preset",
+              "preset": "info"
+            },
+            "title": "Cut and Shut",
+            "titleElement": "h4",
+            "description": {
+              "root": {
+                "type": "root",
+                "direction": "ltr",
+                "format": "",
+                "indent": 0,
+                "version": 1,
+                "children": [
+                  {
+                    "type": "paragraph",
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": "",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Criminals weld two damaged cars together, creating one dangerous vehicle that could split apart while you're driving on the road.",
+                        "format": 0,
+                        "version": 1,
+                        "detail": 0,
+                        "mode": "normal",
+                        "style": ""
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "cardType": "feature",
+            "style": "icon",
+            "layout": "stacked",
+            "icon": {
+              "source": "preset",
+              "preset": "info"
+            },
+            "title": "Ringing",
+            "titleElement": "h4",
+            "description": {
+              "root": {
+                "type": "root",
+                "direction": "ltr",
+                "format": "",
+                "indent": 0,
+                "version": 1,
+                "children": [
+                  {
+                    "type": "paragraph",
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": "",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Scammers give stolen cars the identity of similar legal vehicles, selling them with fake papers that seem real to buyers.",
+                        "format": 0,
+                        "version": 1,
+                        "detail": 0,
+                        "mode": "normal",
+                        "style": ""
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "blockType": "section",
+    "bg": "muted",
+    "scene": "default",
+    "tag": "Pan-European Coverage",
+    "heading": "Run **VIN Checks** in Other Countries",
+    "headingLevel": "h2",
+    "description": {
+      "root": {
+        "type": "root",
+        "direction": "ltr",
+        "format": "",
+        "indent": 0,
+        "version": 1,
+        "children": [
+          {
+            "type": "paragraph",
+            "direction": "ltr",
+            "format": "",
+            "indent": 0,
+            "version": 1,
+            "textFormat": 0,
+            "textStyle": "",
+            "children": [
+              {
+                "type": "text",
+                "text": "Our VIN check service works in other European countries, helping you check cars imported from anywhere around the world.",
+                "format": 0,
+                "version": 1,
+                "detail": 0,
+                "mode": "normal",
+                "style": ""
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "content": [
+      {
+        "blockType": "pill-grid",
+        "items": [
+          {
+            "label": "Albania",
+            "href": "/vin-check/albania"
+          },
+          {
+            "label": "Andorra",
+            "href": "/vin-check/andorra"
+          },
+          {
+            "label": "Austria",
+            "href": "/vin-check/austria"
+          },
+          {
+            "label": "Belarus",
+            "href": "/vin-check/belarus"
+          },
+          {
+            "label": "Belgium",
+            "href": "/vin-check/belgium"
+          },
+          {
+            "label": "Bosnia and Herzegovina",
+            "href": "/vin-check/bosnia-hertzegovina"
+          },
+          {
+            "label": "Bulgaria",
+            "href": "/vin-check/bulgaria"
+          },
+          {
+            "label": "Croatia",
+            "href": "/vin-check/croatia"
+          },
+          {
+            "label": "Czech Republic",
+            "href": "/vin-check/czech-republic"
+          },
+          {
+            "label": "Denmark",
+            "href": "/vin-check/denmark"
+          },
+          {
+            "label": "Estonia",
+            "href": "/vin-check/estonia"
+          },
+          {
+            "label": "Finland",
+            "href": "/vin-check/finland"
+          },
+          {
+            "label": "France",
+            "href": "/vin-check/france"
+          },
+          {
+            "label": "Germany",
+            "href": "/vin-check/germany"
+          },
+          {
+            "label": "Greece",
+            "href": "/vin-check/greece"
+          },
+          {
+            "label": "Holy See",
+            "href": "/vin-check/holy-see"
+          },
+          {
+            "label": "Hungary",
+            "href": "/vin-check/hungary"
+          },
+          {
+            "label": "Iceland",
+            "href": "/vin-check/iceland"
+          },
+          {
+            "label": "Ireland",
+            "href": "/vin-check/ireland"
+          },
+          {
+            "label": "Italy",
+            "href": "/vin-check/italy"
+          },
+          {
+            "label": "Latvia",
+            "href": "/vin-check/latvia"
+          },
+          {
+            "label": "Liechtenstein",
+            "href": "/vin-check/liechtenstein"
+          },
+          {
+            "label": "Lithuania",
+            "href": "/vin-check/lithuania"
+          },
+          {
+            "label": "Luxembourg",
+            "href": "/vin-check/luxembourg"
+          },
+          {
+            "label": "Malta",
+            "href": "/vin-check/malta"
+          },
+          {
+            "label": "Moldova",
+            "href": "/vin-check/moldova"
+          },
+          {
+            "label": "Monaco",
+            "href": "/vin-check/monaco"
+          },
+          {
+            "label": "Montenegro",
+            "href": "/vin-check/montenegro"
+          },
+          {
+            "label": "Netherlands",
+            "href": "/vin-check/netherlands"
+          },
+          {
+            "label": "North Macedonia",
+            "href": "/vin-check/north-macedonia"
+          },
+          {
+            "label": "Norway",
+            "href": "/vin-check/norway"
+          },
+          {
+            "label": "Poland",
+            "href": "/vin-check/poland"
+          },
+          {
+            "label": "Portugal",
+            "href": "/vin-check/portugal"
+          },
+          {
+            "label": "Romania",
+            "href": "/vin-check/romania"
+          },
+          {
+            "label": "Russia",
+            "href": "/vin-check/russia"
+          },
+          {
+            "label": "San Marino",
+            "href": "/vin-check/san-marino"
+          },
+          {
+            "label": "Serbia",
+            "href": "/vin-check/serbia"
+          },
+          {
+            "label": "Slovakia",
+            "href": "/vin-check/slovakia"
+          },
+          {
+            "label": "Slovenia",
+            "href": "/vin-check/slovenia"
+          },
+          {
+            "label": "Spain",
+            "href": "/vin-check/spain"
+          },
+          {
+            "label": "Sweden",
+            "href": "/vin-check/sweden"
+          },
+          {
+            "label": "Switzerland",
+            "href": "/vin-check/switzerland"
+          },
+          {
+            "label": "Ukraine",
+            "href": "/vin-check/ukraine"
+          },
+          {
+            "label": "United Kingdom",
+            "href": "/vin-check/united-kingdom"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "blockType": "cta-banner",
+    "layout": "full",
+    "dark": true,
+    "scene": "none",
+    "tag": "Don't Risk It",
+    "heading": "Buying a Used Car in Ireland? **Run a VIN Check Now**",
+    "headingLevel": "h2",
+    "description": {
+      "root": {
+        "type": "root",
+        "direction": "ltr",
+        "format": "",
+        "indent": 0,
+        "version": 1,
+        "children": [
+          {
+            "type": "paragraph",
+            "direction": "ltr",
+            "format": "",
+            "indent": 0,
+            "version": 1,
+            "textFormat": 0,
+            "textStyle": "",
+            "children": [
+              {
+                "type": "text",
+                "text": "Don’t risk your money and safety—get a complete vehicle history report before you hand over any cash.",
+                "format": 0,
+                "version": 1,
+                "detail": 0,
+                "mode": "normal",
+                "style": ""
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "mode": "link",
+    "ctas": [
+      {
+        "label": "Get an Ireland VIN Check",
+        "href": "#vin-form",
+        "style": "primary"
+      }
+    ]
+  },
+  {
+    "blockType": "section",
+    "bg": "white",
+    "scene": "default",
+    "tag": "Got Questions? We Help",
+    "heading": "Frequently Asked Questions about **Ireland VIN Check**",
+    "headingLevel": "h2",
+    "content": [
+      {
+        "blockType": "faqs",
+        "questionElement": "h3",
+        "items": [
+          {
+            "question": "How much does a VIN check cost in Ireland?",
+            "answer": {
+              "root": {
+                "type": "root",
+                "direction": "ltr",
+                "format": "",
+                "indent": 0,
+                "version": 1,
+                "children": [
+                  {
+                    "type": "paragraph",
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": "",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Prices vary by provider, but our complete vehicle history report costs around €10. This will help reveal any hidden issues including title brands, accidents, theft, liens and loans, odometer rollback, and more.",
+                        "format": 0,
+                        "version": 1,
+                        "detail": 0,
+                        "mode": "normal",
+                        "style": ""
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "question": "Can I run a free VIN check in Ireland?",
+            "answer": {
+              "root": {
+                "type": "root",
+                "direction": "ltr",
+                "format": "",
+                "indent": 0,
+                "version": 1,
+                "children": [
+                  {
+                    "type": "paragraph",
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": "",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Yes, you can get basic vehicle specifications for free, including the year, make, model, and engine type. However, a free VIN check doesn’t show accident history, theft records, liens, previous owners, or damage reports that help you avoid buying a problematic vehicle with hidden issues.",
+                        "format": 0,
+                        "version": 1,
+                        "detail": 0,
+                        "mode": "normal",
+                        "style": ""
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "question": "How long does it take to get a VIN check report?",
+            "answer": {
+              "root": {
+                "type": "root",
+                "direction": "ltr",
+                "format": "",
+                "indent": 0,
+                "version": 1,
+                "children": [
+                  {
+                    "type": "paragraph",
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": "",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Most VIN check reports appear instantly after you enter the number and complete payment. You can view and download the full vehicle history report immediately, save or print as a PDF for sharing.",
+                        "format": 0,
+                        "version": 1,
+                        "detail": 0,
+                        "mode": "normal",
+                        "style": ""
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "question": "Are VIN checks legal in Ireland?",
+            "answer": {
+              "root": {
+                "type": "root",
+                "direction": "ltr",
+                "format": "",
+                "indent": 0,
+                "version": 1,
+                "children": [
+                  {
+                    "type": "paragraph",
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": "",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Yes, a VIN check in Ireland is completely legal and strongly recommended before buying any used vehicle. The information comes from public records, insurance databases, and official government sources. Sellers cannot legally stop you from researching a car’s history before you decide to purchase it.",
+                        "format": 0,
+                        "version": 1,
+                        "detail": 0,
+                        "mode": "normal",
+                        "style": ""
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "question": "What if the VIN number doesn't work?",
+            "answer": {
+              "root": {
+                "type": "root",
+                "direction": "ltr",
+                "format": "",
+                "indent": 0,
+                "version": 1,
+                "children": [
+                  {
+                    "type": "paragraph",
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": "",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "If the VIN search fails, double-check that you entered all 17 characters correctly without any spaces or extra letters. The VIN uses numbers 0-9 and letters except I, O, and Q to avoid confusion. If it still doesn’t work, the VIN might be fake or altered.",
+                        "format": 0,
+                        "version": 1,
+                        "detail": 0,
+                        "mode": "normal",
+                        "style": ""
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "question": "Do all cars have VIN numbers?",
+            "answer": {
+              "root": {
+                "type": "root",
+                "direction": "ltr",
+                "format": "",
+                "indent": 0,
+                "version": 1,
+                "children": [
+                  {
+                    "type": "paragraph",
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": "",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Yes, every car built after 1981 has a standard 17-digit VIN number. Older vehicles from before 1981 might have shorter identification numbers with different formats. If you’re looking at a post-1981 car without a proper VIN, walk away because it’s likely stolen or illegally modified.",
+                        "format": 0,
+                        "version": 1,
+                        "detail": 0,
+                        "mode": "normal",
+                        "style": ""
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "question": "Can a VIN check show if a car is safe to buy?",
+            "answer": {
+              "root": {
+                "type": "root",
+                "direction": "ltr",
+                "format": "",
+                "indent": 0,
+                "version": 1,
+                "children": [
+                  {
+                    "type": "paragraph",
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": "",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "A VIN decoder Ireland shows the car’s history, which reveals any accident or damage history, providing insight into the safety of the car. You truly need a hands-on inspection to find current mechanical problems, rust, or issues the seller is hiding.",
+                        "format": 0,
+                        "version": 1,
+                        "detail": 0,
+                        "mode": "normal",
+                        "style": ""
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "question": "What should I do if the VIN check shows problems?",
+            "answer": {
+              "root": {
+                "type": "root",
+                "direction": "ltr",
+                "format": "",
+                "indent": 0,
+                "version": 1,
+                "children": [
+                  {
+                    "type": "paragraph",
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": "",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "If the report reveals serious accidents, theft history, or title problems, walk away from that car immediately. Minor issues might be negotiable for a lower price, but salvage titles, flood damage, or multiple accidents mean the car will cause expensive problems.",
+                        "format": 0,
+                        "version": 1,
+                        "detail": 0,
+                        "mode": "normal",
+                        "style": ""
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

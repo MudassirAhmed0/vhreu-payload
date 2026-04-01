@@ -1,0 +1,3200 @@
+[
+  {
+    "blockType": "page-hero",
+    "variant": "centered",
+    "dark": true,
+    "fullHeight": false,
+    "glow": false,
+    "formType": "vin",
+    "title": "Examine a **Vehicle's Past** Through a Germany VIN Check",
+    "description": "Want to sell or purchase a vehicle? Use the Germany VIN check service and get the vehicle history report, where you can examine the specifications and past records like accident, auction, history, odometer reading, and more!",
+    "tag": "Drive Informed, Drive Safe",
+    "tagLevel": "span",
+    "features": [
+      {
+        "icon": {
+          "source": "preset",
+          "preset": "shield-check"
+        },
+        "text": "Verified German Records",
+        "tag": "span"
+      },
+      {
+        "icon": {
+          "source": "preset",
+          "preset": "clock"
+        },
+        "text": "Results in Seconds",
+        "tag": "span"
+      },
+      {
+        "icon": {
+          "source": "preset",
+          "preset": "file-text"
+        },
+        "text": "Full History Reports",
+        "tag": "span"
+      },
+      {
+        "icon": {
+          "source": "preset",
+          "preset": "globe"
+        },
+        "text": "Cross-Border Data",
+        "tag": "span"
+      }
+    ]
+  },
+  {
+    "blockType": "section",
+    "bg": "muted",
+    "scene": "default",
+    "tag": "Knowledge Is Protection",
+    "heading": "Why You Should **Decode the VIN** in Germany?",
+    "headingLevel": "h2",
+    "content": [
+      {
+        "blockType": "card-grid",
+        "columns": "3",
+        "tabletColumns": "2",
+        "mobileColumns": "1",
+        "cards": [
+          {
+            "cardType": "feature",
+            "style": "stat",
+            "layout": "stacked",
+            "stat": "450.000",
+            "statColor": "danger",
+            "title": "Germany imported around 450.000 cars in 2024",
+            "titleElement": "p"
+          },
+          {
+            "cardType": "feature",
+            "style": "stat",
+            "layout": "stacked",
+            "stat": "2.52 million",
+            "statColor": "danger",
+            "title": "In Germany, there were about 2.52 million reported road accidents in 2024",
+            "titleElement": "p"
+          },
+          {
+            "cardType": "feature",
+            "style": "stat",
+            "layout": "stacked",
+            "stat": "10.3",
+            "statColor": "danger",
+            "title": "The average age of passenger cars in Germany in 2024 was about 10.3 years, slightly higher than in 2023 (around 10.0 years).",
+            "titleElement": "p"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "blockType": "section",
+    "bg": "muted",
+    "scene": "default",
+    "tag": "Your Car's Fingerprint",
+    "heading": "What is a **VIN**?",
+    "headingLevel": "h2",
+    "description": {
+      "root": {
+        "type": "root",
+        "direction": "ltr",
+        "format": "",
+        "indent": 0,
+        "version": 1,
+        "children": [
+          {
+            "type": "paragraph",
+            "direction": "ltr",
+            "format": "",
+            "indent": 0,
+            "version": 1,
+            "textFormat": 0,
+            "textStyle": "",
+            "children": [
+              {
+                "type": "text",
+                "text": "A VIN, or Vehicle Identification Number, is a 17-character code that uniquely identifies each vehicle. Even if two vehicles share the same make, model, and year, their VINs will be different. Each digit in the VIN reveals specific details about the vehicle, including the year of manufacture, country of origin, engine type, and even the serial number.",
+                "format": 0,
+                "version": 1,
+                "detail": 0,
+                "mode": "normal",
+                "style": ""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "direction": "ltr",
+            "format": "",
+            "indent": 0,
+            "version": 1,
+            "textFormat": 0,
+            "textStyle": "",
+            "children": [
+              {
+                "type": "text",
+                "text": "Before purchasing a used vehicle, it’s essential to check its history to ensure there are no red flags. In Germany, you can obtain the vehicle history report through the VIN number check in Germany tool. By reviewing the car’s history, you can confirm that the vehicle isn’t encumbered by any liens, hasn’t had its odometer rolled back, and hasn’t been involved in any accidents.",
+                "format": 0,
+                "version": 1,
+                "detail": 0,
+                "mode": "normal",
+                "style": ""
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "blockType": "section",
+    "bg": "white",
+    "scene": "default",
+    "tag": "Locate It In Seconds",
+    "heading": "Where to **Find the VIN**?",
+    "headingLevel": "h2",
+    "description": {
+      "root": {
+        "type": "root",
+        "direction": "ltr",
+        "format": "",
+        "indent": 0,
+        "version": 1,
+        "children": [
+          {
+            "type": "paragraph",
+            "direction": "ltr",
+            "format": "",
+            "indent": 0,
+            "version": 1,
+            "textFormat": 0,
+            "textStyle": "",
+            "children": [
+              {
+                "type": "text",
+                "text": "To locate the VIN on a vehicle, you can inspect several areas of the car, as well as its official documentation. Here’s where to check:",
+                "format": 0,
+                "version": 1,
+                "detail": 0,
+                "mode": "normal",
+                "style": ""
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "content": [
+      {
+        "blockType": "card-grid",
+        "columns": "4",
+        "tabletColumns": "2",
+        "mobileColumns": "1",
+        "cards": [
+          {
+            "cardType": "feature",
+            "style": "icon",
+            "layout": "stacked",
+            "icon": {
+              "source": "preset",
+              "preset": "car"
+            },
+            "title": "Dashboard",
+            "titleElement": "h4",
+            "description": {
+              "root": {
+                "type": "root",
+                "direction": "ltr",
+                "format": "",
+                "indent": 0,
+                "version": 1,
+                "children": [
+                  {
+                    "type": "paragraph",
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": "",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Look at the lower corner of the driver’s side dashboard near the windshield. The VIN is usually displayed on a metal plate or sticker and can often be seen through the windshield.",
+                        "format": 0,
+                        "version": 1,
+                        "detail": 0,
+                        "mode": "normal",
+                        "style": ""
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "cardType": "feature",
+            "style": "icon",
+            "layout": "stacked",
+            "icon": {
+              "source": "preset",
+              "preset": "scan"
+            },
+            "title": "Door Jamb",
+            "titleElement": "h4",
+            "description": {
+              "root": {
+                "type": "root",
+                "direction": "ltr",
+                "format": "",
+                "indent": 0,
+                "version": 1,
+                "children": [
+                  {
+                    "type": "paragraph",
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": "",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Open the driver’s door and inspect the sticker on the door frame near the latch. This label typically contains the VIN along with other important details such as tire pressure and manufacturing information.",
+                        "format": 0,
+                        "version": 1,
+                        "detail": 0,
+                        "mode": "normal",
+                        "style": ""
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "cardType": "feature",
+            "style": "icon",
+            "layout": "stacked",
+            "icon": {
+              "source": "preset",
+              "preset": "wrench"
+            },
+            "title": "Under the Hood",
+            "titleElement": "h4",
+            "description": {
+              "root": {
+                "type": "root",
+                "direction": "ltr",
+                "format": "",
+                "indent": 0,
+                "version": 1,
+                "children": [
+                  {
+                    "type": "paragraph",
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": "",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Lift the hood and check the firewall between the engine and cabin, or inspect the engine block itself. Many vehicles will have the VIN stamped or affixed to these areas for identification.",
+                        "format": 0,
+                        "version": 1,
+                        "detail": 0,
+                        "mode": "normal",
+                        "style": ""
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "cardType": "feature",
+            "style": "icon",
+            "layout": "stacked",
+            "icon": {
+              "source": "preset",
+              "preset": "file-text"
+            },
+            "title": "Vehicle Documentation",
+            "titleElement": "h4",
+            "description": {
+              "root": {
+                "type": "root",
+                "direction": "ltr",
+                "format": "",
+                "indent": 0,
+                "version": 1,
+                "children": [
+                  {
+                    "type": "paragraph",
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": "",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "The VIN is also listed on key documents such as the registration, title, and insurance papers. Always compare the VIN on the vehicle to those in the official records to ensure accuracy.",
+                        "format": 0,
+                        "version": 1,
+                        "detail": 0,
+                        "mode": "normal",
+                        "style": ""
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "blockType": "section",
+    "bg": "muted",
+    "scene": "default",
+    "tag": "Every Detail Uncovered",
+    "heading": "What Information Can You Get in a **Vehicle History Report**?",
+    "headingLevel": "h2",
+    "description": {
+      "root": {
+        "type": "root",
+        "direction": "ltr",
+        "format": "",
+        "indent": 0,
+        "version": 1,
+        "children": [
+          {
+            "type": "paragraph",
+            "direction": "ltr",
+            "format": "",
+            "indent": 0,
+            "version": 1,
+            "textFormat": 0,
+            "textStyle": "",
+            "children": [
+              {
+                "type": "text",
+                "text": "By checking a vehicle’s VIN in Germany, you can access a detailed vehicle history report that provides comprehensive information. Here’s what you can learn:",
+                "format": 0,
+                "version": 1,
+                "detail": 0,
+                "mode": "normal",
+                "style": ""
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "content": [
+      {
+        "blockType": "card-grid",
+        "columns": "2",
+        "tabletColumns": "2",
+        "mobileColumns": "1",
+        "cards": [
+          {
+            "cardType": "feature",
+            "style": "none",
+            "layout": "stacked",
+            "title": "Detailed Vehicle Specification",
+            "titleElement": "h3",
+            "items": [
+              {
+                "title": "Detailed Build Info",
+                "titleElement": "h4",
+                "description": {
+                  "root": {
+                    "type": "root",
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "version": 1,
+                    "children": [
+                      {
+                        "type": "paragraph",
+                        "direction": "ltr",
+                        "format": "",
+                        "indent": 0,
+                        "version": 1,
+                        "textFormat": 0,
+                        "textStyle": "",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Check technical information such as engine displacement, transmission type, and other build details to confirm the car matches the seller’s description.",
+                            "format": 0,
+                            "version": 1,
+                            "detail": 0,
+                            "mode": "normal",
+                            "style": ""
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              },
+              {
+                "title": "Price Compatibility",
+                "titleElement": "h4",
+                "description": {
+                  "root": {
+                    "type": "root",
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "version": 1,
+                    "children": [
+                      {
+                        "type": "paragraph",
+                        "direction": "ltr",
+                        "format": "",
+                        "indent": 0,
+                        "version": 1,
+                        "textFormat": 0,
+                        "textStyle": "",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Compare the MSRP and the market value of the vehicle you are about to purchase.",
+                            "format": 0,
+                            "version": 1,
+                            "detail": 0,
+                            "mode": "normal",
+                            "style": ""
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "cardType": "feature",
+            "style": "none",
+            "layout": "stacked",
+            "title": "Technical Specifications",
+            "titleElement": "h3",
+            "items": [
+              {
+                "title": "Engine Details",
+                "titleElement": "h4",
+                "description": {
+                  "root": {
+                    "type": "root",
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "version": 1,
+                    "children": [
+                      {
+                        "type": "paragraph",
+                        "direction": "ltr",
+                        "format": "",
+                        "indent": 0,
+                        "version": 1,
+                        "textFormat": 0,
+                        "textStyle": "",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Review engine size, configuration, horsepower, and fuel efficiency according to the manufacturer’s specifications.",
+                            "format": 0,
+                            "version": 1,
+                            "detail": 0,
+                            "mode": "normal",
+                            "style": ""
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              },
+              {
+                "title": "Transmission Type",
+                "titleElement": "h4",
+                "description": {
+                  "root": {
+                    "type": "root",
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "version": 1,
+                    "children": [
+                      {
+                        "type": "paragraph",
+                        "direction": "ltr",
+                        "format": "",
+                        "indent": 0,
+                        "version": 1,
+                        "textFormat": 0,
+                        "textStyle": "",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Confirm whether the vehicle uses an automatic or manual transmission, including the number of gears and drivetrain setup.",
+                            "format": 0,
+                            "version": 1,
+                            "detail": 0,
+                            "mode": "normal",
+                            "style": ""
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "cardType": "feature",
+            "style": "none",
+            "layout": "stacked",
+            "title": "Title and Vehicle Condition",
+            "titleElement": "h3",
+            "items": [
+              {
+                "title": "Title Status",
+                "titleElement": "h4",
+                "description": {
+                  "root": {
+                    "type": "root",
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "version": 1,
+                    "children": [
+                      {
+                        "type": "paragraph",
+                        "direction": "ltr",
+                        "format": "",
+                        "indent": 0,
+                        "version": 1,
+                        "textFormat": 0,
+                        "textStyle": "",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "See if the title is clean or if it has been branded as salvage, rebuilt, or otherwise restricted.",
+                            "format": 0,
+                            "version": 1,
+                            "detail": 0,
+                            "mode": "normal",
+                            "style": ""
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              },
+              {
+                "title": "Odometer Records",
+                "titleElement": "h4",
+                "description": {
+                  "root": {
+                    "type": "root",
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "version": 1,
+                    "children": [
+                      {
+                        "type": "paragraph",
+                        "direction": "ltr",
+                        "format": "",
+                        "indent": 0,
+                        "version": 1,
+                        "textFormat": 0,
+                        "textStyle": "",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Compare recorded mileage from inspections and registrations to identify inconsistencies or potential odometer rollback.",
+                            "format": 0,
+                            "version": 1,
+                            "detail": 0,
+                            "mode": "normal",
+                            "style": ""
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "cardType": "feature",
+            "style": "none",
+            "layout": "stacked",
+            "title": "Lien and Loan Information",
+            "titleElement": "h3",
+            "items": [
+              {
+                "title": "Outstanding Loans",
+                "titleElement": "h4",
+                "description": {
+                  "root": {
+                    "type": "root",
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "version": 1,
+                    "children": [
+                      {
+                        "type": "paragraph",
+                        "direction": "ltr",
+                        "format": "",
+                        "indent": 0,
+                        "version": 1,
+                        "textFormat": 0,
+                        "textStyle": "",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Check for unpaid auto loans or financing agreements still attached to the vehicle.",
+                            "format": 0,
+                            "version": 1,
+                            "detail": 0,
+                            "mode": "normal",
+                            "style": ""
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              },
+              {
+                "title": "Legal Claims",
+                "titleElement": "h4",
+                "description": {
+                  "root": {
+                    "type": "root",
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "version": 1,
+                    "children": [
+                      {
+                        "type": "paragraph",
+                        "direction": "ltr",
+                        "format": "",
+                        "indent": 0,
+                        "version": 1,
+                        "textFormat": 0,
+                        "textStyle": "",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Review other legal holds, judgments, or claims that may affect a clean transfer of ownership.",
+                            "format": 0,
+                            "version": 1,
+                            "detail": 0,
+                            "mode": "normal",
+                            "style": ""
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "cardType": "feature",
+            "style": "none",
+            "layout": "stacked",
+            "title": "Accident and Damage Records",
+            "titleElement": "h3",
+            "items": [
+              {
+                "title": "Collision Reports",
+                "titleElement": "h4",
+                "description": {
+                  "root": {
+                    "type": "root",
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "version": 1,
+                    "children": [
+                      {
+                        "type": "paragraph",
+                        "direction": "ltr",
+                        "format": "",
+                        "indent": 0,
+                        "version": 1,
+                        "textFormat": 0,
+                        "textStyle": "",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Access insurance claims or police reports filed after accidents.",
+                            "format": 0,
+                            "version": 1,
+                            "detail": 0,
+                            "mode": "normal",
+                            "style": ""
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              },
+              {
+                "title": "Damage Severity",
+                "titleElement": "h4",
+                "description": {
+                  "root": {
+                    "type": "root",
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "version": 1,
+                    "children": [
+                      {
+                        "type": "paragraph",
+                        "direction": "ltr",
+                        "format": "",
+                        "indent": 0,
+                        "version": 1,
+                        "textFormat": 0,
+                        "textStyle": "",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Understand the extent of each incident and whether repairs were made.",
+                            "format": 0,
+                            "version": 1,
+                            "detail": 0,
+                            "mode": "normal",
+                            "style": ""
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "cardType": "feature",
+            "style": "none",
+            "layout": "stacked",
+            "title": "Sales and Ownership History",
+            "titleElement": "h3",
+            "items": [
+              {
+                "title": "Previous Owners",
+                "titleElement": "h4",
+                "description": {
+                  "root": {
+                    "type": "root",
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "version": 1,
+                    "children": [
+                      {
+                        "type": "paragraph",
+                        "direction": "ltr",
+                        "format": "",
+                        "indent": 0,
+                        "version": 1,
+                        "textFormat": 0,
+                        "textStyle": "",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "See the number of past owners and the dates of ownership transfers.",
+                            "format": 0,
+                            "version": 1,
+                            "detail": 0,
+                            "mode": "normal",
+                            "style": ""
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              },
+              {
+                "title": "Price History",
+                "titleElement": "h4",
+                "description": {
+                  "root": {
+                    "type": "root",
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "version": 1,
+                    "children": [
+                      {
+                        "type": "paragraph",
+                        "direction": "ltr",
+                        "format": "",
+                        "indent": 0,
+                        "version": 1,
+                        "textFormat": 0,
+                        "textStyle": "",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Review previous sale prices to evaluate if the current asking price is reasonable.",
+                            "format": 0,
+                            "version": 1,
+                            "detail": 0,
+                            "mode": "normal",
+                            "style": ""
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "cardType": "feature",
+            "style": "none",
+            "layout": "stacked",
+            "title": "Auction Records",
+            "titleElement": "h3",
+            "items": [
+              {
+                "title": "Auction Dates and Locations",
+                "titleElement": "h4",
+                "description": {
+                  "root": {
+                    "type": "root",
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "version": 1,
+                    "children": [
+                      {
+                        "type": "paragraph",
+                        "direction": "ltr",
+                        "format": "",
+                        "indent": 0,
+                        "version": 1,
+                        "textFormat": 0,
+                        "textStyle": "",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "See when and where the vehicle was sold at auction and under what circumstances.",
+                            "format": 0,
+                            "version": 1,
+                            "detail": 0,
+                            "mode": "normal",
+                            "style": ""
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              },
+              {
+                "title": "Auction Condition Photos",
+                "titleElement": "h4",
+                "description": {
+                  "root": {
+                    "type": "root",
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "version": 1,
+                    "children": [
+                      {
+                        "type": "paragraph",
+                        "direction": "ltr",
+                        "format": "",
+                        "indent": 0,
+                        "version": 1,
+                        "textFormat": 0,
+                        "textStyle": "",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "View images taken during auctions to assess the vehicle’s condition at that time.",
+                            "format": 0,
+                            "version": 1,
+                            "detail": 0,
+                            "mode": "normal",
+                            "style": ""
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "ctas": [
+      {
+        "label": "Get a Germany VIN Check",
+        "href": "#vin-form",
+        "style": "primary"
+      },
+      {
+        "label": "View Sample Report",
+        "href": "https://vehiclehistory.eu/report/vin/ZARFAEBN3J7582817",
+        "style": "secondary"
+      }
+    ]
+  },
+  {
+    "blockType": "section",
+    "bg": "white",
+    "scene": "default",
+    "tag": "Simple Three-Step Process",
+    "heading": "How to **Check the VIN** Number in Germany?",
+    "headingLevel": "h2",
+    "description": {
+      "root": {
+        "type": "root",
+        "direction": "ltr",
+        "format": "",
+        "indent": 0,
+        "version": 1,
+        "children": [
+          {
+            "type": "paragraph",
+            "direction": "ltr",
+            "format": "",
+            "indent": 0,
+            "version": 1,
+            "textFormat": 0,
+            "textStyle": "",
+            "children": [
+              {
+                "type": "text",
+                "text": "To get the vehicle history report in Germany, you can follow these simple steps to get it done:",
+                "format": 0,
+                "version": 1,
+                "detail": 0,
+                "mode": "normal",
+                "style": ""
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "content": [
+      {
+        "blockType": "steps",
+        "style": "icons",
+        "steps": [
+          {
+            "icon": {
+              "source": "preset",
+              "preset": "car"
+            },
+            "title": "Step 1: Enter the VIN",
+            "description": "Click on the form above, then write down the VIN of the vehicle."
+          },
+          {
+            "icon": {
+              "source": "preset",
+              "preset": "search"
+            },
+            "title": "Step 2: Click \"Search VIN\"",
+            "description": "Press the “Search VIN” button to submit the form. Wait a few seconds to get the report generated."
+          },
+          {
+            "icon": {
+              "source": "preset",
+              "preset": "file-text"
+            },
+            "title": "Step 3: Get a Detailed Vehicle History Report",
+            "description": "After it's done, you can proceed to payment to get the complete vehicle history report."
+          }
+        ]
+      }
+    ],
+    "ctas": [
+      {
+        "label": "Get a Car Report in Germany",
+        "href": "#vin-form",
+        "style": "primary"
+      }
+    ]
+  },
+  {
+    "blockType": "section",
+    "bg": "muted",
+    "scene": "default",
+    "tag": "Compare Your Options",
+    "heading": "Free vs. **Paid VIN Check** in Germany",
+    "headingLevel": "h2",
+    "description": {
+      "root": {
+        "type": "root",
+        "direction": "ltr",
+        "format": "",
+        "indent": 0,
+        "version": 1,
+        "children": [
+          {
+            "type": "paragraph",
+            "direction": "ltr",
+            "format": "",
+            "indent": 0,
+            "version": 1,
+            "textFormat": 0,
+            "textStyle": "",
+            "children": [
+              {
+                "type": "text",
+                "text": "You can use our free VIN check in Germany to get the basic information of the vehicle; this service allows you to get information like specifications and market value. Check this table to see the difference between paid and free VIN check services.",
+                "format": 0,
+                "version": 1,
+                "detail": 0,
+                "mode": "normal",
+                "style": ""
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "content": [
+      {
+        "blockType": "comparison-table",
+        "stickyFirstColumn": true,
+        "highlightColumn": 3,
+        "columnWidths": [
+          {
+            "mobile": "40",
+            "desktop": "50"
+          },
+          {
+            "mobile": "30",
+            "desktop": "25"
+          },
+          {
+            "mobile": "30",
+            "desktop": "25"
+          }
+        ],
+        "rows": [
+          {
+            "cells": [
+              {
+                "type": "richtext",
+                "content": {
+                  "root": {
+                    "type": "root",
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "version": 1,
+                    "children": [
+                      {
+                        "type": "paragraph",
+                        "direction": "ltr",
+                        "format": "",
+                        "indent": 0,
+                        "version": 1,
+                        "textFormat": 0,
+                        "textStyle": "",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Information / Records",
+                            "format": 0,
+                            "version": 1,
+                            "detail": 0,
+                            "mode": "normal",
+                            "style": ""
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              },
+              {
+                "type": "richtext",
+                "content": {
+                  "root": {
+                    "type": "root",
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "version": 1,
+                    "children": [
+                      {
+                        "type": "paragraph",
+                        "direction": "ltr",
+                        "format": "",
+                        "indent": 0,
+                        "version": 1,
+                        "textFormat": 0,
+                        "textStyle": "",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Free VIN Check",
+                            "format": 0,
+                            "version": 1,
+                            "detail": 0,
+                            "mode": "normal",
+                            "style": ""
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              },
+              {
+                "type": "richtext",
+                "content": {
+                  "root": {
+                    "type": "root",
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "version": 1,
+                    "children": [
+                      {
+                        "type": "paragraph",
+                        "direction": "ltr",
+                        "format": "",
+                        "indent": 0,
+                        "version": 1,
+                        "textFormat": 0,
+                        "textStyle": "",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Paid VIN Check",
+                            "format": 0,
+                            "version": 1,
+                            "detail": 0,
+                            "mode": "normal",
+                            "style": ""
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "cells": [
+              {
+                "type": "richtext",
+                "content": {
+                  "root": {
+                    "type": "root",
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "version": 1,
+                    "children": [
+                      {
+                        "type": "paragraph",
+                        "direction": "ltr",
+                        "format": "",
+                        "indent": 0,
+                        "version": 1,
+                        "textFormat": 0,
+                        "textStyle": "",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Year, make & model",
+                            "format": 0,
+                            "version": 1,
+                            "detail": 0,
+                            "mode": "normal",
+                            "style": ""
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              },
+              {
+                "type": "check"
+              },
+              {
+                "type": "check"
+              }
+            ]
+          },
+          {
+            "cells": [
+              {
+                "type": "richtext",
+                "content": {
+                  "root": {
+                    "type": "root",
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "version": 1,
+                    "children": [
+                      {
+                        "type": "paragraph",
+                        "direction": "ltr",
+                        "format": "",
+                        "indent": 0,
+                        "version": 1,
+                        "textFormat": 0,
+                        "textStyle": "",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Engine type & size",
+                            "format": 0,
+                            "version": 1,
+                            "detail": 0,
+                            "mode": "normal",
+                            "style": ""
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              },
+              {
+                "type": "check"
+              },
+              {
+                "type": "check"
+              }
+            ]
+          },
+          {
+            "cells": [
+              {
+                "type": "richtext",
+                "content": {
+                  "root": {
+                    "type": "root",
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "version": 1,
+                    "children": [
+                      {
+                        "type": "paragraph",
+                        "direction": "ltr",
+                        "format": "",
+                        "indent": 0,
+                        "version": 1,
+                        "textFormat": 0,
+                        "textStyle": "",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Transmission",
+                            "format": 0,
+                            "version": 1,
+                            "detail": 0,
+                            "mode": "normal",
+                            "style": ""
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              },
+              {
+                "type": "check"
+              },
+              {
+                "type": "check"
+              }
+            ]
+          },
+          {
+            "cells": [
+              {
+                "type": "richtext",
+                "content": {
+                  "root": {
+                    "type": "root",
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "version": 1,
+                    "children": [
+                      {
+                        "type": "paragraph",
+                        "direction": "ltr",
+                        "format": "",
+                        "indent": 0,
+                        "version": 1,
+                        "textFormat": 0,
+                        "textStyle": "",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Drive type",
+                            "format": 0,
+                            "version": 1,
+                            "detail": 0,
+                            "mode": "normal",
+                            "style": ""
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              },
+              {
+                "type": "check"
+              },
+              {
+                "type": "check"
+              }
+            ]
+          },
+          {
+            "cells": [
+              {
+                "type": "richtext",
+                "content": {
+                  "root": {
+                    "type": "root",
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "version": 1,
+                    "children": [
+                      {
+                        "type": "paragraph",
+                        "direction": "ltr",
+                        "format": "",
+                        "indent": 0,
+                        "version": 1,
+                        "textFormat": 0,
+                        "textStyle": "",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Fuel type",
+                            "format": 0,
+                            "version": 1,
+                            "detail": 0,
+                            "mode": "normal",
+                            "style": ""
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              },
+              {
+                "type": "check"
+              },
+              {
+                "type": "check"
+              }
+            ]
+          },
+          {
+            "cells": [
+              {
+                "type": "richtext",
+                "content": {
+                  "root": {
+                    "type": "root",
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "version": 1,
+                    "children": [
+                      {
+                        "type": "paragraph",
+                        "direction": "ltr",
+                        "format": "",
+                        "indent": 0,
+                        "version": 1,
+                        "textFormat": 0,
+                        "textStyle": "",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Doors",
+                            "format": 0,
+                            "version": 1,
+                            "detail": 0,
+                            "mode": "normal",
+                            "style": ""
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              },
+              {
+                "type": "check"
+              },
+              {
+                "type": "check"
+              }
+            ]
+          },
+          {
+            "cells": [
+              {
+                "type": "richtext",
+                "content": {
+                  "root": {
+                    "type": "root",
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "version": 1,
+                    "children": [
+                      {
+                        "type": "paragraph",
+                        "direction": "ltr",
+                        "format": "",
+                        "indent": 0,
+                        "version": 1,
+                        "textFormat": 0,
+                        "textStyle": "",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Horsepower & torque",
+                            "format": 0,
+                            "version": 1,
+                            "detail": 0,
+                            "mode": "normal",
+                            "style": ""
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              },
+              {
+                "type": "check"
+              },
+              {
+                "type": "check"
+              }
+            ]
+          },
+          {
+            "cells": [
+              {
+                "type": "richtext",
+                "content": {
+                  "root": {
+                    "type": "root",
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "version": 1,
+                    "children": [
+                      {
+                        "type": "paragraph",
+                        "direction": "ltr",
+                        "format": "",
+                        "indent": 0,
+                        "version": 1,
+                        "textFormat": 0,
+                        "textStyle": "",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Detailed vehicle specs",
+                            "format": 0,
+                            "version": 1,
+                            "detail": 0,
+                            "mode": "normal",
+                            "style": ""
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              },
+              {
+                "type": "x"
+              },
+              {
+                "type": "check"
+              }
+            ]
+          },
+          {
+            "cells": [
+              {
+                "type": "richtext",
+                "content": {
+                  "root": {
+                    "type": "root",
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "version": 1,
+                    "children": [
+                      {
+                        "type": "paragraph",
+                        "direction": "ltr",
+                        "format": "",
+                        "indent": 0,
+                        "version": 1,
+                        "textFormat": 0,
+                        "textStyle": "",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Technical specs",
+                            "format": 0,
+                            "version": 1,
+                            "detail": 0,
+                            "mode": "normal",
+                            "style": ""
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              },
+              {
+                "type": "x"
+              },
+              {
+                "type": "check"
+              }
+            ]
+          },
+          {
+            "cells": [
+              {
+                "type": "richtext",
+                "content": {
+                  "root": {
+                    "type": "root",
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "version": 1,
+                    "children": [
+                      {
+                        "type": "paragraph",
+                        "direction": "ltr",
+                        "format": "",
+                        "indent": 0,
+                        "version": 1,
+                        "textFormat": 0,
+                        "textStyle": "",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Auction records",
+                            "format": 0,
+                            "version": 1,
+                            "detail": 0,
+                            "mode": "normal",
+                            "style": ""
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              },
+              {
+                "type": "x"
+              },
+              {
+                "type": "check"
+              }
+            ]
+          },
+          {
+            "cells": [
+              {
+                "type": "richtext",
+                "content": {
+                  "root": {
+                    "type": "root",
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "version": 1,
+                    "children": [
+                      {
+                        "type": "paragraph",
+                        "direction": "ltr",
+                        "format": "",
+                        "indent": 0,
+                        "version": 1,
+                        "textFormat": 0,
+                        "textStyle": "",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Vehicle sales history",
+                            "format": 0,
+                            "version": 1,
+                            "detail": 0,
+                            "mode": "normal",
+                            "style": ""
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              },
+              {
+                "type": "x"
+              },
+              {
+                "type": "check"
+              }
+            ]
+          },
+          {
+            "cells": [
+              {
+                "type": "richtext",
+                "content": {
+                  "root": {
+                    "type": "root",
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "version": 1,
+                    "children": [
+                      {
+                        "type": "paragraph",
+                        "direction": "ltr",
+                        "format": "",
+                        "indent": 0,
+                        "version": 1,
+                        "textFormat": 0,
+                        "textStyle": "",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Title and condition",
+                            "format": 0,
+                            "version": 1,
+                            "detail": 0,
+                            "mode": "normal",
+                            "style": ""
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              },
+              {
+                "type": "x"
+              },
+              {
+                "type": "check"
+              }
+            ]
+          },
+          {
+            "cells": [
+              {
+                "type": "richtext",
+                "content": {
+                  "root": {
+                    "type": "root",
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "version": 1,
+                    "children": [
+                      {
+                        "type": "paragraph",
+                        "direction": "ltr",
+                        "format": "",
+                        "indent": 0,
+                        "version": 1,
+                        "textFormat": 0,
+                        "textStyle": "",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Accident records",
+                            "format": 0,
+                            "version": 1,
+                            "detail": 0,
+                            "mode": "normal",
+                            "style": ""
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              },
+              {
+                "type": "x"
+              },
+              {
+                "type": "check"
+              }
+            ]
+          },
+          {
+            "cells": [
+              {
+                "type": "richtext",
+                "content": {
+                  "root": {
+                    "type": "root",
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "version": 1,
+                    "children": [
+                      {
+                        "type": "paragraph",
+                        "direction": "ltr",
+                        "format": "",
+                        "indent": 0,
+                        "version": 1,
+                        "textFormat": 0,
+                        "textStyle": "",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Theft records",
+                            "format": 0,
+                            "version": 1,
+                            "detail": 0,
+                            "mode": "normal",
+                            "style": ""
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              },
+              {
+                "type": "x"
+              },
+              {
+                "type": "check"
+              }
+            ]
+          },
+          {
+            "cells": [
+              {
+                "type": "richtext",
+                "content": {
+                  "root": {
+                    "type": "root",
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "version": 1,
+                    "children": [
+                      {
+                        "type": "paragraph",
+                        "direction": "ltr",
+                        "format": "",
+                        "indent": 0,
+                        "version": 1,
+                        "textFormat": 0,
+                        "textStyle": "",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Lien and loan records",
+                            "format": 0,
+                            "version": 1,
+                            "detail": 0,
+                            "mode": "normal",
+                            "style": ""
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              },
+              {
+                "type": "x"
+              },
+              {
+                "type": "check"
+              }
+            ]
+          },
+          {
+            "cells": [
+              {
+                "type": "richtext",
+                "content": {
+                  "root": {
+                    "type": "root",
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "version": 1,
+                    "children": [
+                      {
+                        "type": "paragraph",
+                        "direction": "ltr",
+                        "format": "",
+                        "indent": 0,
+                        "version": 1,
+                        "textFormat": 0,
+                        "textStyle": "",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Sales history",
+                            "format": 0,
+                            "version": 1,
+                            "detail": 0,
+                            "mode": "normal",
+                            "style": ""
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              },
+              {
+                "type": "x"
+              },
+              {
+                "type": "check"
+              }
+            ]
+          },
+          {
+            "cells": [
+              {
+                "type": "richtext",
+                "content": {
+                  "root": {
+                    "type": "root",
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "version": 1,
+                    "children": [
+                      {
+                        "type": "paragraph",
+                        "direction": "ltr",
+                        "format": "",
+                        "indent": 0,
+                        "version": 1,
+                        "textFormat": 0,
+                        "textStyle": "",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Auction records",
+                            "format": 0,
+                            "version": 1,
+                            "detail": 0,
+                            "mode": "normal",
+                            "style": ""
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              },
+              {
+                "type": "x"
+              },
+              {
+                "type": "check"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "ctas": [
+      {
+        "label": "Get a Full Vehicle History Report",
+        "href": "#vin-form",
+        "style": "primary"
+      }
+    ]
+  },
+  {
+    "blockType": "section",
+    "bg": "white",
+    "scene": "default",
+    "tag": "Protect Your Investment",
+    "heading": "Why It's **Important** to Check a VIN in Germany",
+    "headingLevel": "h2",
+    "description": {
+      "root": {
+        "type": "root",
+        "direction": "ltr",
+        "format": "",
+        "indent": 0,
+        "version": 1,
+        "children": [
+          {
+            "type": "paragraph",
+            "direction": "ltr",
+            "format": "",
+            "indent": 0,
+            "version": 1,
+            "textFormat": 0,
+            "textStyle": "",
+            "children": [
+              {
+                "type": "text",
+                "text": "Checking a vehicle’s VIN in Germany is essential to obtain comprehensive information about the car and ensure it aligns with your needs and budget. Both buyers and sellers can benefit from conducting a VIN check. Here’s why:",
+                "format": 0,
+                "version": 1,
+                "detail": 0,
+                "mode": "normal",
+                "style": ""
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "content": [
+      {
+        "blockType": "card-grid",
+        "columns": "2",
+        "tabletColumns": "2",
+        "mobileColumns": "1",
+        "cards": [
+          {
+            "cardType": "feature",
+            "style": "icon",
+            "layout": "stacked",
+            "icon": {
+              "source": "preset",
+              "preset": "shopping-cart"
+            },
+            "title": "Buyers",
+            "titleElement": "h3",
+            "description": {
+              "root": {
+                "type": "root",
+                "direction": "ltr",
+                "format": "",
+                "indent": 0,
+                "version": 1,
+                "children": [
+                  {
+                    "type": "paragraph",
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": "",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "A vehicle history report is crucial for buyers in Germany to avoid hidden issues and ensure transparency.",
+                        "format": 0,
+                        "version": 1,
+                        "detail": 0,
+                        "mode": "normal",
+                        "style": ""
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            "items": [
+              {
+                "title": "Identify Hidden Damage",
+                "titleElement": "h4",
+                "description": {
+                  "root": {
+                    "type": "root",
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "version": 1,
+                    "children": [
+                      {
+                        "type": "paragraph",
+                        "direction": "ltr",
+                        "format": "",
+                        "indent": 0,
+                        "version": 1,
+                        "textFormat": 0,
+                        "textStyle": "",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "A detailed report can uncover any past damage or repairs that might not be visible during a physical inspection.",
+                            "format": 0,
+                            "version": 1,
+                            "detail": 0,
+                            "mode": "normal",
+                            "style": ""
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              },
+              {
+                "title": "Verify Odometer Accuracy",
+                "titleElement": "h4",
+                "description": {
+                  "root": {
+                    "type": "root",
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "version": 1,
+                    "children": [
+                      {
+                        "type": "paragraph",
+                        "direction": "ltr",
+                        "format": "",
+                        "indent": 0,
+                        "version": 1,
+                        "textFormat": 0,
+                        "textStyle": "",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Odometer fraud is a common issue in the used car market. A full report helps confirm whether the mileage is accurate.",
+                            "format": 0,
+                            "version": 1,
+                            "detail": 0,
+                            "mode": "normal",
+                            "style": ""
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "cardType": "feature",
+            "style": "icon",
+            "layout": "stacked",
+            "icon": {
+              "source": "preset",
+              "preset": "tag"
+            },
+            "title": "Sellers",
+            "titleElement": "h3",
+            "description": {
+              "root": {
+                "type": "root",
+                "direction": "ltr",
+                "format": "",
+                "indent": 0,
+                "version": 1,
+                "children": [
+                  {
+                    "type": "paragraph",
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": "",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Sellers in Germany can benefit from providing a verified vehicle history report to streamline the selling process.",
+                        "format": 0,
+                        "version": 1,
+                        "detail": 0,
+                        "mode": "normal",
+                        "style": ""
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            "items": [
+              {
+                "title": "Close Deals Faster",
+                "titleElement": "h4",
+                "description": {
+                  "root": {
+                    "type": "root",
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "version": 1,
+                    "children": [
+                      {
+                        "type": "paragraph",
+                        "direction": "ltr",
+                        "format": "",
+                        "indent": 0,
+                        "version": 1,
+                        "textFormat": 0,
+                        "textStyle": "",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Having a report ready allows you to answer buyer questions confidently, often speeding up negotiations.",
+                            "format": 0,
+                            "version": 1,
+                            "detail": 0,
+                            "mode": "normal",
+                            "style": ""
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              },
+              {
+                "title": "Set a Fair Price",
+                "titleElement": "h4",
+                "description": {
+                  "root": {
+                    "type": "root",
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "version": 1,
+                    "children": [
+                      {
+                        "type": "paragraph",
+                        "direction": "ltr",
+                        "format": "",
+                        "indent": 0,
+                        "version": 1,
+                        "textFormat": 0,
+                        "textStyle": "",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Use the report to determine the car’s retail value and condition, which will help you set an appropriate asking price.",
+                            "format": 0,
+                            "version": 1,
+                            "detail": 0,
+                            "mode": "normal",
+                            "style": ""
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "ctas": [
+      {
+        "label": "Run a VIN Check Now!",
+        "href": "#vin-form",
+        "style": "primary"
+      }
+    ]
+  },
+  {
+    "blockType": "section",
+    "bg": "muted",
+    "scene": "default",
+    "tag": "Trusted Across Europe",
+    "heading": "Why Choose **Our Germany VIN Check** Tool",
+    "headingLevel": "h2",
+    "description": {
+      "root": {
+        "type": "root",
+        "direction": "ltr",
+        "format": "",
+        "indent": 0,
+        "version": 1,
+        "children": [
+          {
+            "type": "paragraph",
+            "direction": "ltr",
+            "format": "",
+            "indent": 0,
+            "version": 1,
+            "textFormat": 0,
+            "textStyle": "",
+            "children": [
+              {
+                "type": "text",
+                "text": "Our Germany VIN check tool makes it easy to access detailed vehicle information quickly and reliably. It is designed to help both buyers and sellers make informed decisions without unnecessary delays.",
+                "format": 0,
+                "version": 1,
+                "detail": 0,
+                "mode": "normal",
+                "style": ""
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "content": [
+      {
+        "blockType": "card-grid",
+        "columns": "3",
+        "tabletColumns": "2",
+        "mobileColumns": "1",
+        "cards": [
+          {
+            "cardType": "feature",
+            "style": "icon",
+            "layout": "stacked",
+            "icon": {
+              "source": "preset",
+              "preset": "file-text"
+            },
+            "title": "Complete Vehicle Reports",
+            "titleElement": "h4",
+            "description": {
+              "root": {
+                "type": "root",
+                "direction": "ltr",
+                "format": "",
+                "indent": 0,
+                "version": 1,
+                "children": [
+                  {
+                    "type": "paragraph",
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": "",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Access essential vehicle history details, including accident records, ownership history, and official title information, sourced from trusted and relevant databases connected to German vehicle records.",
+                        "format": 0,
+                        "version": 1,
+                        "detail": 0,
+                        "mode": "normal",
+                        "style": ""
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "cardType": "feature",
+            "style": "icon",
+            "layout": "stacked",
+            "icon": {
+              "source": "preset",
+              "preset": "scan"
+            },
+            "title": "User-Friendly System",
+            "titleElement": "h4",
+            "description": {
+              "root": {
+                "type": "root",
+                "direction": "ltr",
+                "format": "",
+                "indent": 0,
+                "version": 1,
+                "children": [
+                  {
+                    "type": "paragraph",
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": "",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Simply enter the VIN into the search form above. The platform is designed to be intuitive and easy to use, even for first-time users.",
+                        "format": 0,
+                        "version": 1,
+                        "detail": 0,
+                        "mode": "normal",
+                        "style": ""
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "cardType": "feature",
+            "style": "icon",
+            "layout": "stacked",
+            "icon": {
+              "source": "preset",
+              "preset": "shield-check"
+            },
+            "title": "Reliable Data Sources",
+            "titleElement": "h4",
+            "description": {
+              "root": {
+                "type": "root",
+                "direction": "ltr",
+                "format": "",
+                "indent": 0,
+                "version": 1,
+                "children": [
+                  {
+                    "type": "paragraph",
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": "",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "All vehicle information is pulled from reputable and verified data sources, ensuring accuracy and consistency you can rely on.",
+                        "format": 0,
+                        "version": 1,
+                        "detail": 0,
+                        "mode": "normal",
+                        "style": ""
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "cardType": "feature",
+            "style": "icon",
+            "layout": "stacked",
+            "icon": {
+              "source": "preset",
+              "preset": "clock"
+            },
+            "title": "Fast Results",
+            "titleElement": "h4",
+            "description": {
+              "root": {
+                "type": "root",
+                "direction": "ltr",
+                "format": "",
+                "indent": 0,
+                "version": 1,
+                "children": [
+                  {
+                    "type": "paragraph",
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": "",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Get the complete vehicle report in around 30 seconds, allowing you to review important information without long waiting times or complicated steps.",
+                        "format": 0,
+                        "version": 1,
+                        "detail": 0,
+                        "mode": "normal",
+                        "style": ""
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "cardType": "feature",
+            "style": "icon",
+            "layout": "stacked",
+            "icon": {
+              "source": "preset",
+              "preset": "credit-card"
+            },
+            "title": "Affordable Pricing",
+            "titleElement": "h4",
+            "description": {
+              "root": {
+                "type": "root",
+                "direction": "ltr",
+                "format": "",
+                "indent": 0,
+                "version": 1,
+                "children": [
+                  {
+                    "type": "paragraph",
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": "",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Our Germany VIN check offers competitive pricing while delivering more detailed information than many alternative services on the market.",
+                        "format": 0,
+                        "version": 1,
+                        "detail": 0,
+                        "mode": "normal",
+                        "style": ""
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "cardType": "feature",
+            "style": "icon",
+            "layout": "stacked",
+            "icon": {
+              "source": "preset",
+              "preset": "lock"
+            },
+            "title": "100% Private and Secure",
+            "titleElement": "h4",
+            "description": {
+              "root": {
+                "type": "root",
+                "direction": "ltr",
+                "format": "",
+                "indent": 0,
+                "version": 1,
+                "children": [
+                  {
+                    "type": "paragraph",
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": "",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Every VIN search is kept confidential. Your personal information is protected and never shared with third parties.",
+                        "format": 0,
+                        "version": 1,
+                        "detail": 0,
+                        "mode": "normal",
+                        "style": ""
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "blockType": "section",
+    "bg": "white",
+    "scene": "default",
+    "tag": "Stay One Step Ahead",
+    "heading": "Tips to **Avoid Used Car Scams** in Germany",
+    "headingLevel": "h2",
+    "description": {
+      "root": {
+        "type": "root",
+        "direction": "ltr",
+        "format": "",
+        "indent": 0,
+        "version": 1,
+        "children": [
+          {
+            "type": "paragraph",
+            "direction": "ltr",
+            "format": "",
+            "indent": 0,
+            "version": 1,
+            "textFormat": 0,
+            "textStyle": "",
+            "children": [
+              {
+                "type": "text",
+                "text": "When buying a used car in Germany, it’s important to stay vigilant and follow certain steps to avoid potential scams. Here are key tips to help protect yourself:",
+                "format": 0,
+                "version": 1,
+                "detail": 0,
+                "mode": "normal",
+                "style": ""
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "content": [
+      {
+        "blockType": "card-grid",
+        "columns": "2",
+        "tabletColumns": "2",
+        "mobileColumns": "1",
+        "cards": [
+          {
+            "cardType": "feature",
+            "style": "icon",
+            "layout": "stacked",
+            "icon": {
+              "source": "preset",
+              "preset": "banknote"
+            },
+            "title": "Never Pay Upfront",
+            "titleElement": "h4",
+            "description": {
+              "root": {
+                "type": "root",
+                "direction": "ltr",
+                "format": "",
+                "indent": 0,
+                "version": 1,
+                "children": [
+                  {
+                    "type": "paragraph",
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": "",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Avoid paying holding deposits or shipping fees before the vehicle is delivered, and the transfer of documents is complete. Always pay only when the car is physically in your possession.",
+                        "format": 0,
+                        "version": 1,
+                        "detail": 0,
+                        "mode": "normal",
+                        "style": ""
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "cardType": "feature",
+            "style": "icon",
+            "layout": "stacked",
+            "icon": {
+              "source": "preset",
+              "preset": "search"
+            },
+            "title": "Inspect and Test Drive",
+            "titleElement": "h4",
+            "description": {
+              "root": {
+                "type": "root",
+                "direction": "ltr",
+                "format": "",
+                "indent": 0,
+                "version": 1,
+                "children": [
+                  {
+                    "type": "paragraph",
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": "",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Always meet the seller in person. Bring an expert, if possible, to help you check for hidden damage, signs of wear, or falsified mileage. A test drive is essential to assess the vehicle’s condition.",
+                        "format": 0,
+                        "version": 1,
+                        "detail": 0,
+                        "mode": "normal",
+                        "style": ""
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "cardType": "feature",
+            "style": "icon",
+            "layout": "stacked",
+            "icon": {
+              "source": "preset",
+              "preset": "file-check"
+            },
+            "title": "Verify Documentation",
+            "titleElement": "h4",
+            "description": {
+              "root": {
+                "type": "root",
+                "direction": "ltr",
+                "format": "",
+                "indent": 0,
+                "version": 1,
+                "children": [
+                  {
+                    "type": "paragraph",
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": "",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Make sure the seller has the Fahrzeugbrief (Part II) and the Fahrzeugschein (Part I), which are the legal registration documents. Additionally, ask for a recent TÜV report to ensure the car is roadworthy.",
+                        "format": 0,
+                        "version": 1,
+                        "detail": 0,
+                        "mode": "normal",
+                        "style": ""
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "cardType": "feature",
+            "style": "icon",
+            "layout": "stacked",
+            "icon": {
+              "source": "preset",
+              "preset": "alert-triangle"
+            },
+            "title": "Be Wary of \"Export Only\"",
+            "titleElement": "h4",
+            "description": {
+              "root": {
+                "type": "root",
+                "direction": "ltr",
+                "format": "",
+                "indent": 0,
+                "version": 1,
+                "children": [
+                  {
+                    "type": "paragraph",
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": "",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Vehicles marked as \"nur für Export\" (only for export) or \"an Bastler\" (for hobbyists/mechanics) often come with hidden issues or are sold to avoid warranty laws. These cars are usually in poor condition and should be approached with caution.",
+                        "format": 0,
+                        "version": 1,
+                        "detail": 0,
+                        "mode": "normal",
+                        "style": ""
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "blockType": "section",
+    "bg": "muted",
+    "scene": "default",
+    "tag": "Beyond German Borders",
+    "heading": "Run VIN Checks in **Other Countries**",
+    "headingLevel": "h2",
+    "description": {
+      "root": {
+        "type": "root",
+        "direction": "ltr",
+        "format": "",
+        "indent": 0,
+        "version": 1,
+        "children": [
+          {
+            "type": "paragraph",
+            "direction": "ltr",
+            "format": "",
+            "indent": 0,
+            "version": 1,
+            "textFormat": 0,
+            "textStyle": "",
+            "children": [
+              {
+                "type": "text",
+                "text": "No matter where a car is from, our VIN check works across Europe to help you verify imported vehicles.",
+                "format": 0,
+                "version": 1,
+                "detail": 0,
+                "mode": "normal",
+                "style": ""
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "content": [
+      {
+        "blockType": "pill-grid",
+        "items": [
+          {
+            "label": "Albania",
+            "href": "/vin-check/albania"
+          },
+          {
+            "label": "Andorra",
+            "href": "/vin-check/andorra"
+          },
+          {
+            "label": "Austria",
+            "href": "/vin-check/austria"
+          },
+          {
+            "label": "Belarus",
+            "href": "/vin-check/belarus"
+          },
+          {
+            "label": "Belgium",
+            "href": "/vin-check/belgium"
+          },
+          {
+            "label": "Bosnia and Herzegovina",
+            "href": "/vin-check/bosnia-hertzegovina"
+          },
+          {
+            "label": "Bulgaria",
+            "href": "/vin-check/bulgaria"
+          },
+          {
+            "label": "Croatia",
+            "href": "/vin-check/croatia"
+          },
+          {
+            "label": "Czech Republic",
+            "href": "/vin-check/czech-republic"
+          },
+          {
+            "label": "Denmark",
+            "href": "/vin-check/denmark"
+          },
+          {
+            "label": "Estonia",
+            "href": "/vin-check/estonia"
+          },
+          {
+            "label": "Finland",
+            "href": "/vin-check/finland"
+          },
+          {
+            "label": "France",
+            "href": "/vin-check/france"
+          },
+          {
+            "label": "Germany",
+            "href": "/vin-check/germany"
+          },
+          {
+            "label": "Greece",
+            "href": "/vin-check/greece"
+          },
+          {
+            "label": "Holy See",
+            "href": "/vin-check/holy-see"
+          },
+          {
+            "label": "Hungary",
+            "href": "/vin-check/hungary"
+          },
+          {
+            "label": "Iceland",
+            "href": "/vin-check/iceland"
+          },
+          {
+            "label": "Ireland",
+            "href": "/vin-check/ireland"
+          },
+          {
+            "label": "Italy",
+            "href": "/vin-check/italy"
+          },
+          {
+            "label": "Latvia",
+            "href": "/vin-check/latvia"
+          },
+          {
+            "label": "Liechtenstein",
+            "href": "/vin-check/liechtenstein"
+          },
+          {
+            "label": "Lithuania",
+            "href": "/vin-check/lithuania"
+          },
+          {
+            "label": "Luxembourg",
+            "href": "/vin-check/luxembourg"
+          },
+          {
+            "label": "Malta",
+            "href": "/vin-check/malta"
+          },
+          {
+            "label": "Moldova",
+            "href": "/vin-check/moldova"
+          },
+          {
+            "label": "Monaco",
+            "href": "/vin-check/monaco"
+          },
+          {
+            "label": "Montenegro",
+            "href": "/vin-check/montenegro"
+          },
+          {
+            "label": "Netherlands",
+            "href": "/vin-check/netherlands"
+          },
+          {
+            "label": "North Macedonia",
+            "href": "/vin-check/north-macedonia"
+          },
+          {
+            "label": "Norway",
+            "href": "/vin-check/norway"
+          },
+          {
+            "label": "Poland",
+            "href": "/vin-check/poland"
+          },
+          {
+            "label": "Portugal",
+            "href": "/vin-check/portugal"
+          },
+          {
+            "label": "Romania",
+            "href": "/vin-check/romania"
+          },
+          {
+            "label": "Russia",
+            "href": "/vin-check/russia"
+          },
+          {
+            "label": "San Marino",
+            "href": "/vin-check/san-marino"
+          },
+          {
+            "label": "Serbia",
+            "href": "/vin-check/serbia"
+          },
+          {
+            "label": "Slovakia",
+            "href": "/vin-check/slovakia"
+          },
+          {
+            "label": "Slovenia",
+            "href": "/vin-check/slovenia"
+          },
+          {
+            "label": "Spain",
+            "href": "/vin-check/spain"
+          },
+          {
+            "label": "Sweden",
+            "href": "/vin-check/sweden"
+          },
+          {
+            "label": "Switzerland",
+            "href": "/vin-check/switzerland"
+          },
+          {
+            "label": "Ukraine",
+            "href": "/vin-check/ukraine"
+          },
+          {
+            "label": "United Kingdom",
+            "href": "/vin-check/united-kingdom"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "blockType": "cta-banner",
+    "layout": "full",
+    "dark": true,
+    "scene": "none",
+    "mode": "vin-input",
+    "tag": "Don't Buy Blind",
+    "heading": "Get a **VIN Check** Before Buying a Used Car in Germany",
+    "headingLevel": "h2",
+    "description": {
+      "root": {
+        "type": "root",
+        "direction": "ltr",
+        "format": "",
+        "indent": 0,
+        "version": 1,
+        "children": [
+          {
+            "type": "paragraph",
+            "direction": "ltr",
+            "format": "",
+            "indent": 0,
+            "version": 1,
+            "textFormat": 0,
+            "textStyle": "",
+            "children": [
+              {
+                "type": "text",
+                "text": "Check the VIN and review the car report inGermany to ensure the car is in good condition.",
+                "format": 0,
+                "version": 1,
+                "detail": 0,
+                "mode": "normal",
+                "style": ""
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "blockType": "section",
+    "bg": "white",
+    "scene": "default",
+    "tag": "Answers You Need",
+    "heading": "FAQs on **Germany VIN Check**",
+    "headingLevel": "h2",
+    "content": [
+      {
+        "blockType": "faqs",
+        "items": [
+          {
+            "question": "How do I check if my car is registered in Germany?",
+            "answer": {
+              "root": {
+                "type": "root",
+                "direction": "ltr",
+                "format": "",
+                "indent": 0,
+                "version": 1,
+                "children": [
+                  {
+                    "type": "paragraph",
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": "",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "To check whether a car is registered in Germany, the registered owner can request vehicle information from the Central Vehicle Register (ZFZR) at the Kraftfahrt-Bundesamt (KBA), either online or in writing. Alternatively, a Germany VIN Checkcan be used to access a complete vehicle history report, including details about the car’s country of origin.",
+                        "format": 0,
+                        "version": 1,
+                        "detail": 0,
+                        "mode": "normal",
+                        "style": ""
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "question": "Do German cars have VINs?",
+            "answer": {
+              "root": {
+                "type": "root",
+                "direction": "ltr",
+                "format": "",
+                "indent": 0,
+                "version": 1,
+                "children": [
+                  {
+                    "type": "paragraph",
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": "",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Yes, all vehicles in Germany are required to have a Vehicle Identification Number (VIN), which is a unique 17-character code used to identify each car. In Germany, the VIN is commonly referred to as the FIN (Fahrzeug-Identifikationsnummer) and is usually stamped on the chassis, often under the hood or on the driver-side door jamb.",
+                        "format": 0,
+                        "version": 1,
+                        "detail": 0,
+                        "mode": "normal",
+                        "style": ""
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "question": "What is the VIN code for Germany?",
+            "answer": {
+              "root": {
+                "type": "root",
+                "direction": "ltr",
+                "format": "",
+                "indent": 0,
+                "version": 1,
+                "children": [
+                  {
+                    "type": "paragraph",
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": "",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "A German VIN, also known as a FIN (Fahrzeugidentifikationsnummer), follows the international 17-character standard. Vehicles linked to Germany typically begin with the letter “W” or WMI codes such as “W0L,” “W0V,” or “WVW” for Volkswagen. These codes indicate European or German registration, although manufacturers may assign them even when vehicles are built outside Germany.",
+                        "format": 0,
+                        "version": 1,
+                        "detail": 0,
+                        "mode": "normal",
+                        "style": ""
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "question": "Can you drive without a TÜV in Germany?",
+            "answer": {
+              "root": {
+                "type": "root",
+                "direction": "ltr",
+                "format": "",
+                "indent": 0,
+                "version": 1,
+                "children": [
+                  {
+                    "type": "paragraph",
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": "",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Driving without a valid TÜV inspection in Germany is generally not permitted. However, drivers may exceed the inspection deadline by up to two months with only minor fines. After that period, penalties increase and may include points on the licence or vehicle restrictions. Driving is allowed only for a pre-arranged TÜV appointment to complete a new inspection.",
+                        "format": 0,
+                        "version": 1,
+                        "detail": 0,
+                        "mode": "normal",
+                        "style": ""
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

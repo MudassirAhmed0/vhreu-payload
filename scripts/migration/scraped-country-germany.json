@@ -1,0 +1,57 @@
+{
+  "slug": "germany",
+  "url": "https://vehiclehistory.eu/vin-check/germany",
+  "sections": {
+    "hero": {
+      "heading": "Examine a Vehicle’s Past Through a Germany VIN Check",
+      "headingLevel": "h1",
+      "description": "Want to sell or purchase a vehicle? Use the Germany VIN check service and get the vehicle history report, where you can examine the specifications and past records like accident, auction, history, odometer reading, and more!"
+    },
+    "whyCheck": {
+      "heading": "Why You Should Decode the VIN in Germany?",
+      "stats": [
+        {
+          "stat": "450.000",
+          "description": "Germany imported around 450.000 cars in 2024"
+        },
+        {
+          "stat": "2.52 million",
+          "description": "In Germany, there were about 2.52 million reported road accidents in 2024"
+        },
+        {
+          "stat": "10.3",
+          "description": "The average age of passenger cars in Germany in 2024 was about 10.3 years, slightly higher than in 2023 (around 10.0 years)."
+        }
+      ],
+      "paragraphs": []
+    },
+    "whatIsVin": {
+      "heading": "What is a VIN?",
+      "description": [
+        "A VIN, or Vehicle Identification Number, is a 17-character code that uniquely identifies each vehicle. Even if two vehicles share the same make, model, and year, their VINs will be different. Each digit in the VIN reveals specific details about the vehicle, including the year of manufacture, country of origin, engine type, and even the serial number.",
+        "Before purchasing a used vehicle, it’s essential to check its history to ensure there are no red flags. In Germany, you can obtain the vehicle history report through the VIN number check in Germany tool. By reviewing the car’s history, you can confirm that the vehicle isn’t encumbered by any liens, hasn’t had its odometer rolled back, and hasn’t been involved in any accidents."
+      ],
+      "whereToFind": {
+        "heading": "Where to Find the VIN?",
+        "items": [
+          {
+            "title": "Dashboard",
+            "description": "Look at the lower corner of the driver’s side dashboard near the windshield. The VIN is usually displayed on a metal plate or sticker and can often be seen through the windshield."
+          },
+          {
+            "title": "Door Jamb",
+            "description": "Open the driver’s door and inspect the sticker on the door frame near the latch. This label typically contains the VIN along with other important details such as tire pressure and manufacturing information."
+          },
+          {
+            "title": "Under the Hood",
+            "description": "Lift the hood and check the firewall between the engine and cabin, or inspect the engine block itself. Many vehicles will have the VIN stamped or affixed to these areas for identification."
+          },
+          {
+            "title": "Vehicle Documentation",
+            "description": "The VIN is also listed on key documents such as the registration, title, and insurance papers. Always compare the VIN on the vehicle to those in the official records to ensure accuracy."
+          }
+        ]
+      }
+    }
+  }
+}

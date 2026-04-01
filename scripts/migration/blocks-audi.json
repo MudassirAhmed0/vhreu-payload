@@ -1,0 +1,56 @@
+[
+  {
+    "blockType": "page-hero",
+    "variant": "centered",
+    "dark": true,
+    "fullHeight": false,
+    "glow": false,
+    "formType": "vin",
+    "title": "Decode Your Audi VIN with Our **Instant Lookup Tool**",
+    "description": "Take advantage of the Free Audi VIN Decoder tool to validate car specifications. Get access to any vehicle’s year, make, model, trim, engine and more details. Generate a comprehensive vehicle history report that includes detailed information about mileage, damages, and other recorded data pertaining to the car.",
+    "tag": "Trusted Audi VIN Intelligence",
+    "tagLevel": "span",
+    "features": [
+      {
+        "icon": {
+          "source": "preset",
+          "preset": "car"
+        },
+        "text": "Auction Records",
+        "tag": "h4"
+      },
+      {
+        "icon": {
+          "source": "preset",
+          "preset": "clipboard-check"
+        },
+        "text": "Title & Condition",
+        "tag": "h4"
+      },
+      {
+        "icon": {
+          "source": "preset",
+          "preset": "trending-up"
+        },
+        "text": "Vehicles Sales History",
+        "tag": "h4"
+      },
+      {
+        "icon": {
+          "source": "preset",
+          "preset": "file-text"
+        },
+        "text": "Title Records",
+        "tag": "h4"
+      },
+      {
+        "icon": {
+          "source": "preset",
+          "preset": "triangle-alert"
+        },
+        "text": "Accident Records",
+        "tag": "h4"
+      }
+    ]
+  }
+]

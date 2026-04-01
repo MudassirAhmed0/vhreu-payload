@@ -1,0 +1,3514 @@
+{
+  "privacy-policy": {
+    "root": {
+      "type": "root",
+      "direction": "ltr",
+      "format": "",
+      "indent": 0,
+      "version": 1,
+      "children": [
+        {
+          "type": "heading",
+          "tag": "h1",
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "type": "text",
+              "text": "VEHICLEHISTORY.EU. PRIVACY POLICY",
+              "format": 0,
+              "version": 1,
+              "detail": 0,
+              "mode": "normal",
+              "style": ""
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "textFormat": 0,
+          "textStyle": "",
+          "children": [
+            {
+              "type": "text",
+              "text": "This privacy policy applies between you, the User of the Website and VEHICLEHISTORY.EU, the owner and provider of this Website. VEHICLEHISTORY.EU is operating in the vehicle history market in Europe, takes the privacy of your information very seriously. This Privacy Policy applies to our use of any and all Data collected by us or provided by you in relation to your use of the Website. Please read this privacy policy carefully.",
+              "format": 0,
+              "version": 1,
+              "detail": 0,
+              "mode": "normal",
+              "style": ""
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "textFormat": 0,
+          "textStyle": "",
+          "children": [
+            {
+              "type": "text",
+              "text": "1. DEFINITIONS AND INTERPRETATION",
+              "format": 1,
+              "version": 1,
+              "detail": 0,
+              "mode": "normal",
+              "style": ""
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "textFormat": 0,
+          "textStyle": "",
+          "children": [
+            {
+              "type": "text",
+              "text": "In this privacy policy, the following definitions are used:",
+              "format": 0,
+              "version": 1,
+              "detail": 0,
+              "mode": "normal",
+              "style": ""
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "listType": "number",
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "tag": "ol",
+          "start": 1,
+          "children": [
+            {
+              "type": "listitem",
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "version": 1,
+              "value": 1,
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Data –",
+                  "format": 1,
+                  "version": 1,
+                  "detail": 0,
+                  "mode": "normal",
+                  "style": ""
+                },
+                {
+                  "type": "text",
+                  "text": " Collectively all information that users submit to VEHICLEHISTORY.EU via the Website. This definition incorporates, and is applicable, for all the information provided by the site users.",
+                  "format": 0,
+                  "version": 1,
+                  "detail": 0,
+                  "mode": "normal",
+                  "style": ""
+                }
+              ]
+            },
+            {
+              "type": "listitem",
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "version": 1,
+              "value": 1,
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Cookies",
+                  "format": 1,
+                  "version": 1,
+                  "detail": 0,
+                  "mode": "normal",
+                  "style": ""
+                },
+                {
+                  "type": "text",
+                  "text": "– Small text file placed on your computer by this Website when you visit certain parts of the Website and/or when you use certain features of the Website. Details of the cookies used by this Website are set out in the clause below;",
+                  "format": 0,
+                  "version": 1,
+                  "detail": 0,
+                  "mode": "normal",
+                  "style": ""
+                }
+              ]
+            },
+            {
+              "type": "listitem",
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "version": 1,
+              "value": 1,
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Controller –",
+                  "format": 1,
+                  "version": 1,
+                  "detail": 0,
+                  "mode": "normal",
+                  "style": ""
+                },
+                {
+                  "type": "text",
+                  "text": " (www.vehiclehistory.eu) – a provider of vehicle history reports for European vehicles via this website. ",
+                  "format": 0,
+                  "version": 1,
+                  "detail": 0,
+                  "mode": "normal",
+                  "style": ""
+                }
+              ]
+            },
+            {
+              "type": "listitem",
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "version": 1,
+              "value": 1,
+              "children": [
+                {
+                  "type": "text",
+                  "text": "User –",
+                  "format": 1,
+                  "version": 1,
+                  "detail": 0,
+                  "mode": "normal",
+                  "style": ""
+                },
+                {
+                  "type": "text",
+                  "text": "Any third party that accesses the Website and is not either (i) employed by VEHICLEHISTORY.EU and acting in the course of their employment or (ii) engaged as a consultant or otherwise providing services to VEHICLEHISTORY.EU and accessing the Website in connection with the provision of such services.",
+                  "format": 0,
+                  "version": 1,
+                  "detail": 0,
+                  "mode": "normal",
+                  "style": ""
+                }
+              ]
+            },
+            {
+              "type": "listitem",
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "version": 1,
+              "value": 1,
+              "children": [
+                {
+                  "type": "text",
+                  "text": "European Union Protection Law –",
+                  "format": 1,
+                  "version": 1,
+                  "detail": 0,
+                  "mode": "normal",
+                  "style": ""
+                },
+                {
+                  "type": "text",
+                  "text": " The privacy and electronic regulations has been provide by European Data Protection Supervisor (EDPS) (https://europa.eu/european-union/about-eu/institutions-bodies/european-data-protection-supervisor_en) and European Commission (GDPR) (https://ec.europa.eu/info/law/law-topic/data-protection/reform/rules-business-and-organisations/principles-gdpr).",
+                  "format": 0,
+                  "version": 1,
+                  "detail": 0,
+                  "mode": "normal",
+                  "style": ""
+                }
+              ]
+            },
+            {
+              "type": "listitem",
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "version": 1,
+              "value": 1,
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Website –",
+                  "format": 1,
+                  "version": 1,
+                  "detail": 0,
+                  "mode": "normal",
+                  "style": ""
+                },
+                {
+                  "type": "text",
+                  "text": " The website that you are currently using, www.vehiclehistory.eu, and any sub-domains of this site unless expressly excluded by their own terms and conditions.",
+                  "format": 0,
+                  "version": 1,
+                  "detail": 0,
+                  "mode": "normal",
+                  "style": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "textFormat": 0,
+          "textStyle": "",
+          "children": [
+            {
+              "type": "text",
+              "text": "In this privacy policy, unless the context requires a different interpretation:",
+              "format": 0,
+              "version": 1,
+              "detail": 0,
+              "mode": "normal",
+              "style": ""
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "listType": "bullet",
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "tag": "ul",
+          "start": 1,
+          "children": [
+            {
+              "type": "listitem",
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "version": 1,
+              "value": 1,
+              "children": [
+                {
+                  "type": "text",
+                  "text": "The singular includes the plural and vice versa;",
+                  "format": 0,
+                  "version": 1,
+                  "detail": 0,
+                  "mode": "normal",
+                  "style": ""
+                }
+              ]
+            },
+            {
+              "type": "listitem",
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "version": 1,
+              "value": 1,
+              "children": [
+                {
+                  "type": "text",
+                  "text": "References to sub-clauses, clauses, schedules or appendices are to sub-clauses, clauses, schedules or appendices of this privacy policy;",
+                  "format": 0,
+                  "version": 1,
+                  "detail": 0,
+                  "mode": "normal",
+                  "style": ""
+                }
+              ]
+            },
+            {
+              "type": "listitem",
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "version": 1,
+              "value": 1,
+              "children": [
+                {
+                  "type": "text",
+                  "text": "A reference to a person includes firms, companies, government entities, trusts and partnerships;",
+                  "format": 0,
+                  "version": 1,
+                  "detail": 0,
+                  "mode": "normal",
+                  "style": ""
+                }
+              ]
+            },
+            {
+              "type": "listitem",
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "version": 1,
+              "value": 1,
+              "children": [
+                {
+                  "type": "text",
+                  "text": "“Including” is understood to mean “including without limitation”;",
+                  "format": 0,
+                  "version": 1,
+                  "detail": 0,
+                  "mode": "normal",
+                  "style": ""
+                }
+              ]
+            },
+            {
+              "type": "listitem",
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "version": 1,
+              "value": 1,
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Reference to any statutory provision includes any modification or amendment of it;",
+                  "format": 0,
+                  "version": 1,
+                  "detail": 0,
+                  "mode": "normal",
+                  "style": ""
+                }
+              ]
+            },
+            {
+              "type": "listitem",
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "version": 1,
+              "value": 1,
+              "children": [
+                {
+                  "type": "text",
+                  "text": "The headings and subheadings do not form part of this privacy policy.",
+                  "format": 0,
+                  "version": 1,
+                  "detail": 0,
+                  "mode": "normal",
+                  "style": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "textFormat": 0,
+          "textStyle": "",
+          "children": [
+            {
+              "type": "text",
+              "text": "2. SCOPE OF THIS PRIVACY POLICY",
+              "format": 1,
+              "version": 1,
+              "detail": 0,
+              "mode": "normal",
+              "style": ""
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "textFormat": 0,
+          "textStyle": "",
+          "children": [
+            {
+              "type": "text",
+              "text": "This Privacy Policy applies only to the actions of VEHICLEHISTORY.EU and Users with respect to the website VEHICLEHISTORY.EU. It does not extend to any websites that can be accessed from this Website including, but not limited to, any links we may provide to social media websites.",
+              "format": 0,
+              "version": 1,
+              "detail": 0,
+              "mode": "normal",
+              "style": ""
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "textFormat": 0,
+          "textStyle": "",
+          "children": [
+            {
+              "type": "text",
+              "text": "3. DATA COLLECTED",
+              "format": 1,
+              "version": 1,
+              "detail": 0,
+              "mode": "normal",
+              "style": ""
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "textFormat": 0,
+          "textStyle": "",
+          "children": [
+            {
+              "type": "text",
+              "text": "We may collect the following Data, which includes personal Data, from you",
+              "format": 0,
+              "version": 1,
+              "detail": 0,
+              "mode": "normal",
+              "style": ""
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "listType": "bullet",
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "tag": "ul",
+          "start": 1,
+          "children": [
+            {
+              "type": "listitem",
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "version": 1,
+              "value": 1,
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Full Name;",
+                  "format": 0,
+                  "version": 1,
+                  "detail": 0,
+                  "mode": "normal",
+                  "style": ""
+                }
+              ]
+            },
+            {
+              "type": "listitem",
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "version": 1,
+              "value": 1,
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Address;",
+                  "format": 0,
+                  "version": 1,
+                  "detail": 0,
+                  "mode": "normal",
+                  "style": ""
+                }
+              ]
+            },
+            {
+              "type": "listitem",
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "version": 1,
+              "value": 1,
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Contact Information such as email addresses and telephone numbers;",
+                  "format": 0,
+                  "version": 1,
+                  "detail": 0,
+                  "mode": "normal",
+                  "style": ""
+                }
+              ]
+            },
+            {
+              "type": "listitem",
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "version": 1,
+              "value": 1,
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Demographic information such as post code, preferences and interests;",
+                  "format": 0,
+                  "version": 1,
+                  "detail": 0,
+                  "mode": "normal",
+                  "style": ""
+                }
+              ]
+            },
+            {
+              "type": "listitem",
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "version": 1,
+              "value": 1,
+              "children": [
+                {
+                  "type": "text",
+                  "text": "IP address (automatically collected);",
+                  "format": 0,
+                  "version": 1,
+                  "detail": 0,
+                  "mode": "normal",
+                  "style": ""
+                }
+              ]
+            },
+            {
+              "type": "listitem",
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "version": 1,
+              "value": 1,
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Web browser type and version (automatically collected);",
+                  "format": 0,
+                  "version": 1,
+                  "detail": 0,
+                  "mode": "normal",
+                  "style": ""
+                }
+              ]
+            },
+            {
+              "type": "listitem",
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "version": 1,
+              "value": 1,
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Operating system (automatically collected);",
+                  "format": 0,
+                  "version": 1,
+                  "detail": 0,
+                  "mode": "normal",
+                  "style": ""
+                }
+              ]
+            },
+            {
+              "type": "listitem",
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "version": 1,
+              "value": 1,
+              "children": [
+                {
+                  "type": "text",
+                  "text": "A list of URLs starting with a referring site, your activity on this Website, and the site you exit to (automatically collected);",
+                  "format": 0,
+                  "version": 1,
+                  "detail": 0,
+                  "mode": "normal",
+                  "style": ""
+                }
+              ]
+            },
+            {
+              "type": "listitem",
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "version": 1,
+              "value": 1,
+              "children": [
+                {
+                  "type": "text",
+                  "text": "All financial information such as credit/debit card numbers or other data are on the responsibility of our external payment gateway (Stripe).",
+                  "format": 0,
+                  "version": 1,
+                  "detail": 0,
+                  "mode": "normal",
+                  "style": ""
+                }
+              ]
+            },
+            {
+              "type": "listitem",
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "version": 1,
+              "value": 1,
+              "children": [
+                {
+                  "type": "text",
+                  "text": "In each case, this data is collected in accordance with this privacy policy.",
+                  "format": 0,
+                  "version": 1,
+                  "detail": 0,
+                  "mode": "normal",
+                  "style": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "textFormat": 0,
+          "textStyle": "",
+          "children": [
+            {
+              "type": "text",
+              "text": "4. OUR USE OF DATA",
+              "format": 1,
+              "version": 1,
+              "detail": 0,
+              "mode": "normal",
+              "style": ""
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "listType": "bullet",
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "tag": "ul",
+          "start": 1,
+          "children": [
+            {
+              "type": "listitem",
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "version": 1,
+              "value": 1,
+              "children": [
+                {
+                  "type": "text",
+                  "text": "For purposes of the Data Protection of the European Union, VEHICLEHISTORY.EU is the “the data controller”.",
+                  "format": 0,
+                  "version": 1,
+                  "detail": 0,
+                  "mode": "normal",
+                  "style": ""
+                }
+              ]
+            },
+            {
+              "type": "listitem",
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "version": 1,
+              "value": 1,
+              "children": [
+                {
+                  "type": "text",
+                  "text": "We will retain any Data you submit for as long as your account remains active.",
+                  "format": 0,
+                  "version": 1,
+                  "detail": 0,
+                  "mode": "normal",
+                  "style": ""
+                }
+              ]
+            },
+            {
+              "type": "listitem",
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "version": 1,
+              "value": 1,
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Unless we are obliged or permitted by law to do so, and subject to any third party disclosures specifically set out in this policy, your Data will not be disclosed to third parties. This does not include our affiliates and /or other companies within our group.",
+                  "format": 0,
+                  "version": 1,
+                  "detail": 0,
+                  "mode": "normal",
+                  "style": ""
+                }
+              ]
+            },
+            {
+              "type": "listitem",
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "version": 1,
+              "value": 1,
+              "children": [
+                {
+                  "type": "text",
+                  "text": "All personal Data is stored securely in our server in accordance with the principles of the European Data Protection Supervisor (EDPS), an EU General Data Protection Regulation Commission (GDPR).",
+                  "format": 0,
+                  "version": 1,
+                  "detail": 0,
+                  "mode": "normal",
+                  "style": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "textFormat": 0,
+          "textStyle": "",
+          "children": [
+            {
+              "type": "text",
+              "text": "For more details on security see the clause below.",
+              "format": 0,
+              "version": 1,
+              "detail": 0,
+              "mode": "normal",
+              "style": ""
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "textFormat": 0,
+          "textStyle": "",
+          "children": [
+            {
+              "type": "text",
+              "text": "5. SECURITY",
+              "format": 1,
+              "version": 1,
+              "detail": 0,
+              "mode": "normal",
+              "style": ""
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "textFormat": 0,
+          "textStyle": "",
+          "children": [
+            {
+              "type": "text",
+              "text": "Any or all of the above Data may be required by us from time to time in order to provide you with the best possible service and experience when using our Website. Specifically, Data may be used by us for the following reasons:",
+              "format": 0,
+              "version": 1,
+              "detail": 0,
+              "mode": "normal",
+              "style": ""
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "listType": "bullet",
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "tag": "ul",
+          "start": 1,
+          "children": [
+            {
+              "type": "listitem",
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "version": 1,
+              "value": 1,
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Internal record keeping;",
+                  "format": 0,
+                  "version": 1,
+                  "detail": 0,
+                  "mode": "normal",
+                  "style": ""
+                }
+              ]
+            },
+            {
+              "type": "listitem",
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "version": 1,
+              "value": 1,
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Improvement of our products / services;",
+                  "format": 0,
+                  "version": 1,
+                  "detail": 0,
+                  "mode": "normal",
+                  "style": ""
+                }
+              ]
+            },
+            {
+              "type": "listitem",
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "version": 1,
+              "value": 1,
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Transmission by email of promotional materials that may be of interest to you;",
+                  "format": 0,
+                  "version": 1,
+                  "detail": 0,
+                  "mode": "normal",
+                  "style": ""
+                }
+              ]
+            },
+            {
+              "type": "listitem",
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "version": 1,
+              "value": 1,
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Contact for market research purposes which may be done using email, telephone or email. Such information may be used to customize or update the Website;",
+                  "format": 0,
+                  "version": 1,
+                  "detail": 0,
+                  "mode": "normal",
+                  "style": ""
+                }
+              ]
+            },
+            {
+              "type": "listitem",
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "version": 1,
+              "value": 1,
+              "children": [
+                {
+                  "type": "text",
+                  "text": "We may use the personal information of our users to assist them during the process of purchase of vehicle history reports.",
+                  "format": 0,
+                  "version": 1,
+                  "detail": 0,
+                  "mode": "normal",
+                  "style": ""
+                }
+              ]
+            },
+            {
+              "type": "listitem",
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "version": 1,
+              "value": 1,
+              "children": [
+                {
+                  "type": "text",
+                  "text": "In each case, in accordance with this privacy policy.",
+                  "format": 0,
+                  "version": 1,
+                  "detail": 0,
+                  "mode": "normal",
+                  "style": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "textFormat": 0,
+          "textStyle": "",
+          "children": [
+            {
+              "type": "text",
+              "text": "6. THIRD PARTY WEBSITES AND SERVICES",
+              "format": 1,
+              "version": 1,
+              "detail": 0,
+              "mode": "normal",
+              "style": ""
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "listType": "number",
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "tag": "ol",
+          "start": 1,
+          "children": [
+            {
+              "type": "listitem",
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "version": 1,
+              "value": 1,
+              "children": [
+                {
+                  "type": "text",
+                  "text": "VEHICLEHISTORY.EU may, from time to time, employ the services of other parties for dealing with certain processes necessary for the operation of the Website. The providers of such services may have access to certain personal Data provided by Users of this Website.",
+                  "format": 0,
+                  "version": 1,
+                  "detail": 0,
+                  "mode": "normal",
+                  "style": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "listType": "number",
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "tag": "ol",
+          "start": 1,
+          "children": [
+            {
+              "type": "listitem",
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "version": 1,
+              "value": 1,
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Any Data used by such parties is used only to the extent required by them to perform the services that we request. Any use for other purposes is strictly prohibited. Furthermore, any Data that is processed by third parties will be processed within the terms of this privacy policy and in accordance with the European Law.",
+                  "format": 0,
+                  "version": 1,
+                  "detail": 0,
+                  "mode": "normal",
+                  "style": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "textFormat": 0,
+          "textStyle": "",
+          "children": [
+            {
+              "type": "text",
+              "text": "7. LINKS TO OTHER WEBSITES",
+              "format": 1,
+              "version": 1,
+              "detail": 0,
+              "mode": "normal",
+              "style": ""
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "textFormat": 0,
+          "textStyle": "",
+          "children": [
+            {
+              "type": "text",
+              "text": "This Website may, from time to time, provide links to other websites. We have no control over such websites and are not responsible for the content or services provided by these websites. This privacy policy does not extend to your use of such websites. You are advised to read the privacy policy or statement of other websites prior to using them.",
+              "format": 0,
+              "version": 1,
+              "detail": 0,
+              "mode": "normal",
+              "style": ""
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "textFormat": 0,
+          "textStyle": "",
+          "children": [
+            {
+              "type": "text",
+              "text": "8. CONTROLLING USE OF YOUR DATA",
+              "format": 1,
+              "version": 1,
+              "detail": 0,
+              "mode": "normal",
+              "style": ""
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "textFormat": 0,
+          "textStyle": "",
+          "children": [
+            {
+              "type": "text",
+              "text": "Wherever you are required to submit Data, you will be given options to restrict our use of that Data. This may include the use of Data for direct marketing purposes; and sharing Data with third parties.",
+              "format": 0,
+              "version": 1,
+              "detail": 0,
+              "mode": "normal",
+              "style": ""
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "textFormat": 0,
+          "textStyle": "",
+          "children": [
+            {
+              "type": "text",
+              "text": "9. FUNCTIONALITY OF THE WEBSITE",
+              "format": 1,
+              "version": 1,
+              "detail": 0,
+              "mode": "normal",
+              "style": ""
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "listType": "number",
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "tag": "ol",
+          "start": 1,
+          "children": [
+            {
+              "type": "listitem",
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "version": 1,
+              "value": 1,
+              "children": [
+                {
+                  "type": "text",
+                  "text": "To use all features and functions available on the Website, you may be required to submit certain Data.",
+                  "format": 0,
+                  "version": 1,
+                  "detail": 0,
+                  "mode": "normal",
+                  "style": ""
+                }
+              ]
+            },
+            {
+              "type": "listitem",
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "version": 1,
+              "value": 1,
+              "children": [
+                {
+                  "type": "text",
+                  "text": "You may restrict your internet browser’s use of Cookies. VEHICLEHISTORY.EU use the following cookies:",
+                  "format": 0,
+                  "version": 1,
+                  "detail": 0,
+                  "mode": "normal",
+                  "style": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "textFormat": 0,
+          "textStyle": "",
+          "children": [
+            {
+              "type": "text",
+              "text": "10. ACCESSING YOUR OWN DATA",
+              "format": 1,
+              "version": 1,
+              "detail": 0,
+              "mode": "normal",
+              "style": ""
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "textFormat": 0,
+          "textStyle": "",
+          "children": [
+            {
+              "type": "text",
+              "text": "You have the right to ask for a copy of any of your personal Data or request that this data be deleted by VEHICLEHISTORY.EU (where such Data is held) with up to 7 working days in advance by sending an email to ",
+              "format": 0,
+              "version": 1,
+              "detail": 0,
+              "mode": "normal",
+              "style": ""
+            },
+            {
+              "type": "text",
+              "text": "support[@]vehiclehistory.eu.",
+              "format": 1,
+              "version": 1,
+              "detail": 0,
+              "mode": "normal",
+              "style": ""
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "textFormat": 0,
+          "textStyle": "",
+          "children": [
+            {
+              "type": "text",
+              "text": "11. SECURITY",
+              "format": 1,
+              "version": 1,
+              "detail": 0,
+              "mode": "normal",
+              "style": ""
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "listType": "number",
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "tag": "ol",
+          "start": 1,
+          "children": [
+            {
+              "type": "listitem",
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "version": 1,
+              "value": 1,
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Data security is of great importance for VEHICLEHISTORY.EU, and to protect your Data we have put in place suitable physical, electronic and managerial procedures to safeguard and secure Data collected via this Website.",
+                  "format": 0,
+                  "version": 1,
+                  "detail": 0,
+                  "mode": "normal",
+                  "style": ""
+                }
+              ]
+            },
+            {
+              "type": "listitem",
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "version": 1,
+              "value": 1,
+              "children": [
+                {
+                  "type": "text",
+                  "text": "If password access is required for certain parts of the Website, you are responsible for keeping this password confidential.",
+                  "format": 0,
+                  "version": 1,
+                  "detail": 0,
+                  "mode": "normal",
+                  "style": ""
+                }
+              ]
+            },
+            {
+              "type": "listitem",
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "version": 1,
+              "value": 1,
+              "children": [
+                {
+                  "type": "text",
+                  "text": "We endeavor to do our best to protect your personal Data. However, transmission of information over the internet is not entirely secure and is done at your own risk. We cannot ensure the security of your Data transmitted to the Website.",
+                  "format": 0,
+                  "version": 1,
+                  "detail": 0,
+                  "mode": "normal",
+                  "style": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "textFormat": 0,
+          "textStyle": "",
+          "children": [
+            {
+              "type": "text",
+              "text": "12. COOKIES",
+              "format": 1,
+              "version": 1,
+              "detail": 0,
+              "mode": "normal",
+              "style": ""
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "listType": "number",
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "tag": "ol",
+          "start": 1,
+          "children": [
+            {
+              "type": "listitem",
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "version": 1,
+              "value": 1,
+              "children": [
+                {
+                  "type": "text",
+                  "text": "This Website may place and access certain Cookies on your computer. VEHICLEHISTORY.EU uses Cookies to improve your experience of using the Website and to improve our range of products and services. ",
+                  "format": 0,
+                  "version": 1,
+                  "detail": 0,
+                  "mode": "normal",
+                  "style": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "listType": "number",
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "tag": "ol",
+          "start": 1,
+          "children": [
+            {
+              "type": "listitem",
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "version": 1,
+              "value": 1,
+              "children": [
+                {
+                  "type": "text",
+                  "text": "VEHICLEHISTORY.EU has carefully chosen these Cookies and has taken steps to ensure that your privacy is protected and respected at all times.",
+                  "format": 0,
+                  "version": 1,
+                  "detail": 0,
+                  "mode": "normal",
+                  "style": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "listType": "number",
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "tag": "ol",
+          "start": 1,
+          "children": [
+            {
+              "type": "listitem",
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "version": 1,
+              "value": 1,
+              "children": [
+                {
+                  "type": "text",
+                  "text": "The Website places Cookies on your computer, and this is one automatic system, you may or may not receive a message requesting your consent to set those Cookies. However, upon receipt of the Cookie, you are enabling VEHICLEHISTORY.EU to provide a better experience and service to you. You may, if you wish, block the placing of Cookies; however certain features of the Website may not function fully or as intended.",
+                  "format": 0,
+                  "version": 1,
+                  "detail": 0,
+                  "mode": "normal",
+                  "style": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "textFormat": 0,
+          "textStyle": "",
+          "children": [
+            {
+              "type": "text",
+              "text": "This Website may place the following Cookies:",
+              "format": 0,
+              "version": 1,
+              "detail": 0,
+              "mode": "normal",
+              "style": ""
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "textFormat": 0,
+          "textStyle": "",
+          "children": [
+            {
+              "type": "text",
+              "text": "Strictly necessary cookies",
+              "format": 1,
+              "version": 1,
+              "detail": 0,
+              "mode": "normal",
+              "style": ""
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "textFormat": 0,
+          "textStyle": "",
+          "children": [
+            {
+              "type": "text",
+              "text": "These are cookies that are required for the operation of our website. They include, for example, cookies that enable you to log into secure areas of our website, or remember which page a user is on.",
+              "format": 0,
+              "version": 1,
+              "detail": 0,
+              "mode": "normal",
+              "style": ""
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "textFormat": 0,
+          "textStyle": "",
+          "children": [
+            {
+              "type": "text",
+              "text": "Analytical/performance cookies",
+              "format": 1,
+              "version": 1,
+              "detail": 0,
+              "mode": "normal",
+              "style": ""
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "textFormat": 0,
+          "textStyle": "",
+          "children": [
+            {
+              "type": "text",
+              "text": "They allow us to recognise and count the number of visitors and to see how visitors move around our website when they are using it. This helps us to improve the way our website works, for example, by ensuring that users are finding what they are looking for easily.",
+              "format": 0,
+              "version": 1,
+              "detail": 0,
+              "mode": "normal",
+              "style": ""
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "textFormat": 0,
+          "textStyle": "",
+          "children": [
+            {
+              "type": "text",
+              "text": "Functionality Cookies",
+              "format": 1,
+              "version": 1,
+              "detail": 0,
+              "mode": "normal",
+              "style": ""
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "textFormat": 0,
+          "textStyle": "",
+          "children": [
+            {
+              "type": "text",
+              "text": "These are used to recognise you when you return to our website. This enables us to personalize our content for you, greet you by name and remember your preferences (for example, your choice of language or region).",
+              "format": 0,
+              "version": 1,
+              "detail": 0,
+              "mode": "normal",
+              "style": ""
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "textFormat": 0,
+          "textStyle": "",
+          "children": [
+            {
+              "type": "text",
+              "text": "Targeting cookies",
+              "format": 1,
+              "version": 1,
+              "detail": 0,
+              "mode": "normal",
+              "style": ""
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "textFormat": 0,
+          "textStyle": "",
+          "children": [
+            {
+              "type": "text",
+              "text": "These cookies record your visit to our website, the pages you have visited and the links you have followed. We will use this information to make our website and the advertising displayed on it more relevant to your interests. We may also share this information with third parties for this purpose.",
+              "format": 0,
+              "version": 1,
+              "detail": 0,
+              "mode": "normal",
+              "style": ""
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "listType": "number",
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "tag": "ol",
+          "start": 1,
+          "children": [
+            {
+              "type": "listitem",
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "version": 1,
+              "value": 1,
+              "children": [
+                {
+                  "type": "text",
+                  "text": "You can choose to enable or disable Cookies in your internet browser. By default, most internet browsers accept Cookies but this can be changed. For further details, please consult the help menu in your internet browser.",
+                  "format": 0,
+                  "version": 1,
+                  "detail": 0,
+                  "mode": "normal",
+                  "style": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "listType": "number",
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "tag": "ol",
+          "start": 1,
+          "children": [
+            {
+              "type": "listitem",
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "version": 1,
+              "value": 1,
+              "children": [
+                {
+                  "type": "text",
+                  "text": "You can choose to delete Cookies at any time; however you may lose any information that enables you to access the Website more quickly and efficiently including, but not limited to, personalisation settings.",
+                  "format": 0,
+                  "version": 1,
+                  "detail": 0,
+                  "mode": "normal",
+                  "style": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "listType": "number",
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "tag": "ol",
+          "start": 1,
+          "children": [
+            {
+              "type": "listitem",
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "version": 1,
+              "value": 1,
+              "children": [
+                {
+                  "type": "text",
+                  "text": "It is recommended that you ensure that your internet browser is up-to-date and that you consult the help and guidance provided by the developer of your internet browser if you are unsure about adjusting your privacy settings.",
+                  "format": 0,
+                  "version": 1,
+                  "detail": 0,
+                  "mode": "normal",
+                  "style": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "textFormat": 0,
+          "textStyle": "",
+          "children": [
+            {
+              "type": "text",
+              "text": "13. TRANSFERS OUTSIDE THE EUROPEAN ECONOMIC AREA",
+              "format": 1,
+              "version": 1,
+              "detail": 0,
+              "mode": "normal",
+              "style": ""
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "listType": "number",
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "tag": "ol",
+          "start": 1,
+          "children": [
+            {
+              "type": "listitem",
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "version": 1,
+              "value": 1,
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Data which we collect from you may be stored and processed in and transferred to countries outside of the European Economic Area (EEA). For example, this could occur if our servers are located in a country outside the EEA or one of our service providers is situated in a country outside the EEA.",
+                  "format": 0,
+                  "version": 1,
+                  "detail": 0,
+                  "mode": "normal",
+                  "style": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "listType": "number",
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "tag": "ol",
+          "start": 1,
+          "children": [
+            {
+              "type": "listitem",
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "version": 1,
+              "value": 1,
+              "children": [
+                {
+                  "type": "text",
+                  "text": "We may also share information with our group companies, some of which are located outside the EEA.",
+                  "format": 0,
+                  "version": 1,
+                  "detail": 0,
+                  "mode": "normal",
+                  "style": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "listType": "number",
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "tag": "ol",
+          "start": 1,
+          "children": [
+            {
+              "type": "listitem",
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "version": 1,
+              "value": 1,
+              "children": [
+                {
+                  "type": "text",
+                  "text": "These countries may not have data protection laws equivalent to those in force in the EEA. If we transfer Data outside the EEA in this way, we will take steps with the aim of ensuring that your privacy rights continue to be protected as outlined in this privacy policy. You expressly agree to such transfers of Data.",
+                  "format": 0,
+                  "version": 1,
+                  "detail": 0,
+                  "mode": "normal",
+                  "style": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "textFormat": 0,
+          "textStyle": "",
+          "children": [
+            {
+              "type": "text",
+              "text": "14. GENERAL",
+              "format": 1,
+              "version": 1,
+              "detail": 0,
+              "mode": "normal",
+              "style": ""
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "listType": "number",
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "tag": "ol",
+          "start": 1,
+          "children": [
+            {
+              "type": "listitem",
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "version": 1,
+              "value": 1,
+              "children": [
+                {
+                  "type": "text",
+                  "text": "You may not transfer any of your rights under this privacy policy to any other person. We may transfer our rights under this privacy policy where we reasonably believe your rights will not be affected.",
+                  "format": 0,
+                  "version": 1,
+                  "detail": 0,
+                  "mode": "normal",
+                  "style": ""
+                }
+              ]
+            },
+            {
+              "type": "listitem",
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "version": 1,
+              "value": 1,
+              "children": [
+                {
+                  "type": "text",
+                  "text": "If any court or competent authority finds that any provision of this privacy policy (or part of any provision) is invalid, illegal or unenforceable, that provision or part-provision will, to the extent required, be deemed to be deleted, and the validity and enforceability of the other provisions of this privacy policy will not be affected.",
+                  "format": 0,
+                  "version": 1,
+                  "detail": 0,
+                  "mode": "normal",
+                  "style": ""
+                }
+              ]
+            },
+            {
+              "type": "listitem",
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "version": 1,
+              "value": 1,
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Unless otherwise agreed, no delay, act or omission by a party in exercising any right or remedy will be deemed a waiver of that, or any other, right or remedy.",
+                  "format": 0,
+                  "version": 1,
+                  "detail": 0,
+                  "mode": "normal",
+                  "style": ""
+                }
+              ]
+            },
+            {
+              "type": "listitem",
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "version": 1,
+              "value": 1,
+              "children": [
+                {
+                  "type": "text",
+                  "text": "This Agreement will be governed by and interpreted according to the law of the European Union.",
+                  "format": 0,
+                  "version": 1,
+                  "detail": 0,
+                  "mode": "normal",
+                  "style": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "textFormat": 0,
+          "textStyle": "",
+          "children": [
+            {
+              "type": "text",
+              "text": "15. CHANGES TO THIS PRIVACY POLICY",
+              "format": 1,
+              "version": 1,
+              "detail": 0,
+              "mode": "normal",
+              "style": ""
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "textFormat": 0,
+          "textStyle": "",
+          "children": [
+            {
+              "type": "text",
+              "text": "VEHICLEHISTORY.EU reserves the right to change this privacy policy as we may deem necessary from time to time or as may be required by law. Any changes will be immediately posted on the Website and you are deemed to have accepted the terms of the privacy policy on your first use of the Website following the alterations.",
+              "format": 0,
+              "version": 1,
+              "detail": 0,
+              "mode": "normal",
+              "style": ""
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "textFormat": 0,
+          "textStyle": "",
+          "children": [
+            {
+              "type": "text",
+              "text": "If you have any questions or need any information, please contact us by email: ",
+              "format": 0,
+              "version": 1,
+              "detail": 0,
+              "mode": "normal",
+              "style": ""
+            },
+            {
+              "type": "text",
+              "text": "info[@]vehiclehistory.eu",
+              "format": 1,
+              "version": 1,
+              "detail": 0,
+              "mode": "normal",
+              "style": ""
+            },
+            {
+              "type": "text",
+              "text": ".",
+              "format": 0,
+              "version": 1,
+              "detail": 0,
+              "mode": "normal",
+              "style": ""
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "textFormat": 0,
+          "textStyle": "",
+          "children": [
+            {
+              "type": "text",
+              "text": "Thank you for choosing VEHICLEHISTORY.EU",
+              "format": 0,
+              "version": 1,
+              "detail": 0,
+              "mode": "normal",
+              "style": ""
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "terms-of-service": {
+    "root": {
+      "type": "root",
+      "direction": "ltr",
+      "format": "",
+      "indent": 0,
+      "version": 1,
+      "children": [
+        {
+          "type": "heading",
+          "tag": "h1",
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "type": "text",
+              "text": "Terms of use and conditions of website VEHICLEHISTORY.EU.",
+              "format": 0,
+              "version": 1,
+              "detail": 0,
+              "mode": "normal",
+              "style": ""
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "textFormat": 0,
+          "textStyle": "",
+          "children": [
+            {
+              "type": "text",
+              "text": "We thank you for the preference in using our sites, products and services.",
+              "format": 0,
+              "version": 1,
+              "detail": 0,
+              "mode": "normal",
+              "style": ""
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "textFormat": 0,
+          "textStyle": "",
+          "children": [
+            {
+              "type": "text",
+              "text": "By accessing our website, you expressly agree to all terms of use and conditions. Please read the terms and conditions carefully.",
+              "format": 0,
+              "version": 1,
+              "detail": 0,
+              "mode": "normal",
+              "style": ""
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "textFormat": 0,
+          "textStyle": "",
+          "children": [
+            {
+              "type": "text",
+              "text": "The website www.vehiclehistory.eu (“VEHICLEHISTORY.EU”) and its subdomains are the exclusive property of VEHICLEHISTORY.EU, and have as main objective offer its users vehicle history reports to facilitate the process of making informed decisions in the process of buying and selling used European vehicles.",
+              "format": 0,
+              "version": 1,
+              "detail": 0,
+              "mode": "normal",
+              "style": ""
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "textFormat": 0,
+          "textStyle": "",
+          "children": [
+            {
+              "type": "text",
+              "text": "1. Website and Intellectual Property Content",
+              "format": 1,
+              "version": 1,
+              "detail": 0,
+              "mode": "normal",
+              "style": ""
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "listType": "number",
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "tag": "ol",
+          "start": 1,
+          "children": [
+            {
+              "type": "listitem",
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "version": 1,
+              "value": 1,
+              "children": [
+                {
+                  "type": "text",
+                  "text": "“Site content” means all information on this site, including text, images, illustrations, graphic design, web design, software, products and services described.",
+                  "format": 0,
+                  "version": 1,
+                  "detail": 0,
+                  "mode": "normal",
+                  "style": ""
+                }
+              ]
+            },
+            {
+              "type": "listitem",
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "version": 1,
+              "value": 1,
+              "children": [
+                {
+                  "type": "text",
+                  "text": "All the content of this site is protected by copyright and related rights, and Industrial property rights, under European Union laws, international conventions and other laws, and cannot be used outside the conditions Accepted on this site and without express consent from European Car Inspection Ltd. (“ECI”).",
+                  "format": 0,
+                  "version": 1,
+                  "detail": 0,
+                  "mode": "normal",
+                  "style": ""
+                }
+              ]
+            },
+            {
+              "type": "listitem",
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "version": 1,
+              "value": 1,
+              "children": [
+                {
+                  "type": "text",
+                  "text": "The intellectual property rights of all the contents of the site VEHICLEHISTORY.EU, which are not of external supply and as such duly identified, are belonging to VEHICLEHISTORY.EU, including the information, the tools, the graphic design of the pages on the Internet, with all its components, and all the figures: graphics or texts. The content on this site may not be copied, altered, distributed or saved without express prior authorisation from VEHICLEHISTORY.EU.",
+                  "format": 0,
+                  "version": 1,
+                  "detail": 0,
+                  "mode": "normal",
+                  "style": ""
+                }
+              ]
+            },
+            {
+              "type": "listitem",
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "version": 1,
+              "value": 1,
+              "children": [
+                {
+                  "type": "text",
+                  "text": "All texts, images, illustrations, photographs, advertising, trademarks and other elements of the content of the site are protected by law and duly licensed, and expressly prohibited any copying, reproduction, dissemination or transmission, use, modification, sale, publication, distribution or any other use, wholly or partially, commercial or non-commercial, whatever means used, except with express authorisation. It is strictly prohibited to use the site for illegal purposes or any other that may be considered harmful to the image of VEHICLEHISTORY.EU on the national or international market.",
+                  "format": 0,
+                  "version": 1,
+                  "detail": 0,
+                  "mode": "normal",
+                  "style": ""
+                }
+              ]
+            },
+            {
+              "type": "listitem",
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "version": 1,
+              "value": 1,
+              "children": [
+                {
+                  "type": "text",
+                  "text": "VEHICLEHISTORY.EU rejects any responsibility for the usurpation and misuse of the above mentioned elements. Exceptions to this prohibition are free uses authorized by law, namely the right of quotation, provided that clearly identified its origin. The usurpation, counterfeiting, exploitation of the content usurped or counterdone, illegitimate identification and unfair competition are criminally punishable. VEHICLEHISTORY.EU reserves the right to prosecute the authors of any copying, reproduction or other unauthorized use of their content(s) by third parties.",
+                  "format": 0,
+                  "version": 1,
+                  "detail": 0,
+                  "mode": "normal",
+                  "style": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "textFormat": 0,
+          "textStyle": "",
+          "children": [
+            {
+              "type": "text",
+              "text": "2. Exclusion of Liability",
+              "format": 1,
+              "version": 1,
+              "detail": 0,
+              "mode": "normal",
+              "style": ""
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "listType": "number",
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "tag": "ol",
+          "start": 1,
+          "children": [
+            {
+              "type": "listitem",
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "version": 1,
+              "value": 1,
+              "children": [
+                {
+                  "type": "text",
+                  "text": "VEHICLEHISTORY.EU does not control or manage the information, products or services of the content provided by third parties on the site VEHICLEHISTORY.EU and its subdomains, as well as links to other sites on the Internet, so it cannot be responsible for errors of any kind, or incorrect data, of these sites and/or content, including their policies and privacy practices. The inclusion of content provided by third parties and links to VEHICLEHISTORY.EU sites and their subdomains does not imply acceptance of existing content or an association with their owners.",
+                  "format": 0,
+                  "version": 1,
+                  "detail": 0,
+                  "mode": "normal",
+                  "style": ""
+                }
+              ]
+            },
+            {
+              "type": "listitem",
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "version": 1,
+              "value": 1,
+              "children": [
+                {
+                  "type": "text",
+                  "text": "VEHICLEHISTORY.EU disclaims any liability for any direct, indirect and/or incidental damages resulting from the use or inability to use the materials contained in this site, as well as not controlling or responsible for Any illegal, offensive or defamatory conduct of your users.",
+                  "format": 0,
+                  "version": 1,
+                  "detail": 0,
+                  "mode": "normal",
+                  "style": ""
+                }
+              ]
+            },
+            {
+              "type": "listitem",
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "version": 1,
+              "value": 1,
+              "children": [
+                {
+                  "type": "text",
+                  "text": "The electronic publications contained in this site are subject to European law, in so far as they are applicable to them, in particular for the purposes of responsibility for the facts, opinions, articles and comments of persons or bodies duly as well as for the protection of sources and other duties, rights and freedoms applicable to the written press.",
+                  "format": 0,
+                  "version": 1,
+                  "detail": 0,
+                  "mode": "normal",
+                  "style": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "textFormat": 0,
+          "textStyle": "",
+          "children": [
+            {
+              "type": "text",
+              "text": "3. User Duties and Prohibited Uses",
+              "format": 1,
+              "version": 1,
+              "detail": 0,
+              "mode": "normal",
+              "style": ""
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "listType": "number",
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "tag": "ol",
+          "start": 1,
+          "children": [
+            {
+              "type": "listitem",
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "version": 1,
+              "value": 1,
+              "children": [
+                {
+                  "type": "text",
+                  "text": "The user may download, use or copy material strictly for personal use, keeping VEHICLEHISTORY.EU holder of the respective copyrights.",
+                  "format": 0,
+                  "version": 1,
+                  "detail": 0,
+                  "mode": "normal",
+                  "style": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "listType": "number",
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "tag": "ol",
+          "start": 1,
+          "children": [
+            {
+              "type": "listitem",
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "version": 1,
+              "value": 1,
+              "children": [
+                {
+                  "type": "text",
+                  "text": "The user is obliged not to attack or illicitly use the VEHICLEHISTORY.EU systems or sites and their subdomains, being liable and supporting all costs associated with the illicit actions assigned to it. Among others, they are considered as illicit actions: ",
+                  "format": 0,
+                  "version": 1,
+                  "detail": 0,
+                  "mode": "normal",
+                  "style": ""
+                },
+                {
+                  "type": "text",
+                  "text": " Access to an unauthorized area/account and its information;",
+                  "format": 0,
+                  "version": 1,
+                  "detail": 0,
+                  "mode": "normal",
+                  "style": ""
+                },
+                {
+                  "type": "text",
+                  "text": "Test and evaluate the vulnerability of the system and break the installed security;",
+                  "format": 0,
+                  "version": 1,
+                  "detail": 0,
+                  "mode": "normal",
+                  "style": ""
+                },
+                {
+                  "type": "text",
+                  "text": "Install or try to install a virus on the site and subdomains;",
+                  "format": 0,
+                  "version": 1,
+                  "detail": 0,
+                  "mode": "normal",
+                  "style": ""
+                },
+                {
+                  "type": "text",
+                  "text": "Sending unsolicited emails that include promotions or advertising to products or services; and) trigger or attempt to unleash “denial of service” attacks (attempt to make the resources of a system unavailable to its users);",
+                  "format": 0,
+                  "version": 1,
+                  "detail": 0,
+                  "mode": "normal",
+                  "style": ""
+                },
+                {
+                  "type": "text",
+                  "text": "Other types of actions that attempt to change or change the forms and content of the services and products rendered.",
+                  "format": 0,
+                  "version": 1,
+                  "detail": 0,
+                  "mode": "normal",
+                  "style": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "listType": "number",
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "tag": "ol",
+          "start": 1,
+          "children": [
+            {
+              "type": "listitem",
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "version": 1,
+              "value": 1,
+              "children": [
+                {
+                  "type": "text",
+                  "text": " Access to an unauthorized area/account and its information;",
+                  "format": 0,
+                  "version": 1,
+                  "detail": 0,
+                  "mode": "normal",
+                  "style": ""
+                }
+              ]
+            },
+            {
+              "type": "listitem",
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "version": 1,
+              "value": 1,
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Test and evaluate the vulnerability of the system and break the installed security;",
+                  "format": 0,
+                  "version": 1,
+                  "detail": 0,
+                  "mode": "normal",
+                  "style": ""
+                }
+              ]
+            },
+            {
+              "type": "listitem",
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "version": 1,
+              "value": 1,
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Install or try to install a virus on the site and subdomains;",
+                  "format": 0,
+                  "version": 1,
+                  "detail": 0,
+                  "mode": "normal",
+                  "style": ""
+                }
+              ]
+            },
+            {
+              "type": "listitem",
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "version": 1,
+              "value": 1,
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Sending unsolicited emails that include promotions or advertising to products or services; and) trigger or attempt to unleash “denial of service” attacks (attempt to make the resources of a system unavailable to its users);",
+                  "format": 0,
+                  "version": 1,
+                  "detail": 0,
+                  "mode": "normal",
+                  "style": ""
+                }
+              ]
+            },
+            {
+              "type": "listitem",
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "version": 1,
+              "value": 1,
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Other types of actions that attempt to change or change the forms and content of the services and products rendered.",
+                  "format": 0,
+                  "version": 1,
+                  "detail": 0,
+                  "mode": "normal",
+                  "style": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "textFormat": 0,
+          "textStyle": "",
+          "children": [
+            {
+              "type": "text",
+              "text": "The user is obliged not to interfere or illicitly use the services available on the VEHICLEHISTORY.EU website and its subdomains, being liable and supporting all costs associated with illegal or irregular actions assigned to it.",
+              "format": 0,
+              "version": 1,
+              "detail": 0,
+              "mode": "normal",
+              "style": ""
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "textFormat": 0,
+          "textStyle": "",
+          "children": [
+            {
+              "type": "text",
+              "text": "4. Suspension or Interruption of Access",
+              "format": 1,
+              "version": 1,
+              "detail": 0,
+              "mode": "normal",
+              "style": ""
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "textFormat": 0,
+          "textStyle": "",
+          "children": [
+            {
+              "type": "text",
+              "text": "VEHICLEHISTORY.EU reserves the right to interrupt or suspend access to VEHICLEHISTORY.EU sites and their subdomains, and/or their services and products, for the period which it deems necessary, for any technical, administrative reasons , force majeure or others. Without prejudice to the provisions of the preceding paragraph, VEHICLEHISTORY.EU shall not be liable for any suspension or interruption of access, services or products which may occur because it is not attributable to it or is attributable to mere negligence.",
+              "format": 0,
+              "version": 1,
+              "detail": 0,
+              "mode": "normal",
+              "style": ""
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "textFormat": 0,
+          "textStyle": "",
+          "children": [
+            {
+              "type": "text",
+              "text": "5. SERVICES",
+              "format": 1,
+              "version": 1,
+              "detail": 0,
+              "mode": "normal",
+              "style": ""
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "listType": "number",
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "tag": "ol",
+          "start": 1,
+          "children": [
+            {
+              "type": "listitem",
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "version": 1,
+              "value": 1,
+              "children": [
+                {
+                  "type": "text",
+                  "text": "The user is aware that they may use the products and services only in the manner permitted by law, in accordance with the service restrictions applicable in each corresponding country.",
+                  "format": 0,
+                  "version": 1,
+                  "detail": 0,
+                  "mode": "normal",
+                  "style": ""
+                }
+              ]
+            },
+            {
+              "type": "listitem",
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "version": 1,
+              "value": 1,
+              "children": [
+                {
+                  "type": "text",
+                  "text": "VEHICLEHISTORY.EU reserves the right to interrupt, modify, suspend, exclude, amend, create, include, restrict or take any necessary action in relation to their products and services offered on the site, when necessary and/or in case of any suspected illicit act on the part of the user.",
+                  "format": 0,
+                  "version": 1,
+                  "detail": 0,
+                  "mode": "normal",
+                  "style": ""
+                }
+              ]
+            },
+            {
+              "type": "listitem",
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "version": 1,
+              "value": 1,
+              "children": [
+                {
+                  "type": "text",
+                  "text": "The alteration, modification, inclusion or exclusion of the services and/or products of the site is prohibited for illegal purposes, own benefit or any other, which may be considered harmful to the image of VEHICLEHISTORY.EU on the National and International market.",
+                  "format": 0,
+                  "version": 1,
+                  "detail": 0,
+                  "mode": "normal",
+                  "style": ""
+                }
+              ]
+            },
+            {
+              "type": "listitem",
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "version": 1,
+              "value": 1,
+              "children": [
+                {
+                  "type": "text",
+                  "text": "The user is aware that access to a vehicle history report (“VHR”) service will be charged only for a VHR where a valid vehicle identification number (“VIN”) is provided. Invalid VINs submitted shall return an error message and shall not incur any fees. Access to a VHR will also not be charged if a valid VIN is provided, but no data or few details of the VIN are found.",
+                  "format": 0,
+                  "version": 1,
+                  "detail": 0,
+                  "mode": "normal",
+                  "style": ""
+                }
+              ]
+            },
+            {
+              "type": "listitem",
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "version": 1,
+              "value": 1,
+              "children": [
+                {
+                  "type": "text",
+                  "text": "VEHICLEHISTORY.EU, is not liable for failures, damages or any types of hidden problems (not apparent or undetected) in the vehicle, being the sole responsibility of the seller or previous owner of the vehicle.",
+                  "format": 0,
+                  "version": 1,
+                  "detail": 0,
+                  "mode": "normal",
+                  "style": ""
+                }
+              ]
+            },
+            {
+              "type": "listitem",
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "version": 1,
+              "value": 1,
+              "children": [
+                {
+                  "type": "text",
+                  "text": "The user is aware that VEHICLEHISTORY.EU is only a vehicle history service provider, being the responsibility of the user for the contract, negotiation and payment of the vehicle to the seller, thereby exempting VEHICLEHISTORY.EU of any liability in this Act.",
+                  "format": 0,
+                  "version": 1,
+                  "detail": 0,
+                  "mode": "normal",
+                  "style": ""
+                }
+              ]
+            },
+            {
+              "type": "listitem",
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "version": 1,
+              "value": 1,
+              "children": [
+                {
+                  "type": "text",
+                  "text": "VEHICLEHISTORY.EU has limited liability only to the products and services it provides, not responsible for third party products and services, and may reimburse the user only to the limit corresponding to the Values of products and services contracted, in an individual way, not exceeding this limit.",
+                  "format": 0,
+                  "version": 1,
+                  "detail": 0,
+                  "mode": "normal",
+                  "style": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "textFormat": 0,
+          "textStyle": "",
+          "children": [
+            {
+              "type": "text",
+              "text": "6. Security Issues and Credit Cards",
+              "format": 1,
+              "version": 1,
+              "detail": 0,
+              "mode": "normal",
+              "style": ""
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "listType": "number",
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "tag": "ol",
+          "start": 1,
+          "children": [
+            {
+              "type": "listitem",
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "version": 1,
+              "value": 1,
+              "children": [
+                {
+                  "type": "text",
+                  "text": "The users of the site VEHICLEHISTORY.EU and its subdomains declare and guarantee that they know perfectly the characteristics and constraints, limitations and defects of the Internet, and in particular that data and information transmissions via Internet benefit only from a relative technical reliability, circulating in heterogeneous networks of diverse technical characteristics and capacities, which disturb access or make it impossible in certain periods. Users acknowledge that any site/portal is subject to interference of unauthorized third parties and which may consequently be interrupted, and that the information circulating on the Internet is not protected against any deviations (Free access), against possible viruses, and that any person is likely to create a link with access to the site/portal and/or the elements contained therein, accepting to take the inherent risks. VEHICLEHISTORY.EU may in no case be liable for incidental or voluntary damages suffered by users and provoked or not by third parties in the context of the use of the services provided on the site and Subdomains or other places on the Internet to which they have had access through it. VEHICLEHISTORY.EU is not liable for any damage that may be caused by the use of products and services, including virus contamination.",
+                  "format": 0,
+                  "version": 1,
+                  "detail": 0,
+                  "mode": "normal",
+                  "style": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "listType": "number",
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "tag": "ol",
+          "start": 1,
+          "children": [
+            {
+              "type": "listitem",
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "version": 1,
+              "value": 1,
+              "children": [
+                {
+                  "type": "text",
+                  "text": "It is safe to enter your personal data and credit card data in purchases of products and services made on VEHICLEHISTORY.EU websites, as they are stored on secure, password protected and restricted access systems. The sites of VEHICLEHISTORY.EU use data encryption techniques and use an external payment gateway, ensuring security during the process of purchasing your services.",
+                  "format": 0,
+                  "version": 1,
+                  "detail": 0,
+                  "mode": "normal",
+                  "style": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "listType": "number",
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "tag": "ol",
+          "start": 1,
+          "children": [
+            {
+              "type": "listitem",
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "version": 1,
+              "value": 1,
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Without prejudice to the commitment of confidentiality (which must be taken as a means obligation) concerning the use of personal data, VEHICLEHISTORY.EU alerts you that there are risks related to the use of the Internet, and it is possible that the data Personnel on the site can be picked up and/or transferred by third parties without any responsibility of VEHICLEHISTORY.EU.",
+                  "format": 0,
+                  "version": 1,
+                  "detail": 0,
+                  "mode": "normal",
+                  "style": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "textFormat": 0,
+          "textStyle": "",
+          "children": [
+            {
+              "type": "text",
+              "text": "7. Billing/Payment",
+              "format": 1,
+              "version": 1,
+              "detail": 0,
+              "mode": "normal",
+              "style": ""
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "textFormat": 0,
+          "textStyle": "",
+          "children": [
+            {
+              "type": "text",
+              "text": "The user may pay with credit card (e.g. MasterCard or Visa) or using an online payment service (e.g. Stripe, PayPal, Gumroad) or country specific Payment methods (if applicable). ",
+              "format": 0,
+              "version": 1,
+              "detail": 0,
+              "mode": "normal",
+              "style": ""
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "textFormat": 0,
+          "textStyle": "",
+          "children": [
+            {
+              "type": "text",
+              "text": "8. Indemnification",
+              "format": 1,
+              "version": 1,
+              "detail": 0,
+              "mode": "normal",
+              "style": ""
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "textFormat": 0,
+          "textStyle": "",
+          "children": [
+            {
+              "type": "text",
+              "text": "The user will indemnify and hold VEHICLEHISTORY.EU and its agents harmless from any claims, suits or damages, direct or indirect, arising out of the user’s use of VHRs not being compliant with these Terms and Conditions.",
+              "format": 0,
+              "version": 1,
+              "detail": 0,
+              "mode": "normal",
+              "style": ""
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "textFormat": 0,
+          "textStyle": "",
+          "children": [
+            {
+              "type": "text",
+              "text": "9. Modification",
+              "format": 1,
+              "version": 1,
+              "detail": 0,
+              "mode": "normal",
+              "style": ""
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "listType": "number",
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "tag": "ol",
+          "start": 1,
+          "children": [
+            {
+              "type": "listitem",
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "version": 1,
+              "value": 1,
+              "children": [
+                {
+                  "type": "text",
+                  "text": "VEHICLEHISTORY.EU reserves the right to amend or to supplement these Terms and Conditions after conclusion of the agreement, if this seems necessary and you will not be unreasonably disadvantaged and if this is not contrary to good faith.",
+                  "format": 0,
+                  "version": 1,
+                  "detail": 0,
+                  "mode": "normal",
+                  "style": ""
+                }
+              ]
+            },
+            {
+              "type": "listitem",
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "version": 1,
+              "value": 1,
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Ex-post changes of these Terms and Conditions will be regularly intended to improve our services in your interest, to react to a change in law or jurisprudence or to unforeseeable changes which – without revision or amendment – would complicate the execution of the agreement or make it impossible. Substantial changes of the Terms and Conditions valid upon conclusion of the agreement are excluded from the previously mentioned power to change the Terms and Conditions.",
+                  "format": 0,
+                  "version": 1,
+                  "detail": 0,
+                  "mode": "normal",
+                  "style": ""
+                }
+              ]
+            },
+            {
+              "type": "listitem",
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "version": 1,
+              "value": 1,
+              "children": [
+                {
+                  "type": "text",
+                  "text": "VEHICLEHISTORY.EU will notify users via email or in an otherwise suitable form, e.g. in form of a notice during the login process. Such notification will take place at least six weeks prior to the effectiveness of the intended changes. If a user does not object to such changes within the six weeks’ deadline, the changes shall come into force.",
+                  "format": 0,
+                  "version": 1,
+                  "detail": 0,
+                  "mode": "normal",
+                  "style": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "tag": "h2",
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "children": [
+            {
+              "type": "text",
+              "text": "10. Refunds & Disputes ",
+              "format": 0,
+              "version": 1,
+              "detail": 0,
+              "mode": "normal",
+              "style": ""
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "textFormat": 0,
+          "textStyle": "",
+          "children": [
+            {
+              "type": "text",
+              "text": "Vehicle History’s",
+              "format": 1,
+              "version": 1,
+              "detail": 0,
+              "mode": "normal",
+              "style": ""
+            },
+            {
+              "type": "text",
+              "text": " commitment to customer satisfaction extends to our refund policy for vehicle history reports and window stickers, which applies to specific conditions as outlined below:",
+              "format": 0,
+              "version": 1,
+              "detail": 0,
+              "mode": "normal",
+              "style": ""
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "textFormat": 0,
+          "textStyle": "",
+          "children": [
+            {
+              "type": "text",
+              "text": "Vehicle History Reports:",
+              "format": 1,
+              "version": 1,
+              "detail": 0,
+              "mode": "normal",
+              "style": ""
+            },
+            {
+              "type": "text",
+              "text": " A refund may or may NOT be granted under the following circumstances:",
+              "format": 0,
+              "version": 1,
+              "detail": 0,
+              "mode": "normal",
+              "style": ""
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "listType": "bullet",
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "tag": "ul",
+          "start": 1,
+          "children": [
+            {
+              "type": "listitem",
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "version": 1,
+              "value": 1,
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Substantially Inaccurate or Incomplete Information:",
+                  "format": 1,
+                  "version": 1,
+                  "detail": 0,
+                  "mode": "normal",
+                  "style": ""
+                },
+                {
+                  "type": "text",
+                  "text": " If the provided vehicle history report contains inaccuracies or lacks any data, a refund will NOT be considered.",
+                  "format": 0,
+                  "version": 1,
+                  "detail": 0,
+                  "mode": "normal",
+                  "style": ""
+                }
+              ]
+            },
+            {
+              "type": "listitem",
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "version": 1,
+              "value": 1,
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Unavailable Data:",
+                  "format": 1,
+                  "version": 1,
+                  "detail": 0,
+                  "mode": "normal",
+                  "style": ""
+                },
+                {
+                  "type": "text",
+                  "text": "In instances where we are unable to generate a report due to data unavailability, customers may be eligible for a refund.",
+                  "format": 0,
+                  "version": 1,
+                  "detail": 0,
+                  "mode": "normal",
+                  "style": ""
+                }
+              ]
+            },
+            {
+              "type": "listitem",
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "version": 1,
+              "value": 1,
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Paid multiple times for the same report",
+                  "format": 1,
+                  "version": 1,
+                  "detail": 0,
+                  "mode": "normal",
+                  "style": ""
+                },
+                {
+                  "type": "text",
+                  "text": ": If you accidentally make duplicate payments for a single vehicle history report within 14 days we will issue a full refund for the extra charges upon verification.",
+                  "format": 0,
+                  "version": 1,
+                  "detail": 0,
+                  "mode": "normal",
+                  "style": ""
+                }
+              ]
+            },
+            {
+              "type": "listitem",
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "version": 1,
+              "value": 1,
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Report didn’t generate at all:",
+                  "format": 1,
+                  "version": 1,
+                  "detail": 0,
+                  "mode": "normal",
+                  "style": ""
+                },
+                {
+                  "type": "text",
+                  "text": "If, after payment, the vehicle history report fails to generate and our customer support team fails to deliver the requested report in 48 hours, a full refund will be issued as per your original payment method.",
+                  "format": 0,
+                  "version": 1,
+                  "detail": 0,
+                  "mode": "normal",
+                  "style": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "textFormat": 0,
+          "textStyle": "",
+          "children": [
+            {
+              "type": "text",
+              "text": "Subscriptions:",
+              "format": 1,
+              "version": 1,
+              "detail": 0,
+              "mode": "normal",
+              "style": ""
+            },
+            {
+              "type": "text",
+              "text": "If you inadvertently purchased a subscription but have not generated any reports or window stickers, you can request a refund within 7 days of the subscription purchase, and we will process the refund promptly.",
+              "format": 0,
+              "version": 1,
+              "detail": 0,
+              "mode": "normal",
+              "style": ""
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "textFormat": 0,
+          "textStyle": "",
+          "children": [
+            {
+              "type": "text",
+              "text": "It is essential to note that once vehicle history reports or window stickers have been generated and delivered for a specific VIN, they become non-refundable. Customers seeking refunds must do so within 7 days of purchase and must provide valid documentation to support their claims. Eligible refund requests will be diligently reviewed and processed by our support team within 7 days.",
+              "format": 0,
+              "version": 1,
+              "detail": 0,
+              "mode": "normal",
+              "style": ""
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "textFormat": 0,
+          "textStyle": "",
+          "children": [
+            {
+              "type": "text",
+              "text": "11. General Terms",
+              "format": 1,
+              "version": 1,
+              "detail": 0,
+              "mode": "normal",
+              "style": ""
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "listType": "bullet",
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "tag": "ul",
+          "start": 1,
+          "children": [
+            {
+              "type": "listitem",
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "version": 1,
+              "value": 1,
+              "children": [
+                {
+                  "type": "text",
+                  "text": "VEHICLEHISTORY.EU, warns that any communication or message sent by e-mail, transmission of files, inclusion of data or other form of unsolicited communication shall be considered non-confidential and free of any use restrictions.",
+                  "format": 0,
+                  "version": 1,
+                  "detail": 0,
+                  "mode": "normal",
+                  "style": ""
+                }
+              ]
+            },
+            {
+              "type": "listitem",
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "version": 1,
+              "value": 1,
+              "children": [
+                {
+                  "type": "text",
+                  "text": "VEHICLEHISTORY.EU is deemed authorized to use all the ideas, concepts, techniques or know-how contained in the communications with the site, free of charge and irrespective of its purpose, including the development, production or Marketing of products on the basis of this information.",
+                  "format": 0,
+                  "version": 1,
+                  "detail": 0,
+                  "mode": "normal",
+                  "style": ""
+                }
+              ]
+            },
+            {
+              "type": "listitem",
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "version": 1,
+              "value": 1,
+              "children": [
+                {
+                  "type": "text",
+                  "text": "VEHICLEHISTORY.EU site may contain access to links to other external sites whose content and privacy policies are not the responsibility of VEHICLEHISTORY.EU, so we recommend that, when redirected to external sites, the Users should always consult their privacy policies before they provide their data or information.",
+                  "format": 0,
+                  "version": 1,
+                  "detail": 0,
+                  "mode": "normal",
+                  "style": ""
+                }
+              ]
+            },
+            {
+              "type": "listitem",
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "version": 1,
+              "value": 1,
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Users,, when accessing the VEHICLEHISTORY.EU site and their subdomains, expressly authorize VEHICLEHISTORY.EU to make changes and changes in this term of use and conditions of products and services, agreeing expressly with all the terms described, when necessary and without prior authorisation.",
+                  "format": 0,
+                  "version": 1,
+                  "detail": 0,
+                  "mode": "normal",
+                  "style": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "textFormat": 0,
+          "textStyle": "",
+          "children": [
+            {
+              "type": "text",
+              "text": "If you have any questions or need any information regarding these Terms, please contact us by email: info[@]vehiclehistory.eu.",
+              "format": 0,
+              "version": 1,
+              "detail": 0,
+              "mode": "normal",
+              "style": ""
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "version": 1,
+          "textFormat": 0,
+          "textStyle": "",
+          "children": [
+            {
+              "type": "text",
+              "text": "Thank you for choosing VEHICLEHISTORY.EU",
+              "format": 0,
+              "version": 1,
+              "detail": 0,
+              "mode": "normal",
+              "style": ""
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

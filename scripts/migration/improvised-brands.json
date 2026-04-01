@@ -1,0 +1,92 @@
+[
+  {
+    "slug": "audi",
+    "name": "Audi",
+    "url": "https://vehiclehistory.eu/vin-decoder/audi",
+    "sectionCount": 2,
+    "meta": {
+      "title": "Audi VIN Decoder – Lookup Audi VIN Number Check Europe",
+      "description": "Check your Audi VIN number with the most powerful Audi VIN decoder tool. Fast, reliable & trusted across Europe. Decode your car history report now"
+    },
+    "sections": {
+      "hero": {
+        "type": "hero",
+        "heading": "Decode Your Audi VIN with Our Instant Lookup Tool",
+        "description": "Take advantage of the Free Audi VIN Decoder tool to validate car specifications. Get access to any vehicle’s year, make, model, trim, engine and more details. Generate a comprehensive vehicle history report that includes detailed information about mileage, damages, and other recorded data pertaining to the car.",
+        "features": [
+          {
+            "text": "Auction Records",
+            "tag": "h4"
+          },
+          {
+            "text": "Title & Condition",
+            "tag": "h4"
+          },
+          {
+            "text": "Vehicles Sales History",
+            "tag": "h4"
+          },
+          {
+            "text": "Title Records",
+            "tag": "h4"
+          },
+          {
+            "text": "Accident Records",
+            "tag": "h4"
+          }
+        ],
+        "_improvised": {
+          "tagline": "Trusted European VIN Intelligence",
+          "tagLevel": "span",
+          "heading": "Decode Your Audi VIN with Our **Instant Lookup Tool**"
+        }
+      },
+      "whatIsVin": {
+        "type": "what-is-vin",
+        "heading": "What is an Audi VIN Number?",
+        "headingLevel": "h2",
+        "paragraphs": [
+          "An Audi VIN is a Vehicle Identification Number, a unique alphanumeric code that serves as the fingerprint of an Audi vehicle. This 17-digit sequence of characters provides valuable information about the car’s origins, specifications, and history.",
+          "By utilizing an Audi VIN Check, individuals can uncover essential details about any Audi car such as the country of origin, manufacturer, model, engine type, body style, and even historical data such as mileage, maintenance records, accident history and more.",
+          "The Audi VIN Lookup acts as a powerful tool for buyers, dealerships, vehicle enthusiasts, and researchers, offering a comprehensive understanding of Audi’s identity and allowing for informed decision-making and appreciation of the vehicle’s legacy."
+        ],
+        "imageUrl": "https://vehiclehistory.eu/wp-content/uploads/2023/05/vin-decoder.svg",
+        "imageAlt": "Audi VIN Number location",
+        "_improvised": {
+          "tagline": "Your Vehicle's Unique Identity",
+          "tagLevel": "span",
+          "heading": "What is an **Audi VIN** Number?"
+        }
+      }
+    },
+    "_changes": [
+      {
+        "section": "hero",
+        "diffs": [
+          {
+            "field": "tagline",
+            "value": "Trusted European VIN Intelligence"
+          },
+          {
+            "field": "heading",
+            "value": "Decode Your Audi VIN with Our **Instant Lookup Tool**"
+          }
+        ]
+      },
+      {
+        "section": "whatIsVin",
+        "diffs": [
+          {
+            "field": "tagline",
+            "value": "Your Vehicle's Unique Identity"
+          },
+          {
+            "field": "heading",
+            "value": "What is an **Audi VIN** Number?"
+          }
+        ]
+      }
+    ],
+    "_improvisedAt": "2026-04-01T13:23:42.951Z"
+  }
+]

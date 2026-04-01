@@ -1,0 +1,1646 @@
+[
+  {
+    "country": "Albania",
+    "slug": "albania",
+    "issues": [
+      {
+        "type": "MISSING_H2",
+        "field": "Why You Should Check the VIN in Albania",
+        "detail": "H2 on live site not found on localhost"
+      },
+      {
+        "type": "MISSING_H3",
+        "field": "2 H3(s)",
+        "detail": "\"Buyers\", \"Sellers\""
+      }
+    ],
+    "warnings": [],
+    "passes": [
+      "Title: \"Albania VIN Check: Check Accident & CountryOrigin History 🚗\"",
+      "Meta description present (154 chars)",
+      "H1 matches: \"Check a Vehicle's Odometer Reading in Albania Through a VIN \""
+    ],
+    "countSummary": "h1: 1/1 ✅  h2: 10/11 ⚠️  h3: 15/17 ⚠️  h4: 28/32 🔴",
+    "liveCounts": {
+      "h1": 1,
+      "h2": 11,
+      "h3": 17,
+      "h4": 32
+    },
+    "localCounts": {
+      "h1": 1,
+      "h2": 10,
+      "h3": 15,
+      "h4": 28
+    },
+    "liveTitle": "Albania VIN Check: Check Accident & CountryOrigin History 🚗",
+    "localTitle": "Albania VIN Check: Check Accident & CountryOrigin History 🚗",
+    "liveHeadingCount": 61,
+    "localHeadingCount": 54
+  },
+  {
+    "country": "Andorra",
+    "slug": "andorra",
+    "issues": [
+      {
+        "type": "MISSING_H2",
+        "field": "What to Expect From an Andorra VIN Check Report",
+        "detail": "H2 on live site not found on localhost"
+      },
+      {
+        "type": "MISSING_H2",
+        "field": "Why Buyers and Sellers Prefer Our Andorra VIN Check Service",
+        "detail": "H2 on live site not found on localhost"
+      },
+      {
+        "type": "MISSING_H3",
+        "field": "8 H3(s)",
+        "detail": "\"Detailed Vehicle Specifications\", \"Technical Specifications\", \"Title and Condition\", \"Theft Records\", \"Lien and Loan Records\", \"Accident Records\", \"Sales History\", \"Auction Records\""
+      }
+    ],
+    "warnings": [],
+    "passes": [
+      "Title: \"Andorra VIN Check - Verify Theft, Accident, and Title Status\"",
+      "Meta description present (157 chars)",
+      "H1 matches: \"Instantly Get a Full Vehicle History Report in Andorra\""
+    ],
+    "countSummary": "h1: 1/1 ✅  h2: 9/11 ⚠️  h3: 13/21 🔴  h4: 15/37 🔴",
+    "liveCounts": {
+      "h1": 1,
+      "h2": 11,
+      "h3": 21,
+      "h4": 37
+    },
+    "localCounts": {
+      "h1": 1,
+      "h2": 9,
+      "h3": 13,
+      "h4": 15
+    },
+    "liveTitle": "Andorra VIN Check - Verify Theft, Accident, and Title Status",
+    "localTitle": "Andorra VIN Check - Verify Theft, Accident, and Title Status",
+    "liveHeadingCount": 70,
+    "localHeadingCount": 38
+  },
+  {
+    "country": "Austria",
+    "slug": "austria",
+    "issues": [
+      {
+        "type": "MISSING_H2",
+        "field": "Why Should You Check the VIN in Austria?",
+        "detail": "H2 on live site not found on localhost"
+      }
+    ],
+    "warnings": [],
+    "passes": [
+      "Title: \"Austria VIN Check: See the Car’s Odometer Reading 🚗\"",
+      "Meta description present (155 chars)",
+      "H1 matches: \"Check Car History With an Austria VIN Check\""
+    ],
+    "countSummary": "h1: 1/1 ✅  h2: 10/11 ⚠️  h3: 16/16 ✅  h4: 31/31 ✅",
+    "liveCounts": {
+      "h1": 1,
+      "h2": 11,
+      "h3": 16,
+      "h4": 31
+    },
+    "localCounts": {
+      "h1": 1,
+      "h2": 10,
+      "h3": 16,
+      "h4": 31
+    },
+    "liveTitle": "Austria VIN Check: See the Car’s Odometer Reading 🚗",
+    "localTitle": "Austria VIN Check: See the Car’s Odometer Reading 🚗",
+    "liveHeadingCount": 59,
+    "localHeadingCount": 58
+  },
+  {
+    "country": "Belarus",
+    "slug": "belarus",
+    "issues": [
+      {
+        "type": "MISSING_H2",
+        "field": "Why You Should Check the VIN in Belarus",
+        "detail": "H2 on live site not found on localhost"
+      },
+      {
+        "type": "MISSING_H3",
+        "field": "2 H3(s)",
+        "detail": "\"Buyers\", \"Sellers\""
+      }
+    ],
+    "warnings": [],
+    "passes": [
+      "Title: \"Belarus VIN Check: Check Mileage & Damage History 🚗\"",
+      "Meta description present (152 chars)",
+      "H1 matches: \"Check Vehicle's Background by VIN in Belarus\""
+    ],
+    "countSummary": "h1: 1/1 ✅  h2: 10/11 ⚠️  h3: 14/16 ⚠️  h4: 28/32 🔴",
+    "liveCounts": {
+      "h1": 1,
+      "h2": 11,
+      "h3": 16,
+      "h4": 32
+    },
+    "localCounts": {
+      "h1": 1,
+      "h2": 10,
+      "h3": 14,
+      "h4": 28
+    },
+    "liveTitle": "Belarus VIN Check: Check Mileage & Damage History 🚗",
+    "localTitle": "Belarus VIN Check: Check Mileage & Damage History 🚗",
+    "liveHeadingCount": 60,
+    "localHeadingCount": 53
+  },
+  {
+    "country": "Belgium",
+    "slug": "belgium",
+    "issues": [
+      {
+        "type": "MISSING_H2",
+        "field": "Why Should You Check a Vehicle in Belgium?",
+        "detail": "H2 on live site not found on localhost"
+      },
+      {
+        "type": "MISSING_H3",
+        "field": "3 H3(s)",
+        "detail": "\"Step 1: Enter the VIN\", \"Step 2: Click \"Search VIN\"\", \"Step 3: Get the Report\""
+      }
+    ],
+    "warnings": [],
+    "passes": [
+      "Title: \"Belgium VIN Check: Check Mileage & Maintenance History 🚗\"",
+      "Meta description present (154 chars)",
+      "H1 matches: \"Check the Car's History With Belgium VIN Check\""
+    ],
+    "countSummary": "h1: 1/1 ✅  h2: 10/11 ⚠️  h3: 12/15 🔴  h4: 30/30 ✅",
+    "liveCounts": {
+      "h1": 1,
+      "h2": 11,
+      "h3": 15,
+      "h4": 30
+    },
+    "localCounts": {
+      "h1": 1,
+      "h2": 10,
+      "h3": 12,
+      "h4": 30
+    },
+    "liveTitle": "Belgium VIN Check: Check Mileage & Maintenance History 🚗",
+    "localTitle": "Belgium VIN Check: Check Mileage & Maintenance History 🚗",
+    "liveHeadingCount": 57,
+    "localHeadingCount": 53
+  },
+  {
+    "country": "Bosnia and Herzegovina",
+    "slug": "bosnia-hertzegovina",
+    "issues": [],
+    "warnings": [],
+    "passes": [
+      "Title: \"Check Car’s Origin with Bosnia and Herzegovina VIN Check\"",
+      "Meta description present (151 chars)",
+      "H1 matches: \"Check the Vehicle's History in Bosnia and Herzegovina by VIN\""
+    ],
+    "countSummary": "h1: 1/1 ✅  h2: 11/11 ✅  h3: 16/16 ✅  h4: 32/32 ✅",
+    "liveCounts": {
+      "h1": 1,
+      "h2": 11,
+      "h3": 16,
+      "h4": 32
+    },
+    "localCounts": {
+      "h1": 1,
+      "h2": 11,
+      "h3": 16,
+      "h4": 32
+    },
+    "liveTitle": "Check Car’s Origin with Bosnia and Herzegovina VIN Check",
+    "localTitle": "Check Car’s Origin with Bosnia and Herzegovina VIN Check",
+    "liveHeadingCount": 60,
+    "localHeadingCount": 60
+  },
+  {
+    "country": "Bulgaria",
+    "slug": "bulgaria",
+    "issues": [
+      {
+        "type": "MISSING_H2",
+        "field": "Why You Should Check the VIN in Bulgaria",
+        "detail": "H2 on live site not found on localhost"
+      },
+      {
+        "type": "MISSING_H3",
+        "field": "2 H3(s)",
+        "detail": "\"Buyers\", \"Sellers\""
+      }
+    ],
+    "warnings": [],
+    "passes": [
+      "Title: \"Bulgaria VIN Check: Check Year of Manufacture & Mileage\"",
+      "Meta description present (151 chars)",
+      "H1 matches: \"Examine a Vehicle's Mileage Records in Bulgaria With a Vehic\""
+    ],
+    "countSummary": "h1: 1/1 ✅  h2: 10/11 ⚠️  h3: 15/17 ⚠️  h4: 30/34 🔴",
+    "liveCounts": {
+      "h1": 1,
+      "h2": 11,
+      "h3": 17,
+      "h4": 34
+    },
+    "localCounts": {
+      "h1": 1,
+      "h2": 10,
+      "h3": 15,
+      "h4": 30
+    },
+    "liveTitle": "Bulgaria VIN Check: Check Year of Manufacture & Mileage",
+    "localTitle": "Bulgaria VIN Check: Check Year of Manufacture & Mileage",
+    "liveHeadingCount": 63,
+    "localHeadingCount": 56
+  },
+  {
+    "country": "Croatia",
+    "slug": "croatia",
+    "issues": [
+      {
+        "type": "MISSING_H2",
+        "field": "What Does a VIN Number Mean?",
+        "detail": "H2 on live site not found on localhost"
+      },
+      {
+        "type": "MISSING_H2",
+        "field": "Buying a Used Car in Croatia? Run a VIN Check Now",
+        "detail": "H2 on live site not found on localhost"
+      },
+      {
+        "type": "MISSING_H3",
+        "field": "3 H3(s)",
+        "detail": "\"Where to Find the VIN Number\", \"For Buyers\", \"For Sellers and Dealers\""
+      }
+    ],
+    "warnings": [],
+    "passes": [
+      "Title: \"Croatia VIN Check - Accident, Mileage, and Theft Records\"",
+      "Meta description present (157 chars)",
+      "H1 matches: \"Get a VIN Check in Croatia: Know the Truth Before You Buy\""
+    ],
+    "countSummary": "h1: 1/1 ✅  h2: 9/11 ⚠️  h3: 17/20 🔴  h4: 26/38 🔴",
+    "liveCounts": {
+      "h1": 1,
+      "h2": 11,
+      "h3": 20,
+      "h4": 38
+    },
+    "localCounts": {
+      "h1": 1,
+      "h2": 9,
+      "h3": 17,
+      "h4": 26
+    },
+    "liveTitle": "Croatia VIN Check - Accident, Mileage, and Theft Records",
+    "localTitle": "Croatia VIN Check - Accident, Mileage, and Theft Records",
+    "liveHeadingCount": 70,
+    "localHeadingCount": 53
+  },
+  {
+    "country": "Czech Republic",
+    "slug": "czech-republic",
+    "issues": [],
+    "warnings": [],
+    "passes": [
+      "Title: \"Czech VIN Check: Check the Odometer Reading in Seconds 🚗\"",
+      "Meta description present (151 chars)",
+      "H1 matches: \"Check Vehicle's Past Records in Czech by VIN Lookup\""
+    ],
+    "countSummary": "h1: 1/1 ✅  h2: 10/10 ✅  h3: 17/17 ✅  h4: 30/30 ✅",
+    "liveCounts": {
+      "h1": 1,
+      "h2": 10,
+      "h3": 17,
+      "h4": 30
+    },
+    "localCounts": {
+      "h1": 1,
+      "h2": 10,
+      "h3": 17,
+      "h4": 30
+    },
+    "liveTitle": "Czech VIN Check: Check the Odometer Reading in Seconds 🚗",
+    "localTitle": "Czech VIN Check: Check the Odometer Reading in Seconds 🚗",
+    "liveHeadingCount": 58,
+    "localHeadingCount": 58
+  },
+  {
+    "country": "Denmark",
+    "slug": "denmark",
+    "issues": [
+      {
+        "type": "MISSING_H2",
+        "field": "How to Lookup a VIN Number in Denmark",
+        "detail": "H2 on live site not found on localhost"
+      },
+      {
+        "type": "MISSING_H2",
+        "field": "The Benefits of Running a VIN Check in Denmark",
+        "detail": "H2 on live site not found on localhost"
+      },
+      {
+        "type": "MISSING_H2",
+        "field": "Why Our Denmark VIN Check Tool is the Best- in-Class",
+        "detail": "H2 on live site not found on localhost"
+      },
+      {
+        "type": "MISSING_H3",
+        "field": "5 H3(s)",
+        "detail": "\"Step 1: Enter the VIN\", \"Step 2: Click \"Search VIN\"\", \"Step 3: Get a Detailed Vehicle History Report\", \"For Buyers\", \"For Sellers and Dealers\""
+      }
+    ],
+    "warnings": [],
+    "passes": [
+      "Title: \"Denmark VIN Check - Get Instant Vehicle History Reports\"",
+      "Meta description present (157 chars)",
+      "H1 matches: \"Denmark VIN Check: See a Vehicle's Past in Seconds\""
+    ],
+    "countSummary": "h1: 1/1 ✅  h2: 8/11 🔴  h3: 15/20 🔴  h4: 26/38 🔴",
+    "liveCounts": {
+      "h1": 1,
+      "h2": 11,
+      "h3": 20,
+      "h4": 38
+    },
+    "localCounts": {
+      "h1": 1,
+      "h2": 8,
+      "h3": 15,
+      "h4": 26
+    },
+    "liveTitle": "Denmark VIN Check - Get Instant Vehicle History Reports",
+    "localTitle": "Denmark VIN Check - Get Instant Vehicle History Reports",
+    "liveHeadingCount": 70,
+    "localHeadingCount": 50
+  },
+  {
+    "country": "Estonia",
+    "slug": "estonia",
+    "issues": [
+      {
+        "type": "MISSING_H2",
+        "field": "Why Get a VIN Number Check in Estonia: Risk Stats & Facts",
+        "detail": "H2 on live site not found on localhost"
+      },
+      {
+        "type": "MISSING_H2",
+        "field": "What Does a VIN Stand For?",
+        "detail": "H2 on live site not found on localhost"
+      },
+      {
+        "type": "MISSING_H2",
+        "field": "What to Expect With a VIN Check in Estonia",
+        "detail": "H2 on live site not found on localhost"
+      },
+      {
+        "type": "MISSING_H2",
+        "field": "The #1 Got-To VIN Check Tool in Estonia",
+        "detail": "H2 on live site not found on localhost"
+      },
+      {
+        "type": "MISSING_H3",
+        "field": "9 H3(s)",
+        "detail": "\"Where to Find the VIN on Your Car\", \"Detailed Vehicle Specification\", \"Technical Specifications\", \"Title and Condition\", \"Theft Records\", \"Lien and Loan Records\", \"Accident Records\", \"Sales History\", \"Auction Records\""
+      }
+    ],
+    "warnings": [],
+    "passes": [
+      "Title: \"Estonia VIN Check: Check Title Status & Damage Records\"",
+      "Meta description present (157 chars)",
+      "H1 matches: \"Get a Vehicle History Report in Estonia by VIN Lookup\""
+    ],
+    "countSummary": "h1: 1/1 ✅  h2: 7/11 🔴  h3: 10/19 🔴  h4: 10/38 🔴",
+    "liveCounts": {
+      "h1": 1,
+      "h2": 11,
+      "h3": 19,
+      "h4": 38
+    },
+    "localCounts": {
+      "h1": 1,
+      "h2": 7,
+      "h3": 10,
+      "h4": 10
+    },
+    "liveTitle": "Estonia VIN Check: Check Title Status & Damage Records",
+    "localTitle": "Estonia VIN Check: Check Title Status & Damage Records",
+    "liveHeadingCount": 69,
+    "localHeadingCount": 28
+  },
+  {
+    "country": "Finland",
+    "slug": "finland",
+    "issues": [
+      {
+        "type": "MISSING_H2",
+        "field": "The Information to Expect with a Finland VIN Check",
+        "detail": "H2 on live site not found on localhost"
+      },
+      {
+        "type": "MISSING_H2",
+        "field": "Finland VIN Check: Free and Paid Services Compared",
+        "detail": "H2 on live site not found on localhost"
+      },
+      {
+        "type": "MISSING_H2",
+        "field": "The Benefits of Running a VIN Check in Finland",
+        "detail": "H2 on live site not found on localhost"
+      },
+      {
+        "type": "MISSING_H3",
+        "field": "10 H3(s)",
+        "detail": "\"Detailed Vehicle Specification\", \"Technical Specifications\", \"Title and Condition\", \"Theft Records\", \"Lien and Loan Records\", \"Accident Records\", \"Sales History\", \"Auction Records\", \"For Buyers\", \"For Sellers and Dealers\""
+      }
+    ],
+    "warnings": [],
+    "passes": [
+      "Title: \"Finland VIN Check - Get Complete Vehicle History Reports\"",
+      "Meta description present (152 chars)",
+      "H1 matches: \"Finland VIN Check: Get Full Vehicle History in Seconds\""
+    ],
+    "countSummary": "h1: 1/1 ✅  h2: 8/11 🔴  h3: 10/20 🔴  h4: 16/38 🔴",
+    "liveCounts": {
+      "h1": 1,
+      "h2": 11,
+      "h3": 20,
+      "h4": 38
+    },
+    "localCounts": {
+      "h1": 1,
+      "h2": 8,
+      "h3": 10,
+      "h4": 16
+    },
+    "liveTitle": "Finland VIN Check - Get Complete Vehicle History Reports",
+    "localTitle": "Finland VIN Check - Get Complete Vehicle History Reports",
+    "liveHeadingCount": 70,
+    "localHeadingCount": 35
+  },
+  {
+    "country": "France",
+    "slug": "france",
+    "issues": [],
+    "warnings": [],
+    "passes": [
+      "Title: \"France VIN Check – Check Origin and Damage History 🚗\"",
+      "Meta description present (153 chars)",
+      "H1 matches: \"Examine the Vehicle's Past Record in France With Through VIN\""
+    ],
+    "countSummary": "h1: 1/1 ✅  h2: 11/11 ✅  h3: 15/15 ✅  h4: 30/30 ✅",
+    "liveCounts": {
+      "h1": 1,
+      "h2": 11,
+      "h3": 15,
+      "h4": 30
+    },
+    "localCounts": {
+      "h1": 1,
+      "h2": 11,
+      "h3": 15,
+      "h4": 30
+    },
+    "liveTitle": "France VIN Check – Check Origin and Damage History 🚗",
+    "localTitle": "France VIN Check – Check Origin and Damage History 🚗",
+    "liveHeadingCount": 57,
+    "localHeadingCount": 57
+  },
+  {
+    "country": "Germany",
+    "slug": "germany",
+    "issues": [],
+    "warnings": [],
+    "passes": [
+      "Title: \"Germany VIN Check: Check Vehicle’s Past History in Seconds\"",
+      "Meta description present (155 chars)",
+      "H1 matches: \"Examine a Vehicle's Past Through a Germany VIN Check\""
+    ],
+    "countSummary": "h1: 1/1 ✅  h2: 11/11 ✅  h3: 17/17 ✅  h4: 32/32 ✅",
+    "liveCounts": {
+      "h1": 1,
+      "h2": 11,
+      "h3": 17,
+      "h4": 32
+    },
+    "localCounts": {
+      "h1": 1,
+      "h2": 11,
+      "h3": 17,
+      "h4": 32
+    },
+    "liveTitle": "Germany VIN Check: Check Vehicle’s Past History in Seconds",
+    "localTitle": "Germany VIN Check: Check Vehicle’s Past History in Seconds",
+    "liveHeadingCount": 61,
+    "localHeadingCount": 61
+  },
+  {
+    "country": "Greece",
+    "slug": "greece",
+    "issues": [
+      {
+        "type": "MISSING_H2",
+        "field": "What to Expect with a Greece VIN Check",
+        "detail": "H2 on live site not found on localhost"
+      },
+      {
+        "type": "MISSING_H3",
+        "field": "8 H3(s)",
+        "detail": "\"Detailed Vehicle Specification\", \"Technical Specifications\", \"Title and Condition\", \"Theft Records\", \"Lien and Loan Records\", \"Accident Records\", \"Sales History\", \"Auction Records\""
+      }
+    ],
+    "warnings": [],
+    "passes": [
+      "Title: \"Greece VIN Check - Lookup Accident History, Theft & More\"",
+      "Meta description present (160 chars)",
+      "H1 matches: \"Greece VIN Check: Avoid Risky Cars and Save More\""
+    ],
+    "countSummary": "h1: 1/1 ✅  h2: 10/11 ⚠️  h3: 12/20 🔴  h4: 22/38 🔴",
+    "liveCounts": {
+      "h1": 1,
+      "h2": 11,
+      "h3": 20,
+      "h4": 38
+    },
+    "localCounts": {
+      "h1": 1,
+      "h2": 10,
+      "h3": 12,
+      "h4": 22
+    },
+    "liveTitle": "Greece VIN Check - Lookup Accident History, Theft & More",
+    "localTitle": "Greece VIN Check - Lookup Accident History, Theft & More",
+    "liveHeadingCount": 70,
+    "localHeadingCount": 45
+  },
+  {
+    "country": "Holy See",
+    "slug": "holy-see",
+    "issues": [
+      {
+        "type": "MISSING_H2",
+        "field": "What Does a VIN Number Mean",
+        "detail": "H2 on live site not found on localhost"
+      },
+      {
+        "type": "MISSING_H2",
+        "field": "The Information to Expect With a VIN Check in the Holy See",
+        "detail": "H2 on live site not found on localhost"
+      },
+      {
+        "type": "MISSING_H2",
+        "field": "The Benefits of Running a VIN Number Check in the Holy See",
+        "detail": "H2 on live site not found on localhost"
+      },
+      {
+        "type": "MISSING_H3",
+        "field": "11 H3(s)",
+        "detail": "\"Where to Look For the VIN Number\", \"Detailed Vehicle Specification\", \"Technical Specifications\", \"Title and Condition\", \"Theft Records\", \"Lien and Loan Records\", \"Accident Records\", \"Sales History\", \"Auction Records\", \"For Buyers\", \"For Sellers and Dealers\""
+      }
+    ],
+    "warnings": [],
+    "passes": [
+      "Title: \"Holy See VIN Check: Lookup Vehicle Specs & Past Records\"",
+      "Meta description present (155 chars)",
+      "H1 matches: \"Run a VIN Check in the Holy See: Avoid Bad Used Car Deals\""
+    ],
+    "countSummary": "h1: 1/1 ✅  h2: 8/11 🔴  h3: 9/20 🔴  h4: 10/38 🔴",
+    "liveCounts": {
+      "h1": 1,
+      "h2": 11,
+      "h3": 20,
+      "h4": 38
+    },
+    "localCounts": {
+      "h1": 1,
+      "h2": 8,
+      "h3": 9,
+      "h4": 10
+    },
+    "liveTitle": "Holy See VIN Check: Lookup Vehicle Specs & Past Records",
+    "localTitle": "Holy See VIN Check: Lookup Vehicle Specs & Past Records",
+    "liveHeadingCount": 70,
+    "localHeadingCount": 28
+  },
+  {
+    "country": "Hungary",
+    "slug": "hungary",
+    "issues": [
+      {
+        "type": "MISSING_H2",
+        "field": "What Does a VIN Number Mean?",
+        "detail": "H2 on live site not found on localhost"
+      },
+      {
+        "type": "MISSING_H2",
+        "field": "Why Running a VIN Check in Hungary Matters",
+        "detail": "H2 on live site not found on localhost"
+      },
+      {
+        "type": "MISSING_H3",
+        "field": "3 H3(s)",
+        "detail": "\"Where to Find the VIN Number\", \"For Buyers\", \"For Sellers and Dealers\""
+      }
+    ],
+    "warnings": [],
+    "passes": [
+      "Title: \"Hungary VIN Check - Instant Vehicle History Check 🚗\"",
+      "Meta description present (159 chars)",
+      "H1 matches: \"Run a VIN Check in Hungary: Don't Buy Blind\""
+    ],
+    "countSummary": "h1: 1/1 ✅  h2: 9/11 ⚠️  h3: 18/21 🔴  h4: 24/36 🔴",
+    "liveCounts": {
+      "h1": 1,
+      "h2": 11,
+      "h3": 21,
+      "h4": 36
+    },
+    "localCounts": {
+      "h1": 1,
+      "h2": 9,
+      "h3": 18,
+      "h4": 24
+    },
+    "liveTitle": "Hungary VIN Check - Instant Vehicle History Check 🚗",
+    "localTitle": "Hungary VIN Check - Instant Vehicle History Check 🚗",
+    "liveHeadingCount": 69,
+    "localHeadingCount": 52
+  },
+  {
+    "country": "Iceland",
+    "slug": "iceland",
+    "issues": [],
+    "warnings": [],
+    "passes": [
+      "Title: \"Iceland VIN Check – Check Vehicle’s Odometer Reading🚗\"",
+      "Meta description present (151 chars)",
+      "H1 matches: \"Understand a Vehicle's Past Records With a VIN Check in Icel\""
+    ],
+    "countSummary": "h1: 1/1 ✅  h2: 11/11 ✅  h3: 17/17 ✅  h4: 32/32 ✅",
+    "liveCounts": {
+      "h1": 1,
+      "h2": 11,
+      "h3": 17,
+      "h4": 32
+    },
+    "localCounts": {
+      "h1": 1,
+      "h2": 11,
+      "h3": 17,
+      "h4": 32
+    },
+    "liveTitle": "Iceland VIN Check – Check Vehicle’s Odometer Reading🚗",
+    "localTitle": "Iceland VIN Check – Check Vehicle’s Odometer Reading🚗",
+    "liveHeadingCount": 61,
+    "localHeadingCount": 61
+  },
+  {
+    "country": "Ireland",
+    "slug": "ireland",
+    "issues": [
+      {
+        "type": "MISSING_H2",
+        "field": "How to Get a VIN Check in Ireland",
+        "detail": "H2 on live site not found on localhost"
+      },
+      {
+        "type": "MISSING_H3",
+        "field": "3 H3(s)",
+        "detail": "\"Step 1: Enter the VIN\", \"Step 2: Click \"Search VIN\"\", \"Step 3: Get a Detailed Vehicle History Report\""
+      }
+    ],
+    "warnings": [],
+    "passes": [
+      "Title: \"VIN Check Ireland – Verify Used Car History Instantly\"",
+      "Meta description present (149 chars)",
+      "H1 matches: \"Get Full History Report in Ireland by VIN\""
+    ],
+    "countSummary": "h1: 1/1 ✅  h2: 10/11 ⚠️  h3: 18/22 🔴  h4: 34/37 🔴",
+    "liveCounts": {
+      "h1": 1,
+      "h2": 11,
+      "h3": 22,
+      "h4": 37
+    },
+    "localCounts": {
+      "h1": 1,
+      "h2": 10,
+      "h3": 18,
+      "h4": 34
+    },
+    "liveTitle": "VIN Check Ireland – Verify Used Car History Instantly",
+    "localTitle": "VIN Check Ireland – Verify Used Car History Instantly",
+    "liveHeadingCount": 71,
+    "localHeadingCount": 63
+  },
+  {
+    "country": "Italy",
+    "slug": "italy",
+    "issues": [],
+    "warnings": [],
+    "passes": [
+      "Title: \"Italy VIN Check | Get Vehicle History Report & Specification\"",
+      "Meta description present (152 chars)",
+      "H1 matches: \"See Vehicle's Past Records in Italy With a VIN Check\""
+    ],
+    "countSummary": "h1: 1/1 ✅  h2: 11/11 ✅  h3: 18/18 ✅  h4: 34/34 ✅",
+    "liveCounts": {
+      "h1": 1,
+      "h2": 11,
+      "h3": 18,
+      "h4": 34
+    },
+    "localCounts": {
+      "h1": 1,
+      "h2": 11,
+      "h3": 18,
+      "h4": 34
+    },
+    "liveTitle": "Italy VIN Check | Get Vehicle History Report & Specification",
+    "localTitle": "Italy VIN Check | Get Vehicle History Report & Specification",
+    "liveHeadingCount": 64,
+    "localHeadingCount": 64
+  },
+  {
+    "country": "Latvia",
+    "slug": "latvia",
+    "issues": [
+      {
+        "type": "MISSING_H2",
+        "field": "What Does a VIN Number Mean",
+        "detail": "H2 on live site not found on localhost"
+      },
+      {
+        "type": "MISSING_H2",
+        "field": "How to Conduct a Latvia VIN Check",
+        "detail": "H2 on live site not found on localhost"
+      },
+      {
+        "type": "MISSING_H2",
+        "field": "Comparing Our Free and Paid VIN Check in Latvia",
+        "detail": "H2 on live site not found on localhost"
+      },
+      {
+        "type": "MISSING_H2",
+        "field": "Why Running a VIN Check in Latvia is Nonnegotiable",
+        "detail": "H2 on live site not found on localhost"
+      },
+      {
+        "type": "MISSING_H3",
+        "field": "6 H3(s)",
+        "detail": "\"Where to Look For the VIN Number\", \"Step 1: Enter the VIN\", \"Step 2: Click \"Search VIN\"\", \"Step 3: Get a Detailed Vehicle History Report\", \"For Buyers\", \"Sellers and Dealers\""
+      }
+    ],
+    "warnings": [],
+    "passes": [
+      "Title: \"Latvia VIN Check - Free VIN Decoder & Vehicle History Check\"",
+      "Meta description present (158 chars)",
+      "H1 matches: \"Latvia VIN Check: Avoid Scams and Hidden Problems\""
+    ],
+    "countSummary": "h1: 1/1 ✅  h2: 7/11 🔴  h3: 15/21 🔴  h4: 26/38 🔴",
+    "liveCounts": {
+      "h1": 1,
+      "h2": 11,
+      "h3": 21,
+      "h4": 38
+    },
+    "localCounts": {
+      "h1": 1,
+      "h2": 7,
+      "h3": 15,
+      "h4": 26
+    },
+    "liveTitle": "Latvia VIN Check - Free VIN Decoder & Vehicle History Check",
+    "localTitle": "Latvia VIN Check - Free VIN Decoder & Vehicle History Check",
+    "liveHeadingCount": 71,
+    "localHeadingCount": 49
+  },
+  {
+    "country": "Liechtenstein",
+    "slug": "liechtenstein",
+    "issues": [
+      {
+        "type": "MISSING_H2",
+        "field": "Common Used Car Tricks to Watch Out For in Liechtenstein",
+        "detail": "H2 on live site not found on localhost"
+      },
+      {
+        "type": "MISSING_H2",
+        "field": "Check VIN Numbers in Your Country",
+        "detail": "H2 on live site not found on localhost"
+      }
+    ],
+    "warnings": [],
+    "passes": [
+      "Title: \"Liechtenstein VIN Check - Accident History & Title Check\"",
+      "Meta description present (157 chars)",
+      "H1 matches: \"Instantly Lookup Vehicle History in Liechtenstein\""
+    ],
+    "countSummary": "h1: 1/1 ✅  h2: 9/11 ⚠️  h3: 19/19 ✅  h4: 34/38 🔴",
+    "liveCounts": {
+      "h1": 1,
+      "h2": 11,
+      "h3": 19,
+      "h4": 38
+    },
+    "localCounts": {
+      "h1": 1,
+      "h2": 9,
+      "h3": 19,
+      "h4": 34
+    },
+    "liveTitle": "Liechtenstein VIN Check - Accident History & Title Check",
+    "localTitle": "Liechtenstein VIN Check - Accident History & Title Check",
+    "liveHeadingCount": 69,
+    "localHeadingCount": 63
+  },
+  {
+    "country": "Lithuania",
+    "slug": "lithuania",
+    "issues": [
+      {
+        "type": "MISSING_H2",
+        "field": "What Does a VIN Number Mean?",
+        "detail": "H2 on live site not found on localhost"
+      },
+      {
+        "type": "MISSING_H2",
+        "field": "What’s Contained in Our Lithuania VIN Check Report",
+        "detail": "H2 on live site not found on localhost"
+      },
+      {
+        "type": "MISSING_H2",
+        "field": "The Benefits of a VIN Check to Lithuanian Buyers and Sellers",
+        "detail": "H2 on live site not found on localhost"
+      },
+      {
+        "type": "MISSING_H3",
+        "field": "11 H3(s)",
+        "detail": "\"Where to Look For the VIN Number\", \"Detailed Vehicle Specification\", \"Technical Specifications\", \"Title and Condition\", \"Theft Records\", \"Lien and Loan Records\", \"Accident Records\", \"Sales History\", \"Auction Records\", \"For Buyers\", \"For Sellers and Dealers\""
+      }
+    ],
+    "warnings": [],
+    "passes": [
+      "Title: \"Lithuania VIN Check - Get Title, Accident & Mileage Records\"",
+      "Meta description present (158 chars)",
+      "H1 matches: \"Get a Full VIN History in Lithuania: Avoid Costly Surprises\""
+    ],
+    "countSummary": "h1: 1/1 ✅  h2: 8/11 🔴  h3: 7/18 🔴  h4: 10/38 🔴",
+    "liveCounts": {
+      "h1": 1,
+      "h2": 11,
+      "h3": 18,
+      "h4": 38
+    },
+    "localCounts": {
+      "h1": 1,
+      "h2": 8,
+      "h3": 7,
+      "h4": 10
+    },
+    "liveTitle": "Lithuania VIN Check - Get Title, Accident & Mileage Records",
+    "localTitle": "Lithuania VIN Check - Get Title, Accident & Mileage Records",
+    "liveHeadingCount": 68,
+    "localHeadingCount": 26
+  },
+  {
+    "country": "Luxembourg",
+    "slug": "luxembourg",
+    "issues": [
+      {
+        "type": "MISSING_H2",
+        "field": "How to Get a Luxembourg VIN Check Report",
+        "detail": "H2 on live site not found on localhost"
+      },
+      {
+        "type": "MISSING_H3",
+        "field": "3 H3(s)",
+        "detail": "\"Step 1: Enter the VIN\", \"Step 2: Click \"Search VIN\"\", \"Step 3: Get a Detailed Vehicle History Report\""
+      }
+    ],
+    "warnings": [],
+    "passes": [
+      "Title: \"Luxembourg VIN Check - Get any Vehicle History by VIN 🚗\"",
+      "Meta description present (150 chars)",
+      "H1 matches: \"Protect Your Money: Run a VIN Check in Luxembourg First\""
+    ],
+    "countSummary": "h1: 1/1 ✅  h2: 10/11 ⚠️  h3: 17/20 🔴  h4: 37/37 ✅",
+    "liveCounts": {
+      "h1": 1,
+      "h2": 11,
+      "h3": 20,
+      "h4": 37
+    },
+    "localCounts": {
+      "h1": 1,
+      "h2": 10,
+      "h3": 17,
+      "h4": 37
+    },
+    "liveTitle": "Luxembourg VIN Check - Get any Vehicle History by VIN 🚗",
+    "localTitle": "Luxembourg VIN Check - Get any Vehicle History by VIN 🚗",
+    "liveHeadingCount": 69,
+    "localHeadingCount": 65
+  },
+  {
+    "country": "Malta",
+    "slug": "malta",
+    "issues": [
+      {
+        "type": "MISSING_H2",
+        "field": "VIN Number Meaning on Cars",
+        "detail": "H2 on live site not found on localhost"
+      },
+      {
+        "type": "MISSING_H2",
+        "field": "What Does Our Malta Vehicle History Report Reveal?",
+        "detail": "H2 on live site not found on localhost"
+      },
+      {
+        "type": "MISSING_H3",
+        "field": "9 H3(s)",
+        "detail": "\"Where to Look For the VIN Number\", \"Detailed Vehicle Specification\", \"Technical Specifications\", \"Title and Condition\", \"Theft Records\", \"Lien and Loan Records\", \"Accident Records\", \"Sales History\", \"Auction Records\""
+      }
+    ],
+    "warnings": [],
+    "passes": [
+      "Title: \"Malta VIN Check - Title Status, Accident & Theft Records\"",
+      "Meta description present (154 chars)",
+      "H1 matches: \"Check a Vehicle History in Malta: Buy Total Peace of Mind\""
+    ],
+    "countSummary": "h1: 1/1 ✅  h2: 9/11 ⚠️  h3: 9/18 🔴  h4: 16/38 🔴",
+    "liveCounts": {
+      "h1": 1,
+      "h2": 11,
+      "h3": 18,
+      "h4": 38
+    },
+    "localCounts": {
+      "h1": 1,
+      "h2": 9,
+      "h3": 9,
+      "h4": 16
+    },
+    "liveTitle": "Malta VIN Check - Title Status, Accident & Theft Records",
+    "localTitle": "Malta VIN Check - Title Status, Accident & Theft Records",
+    "liveHeadingCount": 68,
+    "localHeadingCount": 35
+  },
+  {
+    "country": "Moldova",
+    "slug": "moldova",
+    "issues": [
+      {
+        "type": "MISSING_H2",
+        "field": "How to Lookup a VIN Number in Moldova",
+        "detail": "H2 on live site not found on localhost"
+      },
+      {
+        "type": "MISSING_H2",
+        "field": "Lookup VIN Numbers in Other European Countries",
+        "detail": "H2 on live site not found on localhost"
+      },
+      {
+        "type": "MISSING_H3",
+        "field": "3 H3(s)",
+        "detail": "\"Step 1: Enter the VIN\", \"Step 2: Click \"Search VIN\"\", \"Step 3: Get a Detailed Vehicle History Report\""
+      }
+    ],
+    "warnings": [],
+    "passes": [
+      "Title: \"Moldova VIN Check - Get Complete Vehicle History Reports\"",
+      "Meta description present (137 chars)",
+      "H1 matches: \"Get a Detailed Vehicle History Report in Moldova\""
+    ],
+    "countSummary": "h1: 1/1 ✅  h2: 9/11 ⚠️  h3: 19/22 🔴  h4: 37/37 ✅",
+    "liveCounts": {
+      "h1": 1,
+      "h2": 11,
+      "h3": 22,
+      "h4": 37
+    },
+    "localCounts": {
+      "h1": 1,
+      "h2": 9,
+      "h3": 19,
+      "h4": 37
+    },
+    "liveTitle": "Moldova VIN Check - Get Complete Vehicle History Reports",
+    "localTitle": "Moldova VIN Check - Get Complete Vehicle History Reports",
+    "liveHeadingCount": 71,
+    "localHeadingCount": 66
+  },
+  {
+    "country": "Monaco",
+    "slug": "monaco",
+    "issues": [
+      {
+        "type": "MISSING_H2",
+        "field": "Why You Should Choose Our Monaco VIN Check Tool",
+        "detail": "H2 on live site not found on localhost"
+      },
+      {
+        "type": "MISSING_H2",
+        "field": "Odometer Rollback",
+        "detail": "H2 on live site not found on localhost"
+      }
+    ],
+    "warnings": [
+      {
+        "type": "TAG_CHANGE",
+        "field": "\"For Buyers\"",
+        "live": "h3",
+        "local": "h4"
+      },
+      {
+        "type": "TAG_CHANGE",
+        "field": "\"For Sellers and Dealers\"",
+        "live": "h3",
+        "local": "h4"
+      }
+    ],
+    "passes": [
+      "Title: \"Monaco VIN Check - Accident, Theft, and Title Information\"",
+      "Meta description present (156 chars)",
+      "H1 matches: \"Monaco VIN Check | Complete History Report\""
+    ],
+    "countSummary": "h1: 1/1 ✅  h2: 9/11 ⚠️  h3: 17/19 ⚠️  h4: 22/36 🔴",
+    "liveCounts": {
+      "h1": 1,
+      "h2": 11,
+      "h3": 19,
+      "h4": 36
+    },
+    "localCounts": {
+      "h1": 1,
+      "h2": 9,
+      "h3": 17,
+      "h4": 22
+    },
+    "liveTitle": "Monaco VIN Check - Accident, Theft, and Title Information",
+    "localTitle": "Monaco VIN Check - Accident, Theft, and Title Information",
+    "liveHeadingCount": 67,
+    "localHeadingCount": 49
+  },
+  {
+    "country": "Montenegro",
+    "slug": "montenegro",
+    "issues": [
+      {
+        "type": "MISSING_H2",
+        "field": "Why Should You Check a VIN in Montenegro",
+        "detail": "H2 on live site not found on localhost"
+      },
+      {
+        "type": "MISSING_H3",
+        "field": "3 H3(s)",
+        "detail": "\"Step 1: Enter the VIN\", \"Step 2: Click \"Search VIN\"\", \"Step 3: Get a Detailed Vehicle History Report\""
+      }
+    ],
+    "warnings": [],
+    "passes": [
+      "Title: \"Montenegro VIN Check: Check Country of Origin and Age\"",
+      "Meta description present (145 chars)",
+      "H1 matches: \"See Vehicle's Past Records in Montenegro With a VIN\""
+    ],
+    "countSummary": "h1: 1/1 ✅  h2: 10/11 ⚠️  h3: 14/17 🔴  h4: 32/32 ✅",
+    "liveCounts": {
+      "h1": 1,
+      "h2": 11,
+      "h3": 17,
+      "h4": 32
+    },
+    "localCounts": {
+      "h1": 1,
+      "h2": 10,
+      "h3": 14,
+      "h4": 32
+    },
+    "liveTitle": "Montenegro VIN Check: Check Country of Origin and Age",
+    "localTitle": "Montenegro VIN Check: Check Country of Origin and Age",
+    "liveHeadingCount": 61,
+    "localHeadingCount": 57
+  },
+  {
+    "country": "North Macedonia",
+    "slug": "north-macedonia",
+    "issues": [
+      {
+        "type": "MISSING_H2",
+        "field": "Why You Need to Check a VIN in North Macedonia",
+        "detail": "H2 on live site not found on localhost"
+      }
+    ],
+    "warnings": [],
+    "passes": [
+      "Title: \"North Macedonia VIN Check – Examine Vehicle Age 🚗\"",
+      "Meta description present (145 chars)",
+      "H1 matches: \"Check a Car's Past in North Macedonia With a VIN\""
+    ],
+    "countSummary": "h1: 1/1 ✅  h2: 10/11 ⚠️  h3: 17/17 ✅  h4: 26/32 🔴",
+    "liveCounts": {
+      "h1": 1,
+      "h2": 11,
+      "h3": 17,
+      "h4": 32
+    },
+    "localCounts": {
+      "h1": 1,
+      "h2": 10,
+      "h3": 17,
+      "h4": 26
+    },
+    "liveTitle": "North Macedonia VIN Check – Examine Vehicle Age 🚗",
+    "localTitle": "North Macedonia VIN Check – Examine Vehicle Age 🚗",
+    "liveHeadingCount": 61,
+    "localHeadingCount": 54
+  },
+  {
+    "country": "Norway",
+    "slug": "norway",
+    "issues": [
+      {
+        "type": "MISSING_H2",
+        "field": "Why Get a Norway VIN Number Check: Risk Stats & Facts",
+        "detail": "H2 on live site not found on localhost"
+      },
+      {
+        "type": "MISSING_H2",
+        "field": "VIN Number Meaning",
+        "detail": "H2 on live site not found on localhost"
+      },
+      {
+        "type": "MISSING_H2",
+        "field": "Get VIN Checks in Other Nations",
+        "detail": "H2 on live site not found on localhost"
+      },
+      {
+        "type": "MISSING_H3",
+        "field": "4 H3(s)",
+        "detail": "\"Where to Find the VIN Number\", \"Step 1: Enter the VIN\", \"Step 2: Click \"Search VIN\"\", \"Step 3: Get a Detailed Vehicle History Report\""
+      }
+    ],
+    "warnings": [],
+    "passes": [
+      "Title: \"Norway VIN Check - Get Instant Vehicle History Report Online\"",
+      "Meta description present (151 chars)",
+      "H1 matches: \"Run a VIN Check in Norway: Buy With Confidence\""
+    ],
+    "countSummary": "h1: 1/1 ✅  h2: 8/11 🔴  h3: 16/20 🔴  h4: 32/38 🔴",
+    "liveCounts": {
+      "h1": 1,
+      "h2": 11,
+      "h3": 20,
+      "h4": 38
+    },
+    "localCounts": {
+      "h1": 1,
+      "h2": 8,
+      "h3": 16,
+      "h4": 32
+    },
+    "liveTitle": "Norway VIN Check - Get Instant Vehicle History Report Online",
+    "localTitle": "Norway VIN Check - Get Instant Vehicle History Report Online",
+    "liveHeadingCount": 70,
+    "localHeadingCount": 57
+  },
+  {
+    "country": "Poland",
+    "slug": "poland",
+    "issues": [],
+    "warnings": [],
+    "passes": [
+      "Title: \"Poland VIN Check – Check Vehicle’s Year & Odometer 🚗\"",
+      "Meta description present (152 chars)",
+      "H1 matches: \"Check a Vehicle's Mileage by VIN Check in Poland\""
+    ],
+    "countSummary": "h1: 1/1 ✅  h2: 11/11 ✅  h3: 17/17 ✅  h4: 32/32 ✅",
+    "liveCounts": {
+      "h1": 1,
+      "h2": 11,
+      "h3": 17,
+      "h4": 32
+    },
+    "localCounts": {
+      "h1": 1,
+      "h2": 11,
+      "h3": 17,
+      "h4": 32
+    },
+    "liveTitle": "Poland VIN Check – Check Vehicle’s Year & Odometer 🚗",
+    "localTitle": "Poland VIN Check – Check Vehicle’s Year & Odometer 🚗",
+    "liveHeadingCount": 61,
+    "localHeadingCount": 61
+  },
+  {
+    "country": "Romania",
+    "slug": "romania",
+    "issues": [],
+    "warnings": [],
+    "passes": [
+      "Title: \"Romania VIN Check: Check Origin and Mileage Records 🚗\"",
+      "Meta description present (155 chars)",
+      "H1 matches: \"See Car Records and Specs in Romania by VIN\""
+    ],
+    "countSummary": "h1: 1/1 ✅  h2: 11/11 ✅  h3: 16/16 ✅  h4: 32/32 ✅",
+    "liveCounts": {
+      "h1": 1,
+      "h2": 11,
+      "h3": 16,
+      "h4": 32
+    },
+    "localCounts": {
+      "h1": 1,
+      "h2": 11,
+      "h3": 16,
+      "h4": 32
+    },
+    "liveTitle": "Romania VIN Check: Check Origin and Mileage Records 🚗",
+    "localTitle": "Romania VIN Check: Check Origin and Mileage Records 🚗",
+    "liveHeadingCount": 60,
+    "localHeadingCount": 60
+  },
+  {
+    "country": "Russia",
+    "slug": "russia",
+    "issues": [],
+    "warnings": [],
+    "passes": [
+      "Title: \"Russia VIN Check: Check Vehicle’s Records in Seconds\"",
+      "Meta description present (158 chars)",
+      "H1 matches: \"Understand the Vehicle's Past Through a Russia VIN Check\""
+    ],
+    "countSummary": "h1: 1/1 ✅  h2: 11/11 ✅  h3: 16/16 ✅  h4: 33/33 ✅",
+    "liveCounts": {
+      "h1": 1,
+      "h2": 11,
+      "h3": 16,
+      "h4": 33
+    },
+    "localCounts": {
+      "h1": 1,
+      "h2": 11,
+      "h3": 16,
+      "h4": 33
+    },
+    "liveTitle": "Russia VIN Check: Check Vehicle’s Records in Seconds",
+    "localTitle": "Russia VIN Check: Check Vehicle’s Records in Seconds",
+    "liveHeadingCount": 61,
+    "localHeadingCount": 61
+  },
+  {
+    "country": "San Marino",
+    "slug": "san-marino",
+    "issues": [
+      {
+        "type": "MISSING_H2",
+        "field": "VIN Number Meaning on Cars",
+        "detail": "H2 on live site not found on localhost"
+      },
+      {
+        "type": "MISSING_H2",
+        "field": "How to Get a VIN Report in San Marino",
+        "detail": "H2 on live site not found on localhost"
+      },
+      {
+        "type": "MISSING_H2",
+        "field": "The Benefits of Running a VIN Check in San Marino",
+        "detail": "H2 on live site not found on localhost"
+      },
+      {
+        "type": "MISSING_H2",
+        "field": "Be Alert to these Common Used Car Tricks in San Marino",
+        "detail": "H2 on live site not found on localhost"
+      },
+      {
+        "type": "MISSING_H2",
+        "field": "Get VIN Checks in Other European Countries",
+        "detail": "H2 on live site not found on localhost"
+      },
+      {
+        "type": "MISSING_H3",
+        "field": "6 H3(s)",
+        "detail": "\"Where to Look For the VIN Number\", \"Step 1: Enter the VIN\", \"Step 2: Click \"Search VIN\"\", \"Step 3: Get a Detailed Vehicle History Report\", \"For Buyers\", \"For Sellers and Dealers\""
+      }
+    ],
+    "warnings": [],
+    "passes": [
+      "Title: \"San Marino VIN Check – Get Complete Vehicle History by VIN\"",
+      "Meta description present (152 chars)",
+      "H1 matches: \"Check a Used Car Before You Buy in San Marino\""
+    ],
+    "countSummary": "h1: 1/1 ✅  h2: 6/11 🔴  h3: 12/18 🔴  h4: 22/38 🔴",
+    "liveCounts": {
+      "h1": 1,
+      "h2": 11,
+      "h3": 18,
+      "h4": 38
+    },
+    "localCounts": {
+      "h1": 1,
+      "h2": 6,
+      "h3": 12,
+      "h4": 22
+    },
+    "liveTitle": "San Marino VIN Check – Get Complete Vehicle History by VIN",
+    "localTitle": "San Marino VIN Check – Get Complete Vehicle History by VIN",
+    "liveHeadingCount": 68,
+    "localHeadingCount": 41
+  },
+  {
+    "country": "Serbia",
+    "slug": "serbia",
+    "issues": [
+      {
+        "type": "MISSING_H2",
+        "field": "Why You Need to Check the VIN in Serbia?",
+        "detail": "H2 on live site not found on localhost"
+      },
+      {
+        "type": "MISSING_H3",
+        "field": "2 H3(s)",
+        "detail": "\"Buyers\", \"Sellers\""
+      }
+    ],
+    "warnings": [],
+    "passes": [
+      "Title: \"Serbia VIN Check: Check Vehicle History & Mileage Records\"",
+      "Meta description present (156 chars)",
+      "H1 matches: \"Check Vehicle's Past Records by VIN in Serbia\""
+    ],
+    "countSummary": "h1: 1/1 ✅  h2: 10/11 ⚠️  h3: 17/19 ⚠️  h4: 32/36 🔴",
+    "liveCounts": {
+      "h1": 1,
+      "h2": 11,
+      "h3": 19,
+      "h4": 36
+    },
+    "localCounts": {
+      "h1": 1,
+      "h2": 10,
+      "h3": 17,
+      "h4": 32
+    },
+    "liveTitle": "Serbia VIN Check: Check Vehicle History & Mileage Records",
+    "localTitle": "Serbia VIN Check: Check Vehicle History & Mileage Records",
+    "liveHeadingCount": 67,
+    "localHeadingCount": 60
+  },
+  {
+    "country": "Slovakia",
+    "slug": "slovakia",
+    "issues": [],
+    "warnings": [],
+    "passes": [
+      "Title: \"Slovakia VIN Check – Check Vehicle’s Origin & Owner History\"",
+      "Meta description present (153 chars)",
+      "H1 matches: \"Know the Car's Origin and Past Owners in Slovakia\""
+    ],
+    "countSummary": "h1: 1/1 ✅  h2: 11/11 ✅  h3: 16/16 ✅  h4: 32/32 ✅",
+    "liveCounts": {
+      "h1": 1,
+      "h2": 11,
+      "h3": 16,
+      "h4": 32
+    },
+    "localCounts": {
+      "h1": 1,
+      "h2": 11,
+      "h3": 16,
+      "h4": 32
+    },
+    "liveTitle": "Slovakia VIN Check – Check Vehicle’s Origin & Owner History",
+    "localTitle": "Slovakia VIN Check – Check Vehicle’s Origin & Owner History",
+    "liveHeadingCount": 60,
+    "localHeadingCount": 60
+  },
+  {
+    "country": "Slovenia",
+    "slug": "slovenia",
+    "issues": [
+      {
+        "type": "MISSING_H2",
+        "field": "The Information to Find with Our Slovenia VIN Number Check",
+        "detail": "H2 on live site not found on localhost"
+      },
+      {
+        "type": "MISSING_H2",
+        "field": "How to Get a Vehicle History Report in Slovenia",
+        "detail": "H2 on live site not found on localhost"
+      },
+      {
+        "type": "MISSING_H2",
+        "field": "Why Checking a VIN Number in Slovenia is Essential",
+        "detail": "H2 on live site not found on localhost"
+      },
+      {
+        "type": "MISSING_H3",
+        "field": "13 H3(s)",
+        "detail": "\"Detailed Vehicle Specifications\", \"Technical Specifications\", \"Title and Condition\", \"Theft Records\", \"Lien and Loan Records\", \"Accident Records\", \"Sales History\", \"Auction Records\", \"Step 1: Enter the VIN\", \"Step 2: Click \"Search VIN\"\", \"Step 3: Get a Detailed Vehicle History Report\", \"For Buyers\", \"For Sellers and Dealers\""
+      }
+    ],
+    "warnings": [],
+    "passes": [
+      "Title: \"Slovenia VIN Check - Get Full Vehicle History Reports Fast\"",
+      "Meta description present (160 chars)",
+      "H1 matches: \"Get a VIN Check in Slovenia: Avoid Fraud & Hidden Damage\""
+    ],
+    "countSummary": "h1: 1/1 ✅  h2: 8/11 🔴  h3: 8/21 🔴  h4: 16/38 🔴",
+    "liveCounts": {
+      "h1": 1,
+      "h2": 11,
+      "h3": 21,
+      "h4": 38
+    },
+    "localCounts": {
+      "h1": 1,
+      "h2": 8,
+      "h3": 8,
+      "h4": 16
+    },
+    "liveTitle": "Slovenia VIN Check - Get Full Vehicle History Reports Fast",
+    "localTitle": "Slovenia VIN Check - Get Full Vehicle History Reports Fast",
+    "liveHeadingCount": 71,
+    "localHeadingCount": 33
+  },
+  {
+    "country": "Spain",
+    "slug": "spain",
+    "issues": [
+      {
+        "type": "MISSING_H2",
+        "field": "The Benefits of Checking a VIN Number in Spain",
+        "detail": "H2 on live site not found on localhost"
+      },
+      {
+        "type": "MISSING_H3",
+        "field": "5 H3(s)",
+        "detail": "\"Step 1: Enter the VIN\", \"Step 2: Click \"Search VIN\"\", \"Step 3: Get a Detailed Vehicle History Report\", \"For Buyers\", \"For Sellers and Dealers\""
+      }
+    ],
+    "warnings": [],
+    "passes": [
+      "Title: \"Spain VIN Check – Spot Odometer Rollback & Damage Records\"",
+      "Meta description present (159 chars)",
+      "H1 matches: \"Run a VIN Check in Spain: Spot Bad Cars on the Spot\""
+    ],
+    "countSummary": "h1: 1/1 ✅  h2: 10/11 ⚠️  h3: 13/18 🔴  h4: 32/38 🔴",
+    "liveCounts": {
+      "h1": 1,
+      "h2": 11,
+      "h3": 18,
+      "h4": 38
+    },
+    "localCounts": {
+      "h1": 1,
+      "h2": 10,
+      "h3": 13,
+      "h4": 32
+    },
+    "liveTitle": "Spain VIN Check – Spot Odometer Rollback & Damage Records",
+    "localTitle": "Spain VIN Check – Spot Odometer Rollback & Damage Records",
+    "liveHeadingCount": 68,
+    "localHeadingCount": 56
+  },
+  {
+    "country": "Sweden",
+    "slug": "sweden",
+    "issues": [],
+    "warnings": [],
+    "passes": [
+      "Title: \"Sweden VIN Check - Get Complete Car Details & History\"",
+      "Meta description present (153 chars)",
+      "H1 matches: \"Sweden VIN Check: Check Any Car History in Sweden by VIN\""
+    ],
+    "countSummary": "h1: 1/1 ✅  h2: 11/11 ✅  h3: 22/22 ✅  h4: 38/38 ✅",
+    "liveCounts": {
+      "h1": 1,
+      "h2": 11,
+      "h3": 22,
+      "h4": 38
+    },
+    "localCounts": {
+      "h1": 1,
+      "h2": 11,
+      "h3": 22,
+      "h4": 38
+    },
+    "liveTitle": "Sweden VIN Check - Get Complete Car Details & History",
+    "localTitle": "Sweden VIN Check - Get Complete Car Details & History",
+    "liveHeadingCount": 72,
+    "localHeadingCount": 72
+  },
+  {
+    "country": "Switzerland",
+    "slug": "switzerland",
+    "issues": [
+      {
+        "type": "MISSING_H2",
+        "field": "Why Choose Our Switzerland VIN Check Tool",
+        "detail": "H2 on live site not found on localhost"
+      }
+    ],
+    "warnings": [],
+    "passes": [
+      "Title: \"Switzerland VIN Check: Check Mileage & Damage History 🚗\"",
+      "Meta description present (150 chars)",
+      "H1 matches: \"Check a Vehicle's Past Records With a Switzerland VIN Check\""
+    ],
+    "countSummary": "h1: 1/1 ✅  h2: 10/11 ⚠️  h3: 18/18 ✅  h4: 26/32 🔴",
+    "liveCounts": {
+      "h1": 1,
+      "h2": 11,
+      "h3": 18,
+      "h4": 32
+    },
+    "localCounts": {
+      "h1": 1,
+      "h2": 10,
+      "h3": 18,
+      "h4": 26
+    },
+    "liveTitle": "Switzerland VIN Check: Check Mileage & Damage History 🚗",
+    "localTitle": "Switzerland VIN Check: Check Mileage & Damage History 🚗",
+    "liveHeadingCount": 62,
+    "localHeadingCount": 55
+  },
+  {
+    "country": "Ukraine",
+    "slug": "ukraine",
+    "issues": [
+      {
+        "type": "MISSING_H2",
+        "field": "Why Should You Check the VIN in Ukraine?",
+        "detail": "H2 on live site not found on localhost"
+      },
+      {
+        "type": "MISSING_H2",
+        "field": "Why You Need to Check a VIN in Ukraine?",
+        "detail": "H2 on live site not found on localhost"
+      },
+      {
+        "type": "MISSING_H3",
+        "field": "3 H3(s)",
+        "detail": "\"Step 1: Enter the VIN\", \"Step 2: Click \"Search VIN\"\", \"Step 3: Get the Report\""
+      }
+    ],
+    "warnings": [],
+    "passes": [
+      "Title: \"Ukraine VIN Check: Check Mileage & Country of Origin 🚗\"",
+      "Meta description present (145 chars)",
+      "H1 matches: \"Examine a Vehicle's Past Usage in Ukraine by a VIN Check\""
+    ],
+    "countSummary": "h1: 1/1 ✅  h2: 8/10 ⚠️  h3: 15/18 🔴  h4: 22/28 🔴",
+    "liveCounts": {
+      "h1": 1,
+      "h2": 10,
+      "h3": 18,
+      "h4": 28
+    },
+    "localCounts": {
+      "h1": 1,
+      "h2": 8,
+      "h3": 15,
+      "h4": 22
+    },
+    "liveTitle": "Ukraine VIN Check: Check Mileage & Country of Origin 🚗",
+    "localTitle": "Ukraine VIN Check: Check Mileage & Country of Origin 🚗",
+    "liveHeadingCount": 57,
+    "localHeadingCount": 46
+  },
+  {
+    "country": "United Kingdom",
+    "slug": "united-kingdom",
+    "issues": [],
+    "warnings": [],
+    "passes": [
+      "Title: \"UK VIN Check - Access Vehicle History on Imported Cars\"",
+      "Meta description present (145 chars)",
+      "H1 matches: \"Get Vehicle History with UK VIN Check or Reg Check\""
+    ],
+    "countSummary": "h1: 1/1 ✅  h2: 11/11 ✅  h3: 20/20 ✅  h4: 38/38 ✅",
+    "liveCounts": {
+      "h1": 1,
+      "h2": 11,
+      "h3": 20,
+      "h4": 38
+    },
+    "localCounts": {
+      "h1": 1,
+      "h2": 11,
+      "h3": 20,
+      "h4": 38
+    },
+    "liveTitle": "UK VIN Check - Access Vehicle History on Imported Cars",
+    "localTitle": "UK VIN Check - Access Vehicle History on Imported Cars",
+    "liveHeadingCount": 70,
+    "localHeadingCount": 70
+  }
+]
