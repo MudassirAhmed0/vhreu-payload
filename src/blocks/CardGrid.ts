@@ -22,6 +22,7 @@ export const CardGridBlock: Block = {
       defaultValue: '3',
       label: 'Desktop Columns',
       options: [
+        { label: '1', value: '1' },
         { label: '2', value: '2' },
         { label: '3', value: '3' },
         { label: '4', value: '4' },
@@ -202,84 +203,95 @@ export const CardGridBlock: Block = {
           ],
         },
 
-        // ── Content: description or icon list ──
-        {
-          name: 'contentType',
-          type: 'select',
-          defaultValue: 'description',
-          label: 'Content Type',
-          options: [
-            { label: 'Description', value: 'description' },
-            { label: 'Icon List', value: 'list' },
-          ],
-          admin: {
-            condition: (_, siblingData) => siblingData.cardType !== 'callout',
-          },
-        },
-
-        // Description (rich text)
+        // ── Description (rich text) — always available ──
         {
           name: 'description',
           type: 'richText',
           localized: true,
           admin: {
-            condition: (_, siblingData) =>
-              siblingData.cardType !== 'callout' && siblingData.contentType !== 'list',
+            condition: (_, siblingData) => siblingData.cardType !== 'callout',
           },
         },
 
-        // Icon List settings
+        // ── List Items (optional — shows below description) ──
         {
-          type: 'row',
-          admin: {
-            condition: (_, siblingData) =>
-              siblingData.cardType !== 'callout' && siblingData.contentType === 'list',
-          },
-          fields: [
-            {
-              ...iconField('listIcon'),
-            } as import('payload').Field,
-            {
-              name: 'listVariant',
-              type: 'select',
-              defaultValue: 'success',
-              label: 'List Color',
-              options: [
-                { label: 'Success (primary)', value: 'success' },
-                { label: 'Danger (red)', value: 'danger' },
-                { label: 'Neutral', value: 'neutral' },
-                { label: 'Muted', value: 'muted' },
-              ],
-            },
-            {
-              name: 'listItemStyle',
-              type: 'select',
-              defaultValue: 'flat',
-              label: 'Item Style',
-              options: [
-                { label: 'Flat', value: 'flat' },
-                { label: 'Card', value: 'card' },
-              ],
-            },
-          ],
-        },
-
-        // Icon List items
-        {
-          name: 'items',
-          type: 'array',
+          type: 'collapsible',
           label: 'List Items',
           admin: {
-            initCollapsed: false,
-            condition: (_, siblingData) =>
-              siblingData.cardType !== 'callout' && siblingData.contentType === 'list',
+            initCollapsed: true,
+            condition: (_, siblingData) => siblingData.cardType !== 'callout',
           },
           fields: [
             {
-              name: 'content',
-              type: 'richText',
-              required: true,
-              localized: true,
+              type: 'row',
+              fields: [
+                {
+                  ...iconField('listIcon'),
+                } as import('payload').Field,
+                {
+                  name: 'listVariant',
+                  type: 'select',
+                  defaultValue: 'success',
+                  label: 'List Color',
+                  options: [
+                    { label: 'Success (primary)', value: 'success' },
+                    { label: 'Danger (red)', value: 'danger' },
+                    { label: 'Neutral', value: 'neutral' },
+                    { label: 'Muted', value: 'muted' },
+                  ],
+                },
+                {
+                  name: 'listItemStyle',
+                  type: 'select',
+                  defaultValue: 'flat',
+                  label: 'Item Style',
+                  options: [
+                    { label: 'Flat', value: 'flat' },
+                    { label: 'Card', value: 'card' },
+                  ],
+                },
+              ],
+            },
+            {
+              name: 'items',
+              type: 'array',
+              label: 'Items',
+              admin: { initCollapsed: false },
+              fields: [
+                {
+                  type: 'row',
+                  fields: [
+                    {
+                      name: 'title',
+                      type: 'text',
+                      localized: true,
+                      admin: { width: '70%', placeholder: 'Item heading (optional — leave empty for simple text)' },
+                    },
+                    {
+                      name: 'titleElement',
+                      type: 'select',
+                      defaultValue: 'h4',
+                      label: 'Element',
+                      options: [
+                        { label: 'h3', value: 'h3' },
+                        { label: 'h4', value: 'h4' },
+                        { label: 'h5', value: 'h5' },
+                        { label: 'p (bold)', value: 'p' },
+                      ],
+                      admin: { width: '30%' },
+                    },
+                  ],
+                },
+                {
+                  name: 'description',
+                  type: 'richText',
+                  localized: true,
+                  label: 'Content',
+                  admin: {
+                    description: 'For simple list items, skip the title above and just write here.',
+                  },
+                },
+              ],
             },
           ],
         },

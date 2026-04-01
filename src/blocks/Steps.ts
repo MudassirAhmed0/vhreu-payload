@@ -1,5 +1,6 @@
 import type { Block } from 'payload'
 import { iconField } from '../fields/icon'
+import { ctasField } from '../fields/cta'
 
 /**
  * Steps — inner block for Section.
@@ -21,12 +22,17 @@ export const StepsBlock: Block = {
       ],
       admin: { position: 'sidebar' },
     },
-
     {
-      name: 'bottomText',
-      type: 'richText',
-      label: 'Bottom Text',
-      localized: true,
+      name: 'titleElement',
+      type: 'select',
+      defaultValue: 'h3',
+      label: 'Title Element',
+      options: [
+        { label: 'H3', value: 'h3' },
+        { label: 'H4', value: 'h4' },
+        { label: 'Span (no heading)', value: 'span' },
+      ],
+      admin: { position: 'sidebar' },
     },
 
     // ── Steps ──
@@ -39,6 +45,12 @@ export const StepsBlock: Block = {
       admin: { initCollapsed: false },
       fields: [
         {
+          name: 'title',
+          type: 'text',
+          localized: true,
+          admin: { placeholder: 'Step heading (optional)' },
+        },
+        {
           name: 'description',
           type: 'text',
           required: true,
@@ -47,5 +59,15 @@ export const StepsBlock: Block = {
         iconField('icon'),
       ],
     },
+
+    {
+      name: 'bottomText',
+      type: 'richText',
+      label: 'Bottom Text',
+      localized: true,
+    },
+
+    // ── CTAs below steps ──
+    ctasField(),
   ],
 }
