@@ -73,8 +73,8 @@ export interface Config {
     posts: Post;
     authors: Author;
     categories: Category;
-    countries: Country;
-    'car-makes': CarMake;
+    'content-groups': ContentGroup;
+    'content-pages': ContentPage;
     redirects: Redirect;
     'payload-kv': PayloadKv;
     'payload-locked-documents': PayloadLockedDocument;
@@ -89,8 +89,8 @@ export interface Config {
     posts: PostsSelect<false> | PostsSelect<true>;
     authors: AuthorsSelect<false> | AuthorsSelect<true>;
     categories: CategoriesSelect<false> | CategoriesSelect<true>;
-    countries: CountriesSelect<false> | CountriesSelect<true>;
-    'car-makes': CarMakesSelect<false> | CarMakesSelect<true>;
+    'content-groups': ContentGroupsSelect<false> | ContentGroupsSelect<true>;
+    'content-pages': ContentPagesSelect<false> | ContentPagesSelect<true>;
     redirects: RedirectsSelect<false> | RedirectsSelect<true>;
     'payload-kv': PayloadKvSelect<false> | PayloadKvSelect<true>;
     'payload-locked-documents': PayloadLockedDocumentsSelect<false> | PayloadLockedDocumentsSelect<true>;
@@ -172,6 +172,7 @@ export interface User {
 export interface Media {
   id: number;
   alt: string;
+  prefix?: string | null;
   updatedAt: string;
   createdAt: string;
   url?: string | null;
@@ -225,30 +226,20 @@ export interface Page {
   content?:
     | (
         | {
-            variant: 'centered' | 'split' | 'stacked';
+            variant: 'centered' | 'split';
             dark?: boolean | null;
             fullHeight?: boolean | null;
             glow?: boolean | null;
-            /**
-             * Centered/stacked: shows below text. Split: shows on right side.
-             */
             formType?: ('none' | 'vin' | 'contact') | null;
-            /**
-             * Small label above heading
-             */
             tag?: string | null;
             tagLevel?: ('span' | 'h2' | 'h3' | 'h4' | 'p') | null;
             /**
-             * Main heading text
+             * Use **double asterisks** to highlight. Example: Check Any European Vehicle's **Full History Report**
              */
             title: string;
+            description?: string | null;
             /**
-             * Bold gradient portion of heading
-             */
-            highlight?: string | null;
-            subtitle?: string | null;
-            /**
-             * Heading after description, before CTAs (e.g. "We'll be happy to assist you!")
+             * Accent heading before CTAs
              */
             secondaryHeading?: string | null;
             secondaryHeadingLevel?: ('h2' | 'h3' | 'h4' | 'p') | null;
@@ -326,12 +317,15 @@ export interface Page {
                     custom?: string | null;
                   };
                   text: string;
+                  href?: string | null;
                   tag?: ('span' | 'h2' | 'h3' | 'h4' | 'h5' | 'p') | null;
+                  rel?: ('none' | 'nofollow' | 'sponsored' | 'ugc') | null;
+                  newTab?: boolean | null;
                   id?: string | null;
                 }[]
               | null;
             /**
-             * Right-side image for split variant (580×660 recommended)
+             * Right-side image (580×660 recommended)
              */
             heroImage?: (number | null) | Media;
             ctas?:
@@ -339,27 +333,19 @@ export interface Page {
                   label: string;
                   href: string;
                   style?: ('primary' | 'secondary') | null;
-                  rel?: ('none' | 'nofollow' | 'sponsored' | 'ugc' | 'nofollow noopener') | null;
+                  rel?: ('none' | 'nofollow' | 'sponsored' | 'ugc') | null;
                   newTab?: boolean | null;
-                  isExternal?: boolean | null;
                   id?: string | null;
                 }[]
               | null;
-            /**
-             * Shown below the form. In split variant, only visible when no hero image is set.
-             */
             helperLinks?:
               | {
                   label: string;
                   href: string;
                   style?: ('arrow' | 'pill') | null;
-                  /**
-                   * Lucide icon
-                   */
                   icon?: string | null;
-                  rel?: ('none' | 'nofollow' | 'sponsored' | 'ugc' | 'nofollow noopener') | null;
+                  rel?: ('none' | 'nofollow' | 'sponsored' | 'ugc') | null;
                   newTab?: boolean | null;
-                  isExternal?: boolean | null;
                   id?: string | null;
                 }[]
               | null;
@@ -374,20 +360,263 @@ export interface Page {
              * e.g. "hero" for #hero links
              */
             sectionId?: string | null;
+            /**
+             * Constrain width for focused content like FAQ
+             */
             narrow?: boolean | null;
             /**
              * Small label above heading
              */
             tag?: string | null;
-            heading?: string | null;
             /**
-             * Bold gradient portion of heading
+             * Wrap text in **double asterisks** to highlight. Example: Why You Should Run a **European VIN Check**
              */
-            highlight?: string | null;
-            subtitle?: string | null;
+            heading?: string | null;
+            headingLevel?: ('h1' | 'h2' | 'h3' | 'h4') | null;
+            description?: {
+              root: {
+                type: string;
+                children: {
+                  type: any;
+                  version: number;
+                  [k: string]: unknown;
+                }[];
+                direction: ('ltr' | 'rtl') | null;
+                format: 'left' | 'start' | 'center' | 'right' | 'end' | 'justify' | '';
+                indent: number;
+                version: number;
+              };
+              [k: string]: unknown;
+            } | null;
             content?:
               | (
                   | {
+                      columns?: ('1' | '2' | '3' | '4') | null;
+                      tabletColumns?: ('1' | '2' | '3') | null;
+                      mobileColumns?: ('1' | '2') | null;
+                      cards?:
+                        | {
+                            cardType: 'feature' | 'callout';
+                            colSpan?: ('1' | '2' | '3' | '4' | 'full') | null;
+                            style?: ('none' | 'icon' | 'stat') | null;
+                            layout?: ('stacked' | 'inline' | 'centered') | null;
+                            icon?: {
+                              source?: ('preset' | 'custom') | null;
+                              preset?:
+                                | (
+                                    | 'car'
+                                    | 'car-front'
+                                    | 'bike'
+                                    | 'truck'
+                                    | 'shield-check'
+                                    | 'shield'
+                                    | 'lock'
+                                    | 'lock-open'
+                                    | 'triangle-alert'
+                                    | 'siren'
+                                    | 'file-text'
+                                    | 'clipboard-check'
+                                    | 'file-search'
+                                    | 'circle-check'
+                                    | 'circle-x'
+                                    | 'search'
+                                    | 'eye'
+                                    | 'scan'
+                                    | 'gauge'
+                                    | 'trending-up'
+                                    | 'trending-down'
+                                    | 'database'
+                                    | 'bar-chart-3'
+                                    | 'wallet'
+                                    | 'credit-card'
+                                    | 'tag'
+                                    | 'receipt'
+                                    | 'mail'
+                                    | 'phone'
+                                    | 'headphones'
+                                    | 'message-circle'
+                                    | 'zap'
+                                    | 'wrench'
+                                    | 'globe'
+                                    | 'mouse-pointer-click'
+                                    | 'download'
+                                    | 'link'
+                                    | 'info'
+                                    | 'chevron-right'
+                                    | 'star'
+                                    | 'heart'
+                                    | 'house'
+                                    | 'map-pin'
+                                    | 'clock'
+                                    | 'calendar'
+                                    | 'user'
+                                    | 'users'
+                                    | 'building'
+                                    | 'pencil'
+                                    | 'hash'
+                                    | 'list'
+                                    | 'factory'
+                                    | 'circle-dot'
+                                  )
+                                | null;
+                              /**
+                               * Any Lucide icon name (e.g. "package-check")
+                               */
+                              custom?: string | null;
+                            };
+                            stat?: string | null;
+                            statColor?: ('primary' | 'success' | 'danger' | 'info' | 'warning' | 'purple') | null;
+                            title: string;
+                            titleElement?: ('h3' | 'h4' | 'h5' | 'p') | null;
+                            description?: {
+                              root: {
+                                type: string;
+                                children: {
+                                  type: any;
+                                  version: number;
+                                  [k: string]: unknown;
+                                }[];
+                                direction: ('ltr' | 'rtl') | null;
+                                format: 'left' | 'start' | 'center' | 'right' | 'end' | 'justify' | '';
+                                indent: number;
+                                version: number;
+                              };
+                              [k: string]: unknown;
+                            } | null;
+                            listIcon?: {
+                              source?: ('preset' | 'custom') | null;
+                              preset?:
+                                | (
+                                    | 'car'
+                                    | 'car-front'
+                                    | 'bike'
+                                    | 'truck'
+                                    | 'shield-check'
+                                    | 'shield'
+                                    | 'lock'
+                                    | 'lock-open'
+                                    | 'triangle-alert'
+                                    | 'siren'
+                                    | 'file-text'
+                                    | 'clipboard-check'
+                                    | 'file-search'
+                                    | 'circle-check'
+                                    | 'circle-x'
+                                    | 'search'
+                                    | 'eye'
+                                    | 'scan'
+                                    | 'gauge'
+                                    | 'trending-up'
+                                    | 'trending-down'
+                                    | 'database'
+                                    | 'bar-chart-3'
+                                    | 'wallet'
+                                    | 'credit-card'
+                                    | 'tag'
+                                    | 'receipt'
+                                    | 'mail'
+                                    | 'phone'
+                                    | 'headphones'
+                                    | 'message-circle'
+                                    | 'zap'
+                                    | 'wrench'
+                                    | 'globe'
+                                    | 'mouse-pointer-click'
+                                    | 'download'
+                                    | 'link'
+                                    | 'info'
+                                    | 'chevron-right'
+                                    | 'star'
+                                    | 'heart'
+                                    | 'house'
+                                    | 'map-pin'
+                                    | 'clock'
+                                    | 'calendar'
+                                    | 'user'
+                                    | 'users'
+                                    | 'building'
+                                    | 'pencil'
+                                    | 'hash'
+                                    | 'list'
+                                    | 'factory'
+                                    | 'circle-dot'
+                                  )
+                                | null;
+                              /**
+                               * Any Lucide icon name (e.g. "package-check")
+                               */
+                              custom?: string | null;
+                            };
+                            listVariant?: ('success' | 'danger' | 'neutral' | 'muted') | null;
+                            listItemStyle?: ('flat' | 'card') | null;
+                            items?:
+                              | {
+                                  title?: string | null;
+                                  titleElement?: ('h3' | 'h4' | 'h5' | 'p') | null;
+                                  /**
+                                   * For simple list items, skip the title above and just write here.
+                                   */
+                                  description?: {
+                                    root: {
+                                      type: string;
+                                      children: {
+                                        type: any;
+                                        version: number;
+                                        [k: string]: unknown;
+                                      }[];
+                                      direction: ('ltr' | 'rtl') | null;
+                                      format: 'left' | 'start' | 'center' | 'right' | 'end' | 'justify' | '';
+                                      indent: number;
+                                      version: number;
+                                    };
+                                    [k: string]: unknown;
+                                  } | null;
+                                  id?: string | null;
+                                }[]
+                              | null;
+                            calloutStat?: string | null;
+                            calloutTitle?: string | null;
+                            calloutTitleElement?: ('h3' | 'h4' | 'h5' | 'p') | null;
+                            calloutDescription?: {
+                              root: {
+                                type: string;
+                                children: {
+                                  type: any;
+                                  version: number;
+                                  [k: string]: unknown;
+                                }[];
+                                direction: ('ltr' | 'rtl') | null;
+                                format: 'left' | 'start' | 'center' | 'right' | 'end' | 'justify' | '';
+                                indent: number;
+                                version: number;
+                              };
+                              [k: string]: unknown;
+                            } | null;
+                            id?: string | null;
+                          }[]
+                        | null;
+                      /**
+                       * Optional call-to-action buttons below content
+                       */
+                      ctas?:
+                        | {
+                            label: string;
+                            href: string;
+                            style?: ('primary' | 'secondary') | null;
+                            rel?: ('none' | 'nofollow' | 'sponsored' | 'ugc') | null;
+                            newTab?: boolean | null;
+                            id?: string | null;
+                          }[]
+                        | null;
+                      id?: string | null;
+                      blockName?: string | null;
+                      blockType: 'card-grid';
+                    }
+                  | {
+                      /**
+                       * HTML element for each question
+                       */
+                      questionElement?: ('h3' | 'h4' | 'h5' | 'span') | null;
                       items: {
                         question: string;
                         answer: {
@@ -431,11 +660,553 @@ export interface Page {
                       blockName?: string | null;
                       blockType: 'rich-text';
                     }
+                  | {
+                      /**
+                       * Small label above heading (e.g. "Why VIN Check")
+                       */
+                      tag?: string | null;
+                      /**
+                       * Wrap text in **double asterisks** for gradient highlight on new line. Example: Save Money and Avoid **Costly Mistakes**
+                       */
+                      heading: string;
+                      headingLevel?: ('h2' | 'h3' | 'h4') | null;
+                      contentType?: ('richtext' | 'cards') | null;
+                      description?: {
+                        root: {
+                          type: string;
+                          children: {
+                            type: any;
+                            version: number;
+                            [k: string]: unknown;
+                          }[];
+                          direction: ('ltr' | 'rtl') | null;
+                          format: 'left' | 'start' | 'center' | 'right' | 'end' | 'justify' | '';
+                          indent: number;
+                          version: number;
+                        };
+                        [k: string]: unknown;
+                      } | null;
+                      cardColumns?: ('1' | '2') | null;
+                      cards?:
+                        | {
+                            icon?: {
+                              source?: ('preset' | 'custom') | null;
+                              preset?:
+                                | (
+                                    | 'car'
+                                    | 'car-front'
+                                    | 'bike'
+                                    | 'truck'
+                                    | 'shield-check'
+                                    | 'shield'
+                                    | 'lock'
+                                    | 'lock-open'
+                                    | 'triangle-alert'
+                                    | 'siren'
+                                    | 'file-text'
+                                    | 'clipboard-check'
+                                    | 'file-search'
+                                    | 'circle-check'
+                                    | 'circle-x'
+                                    | 'search'
+                                    | 'eye'
+                                    | 'scan'
+                                    | 'gauge'
+                                    | 'trending-up'
+                                    | 'trending-down'
+                                    | 'database'
+                                    | 'bar-chart-3'
+                                    | 'wallet'
+                                    | 'credit-card'
+                                    | 'tag'
+                                    | 'receipt'
+                                    | 'mail'
+                                    | 'phone'
+                                    | 'headphones'
+                                    | 'message-circle'
+                                    | 'zap'
+                                    | 'wrench'
+                                    | 'globe'
+                                    | 'mouse-pointer-click'
+                                    | 'download'
+                                    | 'link'
+                                    | 'info'
+                                    | 'chevron-right'
+                                    | 'star'
+                                    | 'heart'
+                                    | 'house'
+                                    | 'map-pin'
+                                    | 'clock'
+                                    | 'calendar'
+                                    | 'user'
+                                    | 'users'
+                                    | 'building'
+                                    | 'pencil'
+                                    | 'hash'
+                                    | 'list'
+                                    | 'factory'
+                                    | 'circle-dot'
+                                  )
+                                | null;
+                              /**
+                               * Any Lucide icon name (e.g. "package-check")
+                               */
+                              custom?: string | null;
+                            };
+                            title: string;
+                            titleElement?: ('h3' | 'h4') | null;
+                            cardDescription?: {
+                              root: {
+                                type: string;
+                                children: {
+                                  type: any;
+                                  version: number;
+                                  [k: string]: unknown;
+                                }[];
+                                direction: ('ltr' | 'rtl') | null;
+                                format: 'left' | 'start' | 'center' | 'right' | 'end' | 'justify' | '';
+                                indent: number;
+                                version: number;
+                              };
+                              [k: string]: unknown;
+                            } | null;
+                            id?: string | null;
+                          }[]
+                        | null;
+                      mediaType?: ('image' | 'vin-structure') | null;
+                      /**
+                       * Right-side image (recommended 600×500 or larger)
+                       */
+                      media?: (number | null) | Media;
+                      /**
+                       * Media on left, text on right
+                       */
+                      reverse?: boolean | null;
+                      listItems?:
+                        | {
+                            icon?: {
+                              source?: ('preset' | 'custom') | null;
+                              preset?:
+                                | (
+                                    | 'car'
+                                    | 'car-front'
+                                    | 'bike'
+                                    | 'truck'
+                                    | 'shield-check'
+                                    | 'shield'
+                                    | 'lock'
+                                    | 'lock-open'
+                                    | 'triangle-alert'
+                                    | 'siren'
+                                    | 'file-text'
+                                    | 'clipboard-check'
+                                    | 'file-search'
+                                    | 'circle-check'
+                                    | 'circle-x'
+                                    | 'search'
+                                    | 'eye'
+                                    | 'scan'
+                                    | 'gauge'
+                                    | 'trending-up'
+                                    | 'trending-down'
+                                    | 'database'
+                                    | 'bar-chart-3'
+                                    | 'wallet'
+                                    | 'credit-card'
+                                    | 'tag'
+                                    | 'receipt'
+                                    | 'mail'
+                                    | 'phone'
+                                    | 'headphones'
+                                    | 'message-circle'
+                                    | 'zap'
+                                    | 'wrench'
+                                    | 'globe'
+                                    | 'mouse-pointer-click'
+                                    | 'download'
+                                    | 'link'
+                                    | 'info'
+                                    | 'chevron-right'
+                                    | 'star'
+                                    | 'heart'
+                                    | 'house'
+                                    | 'map-pin'
+                                    | 'clock'
+                                    | 'calendar'
+                                    | 'user'
+                                    | 'users'
+                                    | 'building'
+                                    | 'pencil'
+                                    | 'hash'
+                                    | 'list'
+                                    | 'factory'
+                                    | 'circle-dot'
+                                  )
+                                | null;
+                              /**
+                               * Any Lucide icon name (e.g. "package-check")
+                               */
+                              custom?: string | null;
+                            };
+                            text: string;
+                            variant?: ('success' | 'danger' | 'neutral' | 'muted') | null;
+                            id?: string | null;
+                          }[]
+                        | null;
+                      /**
+                       * Optional call-to-action buttons below content
+                       */
+                      ctas?:
+                        | {
+                            label: string;
+                            href: string;
+                            style?: ('primary' | 'secondary') | null;
+                            rel?: ('none' | 'nofollow' | 'sponsored' | 'ugc') | null;
+                            newTab?: boolean | null;
+                            id?: string | null;
+                          }[]
+                        | null;
+                      id?: string | null;
+                      blockName?: string | null;
+                      blockType: 'split-content';
+                    }
+                  | {
+                      items?:
+                        | {
+                            label: string;
+                            href: string;
+                            id?: string | null;
+                          }[]
+                        | null;
+                      id?: string | null;
+                      blockName?: string | null;
+                      blockType: 'pill-grid';
+                    }
+                  | {
+                      columns?: ('2' | '3' | '4' | '5' | '6') | null;
+                      tabletColumns?: ('1' | '2' | '3' | '4') | null;
+                      mobileColumns?: ('1' | '2' | '3') | null;
+                      size?: ('small' | 'regular') | null;
+                      items?:
+                        | {
+                            label: string;
+                            /**
+                             * Leave empty for non-clickable display card
+                             */
+                            href?: string | null;
+                            id?: string | null;
+                          }[]
+                        | null;
+                      id?: string | null;
+                      blockName?: string | null;
+                      blockType: 'link-card-grid';
+                    }
+                  | {
+                      style?: ('icons' | 'numbers') | null;
+                      titleElement?: ('h3' | 'h4' | 'span') | null;
+                      steps: {
+                        title?: string | null;
+                        description: string;
+                        icon?: {
+                          source?: ('preset' | 'custom') | null;
+                          preset?:
+                            | (
+                                | 'car'
+                                | 'car-front'
+                                | 'bike'
+                                | 'truck'
+                                | 'shield-check'
+                                | 'shield'
+                                | 'lock'
+                                | 'lock-open'
+                                | 'triangle-alert'
+                                | 'siren'
+                                | 'file-text'
+                                | 'clipboard-check'
+                                | 'file-search'
+                                | 'circle-check'
+                                | 'circle-x'
+                                | 'search'
+                                | 'eye'
+                                | 'scan'
+                                | 'gauge'
+                                | 'trending-up'
+                                | 'trending-down'
+                                | 'database'
+                                | 'bar-chart-3'
+                                | 'wallet'
+                                | 'credit-card'
+                                | 'tag'
+                                | 'receipt'
+                                | 'mail'
+                                | 'phone'
+                                | 'headphones'
+                                | 'message-circle'
+                                | 'zap'
+                                | 'wrench'
+                                | 'globe'
+                                | 'mouse-pointer-click'
+                                | 'download'
+                                | 'link'
+                                | 'info'
+                                | 'chevron-right'
+                                | 'star'
+                                | 'heart'
+                                | 'house'
+                                | 'map-pin'
+                                | 'clock'
+                                | 'calendar'
+                                | 'user'
+                                | 'users'
+                                | 'building'
+                                | 'pencil'
+                                | 'hash'
+                                | 'list'
+                                | 'factory'
+                                | 'circle-dot'
+                              )
+                            | null;
+                          /**
+                           * Any Lucide icon name (e.g. "package-check")
+                           */
+                          custom?: string | null;
+                        };
+                        id?: string | null;
+                      }[];
+                      bottomText?: {
+                        root: {
+                          type: string;
+                          children: {
+                            type: any;
+                            version: number;
+                            [k: string]: unknown;
+                          }[];
+                          direction: ('ltr' | 'rtl') | null;
+                          format: 'left' | 'start' | 'center' | 'right' | 'end' | 'justify' | '';
+                          indent: number;
+                          version: number;
+                        };
+                        [k: string]: unknown;
+                      } | null;
+                      /**
+                       * Optional call-to-action buttons below content
+                       */
+                      ctas?:
+                        | {
+                            label: string;
+                            href: string;
+                            style?: ('primary' | 'secondary') | null;
+                            rel?: ('none' | 'nofollow' | 'sponsored' | 'ugc') | null;
+                            newTab?: boolean | null;
+                            id?: string | null;
+                          }[]
+                        | null;
+                      id?: string | null;
+                      blockName?: string | null;
+                      blockType: 'steps';
+                    }
+                  | {
+                      /**
+                       * Pin first column on mobile scroll
+                       */
+                      stickyFirstColumn?: boolean | null;
+                      /**
+                       * Column index to highlight (1-based). Leave empty for none.
+                       */
+                      highlightColumn?: number | null;
+                      /**
+                       * Optional — one entry per column. Leave empty for equal-width.
+                       */
+                      columnWidths?:
+                        | {
+                            mobile?: string | null;
+                            desktop?: string | null;
+                            id?: string | null;
+                          }[]
+                        | null;
+                      /**
+                       * First row becomes the table header
+                       */
+                      rows: {
+                        cells?:
+                          | {
+                              type: 'richtext' | 'check' | 'x';
+                              content?: {
+                                root: {
+                                  type: string;
+                                  children: {
+                                    type: any;
+                                    version: number;
+                                    [k: string]: unknown;
+                                  }[];
+                                  direction: ('ltr' | 'rtl') | null;
+                                  format: 'left' | 'start' | 'center' | 'right' | 'end' | 'justify' | '';
+                                  indent: number;
+                                  version: number;
+                                };
+                                [k: string]: unknown;
+                              } | null;
+                              id?: string | null;
+                            }[]
+                          | null;
+                        id?: string | null;
+                      }[];
+                      id?: string | null;
+                      blockName?: string | null;
+                      blockType: 'comparison-table';
+                    }
+                  | {
+                      reports?:
+                        | {
+                            reportImage?: (number | null) | Media;
+                            year: number;
+                            make: string;
+                            model: string;
+                            vin: string;
+                            bodyStyle: string;
+                            engine: string;
+                            country: string;
+                            href?: string | null;
+                            id?: string | null;
+                          }[]
+                        | null;
+                      id?: string | null;
+                      blockName?: string | null;
+                      blockType: 'sample-report-grid';
+                    }
                 )[]
+              | null;
+            /**
+             * Optional rich text below the content block (e.g. closing paragraph)
+             */
+            bottomText?: {
+              root: {
+                type: string;
+                children: {
+                  type: any;
+                  version: number;
+                  [k: string]: unknown;
+                }[];
+                direction: ('ltr' | 'rtl') | null;
+                format: 'left' | 'start' | 'center' | 'right' | 'end' | 'justify' | '';
+                indent: number;
+                version: number;
+              };
+              [k: string]: unknown;
+            } | null;
+            /**
+             * Optional call-to-action buttons below content
+             */
+            ctas?:
+              | {
+                  label: string;
+                  href: string;
+                  style?: ('primary' | 'secondary') | null;
+                  rel?: ('none' | 'nofollow' | 'sponsored' | 'ugc') | null;
+                  newTab?: boolean | null;
+                  id?: string | null;
+                }[]
               | null;
             id?: string | null;
             blockName?: string | null;
             blockType: 'section';
+          }
+        | {
+            layout?: ('full' | 'contained') | null;
+            dark?: boolean | null;
+            scene?: ('none' | 'glow') | null;
+            mode?: ('link' | 'vin-input') | null;
+            /**
+             * Small label above heading
+             */
+            tag?: string | null;
+            /**
+             * Use **double asterisks** for gradient highlight
+             */
+            heading: string;
+            headingLevel?: ('h2' | 'h3' | 'h4') | null;
+            description?: {
+              root: {
+                type: string;
+                children: {
+                  type: any;
+                  version: number;
+                  [k: string]: unknown;
+                }[];
+                direction: ('ltr' | 'rtl') | null;
+                format: 'left' | 'start' | 'center' | 'right' | 'end' | 'justify' | '';
+                indent: number;
+                version: number;
+              };
+              [k: string]: unknown;
+            } | null;
+            /**
+             * Optional call-to-action buttons below content
+             */
+            ctas?:
+              | {
+                  label: string;
+                  href: string;
+                  style?: ('primary' | 'secondary') | null;
+                  rel?: ('none' | 'nofollow' | 'sponsored' | 'ugc') | null;
+                  newTab?: boolean | null;
+                  id?: string | null;
+                }[]
+              | null;
+            vinButtonText?: string | null;
+            id?: string | null;
+            blockName?: string | null;
+            blockType: 'cta-banner';
+          }
+        | {
+            bg?: ('white' | 'muted' | 'dark') | null;
+            /**
+             * Email to notify when form is submitted
+             */
+            notificationEmail?: string | null;
+            /**
+             * Override the default "Get in Touch" heading
+             */
+            heading?: string | null;
+            description?: string | null;
+            id?: string | null;
+            blockName?: string | null;
+            blockType: 'contact-form';
+          }
+        | {
+            /**
+             * Override the default heading
+             */
+            heading?: string | null;
+            description?: string | null;
+            id?: string | null;
+            blockName?: string | null;
+            blockType: 'refund-form';
+          }
+        | {
+            /**
+             * Page heading (h1)
+             */
+            title: string;
+            lastUpdated?: string | null;
+            content: {
+              root: {
+                type: string;
+                children: {
+                  type: any;
+                  version: number;
+                  [k: string]: unknown;
+                }[];
+                direction: ('ltr' | 'rtl') | null;
+                format: 'left' | 'start' | 'center' | 'right' | 'end' | 'justify' | '';
+                indent: number;
+                version: number;
+              };
+              [k: string]: unknown;
+            };
+            id?: string | null;
+            blockName?: string | null;
+            blockType: 'legal-content';
           }
       )[]
     | null;
@@ -545,6 +1316,10 @@ export interface Post {
 export interface Author {
   id: number;
   name: string;
+  /**
+   * URL-safe identifier. Auto-generated from title if left empty.
+   */
+  slug: string;
   role: string;
   bio?: string | null;
   email: string;
@@ -571,300 +1346,53 @@ export interface Category {
 }
 /**
  * This interface was referenced by `Config`'s JSON-Schema
- * via the `definition` "countries".
+ * via the `definition` "content-groups".
  */
-export interface Country {
+export interface ContentGroup {
   id: number;
   name: string;
   /**
    * URL-safe identifier. Auto-generated from title if left empty.
    */
   slug: string;
-  status?: ('active' | 'inactive') | null;
-  content?:
-    | (
-        | {
-            variant: 'centered' | 'split' | 'stacked';
-            dark?: boolean | null;
-            fullHeight?: boolean | null;
-            glow?: boolean | null;
-            /**
-             * Centered/stacked: shows below text. Split: shows on right side.
-             */
-            formType?: ('none' | 'vin' | 'contact') | null;
-            /**
-             * Small label above heading
-             */
-            tag?: string | null;
-            tagLevel?: ('span' | 'h2' | 'h3' | 'h4' | 'p') | null;
-            /**
-             * Main heading text
-             */
-            title: string;
-            /**
-             * Bold gradient portion of heading
-             */
-            highlight?: string | null;
-            subtitle?: string | null;
-            /**
-             * Heading after description, before CTAs (e.g. "We'll be happy to assist you!")
-             */
-            secondaryHeading?: string | null;
-            secondaryHeadingLevel?: ('h2' | 'h3' | 'h4' | 'p') | null;
-            bullets?:
-              | {
-                  text: string;
-                  tag?: ('span' | 'h2' | 'h3' | 'h4' | 'h5' | 'p') | null;
-                  id?: string | null;
-                }[]
-              | null;
-            features?:
-              | {
-                  icon?: {
-                    source?: ('preset' | 'custom') | null;
-                    preset?:
-                      | (
-                          | 'car'
-                          | 'car-front'
-                          | 'bike'
-                          | 'truck'
-                          | 'shield-check'
-                          | 'shield'
-                          | 'lock'
-                          | 'lock-open'
-                          | 'triangle-alert'
-                          | 'siren'
-                          | 'file-text'
-                          | 'clipboard-check'
-                          | 'file-search'
-                          | 'circle-check'
-                          | 'circle-x'
-                          | 'search'
-                          | 'eye'
-                          | 'scan'
-                          | 'gauge'
-                          | 'trending-up'
-                          | 'trending-down'
-                          | 'database'
-                          | 'bar-chart-3'
-                          | 'wallet'
-                          | 'credit-card'
-                          | 'tag'
-                          | 'receipt'
-                          | 'mail'
-                          | 'phone'
-                          | 'headphones'
-                          | 'message-circle'
-                          | 'zap'
-                          | 'wrench'
-                          | 'globe'
-                          | 'mouse-pointer-click'
-                          | 'download'
-                          | 'link'
-                          | 'info'
-                          | 'chevron-right'
-                          | 'star'
-                          | 'heart'
-                          | 'house'
-                          | 'map-pin'
-                          | 'clock'
-                          | 'calendar'
-                          | 'user'
-                          | 'users'
-                          | 'building'
-                          | 'pencil'
-                          | 'hash'
-                          | 'list'
-                          | 'factory'
-                          | 'circle-dot'
-                        )
-                      | null;
-                    /**
-                     * Any Lucide icon name (e.g. "package-check")
-                     */
-                    custom?: string | null;
-                  };
-                  text: string;
-                  tag?: ('span' | 'h2' | 'h3' | 'h4' | 'h5' | 'p') | null;
-                  id?: string | null;
-                }[]
-              | null;
-            /**
-             * Right-side image for split variant (580×660 recommended)
-             */
-            heroImage?: (number | null) | Media;
-            ctas?:
-              | {
-                  label: string;
-                  href: string;
-                  style?: ('primary' | 'secondary') | null;
-                  rel?: ('none' | 'nofollow' | 'sponsored' | 'ugc' | 'nofollow noopener') | null;
-                  newTab?: boolean | null;
-                  isExternal?: boolean | null;
-                  id?: string | null;
-                }[]
-              | null;
-            /**
-             * Shown below the form. In split variant, only visible when no hero image is set.
-             */
-            helperLinks?:
-              | {
-                  label: string;
-                  href: string;
-                  style?: ('arrow' | 'pill') | null;
-                  /**
-                   * Lucide icon
-                   */
-                  icon?: string | null;
-                  rel?: ('none' | 'nofollow' | 'sponsored' | 'ugc' | 'nofollow noopener') | null;
-                  newTab?: boolean | null;
-                  isExternal?: boolean | null;
-                  id?: string | null;
-                }[]
-              | null;
-            id?: string | null;
-            blockName?: string | null;
-            blockType: 'page-hero';
-          }
-        | {
-            bg?: ('white' | 'muted' | 'dark') | null;
-            scene?: ('default' | 'glow' | 'rings' | 'grid' | 'waves' | 'split' | 'edge' | 'minimal') | null;
-            /**
-             * e.g. "hero" for #hero links
-             */
-            sectionId?: string | null;
-            narrow?: boolean | null;
-            /**
-             * Small label above heading
-             */
-            tag?: string | null;
-            heading?: string | null;
-            /**
-             * Bold gradient portion of heading
-             */
-            highlight?: string | null;
-            subtitle?: string | null;
-            content?:
-              | (
-                  | {
-                      items: {
-                        question: string;
-                        answer: {
-                          root: {
-                            type: string;
-                            children: {
-                              type: any;
-                              version: number;
-                              [k: string]: unknown;
-                            }[];
-                            direction: ('ltr' | 'rtl') | null;
-                            format: 'left' | 'start' | 'center' | 'right' | 'end' | 'justify' | '';
-                            indent: number;
-                            version: number;
-                          };
-                          [k: string]: unknown;
-                        };
-                        id?: string | null;
-                      }[];
-                      id?: string | null;
-                      blockName?: string | null;
-                      blockType: 'faqs';
-                    }
-                  | {
-                      content?: {
-                        root: {
-                          type: string;
-                          children: {
-                            type: any;
-                            version: number;
-                            [k: string]: unknown;
-                          }[];
-                          direction: ('ltr' | 'rtl') | null;
-                          format: 'left' | 'start' | 'center' | 'right' | 'end' | 'justify' | '';
-                          indent: number;
-                          version: number;
-                        };
-                        [k: string]: unknown;
-                      } | null;
-                      id?: string | null;
-                      blockName?: string | null;
-                      blockType: 'rich-text';
-                    }
-                )[]
-              | null;
-            id?: string | null;
-            blockName?: string | null;
-            blockType: 'section';
-          }
-      )[]
-    | null;
-  meta?: {
-    title?: string | null;
-    description?: string | null;
-    /**
-     * Maximum upload file size: 12MB. Recommended file size for images is <500KB.
-     */
-    image?: (number | null) | Media;
-    metaRobots?: ('index, follow' | 'noindex, follow' | 'index, nofollow' | 'noindex, nofollow') | null;
-    canonicalURL?: string | null;
-    structuredData?:
-      | {
-          [k: string]: unknown;
-        }
-      | unknown[]
-      | string
-      | number
-      | boolean
-      | null;
-    /**
-     * Comma-separated keywords for search engines.
-     */
-    keywords?: string | null;
-  };
+  /**
+   * Internal note — not shown on the site.
+   */
+  description?: string | null;
   updatedAt: string;
   createdAt: string;
-  _status?: ('draft' | 'published') | null;
 }
 /**
  * This interface was referenced by `Config`'s JSON-Schema
- * via the `definition` "car-makes".
+ * via the `definition` "content-pages".
  */
-export interface CarMake {
+export interface ContentPage {
   id: number;
   name: string;
+  group: number | ContentGroup;
   /**
    * URL-safe identifier. Auto-generated from title if left empty.
    */
   slug: string;
-  logo?: (number | null) | Media;
   status?: ('active' | 'inactive') | null;
+  logo?: (number | null) | Media;
   content?:
     | (
         | {
-            variant: 'centered' | 'split' | 'stacked';
+            variant: 'centered' | 'split';
             dark?: boolean | null;
             fullHeight?: boolean | null;
             glow?: boolean | null;
-            /**
-             * Centered/stacked: shows below text. Split: shows on right side.
-             */
             formType?: ('none' | 'vin' | 'contact') | null;
-            /**
-             * Small label above heading
-             */
             tag?: string | null;
             tagLevel?: ('span' | 'h2' | 'h3' | 'h4' | 'p') | null;
             /**
-             * Main heading text
+             * Use **double asterisks** to highlight. Example: Check Any European Vehicle's **Full History Report**
              */
             title: string;
+            description?: string | null;
             /**
-             * Bold gradient portion of heading
-             */
-            highlight?: string | null;
-            subtitle?: string | null;
-            /**
-             * Heading after description, before CTAs (e.g. "We'll be happy to assist you!")
+             * Accent heading before CTAs
              */
             secondaryHeading?: string | null;
             secondaryHeadingLevel?: ('h2' | 'h3' | 'h4' | 'p') | null;
@@ -942,12 +1470,15 @@ export interface CarMake {
                     custom?: string | null;
                   };
                   text: string;
+                  href?: string | null;
                   tag?: ('span' | 'h2' | 'h3' | 'h4' | 'h5' | 'p') | null;
+                  rel?: ('none' | 'nofollow' | 'sponsored' | 'ugc') | null;
+                  newTab?: boolean | null;
                   id?: string | null;
                 }[]
               | null;
             /**
-             * Right-side image for split variant (580×660 recommended)
+             * Right-side image (580×660 recommended)
              */
             heroImage?: (number | null) | Media;
             ctas?:
@@ -955,27 +1486,19 @@ export interface CarMake {
                   label: string;
                   href: string;
                   style?: ('primary' | 'secondary') | null;
-                  rel?: ('none' | 'nofollow' | 'sponsored' | 'ugc' | 'nofollow noopener') | null;
+                  rel?: ('none' | 'nofollow' | 'sponsored' | 'ugc') | null;
                   newTab?: boolean | null;
-                  isExternal?: boolean | null;
                   id?: string | null;
                 }[]
               | null;
-            /**
-             * Shown below the form. In split variant, only visible when no hero image is set.
-             */
             helperLinks?:
               | {
                   label: string;
                   href: string;
                   style?: ('arrow' | 'pill') | null;
-                  /**
-                   * Lucide icon
-                   */
                   icon?: string | null;
-                  rel?: ('none' | 'nofollow' | 'sponsored' | 'ugc' | 'nofollow noopener') | null;
+                  rel?: ('none' | 'nofollow' | 'sponsored' | 'ugc') | null;
                   newTab?: boolean | null;
-                  isExternal?: boolean | null;
                   id?: string | null;
                 }[]
               | null;
@@ -990,20 +1513,263 @@ export interface CarMake {
              * e.g. "hero" for #hero links
              */
             sectionId?: string | null;
+            /**
+             * Constrain width for focused content like FAQ
+             */
             narrow?: boolean | null;
             /**
              * Small label above heading
              */
             tag?: string | null;
-            heading?: string | null;
             /**
-             * Bold gradient portion of heading
+             * Wrap text in **double asterisks** to highlight. Example: Why You Should Run a **European VIN Check**
              */
-            highlight?: string | null;
-            subtitle?: string | null;
+            heading?: string | null;
+            headingLevel?: ('h1' | 'h2' | 'h3' | 'h4') | null;
+            description?: {
+              root: {
+                type: string;
+                children: {
+                  type: any;
+                  version: number;
+                  [k: string]: unknown;
+                }[];
+                direction: ('ltr' | 'rtl') | null;
+                format: 'left' | 'start' | 'center' | 'right' | 'end' | 'justify' | '';
+                indent: number;
+                version: number;
+              };
+              [k: string]: unknown;
+            } | null;
             content?:
               | (
                   | {
+                      columns?: ('1' | '2' | '3' | '4') | null;
+                      tabletColumns?: ('1' | '2' | '3') | null;
+                      mobileColumns?: ('1' | '2') | null;
+                      cards?:
+                        | {
+                            cardType: 'feature' | 'callout';
+                            colSpan?: ('1' | '2' | '3' | '4' | 'full') | null;
+                            style?: ('none' | 'icon' | 'stat') | null;
+                            layout?: ('stacked' | 'inline' | 'centered') | null;
+                            icon?: {
+                              source?: ('preset' | 'custom') | null;
+                              preset?:
+                                | (
+                                    | 'car'
+                                    | 'car-front'
+                                    | 'bike'
+                                    | 'truck'
+                                    | 'shield-check'
+                                    | 'shield'
+                                    | 'lock'
+                                    | 'lock-open'
+                                    | 'triangle-alert'
+                                    | 'siren'
+                                    | 'file-text'
+                                    | 'clipboard-check'
+                                    | 'file-search'
+                                    | 'circle-check'
+                                    | 'circle-x'
+                                    | 'search'
+                                    | 'eye'
+                                    | 'scan'
+                                    | 'gauge'
+                                    | 'trending-up'
+                                    | 'trending-down'
+                                    | 'database'
+                                    | 'bar-chart-3'
+                                    | 'wallet'
+                                    | 'credit-card'
+                                    | 'tag'
+                                    | 'receipt'
+                                    | 'mail'
+                                    | 'phone'
+                                    | 'headphones'
+                                    | 'message-circle'
+                                    | 'zap'
+                                    | 'wrench'
+                                    | 'globe'
+                                    | 'mouse-pointer-click'
+                                    | 'download'
+                                    | 'link'
+                                    | 'info'
+                                    | 'chevron-right'
+                                    | 'star'
+                                    | 'heart'
+                                    | 'house'
+                                    | 'map-pin'
+                                    | 'clock'
+                                    | 'calendar'
+                                    | 'user'
+                                    | 'users'
+                                    | 'building'
+                                    | 'pencil'
+                                    | 'hash'
+                                    | 'list'
+                                    | 'factory'
+                                    | 'circle-dot'
+                                  )
+                                | null;
+                              /**
+                               * Any Lucide icon name (e.g. "package-check")
+                               */
+                              custom?: string | null;
+                            };
+                            stat?: string | null;
+                            statColor?: ('primary' | 'success' | 'danger' | 'info' | 'warning' | 'purple') | null;
+                            title: string;
+                            titleElement?: ('h3' | 'h4' | 'h5' | 'p') | null;
+                            description?: {
+                              root: {
+                                type: string;
+                                children: {
+                                  type: any;
+                                  version: number;
+                                  [k: string]: unknown;
+                                }[];
+                                direction: ('ltr' | 'rtl') | null;
+                                format: 'left' | 'start' | 'center' | 'right' | 'end' | 'justify' | '';
+                                indent: number;
+                                version: number;
+                              };
+                              [k: string]: unknown;
+                            } | null;
+                            listIcon?: {
+                              source?: ('preset' | 'custom') | null;
+                              preset?:
+                                | (
+                                    | 'car'
+                                    | 'car-front'
+                                    | 'bike'
+                                    | 'truck'
+                                    | 'shield-check'
+                                    | 'shield'
+                                    | 'lock'
+                                    | 'lock-open'
+                                    | 'triangle-alert'
+                                    | 'siren'
+                                    | 'file-text'
+                                    | 'clipboard-check'
+                                    | 'file-search'
+                                    | 'circle-check'
+                                    | 'circle-x'
+                                    | 'search'
+                                    | 'eye'
+                                    | 'scan'
+                                    | 'gauge'
+                                    | 'trending-up'
+                                    | 'trending-down'
+                                    | 'database'
+                                    | 'bar-chart-3'
+                                    | 'wallet'
+                                    | 'credit-card'
+                                    | 'tag'
+                                    | 'receipt'
+                                    | 'mail'
+                                    | 'phone'
+                                    | 'headphones'
+                                    | 'message-circle'
+                                    | 'zap'
+                                    | 'wrench'
+                                    | 'globe'
+                                    | 'mouse-pointer-click'
+                                    | 'download'
+                                    | 'link'
+                                    | 'info'
+                                    | 'chevron-right'
+                                    | 'star'
+                                    | 'heart'
+                                    | 'house'
+                                    | 'map-pin'
+                                    | 'clock'
+                                    | 'calendar'
+                                    | 'user'
+                                    | 'users'
+                                    | 'building'
+                                    | 'pencil'
+                                    | 'hash'
+                                    | 'list'
+                                    | 'factory'
+                                    | 'circle-dot'
+                                  )
+                                | null;
+                              /**
+                               * Any Lucide icon name (e.g. "package-check")
+                               */
+                              custom?: string | null;
+                            };
+                            listVariant?: ('success' | 'danger' | 'neutral' | 'muted') | null;
+                            listItemStyle?: ('flat' | 'card') | null;
+                            items?:
+                              | {
+                                  title?: string | null;
+                                  titleElement?: ('h3' | 'h4' | 'h5' | 'p') | null;
+                                  /**
+                                   * For simple list items, skip the title above and just write here.
+                                   */
+                                  description?: {
+                                    root: {
+                                      type: string;
+                                      children: {
+                                        type: any;
+                                        version: number;
+                                        [k: string]: unknown;
+                                      }[];
+                                      direction: ('ltr' | 'rtl') | null;
+                                      format: 'left' | 'start' | 'center' | 'right' | 'end' | 'justify' | '';
+                                      indent: number;
+                                      version: number;
+                                    };
+                                    [k: string]: unknown;
+                                  } | null;
+                                  id?: string | null;
+                                }[]
+                              | null;
+                            calloutStat?: string | null;
+                            calloutTitle?: string | null;
+                            calloutTitleElement?: ('h3' | 'h4' | 'h5' | 'p') | null;
+                            calloutDescription?: {
+                              root: {
+                                type: string;
+                                children: {
+                                  type: any;
+                                  version: number;
+                                  [k: string]: unknown;
+                                }[];
+                                direction: ('ltr' | 'rtl') | null;
+                                format: 'left' | 'start' | 'center' | 'right' | 'end' | 'justify' | '';
+                                indent: number;
+                                version: number;
+                              };
+                              [k: string]: unknown;
+                            } | null;
+                            id?: string | null;
+                          }[]
+                        | null;
+                      /**
+                       * Optional call-to-action buttons below content
+                       */
+                      ctas?:
+                        | {
+                            label: string;
+                            href: string;
+                            style?: ('primary' | 'secondary') | null;
+                            rel?: ('none' | 'nofollow' | 'sponsored' | 'ugc') | null;
+                            newTab?: boolean | null;
+                            id?: string | null;
+                          }[]
+                        | null;
+                      id?: string | null;
+                      blockName?: string | null;
+                      blockType: 'card-grid';
+                    }
+                  | {
+                      /**
+                       * HTML element for each question
+                       */
+                      questionElement?: ('h3' | 'h4' | 'h5' | 'span') | null;
                       items: {
                         question: string;
                         answer: {
@@ -1047,11 +1813,503 @@ export interface CarMake {
                       blockName?: string | null;
                       blockType: 'rich-text';
                     }
+                  | {
+                      /**
+                       * Small label above heading (e.g. "Why VIN Check")
+                       */
+                      tag?: string | null;
+                      /**
+                       * Wrap text in **double asterisks** for gradient highlight on new line. Example: Save Money and Avoid **Costly Mistakes**
+                       */
+                      heading: string;
+                      headingLevel?: ('h2' | 'h3' | 'h4') | null;
+                      contentType?: ('richtext' | 'cards') | null;
+                      description?: {
+                        root: {
+                          type: string;
+                          children: {
+                            type: any;
+                            version: number;
+                            [k: string]: unknown;
+                          }[];
+                          direction: ('ltr' | 'rtl') | null;
+                          format: 'left' | 'start' | 'center' | 'right' | 'end' | 'justify' | '';
+                          indent: number;
+                          version: number;
+                        };
+                        [k: string]: unknown;
+                      } | null;
+                      cardColumns?: ('1' | '2') | null;
+                      cards?:
+                        | {
+                            icon?: {
+                              source?: ('preset' | 'custom') | null;
+                              preset?:
+                                | (
+                                    | 'car'
+                                    | 'car-front'
+                                    | 'bike'
+                                    | 'truck'
+                                    | 'shield-check'
+                                    | 'shield'
+                                    | 'lock'
+                                    | 'lock-open'
+                                    | 'triangle-alert'
+                                    | 'siren'
+                                    | 'file-text'
+                                    | 'clipboard-check'
+                                    | 'file-search'
+                                    | 'circle-check'
+                                    | 'circle-x'
+                                    | 'search'
+                                    | 'eye'
+                                    | 'scan'
+                                    | 'gauge'
+                                    | 'trending-up'
+                                    | 'trending-down'
+                                    | 'database'
+                                    | 'bar-chart-3'
+                                    | 'wallet'
+                                    | 'credit-card'
+                                    | 'tag'
+                                    | 'receipt'
+                                    | 'mail'
+                                    | 'phone'
+                                    | 'headphones'
+                                    | 'message-circle'
+                                    | 'zap'
+                                    | 'wrench'
+                                    | 'globe'
+                                    | 'mouse-pointer-click'
+                                    | 'download'
+                                    | 'link'
+                                    | 'info'
+                                    | 'chevron-right'
+                                    | 'star'
+                                    | 'heart'
+                                    | 'house'
+                                    | 'map-pin'
+                                    | 'clock'
+                                    | 'calendar'
+                                    | 'user'
+                                    | 'users'
+                                    | 'building'
+                                    | 'pencil'
+                                    | 'hash'
+                                    | 'list'
+                                    | 'factory'
+                                    | 'circle-dot'
+                                  )
+                                | null;
+                              /**
+                               * Any Lucide icon name (e.g. "package-check")
+                               */
+                              custom?: string | null;
+                            };
+                            title: string;
+                            titleElement?: ('h3' | 'h4') | null;
+                            cardDescription?: {
+                              root: {
+                                type: string;
+                                children: {
+                                  type: any;
+                                  version: number;
+                                  [k: string]: unknown;
+                                }[];
+                                direction: ('ltr' | 'rtl') | null;
+                                format: 'left' | 'start' | 'center' | 'right' | 'end' | 'justify' | '';
+                                indent: number;
+                                version: number;
+                              };
+                              [k: string]: unknown;
+                            } | null;
+                            id?: string | null;
+                          }[]
+                        | null;
+                      mediaType?: ('image' | 'vin-structure') | null;
+                      /**
+                       * Right-side image (recommended 600×500 or larger)
+                       */
+                      media?: (number | null) | Media;
+                      /**
+                       * Media on left, text on right
+                       */
+                      reverse?: boolean | null;
+                      listItems?:
+                        | {
+                            icon?: {
+                              source?: ('preset' | 'custom') | null;
+                              preset?:
+                                | (
+                                    | 'car'
+                                    | 'car-front'
+                                    | 'bike'
+                                    | 'truck'
+                                    | 'shield-check'
+                                    | 'shield'
+                                    | 'lock'
+                                    | 'lock-open'
+                                    | 'triangle-alert'
+                                    | 'siren'
+                                    | 'file-text'
+                                    | 'clipboard-check'
+                                    | 'file-search'
+                                    | 'circle-check'
+                                    | 'circle-x'
+                                    | 'search'
+                                    | 'eye'
+                                    | 'scan'
+                                    | 'gauge'
+                                    | 'trending-up'
+                                    | 'trending-down'
+                                    | 'database'
+                                    | 'bar-chart-3'
+                                    | 'wallet'
+                                    | 'credit-card'
+                                    | 'tag'
+                                    | 'receipt'
+                                    | 'mail'
+                                    | 'phone'
+                                    | 'headphones'
+                                    | 'message-circle'
+                                    | 'zap'
+                                    | 'wrench'
+                                    | 'globe'
+                                    | 'mouse-pointer-click'
+                                    | 'download'
+                                    | 'link'
+                                    | 'info'
+                                    | 'chevron-right'
+                                    | 'star'
+                                    | 'heart'
+                                    | 'house'
+                                    | 'map-pin'
+                                    | 'clock'
+                                    | 'calendar'
+                                    | 'user'
+                                    | 'users'
+                                    | 'building'
+                                    | 'pencil'
+                                    | 'hash'
+                                    | 'list'
+                                    | 'factory'
+                                    | 'circle-dot'
+                                  )
+                                | null;
+                              /**
+                               * Any Lucide icon name (e.g. "package-check")
+                               */
+                              custom?: string | null;
+                            };
+                            text: string;
+                            variant?: ('success' | 'danger' | 'neutral' | 'muted') | null;
+                            id?: string | null;
+                          }[]
+                        | null;
+                      /**
+                       * Optional call-to-action buttons below content
+                       */
+                      ctas?:
+                        | {
+                            label: string;
+                            href: string;
+                            style?: ('primary' | 'secondary') | null;
+                            rel?: ('none' | 'nofollow' | 'sponsored' | 'ugc') | null;
+                            newTab?: boolean | null;
+                            id?: string | null;
+                          }[]
+                        | null;
+                      id?: string | null;
+                      blockName?: string | null;
+                      blockType: 'split-content';
+                    }
+                  | {
+                      items?:
+                        | {
+                            label: string;
+                            href: string;
+                            id?: string | null;
+                          }[]
+                        | null;
+                      id?: string | null;
+                      blockName?: string | null;
+                      blockType: 'pill-grid';
+                    }
+                  | {
+                      columns?: ('2' | '3' | '4' | '5' | '6') | null;
+                      tabletColumns?: ('1' | '2' | '3' | '4') | null;
+                      mobileColumns?: ('1' | '2' | '3') | null;
+                      size?: ('small' | 'regular') | null;
+                      items?:
+                        | {
+                            label: string;
+                            /**
+                             * Leave empty for non-clickable display card
+                             */
+                            href?: string | null;
+                            id?: string | null;
+                          }[]
+                        | null;
+                      id?: string | null;
+                      blockName?: string | null;
+                      blockType: 'link-card-grid';
+                    }
+                  | {
+                      style?: ('icons' | 'numbers') | null;
+                      titleElement?: ('h3' | 'h4' | 'span') | null;
+                      steps: {
+                        title?: string | null;
+                        description: string;
+                        icon?: {
+                          source?: ('preset' | 'custom') | null;
+                          preset?:
+                            | (
+                                | 'car'
+                                | 'car-front'
+                                | 'bike'
+                                | 'truck'
+                                | 'shield-check'
+                                | 'shield'
+                                | 'lock'
+                                | 'lock-open'
+                                | 'triangle-alert'
+                                | 'siren'
+                                | 'file-text'
+                                | 'clipboard-check'
+                                | 'file-search'
+                                | 'circle-check'
+                                | 'circle-x'
+                                | 'search'
+                                | 'eye'
+                                | 'scan'
+                                | 'gauge'
+                                | 'trending-up'
+                                | 'trending-down'
+                                | 'database'
+                                | 'bar-chart-3'
+                                | 'wallet'
+                                | 'credit-card'
+                                | 'tag'
+                                | 'receipt'
+                                | 'mail'
+                                | 'phone'
+                                | 'headphones'
+                                | 'message-circle'
+                                | 'zap'
+                                | 'wrench'
+                                | 'globe'
+                                | 'mouse-pointer-click'
+                                | 'download'
+                                | 'link'
+                                | 'info'
+                                | 'chevron-right'
+                                | 'star'
+                                | 'heart'
+                                | 'house'
+                                | 'map-pin'
+                                | 'clock'
+                                | 'calendar'
+                                | 'user'
+                                | 'users'
+                                | 'building'
+                                | 'pencil'
+                                | 'hash'
+                                | 'list'
+                                | 'factory'
+                                | 'circle-dot'
+                              )
+                            | null;
+                          /**
+                           * Any Lucide icon name (e.g. "package-check")
+                           */
+                          custom?: string | null;
+                        };
+                        id?: string | null;
+                      }[];
+                      bottomText?: {
+                        root: {
+                          type: string;
+                          children: {
+                            type: any;
+                            version: number;
+                            [k: string]: unknown;
+                          }[];
+                          direction: ('ltr' | 'rtl') | null;
+                          format: 'left' | 'start' | 'center' | 'right' | 'end' | 'justify' | '';
+                          indent: number;
+                          version: number;
+                        };
+                        [k: string]: unknown;
+                      } | null;
+                      /**
+                       * Optional call-to-action buttons below content
+                       */
+                      ctas?:
+                        | {
+                            label: string;
+                            href: string;
+                            style?: ('primary' | 'secondary') | null;
+                            rel?: ('none' | 'nofollow' | 'sponsored' | 'ugc') | null;
+                            newTab?: boolean | null;
+                            id?: string | null;
+                          }[]
+                        | null;
+                      id?: string | null;
+                      blockName?: string | null;
+                      blockType: 'steps';
+                    }
+                  | {
+                      /**
+                       * Pin first column on mobile scroll
+                       */
+                      stickyFirstColumn?: boolean | null;
+                      /**
+                       * Column index to highlight (1-based). Leave empty for none.
+                       */
+                      highlightColumn?: number | null;
+                      /**
+                       * Optional — one entry per column. Leave empty for equal-width.
+                       */
+                      columnWidths?:
+                        | {
+                            mobile?: string | null;
+                            desktop?: string | null;
+                            id?: string | null;
+                          }[]
+                        | null;
+                      /**
+                       * First row becomes the table header
+                       */
+                      rows: {
+                        cells?:
+                          | {
+                              type: 'richtext' | 'check' | 'x';
+                              content?: {
+                                root: {
+                                  type: string;
+                                  children: {
+                                    type: any;
+                                    version: number;
+                                    [k: string]: unknown;
+                                  }[];
+                                  direction: ('ltr' | 'rtl') | null;
+                                  format: 'left' | 'start' | 'center' | 'right' | 'end' | 'justify' | '';
+                                  indent: number;
+                                  version: number;
+                                };
+                                [k: string]: unknown;
+                              } | null;
+                              id?: string | null;
+                            }[]
+                          | null;
+                        id?: string | null;
+                      }[];
+                      id?: string | null;
+                      blockName?: string | null;
+                      blockType: 'comparison-table';
+                    }
+                  | {
+                      reports?:
+                        | {
+                            reportImage?: (number | null) | Media;
+                            year: number;
+                            make: string;
+                            model: string;
+                            vin: string;
+                            bodyStyle: string;
+                            engine: string;
+                            country: string;
+                            href?: string | null;
+                            id?: string | null;
+                          }[]
+                        | null;
+                      id?: string | null;
+                      blockName?: string | null;
+                      blockType: 'sample-report-grid';
+                    }
                 )[]
+              | null;
+            /**
+             * Optional rich text below the content block (e.g. closing paragraph)
+             */
+            bottomText?: {
+              root: {
+                type: string;
+                children: {
+                  type: any;
+                  version: number;
+                  [k: string]: unknown;
+                }[];
+                direction: ('ltr' | 'rtl') | null;
+                format: 'left' | 'start' | 'center' | 'right' | 'end' | 'justify' | '';
+                indent: number;
+                version: number;
+              };
+              [k: string]: unknown;
+            } | null;
+            /**
+             * Optional call-to-action buttons below content
+             */
+            ctas?:
+              | {
+                  label: string;
+                  href: string;
+                  style?: ('primary' | 'secondary') | null;
+                  rel?: ('none' | 'nofollow' | 'sponsored' | 'ugc') | null;
+                  newTab?: boolean | null;
+                  id?: string | null;
+                }[]
               | null;
             id?: string | null;
             blockName?: string | null;
             blockType: 'section';
+          }
+        | {
+            layout?: ('full' | 'contained') | null;
+            dark?: boolean | null;
+            scene?: ('none' | 'glow') | null;
+            mode?: ('link' | 'vin-input') | null;
+            /**
+             * Small label above heading
+             */
+            tag?: string | null;
+            /**
+             * Use **double asterisks** for gradient highlight
+             */
+            heading: string;
+            headingLevel?: ('h2' | 'h3' | 'h4') | null;
+            description?: {
+              root: {
+                type: string;
+                children: {
+                  type: any;
+                  version: number;
+                  [k: string]: unknown;
+                }[];
+                direction: ('ltr' | 'rtl') | null;
+                format: 'left' | 'start' | 'center' | 'right' | 'end' | 'justify' | '';
+                indent: number;
+                version: number;
+              };
+              [k: string]: unknown;
+            } | null;
+            /**
+             * Optional call-to-action buttons below content
+             */
+            ctas?:
+              | {
+                  label: string;
+                  href: string;
+                  style?: ('primary' | 'secondary') | null;
+                  rel?: ('none' | 'nofollow' | 'sponsored' | 'ugc') | null;
+                  newTab?: boolean | null;
+                  id?: string | null;
+                }[]
+              | null;
+            vinButtonText?: string | null;
+            id?: string | null;
+            blockName?: string | null;
+            blockType: 'cta-banner';
           }
       )[]
     | null;
@@ -1154,12 +2412,12 @@ export interface PayloadLockedDocument {
         value: number | Category;
       } | null)
     | ({
-        relationTo: 'countries';
-        value: number | Country;
+        relationTo: 'content-groups';
+        value: number | ContentGroup;
       } | null)
     | ({
-        relationTo: 'car-makes';
-        value: number | CarMake;
+        relationTo: 'content-pages';
+        value: number | ContentPage;
       } | null)
     | ({
         relationTo: 'redirects';
@@ -1235,6 +2493,7 @@ export interface UsersSelect<T extends boolean = true> {
  */
 export interface MediaSelect<T extends boolean = true> {
   alt?: T;
+  prefix?: T;
   updatedAt?: T;
   createdAt?: T;
   url?: T;
@@ -1303,8 +2562,7 @@ export interface PagesSelect<T extends boolean = true> {
               tag?: T;
               tagLevel?: T;
               title?: T;
-              highlight?: T;
-              subtitle?: T;
+              description?: T;
               secondaryHeading?: T;
               secondaryHeadingLevel?: T;
               bullets?:
@@ -1325,7 +2583,10 @@ export interface PagesSelect<T extends boolean = true> {
                           custom?: T;
                         };
                     text?: T;
+                    href?: T;
                     tag?: T;
+                    rel?: T;
+                    newTab?: T;
                     id?: T;
                   };
               heroImage?: T;
@@ -1337,7 +2598,6 @@ export interface PagesSelect<T extends boolean = true> {
                     style?: T;
                     rel?: T;
                     newTab?: T;
-                    isExternal?: T;
                     id?: T;
                   };
               helperLinks?:
@@ -1349,7 +2609,6 @@ export interface PagesSelect<T extends boolean = true> {
                     icon?: T;
                     rel?: T;
                     newTab?: T;
-                    isExternal?: T;
                     id?: T;
                   };
               id?: T;
@@ -1364,14 +2623,76 @@ export interface PagesSelect<T extends boolean = true> {
               narrow?: T;
               tag?: T;
               heading?: T;
-              highlight?: T;
-              subtitle?: T;
+              headingLevel?: T;
+              description?: T;
               content?:
                 | T
                 | {
+                    'card-grid'?:
+                      | T
+                      | {
+                          columns?: T;
+                          tabletColumns?: T;
+                          mobileColumns?: T;
+                          cards?:
+                            | T
+                            | {
+                                cardType?: T;
+                                colSpan?: T;
+                                style?: T;
+                                layout?: T;
+                                icon?:
+                                  | T
+                                  | {
+                                      source?: T;
+                                      preset?: T;
+                                      custom?: T;
+                                    };
+                                stat?: T;
+                                statColor?: T;
+                                title?: T;
+                                titleElement?: T;
+                                description?: T;
+                                listIcon?:
+                                  | T
+                                  | {
+                                      source?: T;
+                                      preset?: T;
+                                      custom?: T;
+                                    };
+                                listVariant?: T;
+                                listItemStyle?: T;
+                                items?:
+                                  | T
+                                  | {
+                                      title?: T;
+                                      titleElement?: T;
+                                      description?: T;
+                                      id?: T;
+                                    };
+                                calloutStat?: T;
+                                calloutTitle?: T;
+                                calloutTitleElement?: T;
+                                calloutDescription?: T;
+                                id?: T;
+                              };
+                          ctas?:
+                            | T
+                            | {
+                                label?: T;
+                                href?: T;
+                                style?: T;
+                                rel?: T;
+                                newTab?: T;
+                                id?: T;
+                              };
+                          id?: T;
+                          blockName?: T;
+                        };
                     faqs?:
                       | T
                       | {
+                          questionElement?: T;
                           items?:
                             | T
                             | {
@@ -1389,7 +2710,234 @@ export interface PagesSelect<T extends boolean = true> {
                           id?: T;
                           blockName?: T;
                         };
+                    'split-content'?:
+                      | T
+                      | {
+                          tag?: T;
+                          heading?: T;
+                          headingLevel?: T;
+                          contentType?: T;
+                          description?: T;
+                          cardColumns?: T;
+                          cards?:
+                            | T
+                            | {
+                                icon?:
+                                  | T
+                                  | {
+                                      source?: T;
+                                      preset?: T;
+                                      custom?: T;
+                                    };
+                                title?: T;
+                                titleElement?: T;
+                                cardDescription?: T;
+                                id?: T;
+                              };
+                          mediaType?: T;
+                          media?: T;
+                          reverse?: T;
+                          listItems?:
+                            | T
+                            | {
+                                icon?:
+                                  | T
+                                  | {
+                                      source?: T;
+                                      preset?: T;
+                                      custom?: T;
+                                    };
+                                text?: T;
+                                variant?: T;
+                                id?: T;
+                              };
+                          ctas?:
+                            | T
+                            | {
+                                label?: T;
+                                href?: T;
+                                style?: T;
+                                rel?: T;
+                                newTab?: T;
+                                id?: T;
+                              };
+                          id?: T;
+                          blockName?: T;
+                        };
+                    'pill-grid'?:
+                      | T
+                      | {
+                          items?:
+                            | T
+                            | {
+                                label?: T;
+                                href?: T;
+                                id?: T;
+                              };
+                          id?: T;
+                          blockName?: T;
+                        };
+                    'link-card-grid'?:
+                      | T
+                      | {
+                          columns?: T;
+                          tabletColumns?: T;
+                          mobileColumns?: T;
+                          size?: T;
+                          items?:
+                            | T
+                            | {
+                                label?: T;
+                                href?: T;
+                                id?: T;
+                              };
+                          id?: T;
+                          blockName?: T;
+                        };
+                    steps?:
+                      | T
+                      | {
+                          style?: T;
+                          titleElement?: T;
+                          steps?:
+                            | T
+                            | {
+                                title?: T;
+                                description?: T;
+                                icon?:
+                                  | T
+                                  | {
+                                      source?: T;
+                                      preset?: T;
+                                      custom?: T;
+                                    };
+                                id?: T;
+                              };
+                          bottomText?: T;
+                          ctas?:
+                            | T
+                            | {
+                                label?: T;
+                                href?: T;
+                                style?: T;
+                                rel?: T;
+                                newTab?: T;
+                                id?: T;
+                              };
+                          id?: T;
+                          blockName?: T;
+                        };
+                    'comparison-table'?:
+                      | T
+                      | {
+                          stickyFirstColumn?: T;
+                          highlightColumn?: T;
+                          columnWidths?:
+                            | T
+                            | {
+                                mobile?: T;
+                                desktop?: T;
+                                id?: T;
+                              };
+                          rows?:
+                            | T
+                            | {
+                                cells?:
+                                  | T
+                                  | {
+                                      type?: T;
+                                      content?: T;
+                                      id?: T;
+                                    };
+                                id?: T;
+                              };
+                          id?: T;
+                          blockName?: T;
+                        };
+                    'sample-report-grid'?:
+                      | T
+                      | {
+                          reports?:
+                            | T
+                            | {
+                                reportImage?: T;
+                                year?: T;
+                                make?: T;
+                                model?: T;
+                                vin?: T;
+                                bodyStyle?: T;
+                                engine?: T;
+                                country?: T;
+                                href?: T;
+                                id?: T;
+                              };
+                          id?: T;
+                          blockName?: T;
+                        };
                   };
+              bottomText?: T;
+              ctas?:
+                | T
+                | {
+                    label?: T;
+                    href?: T;
+                    style?: T;
+                    rel?: T;
+                    newTab?: T;
+                    id?: T;
+                  };
+              id?: T;
+              blockName?: T;
+            };
+        'cta-banner'?:
+          | T
+          | {
+              layout?: T;
+              dark?: T;
+              scene?: T;
+              mode?: T;
+              tag?: T;
+              heading?: T;
+              headingLevel?: T;
+              description?: T;
+              ctas?:
+                | T
+                | {
+                    label?: T;
+                    href?: T;
+                    style?: T;
+                    rel?: T;
+                    newTab?: T;
+                    id?: T;
+                  };
+              vinButtonText?: T;
+              id?: T;
+              blockName?: T;
+            };
+        'contact-form'?:
+          | T
+          | {
+              bg?: T;
+              notificationEmail?: T;
+              heading?: T;
+              description?: T;
+              id?: T;
+              blockName?: T;
+            };
+        'refund-form'?:
+          | T
+          | {
+              heading?: T;
+              description?: T;
+              id?: T;
+              blockName?: T;
+            };
+        'legal-content'?:
+          | T
+          | {
+              title?: T;
+              lastUpdated?: T;
+              content?: T;
               id?: T;
               blockName?: T;
             };
@@ -1456,6 +3004,7 @@ export interface PostsSelect<T extends boolean = true> {
  */
 export interface AuthorsSelect<T extends boolean = true> {
   name?: T;
+  slug?: T;
   role?: T;
   bio?: T;
   email?: T;
@@ -1483,141 +3032,25 @@ export interface CategoriesSelect<T extends boolean = true> {
 }
 /**
  * This interface was referenced by `Config`'s JSON-Schema
- * via the `definition` "countries_select".
+ * via the `definition` "content-groups_select".
  */
-export interface CountriesSelect<T extends boolean = true> {
+export interface ContentGroupsSelect<T extends boolean = true> {
   name?: T;
   slug?: T;
-  status?: T;
-  content?:
-    | T
-    | {
-        'page-hero'?:
-          | T
-          | {
-              variant?: T;
-              dark?: T;
-              fullHeight?: T;
-              glow?: T;
-              formType?: T;
-              tag?: T;
-              tagLevel?: T;
-              title?: T;
-              highlight?: T;
-              subtitle?: T;
-              secondaryHeading?: T;
-              secondaryHeadingLevel?: T;
-              bullets?:
-                | T
-                | {
-                    text?: T;
-                    tag?: T;
-                    id?: T;
-                  };
-              features?:
-                | T
-                | {
-                    icon?:
-                      | T
-                      | {
-                          source?: T;
-                          preset?: T;
-                          custom?: T;
-                        };
-                    text?: T;
-                    tag?: T;
-                    id?: T;
-                  };
-              heroImage?: T;
-              ctas?:
-                | T
-                | {
-                    label?: T;
-                    href?: T;
-                    style?: T;
-                    rel?: T;
-                    newTab?: T;
-                    isExternal?: T;
-                    id?: T;
-                  };
-              helperLinks?:
-                | T
-                | {
-                    label?: T;
-                    href?: T;
-                    style?: T;
-                    icon?: T;
-                    rel?: T;
-                    newTab?: T;
-                    isExternal?: T;
-                    id?: T;
-                  };
-              id?: T;
-              blockName?: T;
-            };
-        section?:
-          | T
-          | {
-              bg?: T;
-              scene?: T;
-              sectionId?: T;
-              narrow?: T;
-              tag?: T;
-              heading?: T;
-              highlight?: T;
-              subtitle?: T;
-              content?:
-                | T
-                | {
-                    faqs?:
-                      | T
-                      | {
-                          items?:
-                            | T
-                            | {
-                                question?: T;
-                                answer?: T;
-                                id?: T;
-                              };
-                          id?: T;
-                          blockName?: T;
-                        };
-                    'rich-text'?:
-                      | T
-                      | {
-                          content?: T;
-                          id?: T;
-                          blockName?: T;
-                        };
-                  };
-              id?: T;
-              blockName?: T;
-            };
-      };
-  meta?:
-    | T
-    | {
-        title?: T;
-        description?: T;
-        image?: T;
-        metaRobots?: T;
-        canonicalURL?: T;
-        structuredData?: T;
-        keywords?: T;
-      };
+  description?: T;
   updatedAt?: T;
   createdAt?: T;
-  _status?: T;
 }
 /**
  * This interface was referenced by `Config`'s JSON-Schema
- * via the `definition` "car-makes_select".
+ * via the `definition` "content-pages_select".
  */
-export interface CarMakesSelect<T extends boolean = true> {
+export interface ContentPagesSelect<T extends boolean = true> {
   name?: T;
+  group?: T;
   slug?: T;
-  logo?: T;
   status?: T;
+  logo?: T;
   content?:
     | T
     | {
@@ -1632,8 +3065,7 @@ export interface CarMakesSelect<T extends boolean = true> {
               tag?: T;
               tagLevel?: T;
               title?: T;
-              highlight?: T;
-              subtitle?: T;
+              description?: T;
               secondaryHeading?: T;
               secondaryHeadingLevel?: T;
               bullets?:
@@ -1654,7 +3086,10 @@ export interface CarMakesSelect<T extends boolean = true> {
                           custom?: T;
                         };
                     text?: T;
+                    href?: T;
                     tag?: T;
+                    rel?: T;
+                    newTab?: T;
                     id?: T;
                   };
               heroImage?: T;
@@ -1666,7 +3101,6 @@ export interface CarMakesSelect<T extends boolean = true> {
                     style?: T;
                     rel?: T;
                     newTab?: T;
-                    isExternal?: T;
                     id?: T;
                   };
               helperLinks?:
@@ -1678,7 +3112,6 @@ export interface CarMakesSelect<T extends boolean = true> {
                     icon?: T;
                     rel?: T;
                     newTab?: T;
-                    isExternal?: T;
                     id?: T;
                   };
               id?: T;
@@ -1693,14 +3126,76 @@ export interface CarMakesSelect<T extends boolean = true> {
               narrow?: T;
               tag?: T;
               heading?: T;
-              highlight?: T;
-              subtitle?: T;
+              headingLevel?: T;
+              description?: T;
               content?:
                 | T
                 | {
+                    'card-grid'?:
+                      | T
+                      | {
+                          columns?: T;
+                          tabletColumns?: T;
+                          mobileColumns?: T;
+                          cards?:
+                            | T
+                            | {
+                                cardType?: T;
+                                colSpan?: T;
+                                style?: T;
+                                layout?: T;
+                                icon?:
+                                  | T
+                                  | {
+                                      source?: T;
+                                      preset?: T;
+                                      custom?: T;
+                                    };
+                                stat?: T;
+                                statColor?: T;
+                                title?: T;
+                                titleElement?: T;
+                                description?: T;
+                                listIcon?:
+                                  | T
+                                  | {
+                                      source?: T;
+                                      preset?: T;
+                                      custom?: T;
+                                    };
+                                listVariant?: T;
+                                listItemStyle?: T;
+                                items?:
+                                  | T
+                                  | {
+                                      title?: T;
+                                      titleElement?: T;
+                                      description?: T;
+                                      id?: T;
+                                    };
+                                calloutStat?: T;
+                                calloutTitle?: T;
+                                calloutTitleElement?: T;
+                                calloutDescription?: T;
+                                id?: T;
+                              };
+                          ctas?:
+                            | T
+                            | {
+                                label?: T;
+                                href?: T;
+                                style?: T;
+                                rel?: T;
+                                newTab?: T;
+                                id?: T;
+                              };
+                          id?: T;
+                          blockName?: T;
+                        };
                     faqs?:
                       | T
                       | {
+                          questionElement?: T;
                           items?:
                             | T
                             | {
@@ -1718,7 +3213,207 @@ export interface CarMakesSelect<T extends boolean = true> {
                           id?: T;
                           blockName?: T;
                         };
+                    'split-content'?:
+                      | T
+                      | {
+                          tag?: T;
+                          heading?: T;
+                          headingLevel?: T;
+                          contentType?: T;
+                          description?: T;
+                          cardColumns?: T;
+                          cards?:
+                            | T
+                            | {
+                                icon?:
+                                  | T
+                                  | {
+                                      source?: T;
+                                      preset?: T;
+                                      custom?: T;
+                                    };
+                                title?: T;
+                                titleElement?: T;
+                                cardDescription?: T;
+                                id?: T;
+                              };
+                          mediaType?: T;
+                          media?: T;
+                          reverse?: T;
+                          listItems?:
+                            | T
+                            | {
+                                icon?:
+                                  | T
+                                  | {
+                                      source?: T;
+                                      preset?: T;
+                                      custom?: T;
+                                    };
+                                text?: T;
+                                variant?: T;
+                                id?: T;
+                              };
+                          ctas?:
+                            | T
+                            | {
+                                label?: T;
+                                href?: T;
+                                style?: T;
+                                rel?: T;
+                                newTab?: T;
+                                id?: T;
+                              };
+                          id?: T;
+                          blockName?: T;
+                        };
+                    'pill-grid'?:
+                      | T
+                      | {
+                          items?:
+                            | T
+                            | {
+                                label?: T;
+                                href?: T;
+                                id?: T;
+                              };
+                          id?: T;
+                          blockName?: T;
+                        };
+                    'link-card-grid'?:
+                      | T
+                      | {
+                          columns?: T;
+                          tabletColumns?: T;
+                          mobileColumns?: T;
+                          size?: T;
+                          items?:
+                            | T
+                            | {
+                                label?: T;
+                                href?: T;
+                                id?: T;
+                              };
+                          id?: T;
+                          blockName?: T;
+                        };
+                    steps?:
+                      | T
+                      | {
+                          style?: T;
+                          titleElement?: T;
+                          steps?:
+                            | T
+                            | {
+                                title?: T;
+                                description?: T;
+                                icon?:
+                                  | T
+                                  | {
+                                      source?: T;
+                                      preset?: T;
+                                      custom?: T;
+                                    };
+                                id?: T;
+                              };
+                          bottomText?: T;
+                          ctas?:
+                            | T
+                            | {
+                                label?: T;
+                                href?: T;
+                                style?: T;
+                                rel?: T;
+                                newTab?: T;
+                                id?: T;
+                              };
+                          id?: T;
+                          blockName?: T;
+                        };
+                    'comparison-table'?:
+                      | T
+                      | {
+                          stickyFirstColumn?: T;
+                          highlightColumn?: T;
+                          columnWidths?:
+                            | T
+                            | {
+                                mobile?: T;
+                                desktop?: T;
+                                id?: T;
+                              };
+                          rows?:
+                            | T
+                            | {
+                                cells?:
+                                  | T
+                                  | {
+                                      type?: T;
+                                      content?: T;
+                                      id?: T;
+                                    };
+                                id?: T;
+                              };
+                          id?: T;
+                          blockName?: T;
+                        };
+                    'sample-report-grid'?:
+                      | T
+                      | {
+                          reports?:
+                            | T
+                            | {
+                                reportImage?: T;
+                                year?: T;
+                                make?: T;
+                                model?: T;
+                                vin?: T;
+                                bodyStyle?: T;
+                                engine?: T;
+                                country?: T;
+                                href?: T;
+                                id?: T;
+                              };
+                          id?: T;
+                          blockName?: T;
+                        };
                   };
+              bottomText?: T;
+              ctas?:
+                | T
+                | {
+                    label?: T;
+                    href?: T;
+                    style?: T;
+                    rel?: T;
+                    newTab?: T;
+                    id?: T;
+                  };
+              id?: T;
+              blockName?: T;
+            };
+        'cta-banner'?:
+          | T
+          | {
+              layout?: T;
+              dark?: T;
+              scene?: T;
+              mode?: T;
+              tag?: T;
+              heading?: T;
+              headingLevel?: T;
+              description?: T;
+              ctas?:
+                | T
+                | {
+                    label?: T;
+                    href?: T;
+                    style?: T;
+                    rel?: T;
+                    newTab?: T;
+                    id?: T;
+                  };
+              vinButtonText?: T;
               id?: T;
               blockName?: T;
             };

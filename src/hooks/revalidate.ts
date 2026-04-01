@@ -25,7 +25,7 @@ export const revalidatePage: CollectionAfterChangeHook = async ({ doc }) => {
 }
 
 export const revalidatePost: CollectionAfterChangeHook = async ({ doc }) => {
-  await revalidateFrontend(['posts', `post_${doc.slug}`], [`/blog/${doc.slug}`])
+  await revalidateFrontend(['posts', `post_${doc.slug}`], [`/blog/${doc.slug}`, '/blog'])
   return doc
 }
 

@@ -1,5 +1,6 @@
 import type { Block } from 'payload'
 import { sectionHeaderFields } from '../fields/sectionHeader'
+import { ctasField } from '../fields/cta'
 import { FAQsBlock } from './FAQs'
 import { RichTextBlock } from './RichText'
 import { CardGridBlock } from './CardGrid'
@@ -8,6 +9,7 @@ import { PillGridBlock } from './PillGrid'
 import { LinkCardGridBlock } from './LinkCardGrid'
 import { StepsBlock } from './Steps'
 import { ComparisonTableBlock } from './ComparisonTable'
+import { SampleReportGridBlock } from './SampleReportGrid'
 
 /**
  * Section — the universal section container.
@@ -95,7 +97,22 @@ export const SectionBlock: Block = {
         LinkCardGridBlock,
         StepsBlock,
         ComparisonTableBlock,
+        SampleReportGridBlock,
       ],
     },
+
+    // ── Bottom text (rich text below the inner block) ──
+    {
+      name: 'bottomText',
+      type: 'richText',
+      label: 'Bottom Text',
+      localized: true,
+      admin: {
+        description: 'Optional rich text below the content block (e.g. closing paragraph)',
+      },
+    },
+
+    // ── CTAs (below everything) ──
+    ctasField(),
   ],
 }

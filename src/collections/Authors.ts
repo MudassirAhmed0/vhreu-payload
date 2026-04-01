@@ -1,4 +1,5 @@
 import type { CollectionConfig } from 'payload'
+import { slugField } from '../fields/slug'
 
 export const Authors: CollectionConfig = {
   slug: 'authors',
@@ -11,6 +12,7 @@ export const Authors: CollectionConfig = {
   },
   fields: [
     { name: 'name', type: 'text', required: true },
+    slugField,
     { name: 'role', type: 'text', required: true },
     { name: 'bio', type: 'textarea' },
     { name: 'email', type: 'text', required: true },

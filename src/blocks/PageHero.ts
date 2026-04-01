@@ -35,7 +35,7 @@ export const PageHeroBlock: Block = {
     {
       name: 'glow',
       type: 'checkbox',
-      defaultValue: true,
+      defaultValue: false,
       label: 'Glow Effect',
       admin: { position: 'sidebar' },
     },
@@ -190,7 +190,16 @@ export const PageHeroBlock: Block = {
               type: 'text',
               required: true,
               localized: true,
-              admin: { width: '70%' },
+              admin: { width: '45%' },
+            },
+            {
+              name: 'href',
+              type: 'text',
+              label: 'Link',
+              admin: {
+                width: '30%',
+                placeholder: 'tel:, mailto:, /path, or URL',
+              },
             },
             {
               name: 'tag',
@@ -205,7 +214,34 @@ export const PageHeroBlock: Block = {
                 { label: 'h5', value: 'h5' },
                 { label: 'p', value: 'p' },
               ],
-              admin: { width: '30%' },
+              admin: { width: '25%' },
+            },
+          ],
+        },
+        {
+          type: 'row',
+          admin: {
+            condition: (_, siblingData) => Boolean(siblingData?.href),
+          },
+          fields: [
+            {
+              name: 'rel',
+              type: 'select',
+              defaultValue: 'none',
+              options: [
+                { label: 'Default (follow)', value: 'none' },
+                { label: 'nofollow', value: 'nofollow' },
+                { label: 'sponsored', value: 'sponsored' },
+                { label: 'ugc', value: 'ugc' },
+              ],
+              admin: { width: '50%' },
+            },
+            {
+              name: 'newTab',
+              type: 'checkbox',
+              label: 'Open in new tab',
+              defaultValue: false,
+              admin: { width: '50%' },
             },
           ],
         },
@@ -277,10 +313,6 @@ export const PageHeroBlock: Block = {
       maxRows: 4,
       admin: {
         initCollapsed: true,
-        condition: (_, siblingData) => {
-          if (siblingData.variant === 'split' && siblingData.heroImage) return false
-          return true
-        },
       },
       fields: [
         {
