@@ -56,6 +56,34 @@ export const Pages: CollectionConfig = {
           ],
         },
         {
+          label: 'Blog Settings',
+          admin: {
+            condition: (data) => data?.slug === 'blog',
+          },
+          fields: [
+            {
+              name: 'featuredArticle',
+              label: 'Featured Article',
+              type: 'relationship',
+              relationTo: 'posts',
+              hasMany: false,
+              admin: {
+                description: 'Choose a blog post to feature at the top. If empty, the latest post will be shown.',
+              },
+            },
+            {
+              name: 'popularArticles',
+              label: 'Popular Articles',
+              type: 'relationship',
+              relationTo: 'posts',
+              hasMany: true,
+              admin: {
+                description: 'Posts to show in the "Popular Articles" sidebar section.',
+              },
+            },
+          ],
+        },
+        {
           label: 'Exit Popup',
           fields: [
             {
