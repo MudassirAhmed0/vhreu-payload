@@ -3,7 +3,7 @@
     "slug": "ford",
     "name": "Ford",
     "url": "https://vehiclehistory.eu/window-sticker/ford",
-    "sectionCount": 3,
+    "sectionCount": 10,
     "meta": {
       "title": "Ford Window Sticker Lookup: Check Used Ford's Original Build",
       "description": "Get a Ford Window Sticker by VIN to confirm how your Ford left the factory. View the real build with accurate MSRP, trim, engine details, and equipment."
@@ -201,6 +201,376 @@
             "href": "https://vehiclehistory.eu/sticker/vin/WF0PXXGCHPKP11608-B4D7B4D7-0F0F-BC0D-5C6B-10DB7A44C054"
           }
         ]
+      },
+      "whyNeed": {
+        "type": "why-need",
+        "heading": "Why Do You Need a Ford Window Sticker Lookup?",
+        "introParagraph": "If you’re dealing with a Ford in Europe, a window sticker lookup saves you from guesswork. It helps confirm the exact model, trim, engine, and factory build details tied to that VIN. Handy for everyday buyers, busy dealers, and serious Ford fans who care about originality, provenance, and the “real spec” behind the badge.",
+        "audiences": [
+          {
+            "title": "Buyers",
+            "description": "Buying used? This is how you avoid expensive surprises. A Ford window sticker lookup helps you confirm what the car really is, what it was built with, and whether the description in the listing matches the paperwork. It’s especially useful when you’re comparing similar Fords across Germany, Poland, the Netherlands, France, or Romania.",
+            "benefits": [
+              {
+                "title": "Confirm the exact Ford trim and body style",
+                "description": "Badges can be swapped. The window sticker helps to confirm whether it’s truly Titanium, ST-Line, Vignale, Active, or something else."
+              },
+              {
+                "title": "Confirm emissions category for planning",
+                "description": "Helps you understand the Euro standard and CO₂ context. Useful for registration planning."
+              },
+              {
+                "title": "Validate import paperwork details",
+                "description": "Great when the car came from another country, and the listing info doesn’t perfectly match local documents."
+              }
+            ]
+          },
+          {
+            "title": "Seller & Dealer",
+            "description": "Selling a Ford is easier when you can prove what it is. A window sticker lookup helps you write cleaner listings, reduce repetitive buyer questions, and back up your price with real factory-linked details. For dealers, it also speeds up intake, appraisal, and inventory setup.",
+            "benefits": [
+              {
+                "title": "Verify a vehicle’s value",
+                "description": "A Window Stickers lookup helps justify pricing by confirming trim level, factory options, and key specs. It’s harder for buyers to argue when the equipment list is clear and consistent."
+              },
+              {
+                "title": "Reduce time-wasting messages",
+                "description": "It answers the common questions instantly: trim, engine, options, and configuration."
+              },
+              {
+                "title": "Sell faster with better transparency",
+                "description": "A listing with verified details tends to attract more serious buyers and fewer tyre-kickers."
+              }
+            ]
+          },
+          {
+            "title": "Ford Enthusiasts & Collectors",
+            "description": "For enthusiasts, the VIN is more than a number. It’s the car’s fingerprint. A Ford window sticker lookup helps confirm originality, track the exact configuration, and document rare trims or special builds. If you care about correct specs, provenance, and clean records, this is part of the hobby.",
+            "benefits": [
+              {
+                "title": "Confirm originality for classic or rare Fords",
+                "description": "It helps verify whether key specs match the factory build, which matters a lot in collector circles."
+              },
+              {
+                "title": "Support accurate part matching",
+                "description": "Knowing the exact build configuration reduces wrong orders and workshop guesswork."
+              },
+              {
+                "title": "Backup insurance valuations",
+                "description": "For collector policies, having proof of trim/options/spec can help discussions feel more grounded."
+              }
+            ]
+          }
+        ],
+        "ctas": []
+      },
+      "howToGet": {
+        "type": "how-to-get",
+        "heading": "How to Get Your Ford Window Sticker in 3 Simple Steps",
+        "introParagraph": "Obtaining your Ford Window Sticker is quick and secure. Here’s how:",
+        "steps": [
+          {
+            "title": "Enter Ford Details",
+            "description": "Enter the Ford details on the Form. You can use the VIN on the vehicle or paperwork."
+          },
+          {
+            "title": "Submit the VIN",
+            "description": "Click the button, let the system match the data, and wait a few seconds."
+          },
+          {
+            "title": "Download Sticker",
+            "description": "Get your Ford window sticker PDF label with the full build and pricing breakdown."
+          }
+        ],
+        "ctas": [
+          {
+            "text": "Get Window Sticker by VIN",
+            "href": "#top"
+          },
+          {
+            "text": "View Window Sticker Sample",
+            "href": "https://vehiclehistory.eu/sticker/vin/WF0PXXGCHPKP11608-B4D7B4D7-0F0F-BC0D-5C6B-10DB7A44C054"
+          }
+        ]
+      },
+      "whereVin": {
+        "type": "where-vin",
+        "heading": "Where to Find the VIN on a Ford",
+        "introParagraph": "Most modern Fords use a 17-character VIN (the global VIN structure is defined in ISO standards, and the 17-character format became widely adopted decades ago). You can find the VIN in several places below:",
+        "image": {
+          "src": "https://vehiclehistory.eu/wp-content/uploads/2026/02/Gemini_Generated_Image_vmtzk0vmtzk0vmtz-1.jpg",
+          "alt": "where to find vin"
+        },
+        "locations": [
+          {
+            "title": "Windscreen (dashboard, driver side)",
+            "titleElement": "h4",
+            "description": "Look through the lower corner of the windscreen. This is common across Europe and the US."
+          },
+          {
+            "title": "Driver-side door area",
+            "titleElement": "h4",
+            "description": "Open the driver door and check the door jamb/B-pillar area. Often it’s a sticker or plate."
+          },
+          {
+            "title": "Engine bay or body stamping (common on some EU builds)",
+            "titleElement": "h4",
+            "description": "Some Fords (and especially older European vehicles) may have a stamped VIN/chassis number in the engine bay area or on the body."
+          },
+          {
+            "title": "Documents",
+            "titleElement": "h4",
+            "description": "If you’re in Germany, Poland, the Netherlands, France, Romania, or any other region. Your registration paperwork typically lists the VIN/chassis number in the insurance documents or service documents."
+          }
+        ],
+        "ctas": [],
+        "headingLevel": "h2"
+      },
+      "whyUse": {
+        "type": "why-use",
+        "heading": "Why Should You Use Our Ford Window Sticker Tool?",
+        "introParagraph": "Ford trims in Europe can get confusing fast. Having the same model name can have totally different packs, engines, and “standard” equipment depending on the year and market. Our Ford window sticker lookup by VIN puts the original factory build in front of you, so you’re not relying on badges, memory, or a seller’s guess.",
+        "features": [
+          {
+            "title": "Quick Look at Factory Options",
+            "titleElement": "h4",
+            "description": "See the exact Ford packages and add-ons tied to the VIN, so you can tell what was standard and what was optional from day one."
+          },
+          {
+            "title": "Accurate VIN-Based Details",
+            "titleElement": "h4",
+            "description": "The window sticker is built from VIN-linked vehicle data, so you’re not working off assumptions or generic trim lists."
+          },
+          {
+            "title": "Helps with classic and older vehicles",
+            "titleElement": "h4",
+            "description": "Many tools only accept 17 characters. We also support many classic Ford chassis/VIN formats (often 5–14 characters), so you’re not blocked immediately."
+          },
+          {
+            "title": "24/7 Customer Support",
+            "titleElement": "h4",
+            "description": "If something on the sticker looks confusing (trim wording, packages, emissions figures), our support can help you make sense of it before you buy or sell."
+          }
+        ],
+        "ctas": [
+          {
+            "text": "Get the Ford Window Sticker",
+            "href": "#top"
+          }
+        ]
+      },
+      "ctaBanner": {
+        "type": "cta-banner",
+        "heading": "Get Your Ford's Window Sticker Now!",
+        "description": "Badges can get swapped, and listings can get sloppy. Check the original Ford build tied to the VIN and see what’s standard, what’s optional, and what the Ford should have",
+        "ctas": [
+          {
+            "text": "Get the Ford Window Sticker",
+            "href": "#top"
+          }
+        ]
+      },
+      "allManufacturers": {
+        "type": "all-manufacturers",
+        "heading": "Check Any Window Sticker for All Manufacturers",
+        "headingLevel": "h3",
+        "description": "Checking other brands? We provide window stickers for many makes, including popular European brands and even classic vehicles.",
+        "brands": [
+          {
+            "name": "Audi",
+            "href": "#"
+          },
+          {
+            "name": "BMW",
+            "href": "#"
+          },
+          {
+            "name": "Citroen",
+            "href": "#"
+          },
+          {
+            "name": "Fiat",
+            "href": "#"
+          },
+          {
+            "name": "Ford",
+            "href": "#"
+          },
+          {
+            "name": "Honda",
+            "href": "#"
+          },
+          {
+            "name": "Hyundai",
+            "href": "#"
+          },
+          {
+            "name": "Jaguar",
+            "href": "#"
+          },
+          {
+            "name": "Jeep",
+            "href": "#"
+          },
+          {
+            "name": "Kawasaki",
+            "href": "#"
+          },
+          {
+            "name": "Kia",
+            "href": "#"
+          },
+          {
+            "name": "KTM",
+            "href": "#"
+          },
+          {
+            "name": "Land Rover",
+            "href": "#"
+          },
+          {
+            "name": "Lexus",
+            "href": "#"
+          },
+          {
+            "name": "Maserati",
+            "href": "#"
+          },
+          {
+            "name": "Mazda",
+            "href": "#"
+          },
+          {
+            "name": "Mercedes",
+            "href": "#"
+          },
+          {
+            "name": "Mercedes AMG",
+            "href": "#"
+          },
+          {
+            "name": "Mini",
+            "href": "#"
+          },
+          {
+            "name": "Mitsubishi",
+            "href": "#"
+          },
+          {
+            "name": "Nissan",
+            "href": "#"
+          },
+          {
+            "name": "Opel",
+            "href": "#"
+          },
+          {
+            "name": "Peugeot",
+            "href": "#"
+          },
+          {
+            "name": "Porsche",
+            "href": "#"
+          },
+          {
+            "name": "Range Rover",
+            "href": "#"
+          },
+          {
+            "name": "Renault",
+            "href": "#"
+          },
+          {
+            "name": "Saab",
+            "href": "#"
+          },
+          {
+            "name": "Seat",
+            "href": "#"
+          },
+          {
+            "name": "Skoda",
+            "href": "#"
+          },
+          {
+            "name": "Subaru",
+            "href": "#"
+          },
+          {
+            "name": "Suzuki",
+            "href": "#"
+          },
+          {
+            "name": "Tesla",
+            "href": "#"
+          },
+          {
+            "name": "Toyota",
+            "href": "#"
+          },
+          {
+            "name": "Vauxhall",
+            "href": "#"
+          },
+          {
+            "name": "Volkswagen",
+            "href": "#"
+          },
+          {
+            "name": "Volvo",
+            "href": "#"
+          },
+          {
+            "name": "Yamaha",
+            "href": "#"
+          }
+        ]
+      },
+      "faq": {
+        "type": "faq",
+        "heading": "Common Ford Window Sticker Questions Answered",
+        "items": [
+          {
+            "question": "Is a Ford window sticker the same as a Ford build sheet?",
+            "answer": "They’re related, but not the same thing. A build sheet is more of a factory production record. A Ford window sticker is made to be easy for buyers and sellers: it summarises the original build, including options, equipment, pricing-style summary, and other key specs."
+          },
+          {
+            "question": "What does ‘Monroney’ mean on a sticker?",
+            "answer": "A “Monroney” sticker is the official new-car window label used in the U.S. It’s basically a standard format that lists the car’s MSRP and pricing breakdown, the VIN and build details, plus key info like equipment, fuel economy, and safety notes. On Vehicle History Europe, you can pull the same kind of factory spec and equipment summary for your Ford using the VIN, in a clean, digital sticker-style."
+          },
+          {
+            "question": "Can I get a window sticker for my used Ford Focus or Fiesta?",
+            "answer": "Yes, you can use the window sticker lookup tool by Vehicle History Europe to get the Ford Focus and Fiesta model sticker. If it’s an older car or a special market variant, results can vary, depending on the data reported by various sources."
+          },
+          {
+            "question": "How accurate is the information on a retrieved Ford sticker?",
+            "answer": "It’s highly accurate because our Ford window sticker is built from VIN-linked records and trusted vehicle databases, so the specs, equipment, and build details are based on documented data, not guesswork."
+          },
+          {
+            "question": "Why does my Ford VIN not return a window sticker?",
+            "answer": "The common reasons the Ford VIN does not return a window sticker are:A typo in the VINThe Ford is older, and records are limitedVery new models sometimes have a short delay before data appearsFleet, commercial, or special builds may not match a standard sticker format"
+          },
+          {
+            "question": "Does this work for all Fords, including imports?",
+            "answer": "It works for many Fords, including imports, but the results can depend on where the vehicle was originally sold and the completeness of the underlying records."
+          },
+          {
+            "question": "Can I use my UK/EU registration plate instead of the VIN?",
+            "answer": "Sometimes, yes. Plate lookup can work in certain cases, but the VIN is still the most reliable because it’s the universal identifier across countries. If you have the VIN, use that first."
+          },
+          {
+            "question": "Is it possible to get a Ford window sticker for free from a dealer?",
+            "answer": "Occasionally, yes. Especially if the car is newer and the dealer has access to the original sale files. But it’s not guaranteed, and many dealers won’t do it for older cars or cars they didn’t sell. That’s why our Window Stickers lookup tools exist in the first place."
+          },
+          {
+            "question": "Are Window Stickers available for used Ford vehicles?",
+            "answer": "Yes. Used Ford vehicles can still have their original window sticker details retrieved, even if the paper sticker is long gone. If you don’t have the sticker anymore (or you’re buying a used Ford), you can pull a digital copy using our Ford window sticker lookup by VIN tool. In some cases, a Ford dealer may also help, but it’s not always guaranteed for older cars."
+          },
+          {
+            "question": "Can I use a Window Sticker when selling or insuring my Ford?",
+            "answer": "Yes. As a seller, you can use it to prove trim and options and reduce buyer arguments. For insurance, it can help support the vehicle’s original configuration (especially higher trims or option-heavy builds), though insurers may still rely on their own valuation methods."
+          }
+        ]
       }
     }
   },
@@ -208,7 +578,7 @@
     "slug": "toyota",
     "name": "Toyota",
     "url": "https://vehiclehistory.eu/window-sticker/toyota",
-    "sectionCount": 3,
+    "sectionCount": 10,
     "meta": {
       "title": "Toyota Window Sticker by VIN Lookup - Get Factory Options",
       "description": "Get your Toyota Window Sticker by VIN & see factory specs, options, pricing & emissions. The most accurate & trusted window sticker lookup tool"
@@ -406,6 +776,369 @@
             "href": "https://vehiclehistory.eu/sticker/vin/WF0PXXGCHPKP11608-B4D7B4D7-0F0F-BC0D-5C6B-10DB7A44C054"
           }
         ]
+      },
+      "whyNeed": {
+        "type": "why-need",
+        "heading": "Why Do You Need a Toyota Window Sticker Lookup?",
+        "introParagraph": "Whether you’re a buyer, seller, or collector, a window sticker lookup is incredibly useful. It shows all factory-installed features, options, and pricing. No guessing, no “well, I think it had that package.” Everyone can use this info to avoid mistakes and save time.",
+        "audiences": [
+          {
+            "title": "Buyers",
+            "description": "Buying a Toyota in Europe? You want to make sure you’re paying for what’s really there. A window sticker by VIN helps you verify specs, avoid surprises, and see the true value.",
+            "benefits": [
+              {
+                "title": "Confirm the real trim level",
+                "description": "Some trims look alike but come with very different equipment. The sticker clears that up."
+              },
+              {
+                "title": "Avoid overpaying",
+                "description": "Knowing the original configuration makes it easier to judge whether the asking price matches the vehicle. It helps buyers avoid paying extra for features that were never part of the factory build."
+              },
+              {
+                "title": "Compare similar listings",
+                "description": "A window sticker helps compare Toyota listings by showing differences in trim, equipment, & specifications, rather than relying only on photos or brief descriptions."
+              }
+            ]
+          },
+          {
+            "title": "Seller & Dealer",
+            "description": "Want to sell a Toyota faster? Sharing a window sticker by VIN instantly builds trust. Buyers see the official specs, packages, and MSRP. Reducing endless questions and doubts.",
+            "benefits": [
+              {
+                "title": "Improve listing accuracy",
+                "description": "Having an accurate trim and equipment details reduces confusion and prevents repeated questions from potential buyers."
+              },
+              {
+                "title": "Build buyer trust",
+                "description": "Buyers feel more comfortable when factory information is clearly shown, which often leads to faster and calmer sales conversations."
+              },
+              {
+                "title": "Save time explaining details",
+                "description": "Instead of answering the same questions repeatedly, you can point buyers to the window sticker. It explains most details clearly in one place."
+              }
+            ]
+          },
+          {
+            "title": "Toyota Enthusiasts & Collectors",
+            "description": "If you’re passionate about Toyota or hunting rare classics, a Toyota window sticker is essential. It’s the official proof of how the vehicle left the factory, perfect for verification, restoration, or keeping your collection accurate.",
+            "benefits": [
+              {
+                "title": "Verify originality",
+                "description": "For classic and early-generation Toyotas, originality matters. The window sticker helps confirm whether the vehicle still matches its factory configuration."
+              },
+              {
+                "title": "Support long-term ownership",
+                "description": "Keeping factory documentation helps owners maintain complete records over many years. This can be useful for maintenance planning and future value."
+              },
+              {
+                "title": "Helpful for clubs and shows",
+                "description": "Car clubs and events often ask for vehicle details. A window sticker makes it easier to share accurate information."
+              }
+            ]
+          }
+        ],
+        "ctas": []
+      },
+      "howToGet": {
+        "type": "how-to-get",
+        "heading": "How to Get Your Toyota Window Sticker in 3 Simple Steps",
+        "introParagraph": "Getting your Toyota window sticker by VIN is easier than you think. Here’s how:",
+        "steps": [
+          {
+            "title": "Enter your Toyota details",
+            "description": "Copy or type in your VIN into the form above"
+          },
+          {
+            "title": "Submit the VIN",
+            "description": "Submit the VIN and we’ll generate the Toyota window sticker-style label based on decoded vehicle data."
+          },
+          {
+            "title": "Download and review the sticker",
+            "description": "Check the original MSRP, options, and specifications. You can view, download, or print your sticker in seconds!"
+          }
+        ],
+        "ctas": [
+          {
+            "text": "Get Window Sticker by VIN",
+            "href": "#top"
+          },
+          {
+            "text": "View Window Sticker Sample",
+            "href": "https://vehiclehistory.eu/sticker/vin/WF0PXXGCHPKP11608-B4D7B4D7-0F0F-BC0D-5C6B-10DB7A44C054"
+          }
+        ]
+      },
+      "whereVin": {
+        "type": "where-vin",
+        "heading": "Where to Find the VIN on a Toyota",
+        "introParagraph": "Finding your VIN is the first step to accessing a Toyota window sticker that shows exactly how your car was configured when it left the factory. You can usually find it in several places:",
+        "image": {
+          "src": "https://vehiclehistory.eu/wp-content/uploads/2026/02/Gemini_Generated_Image_vmtzk0vmtzk0vmtz-1.jpg",
+          "alt": "where to find vin"
+        },
+        "locations": [
+          {
+            "title": "Dashboard",
+            "titleElement": "h4",
+            "description": "Look through the windshield on the driver’s side. The VIN is often on a small metal plate in the lower-left corner of the dashboard where it meets the glass."
+          },
+          {
+            "title": "Driver’s Door Jamb",
+            "titleElement": "h4",
+            "description": "Open the driver’s door and check the sticker (often called the certification label) located on the door or the doorframe."
+          },
+          {
+            "title": "Under the Carpet",
+            "titleElement": "h4",
+            "description": "Lift the carpet under the front passenger or driver’s seat; some Toyota models have the VIN stamped directly into the floor."
+          },
+          {
+            "title": "Engine Bay",
+            "titleElement": "h4",
+            "description": "Certain models display the VIN on the firewall or on a plate inside the engine compartment."
+          },
+          {
+            "title": "Official Documents",
+            "titleElement": "h4",
+            "description": "Your Toyota’s registration, insurance papers, and vehicle title all include the VIN."
+          }
+        ],
+        "ctas": [],
+        "headingLevel": "h2"
+      },
+      "whyUse": {
+        "type": "why-use",
+        "heading": "Why Should You Use Our Toyota Window Sticker Tool?",
+        "introParagraph": "Our tool is designed for European Toyota owners who want accuracy, speed, and convenience. No guesswork, no tedious dealer calls, just instant access to official data. So you can seen what’s on your car, and it’s verified from factory records.",
+        "features": [
+          {
+            "title": "Most comprehensive database coverage",
+            "titleElement": "h4",
+            "description": "Our system supports a wide range of Toyota vehicles, including EU-market models and older cars with non-standard VIN lengths that many tools cannot read correctly."
+          },
+          {
+            "title": "Built for European regulations",
+            "titleElement": "h4",
+            "description": "The tool reflects EU-focused vehicle data, including emissions and market-specific details relevant to European buyers and sellers."
+          },
+          {
+            "title": "High accuracy, cross-checked results",
+            "titleElement": "h4",
+            "description": "Each lookup is matched against structured manufacturer data. This reduces errors and helps ensure the information reflects the original factory configuration."
+          },
+          {
+            "title": "Live Chat with VIN Expert",
+            "titleElement": "h4",
+            "description": "You can speak directly with a real VIN specialist. This is useful when dealing with older Toyotas or unusual VIN formats."
+          }
+        ],
+        "ctas": [
+          {
+            "text": "Get the Toyota Window Sticker",
+            "href": "#top"
+          }
+        ]
+      },
+      "ctaBanner": {
+        "type": "cta-banner",
+        "heading": "Get Your Toyota's Window Sticker Now!",
+        "description": "Restore confidence in your Toyota’s history with a verified window sticker by VIN.",
+        "ctas": [
+          {
+            "text": "Get the Toyota Window Sticker",
+            "href": "#top"
+          }
+        ]
+      },
+      "allManufacturers": {
+        "type": "all-manufacturers",
+        "heading": "Check Any Window Sticker for All Manufacturers",
+        "headingLevel": "h3",
+        "description": "Want to compare your Toyota with others? Our tool works for every European vehicle brand. Verify factory specs, MSRP, options, and safety features quickly.",
+        "brands": [
+          {
+            "name": "Audi",
+            "href": "#"
+          },
+          {
+            "name": "BMW",
+            "href": "#"
+          },
+          {
+            "name": "Citroen",
+            "href": "#"
+          },
+          {
+            "name": "Fiat",
+            "href": "#"
+          },
+          {
+            "name": "Ford",
+            "href": "#"
+          },
+          {
+            "name": "Honda",
+            "href": "#"
+          },
+          {
+            "name": "Hyundai",
+            "href": "#"
+          },
+          {
+            "name": "Jaguar",
+            "href": "#"
+          },
+          {
+            "name": "Jeep",
+            "href": "#"
+          },
+          {
+            "name": "Kawasaki",
+            "href": "#"
+          },
+          {
+            "name": "Kia",
+            "href": "#"
+          },
+          {
+            "name": "KTM",
+            "href": "#"
+          },
+          {
+            "name": "Land Rover",
+            "href": "#"
+          },
+          {
+            "name": "Lexus",
+            "href": "#"
+          },
+          {
+            "name": "Maserati",
+            "href": "#"
+          },
+          {
+            "name": "Mazda",
+            "href": "#"
+          },
+          {
+            "name": "Mercedes",
+            "href": "#"
+          },
+          {
+            "name": "Mercedes AMG",
+            "href": "#"
+          },
+          {
+            "name": "Mini",
+            "href": "#"
+          },
+          {
+            "name": "Mitsubishi",
+            "href": "#"
+          },
+          {
+            "name": "Nissan",
+            "href": "#"
+          },
+          {
+            "name": "Opel",
+            "href": "#"
+          },
+          {
+            "name": "Peugeot",
+            "href": "#"
+          },
+          {
+            "name": "Porsche",
+            "href": "#"
+          },
+          {
+            "name": "Range Rover",
+            "href": "#"
+          },
+          {
+            "name": "Renault",
+            "href": "#"
+          },
+          {
+            "name": "Saab",
+            "href": "#"
+          },
+          {
+            "name": "Seat",
+            "href": "#"
+          },
+          {
+            "name": "Skoda",
+            "href": "#"
+          },
+          {
+            "name": "Subaru",
+            "href": "#"
+          },
+          {
+            "name": "Suzuki",
+            "href": "#"
+          },
+          {
+            "name": "Tesla",
+            "href": "#"
+          },
+          {
+            "name": "Toyota",
+            "href": "#"
+          },
+          {
+            "name": "Vauxhall",
+            "href": "#"
+          },
+          {
+            "name": "Volkswagen",
+            "href": "#"
+          },
+          {
+            "name": "Volvo",
+            "href": "#"
+          },
+          {
+            "name": "Yamaha",
+            "href": "#"
+          }
+        ]
+      },
+      "faq": {
+        "type": "faq",
+        "heading": "Common Toyota Window Sticker Questions Answered",
+        "items": [
+          {
+            "question": "Can I get a window sticker by VIN online?",
+            "answer": "Yes, you can get a window sticker by VIN online. If you have the Toyota VIN, you can request a window sticker-style label online. It shows factory configuration details such as trim, equipment, engine information, and emissions data, presented in a clear and readable format."
+          },
+          {
+            "question": "Can I look up a Toyota by VIN number?",
+            "answer": "Yes, you can look up a Toyota by VIN number. A Toyota VIN can be used to look up vehicle details, including model, production year, and factory specifications. This is useful when documents are missing or when you want to confirm details before buying or selling."
+          },
+          {
+            "question": "What is the difference between a build sheet and a window sticker?",
+            "answer": "A build sheet is a technical factory record, while a window sticker is designed for customers. The window sticker presents key build information in a clear layout that is easier to understand and compare."
+          },
+          {
+            "question": "Can you get a build sheet from a VIN number?",
+            "answer": "Yes, you can get a build sheet from a VIN number. A build sheet is an internal factory document, while a window sticker presents similar information in a simpler way. A window sticker focuses on original configuration, options, and specifications that are easier for the public to read."
+          },
+          {
+            "question": "Can I get a window sticker with only the VIN?",
+            "answer": "Yes, you can get a window sticker with only the VIN. Because the VIN alone is enough to generate a Toyota window sticker-style label at online tools like Vehicle History Europe, as long as the VIN or vehicle number can be decoded correctly."
+          },
+          {
+            "question": "Where can I find my VIN sticker?",
+            "answer": "The Toyota VIN stickers are commonly found on the dashboard near the windscreen, the driver-side door frame, or on official vehicle documents such as V5C (logbook) or insurance documents."
+          },
+          {
+            "question": "How do I find my Toyota car details?",
+            "answer": "The easiest way to find my Toyota car details is by using the VIN. A Toyota window sticker lookup turns the VIN into readable factory information, including specifications, options, and technical details."
+          }
+        ]
       }
     }
   },
@@ -413,7 +1146,7 @@
     "slug": "subaru",
     "name": "Subaru",
     "url": "https://vehiclehistory.eu/window-sticker/subaru",
-    "sectionCount": 3,
+    "sectionCount": 10,
     "meta": {
       "title": "Subaru Window Sticker by VIN: Get Original Factory Specs",
       "description": "Get the most accurate Subaru Window Sticker by VIN. See original specs, options, pricing, & emissions. Trusted, fast & built for Subaru in Europe"
@@ -611,6 +1344,395 @@
             "href": "https://vehiclehistory.eu/sticker/vin/WF0PXXGCHPKP11608-B4D7B4D7-0F0F-BC0D-5C6B-10DB7A44C054"
           }
         ]
+      },
+      "whyNeed": {
+        "type": "why-need",
+        "heading": "Why Do You Need a Subaru Window Sticker Lookup?",
+        "introParagraph": "A Subaru window sticker lookup helps you understand what a car really is, not just what someone says it is. It shows the original factory setup, which is useful for buyers, sellers, and long-term owners. In Europe, where rules, emissions, and trims vary by market, this clarity matters more than people expect.",
+        "audiences": [
+          {
+            "title": "Buyers",
+            "description": "For buyers, a Subaru window sticker lookup reduces risk. It helps confirm that the car matches the description and that the trim, engine, and features are original. This is especially helpful when buying used cars, imports, or vehicles with long ownership histories.",
+            "benefits": [
+              {
+                "title": "Verify the exact Subaru trim before paying",
+                "description": "A window sticker confirms the real trim level, which helps buyers avoid overpaying for a lower-spec Subaru with cosmetic upgrades."
+              },
+              {
+                "title": "Compare similar Subaru models with confidence",
+                "description": "Two cars may look the same, but the sticker shows real differences in equipment, drivetrain, or performance."
+              },
+              {
+                "title": "Support informed price negotiation",
+                "description": "Knowing the original configuration helps buyers discuss value using facts, not opinions."
+              }
+            ]
+          },
+          {
+            "title": "Seller & Dealer",
+            "description": "For sellers and dealers, a Subaru window sticker adds credibility. It supports listings with factory-backed details and reduces back-and-forth questions. Clear information helps vehicles sell faster and builds trust with serious buyers.",
+            "benefits": [
+              {
+                "title": "Present accurate Subaru specifications clearly",
+                "description": "A window sticker helps sellers avoid mistakes that can delay or cancel a sale."
+              },
+              {
+                "title": "Reduce disputes after the sale",
+                "description": "Clear factory information helps prevent misunderstandings about trim or equipment."
+              },
+              {
+                "title": "Show professionalism to a high-potential buyer",
+                "description": "Providing a window sticker signals preparation and honesty."
+              }
+            ]
+          },
+          {
+            "title": "Subaru Enthusiasts & Collectors",
+            "description": "For enthusiasts and collectors, a Subaru window sticker is part of the car’s identity. It shows how the vehicle was originally built and why it matters. This is especially important for older models, limited trims, and well-kept classics.",
+            "benefits": [
+              {
+                "title": "Preserve the car’s original factory story",
+                "description": "The label documents how the Subaru left the factory, not how it looks today."
+              },
+              {
+                "title": "Confirm drivetrain and engine authenticity",
+                "description": "This matters for purists and long-term ownership planning."
+              },
+              {
+                "title": "Deepen connection with the vehicle",
+                "description": "Knowing how a car was built adds meaning beyond driving."
+              }
+            ]
+          }
+        ],
+        "ctas": []
+      },
+      "howToGet": {
+        "type": "how-to-get",
+        "heading": "How to Get Your Subaru Window Sticker in 3 Simple Steps",
+        "introParagraph": "Getting a Subaru window sticker does not need technical knowledge. The process is short, clear, and built for everyday users, including older drivers and first-time buyers.",
+        "steps": [
+          {
+            "title": "Enter your Subaru details",
+            "description": "Choose Subaru and enter the VIN details into the form above."
+          },
+          {
+            "title": "Submit the VIN",
+            "description": "Click the “Check Vehicle” button, let the system match the data, and wait a few seconds."
+          },
+          {
+            "title": "Download and review the sticker",
+            "description": "View the original factory-style window sticker and check details at your own pace."
+          }
+        ],
+        "ctas": [
+          {
+            "text": "Get Window Sticker by VIN",
+            "href": "#top"
+          },
+          {
+            "text": "View Window Sticker Sample",
+            "href": "#"
+          }
+        ]
+      },
+      "whereVin": {
+        "type": "where-vin",
+        "heading": "Where to Find the VIN on a Subaru",
+        "introParagraph": "The VIN is placed in several standard locations on Subaru vehicles. You only need one clear VIN to run a window sticker lookup.",
+        "image": {
+          "src": "https://vehiclehistory.eu/wp-content/uploads/2026/02/Gemini_Generated_Image_vmtzk0vmtzk0vmtz-1.jpg",
+          "alt": "where to find vin"
+        },
+        "locations": [
+          {
+            "title": "Dashboard (driver's side)",
+            "titleElement": "h4",
+            "description": "Look through the windscreen on the driver’s side. This is the most common VIN location."
+          },
+          {
+            "title": "Driver-side door frame",
+            "titleElement": "h4",
+            "description": "Open the door and check the sticker or plate on the door pillar."
+          },
+          {
+            "title": "Engine bay",
+            "titleElement": "h4",
+            "description": "Some Subaru models show the VIN on a stamped plate inside the engine bay."
+          },
+          {
+            "title": "Passenger Floor",
+            "titleElement": "h4",
+            "description": "Slide the passenger seat back, lift the carpet flap, and look for the Subaru VIN stamped into the metal floor."
+          },
+          {
+            "title": "Strut Tower",
+            "titleElement": "h4",
+            "description": "For older models or JDM (Japanese Domestic Market) vehicles, check the metal plate riveted to the strut tower."
+          },
+          {
+            "title": "Vehicle registration documents",
+            "titleElement": "h4",
+            "description": "The VIN is always listed on official registration papers."
+          },
+          {
+            "title": "Insurance documents",
+            "titleElement": "h4",
+            "description": "Many insurance records also include the VIN clearly."
+          }
+        ],
+        "ctas": [],
+        "headingLevel": "h2"
+      },
+      "whyUse": {
+        "type": "why-use",
+        "heading": "Why Should You Use Our Subaru Window Sticker Tool?",
+        "introParagraph": "Our Subaru window sticker tool is built for European vehicles and real users. It focuses on accuracy, clarity, and broad VIN coverage, including classic Subarus. We do not rely on guesswork or recycled data. Everything is designed to support confident decisions.",
+        "features": [
+          {
+            "title": "Most comprehensive database coverage",
+            "titleElement": "h4",
+            "description": "We support modern and older Subaru vehicles, including non-standard VIN lengths common in classic models."
+          },
+          {
+            "title": "High accuracy, cross-checked results",
+            "titleElement": "h4",
+            "description": "Every Subaru window sticker result is checked across multiple data points to reduce errors, mismatches, and incomplete vehicle information."
+          },
+          {
+            "title": "24/7 customer support",
+            "titleElement": "h4",
+            "description": "Our support team is available day and night to assist users who need help understanding results or resolving VIN-related issues."
+          },
+          {
+            "title": "No hidden fees or subscriptions",
+            "titleElement": "h4",
+            "description": "You only pay for the window sticker you request, without recurring charges, automatic renewals, or forced subscription plans later."
+          }
+        ],
+        "ctas": [
+          {
+            "text": "Get the Subaru Window Sticker",
+            "href": "#top"
+          }
+        ]
+      },
+      "ctaBanner": {
+        "type": "cta-banner",
+        "heading": "Get Your Subaru's Window Sticker Now!",
+        "description": "Enter your Subaru VIN and see the factory details clearly, in minutes.",
+        "ctas": [
+          {
+            "text": "Get the Subaru Window Sticker",
+            "href": "#top"
+          }
+        ]
+      },
+      "allManufacturers": {
+        "type": "all-manufacturers",
+        "heading": "Check Any Window Sticker for All Manufacturers",
+        "headingLevel": "h3",
+        "description": "Not just Subaru. Our platform allows you to run window sticker lookups for many manufacturers, helping buyers and sellers compare vehicles with confidence.",
+        "brands": [
+          {
+            "name": "Audi",
+            "href": "#"
+          },
+          {
+            "name": "BMW",
+            "href": "#"
+          },
+          {
+            "name": "Citroen",
+            "href": "#"
+          },
+          {
+            "name": "Fiat",
+            "href": "#"
+          },
+          {
+            "name": "Ford",
+            "href": "#"
+          },
+          {
+            "name": "Honda",
+            "href": "#"
+          },
+          {
+            "name": "Hyundai",
+            "href": "#"
+          },
+          {
+            "name": "Jaguar",
+            "href": "#"
+          },
+          {
+            "name": "Jeep",
+            "href": "#"
+          },
+          {
+            "name": "Kawasaki",
+            "href": "#"
+          },
+          {
+            "name": "Kia",
+            "href": "#"
+          },
+          {
+            "name": "KTM",
+            "href": "#"
+          },
+          {
+            "name": "Land Rover",
+            "href": "#"
+          },
+          {
+            "name": "Lexus",
+            "href": "#"
+          },
+          {
+            "name": "Maserati",
+            "href": "#"
+          },
+          {
+            "name": "Mazda",
+            "href": "#"
+          },
+          {
+            "name": "Mercedes",
+            "href": "#"
+          },
+          {
+            "name": "Mercedes AMG",
+            "href": "#"
+          },
+          {
+            "name": "Mini",
+            "href": "#"
+          },
+          {
+            "name": "Mitsubishi",
+            "href": "#"
+          },
+          {
+            "name": "Nissan",
+            "href": "#"
+          },
+          {
+            "name": "Opel",
+            "href": "#"
+          },
+          {
+            "name": "Peugeot",
+            "href": "#"
+          },
+          {
+            "name": "Porsche",
+            "href": "#"
+          },
+          {
+            "name": "Range Rover",
+            "href": "#"
+          },
+          {
+            "name": "Renault",
+            "href": "#"
+          },
+          {
+            "name": "Saab",
+            "href": "#"
+          },
+          {
+            "name": "Seat",
+            "href": "#"
+          },
+          {
+            "name": "Skoda",
+            "href": "#"
+          },
+          {
+            "name": "Subaru",
+            "href": "#"
+          },
+          {
+            "name": "Suzuki",
+            "href": "#"
+          },
+          {
+            "name": "Tesla",
+            "href": "#"
+          },
+          {
+            "name": "Toyota",
+            "href": "#"
+          },
+          {
+            "name": "Vauxhall",
+            "href": "#"
+          },
+          {
+            "name": "Volkswagen",
+            "href": "#"
+          },
+          {
+            "name": "Volvo",
+            "href": "#"
+          },
+          {
+            "name": "Yamaha",
+            "href": "#"
+          }
+        ]
+      },
+      "faq": {
+        "type": "faq",
+        "heading": "Common Subaru Window Sticker Questions Answered",
+        "items": [
+          {
+            "question": "Can I get an original window sticker by VIN?",
+            "answer": "Yes, you can get an original-style Subaru window sticker by VIN using an online window sticker lookup tool, like Vehicle History Europe, that accesses factory configuration data and rebuilds it in window sticker format."
+          },
+          {
+            "question": "Can I get a window sticker by VIN online?",
+            "answer": "Yes, Subaru window stickers can be generated online by entering the VIN into a trusted window sticker lookup tool designed for European vehicles. Enter the VIN to Vehicle History Europe and get the label in just a few seconds."
+          },
+          {
+            "question": "How do I get an original window sticker?",
+            "answer": "To get an original Subaru window sticker, you need the VIN and a service that can decode factory build data correctly."
+          },
+          {
+            "question": "Can I lookup my vehicle specs with VIN?",
+            "answer": "Yes, you can look up the vehicle specs with the VIN. By entering the VIN into the VIN-based window sticker lookup, you can see Subaru vehicle specifications such as engine type, trim level, drivetrain, and factory options."
+          },
+          {
+            "question": "How to find a car’s original sticker price?",
+            "answer": "The original sticker price can be estimated using a window sticker by VIN, which shows base price and factory options at build time."
+          },
+          {
+            "question": "What is the original sticker price?",
+            "answer": "The original sticker price refers to the manufacturer’s suggested retail price when the Subaru was first sold new."
+          },
+          {
+            "question": "How do I find a car’s original sticker price?",
+            "answer": "You can find it by generating a window sticker using the VIN, which breaks down base vehicle price and options."
+          },
+          {
+            "question": "Is Subaru owned by Toyota?",
+            "answer": "Subaru is not owned by Toyota, but Toyota holds a minority ownership stake and works with Subaru on some technologies."
+          },
+          {
+            "question": "What does Subaru mean in Japanese?",
+            "answer": "Subaru is a Japanese word referring to the Pleiades star cluster, which is also represented in the Subaru logo."
+          },
+          {
+            "question": "Why are there only 6 stars in the Subaru logo?",
+            "answer": "The six stars symbolise the companies that merged to form Subaru’s original parent group, with one larger leading star."
+          },
+          {
+            "question": "What is the Subaru emblem called?",
+            "answer": "The Subaru emblem is commonly called the Subaru star cluster logo, based on the Pleiades constellation."
+          }
+        ]
       }
     }
   },
@@ -618,7 +1740,7 @@
     "slug": "dodge",
     "name": "Dodge",
     "url": "https://vehiclehistory.eu/window-sticker/dodge",
-    "sectionCount": 3,
+    "sectionCount": 10,
     "meta": {
       "title": "Check Dodge Window Sticker by VIN: Original Specs & MSRP",
       "description": "Get your Dodge Window sticker by VIN & see engine, factory options, original MSRP & features for owners, collectors & sellers across Europe"
@@ -816,6 +1938,370 @@
             "href": "https://vehiclehistory.eu/sticker/vin/WF0PXXGCHPKP11608-B4D7B4D7-0F0F-BC0D-5C6B-10DB7A44C054"
           }
         ]
+      },
+      "whyNeed": {
+        "type": "why-need",
+        "heading": "Why Do You Need a Dodge Window Sticker Lookup?",
+        "introParagraph": "A Dodge can look perfect in photos, but the details get messy fast. A Dodge window sticker lookup helps you check the factory spec without guessing. It’s useful for buyers, sellers, and anyone doing cross-border paperwork in Europe.",
+        "audiences": [
+          {
+            "title": "Buyers",
+            "description": "When you’re buying a Dodge, the biggest risk is paying for a story instead of the real spec. A window sticker lookup VIN tool helps you confirm the factory story before you commit money, travel, or a long chat with an inspector.",
+            "benefits": [
+              {
+                "title": "Verify the exact trim",
+                "description": "Trims can sound similar, but small differences change value. The sticker helps confirm the real trim level, not just the badge on the boot."
+              },
+              {
+                "title": "Compare two listings properly",
+                "description": "Two Dodges with the same year can have different packages. A Dodge window sticker makes side-by-side comparisons easier."
+              },
+              {
+                "title": "Support price negotiation",
+                "description": "When the specification is clear, pricing talks become calmer. You can point to packages and equipment instead of guessing."
+              }
+            ]
+          },
+          {
+            "title": "Seller & Dealer",
+            "description": "Selling a Dodge is easier when buyers trust the details. A Dodge window sticker lookup gives you a clean way to present the factory spec and helps you reduce back-and-forth messages in the market.",
+            "benefits": [
+              {
+                "title": "Write cleaner listings",
+                "description": "With the factory equipment list, your ad becomes more accurate and less messy. Better wording, fewer mistakes."
+              },
+              {
+                "title": "Defend your asking price",
+                "description": "If your Dodge has real options and packages, the sticker helps justify why it’s priced higher than basic versions."
+              },
+              {
+                "title": "Look professional without overdoing it",
+                "description": "A sticker is simple and direct. It’s not flashy marketing, it’s practical proof."
+              }
+            ]
+          },
+          {
+            "title": "Dodge Enthusiasts & Collectors",
+            "description": "Collectors don’t just buy a car; they buy the story. A Dodge original window sticker helps you confirm how your Dodge left the factory, which matters for rare trims, special packages, and “period-correct” restorations. And yes, it’s also just fun to read, like a time capsule.",
+            "benefits": [
+              {
+                "title": "Confirm originality for the classic value",
+                "description": "For collectors, factory-correct matters. The sticker helps you check if the spec matches the car you’re looking at."
+              },
+              {
+                "title": "Plan a correct restoration",
+                "description": "Restoring a Dodge? The sticker helps you choose the right wheels, interior level, and factory equipment direction."
+              },
+              {
+                "title": "Track rare trims and packages",
+                "description": "Some trims are uncommon in Europe. The Dodge window sticker helps you confirm what Dodge truly is."
+              }
+            ]
+          }
+        ],
+        "ctas": []
+      },
+      "howToGet": {
+        "type": "how-to-get",
+        "heading": "How to Get Your Dodge Window Sticker in 3 Simple Steps",
+        "introParagraph": "You don’t need to be a car expert. If you can copy a VIN, you can do this.",
+        "steps": [
+          {
+            "title": "Enter your Dodge details",
+            "description": "Add your VIN. This starts the window sticker lookup by VIN process."
+          },
+          {
+            "title": "Submit the VIN",
+            "description": "Hit the button and let the system match the data for your Dodge. Simple as that."
+          },
+          {
+            "title": "Download Sticker",
+            "description": "In seconds, you will get the factory window sticker by VIN. Download the PDF, check the trim, options, standard equipment, and pricing context."
+          }
+        ],
+        "ctas": [
+          {
+            "text": "Get Window Sticker by VIN",
+            "href": "#top"
+          },
+          {
+            "text": "View Window Sticker Sample",
+            "href": "https://vehiclehistory.eu/sticker/vin/WF0PXXGCHPKP11608-B4D7B4D7-0F0F-BC0D-5C6B-10DB7A44C054"
+          }
+        ]
+      },
+      "whereVin": {
+        "type": "where-vin",
+        "heading": "Where to Find the VIN on a Dodge",
+        "introParagraph": "The VIN is usually easy to find, but the exact spot depends on the model and year. If one area is scratched or covered, don’t panic. Try the next place.",
+        "image": {
+          "src": "https://vehiclehistory.eu/wp-content/uploads/2026/02/Gemini_Generated_Image_vmtzk0vmtzk0vmtz-1.jpg",
+          "alt": "where to find vin"
+        },
+        "locations": [
+          {
+            "title": "Dashboard (windscreen area)",
+            "titleElement": "h4",
+            "description": "Look through the lower corner of the windscreen on the driver’s side. You’ll often see a small VIN plate you can read from outside."
+          },
+          {
+            "title": "Driver door jamb sticker",
+            "titleElement": "h4",
+            "description": "Open the driver’s door and check the door frame area. Many cars have a VIN label near the latch or hinge side."
+          },
+          {
+            "title": "Under the bonnet (engine bay plate)",
+            "titleElement": "h4",
+            "description": "Some Dodges have a VIN or ID plate in the engine bay area. It can be on the bulkhead or near the front structure."
+          },
+          {
+            "title": "Boot area / spare wheel well",
+            "titleElement": "h4",
+            "description": "On some vehicles, you might see an ID label in the boot area, especially around the spare wheel compartment."
+          },
+          {
+            "title": "Under the Passenger Seat",
+            "titleElement": "h4",
+            "description": "On some models (like the Durango), there’s a sticker under the front passenger seat."
+          },
+          {
+            "title": "Paperwork & Documents",
+            "titleElement": "h4",
+            "description": "The VIN can usually be found on documents like registration, insurance certificates, and maintenance records. For imported Dodges, it may also be on customs forms and transport paperwork."
+          }
+        ],
+        "ctas": [],
+        "headingLevel": "h2"
+      },
+      "whyUse": {
+        "type": "why-use",
+        "heading": "Why Should You Use Our Dodge Window Sticker Tool?",
+        "introParagraph": "Finding information can often be overwhelming due to its scattered nature. Our Dodge window sticker lookup tool organizes factory-style details into a single, easy-to-read document, specifically designed for buyers and owners in Europe. It’s simple to use, saves you time, and enhances your confidence in your purchasing decisions.",
+        "features": [
+          {
+            "title": "High accuracy, cross-checked results",
+            "titleElement": "h4",
+            "description": "Accuracy matters more than fancy wording. Our results are cross-checked so the sticker reads like a proper factory-style summary, not a messy guess based on one weak source."
+          },
+          {
+            "title": "Simple pricing, no surprise renewals",
+            "titleElement": "h4",
+            "description": "We don’t trap people in subscriptions. You pay for what you need, when you need it, and you can move on once you’ve checked the car."
+          },
+          {
+            "title": "24/7 customer support",
+            "titleElement": "h4",
+            "description": "Cars don’t wait for office hours. If you’re viewing a Dodge at night or on a weekend, support is still available, so you’re not stuck mid-deal."
+          },
+          {
+            "title": "Live Chat with VIN Expert",
+            "titleElement": "h4",
+            "description": "Sometimes you don’t want automated replies. You want a real person who understands VINs and Dodge models. That’s why live chat connects you with a human expert who can explain things clearly."
+          }
+        ],
+        "ctas": [
+          {
+            "text": "Get the Dodge Window Sticker",
+            "href": "#top"
+          }
+        ]
+      },
+      "ctaBanner": {
+        "type": "cta-banner",
+        "heading": "Get Your Dodge's Window Sticker Now!",
+        "description": "Ready to stop guessing? Run your Dodge Window Sticker by VIN and get a clear, comprehensive factory sticker list in PDF format that you can actually use. Enter your VIN and verify your Dodge today!",
+        "ctas": [
+          {
+            "text": "Get the Dodge Window Sticker",
+            "href": "#top"
+          }
+        ]
+      },
+      "allManufacturers": {
+        "type": "all-manufacturers",
+        "heading": "Check Any Window Sticker for All Manufacturers",
+        "headingLevel": "h3",
+        "description": "Maybe you’re shopping for a Dodge today, but next week it’s a Chrysler, Jeep, or something totally different. Our tool supports many brands, so you can keep doing the same quick check.",
+        "brands": [
+          {
+            "name": "Audi",
+            "href": "#"
+          },
+          {
+            "name": "BMW",
+            "href": "#"
+          },
+          {
+            "name": "Citroen",
+            "href": "#"
+          },
+          {
+            "name": "Fiat",
+            "href": "#"
+          },
+          {
+            "name": "Ford",
+            "href": "#"
+          },
+          {
+            "name": "Honda",
+            "href": "#"
+          },
+          {
+            "name": "Hyundai",
+            "href": "#"
+          },
+          {
+            "name": "Jaguar",
+            "href": "#"
+          },
+          {
+            "name": "Jeep",
+            "href": "#"
+          },
+          {
+            "name": "Kawasaki",
+            "href": "#"
+          },
+          {
+            "name": "Kia",
+            "href": "#"
+          },
+          {
+            "name": "KTM",
+            "href": "#"
+          },
+          {
+            "name": "Land Rover",
+            "href": "#"
+          },
+          {
+            "name": "Lexus",
+            "href": "#"
+          },
+          {
+            "name": "Maserati",
+            "href": "#"
+          },
+          {
+            "name": "Mazda",
+            "href": "#"
+          },
+          {
+            "name": "Mercedes",
+            "href": "#"
+          },
+          {
+            "name": "Mercedes AMG",
+            "href": "#"
+          },
+          {
+            "name": "Mini",
+            "href": "#"
+          },
+          {
+            "name": "Mitsubishi",
+            "href": "#"
+          },
+          {
+            "name": "Nissan",
+            "href": "#"
+          },
+          {
+            "name": "Opel",
+            "href": "#"
+          },
+          {
+            "name": "Peugeot",
+            "href": "#"
+          },
+          {
+            "name": "Porsche",
+            "href": "#"
+          },
+          {
+            "name": "Range Rover",
+            "href": "#"
+          },
+          {
+            "name": "Renault",
+            "href": "#"
+          },
+          {
+            "name": "Saab",
+            "href": "#"
+          },
+          {
+            "name": "Seat",
+            "href": "#"
+          },
+          {
+            "name": "Skoda",
+            "href": "#"
+          },
+          {
+            "name": "Subaru",
+            "href": "#"
+          },
+          {
+            "name": "Suzuki",
+            "href": "#"
+          },
+          {
+            "name": "Tesla",
+            "href": "#"
+          },
+          {
+            "name": "Toyota",
+            "href": "#"
+          },
+          {
+            "name": "Vauxhall",
+            "href": "#"
+          },
+          {
+            "name": "Volkswagen",
+            "href": "#"
+          },
+          {
+            "name": "Volvo",
+            "href": "#"
+          },
+          {
+            "name": "Yamaha",
+            "href": "#"
+          }
+        ]
+      },
+      "faq": {
+        "type": "faq",
+        "heading": "Common Dodge Window Sticker Questions Answered",
+        "items": [
+          {
+            "question": "What is a Dodge Monroney Label?",
+            "answer": "A Dodge Monroney label comes from the United States, where it is a legal requirement for new cars. In Europe, it is not a legal label, but the window sticker is still widely used as a reference document for understanding a Dodge’s original factory configuration.For Dodge vehicles in Europe, this sticker is especially useful because many are imports and no longer have original dealership paperwork. The window sticker brings everything back to the starting point, exactly as Dodge built it."
+          },
+          {
+            "question": "How do I get a Window Sticker by VIN for a Dodge?",
+            "answer": "To get a Dodge window sticker by VIN, you simply enter the VIN into the lookup tool provided by Vehicle History Europe. The system retrieves factory data and generates a digital copy of the original window sticker.This works for modern Dodge vehicles with 17-character VINs and also for classic Dodge models with shorter VIN formats. Once generated, the sticker can be viewed online, downloaded, or printed."
+          },
+          {
+            "question": "Are Window Stickers available for used Dodge vehicles?",
+            "answer": "Yes, window stickers are available for used Dodge vehicles as long as factory records exist for that VIN. The sticker reflects the vehicle when it was new, not its current condition.This is particularly valuable in Europe, where many used Dodge cars have changed owners, countries, or registrations over time. The window sticker helps confirm what is original and what may have been altered."
+          },
+          {
+            "question": "Can I use a Window Sticker when selling or insuring my Dodge?",
+            "answer": "Yes, a Dodge window sticker can be helpful when selling or insuring a vehicle. Sellers often use it to prove trim level, engine configuration, and factory options, which builds trust with buyers. Insurance providers may also request it to confirm specifications, especially for higher-performance Dodge models or imported vehicles where local records are limited."
+          },
+          {
+            "question": "Will it include every option and exact pricing?",
+            "answer": "The window sticker includes all factory-installed standard equipment and optional packages, along with their original prices at the time of sale. Pricing reflects the original MSRP and option costs when the vehicle was new. It does not account for later market changes, taxes, or dealer markups."
+          },
+          {
+            "question": "Can I print the window sticker?",
+            "answer": "Yes. Once your Dodge window sticker is generated, you can print it or save it as a digital file. Many owners keep a printed copy for records, restorations, resale listings, or insurance documentation."
+          }
+        ]
       }
     }
   },
@@ -823,7 +2309,7 @@
     "slug": "porsche",
     "name": "Porsche",
     "url": "https://vehiclehistory.eu/window-sticker/porsche",
-    "sectionCount": 3,
+    "sectionCount": 10,
     "meta": {
       "title": "Porsche Window Sticker VIN Lookup: Original Factory Specs",
       "description": "Get your original Porsche Window Sticker by VIN with exact factory specs, options, pricing, and build details. Fast, accurate, and trusted across Europe"
@@ -1021,6 +2507,381 @@
             "href": "https://vehiclehistory.eu/sticker/vin/WF0PXXGCHPKP11608-B4D7B4D7-0F0F-BC0D-5C6B-10DB7A44C054"
           }
         ]
+      },
+      "whyNeed": {
+        "type": "why-need",
+        "heading": "Why Do You Need a Porsche Window Sticker Lookup?",
+        "introParagraph": "A Porsche can look original and still have changes. A window sticker lookup by VIN helps you separate factory equipment from later upgrades. It’s useful for buyers, sellers, collectors, and anyone doing paperwork across European borders.",
+        "audiences": [
+          {
+            "title": "Buyers",
+            "description": "Buying a Porsche is exciting, but the smart move is checking the build details before you commit. The Porsche window sticker helps you confirm trim, factory options, and key specs that listings sometimes skip. It’s also helpful if the car has crossed borders and paperwork needs matching data.",
+            "benefits": [
+              {
+                "title": "Spot missing options that the advert claims are from the factory",
+                "description": "If the listing says ceramic brakes or sport chrono, you can check whether it matches the original configuration."
+              },
+              {
+                "title": "Reduce cross-border purchase mistakes inside the EU and nearby",
+                "description": "When cars move from country to country, details get translated or rewritten. A VIN-based sticker keeps it consistent."
+              },
+              {
+                "title": "Support insurance discussions with clear vehicle specification details",
+                "description": "Insurers care about power, equipment, and exact model variants, especially on higher-performance Porsche models."
+              }
+            ]
+          },
+          {
+            "title": "Seller & Dealer",
+            "description": "Selling a Porsche goes smoother when you can show the spec in a clean, readable way. Using the window sticker lookup tool helps you list the car accurately, answer buyer questions faster, and reduce the “are you sure?” back-and-forth. It also supports cross-border buyers who want the details in one place.",
+            "benefits": [
+              {
+                "title": "Reduce disputes after sales",
+                "description": "A lot of arguments start when buyers assume an option was factory-fitted. Having this sticker on the car will reduce assumptions and arguments because everything is already listed."
+              },
+              {
+                "title": "Support trade-ins with a spec document that is easier to check",
+                "description": "When another dealer appraises the car, clear specs speed up the process."
+              },
+              {
+                "title": "Backup CO₂ figures that buyers ask about for running-cost planning",
+                "description": "In some European countries, the CO₂ affects taxes, so buyers often ask for the exact number."
+              }
+            ]
+          },
+          {
+            "title": "Porsche Enthusiasts & Collectors",
+            "description": "For Porsche people, details are half the fun. A Porsche window sticker helps you understand the car’s original build, especially for older models, where stories get passed along, and facts get blurred. It’s also useful when you’re restoring a car and want to keep choices close to period-correct.",
+            "benefits": [
+              {
+                "title": "Plan restoration choices using the original factory configuration",
+                "description": "It helps you decide what to keep original and what to update without regret."
+              },
+              {
+                "title": "Reduce confusion for older VIN formats on classic cars you’re researching",
+                "description": "Some classic Porsches may use shorter serial formats. The Vehicle History Europe window sticker lookup tool can handle older identifiers helps collectors."
+              },
+              {
+                "title": "Protect long-term value by documenting what the car originally was",
+                "description": "Collectors care about originality and documentation. Having this label can help that story stay consistent."
+              }
+            ]
+          }
+        ],
+        "ctas": []
+      },
+      "howToGet": {
+        "type": "how-to-get",
+        "heading": "How to Get Your Porsche Window Sticker in 3 Simple Steps",
+        "introParagraph": "A VIN lookup sounds technical, but the process is simple. You just need to enter details, submit the VIN, and then review the sticker-style report. That’s it. No drama.",
+        "steps": [
+          {
+            "title": "Enter your Porsche details",
+            "description": "Type or copy the 17-digit VIN into the search form above. Our window sticker lookup tool also works for classic cars made before 1981, and with 5–14 digit VIN numbers."
+          },
+          {
+            "title": "Submit the VIN",
+            "description": "Click the “Check Vehicle” button to get a preview of the factory configuration tailored to the VIN."
+          },
+          {
+            "title": "Download and review the sticker",
+            "description": "Complete the payment to get the window sticker in seconds. View online or download as a PDF for easy sharing or printing."
+          }
+        ],
+        "ctas": [
+          {
+            "text": "Get Window Sticker by VIN",
+            "href": "#top"
+          },
+          {
+            "text": "View Window Sticker Sample",
+            "href": "https://vehiclehistory.eu/sticker/vin/WF0PXXGCHPKP11608-B4D7B4D7-0F0F-BC0D-5C6B-10DB7A44C054"
+          }
+        ]
+      },
+      "whereVin": {
+        "type": "where-vin",
+        "heading": "Where to Find the VIN on a Porsche",
+        "introParagraph": "The VIN is usually easy to find once you know the common spots. On many Porsche models, it’s visible through the windscreen and also shown on a label/plate in the door area. Some models also place it in luggage/boot areas.",
+        "image": {
+          "src": "https://vehiclehistory.eu/wp-content/uploads/2026/02/Gemini_Generated_Image_vmtzk0vmtzk0vmtz-1.jpg",
+          "alt": "where to find vin"
+        },
+        "locations": [
+          {
+            "title": "Dashboard (windscreen area, driver side)",
+            "titleElement": "h4",
+            "description": "Look through the lower corner of the windscreen on the driver’s side; many Porsches show a VIN plate there."
+          },
+          {
+            "title": "Driver-side door jamb or B-pillar label",
+            "titleElement": "h4",
+            "description": "Open the driver door and check the sticker/plate area around the door frame or B-pillar."
+          },
+          {
+            "title": "Front luggage compartment (front boot / “frunk”)",
+            "titleElement": "h4",
+            "description": "Some Porsche models display a VIN sticker or stamping in the front luggage area."
+          },
+          {
+            "title": "Rear luggage area on certain models",
+            "titleElement": "h4",
+            "description": "Depending on the Porsche, an identifier label may also appear in the rear cargo/luggage area."
+          },
+          {
+            "title": "Vehicle registration document",
+            "titleElement": "h4",
+            "description": "In many European registration documents, the VIN is listed in Field E"
+          }
+        ],
+        "ctas": [],
+        "headingLevel": "h3"
+      },
+      "whyUse": {
+        "type": "why-use",
+        "heading": "Why Should You Use Our Porsche Window Sticker Tool?",
+        "introParagraph": "If you want a Porsche window sticker lookup that’s built for Europe, this is exactly the point. Our tool is designed to help you see the key factory-style details in a clean sticker format. It’s made for buyers, sellers, and collectors who want clarity without the headache.",
+        "features": [
+          {
+            "title": "High accuracy, cross-checked results",
+            "titleElement": "h4",
+            "description": "We focus on consistency checks, so the output makes sense as a full vehicle profile, not random fragments."
+          },
+          {
+            "title": "No hidden fees or subscriptions",
+            "titleElement": "h4",
+            "description": "You pay for the sticker when you need it. No surprise monthly charges, no awkward cancellation steps."
+          },
+          {
+            "title": "24/7 customer support",
+            "titleElement": "h4",
+            "description": "If something looks off, you can reach out any time. It’s helpful when you’re working across time zones."
+          },
+          {
+            "title": "Most comprehensive database coverage",
+            "titleElement": "h4",
+            "description": "We aim for broad coverage across manufacturers and model years, including older vintage vehicles where the identifiers may be shorter than modern 17-character VINs."
+          }
+        ],
+        "ctas": [
+          {
+            "text": "Get the Porsche Window Sticker",
+            "href": "#top"
+          }
+        ]
+      },
+      "ctaBanner": {
+        "type": "cta-banner",
+        "heading": "Get Your Porsche's Window Sticker Now!",
+        "description": "Ready to check the real factory spec? Run your Porsche Window Sticker by VIN now and download your sticker in minutes.",
+        "ctas": [
+          {
+            "text": "Get the Porsche Window Sticker",
+            "href": "#top"
+          }
+        ]
+      },
+      "allManufacturers": {
+        "type": "all-manufacturers",
+        "heading": "Check Any Window Sticker for All Manufacturers",
+        "headingLevel": "h3",
+        "description": "If you’re comparing cars, it helps to keep the same tool for everything. With Vehicle History Europe, you can check a window sticker by VIN tool for Porsche and many other manufacturers, including older classic vehicles with shorter VIN/ chassis numbers.",
+        "brands": [
+          {
+            "name": "Audi",
+            "href": "#"
+          },
+          {
+            "name": "BMW",
+            "href": "#"
+          },
+          {
+            "name": "Citroen",
+            "href": "#"
+          },
+          {
+            "name": "Fiat",
+            "href": "#"
+          },
+          {
+            "name": "Ford",
+            "href": "#"
+          },
+          {
+            "name": "Honda",
+            "href": "#"
+          },
+          {
+            "name": "Hyundai",
+            "href": "#"
+          },
+          {
+            "name": "Jaguar",
+            "href": "#"
+          },
+          {
+            "name": "Jeep",
+            "href": "#"
+          },
+          {
+            "name": "Kawasaki",
+            "href": "#"
+          },
+          {
+            "name": "Kia",
+            "href": "#"
+          },
+          {
+            "name": "KTM",
+            "href": "#"
+          },
+          {
+            "name": "Land Rover",
+            "href": "#"
+          },
+          {
+            "name": "Lexus",
+            "href": "#"
+          },
+          {
+            "name": "Maserati",
+            "href": "#"
+          },
+          {
+            "name": "Mazda",
+            "href": "#"
+          },
+          {
+            "name": "Mercedes",
+            "href": "#"
+          },
+          {
+            "name": "Mercedes AMG",
+            "href": "#"
+          },
+          {
+            "name": "Mini",
+            "href": "#"
+          },
+          {
+            "name": "Mitsubishi",
+            "href": "#"
+          },
+          {
+            "name": "Nissan",
+            "href": "#"
+          },
+          {
+            "name": "Opel",
+            "href": "#"
+          },
+          {
+            "name": "Peugeot",
+            "href": "#"
+          },
+          {
+            "name": "Porsche",
+            "href": "#"
+          },
+          {
+            "name": "Range Rover",
+            "href": "#"
+          },
+          {
+            "name": "Renault",
+            "href": "#"
+          },
+          {
+            "name": "Saab",
+            "href": "#"
+          },
+          {
+            "name": "Seat",
+            "href": "#"
+          },
+          {
+            "name": "Skoda",
+            "href": "#"
+          },
+          {
+            "name": "Subaru",
+            "href": "#"
+          },
+          {
+            "name": "Suzuki",
+            "href": "#"
+          },
+          {
+            "name": "Tesla",
+            "href": "#"
+          },
+          {
+            "name": "Toyota",
+            "href": "#"
+          },
+          {
+            "name": "Vauxhall",
+            "href": "#"
+          },
+          {
+            "name": "Volkswagen",
+            "href": "#"
+          },
+          {
+            "name": "Volvo",
+            "href": "#"
+          },
+          {
+            "name": "Yamaha",
+            "href": "#"
+          }
+        ]
+      },
+      "faq": {
+        "type": "faq",
+        "heading": "Common Porsche Window Sticker Questions Answered",
+        "items": [
+          {
+            "question": "How do you decode a Porsche VIN number?",
+            "answer": "Use our accurate Porsche VIN decoder to verify original specifications, engine, transmission, features, and upgrade to a vehicle history report and see the vehicle’s past, such as accidents, ownership history, and maintenance records."
+          },
+          {
+            "question": "What is a Monroney sticker?",
+            "answer": "A Monroney sticker is the official name for the window sticker used in the United States. In Europe, the concept is similar, but the document is not legally called a Monroney sticker, which shows the vehicle’s build, equipment, and recommended retail price at the time it was new."
+          },
+          {
+            "question": "Why do you need a window sticker?",
+            "answer": "A window sticker helps you see how a Porsche was originally built at the factory. It shows the model, trim, standard equipment, optional features, and key technical data. It can be used to verify listings, value, and understand the car better, especially when cars move between European countries."
+          },
+          {
+            "question": "Can I see the vehicle options by VIN?",
+            "answer": "Yes, you can see the vehicle options by VIN. A VIN-based window sticker lookup allows you to see factory-installed options that were selected when the Porsche was built. This includes option packages and individual extras. It helps separate original equipment from features added later, which is especially useful when reviewing used or imported Porsche vehicles."
+          },
+          {
+            "question": "How to read a window sticker?",
+            "answer": "To read a window sticker, start with the vehicle description at the top, which confirms the Porsche model and VIN. Then review standard equipment, followed by optional equipment. Pricing and technical sections usually come after that. For European buyers, pay attention to engine data, drivetrain, and emissions figures, as these often affect registration and running costs."
+          },
+          {
+            "question": "Can you get a build sheet from a VIN?",
+            "answer": "Yes, you can get a build sheet from a VIN. A build sheet is mainly an internal production document, while a window sticker is made for buyers and owners. For most people, a window sticker by VIN is easier to read and more practical for understanding a Porsche’s original specification."
+          },
+          {
+            "question": "Can I look up my vehicle specs by VIN?",
+            "answer": "Yes, you can look up the vehicle specs by VIN. Using the window sticker lookup, you can view core specifications such as engine type, transmission, drivetrain, trim level, and factory options. This works for modern Porsche VINs and, in many cases, for older vehicles with shorter VIN or chassis number formats."
+          },
+          {
+            "question": "What is the easiest way to get original window stickers from all brands?",
+            "answer": "The easiest way is to use one platform that supports multiple manufacturers. Vehicle History Europe is designed to decode VINs across brands, including Porsche, and also supports classic vehicles with non-standard VIN lengths. This saves time if you are comparing cars or managing more than one vehicle."
+          },
+          {
+            "question": "Is there a window sticker for a used car?",
+            "answer": "Yes. Even if a Porsche is used, its original factory window sticker can still be generated using the VIN. The sticker reflects how the car left the factory, not its current condition. This makes it useful for used-car buyers who want to confirm originality and factory equipment."
+          },
+          {
+            "question": "Can a VIN tell me the trim level?",
+            "answer": "Yes. The VIN contains coded information that helps identify the Porsche model and trim level. When combined with a window sticker lookup, it gives a clearer picture of the trim, standard features, and option packages that define how the vehicle was originally configured."
+          }
+        ]
       }
     }
   },
@@ -1028,7 +2889,7 @@
     "slug": "bmw",
     "name": "BMW",
     "url": "https://vehiclehistory.eu/window-sticker/bmw",
-    "sectionCount": 3,
+    "sectionCount": 10,
     "meta": {
       "title": "BMW Window Sticker by VIN Lookup: Original Factory Build 🚗",
       "description": "Get the original BMW Window Sticker by entering your VIN to view factory specs, options, engine details, trim, and emissions. See the BMW build data now!"
@@ -1226,6 +3087,370 @@
             "href": "https://vehiclehistory.eu/sticker/vin/WF0PXXGCHPKP11608-B4D7B4D7-0F0F-BC0D-5C6B-10DB7A44C054"
           }
         ]
+      },
+      "whyNeed": {
+        "type": "why-need",
+        "heading": "Why Do You Need a BMW Window Sticker Lookup?",
+        "introParagraph": "A BMW window sticker by VIN provides a precise and detailed overview of your car’s original specifications. Whether you’re buying, selling, or organizing your records, this easy-to-read VIN-based sticker ensures you know exactly how your BMW was configured at the factory, including key specifications, options, and emissions data.",
+        "audiences": [
+          {
+            "title": "Buyers",
+            "description": "Buying a used BMW can feel simple until you notice the small gaps, like unclear options, missing spec details, and “it should have” claims. A BMW window sticker lookup lets you compare the car in front of you to what it was meant to be, from the factory, without making it a big drama.",
+            "benefits": [
+              {
+                "title": "Confirm the exact BMW model and trim before you commit money",
+                "description": "This helps you avoid the common issues where cars with similar badges have very different engines, trims, or options, helping you verify exactly what the car offers before committing."
+              },
+              {
+                "title": "Avoid buying a “badge upgrade” that is not a true trim level",
+                "description": "A badge can be swapped. However, a detailed specifications trail is harder to fake. The window sticker makes the claimed trim easier to sanity-check."
+              },
+              {
+                "title": "Make insurance conversations easier by knowing the real spec",
+                "description": "Insurers may ask about trim and equipment. Having a clear spec summary reduces back-and-forth and helps you describe the car accurately."
+              }
+            ]
+          },
+          {
+            "title": "Seller & Dealer",
+            "description": "If you sell BMWs, you already know how often buyers ask for proof. A BMW window sticker by VIN helps you answer common questions faster, present the car more clearly, and reduce misunderstandings that waste time for both sides.",
+            "benefits": [
+              {
+                "title": "Create a cleaner listing with a specification people can scan quickly",
+                "description": "Buyers do not want a wall of text. A structured sticker summary makes the advert easier to trust and easier to read."
+              },
+              {
+                "title": "Reduce repeated questions about options, trim, and factory features",
+                "description": "When the spec is laid out clearly, fewer buyers message just to ask basic questions. That saves time, especially on popular models."
+              },
+              {
+                "title": "Help identify the vehicle cleanly for re-registration in another EU country",
+                "description": "EU rules recognise the registration certificate for identification and re-registration between Member States, and VIN clarity supports that process."
+              }
+            ]
+          },
+          {
+            "title": "BMW Enthusiasts & Collectors",
+            "description": "For enthusiasts, the fun is often in the details. With a window sticker, you can document the car’s original configuration, confirm period-correct options, and keep your records neat. It’s especially useful when a BMW has changed hands many times or lived in more than one country.",
+            "benefits": [
+              {
+                "title": "Support restoration planning with the original equipment",
+                "description": "If you’re restoring, you want to know what the car should look like and what parts matter most for originality."
+              },
+              {
+                "title": "Keep a record for clubs, shows, and ownership documentation",
+                "description": "It’s useful to have a quick spec sheet when joining a club register, attending events, or speaking with other owners."
+              },
+              {
+                "title": "Confirm rare factory options",
+                "description": "Collectors care about the small things: special packages, interior choices, or factory upgrades that were not common on that model."
+              }
+            ]
+          }
+        ],
+        "ctas": []
+      },
+      "howToGet": {
+        "type": "how-to-get",
+        "heading": "How to Get Your BMW Window Sticker in 3 Simple Steps",
+        "introParagraph": "You do not need to be a technical person for this. Follow these simple steps to generate a window sticker for the BMW and review the details at your own pace.",
+        "steps": [
+          {
+            "title": "Enter your BMW details",
+            "description": "Type or copy the BMW VIN on the Form above. Ensure that you type it correctly."
+          },
+          {
+            "title": "Submit the VIN",
+            "description": "Submit the VIN, and review the preview."
+          },
+          {
+            "title": "Download and review the sticker",
+            "description": "Continue to purchase the window sticker. Download the sticker and check the detailed trim, options, engine, and emissions of the BMW."
+          }
+        ],
+        "ctas": [
+          {
+            "text": "Get Window Sticker by VIN",
+            "href": "#top"
+          },
+          {
+            "text": "View Window Sticker Sample",
+            "href": "https://vehiclehistory.eu/sticker/vin/WF0PXXGCHPKP11608-B4D7B4D7-0F0F-BC0D-5C6B-10DB7A44C054"
+          }
+        ]
+      },
+      "whereVin": {
+        "type": "where-vin",
+        "heading": "Where to Find the VIN on a BMW",
+        "introParagraph": "The VIN is usually easy to find once you know where to look. On many BMWs, it appears in a few common locations on the vehicle and also on official documents.",
+        "image": {
+          "src": "https://vehiclehistory.eu/wp-content/uploads/2026/02/Gemini_Generated_Image_vmtzk0vmtzk0vmtz-1.jpg",
+          "alt": "where to find vin"
+        },
+        "locations": [
+          {
+            "title": "Dashboard (visible through the windscreen)",
+            "titleElement": "h4",
+            "description": "On many BMWs, you can see the VIN through the lower corner of the windscreen when looking from outside the car. It’s a quick check and often the first place people look."
+          },
+          {
+            "title": "Driver’s door jamb label",
+            "titleElement": "h4",
+            "description": "Open the driver’s door and look for a label or plate on the door jamb area. This location is common and practical, especially when checking the VIN during a viewing."
+          },
+          {
+            "title": "Under the bonnet of the body structure",
+            "titleElement": "h4",
+            "description": "Some BMWs have VIN markings or plates under the bonnet area. This is helpful when confirming details during deeper checks or inspections."
+          },
+          {
+            "title": "Vehicle registration documents",
+            "titleElement": "h4",
+            "description": "Your registration documents normally display the VIN. Across the EU, registration documents are used for identification and re-registration, so VIN accuracy matters."
+          },
+          {
+            "title": "Insurance documents and policy details",
+            "titleElement": "h4",
+            "description": "Many insurers list the VIN on your paperwork or digital policy documents. It can be a handy option if you do not want to go outside to check the car."
+          },
+          {
+            "title": "Boot area labels (varies by model)",
+            "titleElement": "h4",
+            "description": "On certain models, you may find identification labels in the boot area."
+          }
+        ],
+        "ctas": [],
+        "headingLevel": "h3"
+      },
+      "whyUse": {
+        "type": "why-use",
+        "heading": "Why Should You Use Our BMW Window Sticker Tool?",
+        "introParagraph": "A BMW window sticker should feel clear, not confusing. Vehicle History Europe focuses on readable results, EU-relevant details, and support from real people. If you’re buying, selling, or organising records for a BMW, this is a straightforward way to get the facts in one place.",
+        "features": [
+          {
+            "title": "Most comprehensive database coverage",
+            "titleElement": "h4",
+            "description": "We aim for wide coverage across BMW models and years, including many older vintage vehicles where documentation is harder to find."
+          },
+          {
+            "title": "Live Chat with VIN Expert",
+            "titleElement": "h4",
+            "description": "When you need a human answer, you get a human answer from an expert. It matters when you’re dealing with documents and important purchases."
+          },
+          {
+            "title": "Built Exclusive For European Market",
+            "titleElement": "h4",
+            "description": "The layout and wording are designed for EU users, including cross-border checks and emissions information expectations."
+          },
+          {
+            "title": "High accuracy, cross-checked results",
+            "titleElement": "h4",
+            "description": "We structure the output carefully and cross-check key fields, so the sticker is useful for real decisions, not just curiosity."
+          }
+        ],
+        "ctas": [
+          {
+            "text": "Get the BMW Window Sticker",
+            "href": "#top"
+          }
+        ]
+      },
+      "ctaBanner": {
+        "type": "cta-banner",
+        "heading": "Get Your BMW's Window Sticker Now!",
+        "description": "Ready to check the BMW? Enter the VIN and generate your factory-style window sticker now.",
+        "ctas": [
+          {
+            "text": "Get the BMW Window Sticker",
+            "href": "#top"
+          }
+        ]
+      },
+      "allManufacturers": {
+        "type": "all-manufacturers",
+        "heading": "Check Any Window Sticker for All Manufacturers",
+        "headingLevel": "h3",
+        "description": "Some households have more than one badge on the driveway. Our window sticker lookup tools are built to work across manufacturers, including many older classic vehicles, where specs are harder to confirm.",
+        "brands": [
+          {
+            "name": "Audi",
+            "href": "#"
+          },
+          {
+            "name": "BMW",
+            "href": "#"
+          },
+          {
+            "name": "Citroen",
+            "href": "#"
+          },
+          {
+            "name": "Fiat",
+            "href": "#"
+          },
+          {
+            "name": "Ford",
+            "href": "#"
+          },
+          {
+            "name": "Honda",
+            "href": "#"
+          },
+          {
+            "name": "Hyundai",
+            "href": "#"
+          },
+          {
+            "name": "Jaguar",
+            "href": "#"
+          },
+          {
+            "name": "Jeep",
+            "href": "#"
+          },
+          {
+            "name": "Kawasaki",
+            "href": "#"
+          },
+          {
+            "name": "Kia",
+            "href": "#"
+          },
+          {
+            "name": "KTM",
+            "href": "#"
+          },
+          {
+            "name": "Land Rover",
+            "href": "#"
+          },
+          {
+            "name": "Lexus",
+            "href": "#"
+          },
+          {
+            "name": "Maserati",
+            "href": "#"
+          },
+          {
+            "name": "Mazda",
+            "href": "#"
+          },
+          {
+            "name": "Mercedes",
+            "href": "#"
+          },
+          {
+            "name": "Mercedes AMG",
+            "href": "#"
+          },
+          {
+            "name": "Mini",
+            "href": "#"
+          },
+          {
+            "name": "Mitsubishi",
+            "href": "#"
+          },
+          {
+            "name": "Nissan",
+            "href": "#"
+          },
+          {
+            "name": "Opel",
+            "href": "#"
+          },
+          {
+            "name": "Peugeot",
+            "href": "#"
+          },
+          {
+            "name": "Porsche",
+            "href": "#"
+          },
+          {
+            "name": "Range Rover",
+            "href": "#"
+          },
+          {
+            "name": "Renault",
+            "href": "#"
+          },
+          {
+            "name": "Saab",
+            "href": "#"
+          },
+          {
+            "name": "Seat",
+            "href": "#"
+          },
+          {
+            "name": "Skoda",
+            "href": "#"
+          },
+          {
+            "name": "Subaru",
+            "href": "#"
+          },
+          {
+            "name": "Suzuki",
+            "href": "#"
+          },
+          {
+            "name": "Tesla",
+            "href": "#"
+          },
+          {
+            "name": "Toyota",
+            "href": "#"
+          },
+          {
+            "name": "Vauxhall",
+            "href": "#"
+          },
+          {
+            "name": "Volkswagen",
+            "href": "#"
+          },
+          {
+            "name": "Volvo",
+            "href": "#"
+          },
+          {
+            "name": "Yamaha",
+            "href": "#"
+          }
+        ]
+      },
+      "faq": {
+        "type": "faq",
+        "heading": "Common BMW Window Sticker Questions Answered",
+        "items": [
+          {
+            "question": "How to get a Monroney sticker?",
+            "answer": "You can get a Monroney sticker (vehicle window sticker) with the VIN and a window sticker lookup tool like Vehicle History Europe for a clear, practical equivalent."
+          },
+          {
+            "question": "Can I get a window sticker from VIN online?",
+            "answer": "Yes, you can easily get a BMW window sticker online by entering your VIN into our lookup tool. It will generate an original factory-style window sticker for your vehicle, showing key specifications and options."
+          },
+          {
+            "question": "How do I check my BMW spec?",
+            "answer": "To check your BMW spec, you can use the vehicle’s VIN. Simply enter it into our tool, and you’ll get a detailed factory window sticker, outlining the model, trim, features, and much more."
+          },
+          {
+            "question": "Can I get a build sheet from a VIN number?",
+            "answer": "Yes, you can get a build sheet from the VIN. The build sheet provides detailed information about the vehicle’s original configuration, customized for the specific BMW associated with the VIN. This includes any optional features and packages that were included at the time of manufacture."
+          },
+          {
+            "question": "How do I find VIN stickers?",
+            "answer": "VIN stickers are typically located on your car’s dashboard, near the windshield, or on the driver’s side door frame. These stickers contain your car’s unique identification number (VIN), which is essential for retrieving a window sticker or build sheet."
+          },
+          {
+            "question": "How do I get the original window sticker for a car?",
+            "answer": "The easiest way to obtain the original window sticker for a BMW is by entering the vehicle’s VIN into our tool. It will generate the factory window sticker, which includes the vehicle’s original equipment, features, and MSRP."
+          }
+        ]
       }
     }
   },
@@ -1233,7 +3458,7 @@
     "slug": "hyundai",
     "name": "Hyundai",
     "url": "https://vehiclehistory.eu/window-sticker/hyundai",
-    "sectionCount": 3,
+    "sectionCount": 10,
     "meta": {
       "title": "Hyundai Window Sticker VIN Lookup: Original Factory Specs",
       "description": "Access detailed info about any Hyundai vehicle with our window sticker by VIN lookup tool. See the original trim, fuel efficiency, standard, & optional features"
@@ -1430,6 +3655,362 @@
             "href": "https://vehiclehistory.eu/sticker/vin/WF0PXXGCHPKP11608-B4D7B4D7-0F0F-BC0D-5C6B-10DB7A44C054"
           }
         ]
+      },
+      "whyNeed": {
+        "type": "why-need",
+        "heading": "Why Do You Need a Hyundai Window Sticker Lookup?",
+        "introParagraph": "A Hyundai window sticker lookup clears up the small details that usually get lost over time. Trim, factory options, emissions figures, and the original spec can matter a lot in Europe, especially with imports across European countries. This label can help buyers, sellers, dealers, and collectors stay on the same page.",
+        "audiences": [
+          {
+            "title": "Buyers",
+            "description": "Buying a Hyundai can feel simple until two listings look identical but are priced wildly differently. A window sticker lookup by VIN helps confirm the original spec and reduces guesswork. It’s especially helpful for older vintage vehicles or situations where the advert is not showing clearly.",
+            "benefits": [
+              {
+                "title": "Confirm the exact trim level before paying “premium trim” money",
+                "description": "A Hyundai may look fully loaded in photos, but trim names can be confusing across markets. A factory window sticker by VIN makes the trim and body style much clearer."
+              },
+              {
+                "title": "Compare two similar Hyundai listings with facts",
+                "description": "Two cars can look the same and drive the same, yet have different equipment levels. A window sticker lookup vin makes side-by-side comparison easier."
+              },
+              {
+                "title": "Keep negotiations calm by pointing to a factory document",
+                "description": "Negotiations often get emotional fast. A factory window sticker by VIN gives something neutral to reference without starting a fight."
+              }
+            ]
+          },
+          {
+            "title": "Seller & Dealer",
+            "description": "Selling a Hyundai is easier when the specifications are presented clearly. Buyers can ask detailed questions, and not everyone trusts adverts anymore. A VIN-based Hyundai Window Sticker helps back up claims about options and trim.",
+            "benefits": [
+              {
+                "title": "Reduce back-and-forth questions",
+                "description": "A VIN-specific window sticker label answers many buyer questions upfront, so fewer repetitive messages pile up."
+              },
+              {
+                "title": "Avoid mistakes when multiple similar Hyundai units sit in inventory",
+                "description": "Mix-ups happen, especially with fleet-like stock. A vin window sticker helps match the right details to the right vehicle."
+              },
+              {
+                "title": "Lower dispute risk",
+                "description": "If a buyer disputes features later, having a factory document in the record helps reduce messy arguments."
+              }
+            ]
+          },
+          {
+            "title": "Hyundai Enthusiasts & Collectors",
+            "description": "For Hyundai enthusiasts, the details are half the fun. The factory spec tells a story, including the trim level, equipment, performance, and even how the model was positioned when new. For collectors, a window sticker can also support provenance. And yeah, it’s just satisfying to see everything laid out.",
+            "benefits": [
+              {
+                "title": "Preserve the factory story for future resale or historical interest",
+                "description": "A Hyundai’s original configuration can matter later. A factory window sticker by VIN helps keep a clean reference for future buyers."
+              },
+              {
+                "title": "Verify rare trims or special editions",
+                "description": "Enthusiast forums can help verify rare trims or special editions, but they can be messy. A window sticker lookup by VIN can confirm rare trim-level additions more cleanly."
+              },
+              {
+                "title": "Document originality when restoring or maintaining a classic Hyundai",
+                "description": "Restoration choices are easier when the factory equipment list is known. Vehicle History Europe can decode even shorter classic VIN formats."
+              }
+            ]
+          }
+        ],
+        "ctas": []
+      },
+      "howToGet": {
+        "type": "how-to-get",
+        "heading": "How to Get Your Hyundai Window Sticker in 3 Simple Steps",
+        "introParagraph": "Getting a Hyundai Window Sticker using the VIN should feel simple, not like filling out government paperwork. See the steps below:",
+        "steps": [
+          {
+            "title": "Enter your Hyundai details",
+            "description": "Enter the Hyundai VIN into the form above"
+          },
+          {
+            "title": "Submit the VIN",
+            "description": "Click the ‘Check Vehicle’ button to process your request."
+          },
+          {
+            "title": "Download and review the sticker",
+            "description": "Continue to the payment. In a minute, you will receive your detailed window sticker and view all specifications, options, ratings, and features."
+          }
+        ],
+        "ctas": [
+          {
+            "text": "Get Window Sticker by VIN",
+            "href": "#top"
+          },
+          {
+            "text": "View Window Sticker Sample",
+            "href": "https://vehiclehistory.eu/sticker/vin/WF0PXXGCHPKP11608-B4D7B4D7-0F0F-BC0D-5C6B-10DB7A44C054"
+          }
+        ]
+      },
+      "whereVin": {
+        "type": "where-vin",
+        "heading": "Where to Find the VIN on a Hyundai",
+        "introParagraph": "The VIN is usually easy to find once the “usual spots” are known. Hyundai’s own guidance points to common locations like the dashboard near the windscreen, door jamb, engine bay, and registration documents.",
+        "image": {
+          "src": "https://vehiclehistory.eu/wp-content/uploads/2026/02/Gemini_Generated_Image_vmtzk0vmtzk0vmtz-1.jpg",
+          "alt": "where to find vin"
+        },
+        "locations": [
+          {
+            "title": "Dashboard near the windscreen on the driver's side",
+            "titleElement": "h4",
+            "description": "Look through the lower corner of the windscreen on the driver’s side. Many Hyundai models place a visible VIN plate here for quick checks."
+          },
+          {
+            "title": "Driver-side door jamb sticker area",
+            "titleElement": "h4",
+            "description": "Open the driver’s door and check the door jamb area. Many vehicles show VIN information on a label."
+          },
+          {
+            "title": "Engine bay or firewall stamping",
+            "titleElement": "h4",
+            "description": "Some Hyundai vehicles also carry VIN markings in the engine compartment area, sometimes stamped."
+          },
+          {
+            "title": "Registration documents and official paperwork",
+            "titleElement": "h4",
+            "description": "Official documents usually list the VIN, including registration papers. For UK-style paperwork, the V5C is often used."
+          },
+          {
+            "title": "Insurance or finance documents",
+            "titleElement": "h4",
+            "description": "When checking a Hyundai remotely, documents like insurance or finance records can include the VIN as well."
+          },
+          {
+            "title": "Service records and maintenance paperwork",
+            "titleElement": "h4",
+            "description": "Service records can include the VIN, especially if the vehicle has been maintained by a dealership or structured workshop."
+          }
+        ],
+        "ctas": [],
+        "headingLevel": "h3"
+      },
+      "whyUse": {
+        "type": "why-use",
+        "heading": "Why Should You Use Our Hyundai Window Sticker Tool?",
+        "introParagraph": "Vehicle History Europe is built for people who want answers without drama. The tool focuses on clear formatting, European-friendly data blocks, and VIN decoding that works even when a Hyundai is older, imported, or has a shorter VIN format.",
+        "features": [
+          {
+            "title": "Most comprehensive database coverage",
+            "titleElement": "h4",
+            "description": "Coverage matters when a Hyundai crosses borders or gets re-registered. The system is designed to return structured results even when basic vehicle info is fragmented."
+          },
+          {
+            "title": "24/7 customer support",
+            "titleElement": "h4",
+            "description": "Questions don’t always happen during office hours. Support is available around the clock for buyers and sellers working across time zones"
+          },
+          {
+            "title": "High accuracy, cross-checked results",
+            "titleElement": "h4",
+            "description": "The output is structured for verification across sections like description, equipment, mechanical info, and emissions blocks, helping reduce mismatches caused by incomplete adverts."
+          },
+          {
+            "title": "Built for the European market",
+            "titleElement": "h4",
+            "description": "European vehicle markets can move across borders constantly. Our window sticker lookup tool is formatted to make cross-country comparisons less confusing."
+          }
+        ],
+        "ctas": [
+          {
+            "text": "Get the Hyundai Window Sticker",
+            "href": "#top"
+          }
+        ]
+      },
+      "ctaBanner": {
+        "type": "cta-banner",
+        "heading": "Get Your Hyundai's Window Sticker Now!",
+        "description": "Enter the VIN and pull the Hyundai Window Sticker by VIN in minutes.",
+        "ctas": [
+          {
+            "text": "Get the Hyundai Window Sticker",
+            "href": "#top"
+          }
+        ]
+      },
+      "allManufacturers": {
+        "type": "all-manufacturers",
+        "heading": "Check Any Window Sticker for All Manufacturers",
+        "headingLevel": "h3",
+        "description": "Looking beyond Hyundai? Our window sticker VIN lookup tool can help check factory details for many brands, especially when listings are vague. See the list below:",
+        "brands": [
+          {
+            "name": "Audi",
+            "href": "#"
+          },
+          {
+            "name": "BMW",
+            "href": "#"
+          },
+          {
+            "name": "Citroen",
+            "href": "#"
+          },
+          {
+            "name": "Fiat",
+            "href": "#"
+          },
+          {
+            "name": "Ford",
+            "href": "#"
+          },
+          {
+            "name": "Honda",
+            "href": "#"
+          },
+          {
+            "name": "Hyundai",
+            "href": "#"
+          },
+          {
+            "name": "Jaguar",
+            "href": "#"
+          },
+          {
+            "name": "Jeep",
+            "href": "#"
+          },
+          {
+            "name": "Kawasaki",
+            "href": "#"
+          },
+          {
+            "name": "Kia",
+            "href": "#"
+          },
+          {
+            "name": "KTM",
+            "href": "#"
+          },
+          {
+            "name": "Land Rover",
+            "href": "#"
+          },
+          {
+            "name": "Lexus",
+            "href": "#"
+          },
+          {
+            "name": "Maserati",
+            "href": "#"
+          },
+          {
+            "name": "Mazda",
+            "href": "#"
+          },
+          {
+            "name": "Mercedes",
+            "href": "#"
+          },
+          {
+            "name": "Mercedes AMG",
+            "href": "#"
+          },
+          {
+            "name": "Mini",
+            "href": "#"
+          },
+          {
+            "name": "Mitsubishi",
+            "href": "#"
+          },
+          {
+            "name": "Nissan",
+            "href": "#"
+          },
+          {
+            "name": "Opel",
+            "href": "#"
+          },
+          {
+            "name": "Peugeot",
+            "href": "#"
+          },
+          {
+            "name": "Porsche",
+            "href": "#"
+          },
+          {
+            "name": "Range Rover",
+            "href": "#"
+          },
+          {
+            "name": "Renault",
+            "href": "#"
+          },
+          {
+            "name": "Saab",
+            "href": "#"
+          },
+          {
+            "name": "Seat",
+            "href": "#"
+          },
+          {
+            "name": "Skoda",
+            "href": "#"
+          },
+          {
+            "name": "Subaru",
+            "href": "#"
+          },
+          {
+            "name": "Suzuki",
+            "href": "#"
+          },
+          {
+            "name": "Tesla",
+            "href": "#"
+          },
+          {
+            "name": "Toyota",
+            "href": "#"
+          },
+          {
+            "name": "Vauxhall",
+            "href": "#"
+          },
+          {
+            "name": "Volkswagen",
+            "href": "#"
+          },
+          {
+            "name": "Volvo",
+            "href": "#"
+          },
+          {
+            "name": "Yamaha",
+            "href": "#"
+          }
+        ]
+      },
+      "faq": {
+        "type": "faq",
+        "heading": "Common Hyundai Window Sticker Questions Answered",
+        "items": [
+          {
+            "question": "How do I decode a Hyundai VIN number?",
+            "answer": "A Hyundai VIN number can be decoded by using a VIN decoder tool that reads manufacturer records. The VIN reveals core information such as model, body style, engine type, production year, and market specification. Vehicle History Europe can decode Hyundai VINs, including older and classic models with fewer than 17 characters."
+          },
+          {
+            "question": "What is a Monroney sticker?",
+            "answer": "A Monroney sticker is the official factory window sticker used in the United States for new cars. It lists pricing, equipment, and other details. In Europe, the format and terminology differ, but a window sticker by VIN serves a similar purpose by showing factory specifications and vehicle identity details."
+          },
+          {
+            "question": "What does a Hyundai window sticker show?",
+            "answer": "It shows the build data of the vehicle, including the vehicle description, trim and body style, VIN, standard equipment, optional equipment, mechanical and engine information, and recommended retail pricing from the manufacturer. The goal is to present the factory configuration clearly in one place."
+          },
+          {
+            "question": "Is a window sticker the same as a build sheet?",
+            "answer": "Not exactly. A build sheet vs window sticker comparison usually comes down to presentation. A build sheet is often more production-oriented, while a window sticker is formatted to communicate vehicle specs and pricing clearly for sale and reference."
+          }
+        ]
       }
     }
   },
@@ -1437,7 +4018,7 @@
     "slug": "chrysler",
     "name": "Chrysler",
     "url": "https://vehiclehistory.eu/window-sticker/chrysler",
-    "sectionCount": 3,
+    "sectionCount": 10,
     "meta": {
       "title": "Chrysler Window Sticker by VIN: Accurate Factory Specs 🚗",
       "description": "Get your Chrysler Window Sticker by VIN with full factory specs, options, and pricing. Fast, accurate, and trusted across Europe. Download your sticker today"
@@ -1635,6 +4216,361 @@
             "href": "https://vehiclehistory.eu/sticker/vin/WF0PXXGCHPKP11608-B4D7B4D7-0F0F-BC0D-5C6B-10DB7A44C054"
           }
         ]
+      },
+      "whyNeed": {
+        "type": "why-need",
+        "heading": "Why Do You Need a Chrysler Window Sticker Lookup?",
+        "introParagraph": "For most people, the hard part is not choosing the Chrysler. It’s confirming the exact version you’re looking at. A VIN-based window sticker lookup tool gives you a structured summary of the original build, so you can compare cars fairly and avoid paying for features that aren’t really there.",
+        "audiences": [
+          {
+            "title": "Buyers",
+            "description": "Buying a Chrysler in Europe can involve imports, re-registrations, and listings that don’t match the real spec. A window sticker car label based on the VIN helps you confirm trim, equipment, and key mechanical details before you travel, negotiate, or commit.",
+            "benefits": [
+              {
+                "title": "Verify the trim level so you don’t overpay",
+                "description": "The window sticker confirms the exact factory trim tied to the VIN, helping buyers avoid paying premium prices for a Chrysler built in a lower specification."
+              },
+              {
+                "title": "Compare two similar Chryslers",
+                "description": "Using the same sticker format allows buyers to compare equipment and specs clearly, even when two cars look identical in adverts."
+              },
+              {
+                "title": "Back up your negotiation with a clear, VIN-tied equipment list",
+                "description": "Buyers can use the VIN-based equipment list as a factual reference when negotiating price or questioning missing features."
+              }
+            ]
+          },
+          {
+            "title": "Seller & Dealer",
+            "description": "If you sell Chryslers, clarity is money. A Chrysler window sticker helps you write listings that feel solid, not vague. It reduces back-and-forth messages and gives buyers a neat reference they can understand, even if they’re new to the brand or buying from another European country.",
+            "benefits": [
+              {
+                "title": "Create cleaner listings",
+                "description": "The sticker helps ensure listings reflect the real factory configuration, reducing mistakes and misleading feature descriptions."
+              },
+              {
+                "title": "Reduce refunds and disputes",
+                "description": "Clear factory information helps buyers know exactly what they are purchasing, lowering the risk of post-sale complaints."
+              },
+              {
+                "title": "Save time when buyers ask for proof of options",
+                "description": "Instead of long explanations, sales teams can share the sticker as clear proof of factory-installed options."
+              }
+            ]
+          },
+          {
+            "title": "Chrysler Enthusiasts & Collectors",
+            "description": "As a collector, you don’t just want “a Chrysler.” But the right Chrysler. A factory window sticker by VIN helps confirm original configuration, option packs, and trim-level details that matter for authenticity. It’s also a nice document to keep with the car’s file, especially if you plan to show, sell, or restore it.",
+            "benefits": [
+              {
+                "title": "Explain the vehicle’s story better during club meets and buyer viewings",
+                "description": "The sticker provides clear talking points about the car’s build and original features."
+              },
+              {
+                "title": "Support restoration choices",
+                "description": "The sticker guides restoration work by showing original equipment, trims, and mechanical configuration."
+              },
+              {
+                "title": "Use it as a reference even for older Chryslers with shorter VIN formats",
+                "description": "Vehicle History Europe supports many classic Chryslers, including those with 5–14 digit VIN formats."
+              }
+            ]
+          }
+        ],
+        "ctas": []
+      },
+      "howToGet": {
+        "type": "how-to-get",
+        "heading": "How to Get Your Chrysler Window Sticker in 3 Simple Steps",
+        "introParagraph": "If you have the VIN, you can generate a clean original window sticker by VIN and use it for buying, selling, or just understanding the car properly.",
+        "steps": [
+          {
+            "title": "Enter your Chrysler details",
+            "description": "Locate and input your Chrysler VIN into the form above. This unique identifier ensures precise results."
+          },
+          {
+            "title": "Submit the VIN",
+            "description": "Click the “Check Vehicle” button to preview your sticker."
+          },
+          {
+            "title": "Download and review the sticker",
+            "description": "Complete the payment process to download or print your window sticker."
+          }
+        ],
+        "ctas": [
+          {
+            "text": "Get Window Sticker by VIN",
+            "href": "#top"
+          },
+          {
+            "text": "View Window Sticker Sample",
+            "href": "https://vehiclehistory.eu/sticker/vin/WF0PXXGCHPKP11608-B4D7B4D7-0F0F-BC0D-5C6B-10DB7A44C054"
+          }
+        ]
+      },
+      "whereVin": {
+        "type": "where-vin",
+        "heading": "Where to Find the VIN on a Chrysler",
+        "introParagraph": "Most Chrysler VINs are easy to find. In Europe, you’ll usually see it through the windscreen, on a door label, or stamped into the body. The VIN is a 17-character identifier on most modern vehicles.",
+        "image": {
+          "src": "https://vehiclehistory.eu/wp-content/uploads/2026/02/Gemini_Generated_Image_vmtzk0vmtzk0vmtz-1.jpg",
+          "alt": "where to find vin"
+        },
+        "locations": [
+          {
+            "title": "Dashboard (windscreen view)",
+            "titleElement": "h4",
+            "description": "Check the lower corner of the dashboard near the windscreen. Many vehicles show the VIN here, so it’s visible from the outside."
+          },
+          {
+            "title": "Driver’s door jamb or door frame label",
+            "titleElement": "h4",
+            "description": "Open the driver’s door and look along the door jamb area for a label or plate with the VIN and build information."
+          },
+          {
+            "title": "Engine bay/chassis stamping",
+            "titleElement": "h4",
+            "description": "Some Chrysler models also have the VIN stamped into the chassis or shown on a plate in the engine bay. It’s worth checking if the dashboard view is unclear."
+          },
+          {
+            "title": "Vehicle documents",
+            "titleElement": "h4",
+            "description": "If the car is already registered, the VIN is normally listed on the vehicle’s paperwork. Use this only if you trust the documents and they match the physical car."
+          },
+          {
+            "title": "Under-seat or floor area",
+            "titleElement": "h4",
+            "description": "On some vehicles, the VIN may appear under trim panels or near seat/floor areas. If you’re unsure, ask the seller before removing anything."
+          }
+        ],
+        "ctas": [],
+        "headingLevel": "h3"
+      },
+      "whyUse": {
+        "type": "why-use",
+        "heading": "Why Should You Use Our Chrysler Window Sticker Tool?",
+        "introParagraph": "A Chrysler spec can get messy when the car has crossed borders or been listed from memory. Our Chrysler window sticker tool keeps it simple: VIN-based decoding, a clear factory-style layout, and support when something looks odd. It’s built for European buyers, sellers, and collectors who want the facts without the noise.",
+        "features": [
+          {
+            "title": "Most comprehensive database coverage",
+            "titleElement": "h4",
+            "description": "We support a wide range of Chrysler vehicles and formats, including many older models. That means you can run a check even when the VIN isn’t the modern 17-character style."
+          },
+          {
+            "title": "High accuracy, cross-checked results",
+            "titleElement": "h4",
+            "description": "We aim to present consistent, VIN-linked details so you can compare listings and spot mismatches early, before you waste time or money."
+          },
+          {
+            "title": "No hidden fees or subscriptions",
+            "titleElement": "h4",
+            "description": "You pay for what you request. No surprise renewals, no forced plan changes, no awkward “cancel to stop billing” routine."
+          },
+          {
+            "title": "24/7 Customer Support",
+            "titleElement": "h4",
+            "description": "If you’re buying across time zones or dealing with a last-minute viewing, support should not disappear at 5 pm."
+          }
+        ],
+        "ctas": [
+          {
+            "text": "Get the Chrysler Window Sticker",
+            "href": "#top"
+          }
+        ]
+      },
+      "ctaBanner": {
+        "type": "cta-banner",
+        "heading": "Get Your Chrysler's Window Sticker Now!",
+        "description": "Stop guessing what the advert means. Confirm your Chrysler’s exact factory build by VIN in minutes.",
+        "ctas": [
+          {
+            "text": "Get the Chrysler Window Sticker",
+            "href": "#top"
+          }
+        ]
+      },
+      "allManufacturers": {
+        "type": "all-manufacturers",
+        "heading": "Check Any Window Sticker for All Manufacturers",
+        "headingLevel": "h3",
+        "description": "Got another car in the family, or a second option you’re considering? Vehicle History Europe lets you run a window sticker lookup tools for many manufacturers, not only Chrysler, so you can compare specs in the same format.",
+        "brands": [
+          {
+            "name": "Audi",
+            "href": "#"
+          },
+          {
+            "name": "BMW",
+            "href": "#"
+          },
+          {
+            "name": "Citroen",
+            "href": "#"
+          },
+          {
+            "name": "Fiat",
+            "href": "#"
+          },
+          {
+            "name": "Ford",
+            "href": "#"
+          },
+          {
+            "name": "Honda",
+            "href": "#"
+          },
+          {
+            "name": "Hyundai",
+            "href": "#"
+          },
+          {
+            "name": "Jaguar",
+            "href": "#"
+          },
+          {
+            "name": "Jeep",
+            "href": "#"
+          },
+          {
+            "name": "Kawasaki",
+            "href": "#"
+          },
+          {
+            "name": "Kia",
+            "href": "#"
+          },
+          {
+            "name": "KTM",
+            "href": "#"
+          },
+          {
+            "name": "Land Rover",
+            "href": "#"
+          },
+          {
+            "name": "Lexus",
+            "href": "#"
+          },
+          {
+            "name": "Maserati",
+            "href": "#"
+          },
+          {
+            "name": "Mazda",
+            "href": "#"
+          },
+          {
+            "name": "Mercedes",
+            "href": "#"
+          },
+          {
+            "name": "Mercedes AMG",
+            "href": "#"
+          },
+          {
+            "name": "Mini",
+            "href": "#"
+          },
+          {
+            "name": "Mitsubishi",
+            "href": "#"
+          },
+          {
+            "name": "Nissan",
+            "href": "#"
+          },
+          {
+            "name": "Opel",
+            "href": "#"
+          },
+          {
+            "name": "Peugeot",
+            "href": "#"
+          },
+          {
+            "name": "Porsche",
+            "href": "#"
+          },
+          {
+            "name": "Range Rover",
+            "href": "#"
+          },
+          {
+            "name": "Renault",
+            "href": "#"
+          },
+          {
+            "name": "Saab",
+            "href": "#"
+          },
+          {
+            "name": "Seat",
+            "href": "#"
+          },
+          {
+            "name": "Skoda",
+            "href": "#"
+          },
+          {
+            "name": "Subaru",
+            "href": "#"
+          },
+          {
+            "name": "Suzuki",
+            "href": "#"
+          },
+          {
+            "name": "Tesla",
+            "href": "#"
+          },
+          {
+            "name": "Toyota",
+            "href": "#"
+          },
+          {
+            "name": "Vauxhall",
+            "href": "#"
+          },
+          {
+            "name": "Volkswagen",
+            "href": "#"
+          },
+          {
+            "name": "Volvo",
+            "href": "#"
+          },
+          {
+            "name": "Yamaha",
+            "href": "#"
+          }
+        ]
+      },
+      "faq": {
+        "type": "faq",
+        "heading": "Common Chrysler Window Sticker Questions Answered",
+        "items": [
+          {
+            "question": "What is monroney label?",
+            "answer": "The Monroney label is a factory-issued configuration document tied to the VIN, and it’s also often called the window sticker. While the term comes from North America, in Europe it is commonly used to describe a factory build summary showing equipment, options, and technical specifications as the vehicle left production."
+          },
+          {
+            "question": "Where is the Chrysler VIN located?",
+            "answer": "On many vehicles, including Chrysler, the VIN can be seen at the lower edge of the windscreen on the dashboard side, and it may also appear on the driver’s door jamb label or as a chassis/engine-bay stamping."
+          },
+          {
+            "question": "Do Chrysler export models have different VIN check digits?",
+            "answer": "A check digit is commonly associated with the 9th position in many VIN systems, but it is not used consistently in all European markets. So, export vehicles may not always follow the same check-digit expectations you see in North America."
+          },
+          {
+            "question": "What VINs are supported?",
+            "answer": "Vehicle History Europe supports modern vehicles that use a 17-character VIN, and also supports older VIN formats for classic vehicles (5–14 digits), so you can still run checks on older vintage Chryslers."
+          },
+          {
+            "question": "Will the Chrysler Window Sticker show fuel economy and CO₂ figures?",
+            "answer": "In Europe, CO₂ and fuel consumption information is often requested because EU rules aim to make this consumer information available when new passenger cars are marketed. Whether a specific sticker output includes every figure can depend on the available vehicle data for that model and year."
+          }
+        ]
       }
     }
   },
@@ -1642,7 +4578,7 @@
     "slug": "chevrolet",
     "name": "Chevrolet",
     "url": "https://vehiclehistory.eu/window-sticker/chevrolet",
-    "sectionCount": 3,
+    "sectionCount": 10,
     "meta": {
       "title": "Chevrolet Window Sticker Lookup: Check Original Factory Data",
       "description": "Look up the Chevrolet window sticker by VIN and verify every factory-installed feature, package, original price, fuel & emission. Avoid surprises when buying"
@@ -1840,6 +4776,374 @@
             "href": "https://vehiclehistory.eu/sticker/vin/WF0PXXGCHPKP11608-B4D7B4D7-0F0F-BC0D-5C6B-10DB7A44C054"
           }
         ]
+      },
+      "whyNeed": {
+        "type": "why-need",
+        "heading": "Why Do You Need a Chevrolet Window Sticker Lookup?",
+        "introParagraph": "A Chevrolet window sticker lookup helps you understand a car beyond how it looks today. It shows how the vehicle was built, what equipment it had, and how it was priced when new. This information is useful for buyers, sellers, collectors, and even long-term owners who want clarity.",
+        "audiences": [
+          {
+            "title": "Buyers",
+            "description": "Buying a Chevrolet without knowing its original configuration can feel risky. Listings are often incomplete, and sellers may not know every detail. A Chevrolet window sticker lookup gives buyers a calm, factual reference point before money changes hands.",
+            "benefits": [
+              {
+                "title": "Verify factory features",
+                "description": "A Chevrolet window sticker helps buyers confirm which features were installed at the factory and which were added later, preventing overpaying for equipment that was not originally included."
+              },
+              {
+                "title": "Confirm trim level",
+                "description": "Many Chevrolet trims look similar on the surface. The window sticker clearly shows the original trim level so buyers can understand differences in equipment, comfort, and value before making a decision."
+              },
+              {
+                "title": "Buy with peace of mind",
+                "description": "Knowing the vehicle’s true factory specification helps buyers feel calmer and more confident, especially when purchasing older, imported, or higher-value Chevrolet models."
+              }
+            ]
+          },
+          {
+            "title": "Seller & Dealer",
+            "description": "Selling a Chevrolet is easier when the details are clear. Buyers ask many questions, and not all sellers have the answers. A Chevrolet window sticker helps sellers and dealers present accurate information without long explanations.",
+            "benefits": [
+              {
+                "title": "Build trust with buyers",
+                "description": "Providing a Chevrolet window sticker shows transparency and honesty, helping buyers feel more comfortable and reducing suspicion during discussions or negotiations."
+              },
+              {
+                "title": "Reduce repetitive questions",
+                "description": "Many common buyer questions are already answered by the window sticker, saving sellers and dealers time explaining specs repeatedly."
+              },
+              {
+                "title": "Avoid disputes after the sale",
+                "description": "Sharing factory details upfront reduces misunderstandings after the sale, especially regarding equipment, trim levels, or original specifications."
+              }
+            ]
+          },
+          {
+            "title": "Chevrolet Enthusiasts & Collectors",
+            "description": "For Chevrolet enthusiasts, details matter. Collectors care about originality, correct specs, and factory accuracy. A window sticker helps tell the real story of the car, not just what it has become over time.",
+            "benefits": [
+              {
+                "title": "Verify originality",
+                "description": "Collectors can confirm whether a Chevrolet still matches its original factory specification, which is essential for authenticity and long-term value."
+              },
+              {
+                "title": "Support restoration projects",
+                "description": "The window sticker helps restorers understand correct trims, equipment, and features when bringing a Chevrolet back to its original condition."
+              },
+              {
+                "title": "Useful even for older VIN formats",
+                "description": "Not every classic has a modern 17-character VIN. Vehicle History Europe can decode many Chevrolet formats, including shorter VIN styles (often 5 – 14 characters)."
+              }
+            ]
+          }
+        ],
+        "ctas": []
+      },
+      "howToGet": {
+        "type": "how-to-get",
+        "heading": "How to Get Your Chevrolet Window Sticker in 3 Simple Steps",
+        "introParagraph": "Getting a Chevrolet window sticker by VIN is straightforward. You do not need technical knowledge or special paperwork. Just follow these simple steps.",
+        "steps": [
+          {
+            "title": "Enter your Chevrolet details",
+            "description": "Enter the VIN or basic vehicle details into the lookup form. This works for modern Chevrolets and also classic models with shorter VIN formats."
+          },
+          {
+            "title": "Submit the VIN",
+            "description": "Once submitted, the system searches verified manufacturer-level data linked to your Chevrolet."
+          },
+          {
+            "title": "Download and review the sticker",
+            "description": "View, download, or save the Chevrolet window sticker and review all factory information at your own pace."
+          }
+        ],
+        "ctas": [
+          {
+            "text": "Get Window Sticker by VIN",
+            "href": "#top"
+          },
+          {
+            "text": "View Window Sticker Sample",
+            "href": "https://vehiclehistory.eu/sticker/vin/WF0PXXGCHPKP11608-B4D7B4D7-0F0F-BC0D-5C6B-10DB7A44C054"
+          }
+        ]
+      },
+      "whereVin": {
+        "type": "where-vin",
+        "heading": "Where to Find the VIN on a Chevrolet",
+        "introParagraph": "The VIN is usually easy to locate, even if you have never looked for it before. Here are the most common places.",
+        "image": {
+          "src": "https://vehiclehistory.eu/wp-content/uploads/2026/02/Gemini_Generated_Image_vmtzk0vmtzk0vmtz-1.jpg",
+          "alt": "where to find vin"
+        },
+        "locations": [
+          {
+            "title": "Dashboard (Windshield area)",
+            "titleElement": "h4",
+            "description": "Stand outside the vehicle and look through the lower corner of the driver’s side windshield. You should see the VIN printed on a small metal plate fixed to the dashboard."
+          },
+          {
+            "title": "Driver-side door frame",
+            "titleElement": "h4",
+            "description": "Open the driver’s door and check the door pillar or jamb area near the latch. Chevrolet often places a VIN sticker or plate here with other basic vehicle information."
+          },
+          {
+            "title": "Vehicle registration documents",
+            "titleElement": "h4",
+            "description": "The VIN is always listed on official paperwork such as vehicle registration documents, logbooks, titles, or insurance documents. This is a reliable option if the car is not physically nearby."
+          },
+          {
+            "title": "Under the hood",
+            "titleElement": "h4",
+            "description": "On some Chevrolet models, especially older ones, the VIN may appear on the firewall or inside the engine bay. This location is less obvious but still factory-standard."
+          },
+          {
+            "title": "Frame or chassis (older models)",
+            "titleElement": "h4",
+            "description": "Older Chevrolet trucks and classic vehicles may have the VIN stamped directly onto the frame rail, usually on the driver’s side. This is common for vintage or utility-focused models."
+          },
+          {
+            "title": "Digital access via the myChevrolet app",
+            "titleElement": "h4",
+            "description": "If you use the official myChevrolet app, the VIN is often listed directly in the vehicle profile, making it easy to access without checking the car itself."
+          }
+        ],
+        "ctas": [],
+        "headingLevel": "h2"
+      },
+      "whyUse": {
+        "type": "why-use",
+        "heading": "Why Should You Use Our Chevrolet Window Sticker Tool?",
+        "introParagraph": "Vehicle History Europe is built for clarity, not confusion. Our Chevrolet window sticker tool is made for real buyers, sellers, and collectors in Europe; our tool keeps it clean and practical. We focus on clear factory-style configuration, not confusing pages full of noise.",
+        "features": [
+          {
+            "title": "High accuracy, cross-checked results",
+            "titleElement": "h4",
+            "description": "All Chevrolet window sticker data is carefully checked against verified manufacturer-level records to reduce errors and provide information that remains consistent and reliable."
+          },
+          {
+            "title": "24/7 customer support",
+            "titleElement": "h4",
+            "description": "Our support is available around the clock, so you can ask questions or resolve issues whenever you need help, regardless of time zone or location in Europe, with a real specialist who understands Chevy vehicles, not an automated system repeating generic answers."
+          },
+          {
+            "title": "No hidden fees or subscriptions",
+            "titleElement": "h4",
+            "description": "Our pricing is straightforward. You only pay for the Chevrolet window sticker lookup services you request, without ongoing subscriptions or unexpected charges later."
+          },
+          {
+            "title": "Most comprehensive database coverage",
+            "titleElement": "h4",
+            "description": "We support a wide range of Chevrolet vehicles, including modern models and classic cars with shorter VIN formats, ensuring coverage that fits the reality of European roads."
+          }
+        ],
+        "ctas": [
+          {
+            "text": "Get the Chevrolet Window Sticker",
+            "href": "#top"
+          }
+        ]
+      },
+      "ctaBanner": {
+        "type": "cta-banner",
+        "heading": "Get Your Chevrolet's Window Sticker Now!",
+        "description": "Enter your Chevrolet VIN to view the original factory window sticker and see clear details about specifications, equipment, emissions data, and pricing exactly as the vehicle left the factory.",
+        "ctas": [
+          {
+            "text": "Get the Chevrolet Window Sticker",
+            "href": "#top"
+          }
+        ]
+      },
+      "allManufacturers": {
+        "type": "all-manufacturers",
+        "heading": "Check Any Window Sticker for All Manufacturers",
+        "headingLevel": "h3",
+        "description": "Looking beyond Chevrolet? Vehicle History Europe also supports window sticker lookup by VIN for many other manufacturers. Explore factory details, specs, and pricing across brands.",
+        "brands": [
+          {
+            "name": "Audi",
+            "href": "#"
+          },
+          {
+            "name": "BMW",
+            "href": "#"
+          },
+          {
+            "name": "Citroen",
+            "href": "#"
+          },
+          {
+            "name": "Fiat",
+            "href": "#"
+          },
+          {
+            "name": "Ford",
+            "href": "#"
+          },
+          {
+            "name": "Honda",
+            "href": "#"
+          },
+          {
+            "name": "Hyundai",
+            "href": "#"
+          },
+          {
+            "name": "Jaguar",
+            "href": "#"
+          },
+          {
+            "name": "Jeep",
+            "href": "#"
+          },
+          {
+            "name": "Kawasaki",
+            "href": "#"
+          },
+          {
+            "name": "Kia",
+            "href": "#"
+          },
+          {
+            "name": "KTM",
+            "href": "#"
+          },
+          {
+            "name": "Land Rover",
+            "href": "#"
+          },
+          {
+            "name": "Lexus",
+            "href": "#"
+          },
+          {
+            "name": "Maserati",
+            "href": "#"
+          },
+          {
+            "name": "Mazda",
+            "href": "#"
+          },
+          {
+            "name": "Mercedes",
+            "href": "#"
+          },
+          {
+            "name": "Mercedes AMG",
+            "href": "#"
+          },
+          {
+            "name": "Mini",
+            "href": "#"
+          },
+          {
+            "name": "Mitsubishi",
+            "href": "#"
+          },
+          {
+            "name": "Nissan",
+            "href": "#"
+          },
+          {
+            "name": "Opel",
+            "href": "#"
+          },
+          {
+            "name": "Peugeot",
+            "href": "#"
+          },
+          {
+            "name": "Porsche",
+            "href": "#"
+          },
+          {
+            "name": "Range Rover",
+            "href": "#"
+          },
+          {
+            "name": "Renault",
+            "href": "#"
+          },
+          {
+            "name": "Saab",
+            "href": "#"
+          },
+          {
+            "name": "Seat",
+            "href": "#"
+          },
+          {
+            "name": "Skoda",
+            "href": "#"
+          },
+          {
+            "name": "Subaru",
+            "href": "#"
+          },
+          {
+            "name": "Suzuki",
+            "href": "#"
+          },
+          {
+            "name": "Tesla",
+            "href": "#"
+          },
+          {
+            "name": "Toyota",
+            "href": "#"
+          },
+          {
+            "name": "Vauxhall",
+            "href": "#"
+          },
+          {
+            "name": "Volkswagen",
+            "href": "#"
+          },
+          {
+            "name": "Volvo",
+            "href": "#"
+          },
+          {
+            "name": "Yamaha",
+            "href": "#"
+          }
+        ]
+      },
+      "faq": {
+        "type": "faq",
+        "heading": "Common Chevrolet Window Sticker Questions Answered",
+        "items": [
+          {
+            "question": "What is a Chevy Monroney label by VIN?",
+            "answer": "A Chevy Monroney label is the original U.S. factory window sticker issued for Chevrolet vehicles sold in the United States. For European buyers and sellers, Monroney labels are not officially used, but a window sticker by VIN provides the same factory configuration details in a format suitable for European buyers and sellers."
+          },
+          {
+            "question": "How do I get a Chevy window sticker from the VIN number?",
+            "answer": "You can get a Chevy window sticker by entering the VIN into a window sticker lookup tool like Vehicle History Europe. The system retrieves factory data and recreates the original Chevrolet window sticker digitally for review."
+          },
+          {
+            "question": "Can I get a Chevrolet window sticker online if the original is lost?",
+            "answer": "Yes, you can get a Chevrolet window sticker online if the original is lost. Many original paper stickers are lost over time. A window sticker replacement using VIN recreates the factory configuration digitally, so you can still access the vehicle’s original equipment and option details without the physical sticker."
+          },
+          {
+            "question": "Can I get a window sticker for free?",
+            "answer": "In most cases, no. Free VIN tools usually provide basic vehicle details only. A full Chevrolet window sticker with pricing, equipment, and emissions data typically requires a paid lookup."
+          },
+          {
+            "question": "Can I lookup my vehicle specs with VIN?",
+            "answer": "Yes, you can look up the vehicle specs with the VIN. If you enter your VIN into our window sticker lookup tool, you can see the vehicle specifications such as engine type, trim level, drivetrain, and factory equipment. A window sticker provides the most complete and structured version of this data."
+          },
+          {
+            "question": "What is the difference between a build sheet and a window sticker?",
+            "answer": "A build sheet is a factory production document with internal codes. A window sticker is designed for buyers and clearly explains features, pricing, and specifications in plain language."
+          },
+          {
+            "question": "Why does Chevrolet information look different in Europe?",
+            "answer": "Chevrolet is a General Motors brand, and GM reduced mainstream Chevrolet sales in Europe during the mid-2010s. European models, trims, and equipment often differed from North American versions, which is why VIN-based factory information is especially useful for clarity."
+          }
+        ]
       }
     }
   },
@@ -1847,7 +5151,7 @@
     "slug": "jeep",
     "name": "Jeep",
     "url": "https://vehiclehistory.eu/window-sticker/jeep",
-    "sectionCount": 3,
+    "sectionCount": 10,
     "meta": {
       "title": "Jeep Window Sticker by VIN: Accurate Factory Specs & Options",
       "description": "Run the Jeep Window Sticker by VIN, get the trim, factory options, engine, CO₂, and original pricing in one simple PDF"
@@ -2043,6 +5347,378 @@
           {
             "text": "View Sample",
             "href": "https://vehiclehistory.eu/sticker/vin/WF0PXXGCHPKP11608-B4D7B4D7-0F0F-BC0D-5C6B-10DB7A44C054"
+          }
+        ]
+      },
+      "whyNeed": {
+        "type": "why-need",
+        "heading": "Why Do You Need a Jeep Window Sticker Lookup?",
+        "introParagraph": "A Jeep can look perfect in photos, but the real story is in the details. A window sticker lookup by VIN shows the original trim, options, engine, and pricing. It helps buyers, sellers, and even collectors avoid confusion.",
+        "audiences": [
+          {
+            "title": "Buyers",
+            "description": "Buying a used Jeep in Europe can feel messy because specs change by market, and sellers don’t always explain them well. A Jeep window sticker helps you check the original trim, equipment, and mechanical info before you travel, negotiate, or send a deposit. It’s also great when you’re shopping cross-border.",
+            "benefits": [
+              {
+                "title": "Compare trims without guessing",
+                "description": "Two “Wranglers” can be totally different. The sticker shows the trim and body style, so you don’t compare apples to oranges."
+              },
+              {
+                "title": "Spot the specification differences",
+                "description": "A Jeep moving across countries may have different equipment expectations. The sticker helps you understand what it started as."
+              },
+              {
+                "title": "Check engine and drivetrain basics",
+                "description": "Engine, transmission, and drivetrain layout matter for fuel costs, towing, and winter driving. The sticker keeps it simple."
+              }
+            ]
+          },
+          {
+            "title": "Seller & Dealer",
+            "description": "If you sell Jeeps, clarity helps you close faster. A Jeep window sticker lookup by VIN tool gives you a clean way to show the original equipment, pricing, and key specs. It can reduce back-and-forth messages and stop arguments about trim names, packages, or what was “supposed to be included” confusion.",
+            "benefits": [
+              {
+                "title": "Answer questions before they’re asked",
+                "description": "Buyers always ask about trim, options, engine, and drivetrain. The window sticker covers these in one place."
+              },
+              {
+                "title": "Support cross-border buyers",
+                "description": "International buyers want proof. A Jeep window sticker can be easier than explaining every option in chat."
+              },
+              {
+                "title": "Prevent “wrong trim” mistakes",
+                "description": "Sometimes a listing gets labelled wrong. The sticker helps you correct it before someone calls you out."
+              }
+            ]
+          },
+          {
+            "title": "Jeep Enthusiasts & Collectors",
+            "description": "Jeep people care about details. A factory window sticker by VIN helps you understand the original build, including trim-level additions and option packages. For classics, Vehicle History Europe can also decode older chassis number formats.",
+            "benefits": [
+              {
+                "title": "Confirm originality for the Jeep project.",
+                "description": "If you’re restoring, the sticker helps you verify what should be there before you start ordering parts."
+              },
+              {
+                "title": "Avoid “clone” confusion",
+                "description": "Some Jeeps look like higher trims after mods. The sticker helps separate factory spec from aftermarket changes."
+              },
+              {
+                "title": "Show proof at meets or clubs",
+                "description": "Jeep communities love details. It’s a simple way to share what your build really is."
+              }
+            ]
+          }
+        ],
+        "ctas": []
+      },
+      "howToGet": {
+        "type": "how-to-get",
+        "heading": "How to Get Your Jeep Window Sticker in 3 Simple Steps",
+        "introParagraph": "Sometimes you just want it done without reading ten pages. Here’s the quick way to generate a Jeep window sticker by VIN and get a PDF you can actually use.",
+        "steps": [
+          {
+            "title": "Enter your Jeep details",
+            "description": "Type in your 17-character VIN (or shorter classic VIN if it’s older). Double-check the characters so you don’t pull the wrong vehicle."
+          },
+          {
+            "title": "Submit the VIN",
+            "description": "Submit the VIN and let the system match your Jeep to the factory-style data for the window sticker."
+          },
+          {
+            "title": "Download and review the sticker",
+            "description": "Download the Jeep window sticker pdf and confirm the trim, options, engine info, and pricing. Save it for buying, selling, or records."
+          }
+        ],
+        "ctas": [
+          {
+            "text": "Get Window Sticker by VIN",
+            "href": "#top"
+          },
+          {
+            "text": "View Window Sticker Sample",
+            "href": "https://vehiclehistory.eu/sticker/vin/WF0PXXGCHPKP11608-B4D7B4D7-0F0F-BC0D-5C6B-10DB7A44C054"
+          }
+        ]
+      },
+      "whereVin": {
+        "type": "where-vin",
+        "heading": "Where to Find the VIN on a Jeep",
+        "introParagraph": "The VIN is usually easy to find, but people still miss it, especially on older Jeeps or imported cars. Check these common spots first. If one area is worn or covered, try another.",
+        "image": {
+          "src": "https://vehiclehistory.eu/wp-content/uploads/2026/02/Gemini_Generated_Image_vmtzk0vmtzk0vmtz-1.jpg",
+          "alt": "where to find vin"
+        },
+        "locations": [
+          {
+            "title": "Dashboard (base of the windscreen)",
+            "titleElement": "h4",
+            "description": "Look through the windscreen on the driver’s side. You’ll often see a small VIN plate near the bottom edge."
+          },
+          {
+            "title": "Driver’s door jamb sticker",
+            "titleElement": "h4",
+            "description": "Open the driver’s door and check the frame area. Many Jeeps have a label with the VIN and weight info."
+          },
+          {
+            "title": "Vehicle registration document",
+            "titleElement": "h4",
+            "description": "In many European countries, the VIN is printed on the registration papers. It’s usually the cleanest source."
+          },
+          {
+            "title": "Insurance paperwork",
+            "titleElement": "h4",
+            "description": "Insurance documents often include the VIN. Helpful when you don’t have access to the car right now."
+          },
+          {
+            "title": "Engine bay plate or label",
+            "titleElement": "h4",
+            "description": "Some Jeeps have a VIN plate or label under the bonnet. It can be on the firewall or a visible panel."
+          },
+          {
+            "title": "Under-seat or floor area",
+            "titleElement": "h4",
+            "description": "On some older Jeeps, the VIN can be found on the floor area or under the seats. It depends on the year and model."
+          }
+        ],
+        "ctas": [],
+        "headingLevel": "h2"
+      },
+      "whyUse": {
+        "type": "why-use",
+        "heading": "Why Should You Use Our Jeep Window Sticker Tool?",
+        "introParagraph": "If you want a Jeep window sticker that feels clear and not over-complicated, this is built for you. Our tool focuses on simple output, clean structure, and European-friendly reading. It’s useful for buyers, sellers, and enthusiasts who just want the facts without getting lost in technical noise.",
+        "features": [
+          {
+            "title": "Helps reduce bad surprises",
+            "titleElement": "h4",
+            "description": "The sticker shows what the factory standard is and what was optional. That’s helpful when a listing description feels too confident."
+          },
+          {
+            "title": "Handy for sellers and dealers",
+            "titleElement": "h4",
+            "description": "The window sticker can make listings stronger and reduce repetitive questions. It’s a simple add-on that makes you look prepared."
+          },
+          {
+            "title": "No hidden fees or subscriptions",
+            "titleElement": "h4",
+            "description": "What you see is what you pay. No surprise subscription, no sneaky renewal, and no “locked” PDF after you’ve already entered your VIN."
+          },
+          {
+            "title": "24/7 Customer Support",
+            "titleElement": "h4",
+            "description": "Cars don’t only get bought during work hours on weekdays. If you’re checking a Jeep at night or on a weekend, our support is available around the clock."
+          }
+        ],
+        "ctas": [
+          {
+            "text": "Get the Jeep Window Sticker",
+            "href": "#top"
+          }
+        ]
+      },
+      "ctaBanner": {
+        "type": "cta-banner",
+        "heading": "Get Your Jeep's Window Sticker Now!",
+        "description": "Type your VIN, hit search, and get your Jeep’s factory-style window sticker. With clean details, clear options, and no drama.",
+        "ctas": [
+          {
+            "text": "Get the Jeep Window Sticker",
+            "href": "#top"
+          }
+        ]
+      },
+      "allManufacturers": {
+        "type": "all-manufacturers",
+        "heading": "Check Any Window Sticker for All Manufacturers",
+        "headingLevel": "h3",
+        "description": "If you’re shopping for any vehicle in Europe, checking the original factory window sticker can save you headaches. Try our window sticker lookup for different makes and keep everything consistent.",
+        "brands": [
+          {
+            "name": "Audi",
+            "href": "#"
+          },
+          {
+            "name": "BMW",
+            "href": "#"
+          },
+          {
+            "name": "Citroen",
+            "href": "#"
+          },
+          {
+            "name": "Fiat",
+            "href": "#"
+          },
+          {
+            "name": "Ford",
+            "href": "#"
+          },
+          {
+            "name": "Honda",
+            "href": "#"
+          },
+          {
+            "name": "Hyundai",
+            "href": "#"
+          },
+          {
+            "name": "Jaguar",
+            "href": "#"
+          },
+          {
+            "name": "Jeep",
+            "href": "#"
+          },
+          {
+            "name": "Kawasaki",
+            "href": "#"
+          },
+          {
+            "name": "Kia",
+            "href": "#"
+          },
+          {
+            "name": "KTM",
+            "href": "#"
+          },
+          {
+            "name": "Land Rover",
+            "href": "#"
+          },
+          {
+            "name": "Lexus",
+            "href": "#"
+          },
+          {
+            "name": "Maserati",
+            "href": "#"
+          },
+          {
+            "name": "Mazda",
+            "href": "#"
+          },
+          {
+            "name": "Mercedes",
+            "href": "#"
+          },
+          {
+            "name": "Mercedes AMG",
+            "href": "#"
+          },
+          {
+            "name": "Mini",
+            "href": "#"
+          },
+          {
+            "name": "Mitsubishi",
+            "href": "#"
+          },
+          {
+            "name": "Nissan",
+            "href": "#"
+          },
+          {
+            "name": "Opel",
+            "href": "#"
+          },
+          {
+            "name": "Peugeot",
+            "href": "#"
+          },
+          {
+            "name": "Porsche",
+            "href": "#"
+          },
+          {
+            "name": "Range Rover",
+            "href": "#"
+          },
+          {
+            "name": "Renault",
+            "href": "#"
+          },
+          {
+            "name": "Saab",
+            "href": "#"
+          },
+          {
+            "name": "Seat",
+            "href": "#"
+          },
+          {
+            "name": "Skoda",
+            "href": "#"
+          },
+          {
+            "name": "Subaru",
+            "href": "#"
+          },
+          {
+            "name": "Suzuki",
+            "href": "#"
+          },
+          {
+            "name": "Tesla",
+            "href": "#"
+          },
+          {
+            "name": "Toyota",
+            "href": "#"
+          },
+          {
+            "name": "Vauxhall",
+            "href": "#"
+          },
+          {
+            "name": "Volkswagen",
+            "href": "#"
+          },
+          {
+            "name": "Volvo",
+            "href": "#"
+          },
+          {
+            "name": "Yamaha",
+            "href": "#"
+          }
+        ]
+      },
+      "faq": {
+        "type": "faq",
+        "heading": "Common Jeep Window Sticker Questions Answered",
+        "items": [
+          {
+            "question": "Can you look up a Jeep window sticker by VIN?",
+            "answer": "Yes, you can look up a Jeep window sticker by VIN. If you have the VIN (or an older classic VIN), you can run the window sticker lookup by VIN tool and get a factory-style summary of the original build. With our tool, you can get a clean PDF so you can check trim, options, engine basics, and more without guessing."
+          },
+          {
+            "question": "Can I get a Jeep window sticker online in Europe?",
+            "answer": "Yes, you can get a Jeep window sticker online in Europe. Many European listings don’t clearly explain what’s standard and optional on a Jeep, so an online window sticker tool like vehicle history Europe can help you confirm the real configuration before you travel, pay a deposit, or negotiate."
+          },
+          {
+            "question": "What does a Jeep window sticker show?",
+            "answer": "The Jeep window sticker shows the Jeep’s identity (e.g., year, model, and trim), standard equipment, optional equipment, key mechanical info, emissions figures, and an original pricing breakdown."
+          },
+          {
+            "question": "Can I look up Jeep specs with just the VIN?",
+            "answer": "Yes, you can look up Jeep specs with just the VIN, because it’s designed to encode vehicle-specific information, and Vehicle History Europe tools can return details depending on the data available. For Jeeps, our window sticker lookup tool is the easier way to read than raw decoded fields, because it’s organised like a normal document."
+          },
+          {
+            "question": "What is the difference between a build sheet and a window sticker?",
+            "answer": "They’re related, but not the same. A build sheet is more like a factory record with technical codes, while the window sticker is more buyer-friendly and usually shows pricing and option groupings in a cleaner way."
+          },
+          {
+            "question": "Does the sticker include CO₂ and fuel economy numbers for Europe?",
+            "answer": "Yes. For new cars in the EU, manufacturers are required to provide consumer information on fuel economy and CO₂ emissions, and this information appears on the original window sticker. Our factory window sticker by VIN includes these emissions details, making it easier to review official CO₂ figures and compare vehicles across European markets."
+          },
+          {
+            "question": "Are “window stickers” required or legal in the UK and EU?",
+            "answer": "For new vehicles, manufacturers are required to supply official fuel consumption and CO₂ information on window stickers shown at the point of sale in the UK and EU. Dealers normally display these stickers when the car is new. For used vehicles, these stickers are often missing, which is why many buyers and sellers use a window sticker lookup to retrieve the original factory details."
+          },
+          {
+            "question": "Can I get a Monroney label online?",
+            "answer": "Yes. You can get a Monroney label (vehicle window sticker) online with the VIN and a window sticker lookup tool like Vehicle History Europe for a clear, practical equivalent."
           }
         ]
       }

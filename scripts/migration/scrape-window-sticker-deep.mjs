@@ -173,6 +173,226 @@ function extractWhatIs($, section) {
   return { type: 'what-is', heading, paragraphs, ctas }
 }
 
+function extractWhyNeed($, section) {
+  const heading = clean(section.find('h2').first().text())
+  let introParagraph = null
+  const audiences = []
+
+  let foundH2 = false
+  let currentAudience = null
+
+  section.find('h2, h3, h4, p').each((_, el) => {
+    const tag = el.tagName.toLowerCase()
+    const text = clean($(el).text())
+    if (tag === 'h2') {
+      if (!foundH2) { foundH2 = true; return }
+      return false // stop at next H2
+    }
+    if (!foundH2) return
+
+    if (tag === 'p' && text.length > 30 && !introParagraph && !currentAudience) {
+      introParagraph = text
+      return
+    }
+    if (tag === 'h3') {
+      currentAudience = { title: text, description: null, benefits: [] }
+      audiences.push(currentAudience)
+      return
+    }
+    if (tag === 'h4' && currentAudience) {
+      currentAudience.benefits.push({ title: text, description: null })
+      return
+    }
+    if (tag === 'p' && text.length > 15 && currentAudience) {
+      if (currentAudience.benefits.length > 0) {
+        const last = currentAudience.benefits[currentAudience.benefits.length - 1]
+        if (!last.description) last.description = text
+      } else if (!currentAudience.description) {
+        currentAudience.description = text
+      }
+    }
+  })
+
+  const ctas = extractCtas($, section)
+  return { type: 'why-need', heading, introParagraph, audiences, ctas }
+}
+
+function extractHowToGet($, section) {
+  const heading = clean(section.find('h2').first().text())
+  let introParagraph = null
+  const steps = []
+
+  let foundH2 = false
+  let currentStep = null
+
+  section.find('h2, h3, p').each((_, el) => {
+    const tag = el.tagName.toLowerCase()
+    const text = clean($(el).text())
+    if (tag === 'h2') {
+      if (!foundH2) { foundH2 = true; return }
+      return false
+    }
+    if (!foundH2) return
+
+    if (tag === 'p' && text.length > 30 && !introParagraph && !currentStep) {
+      introParagraph = text
+      return
+    }
+    if (tag === 'h3') {
+      currentStep = { title: text, description: null }
+      steps.push(currentStep)
+      return
+    }
+    if (tag === 'p' && text.length > 15 && currentStep && !currentStep.description) {
+      currentStep.description = text
+    }
+  })
+
+  const ctas = extractCtas($, section)
+  return { type: 'how-to-get', heading, introParagraph, steps, ctas }
+}
+
+function extractWhyUse($, section) {
+  const heading = clean(section.find('h2').first().text())
+  let introParagraph = null
+  const features = []
+
+  let foundH2 = false
+  let currentFeature = null
+
+  section.find('h2, h3, h4, p').each((_, el) => {
+    const tag = el.tagName.toLowerCase()
+    const text = clean($(el).text())
+    if (tag === 'h2') {
+      if (!foundH2) { foundH2 = true; return }
+      return false
+    }
+    if (!foundH2) return
+
+    if (tag === 'p' && text.length > 30 && !introParagraph && !currentFeature) {
+      introParagraph = text
+      return
+    }
+    if (tag === 'h3' || tag === 'h4') {
+      currentFeature = { title: text, titleElement: tag, description: null }
+      features.push(currentFeature)
+      return
+    }
+    if (tag === 'p' && text.length > 15 && currentFeature && !currentFeature.description) {
+      currentFeature.description = text
+    }
+  })
+
+  const ctas = extractCtas($, section)
+  return { type: 'why-use', heading, introParagraph, features, ctas }
+}
+
+function extractWhereVin($, section) {
+  const h2 = section.find('h2').first().text()
+  const heading = clean(h2) || clean(section.find('h3').first().text())
+  let introParagraph = null
+  const locations = []
+
+  // Find image (prefer data-src for lazy-loaded, skip SVG placeholders)
+  let image = null
+  section.find('img').each((_, img) => {
+    const dataSrc = $(img).attr('data-lazy-src') || $(img).attr('data-src') || ''
+    const src = $(img).attr('src') || ''
+    const realSrc = dataSrc || src
+    const alt = $(img).attr('alt') || ''
+    if (realSrc && !image && !realSrc.includes('data:image') && !realSrc.includes('placeholder') && /\.(jpg|jpeg|png|webp)/i.test(realSrc)) {
+      image = { src: realSrc.startsWith('http') ? realSrc : `https://vehiclehistory.eu${realSrc}`, alt }
+    }
+  })
+
+  let foundHeading = false
+  let currentLoc = null
+
+  section.find('h2, h3, h4, p').each((_, el) => {
+    const tag = el.tagName.toLowerCase()
+    const text = clean($(el).text())
+    // Trigger on the section heading (h2 or h3)
+    if ((tag === 'h2' || tag === 'h3') && text === heading) {
+      foundHeading = true
+      return
+    }
+    if (tag === 'h2' && foundHeading) return false // stop at next H2
+    if (!foundHeading) return
+
+    if (tag === 'p' && text.length > 30 && !introParagraph && !currentLoc) {
+      introParagraph = text
+      return
+    }
+    if (tag === 'h3' || tag === 'h4') {
+      currentLoc = { title: text, titleElement: 'h4', description: null }
+      locations.push(currentLoc)
+      return
+    }
+    if (tag === 'p' && text.length > 15 && currentLoc && !currentLoc.description) {
+      currentLoc.description = text
+    }
+  })
+
+  const ctas = extractCtas($, section)
+  return { type: 'where-vin', heading, introParagraph, image, locations, ctas }
+}
+
+function extractCtaBanner($, section) {
+  const heading = clean(section.find('h2').first().text())
+  const paragraphs = []
+  let foundH2 = false
+  section.find('h2, p').each((_, el) => {
+    const tag = el.tagName.toLowerCase()
+    if (tag === 'h2') { if (foundH2) return false; foundH2 = true; return }
+    if (tag === 'p' && foundH2) {
+      const t = clean($(el).text())
+      if (t.length > 15) paragraphs.push(t)
+    }
+  })
+  const ctas = extractCtas($, section)
+  return { type: 'cta-banner', heading, description: paragraphs[0] || null, ctas }
+}
+
+function extractAllManufacturers($, section) {
+  const heading = clean(section.find('h2').first().text())
+  const brands = []
+  section.find('a').each((_, a) => {
+    const text = clean($(a).text())
+    const href = $(a).attr('href') || '#'
+    if (text.length > 1 && text.length < 40 && !brands.some(b => b.name === text)) {
+      brands.push({ name: text, href })
+    }
+  })
+  return { type: 'all-manufacturers', heading, brands }
+}
+
+function extractFAQ($, section) {
+  const heading = clean(section.find('h2').first().text())
+  const items = []
+  let foundH2 = false
+  let currentQ = null
+
+  section.find('h2, h3, h4, p, .elementor-tab-title, .elementor-tab-content').each((_, el) => {
+    const tag = el.tagName.toLowerCase()
+    const text = clean($(el).text())
+    if (tag === 'h2') { if (foundH2) return false; foundH2 = true; return }
+    if (!foundH2) return
+
+    if (tag === 'h3' || tag === 'h4' || $(el).hasClass('elementor-tab-title')) {
+      if (text.length > 10) {
+        currentQ = { question: text, answer: null }
+        items.push(currentQ)
+      }
+      return
+    }
+    if ((tag === 'p' || $(el).hasClass('elementor-tab-content')) && text.length > 15 && currentQ && !currentQ.answer) {
+      currentQ.answer = text
+    }
+  })
+
+  return { type: 'faq', heading, items }
+}
+
 // ── Main scraper ───────────────────────────────────────────────────
 
 async function scrapeBrand(brand) {
@@ -212,6 +432,124 @@ async function scrapeBrand(brand) {
   if (!sections.whatsOn) {
     const whatsOnSec = findSection($, ["what's on", 'what is on', "what you'll find", 'what you will find'], matched)
     if (whatsOnSec) sections.whatsOn = extractWhatsOn($, whatsOnSec)
+  }
+
+  // 4. Why Do You Need
+  const whyNeedSec = findSection($, ['why do you need', 'why you need'], matched)
+  if (whyNeedSec) sections.whyNeed = extractWhyNeed($, whyNeedSec)
+
+  // 5. How to Get in 3 Steps
+  const howToGetSec = findSection($, ['how to get', '3 steps', 'three steps'], matched)
+  if (howToGetSec) sections.howToGet = extractHowToGet($, howToGetSec)
+
+  // 6. Where to Find the VIN (may be H2 or H3)
+  let whereVinSec = findSection($, ['where to find the vin', 'where to find your vin', 'vin location'], matched)
+  let whereVinHeadingLevel = 'h2'
+  if (!whereVinSec) {
+    $('h3').each((_, el) => {
+      const t = clean($(el).text()).toLowerCase()
+      if (t.includes('where to find the vin') || t.includes('where to find your vin')) {
+        const parent = $(el).closest('.e-con.e-parent')
+        if (parent.length && !matched.has(parent[0])) {
+          whereVinSec = parent
+          whereVinHeadingLevel = 'h3'
+          matched.add(parent[0])
+          return false
+        }
+      }
+    })
+  }
+  if (whereVinSec) {
+    const data = extractWhereVin($, whereVinSec)
+    data.headingLevel = whereVinHeadingLevel
+    sections.whereVin = data
+  }
+
+  // 7. Why Use Our Tool
+  const whyUseSec = findSection($, ['why should you use', 'why use our', 'why choose'], matched)
+  if (whyUseSec) sections.whyUse = extractWhyUse($, whyUseSec)
+
+  // 8. CTA Banner (may share parent with whyUse)
+  if (sections.whyUse) {
+    // Check if CTA banner lives in same parent as whyUse
+    const whyUseSec2 = findSection($, ['why should you use', 'why use our', 'why choose'], new Set())
+    if (whyUseSec2) {
+      let ctaH2 = null
+      whyUseSec2.find('h2').each((_, el) => {
+        const t = clean($(el).text()).toLowerCase()
+        if (t.includes('get your') || t.includes('ready to') || t.includes('start your')) {
+          ctaH2 = clean($(el).text())
+        }
+      })
+      if (ctaH2) {
+        // Extract CTA from shared parent
+        const paragraphs = []
+        let foundCta = false
+        whyUseSec2.find('h2, p').each((_, el) => {
+          const tag = el.tagName.toLowerCase()
+          const text = clean($(el).text())
+          if (tag === 'h2' && text === ctaH2) { foundCta = true; return }
+          if (foundCta && tag === 'p' && text.length > 15) paragraphs.push(text)
+        })
+        const ctas = extractCtas($, whyUseSec2)
+        sections.ctaBanner = { type: 'cta-banner', heading: ctaH2, description: paragraphs[0] || null, ctas }
+      }
+    }
+  }
+  if (!sections.ctaBanner) {
+    const ctaSec = findSection($, ['get your', 'ready to', 'start your'], matched)
+    if (ctaSec) sections.ctaBanner = extractCtaBanner($, ctaSec)
+  }
+
+  // 9. All Manufacturers (heading is H3, not H2)
+  let allMfgSec = null
+  $('h3').each((_, el) => {
+    const t = clean($(el).text()).toLowerCase()
+    if (t.includes('all manufacturers') || t.includes('check any window sticker')) {
+      const parent = $(el).closest('.e-con.e-parent')
+      if (parent.length && !matched.has(parent[0])) {
+        allMfgSec = parent
+        matched.add(parent[0])
+        return false
+      }
+    }
+  })
+  if (allMfgSec) {
+    const heading = clean(allMfgSec.find('h3').first().text())
+    let description = null
+    allMfgSec.find('p').each((_, p) => {
+      const t = clean($(p).text())
+      if (t.length > 30 && !description) description = t
+    })
+    const brands = []
+    allMfgSec.find('a').each((_, a) => {
+      const text = clean($(a).text())
+      const href = $(a).attr('href') || '#'
+      if (text.length > 1 && text.length < 40 && !brands.some(b => b.name === text)) {
+        brands.push({ name: text, href })
+      }
+    })
+    sections.allManufacturers = { type: 'all-manufacturers', heading, headingLevel: 'h3', description, brands }
+  }
+
+  // 10. FAQ (heading in one e-parent, accordion in next sibling)
+  const faqSec = findSection($, ['question', 'faq', 'frequently asked'], matched)
+  if (faqSec) {
+    const heading = clean(faqSec.find('h2').first().text())
+    const items = []
+    // Check next sibling for accordion
+    const faqBody = faqSec.next('.e-con.e-parent')
+    const container = faqBody.length ? faqBody : faqSec
+    if (faqBody.length) matched.add(faqBody[0])
+    container.find('.elementor-accordion-title, .elementor-toggle-title').each((_, el) => {
+      const q = clean($(el).text())
+      if (q.length > 10) items.push({ question: q, answer: null })
+    })
+    container.find('.elementor-tab-content, .elementor-toggle-item-content').each((i, el) => {
+      const a = clean($(el).text())
+      if (items[i] && a.length > 10) items[i].answer = a
+    })
+    if (items.length > 0) sections.faq = { type: 'faq', heading, items }
   }
 
   const sectionCount = Object.keys(sections).length
