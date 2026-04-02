@@ -122,6 +122,89 @@ export const SiteConfig: GlobalConfig = {
           ],
         },
         {
+          label: 'Exit Popup',
+          fields: [
+            {
+              name: 'exitPopup',
+              type: 'group',
+              label: 'Report Popup (default)',
+              admin: { description: 'Shows on all pages except window sticker pages' },
+              fields: [
+                { name: 'enabled', type: 'checkbox', defaultValue: false },
+                {
+                  name: 'title',
+                  type: 'text',
+                  localized: true,
+                  admin: { condition: (_, { enabled }) => enabled, description: 'Small text above headline' },
+                },
+                {
+                  name: 'subtitle',
+                  type: 'text',
+                  localized: true,
+                  admin: { condition: (_, { enabled }) => enabled, description: 'Large headline (e.g. "15% OFF")' },
+                },
+                {
+                  name: 'description',
+                  type: 'textarea',
+                  localized: true,
+                  admin: { condition: (_, { enabled }) => enabled },
+                },
+                {
+                  name: 'ctaText',
+                  type: 'text',
+                  localized: true,
+                  admin: { condition: (_, { enabled }) => enabled },
+                },
+                {
+                  name: 'offerImage',
+                  type: 'upload',
+                  relationTo: 'media',
+                  admin: { condition: (_, { enabled }) => enabled },
+                },
+              ],
+            },
+            {
+              name: 'stickerExitPopup',
+              type: 'group',
+              label: 'Sticker Popup (window sticker pages)',
+              admin: { description: 'Shows only on /window-sticker/* pages' },
+              fields: [
+                { name: 'enabled', type: 'checkbox', defaultValue: false },
+                {
+                  name: 'title',
+                  type: 'text',
+                  localized: true,
+                  admin: { condition: (_, { enabled }) => enabled },
+                },
+                {
+                  name: 'subtitle',
+                  type: 'text',
+                  localized: true,
+                  admin: { condition: (_, { enabled }) => enabled, description: 'Large headline (e.g. "15% OFF")' },
+                },
+                {
+                  name: 'description',
+                  type: 'textarea',
+                  localized: true,
+                  admin: { condition: (_, { enabled }) => enabled },
+                },
+                {
+                  name: 'ctaText',
+                  type: 'text',
+                  localized: true,
+                  admin: { condition: (_, { enabled }) => enabled },
+                },
+                {
+                  name: 'offerImage',
+                  type: 'upload',
+                  relationTo: 'media',
+                  admin: { condition: (_, { enabled }) => enabled },
+                },
+              ],
+            },
+          ],
+        },
+        {
           label: 'Languages',
           fields: [
             {
