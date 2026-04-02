@@ -1,12 +1,1706 @@
 [
   {
     "blockType": "page-hero",
+    "blockName": "Find Your Ford's Original Factory Window Sticker",
     "variant": "centered",
     "dark": true,
     "fullHeight": false,
     "glow": false,
     "formType": "vin",
-    "title": "Find Your Ford’s Original Factory Window Sticker",
-    "description": "Not sure what your Ford really is? Pull the Ford window sticker by VIN and see the original factory build, including trim, equipment, packages, and other key specs. Handy for buyers and sellers."
+    "title": "Find Your Ford's **Original Factory** Window Sticker",
+    "description": "Not sure what your Ford really is? Pull the Ford window sticker by VIN and see the original factory build, including trim, equipment, packages, and other key specs. Handy for buyers and sellers.",
+    "tag": "Decode Your Ford's DNA",
+    "tagLevel": "span",
+    "features": [
+      {
+        "icon": {
+          "source": "preset",
+          "preset": "file-text"
+        },
+        "text": "Factory Build Sheet",
+        "tag": "span"
+      },
+      {
+        "icon": {
+          "source": "preset",
+          "preset": "tag"
+        },
+        "text": "Original MSRP",
+        "tag": "span"
+      },
+      {
+        "icon": {
+          "source": "preset",
+          "preset": "circle-check"
+        },
+        "text": "Full Equipment List",
+        "tag": "span"
+      },
+      {
+        "icon": {
+          "source": "preset",
+          "preset": "zap"
+        },
+        "text": "Instant VIN Lookup",
+        "tag": "span"
+      }
+    ]
+  },
+  {
+    "blockType": "section",
+    "blockName": "What is a Ford Window Sticker?",
+    "bg": "white",
+    "scene": "default",
+    "tag": "Your Ford's Birth Certificate",
+    "heading": "What is a **Ford Window Sticker**?",
+    "headingLevel": "h2",
+    "description": {
+      "root": {
+        "type": "root",
+        "direction": "ltr",
+        "format": "",
+        "indent": 0,
+        "version": 1,
+        "children": [
+          {
+            "type": "paragraph",
+            "direction": "ltr",
+            "format": "",
+            "indent": 0,
+            "version": 1,
+            "textFormat": 0,
+            "textStyle": "",
+            "children": [
+              {
+                "type": "text",
+                "text": "A Ford window sticker is like the car’s factory receipt. It shows how the Ford was built when it was new, including the model and trim, the VIN, what came as standard, what was added as options, and the original price context (MSRP).",
+                "format": 0,
+                "version": 1,
+                "detail": 0,
+                "mode": "normal",
+                "style": ""
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "direction": "ltr",
+            "format": "",
+            "indent": 0,
+            "version": 1,
+            "textFormat": 0,
+            "textStyle": "",
+            "children": [
+              {
+                "type": "text",
+                "text": "For European buyers and sellers, it’s a straightforward way to check what the car should have from day one. If the original sticker isn’t with the car anymore, Vehicle History Europe lets you retrieve a Ford Window Sticker by VIN as a downloadable digital copy you can keep or share during a sale.",
+                "format": 0,
+                "version": 1,
+                "detail": 0,
+                "mode": "normal",
+                "style": ""
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "blockType": "section",
+    "blockName": "What's on a Ford Window Sticker?",
+    "bg": "muted",
+    "scene": "default",
+    "tag": "Every Factory Detail Listed",
+    "heading": "What's on a **Ford Window Sticker**?",
+    "headingLevel": "h2",
+    "description": {
+      "root": {
+        "type": "root",
+        "direction": "ltr",
+        "format": "",
+        "indent": 0,
+        "version": 1,
+        "children": [
+          {
+            "type": "paragraph",
+            "direction": "ltr",
+            "format": "",
+            "indent": 0,
+            "version": 1,
+            "textFormat": 0,
+            "textStyle": "",
+            "children": [
+              {
+                "type": "text",
+                "text": "A Ford listing can be messy. A Ford window sticker puts the factory details in one place, so you can see what the Ford was built with from the start, including the identity info, equipment, options, key specs, and MSRP. Here’s what you’ll find once you pull a Ford window sticker by VIN.",
+                "format": 0,
+                "version": 1,
+                "detail": 0,
+                "mode": "normal",
+                "style": ""
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "content": [
+      {
+        "blockType": "card-grid",
+        "columns": "2",
+        "tabletColumns": "2",
+        "mobileColumns": "1",
+        "cards": [
+          {
+            "cardType": "feature",
+            "style": "none",
+            "layout": "stacked",
+            "title": "Vehicle Description",
+            "titleElement": "h3",
+            "description": {
+              "root": {
+                "type": "root",
+                "direction": "ltr",
+                "format": "",
+                "indent": 0,
+                "version": 1,
+                "children": [
+                  {
+                    "type": "paragraph",
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": "",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "This is the plain-language identity of the car. Model year, Ford model name, derivative/series, plus the key basics that stop mix-ups. Ford uses different naming across markets, so this keeps you on the right version.",
+                        "format": 0,
+                        "version": 1,
+                        "detail": 0,
+                        "mode": "normal",
+                        "style": ""
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            "items": [
+              {
+                "title": "Vehicle year, make, and model",
+                "titleElement": "h4",
+                "description": {
+                  "root": {
+                    "type": "root",
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "version": 1,
+                    "children": [
+                      {
+                        "type": "paragraph",
+                        "direction": "ltr",
+                        "format": "",
+                        "indent": 0,
+                        "version": 1,
+                        "textFormat": 0,
+                        "textStyle": "",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Shows the official year and model family, so you’re not comparing a Focus to a Focus that’s actually a different generation.",
+                            "format": 0,
+                            "version": 1,
+                            "detail": 0,
+                            "mode": "normal",
+                            "style": ""
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              },
+              {
+                "title": "Trim level and body style",
+                "titleElement": "h4",
+                "description": {
+                  "root": {
+                    "type": "root",
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "version": 1,
+                    "children": [
+                      {
+                        "type": "paragraph",
+                        "direction": "ltr",
+                        "format": "",
+                        "indent": 0,
+                        "version": 1,
+                        "textFormat": 0,
+                        "textStyle": "",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "This is where trims like the Trend, Titanium, ST-Line, or Vignale, and body types (e.g., hatch, estate, SUV, van) show up. Knowing this helps you spot “trim upgrades” that are basically just badges.",
+                            "format": 0,
+                            "version": 1,
+                            "detail": 0,
+                            "mode": "normal",
+                            "style": ""
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              },
+              {
+                "title": "Vehicle Identification Number (VIN)",
+                "titleElement": "h4",
+                "description": {
+                  "root": {
+                    "type": "root",
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "version": 1,
+                    "children": [
+                      {
+                        "type": "paragraph",
+                        "direction": "ltr",
+                        "format": "",
+                        "indent": 0,
+                        "version": 1,
+                        "textFormat": 0,
+                        "textStyle": "",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "The VIN (or chassis number) is tied to the label, so you can cross-check it against the windscreen, door jamb, and documents.",
+                            "format": 0,
+                            "version": 1,
+                            "detail": 0,
+                            "mode": "normal",
+                            "style": ""
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "cardType": "feature",
+            "style": "none",
+            "layout": "stacked",
+            "title": "Standard Equipment",
+            "titleElement": "h3",
+            "description": {
+              "root": {
+                "type": "root",
+                "direction": "ltr",
+                "format": "",
+                "indent": 0,
+                "version": 1,
+                "children": [
+                  {
+                    "type": "paragraph",
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": "",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "This section lists what Ford intended to come standard for that trim level. It’s not the fancy extras; it’s the baseline. This helps you compare trims quickly without opening ten tabs and losing your mind.",
+                        "format": 0,
+                        "version": 1,
+                        "detail": 0,
+                        "mode": "normal",
+                        "style": ""
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            "items": [
+              {
+                "title": "Core comfort and convenience features",
+                "titleElement": "h4",
+                "description": {
+                  "root": {
+                    "type": "root",
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "version": 1,
+                    "children": [
+                      {
+                        "type": "paragraph",
+                        "direction": "ltr",
+                        "format": "",
+                        "indent": 0,
+                        "version": 1,
+                        "textFormat": 0,
+                        "textStyle": "",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "This is the everyday stuff that shapes how the Ford feels: comfort features, convenience tech, and practical equipment listed for that build.",
+                            "format": 0,
+                            "version": 1,
+                            "detail": 0,
+                            "mode": "normal",
+                            "style": ""
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              },
+              {
+                "title": "Safety basics",
+                "titleElement": "h4",
+                "description": {
+                  "root": {
+                    "type": "root",
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "version": 1,
+                    "children": [
+                      {
+                        "type": "paragraph",
+                        "direction": "ltr",
+                        "format": "",
+                        "indent": 0,
+                        "version": 1,
+                        "textFormat": 0,
+                        "textStyle": "",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "On the window sticker, this part highlights safety and driver support items that should be present for that build. It lets you check what should be on the vehicle before you travel to see it.",
+                            "format": 0,
+                            "version": 1,
+                            "detail": 0,
+                            "mode": "normal",
+                            "style": ""
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "cardType": "feature",
+            "style": "none",
+            "layout": "stacked",
+            "title": "Optional Equipment",
+            "titleElement": "h3",
+            "description": {
+              "root": {
+                "type": "root",
+                "direction": "ltr",
+                "format": "",
+                "indent": 0,
+                "version": 1,
+                "children": [
+                  {
+                    "type": "paragraph",
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": "",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "This is the part that separates “basic spec” from “nice spec.” Factory-fitted options and upgrades tied to the VIN. This helps you avoid paying extra for options the car never had.",
+                        "format": 0,
+                        "version": 1,
+                        "detail": 0,
+                        "mode": "normal",
+                        "style": ""
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            "items": [
+              {
+                "title": "Factory option packages",
+                "titleElement": "h4",
+                "description": {
+                  "root": {
+                    "type": "root",
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "version": 1,
+                    "children": [
+                      {
+                        "type": "paragraph",
+                        "direction": "ltr",
+                        "format": "",
+                        "indent": 0,
+                        "version": 1,
+                        "textFormat": 0,
+                        "textStyle": "",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "A single package can change the whole driving experience (e.g., lights, safety tech, heated bits, etc). The window sticker shows what bundle was fitted.",
+                            "format": 0,
+                            "version": 1,
+                            "detail": 0,
+                            "mode": "normal",
+                            "style": ""
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              },
+              {
+                "title": "Individual add-on options",
+                "titleElement": "h4",
+                "description": {
+                  "root": {
+                    "type": "root",
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "version": 1,
+                    "children": [
+                      {
+                        "type": "paragraph",
+                        "direction": "ltr",
+                        "format": "",
+                        "indent": 0,
+                        "version": 1,
+                        "textFormat": 0,
+                        "textStyle": "",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Single options added to the build, like upgraded seats, wheels, lighting, infotainment, or driver assist items (depending on the vehicle record). If you’re comparing two similar cars, this is the cleanest way to see what’s genuinely different.",
+                            "format": 0,
+                            "version": 1,
+                            "detail": 0,
+                            "mode": "normal",
+                            "style": ""
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              },
+              {
+                "title": "Trim-level additions",
+                "titleElement": "h4",
+                "description": {
+                  "root": {
+                    "type": "root",
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "version": 1,
+                    "children": [
+                      {
+                        "type": "paragraph",
+                        "direction": "ltr",
+                        "format": "",
+                        "indent": 0,
+                        "version": 1,
+                        "textFormat": 0,
+                        "textStyle": "",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Some trims include extras that don’t show on lower trims, even if the seller calls them “options.” This section helps separate trim content from paid upgrades.",
+                            "format": 0,
+                            "version": 1,
+                            "detail": 0,
+                            "mode": "normal",
+                            "style": ""
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "cardType": "feature",
+            "style": "none",
+            "layout": "stacked",
+            "title": "Manufacturer Suggested Retail Price (MSRP)",
+            "titleElement": "h3",
+            "description": {
+              "root": {
+                "type": "root",
+                "direction": "ltr",
+                "format": "",
+                "indent": 0,
+                "version": 1,
+                "children": [
+                  {
+                    "type": "paragraph",
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": "",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "This section gives you the original pricing context shown on the sticker. It’s not today’s used price. It’s the factory starting point. Giving you a reality anchor for what was “base” and what was paid as extras.",
+                        "format": 0,
+                        "version": 1,
+                        "detail": 0,
+                        "mode": "normal",
+                        "style": ""
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            "items": [
+              {
+                "title": "Base vehicle MSRP",
+                "titleElement": "h4",
+                "description": {
+                  "root": {
+                    "type": "root",
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "version": 1,
+                    "children": [
+                      {
+                        "type": "paragraph",
+                        "direction": "ltr",
+                        "format": "",
+                        "indent": 0,
+                        "version": 1,
+                        "textFormat": 0,
+                        "textStyle": "",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "This was the manufacturer’s suggested base price from the sticker. Useful for comparing trims and understanding where the car originally sat in the range.",
+                            "format": 0,
+                            "version": 1,
+                            "detail": 0,
+                            "mode": "normal",
+                            "style": ""
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              },
+              {
+                "title": "Factory options and packages cost",
+                "titleElement": "h4",
+                "description": {
+                  "root": {
+                    "type": "root",
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "version": 1,
+                    "children": [
+                      {
+                        "type": "paragraph",
+                        "direction": "ltr",
+                        "format": "",
+                        "indent": 0,
+                        "version": 1,
+                        "textFormat": 0,
+                        "textStyle": "",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Two cars can look identical in photos. This breakdown shows what was added at the factory and helps explain why one was genuinely a higher-spec build.",
+                            "format": 0,
+                            "version": 1,
+                            "detail": 0,
+                            "mode": "normal",
+                            "style": ""
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "cardType": "feature",
+            "style": "none",
+            "layout": "stacked",
+            "title": "Mechanical and Engine Information",
+            "titleElement": "h3",
+            "description": {
+              "root": {
+                "type": "root",
+                "direction": "ltr",
+                "format": "",
+                "indent": 0,
+                "version": 1,
+                "children": [
+                  {
+                    "type": "paragraph",
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": "",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "The engine line is linked to the VIN, with build identifiers like aspiration, layout, displacement, and other factory details shown on the window sticker. This helps when you’re comparing running costs, insurance group expectations, or just trying to confirm what’s under the bonnet.",
+                        "format": 0,
+                        "version": 1,
+                        "detail": 0,
+                        "mode": "normal",
+                        "style": ""
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            "items": [
+              {
+                "title": "Engine specifications",
+                "titleElement": "h4",
+                "description": {
+                  "root": {
+                    "type": "root",
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "version": 1,
+                    "children": [
+                      {
+                        "type": "paragraph",
+                        "direction": "ltr",
+                        "format": "",
+                        "indent": 0,
+                        "version": 1,
+                        "textFormat": 0,
+                        "textStyle": "",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Shows the engine identifiers listed for that Ford, such as displacement, cylinder layout, turbo/aspiration, and other details when listed. For example, the seller says “1.0 EcoBoost,” but the paperwork tells a slightly different story. This section helps you verify it.",
+                            "format": 0,
+                            "version": 1,
+                            "detail": 0,
+                            "mode": "normal",
+                            "style": ""
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              },
+              {
+                "title": "Transmission",
+                "titleElement": "h4",
+                "description": {
+                  "root": {
+                    "type": "root",
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "version": 1,
+                    "children": [
+                      {
+                        "type": "paragraph",
+                        "direction": "ltr",
+                        "format": "",
+                        "indent": 0,
+                        "version": 1,
+                        "textFormat": 0,
+                        "textStyle": "",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Shows whether the Ford was built with a manual or automatic gearbox, and often includes the exact transmission type listed for that VIN.",
+                            "format": 0,
+                            "version": 1,
+                            "detail": 0,
+                            "mode": "normal",
+                            "style": ""
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              },
+              {
+                "title": "Drivetrain layout",
+                "titleElement": "h4",
+                "description": {
+                  "root": {
+                    "type": "root",
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "version": 1,
+                    "children": [
+                      {
+                        "type": "paragraph",
+                        "direction": "ltr",
+                        "format": "",
+                        "indent": 0,
+                        "version": 1,
+                        "textFormat": 0,
+                        "textStyle": "",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Confirms how power is delivered (FWD/RWD/AWD). This is important information, because it can affect the winter usability, tyre setup expectations, and long-term driving feels",
+                            "format": 0,
+                            "version": 1,
+                            "detail": 0,
+                            "mode": "normal",
+                            "style": ""
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "cardType": "feature",
+            "style": "none",
+            "layout": "stacked",
+            "title": "Factory Power and Performance",
+            "titleElement": "h3",
+            "description": {
+              "root": {
+                "type": "root",
+                "direction": "ltr",
+                "format": "",
+                "indent": 0,
+                "version": 1,
+                "children": [
+                  {
+                    "type": "paragraph",
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": "",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "This performance block shows the key numbers in a simple format so you can compare trims properly. Even if you’re not racing anyone, it helps you avoid buying a “sporty badge” that doesn’t match the actual output.",
+                        "format": 0,
+                        "version": 1,
+                        "detail": 0,
+                        "mode": "normal",
+                        "style": ""
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            "items": [
+              {
+                "title": "Power output (hp / kW)",
+                "titleElement": "h4",
+                "description": {
+                  "root": {
+                    "type": "root",
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "version": 1,
+                    "children": [
+                      {
+                        "type": "paragraph",
+                        "direction": "ltr",
+                        "format": "",
+                        "indent": 0,
+                        "version": 1,
+                        "textFormat": 0,
+                        "textStyle": "",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "The window sticker listed the factory-rated power figures. This is great for comparing similar Ford trims and avoiding confusion between close variants",
+                            "format": 0,
+                            "version": 1,
+                            "detail": 0,
+                            "mode": "normal",
+                            "style": ""
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              },
+              {
+                "title": "Torque and performance figures",
+                "titleElement": "h4",
+                "description": {
+                  "root": {
+                    "type": "root",
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "version": 1,
+                    "children": [
+                      {
+                        "type": "paragraph",
+                        "direction": "ltr",
+                        "format": "",
+                        "indent": 0,
+                        "version": 1,
+                        "textFormat": 0,
+                        "textStyle": "",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Shows torque and related performance lines from the sticker. The torque often explains why one Ford feels punchy, and another feels flat, even with similar horsepower numbers.",
+                            "format": 0,
+                            "version": 1,
+                            "detail": 0,
+                            "mode": "normal",
+                            "style": ""
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              },
+              {
+                "title": "Acceleration and top speed",
+                "titleElement": "h4",
+                "description": {
+                  "root": {
+                    "type": "root",
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "version": 1,
+                    "children": [
+                      {
+                        "type": "paragraph",
+                        "direction": "ltr",
+                        "format": "",
+                        "indent": 0,
+                        "version": 1,
+                        "textFormat": 0,
+                        "textStyle": "",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "This section makes comparisons easier when you’re looking at two similar Fords, helping you see which one has the stronger performance on paper.",
+                            "format": 0,
+                            "version": 1,
+                            "detail": 0,
+                            "mode": "normal",
+                            "style": ""
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "cardType": "feature",
+            "style": "none",
+            "layout": "stacked",
+            "title": "Emissions Block",
+            "titleElement": "h3",
+            "description": {
+              "root": {
+                "type": "root",
+                "direction": "ltr",
+                "format": "",
+                "indent": 0,
+                "version": 1,
+                "children": [
+                  {
+                    "type": "paragraph",
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": "",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "For European buyers, emissions details matter for running costs and where you can drive under local rules. Keeping these figures in the same label also makes cross-border paperwork feel a lot more manageable.",
+                        "format": 0,
+                        "version": 1,
+                        "detail": 0,
+                        "mode": "normal",
+                        "style": ""
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            "items": [
+              {
+                "title": "Euro emissions standard",
+                "titleElement": "h4",
+                "description": {
+                  "root": {
+                    "type": "root",
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "version": 1,
+                    "children": [
+                      {
+                        "type": "paragraph",
+                        "direction": "ltr",
+                        "format": "",
+                        "indent": 0,
+                        "version": 1,
+                        "textFormat": 0,
+                        "textStyle": "",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Shows the Euro standard when listed. Helps you understand the vehicle’s compliance category at a glance.",
+                            "format": 0,
+                            "version": 1,
+                            "detail": 0,
+                            "mode": "normal",
+                            "style": ""
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              },
+              {
+                "title": "CO₂ emissions (g/km)",
+                "titleElement": "h4",
+                "description": {
+                  "root": {
+                    "type": "root",
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "version": 1,
+                    "children": [
+                      {
+                        "type": "paragraph",
+                        "direction": "ltr",
+                        "format": "",
+                        "indent": 0,
+                        "version": 1,
+                        "textFormat": 0,
+                        "textStyle": "",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Lists the CO₂ figure shown on the sticker, which can affect comparisons between similar cars and sometimes influences tax/fee calculations depending on the country.",
+                            "format": 0,
+                            "version": 1,
+                            "detail": 0,
+                            "mode": "normal",
+                            "style": ""
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              },
+              {
+                "title": "Practical cross-border checks",
+                "titleElement": "h4",
+                "description": {
+                  "root": {
+                    "type": "root",
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "version": 1,
+                    "children": [
+                      {
+                        "type": "paragraph",
+                        "direction": "ltr",
+                        "format": "",
+                        "indent": 0,
+                        "version": 1,
+                        "textFormat": 0,
+                        "textStyle": "",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "If you’re importing a Ford into another country in Europe, the emissions info in one place helps you compare the seller’s claims with what your registration office requires, without having to sift through multiple documents.",
+                            "format": 0,
+                            "version": 1,
+                            "detail": 0,
+                            "mode": "normal",
+                            "style": ""
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "cardType": "feature",
+            "style": "none",
+            "layout": "stacked",
+            "title": "Basic Equipment",
+            "titleElement": "h3",
+            "description": {
+              "root": {
+                "type": "root",
+                "direction": "ltr",
+                "format": "",
+                "indent": 0,
+                "version": 1,
+                "children": [
+                  {
+                    "type": "paragraph",
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": "",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "This shows the core items you’d normally expect on that Ford trim level, helping you understand the baseline before options. Perfect when you’re scanning multiple listings and want quick clarity.",
+                        "format": 0,
+                        "version": 1,
+                        "detail": 0,
+                        "mode": "normal",
+                        "style": ""
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            "items": [
+              {
+                "title": "Everyday essentials",
+                "titleElement": "h4",
+                "description": {
+                  "root": {
+                    "type": "root",
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "version": 1,
+                    "children": [
+                      {
+                        "type": "paragraph",
+                        "direction": "ltr",
+                        "format": "",
+                        "indent": 0,
+                        "version": 1,
+                        "textFormat": 0,
+                        "textStyle": "",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "The regular daily-driver features most people rely on. It matters because it makes inspections faster and helps you confirm what should be there before you even show up.",
+                            "format": 0,
+                            "version": 1,
+                            "detail": 0,
+                            "mode": "normal",
+                            "style": ""
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              },
+              {
+                "title": "Key safety essentials",
+                "titleElement": "h4",
+                "description": {
+                  "root": {
+                    "type": "root",
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "version": 1,
+                    "children": [
+                      {
+                        "type": "paragraph",
+                        "direction": "ltr",
+                        "format": "",
+                        "indent": 0,
+                        "version": 1,
+                        "textFormat": 0,
+                        "textStyle": "",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "The window sticker highlights safety-related essentials when listed. If a safety kit is important to you, this helps you check the right boxes without guessing.",
+                            "format": 0,
+                            "version": 1,
+                            "detail": 0,
+                            "mode": "normal",
+                            "style": ""
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "ctas": [
+      {
+        "label": "View Sample",
+        "href": "https://vehiclehistory.eu/sticker/vin/WF0PXXGCHPKP11608-B4D7B4D7-0F0F-BC0D-5C6B-10DB7A44C054",
+        "style": "primary"
+      }
+    ]
+  },
+  {
+    "blockType": "section",
+    "blockName": "Why Do You Need a Ford Window Sticker Lookup?",
+    "bg": "white",
+    "scene": "default",
+    "tag": "Buy With Full Confidence",
+    "heading": "Why Do You Need a **Ford Window Sticker** Lookup?",
+    "headingLevel": "h2",
+    "description": {
+      "root": {
+        "type": "root",
+        "direction": "ltr",
+        "format": "",
+        "indent": 0,
+        "version": 1,
+        "children": [
+          {
+            "type": "paragraph",
+            "direction": "ltr",
+            "format": "",
+            "indent": 0,
+            "version": 1,
+            "textFormat": 0,
+            "textStyle": "",
+            "children": [
+              {
+                "type": "text",
+                "text": "If you’re dealing with a Ford in Europe, a window sticker lookup saves you from guesswork. It helps confirm the exact model, trim, engine, and factory build details tied to that VIN. Handy for everyday buyers, busy dealers, and serious Ford fans who care about originality, provenance, and the “real spec” behind the badge.",
+                "format": 0,
+                "version": 1,
+                "detail": 0,
+                "mode": "normal",
+                "style": ""
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "content": [
+      {
+        "blockType": "audience-tabs",
+        "panels": [
+          {
+            "icon": {
+              "source": "preset",
+              "preset": "user"
+            },
+            "title": "Buyers",
+            "titleElement": "h3",
+            "description": {
+              "root": {
+                "type": "root",
+                "direction": "ltr",
+                "format": "",
+                "indent": 0,
+                "version": 1,
+                "children": [
+                  {
+                    "type": "paragraph",
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": "",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Buying used? This is how you avoid expensive surprises. A Ford window sticker lookup helps you confirm what the car really is, what it was built with, and whether the description in the listing matches the paperwork. It’s especially useful when you’re comparing similar Fords across Germany, Poland, the Netherlands, France, or Romania.",
+                        "format": 0,
+                        "version": 1,
+                        "detail": 0,
+                        "mode": "normal",
+                        "style": ""
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            "benefits": [
+              {
+                "title": "Confirm the exact Ford trim and body style",
+                "titleElement": "h4",
+                "description": {
+                  "root": {
+                    "type": "root",
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "version": 1,
+                    "children": [
+                      {
+                        "type": "paragraph",
+                        "direction": "ltr",
+                        "format": "",
+                        "indent": 0,
+                        "version": 1,
+                        "textFormat": 0,
+                        "textStyle": "",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Badges can be swapped. The window sticker helps to confirm whether it’s truly Titanium, ST-Line, Vignale, Active, or something else.",
+                            "format": 0,
+                            "version": 1,
+                            "detail": 0,
+                            "mode": "normal",
+                            "style": ""
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              },
+              {
+                "title": "Confirm emissions category for planning",
+                "titleElement": "h4",
+                "description": {
+                  "root": {
+                    "type": "root",
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "version": 1,
+                    "children": [
+                      {
+                        "type": "paragraph",
+                        "direction": "ltr",
+                        "format": "",
+                        "indent": 0,
+                        "version": 1,
+                        "textFormat": 0,
+                        "textStyle": "",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Helps you understand the Euro standard and CO₂ context. Useful for registration planning.",
+                            "format": 0,
+                            "version": 1,
+                            "detail": 0,
+                            "mode": "normal",
+                            "style": ""
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              },
+              {
+                "title": "Validate import paperwork details",
+                "titleElement": "h4",
+                "description": {
+                  "root": {
+                    "type": "root",
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "version": 1,
+                    "children": [
+                      {
+                        "type": "paragraph",
+                        "direction": "ltr",
+                        "format": "",
+                        "indent": 0,
+                        "version": 1,
+                        "textFormat": 0,
+                        "textStyle": "",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Great when the car came from another country, and the listing info doesn’t perfectly match local documents.",
+                            "format": 0,
+                            "version": 1,
+                            "detail": 0,
+                            "mode": "normal",
+                            "style": ""
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "icon": {
+              "source": "preset",
+              "preset": "building"
+            },
+            "title": "Seller & Dealer",
+            "titleElement": "h3",
+            "description": {
+              "root": {
+                "type": "root",
+                "direction": "ltr",
+                "format": "",
+                "indent": 0,
+                "version": 1,
+                "children": [
+                  {
+                    "type": "paragraph",
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": "",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Selling a Ford is easier when you can prove what it is. A window sticker lookup helps you write cleaner listings, reduce repetitive buyer questions, and back up your price with real factory-linked details. For dealers, it also speeds up intake, appraisal, and inventory setup.",
+                        "format": 0,
+                        "version": 1,
+                        "detail": 0,
+                        "mode": "normal",
+                        "style": ""
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            "benefits": [
+              {
+                "title": "Verify a vehicle’s value",
+                "titleElement": "h4",
+                "description": {
+                  "root": {
+                    "type": "root",
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "version": 1,
+                    "children": [
+                      {
+                        "type": "paragraph",
+                        "direction": "ltr",
+                        "format": "",
+                        "indent": 0,
+                        "version": 1,
+                        "textFormat": 0,
+                        "textStyle": "",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "A Window Stickers lookup helps justify pricing by confirming trim level, factory options, and key specs. It’s harder for buyers to argue when the equipment list is clear and consistent.",
+                            "format": 0,
+                            "version": 1,
+                            "detail": 0,
+                            "mode": "normal",
+                            "style": ""
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              },
+              {
+                "title": "Reduce time-wasting messages",
+                "titleElement": "h4",
+                "description": {
+                  "root": {
+                    "type": "root",
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "version": 1,
+                    "children": [
+                      {
+                        "type": "paragraph",
+                        "direction": "ltr",
+                        "format": "",
+                        "indent": 0,
+                        "version": 1,
+                        "textFormat": 0,
+                        "textStyle": "",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "It answers the common questions instantly: trim, engine, options, and configuration.",
+                            "format": 0,
+                            "version": 1,
+                            "detail": 0,
+                            "mode": "normal",
+                            "style": ""
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              },
+              {
+                "title": "Sell faster with better transparency",
+                "titleElement": "h4",
+                "description": {
+                  "root": {
+                    "type": "root",
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "version": 1,
+                    "children": [
+                      {
+                        "type": "paragraph",
+                        "direction": "ltr",
+                        "format": "",
+                        "indent": 0,
+                        "version": 1,
+                        "textFormat": 0,
+                        "textStyle": "",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "A listing with verified details tends to attract more serious buyers and fewer tyre-kickers.",
+                            "format": 0,
+                            "version": 1,
+                            "detail": 0,
+                            "mode": "normal",
+                            "style": ""
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "icon": {
+              "source": "preset",
+              "preset": "heart"
+            },
+            "title": "Ford Enthusiasts & Collectors",
+            "titleElement": "h3",
+            "description": {
+              "root": {
+                "type": "root",
+                "direction": "ltr",
+                "format": "",
+                "indent": 0,
+                "version": 1,
+                "children": [
+                  {
+                    "type": "paragraph",
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": "",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "For enthusiasts, the VIN is more than a number. It’s the car’s fingerprint. A Ford window sticker lookup helps confirm originality, track the exact configuration, and document rare trims or special builds. If you care about correct specs, provenance, and clean records, this is part of the hobby.",
+                        "format": 0,
+                        "version": 1,
+                        "detail": 0,
+                        "mode": "normal",
+                        "style": ""
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            "benefits": [
+              {
+                "title": "Confirm originality for classic or rare Fords",
+                "titleElement": "h4",
+                "description": {
+                  "root": {
+                    "type": "root",
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "version": 1,
+                    "children": [
+                      {
+                        "type": "paragraph",
+                        "direction": "ltr",
+                        "format": "",
+                        "indent": 0,
+                        "version": 1,
+                        "textFormat": 0,
+                        "textStyle": "",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "It helps verify whether key specs match the factory build, which matters a lot in collector circles.",
+                            "format": 0,
+                            "version": 1,
+                            "detail": 0,
+                            "mode": "normal",
+                            "style": ""
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              },
+              {
+                "title": "Support accurate part matching",
+                "titleElement": "h4",
+                "description": {
+                  "root": {
+                    "type": "root",
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "version": 1,
+                    "children": [
+                      {
+                        "type": "paragraph",
+                        "direction": "ltr",
+                        "format": "",
+                        "indent": 0,
+                        "version": 1,
+                        "textFormat": 0,
+                        "textStyle": "",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Knowing the exact build configuration reduces wrong orders and workshop guesswork.",
+                            "format": 0,
+                            "version": 1,
+                            "detail": 0,
+                            "mode": "normal",
+                            "style": ""
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              },
+              {
+                "title": "Backup insurance valuations",
+                "titleElement": "h4",
+                "description": {
+                  "root": {
+                    "type": "root",
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "version": 1,
+                    "children": [
+                      {
+                        "type": "paragraph",
+                        "direction": "ltr",
+                        "format": "",
+                        "indent": 0,
+                        "version": 1,
+                        "textFormat": 0,
+                        "textStyle": "",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "For collector policies, having proof of trim/options/spec can help discussions feel more grounded.",
+                            "format": 0,
+                            "version": 1,
+                            "detail": 0,
+                            "mode": "normal",
+                            "style": ""
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
   }
 ]

@@ -67,6 +67,42 @@ function impTagLevel(section) {
   return imp(section, 'tagLevel') || 'span'
 }
 
+// ── Media helpers ─────────────────────────────────────────────
+
+async function uploadMedia(url, alt) {
+  const res = await fetch(url)
+  if (!res.ok) { console.error(`    Download failed: ${res.status} ${url}`); return null }
+  const buffer = Buffer.from(await res.arrayBuffer())
+  const filename = url.split('/').pop()
+
+  const check = await fetch(
+    `${PAYLOAD_URL}/api/media?where[alt][equals]=${encodeURIComponent(alt || filename)}&limit=1`,
+    { headers: { Authorization: `JWT ${token}` } },
+  )
+  const existing = await check.json()
+  if (existing.docs?.[0]?.id) return existing.docs[0].id
+
+  const ext = filename.split('.').pop()?.toLowerCase() || 'bin'
+  const mimeTypes = { svg: 'image/svg+xml', png: 'image/png', jpg: 'image/jpeg', jpeg: 'image/jpeg', webp: 'image/webp' }
+  const mime = mimeTypes[ext] || 'application/octet-stream'
+
+  const form = new FormData()
+  form.append('_payload', JSON.stringify({ alt: alt || filename }))
+  form.append('file', new File([buffer], filename, { type: mime }))
+
+  const upload = await fetch(`${PAYLOAD_URL}/api/media`, {
+    method: 'POST',
+    headers: { Authorization: `JWT ${token}` },
+    body: form,
+  })
+  const result = await upload.json()
+  if (result.errors) {
+    console.error(`    Upload error:`, JSON.stringify(result.errors[0]?.message || result.errors).slice(0, 200))
+    return null
+  }
+  return result.doc?.id || null
+}
+
 // ── Icon helpers ───────────────────────────────────────────────────
 
 const VALID_PRESETS = new Set([
@@ -134,7 +170,7 @@ function generateWhatIsBlock(section) {
     scene: 'default',
     tag: impTagline(section),
     heading: impHeading(section),
-    headingLevel: 'h2',
+    headingLevel: section.headingLevel || 'h2',
     description: paragraphsToLexical(section.paragraphs),
   }
 }
@@ -147,7 +183,7 @@ function generateWhatsOnBlock(section) {
     scene: 'default',
     tag: impTagline(section),
     heading: impHeading(section),
-    headingLevel: 'h2',
+    headingLevel: section.headingLevel || 'h2',
     description: section.introParagraph ? textToLexical(section.introParagraph) : undefined,
   }
 
@@ -184,15 +220,301 @@ function generateWhatsOnBlock(section) {
   return block
 }
 
+const AUDIENCE_ICONS = {
+  buyers: 'user',
+  buyer: 'user',
+  'seller & dealer': 'building',
+  'seller': 'building',
+  'sellers': 'building',
+  'dealers': 'building',
+  'enthusiasts': 'heart',
+  'collectors': 'heart',
+}
+
+function guessAudienceIcon(title) {
+  const lower = title.toLowerCase()
+  for (const [key, val] of Object.entries(AUDIENCE_ICONS)) {
+    if (lower.includes(key)) return val
+  }
+  return 'users'
+}
+
+function generateWhyNeedBlock(section) {
+  const block = {
+    blockType: 'section',
+    blockName: bName(impHeading(section)),
+    bg: 'white',
+    scene: 'default',
+    tag: impTagline(section),
+    heading: impHeading(section),
+    headingLevel: section.headingLevel || 'h2',
+    description: section.introParagraph ? textToLexical(section.introParagraph) : undefined,
+  }
+
+  if (section.audiences && section.audiences.length > 0) {
+    block.content = [{
+      blockType: 'audience-tabs',
+      panels: section.audiences.map(aud => ({
+        icon: icon(guessAudienceIcon(aud.title)),
+        title: aud.title,
+        titleElement: 'h3',
+        description: aud.description ? textToLexical(aud.description) : undefined,
+        benefits: (aud.benefits || []).map(b => ({
+          title: b.title,
+          titleElement: 'h4',
+          description: b.description ? textToLexical(b.description) : undefined,
+        })),
+      })),
+    }]
+  }
+
+  if (section.ctas?.length > 0) {
+    block.ctas = section.ctas.map((c, i) => ({
+      label: c.text,
+      href: c.href,
+      style: i === 0 ? 'primary' : 'secondary',
+    }))
+  }
+
+  return block
+}
+
+const STEP_ICONS = ['search', 'mouse-pointer-click', 'download']
+
+function generateHowToGetBlock(section) {
+  const block = {
+    blockType: 'section',
+    blockName: bName(impHeading(section)),
+    bg: 'dark',
+    scene: 'default',
+    tag: impTagline(section),
+    heading: impHeading(section),
+    headingLevel: section.headingLevel || 'h2',
+    description: section.introParagraph ? textToLexical(section.introParagraph) : undefined,
+  }
+
+  if (section.steps && section.steps.length > 0) {
+    block.content = [{
+      blockType: 'steps',
+      style: 'icons',
+      titleElement: 'h3',
+      steps: section.steps.map((step, i) => ({
+        title: step.title,
+        description: step.description || '',
+        icon: icon(STEP_ICONS[i] || 'circle-check'),
+      })),
+    }]
+  }
+
+  if (section.ctas?.length > 0) {
+    block.ctas = section.ctas.map((c, i) => ({
+      label: c.text,
+      href: c.href,
+      style: i === 0 ? 'primary' : 'secondary',
+    }))
+  }
+
+  return block
+}
+
+const VIN_LOCATION_ICONS = {
+  windscreen: 'car-front',
+  dashboard: 'car-front',
+  door: 'lock-open',
+  'door area': 'lock-open',
+  'door jamb': 'lock-open',
+  engine: 'wrench',
+  'engine bay': 'wrench',
+  documents: 'file-text',
+  paperwork: 'file-text',
+  registration: 'file-text',
+  stamping: 'hash',
+}
+
+function guessVinIcon(title) {
+  const lower = title.toLowerCase()
+  for (const [key, val] of Object.entries(VIN_LOCATION_ICONS)) {
+    if (lower.includes(key)) return val
+  }
+  return 'map-pin'
+}
+
+async function generateWhereVinBlock(section) {
+  const block = {
+    blockType: 'section',
+    blockName: bName(impHeading(section)),
+    bg: 'white',
+    scene: 'default',
+  }
+
+  const splitContent = {
+    blockType: 'split-content',
+    tag: impTagline(section),
+    heading: impHeading(section),
+    headingLevel: section.headingLevel || 'h2',
+    description: section.introParagraph ? textToLexical(section.introParagraph) : undefined,
+    contentType: 'cards',
+    cardColumns: '2',
+    reverse: false,
+  }
+
+  if (section.locations?.length > 0) {
+    splitContent.cards = section.locations.map(loc => ({
+      icon: icon(guessVinIcon(loc.title)),
+      title: loc.title,
+      titleElement: loc.titleElement || 'h4',
+      cardDescription: loc.description ? textToLexical(loc.description) : undefined,
+    }))
+  }
+
+  if (section.image?.src) {
+    const mediaId = await uploadMedia(section.image.src, section.image.alt || 'VIN location guide')
+    if (mediaId) splitContent.media = mediaId
+  }
+
+  block.content = [splitContent]
+
+  if (section.ctas?.length > 0) {
+    block.ctas = section.ctas.map((c, i) => ({
+      label: c.text,
+      href: c.href,
+      style: i === 0 ? 'primary' : 'secondary',
+    }))
+  }
+
+  return block
+}
+
+const WHY_USE_ICONS = ['list', 'scan', 'clock', 'headphones']
+
+function generateWhyUseBlock(section) {
+  const block = {
+    blockType: 'section',
+    blockName: bName(impHeading(section)),
+    bg: 'muted',
+    scene: 'default',
+    tag: impTagline(section),
+    heading: impHeading(section),
+    headingLevel: section.headingLevel || 'h2',
+    description: section.introParagraph ? textToLexical(section.introParagraph) : undefined,
+  }
+
+  if (section.features?.length > 0) {
+    block.content = [{
+      blockType: 'card-grid',
+      columns: '2',
+      tabletColumns: '2',
+      mobileColumns: '1',
+      cards: section.features.map((feat, i) => ({
+        cardType: 'feature',
+        style: 'icon',
+        layout: 'stacked',
+        icon: icon(WHY_USE_ICONS[i] || 'circle-check'),
+        title: feat.title,
+        titleElement: feat.titleElement || 'h3',
+        description: feat.description ? textToLexical(feat.description) : undefined,
+      })),
+    }]
+  }
+
+  if (section.ctas?.length > 0) {
+    block.ctas = section.ctas.map((c, i) => ({
+      label: c.text,
+      href: c.href,
+      style: i === 0 ? 'primary' : 'secondary',
+    }))
+  }
+
+  return block
+}
+
+function generateCtaBannerBlock(section) {
+  return {
+    blockType: 'cta-banner',
+    blockName: bName(impHeading(section)),
+    dark: true,
+    mode: 'link',
+    tag: impTagline(section),
+    heading: impHeading(section),
+    description: section.description ? textToLexical(section.description) : undefined,
+    ctas: (section.ctas || []).map((c, i) => ({
+      label: c.text,
+      href: c.href === '#top' ? '#' : c.href,
+      style: i === 0 ? 'primary' : 'secondary',
+    })),
+  }
+}
+
+function generateAllManufacturersBlock(section) {
+  const block = {
+    blockType: 'section',
+    blockName: bName(impHeading(section)),
+    bg: 'white',
+    scene: 'default',
+    tag: impTagline(section),
+    heading: impHeading(section),
+    headingLevel: section.headingLevel || 'h2',
+    description: section.description ? textToLexical(section.description) : undefined,
+  }
+
+  if (section.brands?.length > 0) {
+    block.content = [{
+      blockType: 'link-card-grid',
+      columns: '5',
+      tabletColumns: '3',
+      mobileColumns: '2',
+      items: section.brands.map(b => ({
+        label: b.name,
+        href: b.href === '#' ? `/window-sticker/${b.name.toLowerCase().replace(/\s+/g, '-')}` : b.href,
+      })),
+    }]
+  }
+
+  return block
+}
+
+function generateFAQBlock(section) {
+  const block = {
+    blockType: 'section',
+    blockName: bName(impHeading(section)),
+    bg: 'muted',
+    scene: 'default',
+    narrow: true,
+    tag: impTagline(section),
+    heading: impHeading(section),
+    headingLevel: section.headingLevel || 'h2',
+  }
+
+  if (section.items?.length > 0) {
+    block.content = [{
+      blockType: 'faqs',
+      questionElement: 'h3',
+      items: section.items.map(item => ({
+        question: item.question,
+        answer: textToLexical(item.answer || ''),
+      })),
+    }]
+  }
+
+  return block
+}
+
 // ── Assemble all blocks for a brand ────────────────────────────────
 
-function generateBlocks(brand) {
+async function generateBlocks(brand) {
   const s = brand.sections
   const blocks = []
 
   if (s.hero) blocks.push(generateHeroBlock(s.hero))
   if (s.whatIs) blocks.push(generateWhatIsBlock(s.whatIs))
   if (s.whatsOn) blocks.push(generateWhatsOnBlock(s.whatsOn))
+  if (s.whyNeed) blocks.push(generateWhyNeedBlock(s.whyNeed))
+  if (s.howToGet) blocks.push(generateHowToGetBlock(s.howToGet))
+  if (s.whereVin) blocks.push(await generateWhereVinBlock(s.whereVin))
+  if (s.whyUse) blocks.push(generateWhyUseBlock(s.whyUse))
+  if (s.ctaBanner) blocks.push(generateCtaBannerBlock(s.ctaBanner))
+  if (s.allManufacturers) blocks.push(generateAllManufacturersBlock(s.allManufacturers))
+  if (s.faq) blocks.push(generateFAQBlock(s.faq))
 
   return blocks
 }
@@ -255,6 +577,10 @@ async function updateContentPage(id, data) {
   })
   try {
     const result = await res.json()
+    if (result.errors) {
+      console.error(`    Error:`, result.errors[0]?.data?.errors?.[0]?.message || JSON.stringify(result.errors[0]).slice(0, 300))
+      return null
+    }
     return result.doc
   } catch {
     return { id }
@@ -295,7 +621,7 @@ async function main() {
   let created = 0, updated = 0, failed = 0
 
   for (const brand of brands) {
-    const blocks = generateBlocks(brand)
+    const blocks = await generateBlocks(brand)
 
     if (dryRun) {
       console.log(`  ${brand.name.padEnd(25)} ${blocks.length} blocks`)

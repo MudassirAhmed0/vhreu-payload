@@ -6,9 +6,9 @@
     "fullHeight": false,
     "glow": false,
     "formType": "vin",
-    "title": "Decode Your Audi VIN with Our **Instant Lookup Tool**",
-    "description": "Take advantage of the Free Audi VIN Decoder tool to validate car specifications. Get access to any vehicle’s year, make, model, trim, engine and more details. Generate a comprehensive vehicle history report that includes detailed information about mileage, damages, and other recorded data pertaining to the car.",
-    "tag": "Europe's Trusted VIN Source",
+    "title": "Decode Peugeot VIN with Our **Instant Lookup Tool**",
+    "description": "Take advantage of the Peugeot VIN Decoder tool to validate car specifications. Generate a comprehensive vehicle history report that includes detailed information about mileage, damages, and other recorded data pertaining to the car.",
+    "tag": "Every Peugeot Has a Story",
     "tagLevel": "span",
     "features": [
       {
@@ -60,8 +60,8 @@
     "content": [
       {
         "blockType": "split-content",
-        "tag": "Your Vehicle's Fingerprint",
-        "heading": "What is an **Audi VIN** Number?",
+        "tag": "Your Vehicle's Digital Fingerprint",
+        "heading": "What is a **Peugeot VIN Decoder**?",
         "headingLevel": "h2",
         "description": {
           "root": {
@@ -82,7 +82,7 @@
                 "children": [
                   {
                     "type": "text",
-                    "text": "An Audi VIN is a Vehicle Identification Number, a unique alphanumeric code that serves as the fingerprint of an Audi vehicle. This 17-digit sequence of characters provides valuable information about the car’s origins, specifications, and history.",
+                    "text": "A Peugeot VIN Check is a unique code assigned to each Peugeot vehicle, serving as a distinctive identifier that contains crucial information about the car’s specifications, manufacturing details, and history.",
                     "format": 0,
                     "version": 1,
                     "detail": 0,
@@ -102,27 +102,7 @@
                 "children": [
                   {
                     "type": "text",
-                    "text": "By utilizing an Audi VIN Check, individuals can uncover essential details about any Audi car such as the country of origin, manufacturer, model, engine type, body style, and even historical data such as mileage, maintenance records, accident history and more.",
-                    "format": 0,
-                    "version": 1,
-                    "detail": 0,
-                    "mode": "normal",
-                    "style": ""
-                  }
-                ]
-              },
-              {
-                "type": "paragraph",
-                "direction": "ltr",
-                "format": "",
-                "indent": 0,
-                "version": 1,
-                "textFormat": 0,
-                "textStyle": "",
-                "children": [
-                  {
-                    "type": "text",
-                    "text": "The Audi VIN Lookup acts as a powerful tool for buyers, dealerships, vehicle enthusiasts, and researchers, offering a comprehensive understanding of Audi’s identity and allowing for informed decision-making and appreciation of the vehicle’s legacy.",
+                    "text": "The Peugeot VIN is typically composed of 17 alphanumeric characters and can be found on the vehicle’s chassis or in its associated documents. By performing a Peugeot VIN lookup, individuals can access valuable data such as the car’s model, engine type, production year, country of origin, and additional optional features.",
                     "format": 0,
                     "version": 1,
                     "detail": 0,
@@ -143,18 +123,18 @@
     "blockType": "section",
     "bg": "muted",
     "scene": "default",
-    "tag": "Every Digit Tells a Story",
-    "heading": "What does the **Audi VIN Decoder** contain?",
+    "tag": "17 Characters, Full Clarity",
+    "heading": "What does the **Peugeot VIN Number** contain?",
     "headingLevel": "h2",
     "content": [
       {
         "blockType": "vin-anatomy",
-        "sampleVin": "WAUZZZ8V5KA012345",
+        "sampleVin": "VF3ZZZ8V5KA012345",
         "titleElement": "h3",
         "segments": [
           {
-            "label": "WMI",
-            "fullName": "World Manufacturer Identifier",
+            "label": "Characters 1-3",
+            "fullName": "Characters 1-3",
             "digits": "1-3",
             "description": {
               "root": {
@@ -175,7 +155,7 @@
                     "children": [
                       {
                         "type": "text",
-                        "text": "The first three characters identify the country of origin and the manufacturer.",
+                        "text": "World manufacturer identifier (WMI) – Identifies the manufacturer and country of origin.",
                         "format": 0,
                         "version": 1,
                         "detail": 0,
@@ -189,9 +169,9 @@
             }
           },
           {
-            "label": "VDS",
-            "fullName": "Vehicle Descriptor Section",
-            "digits": "4-8",
+            "label": "Characters 4-9",
+            "fullName": "Characters 4-9",
+            "digits": "4-9",
             "description": {
               "root": {
                 "type": "root",
@@ -211,7 +191,7 @@
                     "children": [
                       {
                         "type": "text",
-                        "text": "The next five characters provide information about the model, engine type, and body style of the Audi.",
+                        "text": "Vehicle descriptor section (VDS) – Provides details about the vehicle’s model, body type, engine, and transmission.",
                         "format": 0,
                         "version": 1,
                         "detail": 0,
@@ -225,80 +205,8 @@
             }
           },
           {
-            "label": "VIS",
-            "fullName": "Vehicle Identifier Section",
-            "digits": "",
-            "description": {
-              "root": {
-                "type": "root",
-                "direction": "ltr",
-                "format": "",
-                "indent": 0,
-                "version": 1,
-                "children": [
-                  {
-                    "type": "paragraph",
-                    "direction": "ltr",
-                    "format": "",
-                    "indent": 0,
-                    "version": 1,
-                    "textFormat": 0,
-                    "textStyle": "",
-                    "children": [
-                      {
-                        "type": "text",
-                        "text": "The following eight characters represent the unique serial number of the vehicle, including the production sequence and specific features.",
-                        "format": 0,
-                        "version": 1,
-                        "detail": 0,
-                        "mode": "normal",
-                        "style": ""
-                      }
-                    ]
-                  }
-                ]
-              }
-            }
-          },
-          {
-            "label": "Check Digit",
-            "fullName": "Check Digit",
-            "digits": "9",
-            "description": {
-              "root": {
-                "type": "root",
-                "direction": "ltr",
-                "format": "",
-                "indent": 0,
-                "version": 1,
-                "children": [
-                  {
-                    "type": "paragraph",
-                    "direction": "ltr",
-                    "format": "",
-                    "indent": 0,
-                    "version": 1,
-                    "textFormat": 0,
-                    "textStyle": "",
-                    "children": [
-                      {
-                        "type": "text",
-                        "text": "The ninth character is a mathematical calculation that ensures the accuracy of the VIN.",
-                        "format": 0,
-                        "version": 1,
-                        "detail": 0,
-                        "mode": "normal",
-                        "style": ""
-                      }
-                    ]
-                  }
-                ]
-              }
-            }
-          },
-          {
-            "label": "Model Year",
-            "fullName": "Model Year",
+            "label": "Characters 10",
+            "fullName": "Characters 10",
             "digits": "10",
             "description": {
               "root": {
@@ -319,7 +227,7 @@
                     "children": [
                       {
                         "type": "text",
-                        "text": "The tenth character indicates the model year of the Audi.",
+                        "text": "Production year – Represents the specific year of production.",
                         "format": 0,
                         "version": 1,
                         "detail": 0,
@@ -333,9 +241,9 @@
             }
           },
           {
-            "label": "Assembly Plant",
-            "fullName": "Assembly Plant",
-            "digits": "11",
+            "label": "Characters 11-12",
+            "fullName": "Characters 11-12",
+            "digits": "11-12",
             "description": {
               "root": {
                 "type": "root",
@@ -355,7 +263,7 @@
                     "children": [
                       {
                         "type": "text",
-                        "text": "The eleventh character identifies the manufacturing plant where the Audi was built.",
+                        "text": "Manufacturing plant code – Indicates the manufacturing plant where the vehicle was built.",
                         "format": 0,
                         "version": 1,
                         "detail": 0,
@@ -369,9 +277,9 @@
             }
           },
           {
-            "label": "Production Sequence",
-            "fullName": "Production Sequence",
-            "digits": "12-17",
+            "label": "Characters 13-17",
+            "fullName": "Characters 13-17",
+            "digits": "13-17",
             "description": {
               "root": {
                 "type": "root",
@@ -391,7 +299,7 @@
                     "children": [
                       {
                         "type": "text",
-                        "text": "The remaining six characters represent the production sequence number of the vehicle.",
+                        "text": "Sequential production number – This represents the specific sequence number of the vehicle in production.",
                         "format": 0,
                         "version": 1,
                         "detail": 0,
@@ -416,7 +324,7 @@
       {
         "blockType": "split-content",
         "tag": "Locate It in Seconds",
-        "heading": "Where to find the **VIN Number** on Audi?",
+        "heading": "Where to find the **Peugeot VIN Number**?",
         "headingLevel": "h2",
         "contentType": "cards",
         "cardColumns": "2",
@@ -631,9 +539,9 @@
     "blockType": "section",
     "bg": "muted",
     "scene": "default",
-    "tag": "Full Audi Range Covered",
-    "heading": "List of **Audi Models** that work with our VIN decoder",
-    "headingLevel": "h3",
+    "tag": "Full Peugeot Range Covered",
+    "heading": "Peugeot Models Compatible with Our **Europe VIN Decoder**",
+    "headingLevel": "h2",
     "content": [
       {
         "blockType": "link-card-grid",
@@ -643,58 +551,49 @@
         "size": "small",
         "items": [
           {
-            "label": "Audi A3"
+            "label": "Peugeot 208"
           },
           {
-            "label": "Audi A4"
+            "label": "Peugeot 308"
           },
           {
-            "label": "Audi A5"
+            "label": "Peugeot 2008"
           },
           {
-            "label": "Audi A6"
+            "label": "Peugeot 3008"
           },
           {
-            "label": "Audi A7"
+            "label": "Peugeot 5008"
           },
           {
-            "label": "Audi A8"
+            "label": "Peugeot 508"
           },
           {
-            "label": "Audi Q3"
+            "label": "Peugeot 108"
           },
           {
-            "label": "Audi Q5"
+            "label": "Peugeot 208 GTI"
           },
           {
-            "label": "Audi Q7"
+            "label": "Peugeot 308 GTI"
           },
           {
-            "label": "Audi Q8"
+            "label": "Peugeot 508 SW"
           },
           {
-            "label": "Audi RS3"
+            "label": "Peugeot 3008 GT"
           },
           {
-            "label": "Audi RS4"
+            "label": "Peugeot 508 PSE"
           },
           {
-            "label": "Audi RS5"
+            "label": "Peugeot Rifter"
           },
           {
-            "label": "Audi RS6"
+            "label": "Peugeot Traveller"
           },
           {
-            "label": "Audi RS7"
-          },
-          {
-            "label": "Audi TT"
-          },
-          {
-            "label": "Audi R8"
-          },
-          {
-            "label": "Audi e-tron"
+            "label": "Peugeot Partner"
           }
         ]
       }
@@ -823,14 +722,14 @@
     "content": [
       {
         "blockType": "split-content",
-        "tag": "Three Simple Steps",
-        "heading": "How to Use **Audi VIN Decoder** Europe?",
+        "tag": "Three Steps, Full History",
+        "heading": "How to **check VIN** Peugeot?",
         "headingLevel": "h2",
         "contentType": "cards",
         "cardColumns": "2",
         "cards": [
           {
-            "title": "Step 1: Find Your Audi VIN",
+            "title": "Step 1: Find Your Peugeot VIN Number",
             "titleElement": "h3",
             "colSpan": "1",
             "cardDescription": {
@@ -960,7 +859,7 @@
                     "children": [
                       {
                         "type": "text",
-                        "text": "Check the decoded details to verify your Audi’s specifications quickly and accurately.",
+                        "text": "Check the decoded details to verify your Peugeot’s specifications quickly and accurately.",
                         "format": 0,
                         "version": 1,
                         "detail": 0,
@@ -983,8 +882,8 @@
     "blockType": "section",
     "bg": "white",
     "scene": "default",
-    "tag": "Knowledge Protects Your Investment",
-    "heading": "What will you learn with the **Audi VIN Number**?",
+    "tag": "Knowledge That Protects You",
+    "heading": "What Can You learn from the **Peugeot VIN Decoder**?",
     "headingLevel": "h2",
     "content": [
       {
@@ -1002,7 +901,7 @@
               "source": "preset",
               "preset": "list"
             },
-            "title": "Vehicle Specifications",
+            "title": "Vehicle specifications",
             "titleElement": "h3",
             "description": {
               "root": {
@@ -1023,50 +922,7 @@
                     "children": [
                       {
                         "type": "text",
-                        "text": "The VIN reveals essential details about the Audi’s specifications, including the model, trim level, engine type, transmission, and body style. This information ensures that the vehicle matches its advertised specifications.",
-                        "format": 0,
-                        "version": 1,
-                        "detail": 0,
-                        "mode": "normal",
-                        "style": ""
-                      }
-                    ]
-                  }
-                ]
-              }
-            }
-          },
-          {
-            "cardType": "feature",
-            "colSpan": "1",
-            "style": "icon",
-            "layout": "stacked",
-            "icon": {
-              "source": "preset",
-              "preset": "factory"
-            },
-            "title": "Manufacturing Details",
-            "titleElement": "h3",
-            "description": {
-              "root": {
-                "type": "root",
-                "direction": "ltr",
-                "format": "",
-                "indent": 0,
-                "version": 1,
-                "children": [
-                  {
-                    "type": "paragraph",
-                    "direction": "ltr",
-                    "format": "",
-                    "indent": 0,
-                    "version": 1,
-                    "textFormat": 0,
-                    "textStyle": "",
-                    "children": [
-                      {
-                        "type": "text",
-                        "text": "The VIN provides insights into the manufacturing details of the Audi, such as the production plant, production year, and production sequence number. This information helps authenticate the vehicle’s origin and production timeline.",
+                        "text": "The Peugeot VIN can reveal details such as the model, trim level, engine type, transmission, and other specific features of the vehicle.",
                         "format": 0,
                         "version": 1,
                         "detail": 0,
@@ -1088,7 +944,7 @@
               "source": "preset",
               "preset": "triangle-alert"
             },
-            "title": "Accident History",
+            "title": "Accident history",
             "titleElement": "h3",
             "description": {
               "root": {
@@ -1109,7 +965,7 @@
                     "children": [
                       {
                         "type": "text",
-                        "text": "An Audi VIN check may reveal any reported accidents or damage. This includes information about major collisions, repairs, or insurance claims filed for the vehicle. Knowing the accident history can help assess the vehicle’s condition and potential issues.",
+                        "text": "The VIN can be used to access records of reported accidents, damages, or insurance claims filed for the vehicle.",
                         "format": 0,
                         "version": 1,
                         "detail": 0,
@@ -1131,7 +987,7 @@
               "source": "preset",
               "preset": "gauge"
             },
-            "title": "Mileage Verification",
+            "title": "Mileage verification",
             "titleElement": "h3",
             "description": {
               "root": {
@@ -1152,7 +1008,7 @@
                     "children": [
                       {
                         "type": "text",
-                        "text": "The VIN check may provide data regarding the recorded mileage at various points in the vehicle’s history. Verifying the mileage helps ensure that the advertised mileage is accurate and can reveal any potential discrepancies or odometer rollbacks.",
+                        "text": "A Peugeot VIN search can help verify the accuracy of the recorded mileage by comparing it with available service records and historical data.",
                         "format": 0,
                         "version": 1,
                         "detail": 0,
@@ -1172,9 +1028,9 @@
             "layout": "stacked",
             "icon": {
               "source": "preset",
-              "preset": "car"
+              "preset": "file-text"
             },
-            "title": "Auction Info",
+            "title": "Title information",
             "titleElement": "h3",
             "description": {
               "root": {
@@ -1195,7 +1051,50 @@
                     "children": [
                       {
                         "type": "text",
-                        "text": "By checking an Audi’s history, you can get insights into Audi’s auction history, including details such as previous auction dates, auction house names, auction images, price of the bid, status of the auction and more. This information can be valuable in understanding Audi’s previous ownership, potential usage patterns, and market value. However, it’s important to interpret auction information in conjunction with other aspects of the vehicle’s history to gain a comprehensive understanding",
+                        "text": "The history check may provide details about the vehicle’s title, including any reported salvage or rebuilt titles, title brands (such as flood damage or lemon law buyback), and whether the vehicle has a clear title.",
+                        "format": 0,
+                        "version": 1,
+                        "detail": 0,
+                        "mode": "normal",
+                        "style": ""
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "cardType": "feature",
+            "colSpan": "1",
+            "style": "icon",
+            "layout": "stacked",
+            "icon": {
+              "source": "preset",
+              "preset": "wrench"
+            },
+            "title": "Maintenance and service records",
+            "titleElement": "h3",
+            "description": {
+              "root": {
+                "type": "root",
+                "direction": "ltr",
+                "format": "",
+                "indent": 0,
+                "version": 1,
+                "children": [
+                  {
+                    "type": "paragraph",
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": "",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Depending on the availability of data, you may find records of routine maintenance, repairs, and service performed on the vehicle.",
                         "format": 0,
                         "version": 1,
                         "detail": 0,
@@ -1230,7 +1129,7 @@
             "children": [
               {
                 "type": "text",
-                "text": "Performing an Audi history check using the VIN (Vehicle Identification Number) provides valuable insights into the vehicle’s past and helps you make informed decisions. Here’s what you can learn by conducting an Audi VIN check:",
+                "text": "Performing a Peugeot vin number check using the VIN can provide you with valuable information about the vehicle’s past. Here’s what you can learn with a Peugeot VIN:",
                 "format": 0,
                 "version": 1,
                 "detail": 0,
@@ -1261,7 +1160,7 @@
             "children": [
               {
                 "type": "text",
-                "text": "By conducting an Audi history check using the VIN, you can gather comprehensive information about the vehicle’s specifications, manufacturing details, ownership history, accident records, mileage verification, title status, and service records. This knowledge empowers you to make informed decisions when purchasing a used Audi and provides a better understanding of the vehicle’s background and condition.",
+                "text": "It’s important to note that the extent and availability of information may vary depending on the source and the region, as well as the completeness of the vehicle’s history.",
                 "format": 0,
                 "version": 1,
                 "detail": 0,
@@ -1280,7 +1179,7 @@
     "scene": "default",
     "narrow": true,
     "tag": "Answers You Can Trust",
-    "heading": "FAQ About **Audi VIN Decoder** in Europe",
+    "heading": "FAQ About **Peugeot VIN Decoder**",
     "headingLevel": "h2",
     "content": [
       {
@@ -1288,7 +1187,7 @@
         "questionElement": "h3",
         "items": [
           {
-            "question": "What is an Audi VIN Decoder?",
+            "question": "What is a Peugeot VIN decoder?",
             "answer": {
               "root": {
                 "type": "root",
@@ -1308,7 +1207,7 @@
                     "children": [
                       {
                         "type": "text",
-                        "text": "An Audi VIN Decoder is an online tool or service that allows you to input an Audi’s Vehicle Identification Number (VIN) and obtain detailed information about the vehicle. It decodes the VIN to provide insights into the Audi’s manufacturing details, specifications, and historical records.",
+                        "text": "A Peugeot VIN decoder is an online tool that interprets and decodes the unique alphanumeric code of a Peugeot Vehicle Identification Number (VIN). It provides detailed information about the vehicle’s specifications, manufacturing details, and history.",
                         "format": 0,
                         "version": 1,
                         "detail": 0,
@@ -1322,7 +1221,7 @@
             }
           },
           {
-            "question": "What information can I obtain through an Audi VIN Check Europe?",
+            "question": "How does a Peugeot VIN decoder work?",
             "answer": {
               "root": {
                 "type": "root",
@@ -1342,7 +1241,7 @@
                     "children": [
                       {
                         "type": "text",
-                        "text": "By using an Audi VIN Decoder, you can gather information such as the Audi’s model, trim level, engine type, transmission, body style, production year, manufacturing plant, ownership history, accident records, mileage verification, title status, and service records.",
+                        "text": "A Peugeot VIN decoder works by analyzing the various sections and characters within a VIN. It uses a database or algorithm to interpret these characters and extract information about the vehicle, such as the manufacturer, model, production year, engine type, and more.",
                         "format": 0,
                         "version": 1,
                         "detail": 0,
@@ -1356,7 +1255,7 @@
             }
           },
           {
-            "question": "How does an Audi VIN Lookup work?",
+            "question": "What information can I obtain through a Peugeot VIN lookup?",
             "answer": {
               "root": {
                 "type": "root",
@@ -1376,7 +1275,7 @@
                     "children": [
                       {
                         "type": "text",
-                        "text": "An Audi VIN Decoder works by analyzing the 17-digit alphanumeric code of the VIN. Each character represents specific information about the Audi, such as its manufacturing origin, model, engine type, and production sequence. The decoder references a database to interpret the characters you enter and it provides the corresponding details about the vehicle.",
+                        "text": "A Peugeot VIN search can provide information such as the vehicle’s make, model, trim level, engine type, transmission, production year, manufacturing plant, and unique serial number. Depending on the service or database, it may also include data on ownership history, accidents, mileage, title status, and maintenance records.",
                         "format": 0,
                         "version": 1,
                         "detail": 0,
@@ -1390,7 +1289,7 @@
             }
           },
           {
-            "question": "Is using an Audi VIN Decoder free?",
+            "question": "Can a Peugeot VIN decoder provide a complete vehicle history?",
             "answer": {
               "root": {
                 "type": "root",
@@ -1410,7 +1309,7 @@
                     "children": [
                       {
                         "type": "text",
-                        "text": "Our online Audi VIN Decoder tools offer free services to decode and provide basic information about the vehicle. However,if you want to get access to the full comprehensive vehicle history reports, you need to pay a fee.",
+                        "text": "While a Peugeot VIN number can provide valuable information, it typically offers a snapshot of the vehicle’s specifications and history based on available data sources. For a comprehensive vehicle history report, additional services or platforms specializing in such reports, like ours, may be needed.",
                         "format": 0,
                         "version": 1,
                         "detail": 0,
@@ -1424,7 +1323,7 @@
             }
           },
           {
-            "question": "How can a VIN Check help me when buying a used Audi?",
+            "question": "Can a Peugeot VIN check determine if a vehicle has been stolen?",
             "answer": {
               "root": {
                 "type": "root",
@@ -1444,7 +1343,7 @@
                     "children": [
                       {
                         "type": "text",
-                        "text": "Conducting a VIN Check on a used Audi can help you make an informed decision by providing valuable insights into the vehicle’s history. It allows you to verify the accuracy of the vehicle’s specifications, check for any reported accidents or damages, assess ownership history, and determine if there are any liens or outstanding loans on the vehicle.",
+                        "text": "A VIN decoder Peugeot may not directly determine if a vehicle has been stolen. However, it can provide information about the vehicle’s title history, including any reported theft or salvage records, which can raise suspicions and warrant further investigation.",
                         "format": 0,
                         "version": 1,
                         "detail": 0,
@@ -1458,7 +1357,7 @@
             }
           },
           {
-            "question": "Can a VIN Check guarantee that an Audi is in good condition?",
+            "question": "Can a Peugeot VIN decoder provide information about recalls?",
             "answer": {
               "root": {
                 "type": "root",
@@ -1478,7 +1377,7 @@
                     "children": [
                       {
                         "type": "text",
-                        "text": "While a VIN Check provides valuable information about a vehicle’s history, it cannot guarantee the current condition of the Audi. It is still essential to conduct a thorough inspection and possibly consult with a trusted mechanic before finalizing a purchase.",
+                        "text": "Yes, some Peugeot VIN Number decoders can provide information about any open recalls associated with a specific vehicle. This can help identify any safety or performance issues that need to be addressed.",
                         "format": 0,
                         "version": 1,
                         "detail": 0,
@@ -1490,6 +1389,89 @@
                 ]
               }
             }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "blockType": "section",
+    "bg": "white",
+    "scene": "default",
+    "tag": "Beyond Peugeot",
+    "heading": "How to Decode **other Makes** VIN Number?",
+    "headingLevel": "h3",
+    "content": [
+      {
+        "blockType": "link-card-grid",
+        "columns": "5",
+        "tabletColumns": "3",
+        "mobileColumns": "2",
+        "size": "small",
+        "items": [
+          {
+            "label": "Acura",
+            "href": "/vin-decoder/acura"
+          },
+          {
+            "label": "Alfa Romeo",
+            "href": "/vin-decoder/alfa-romeo"
+          },
+          {
+            "label": "Audi",
+            "href": "/vin-decoder/audi"
+          },
+          {
+            "label": "BMW",
+            "href": "/vin-decoder/bmw"
+          },
+          {
+            "label": "Citroën",
+            "href": "/vin-decoder/citroen"
+          },
+          {
+            "label": "Fiat",
+            "href": "/vin-decoder/fiat"
+          },
+          {
+            "label": "Jaguar",
+            "href": "/vin-decoder/jaguar"
+          },
+          {
+            "label": "Land Rover",
+            "href": "/vin-decoder/land-rover"
+          },
+          {
+            "label": "Mercedes-Benz",
+            "href": "/vin-decoder/mercedes-benz"
+          },
+          {
+            "label": "MINI",
+            "href": "/vin-decoder/mini"
+          },
+          {
+            "label": "Peugeot",
+            "href": "/vin-decoder/peugeot"
+          },
+          {
+            "label": "Porsche",
+            "href": "/vin-decoder/porsche"
+          },
+          {
+            "label": "Renault",
+            "href": "/vin-decoder/renault"
+          },
+          {
+            "label": "Saab",
+            "href": "/vin-decoder/saab"
+          },
+          {
+            "label": "Volkswagen",
+            "href": "/vin-decoder/volkswagen"
+          },
+          {
+            "label": "Volvo",
+            "href": "/vin-decoder/volvo"
           }
         ]
       }
