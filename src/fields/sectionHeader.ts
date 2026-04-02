@@ -40,6 +40,7 @@ export function sectionHeaderFields(options?: {
         { label: 'H2', value: 'h2' },
         { label: 'H3', value: 'h3' },
         { label: 'H4', value: 'h4' },
+        { label: 'Span (no heading)', value: 'span' },
       ],
       admin: { position: 'sidebar' },
     },

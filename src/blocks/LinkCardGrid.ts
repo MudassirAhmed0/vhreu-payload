@@ -68,7 +68,7 @@ export const LinkCardGridBlock: Block = {
       type: 'array',
       label: 'Cards',
       minRows: 1,
-      maxRows: 30,
+      maxRows: 50,
       admin: { initCollapsed: false },
       fields: [
         {
