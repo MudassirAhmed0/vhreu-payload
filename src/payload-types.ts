@@ -98,7 +98,7 @@ export interface Config {
     'payload-migrations': PayloadMigrationsSelect<false> | PayloadMigrationsSelect<true>;
   };
   db: {
-    defaultIDType: number;
+    defaultIDType: string;
   };
   fallbackLocale:
     | ('false' | 'none' | 'null')
@@ -145,7 +145,7 @@ export interface UserAuthOperations {
  * via the `definition` "users".
  */
 export interface User {
-  id: number;
+  id: string;
   updatedAt: string;
   createdAt: string;
   email: string;
@@ -170,7 +170,7 @@ export interface User {
  * via the `definition` "media".
  */
 export interface Media {
-  id: number;
+  id: string;
   alt: string;
   prefix?: string | null;
   updatedAt: string;
@@ -216,7 +216,7 @@ export interface Media {
  * via the `definition` "pages".
  */
 export interface Page {
-  id: number;
+  id: string;
   title: string;
   /**
    * URL-safe identifier. Auto-generated from title if left empty.
@@ -327,7 +327,7 @@ export interface Page {
             /**
              * Right-side image (580×660 recommended)
              */
-            heroImage?: (number | null) | Media;
+            heroImage?: (string | null) | Media;
             ctas?:
               | {
                   label: string;
@@ -372,7 +372,7 @@ export interface Page {
              * Wrap text in **double asterisks** to highlight. Example: Why You Should Run a **European VIN Check**
              */
             heading?: string | null;
-            headingLevel?: ('h1' | 'h2' | 'h3' | 'h4') | null;
+            headingLevel?: ('h1' | 'h2' | 'h3' | 'h4' | 'span') | null;
             description?: {
               root: {
                 type: string;
@@ -669,7 +669,7 @@ export interface Page {
                        * Wrap text in **double asterisks** for gradient highlight on new line. Example: Save Money and Avoid **Costly Mistakes**
                        */
                       heading: string;
-                      headingLevel?: ('h2' | 'h3' | 'h4') | null;
+                      headingLevel?: ('h2' | 'h3' | 'h4' | 'span') | null;
                       contentType?: ('richtext' | 'cards') | null;
                       description?: {
                         root: {
@@ -755,6 +755,7 @@ export interface Page {
                             };
                             title: string;
                             titleElement?: ('h3' | 'h4') | null;
+                            colSpan?: ('1' | '2') | null;
                             cardDescription?: {
                               root: {
                                 type: string;
@@ -777,7 +778,7 @@ export interface Page {
                       /**
                        * Right-side image (recommended 600×500 or larger)
                        */
-                      media?: (number | null) | Media;
+                      media?: (string | null) | Media;
                       /**
                        * Media on left, text on right
                        */
@@ -1058,7 +1059,7 @@ export interface Page {
                   | {
                       reports?:
                         | {
-                            reportImage?: (number | null) | Media;
+                            reportImage?: (string | null) | Media;
                             year: number;
                             make: string;
                             model: string;
@@ -1073,6 +1074,167 @@ export interface Page {
                       id?: string | null;
                       blockName?: string | null;
                       blockType: 'sample-report-grid';
+                    }
+                  | {
+                      panels?:
+                        | {
+                            icon?: {
+                              source?: ('preset' | 'custom') | null;
+                              preset?:
+                                | (
+                                    | 'car'
+                                    | 'car-front'
+                                    | 'bike'
+                                    | 'truck'
+                                    | 'shield-check'
+                                    | 'shield'
+                                    | 'lock'
+                                    | 'lock-open'
+                                    | 'triangle-alert'
+                                    | 'siren'
+                                    | 'file-text'
+                                    | 'clipboard-check'
+                                    | 'file-search'
+                                    | 'circle-check'
+                                    | 'circle-x'
+                                    | 'search'
+                                    | 'eye'
+                                    | 'scan'
+                                    | 'gauge'
+                                    | 'trending-up'
+                                    | 'trending-down'
+                                    | 'database'
+                                    | 'bar-chart-3'
+                                    | 'wallet'
+                                    | 'credit-card'
+                                    | 'tag'
+                                    | 'receipt'
+                                    | 'mail'
+                                    | 'phone'
+                                    | 'headphones'
+                                    | 'message-circle'
+                                    | 'zap'
+                                    | 'wrench'
+                                    | 'globe'
+                                    | 'mouse-pointer-click'
+                                    | 'download'
+                                    | 'link'
+                                    | 'info'
+                                    | 'chevron-right'
+                                    | 'star'
+                                    | 'heart'
+                                    | 'house'
+                                    | 'map-pin'
+                                    | 'clock'
+                                    | 'calendar'
+                                    | 'user'
+                                    | 'users'
+                                    | 'building'
+                                    | 'pencil'
+                                    | 'hash'
+                                    | 'list'
+                                    | 'factory'
+                                    | 'circle-dot'
+                                  )
+                                | null;
+                              /**
+                               * Any Lucide icon name (e.g. "package-check")
+                               */
+                              custom?: string | null;
+                            };
+                            title: string;
+                            titleElement?: ('h2' | 'h3' | 'h4' | 'h5' | 'span') | null;
+                            description?: {
+                              root: {
+                                type: string;
+                                children: {
+                                  type: any;
+                                  version: number;
+                                  [k: string]: unknown;
+                                }[];
+                                direction: ('ltr' | 'rtl') | null;
+                                format: 'left' | 'start' | 'center' | 'right' | 'end' | 'justify' | '';
+                                indent: number;
+                                version: number;
+                              };
+                              [k: string]: unknown;
+                            } | null;
+                            benefits?:
+                              | {
+                                  title: string;
+                                  titleElement?: ('h3' | 'h4' | 'h5' | 'p' | 'span') | null;
+                                  description?: {
+                                    root: {
+                                      type: string;
+                                      children: {
+                                        type: any;
+                                        version: number;
+                                        [k: string]: unknown;
+                                      }[];
+                                      direction: ('ltr' | 'rtl') | null;
+                                      format: 'left' | 'start' | 'center' | 'right' | 'end' | 'justify' | '';
+                                      indent: number;
+                                      version: number;
+                                    };
+                                    [k: string]: unknown;
+                                  } | null;
+                                  id?: string | null;
+                                }[]
+                              | null;
+                            id?: string | null;
+                          }[]
+                        | null;
+                      id?: string | null;
+                      blockName?: string | null;
+                      blockType: 'audience-tabs';
+                    }
+                  | {
+                      /**
+                       * 17-character Vehicle Identification Number
+                       */
+                      sampleVin: string;
+                      /**
+                       * HTML element for each segment title
+                       */
+                      titleElement?: ('h3' | 'h4' | 'span') | null;
+                      segments: {
+                        label: string;
+                        fullName: string;
+                        /**
+                         * Leave empty for group headers (e.g. VIS)
+                         */
+                        digits?: string | null;
+                        description: {
+                          root: {
+                            type: string;
+                            children: {
+                              type: any;
+                              version: number;
+                              [k: string]: unknown;
+                            }[];
+                            direction: ('ltr' | 'rtl') | null;
+                            format: 'left' | 'start' | 'center' | 'right' | 'end' | 'justify' | '';
+                            indent: number;
+                            version: number;
+                          };
+                          [k: string]: unknown;
+                        };
+                        id?: string | null;
+                      }[];
+                      id?: string | null;
+                      blockName?: string | null;
+                      blockType: 'vin-anatomy';
+                    }
+                  | {
+                      showSubscriptions?: boolean | null;
+                      /**
+                       * Plan code to highlight as "Popular" (e.g. AUH5)
+                       */
+                      featuredPlanCode?: string | null;
+                      columns?: ('2' | '3' | '4') | null;
+                      id?: string | null;
+                      blockName?: string | null;
+                      blockType: 'pricing';
                     }
                 )[]
               | null;
@@ -1210,13 +1372,21 @@ export interface Page {
           }
       )[]
     | null;
+  /**
+   * Choose a blog post to feature at the top. If empty, the latest post will be shown.
+   */
+  featuredArticle?: (string | null) | Post;
+  /**
+   * Posts to show in the "Popular Articles" sidebar section.
+   */
+  popularArticles?: (string | Post)[] | null;
   exitPopup?: {
     enabled?: boolean | null;
     title?: string | null;
     subtitle?: string | null;
     description?: string | null;
     ctaText?: string | null;
-    offerImage?: (number | null) | Media;
+    offerImage?: (string | null) | Media;
   };
   meta?: {
     title?: string | null;
@@ -1224,7 +1394,7 @@ export interface Page {
     /**
      * Maximum upload file size: 12MB. Recommended file size for images is <500KB.
      */
-    image?: (number | null) | Media;
+    image?: (string | null) | Media;
     metaRobots?: ('index, follow' | 'noindex, follow' | 'index, nofollow' | 'noindex, nofollow') | null;
     canonicalURL?: string | null;
     structuredData?:
@@ -1250,7 +1420,7 @@ export interface Page {
  * via the `definition` "posts".
  */
 export interface Post {
-  id: number;
+  id: string;
   title: string;
   /**
    * URL-safe identifier. Auto-generated from title if left empty.
@@ -1261,9 +1431,9 @@ export interface Post {
    * Minutes
    */
   readTime?: number | null;
-  author: number | Author;
-  categories?: (number | Category)[] | null;
-  featuredImage?: (number | null) | Media;
+  author: string | Author;
+  categories?: (string | Category)[] | null;
+  featuredImage?: (string | null) | Media;
   excerpt: string;
   content?: {
     root: {
@@ -1281,14 +1451,14 @@ export interface Post {
     [k: string]: unknown;
   } | null;
   relatedMode?: ('dynamic' | 'manual') | null;
-  relatedPosts?: (number | Post)[] | null;
+  relatedPosts?: (string | Post)[] | null;
   meta?: {
     title?: string | null;
     description?: string | null;
     /**
      * Maximum upload file size: 12MB. Recommended file size for images is <500KB.
      */
-    image?: (number | null) | Media;
+    image?: (string | null) | Media;
     metaRobots?: ('index, follow' | 'noindex, follow' | 'index, nofollow' | 'noindex, nofollow') | null;
     canonicalURL?: string | null;
     structuredData?:
@@ -1314,7 +1484,7 @@ export interface Post {
  * via the `definition` "authors".
  */
 export interface Author {
-  id: number;
+  id: string;
   name: string;
   /**
    * URL-safe identifier. Auto-generated from title if left empty.
@@ -1323,7 +1493,7 @@ export interface Author {
   role: string;
   bio?: string | null;
   email: string;
-  image?: (number | null) | Media;
+  image?: (string | null) | Media;
   socials?: {
     x?: string | null;
     linkedin?: string | null;
@@ -1338,7 +1508,7 @@ export interface Author {
  * via the `definition` "categories".
  */
 export interface Category {
-  id: number;
+  id: string;
   label: string;
   value: string;
   updatedAt: string;
@@ -1349,7 +1519,7 @@ export interface Category {
  * via the `definition` "content-groups".
  */
 export interface ContentGroup {
-  id: number;
+  id: string;
   name: string;
   /**
    * URL-safe identifier. Auto-generated from title if left empty.
@@ -1367,15 +1537,15 @@ export interface ContentGroup {
  * via the `definition` "content-pages".
  */
 export interface ContentPage {
-  id: number;
+  id: string;
   name: string;
-  group: number | ContentGroup;
+  group: string | ContentGroup;
   /**
    * URL-safe identifier. Auto-generated from title if left empty.
    */
   slug: string;
   status?: ('active' | 'inactive') | null;
-  logo?: (number | null) | Media;
+  logo?: (string | null) | Media;
   content?:
     | (
         | {
@@ -1480,7 +1650,7 @@ export interface ContentPage {
             /**
              * Right-side image (580×660 recommended)
              */
-            heroImage?: (number | null) | Media;
+            heroImage?: (string | null) | Media;
             ctas?:
               | {
                   label: string;
@@ -1525,7 +1695,7 @@ export interface ContentPage {
              * Wrap text in **double asterisks** to highlight. Example: Why You Should Run a **European VIN Check**
              */
             heading?: string | null;
-            headingLevel?: ('h1' | 'h2' | 'h3' | 'h4') | null;
+            headingLevel?: ('h1' | 'h2' | 'h3' | 'h4' | 'span') | null;
             description?: {
               root: {
                 type: string;
@@ -1822,7 +1992,7 @@ export interface ContentPage {
                        * Wrap text in **double asterisks** for gradient highlight on new line. Example: Save Money and Avoid **Costly Mistakes**
                        */
                       heading: string;
-                      headingLevel?: ('h2' | 'h3' | 'h4') | null;
+                      headingLevel?: ('h2' | 'h3' | 'h4' | 'span') | null;
                       contentType?: ('richtext' | 'cards') | null;
                       description?: {
                         root: {
@@ -1908,6 +2078,7 @@ export interface ContentPage {
                             };
                             title: string;
                             titleElement?: ('h3' | 'h4') | null;
+                            colSpan?: ('1' | '2') | null;
                             cardDescription?: {
                               root: {
                                 type: string;
@@ -1930,7 +2101,7 @@ export interface ContentPage {
                       /**
                        * Right-side image (recommended 600×500 or larger)
                        */
-                      media?: (number | null) | Media;
+                      media?: (string | null) | Media;
                       /**
                        * Media on left, text on right
                        */
@@ -2211,7 +2382,7 @@ export interface ContentPage {
                   | {
                       reports?:
                         | {
-                            reportImage?: (number | null) | Media;
+                            reportImage?: (string | null) | Media;
                             year: number;
                             make: string;
                             model: string;
@@ -2226,6 +2397,167 @@ export interface ContentPage {
                       id?: string | null;
                       blockName?: string | null;
                       blockType: 'sample-report-grid';
+                    }
+                  | {
+                      panels?:
+                        | {
+                            icon?: {
+                              source?: ('preset' | 'custom') | null;
+                              preset?:
+                                | (
+                                    | 'car'
+                                    | 'car-front'
+                                    | 'bike'
+                                    | 'truck'
+                                    | 'shield-check'
+                                    | 'shield'
+                                    | 'lock'
+                                    | 'lock-open'
+                                    | 'triangle-alert'
+                                    | 'siren'
+                                    | 'file-text'
+                                    | 'clipboard-check'
+                                    | 'file-search'
+                                    | 'circle-check'
+                                    | 'circle-x'
+                                    | 'search'
+                                    | 'eye'
+                                    | 'scan'
+                                    | 'gauge'
+                                    | 'trending-up'
+                                    | 'trending-down'
+                                    | 'database'
+                                    | 'bar-chart-3'
+                                    | 'wallet'
+                                    | 'credit-card'
+                                    | 'tag'
+                                    | 'receipt'
+                                    | 'mail'
+                                    | 'phone'
+                                    | 'headphones'
+                                    | 'message-circle'
+                                    | 'zap'
+                                    | 'wrench'
+                                    | 'globe'
+                                    | 'mouse-pointer-click'
+                                    | 'download'
+                                    | 'link'
+                                    | 'info'
+                                    | 'chevron-right'
+                                    | 'star'
+                                    | 'heart'
+                                    | 'house'
+                                    | 'map-pin'
+                                    | 'clock'
+                                    | 'calendar'
+                                    | 'user'
+                                    | 'users'
+                                    | 'building'
+                                    | 'pencil'
+                                    | 'hash'
+                                    | 'list'
+                                    | 'factory'
+                                    | 'circle-dot'
+                                  )
+                                | null;
+                              /**
+                               * Any Lucide icon name (e.g. "package-check")
+                               */
+                              custom?: string | null;
+                            };
+                            title: string;
+                            titleElement?: ('h2' | 'h3' | 'h4' | 'h5' | 'span') | null;
+                            description?: {
+                              root: {
+                                type: string;
+                                children: {
+                                  type: any;
+                                  version: number;
+                                  [k: string]: unknown;
+                                }[];
+                                direction: ('ltr' | 'rtl') | null;
+                                format: 'left' | 'start' | 'center' | 'right' | 'end' | 'justify' | '';
+                                indent: number;
+                                version: number;
+                              };
+                              [k: string]: unknown;
+                            } | null;
+                            benefits?:
+                              | {
+                                  title: string;
+                                  titleElement?: ('h3' | 'h4' | 'h5' | 'p' | 'span') | null;
+                                  description?: {
+                                    root: {
+                                      type: string;
+                                      children: {
+                                        type: any;
+                                        version: number;
+                                        [k: string]: unknown;
+                                      }[];
+                                      direction: ('ltr' | 'rtl') | null;
+                                      format: 'left' | 'start' | 'center' | 'right' | 'end' | 'justify' | '';
+                                      indent: number;
+                                      version: number;
+                                    };
+                                    [k: string]: unknown;
+                                  } | null;
+                                  id?: string | null;
+                                }[]
+                              | null;
+                            id?: string | null;
+                          }[]
+                        | null;
+                      id?: string | null;
+                      blockName?: string | null;
+                      blockType: 'audience-tabs';
+                    }
+                  | {
+                      /**
+                       * 17-character Vehicle Identification Number
+                       */
+                      sampleVin: string;
+                      /**
+                       * HTML element for each segment title
+                       */
+                      titleElement?: ('h3' | 'h4' | 'span') | null;
+                      segments: {
+                        label: string;
+                        fullName: string;
+                        /**
+                         * Leave empty for group headers (e.g. VIS)
+                         */
+                        digits?: string | null;
+                        description: {
+                          root: {
+                            type: string;
+                            children: {
+                              type: any;
+                              version: number;
+                              [k: string]: unknown;
+                            }[];
+                            direction: ('ltr' | 'rtl') | null;
+                            format: 'left' | 'start' | 'center' | 'right' | 'end' | 'justify' | '';
+                            indent: number;
+                            version: number;
+                          };
+                          [k: string]: unknown;
+                        };
+                        id?: string | null;
+                      }[];
+                      id?: string | null;
+                      blockName?: string | null;
+                      blockType: 'vin-anatomy';
+                    }
+                  | {
+                      showSubscriptions?: boolean | null;
+                      /**
+                       * Plan code to highlight as "Popular" (e.g. AUH5)
+                       */
+                      featuredPlanCode?: string | null;
+                      columns?: ('2' | '3' | '4') | null;
+                      id?: string | null;
+                      blockName?: string | null;
+                      blockType: 'pricing';
                     }
                 )[]
               | null;
@@ -2319,7 +2651,7 @@ export interface ContentPage {
     /**
      * Maximum upload file size: 12MB. Recommended file size for images is <500KB.
      */
-    image?: (number | null) | Media;
+    image?: (string | null) | Media;
     metaRobots?: ('index, follow' | 'noindex, follow' | 'index, nofollow' | 'noindex, nofollow') | null;
     canonicalURL?: string | null;
     structuredData?:
@@ -2345,18 +2677,18 @@ export interface ContentPage {
  * via the `definition` "redirects".
  */
 export interface Redirect {
-  id: number;
+  id: string;
   from: string;
   to?: {
     type?: ('reference' | 'custom') | null;
     reference?:
       | ({
           relationTo: 'pages';
-          value: number | Page;
+          value: string | Page;
         } | null)
       | ({
           relationTo: 'posts';
-          value: number | Post;
+          value: string | Post;
         } | null);
     url?: string | null;
   };
@@ -2368,7 +2700,7 @@ export interface Redirect {
  * via the `definition` "payload-kv".
  */
 export interface PayloadKv {
-  id: number;
+  id: string;
   key: string;
   data:
     | {
@@ -2385,48 +2717,48 @@ export interface PayloadKv {
  * via the `definition` "payload-locked-documents".
  */
 export interface PayloadLockedDocument {
-  id: number;
+  id: string;
   document?:
     | ({
         relationTo: 'users';
-        value: number | User;
+        value: string | User;
       } | null)
     | ({
         relationTo: 'media';
-        value: number | Media;
+        value: string | Media;
       } | null)
     | ({
         relationTo: 'pages';
-        value: number | Page;
+        value: string | Page;
       } | null)
     | ({
         relationTo: 'posts';
-        value: number | Post;
+        value: string | Post;
       } | null)
     | ({
         relationTo: 'authors';
-        value: number | Author;
+        value: string | Author;
       } | null)
     | ({
         relationTo: 'categories';
-        value: number | Category;
+        value: string | Category;
       } | null)
     | ({
         relationTo: 'content-groups';
-        value: number | ContentGroup;
+        value: string | ContentGroup;
       } | null)
     | ({
         relationTo: 'content-pages';
-        value: number | ContentPage;
+        value: string | ContentPage;
       } | null)
     | ({
         relationTo: 'redirects';
-        value: number | Redirect;
+        value: string | Redirect;
       } | null);
   globalSlug?: string | null;
   user: {
     relationTo: 'users';
-    value: number | User;
+    value: string | User;
   };
   updatedAt: string;
   createdAt: string;
@@ -2436,10 +2768,10 @@ export interface PayloadLockedDocument {
  * via the `definition` "payload-preferences".
  */
 export interface PayloadPreference {
-  id: number;
+  id: string;
   user: {
     relationTo: 'users';
-    value: number | User;
+    value: string | User;
   };
   key?: string | null;
   value?:
@@ -2459,7 +2791,7 @@ export interface PayloadPreference {
  * via the `definition` "payload-migrations".
  */
 export interface PayloadMigration {
-  id: number;
+  id: string;
   name?: string | null;
   batch?: number | null;
   updatedAt: string;
@@ -2731,6 +3063,7 @@ export interface PagesSelect<T extends boolean = true> {
                                     };
                                 title?: T;
                                 titleElement?: T;
+                                colSpan?: T;
                                 cardDescription?: T;
                                 id?: T;
                               };
@@ -2874,6 +3207,61 @@ export interface PagesSelect<T extends boolean = true> {
                           id?: T;
                           blockName?: T;
                         };
+                    'audience-tabs'?:
+                      | T
+                      | {
+                          panels?:
+                            | T
+                            | {
+                                icon?:
+                                  | T
+                                  | {
+                                      source?: T;
+                                      preset?: T;
+                                      custom?: T;
+                                    };
+                                title?: T;
+                                titleElement?: T;
+                                description?: T;
+                                benefits?:
+                                  | T
+                                  | {
+                                      title?: T;
+                                      titleElement?: T;
+                                      description?: T;
+                                      id?: T;
+                                    };
+                                id?: T;
+                              };
+                          id?: T;
+                          blockName?: T;
+                        };
+                    'vin-anatomy'?:
+                      | T
+                      | {
+                          sampleVin?: T;
+                          titleElement?: T;
+                          segments?:
+                            | T
+                            | {
+                                label?: T;
+                                fullName?: T;
+                                digits?: T;
+                                description?: T;
+                                id?: T;
+                              };
+                          id?: T;
+                          blockName?: T;
+                        };
+                    pricing?:
+                      | T
+                      | {
+                          showSubscriptions?: T;
+                          featuredPlanCode?: T;
+                          columns?: T;
+                          id?: T;
+                          blockName?: T;
+                        };
                   };
               bottomText?: T;
               ctas?:
@@ -2942,6 +3330,8 @@ export interface PagesSelect<T extends boolean = true> {
               blockName?: T;
             };
       };
+  featuredArticle?: T;
+  popularArticles?: T;
   exitPopup?:
     | T
     | {
@@ -3234,6 +3624,7 @@ export interface ContentPagesSelect<T extends boolean = true> {
                                     };
                                 title?: T;
                                 titleElement?: T;
+                                colSpan?: T;
                                 cardDescription?: T;
                                 id?: T;
                               };
@@ -3377,6 +3768,61 @@ export interface ContentPagesSelect<T extends boolean = true> {
                           id?: T;
                           blockName?: T;
                         };
+                    'audience-tabs'?:
+                      | T
+                      | {
+                          panels?:
+                            | T
+                            | {
+                                icon?:
+                                  | T
+                                  | {
+                                      source?: T;
+                                      preset?: T;
+                                      custom?: T;
+                                    };
+                                title?: T;
+                                titleElement?: T;
+                                description?: T;
+                                benefits?:
+                                  | T
+                                  | {
+                                      title?: T;
+                                      titleElement?: T;
+                                      description?: T;
+                                      id?: T;
+                                    };
+                                id?: T;
+                              };
+                          id?: T;
+                          blockName?: T;
+                        };
+                    'vin-anatomy'?:
+                      | T
+                      | {
+                          sampleVin?: T;
+                          titleElement?: T;
+                          segments?:
+                            | T
+                            | {
+                                label?: T;
+                                fullName?: T;
+                                digits?: T;
+                                description?: T;
+                                id?: T;
+                              };
+                          id?: T;
+                          blockName?: T;
+                        };
+                    pricing?:
+                      | T
+                      | {
+                          showSubscriptions?: T;
+                          featuredPlanCode?: T;
+                          columns?: T;
+                          id?: T;
+                          blockName?: T;
+                        };
                   };
               bottomText?: T;
               ctas?:
@@ -3494,12 +3940,12 @@ export interface PayloadMigrationsSelect<T extends boolean = true> {
  * via the `definition` "site-config".
  */
 export interface SiteConfig {
-  id: number;
+  id: string;
   siteName?: string | null;
   siteUrl?: string | null;
   contactEmail?: string | null;
   contactPhone?: string | null;
-  favicon?: (number | null) | Media;
+  favicon?: (string | null) | Media;
   socialLinks?:
     | {
         platform: string;
@@ -3513,7 +3959,7 @@ export interface SiteConfig {
         navType?: ('link' | 'dropdown') | null;
         link?: {
           linkType?: ('internal' | 'external') | null;
-          page?: (number | null) | Page;
+          page?: (string | null) | Page;
           /**
            * Full URL including https://
            */
@@ -3526,7 +3972,7 @@ export interface SiteConfig {
               link: {
                 label: string;
                 linkType?: ('internal' | 'external') | null;
-                page?: (number | null) | Page;
+                page?: (string | null) | Page;
                 /**
                  * Full URL including https://
                  */
@@ -3552,7 +3998,7 @@ export interface SiteConfig {
           | {
               label: string;
               linkType?: ('internal' | 'external') | null;
-              page?: (number | null) | Page;
+              page?: (string | null) | Page;
               /**
                * Full URL including https://
                */
@@ -3571,6 +4017,37 @@ export interface SiteConfig {
     ctaText?: string | null;
     ctaUrl?: string | null;
     backgroundColor?: string | null;
+  };
+  /**
+   * Shows on all pages except window sticker pages
+   */
+  exitPopup?: {
+    enabled?: boolean | null;
+    /**
+     * Small text above headline
+     */
+    title?: string | null;
+    /**
+     * Large headline (e.g. "15% OFF")
+     */
+    subtitle?: string | null;
+    description?: string | null;
+    ctaText?: string | null;
+    offerImage?: (string | null) | Media;
+  };
+  /**
+   * Shows only on /window-sticker/* pages
+   */
+  stickerExitPopup?: {
+    enabled?: boolean | null;
+    title?: string | null;
+    /**
+     * Large headline (e.g. "15% OFF")
+     */
+    subtitle?: string | null;
+    description?: string | null;
+    ctaText?: string | null;
+    offerImage?: (string | null) | Media;
   };
   languages?:
     | {
@@ -3662,6 +4139,26 @@ export interface SiteConfigSelect<T extends boolean = true> {
         ctaText?: T;
         ctaUrl?: T;
         backgroundColor?: T;
+      };
+  exitPopup?:
+    | T
+    | {
+        enabled?: T;
+        title?: T;
+        subtitle?: T;
+        description?: T;
+        ctaText?: T;
+        offerImage?: T;
+      };
+  stickerExitPopup?:
+    | T
+    | {
+        enabled?: T;
+        title?: T;
+        subtitle?: T;
+        description?: T;
+        ctaText?: T;
+        offerImage?: T;
       };
   languages?:
     | T
