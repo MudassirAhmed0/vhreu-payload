@@ -94,6 +94,13 @@ function buildBrandPrompt(brand) {
   if (s.hero) sections.push({ key: 'hero', heading: s.hero.heading, isHero: true })
   if (s.whatIs) sections.push({ key: 'whatIs', heading: s.whatIs.heading })
   if (s.whatsOn) sections.push({ key: 'whatsOn', heading: s.whatsOn.heading })
+  if (s.whyNeed) sections.push({ key: 'whyNeed', heading: s.whyNeed.heading })
+  if (s.howToGet) sections.push({ key: 'howToGet', heading: s.howToGet.heading })
+  if (s.whereVin) sections.push({ key: 'whereVin', heading: s.whereVin.heading })
+  if (s.whyUse) sections.push({ key: 'whyUse', heading: s.whyUse.heading })
+  if (s.ctaBanner) sections.push({ key: 'ctaBanner', heading: s.ctaBanner.heading })
+  if (s.allManufacturers) sections.push({ key: 'allManufacturers', heading: s.allManufacturers.heading })
+  if (s.faq) sections.push({ key: 'faq', heading: s.faq.heading })
 
   return `${SYSTEM_CONTEXT}
 
