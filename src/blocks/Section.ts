@@ -10,6 +10,9 @@ import { LinkCardGridBlock } from './LinkCardGrid'
 import { StepsBlock } from './Steps'
 import { ComparisonTableBlock } from './ComparisonTable'
 import { SampleReportGridBlock } from './SampleReportGrid'
+import { AudienceTabsBlock } from './AudienceTabs'
+import { VinAnatomyBlock } from './VinAnatomy'
+import { PricingBlock } from './Pricing'
 
 /**
  * Section — the universal section container.
@@ -98,6 +101,9 @@ export const SectionBlock: Block = {
         StepsBlock,
         ComparisonTableBlock,
         SampleReportGridBlock,
+        AudienceTabsBlock,
+        VinAnatomyBlock,
+        PricingBlock,
       ],
     },
 
