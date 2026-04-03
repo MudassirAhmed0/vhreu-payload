@@ -23,6 +23,18 @@ export function sectionHeaderFields(options?: {
       admin: { description: 'Small label above heading' },
     },
     {
+      name: 'tagLevel',
+      type: 'select',
+      defaultValue: 'span',
+      options: [
+        { label: 'H2', value: 'h2' },
+        { label: 'H3', value: 'h3' },
+        { label: 'H4', value: 'h4' },
+        { label: 'Span (default)', value: 'span' },
+      ],
+      admin: { position: 'sidebar', description: 'HTML element for the tag' },
+    },
+    {
       name: 'heading',
       type: 'text',
       required: headingRequired,

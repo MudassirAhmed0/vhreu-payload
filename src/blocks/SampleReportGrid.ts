@@ -9,6 +9,37 @@ export const SampleReportGridBlock: Block = {
   labels: { singular: 'Sample Report Grid', plural: 'Sample Report Grids' },
   fields: [
     {
+      type: 'row',
+      fields: [
+        {
+          name: 'yearElement',
+          type: 'select',
+          label: 'Year Element',
+          defaultValue: 'span',
+          options: [
+            { label: 'H2', value: 'h2' },
+            { label: 'H3', value: 'h3' },
+            { label: 'H4', value: 'h4' },
+            { label: 'Span (no heading)', value: 'span' },
+          ],
+          admin: { width: '50%', description: 'HTML element for the year (e.g. 2006)' },
+        },
+        {
+          name: 'nameElement',
+          type: 'select',
+          label: 'Name Element',
+          defaultValue: 'h3',
+          options: [
+            { label: 'H2', value: 'h2' },
+            { label: 'H3', value: 'h3' },
+            { label: 'H4', value: 'h4' },
+            { label: 'Span (no heading)', value: 'span' },
+          ],
+          admin: { width: '50%', description: 'HTML element for the make + model (e.g. Toyota Corolla)' },
+        },
+      ],
+    },
+    {
       name: 'reports',
       type: 'array',
       label: 'Sample Reports',

@@ -369,6 +369,10 @@ export interface Page {
              */
             tag?: string | null;
             /**
+             * HTML element for the tag
+             */
+            tagLevel?: ('h2' | 'h3' | 'h4' | 'span') | null;
+            /**
              * Wrap text in **double asterisks** to highlight. Example: Why You Should Run a **European VIN Check**
              */
             heading?: string | null;
@@ -1061,6 +1065,14 @@ export interface Page {
                       blockType: 'comparison-table';
                     }
                   | {
+                      /**
+                       * HTML element for the year (e.g. 2006)
+                       */
+                      yearElement?: ('h2' | 'h3' | 'h4' | 'span') | null;
+                      /**
+                       * HTML element for the make + model (e.g. Toyota Corolla)
+                       */
+                      nameElement?: ('h2' | 'h3' | 'h4' | 'span') | null;
                       reports?:
                         | {
                             reportImage?: (string | null) | Media;
@@ -1696,6 +1708,10 @@ export interface ContentPage {
              */
             tag?: string | null;
             /**
+             * HTML element for the tag
+             */
+            tagLevel?: ('h2' | 'h3' | 'h4' | 'span') | null;
+            /**
              * Wrap text in **double asterisks** to highlight. Example: Why You Should Run a **European VIN Check**
              */
             heading?: string | null;
@@ -2388,6 +2404,14 @@ export interface ContentPage {
                       blockType: 'comparison-table';
                     }
                   | {
+                      /**
+                       * HTML element for the year (e.g. 2006)
+                       */
+                      yearElement?: ('h2' | 'h3' | 'h4' | 'span') | null;
+                      /**
+                       * HTML element for the make + model (e.g. Toyota Corolla)
+                       */
+                      nameElement?: ('h2' | 'h3' | 'h4' | 'span') | null;
                       reports?:
                         | {
                             reportImage?: (string | null) | Media;
@@ -2962,6 +2986,7 @@ export interface PagesSelect<T extends boolean = true> {
               sectionId?: T;
               narrow?: T;
               tag?: T;
+              tagLevel?: T;
               heading?: T;
               headingLevel?: T;
               description?: T;
@@ -3199,6 +3224,8 @@ export interface PagesSelect<T extends boolean = true> {
                     'sample-report-grid'?:
                       | T
                       | {
+                          yearElement?: T;
+                          nameElement?: T;
                           reports?:
                             | T
                             | {
@@ -3524,6 +3551,7 @@ export interface ContentPagesSelect<T extends boolean = true> {
               sectionId?: T;
               narrow?: T;
               tag?: T;
+              tagLevel?: T;
               heading?: T;
               headingLevel?: T;
               description?: T;
@@ -3761,6 +3789,8 @@ export interface ContentPagesSelect<T extends boolean = true> {
                     'sample-report-grid'?:
                       | T
                       | {
+                          yearElement?: T;
+                          nameElement?: T;
                           reports?:
                             | T
                             | {
