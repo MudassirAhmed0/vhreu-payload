@@ -47,11 +47,7 @@ export const Pages: CollectionConfig = {
               type: 'blocks',
               localized: true,
               blocks: [PageHeroBlock, SectionBlock, CtaBannerBlock, ContactFormBlock, RefundFormBlock, LegalContentBlock],
-              admin: {
-                components: {
-                  RowLabel: '@/components/BlockRowLabel',
-                },
-              },
+              admin: {},
             },
           ],
         },

@@ -65,11 +65,7 @@ export const ContentPages: CollectionConfig = {
       type: 'blocks',
       localized: true,
       blocks: [PageHeroBlock, SectionBlock, CtaBannerBlock],
-      admin: {
-        components: {
-          RowLabel: '@/components/BlockRowLabel',
-        },
-      },
+      admin: {},
     },
   ],
 }
