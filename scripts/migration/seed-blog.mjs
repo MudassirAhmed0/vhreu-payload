@@ -7,7 +7,7 @@
  *   node scripts/seed-blog.mjs
  */
 
-const PAYLOAD_URL = process.env.PAYLOAD_URL || 'http://localhost:3001'
+const PAYLOAD_URL = process.env.PAYLOAD_URL || 'http://localhost:3030'
 const EMAIL = process.env.PAYLOAD_EMAIL || 'lame@lame.com'
 const PASSWORD = process.env.PAYLOAD_PASSWORD || 'lame@lame.com'
 

@@ -16,7 +16,7 @@ import { execSync } from 'child_process'
 import { existsSync, unlinkSync } from 'fs'
 import path from 'path'
 
-const PAYLOAD_URL = process.env.PAYLOAD_URL || 'http://localhost:3001'
+const PAYLOAD_URL = process.env.PAYLOAD_URL || 'http://localhost:3030'
 const EMAIL = 'lame@lame.com'
 const PASSWORD = 'lame@lame.com'
 const PAYLOAD_DIR = path.resolve(import.meta.dirname, '../..')

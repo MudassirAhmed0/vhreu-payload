@@ -5,6 +5,16 @@ export const FAQsBlock: Block = {
   labels: { singular: 'FAQs', plural: 'FAQs' },
   fields: [
     {
+      name: 'enableSchema',
+      type: 'checkbox',
+      label: 'Enable FAQ Schema',
+      defaultValue: true,
+      admin: {
+        position: 'sidebar',
+        description: 'Generate FAQPage structured data for SEO',
+      },
+    },
+    {
       name: 'questionElement',
       type: 'select',
       defaultValue: 'h3',

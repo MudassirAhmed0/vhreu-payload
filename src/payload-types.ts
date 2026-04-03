@@ -614,6 +614,10 @@ export interface Page {
                     }
                   | {
                       /**
+                       * Generate FAQPage structured data for SEO
+                       */
+                      enableSchema?: boolean | null;
+                      /**
                        * HTML element for each question
                        */
                       questionElement?: ('h3' | 'h4' | 'h5' | 'span') | null;
@@ -1937,6 +1941,10 @@ export interface ContentPage {
                     }
                   | {
                       /**
+                       * Generate FAQPage structured data for SEO
+                       */
+                      enableSchema?: boolean | null;
+                      /**
                        * HTML element for each question
                        */
                       questionElement?: ('h3' | 'h4' | 'h5' | 'span') | null;
@@ -3024,6 +3032,7 @@ export interface PagesSelect<T extends boolean = true> {
                     faqs?:
                       | T
                       | {
+                          enableSchema?: T;
                           questionElement?: T;
                           items?:
                             | T
@@ -3585,6 +3594,7 @@ export interface ContentPagesSelect<T extends boolean = true> {
                     faqs?:
                       | T
                       | {
+                          enableSchema?: T;
                           questionElement?: T;
                           items?:
                             | T
@@ -3953,6 +3963,17 @@ export interface SiteConfig {
         id?: string | null;
       }[]
     | null;
+  /**
+   * Login / Sign Up buttons in the header
+   */
+  headerCtas?:
+    | {
+        label: string;
+        href: string;
+        style?: ('link' | 'primary') | null;
+        id?: string | null;
+      }[]
+    | null;
   navLinks?:
     | {
         label: string;
@@ -4079,6 +4100,14 @@ export interface SiteConfigSelect<T extends boolean = true> {
     | {
         platform?: T;
         url?: T;
+        id?: T;
+      };
+  headerCtas?:
+    | T
+    | {
+        label?: T;
+        href?: T;
+        style?: T;
         id?: T;
       };
   navLinks?:

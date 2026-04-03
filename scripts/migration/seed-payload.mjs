@@ -10,14 +10,14 @@
  *   node scripts/seed-payload.mjs --page /contact-us     # one page
  *   node scripts/seed-payload.mjs --dry-run              # show what would be created
  *
- * Requires Payload running at localhost:3001
+ * Requires Payload running at localhost:3030
  */
 
 import { readFileSync } from 'fs'
 
 // ── config ──────────────────────────────────────────────────────────
 
-const PAYLOAD_URL = process.env.PAYLOAD_URL || 'http://localhost:3001'
+const PAYLOAD_URL = process.env.PAYLOAD_URL || 'http://localhost:3030'
 const EMAIL = process.env.PAYLOAD_EMAIL || 'lame@lame.com'
 const PASSWORD = process.env.PAYLOAD_PASSWORD || 'lame@lame.com'
 

@@ -37,6 +37,27 @@ export const SiteConfig: GlobalConfig = {
           label: 'Header',
           fields: [
             {
+              name: 'headerCtas',
+              type: 'array',
+              label: 'Header Buttons',
+              maxRows: 3,
+              admin: { description: 'Login / Sign Up buttons in the header' },
+              fields: [
+                { name: 'label', type: 'text', required: true, localized: true, admin: { width: '40%' } },
+                { name: 'href', type: 'text', required: true, admin: { width: '40%' } },
+                {
+                  name: 'style',
+                  type: 'select',
+                  defaultValue: 'link',
+                  options: [
+                    { label: 'Text Link', value: 'link' },
+                    { label: 'Primary Button', value: 'primary' },
+                  ],
+                  admin: { width: '20%' },
+                },
+              ],
+            },
+            {
               name: 'navLinks',
               type: 'array',
               fields: [

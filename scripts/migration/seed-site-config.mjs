@@ -3,7 +3,7 @@
  * Seed header nav + footer groups into SiteConfig global.
  */
 
-const PAYLOAD_URL = process.env.PAYLOAD_URL || 'http://localhost:3001'
+const PAYLOAD_URL = process.env.PAYLOAD_URL || 'http://localhost:3030'
 const EMAIL = 'lame@lame.com'
 const PASSWORD = 'lame@lame.com'
 

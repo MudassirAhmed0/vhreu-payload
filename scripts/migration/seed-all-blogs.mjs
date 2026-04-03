@@ -16,7 +16,7 @@ const __dirname = dirname(fileURLToPath(import.meta.url))
 const args = process.argv.slice(2)
 const skipExisting = args.includes('--skip-existing')
 
-const PAYLOAD_URL = process.env.PAYLOAD_URL || 'http://localhost:3001'
+const PAYLOAD_URL = process.env.PAYLOAD_URL || 'http://localhost:3030'
 
 const SLUGS = [
   'cheapest-electric-car-ireland',
